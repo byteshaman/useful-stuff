@@ -1,119 +1,183 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<title>Homepage</title>
 	<!-- LOADING CSS -->
-		<!-- BOOTSTRAP -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-		<!-- DATATABLES -->
-		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css"/>
-		<!-- PERSONAL STYLE -->
-		<link rel="stylesheet" type="text/css" href="css/mystyle.css" />
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<!-- DATATABLES -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" />
+	<!-- PERSONAL STYLE -->
+	<link rel="stylesheet" type="text/css" href="css/my-style.css" />
 
 	<!-- SCRIPTS -->
-		<!-- LOADING JQUERY -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<!-- LOADING POPPER -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-		<!-- LOADING BOOTSTRAP -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-		<!-- LOADING DATATABLES -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/jquery.dataTables.min.js"></script>
-
-	<script>
-		$(document).ready(function () {
-			$('[data-toggle="popover"]').popover({
-				placement: 'top',
-				trigger: 'hover'
-			});
-		});
-	</script>
+	<!-- LOADING JQUERY -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- LOADING POPPER -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<!-- LOADING BOOTSTRAP -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<!-- LOADING DATATABLES -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/jquery.dataTables.min.js"></script>
+	<!-- LOADING MY SCRIPTS -->
+	<script src="scripts/my-scripts.js"></script>
+	
 </head>
 
 <!-- data-spy="scroll": element that should be used as the scrollable area -->
 <!-- data-target: attribute with a value of the id or the class name of the navigation bar -->
 <!-- data-offset: (optional) attribute that specifies the number of pixels to offset from top when calculating the position of scroll -->
 <body data-spy="scroll" data-target="#side-navbar" data-offset="15" class="bg-secondary">
-	<div class="container-fluid">
-		<div class="row">
-			<nav id="side-navbar" class="navbar navbar-dark bg-dark col col-sm col-md col-lg col-xl">
-				<nav class="nav nav-pills flex-column">
-					<a class="nav-link" href="#webdev">Web Development</a>
-					<nav class="nav nav-pills flex-column">
-						<a class="nav-link ml-3" href="#webdev-html">HTML</a>
-						<a class="nav-link ml-3" href="#webdev-css">CSS</a>
-						<a class="nav-link ml-3" href="#webdev-js">JS</a>
-					</nav>
-					<a class="nav-link" href="#item-2">Item 2</a>
-					<a class="nav-link" href="#item-3">Item 3</a>
-					<nav class="nav nav-pills flex-column">
-						<a class="nav-link ml-3" href="#item-3-1">Item 3-1</a>
-						<a class="nav-link ml-3" href="#item-3-2">Item 3-2</a>
-					</nav>
-					
-				</nav>
+<div class="container-fluid">
+<div class="row">
+	<nav id="side-navbar" class="navbar navbar-dark bg-dark flex-fixed-width-item">
+		<nav class="nav nav-pills flex-column">
+			<a class="nav-link" href="#webdev">Web Development</a>
+			<nav class="nav nav-pills flex-column">
+				<a class="nav-link ml-3" href="#webdev-html">HTML</a>
+				<a class="nav-link ml-3" href="#webdev-css">CSS</a>
+				<a class="nav-link ml-3" href="#webdev-js">JavaScript</a>
+				<a class="nav-link ml-3" href="#webdev-misc">Miscellaneous</a>
 			</nav>
+			<a class="nav-link" href="#item-2">Item 2</a>
+			<a class="nav-link" href="#item-3">Item 3</a>
+			<nav class="nav nav-pills flex-column">
+				<a class="nav-link ml-3" href="#item-3-1">Item 3-1</a>
+				<a class="nav-link ml-3" href="#item-3-2">Item 3-2</a>
+			</nav>
+		</nav>
+	</nav>
 
-			<div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10">
-				<h2 id="webdev">Web Development</h2>
-				<h3 id="webdev-html">HTML links:</h3>
-				<h3 id="webdev-css">CSS links:</h3>
-				<ul>
-					<li class="en"><a href="https://www.w3.org/TR/selectors-3/#selectors" data-toggle="popover" data-content="Popup option trigger">CSS3 Selectors</a></li>
-				</ul>
+	<div class="col-3 col-sm-4 col-md-4 col-lg-9 col-xl-9" id="content">
+		<h2 id="webdev">Web Development</h2>
+		<!-- WEBDEV HTML -->
+		<h3 id="webdev-html">HTML links:</h3>
+		HTML tags: 
+		
+			<ul>
+				<li class="en">
+					<a href="https://www.w3schools.com/tags/" data-content="w3.org">List of HTML tags</a>
+					<a href="https://validator.w3.org/">W3 HTML validator</a>
+				</li>
+			</ul>
+		<!-- WEBDEV CSS -->
+		<h3 id="webdev-css">CSS links:</h3>
+		<ul>
+			<li class="en">
+				<a href="https://www.w3.org/TR/selectors-3/#selectors" data-content="w3.org">CSS3 Selectors</a>
+			</li>
+			<li class="en">
+				<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" data-content="css-tricks.com">Guide to flexbox</a>
+			</li>
+			<li class="en">
+				<a href="https://cssreference.io/" data-toggle="popover" data-content="cssreference.io">A visual guide to CSS</a>
+			</li>
+			<li class="en">
+				<!-- data-html to be able to use HTML tags inside content -->
+				<a href="https://medium.com/code-better/css-units-for-font-size-px-em-rem-79f7e592bb97" data-toggle="popover" data-html="true" data-content="PX: fixed size <br/>EM: 1em = font-size of parent <br/> REM 1rem = value of HTML root element">PX, EM and REM</a>
+			</li>
+
+		</ul>
+		<!-- WEBDEV JS -->
+		<h3 id="webdev-js">JavaScript:</h3>
+			<ul>
+				<li class="en">
+					<a href="https://api.jquery.com/">jQuery documentation</a>
+				</li>
+			</ul>
+		<!-- WEBDEV MISC -->
+		<h3 id="webdev-misc">Miscellaneous:</h3>
+			<ul>
+				<li class="en">
+					<a href="https://wave.webaim.org/" data-content="Web Accessibility Evaluation Tool">WAVE tool</a>
+					<a href="https://www.browserling.com/" data-content="browserling.com">Cross browser tester</a>
 					
-				</p>
-				<h4 id="item-2">Item 2</h4>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus velit lectus, placerat sed justo et, cursus ullamcorper nibh. Sed sagittis pellentesque aliquet. Donec nec nibh enim. Fusce luctus odio et pellentesque tempor. Phasellus hendrerit felis sem, non ornare nulla accumsan et. Nunc aliquet condimentum enim, sed porttitor mauris placerat at. Morbi id rhoncus risus, ut gravida mauris. Curabitur in diam convallis, tincidunt sapien dapibus, tincidunt dui.
+				</li>
+			</ul>
+		<h4 id="item-2">Item 2</h4>
+		<table class="table table-bordered table-dark table-striped">
+			<thead>
+				<tr>
+					<th class="text-center">FLEXBOX BEAKPOINTS</th>
+					<th class="text-center">
+						Extra small<br>
+						<small>&lt;576px</small>
+					</th>
+					<th class="text-center">
+						Small<br>
+						<small>≥576px</small>
+					</th>
+					<th class="text-center">
+						Medium<br>
+						<small>≥768px</small>
+					</th>
+					<th class="text-center">
+						Large<br>
+						<small>≥992px</small>
+					</th>
+					<th class="text-center">
+						Extra large<br>
+						<small>≥1200px</small>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th class="text-nowrap" scope="row">Max container width</th>
+					<td>None (auto)</td>
+					<td>540px</td>
+					<td>720px</td>
+					<td>960px</td>
+					<td>1140px</td>
+				</tr>
+				<tr>
+					<th class="text-nowrap" scope="row">Class prefix</th>
+					<td><code>.col-</code></td>
+					<td><code>.col-sm-</code></td>
+					<td><code>.col-md-</code></td>
+					<td><code>.col-lg-</code></td>
+					<td><code>.col-xl-</code></td>
+				</tr>
+				<tr>
+					<th class="text-nowrap" scope="row"># of columns</th>
+					<td colspan="5">12</td>
+				</tr>
+				<tr>
+					<th class="text-nowrap" scope="row">Gutter width</th>
+					<td colspan="5">30px (15px on each side of a column)</td>
+				</tr>
+				<tr>
+					<th class="text-nowrap" scope="row">Nestable</th>
+					<td colspan="5">Yes</td>
+				</tr>
+				<tr>
+					<th class="text-nowrap" scope="row">Column ordering</th>
+					<td colspan="5">Yes</td>
+				</tr>
+			</tbody>
+		</table>
+		<h4 id="item-3">Item 3</h4>
+		<p>
 
-					Morbi quis metus vel dolor blandit vulputate. Nulla facilisi. Ut porttitor nulla vel dapibus rutrum. Curabitur vulputate, ipsum sit amet laoreet tempor, mauris mi faucibus sapien, in mattis arcu orci id lorem. Pellentesque fringilla massa et justo rutrum, ultrices finibus metus tempus. Curabitur efficitur risus id ipsum condimentum bibendum. Ut condimentum leo nec metus laoreet, eget imperdiet orci lobortis. Praesent semper ipsum nec erat feugiat, nec ultricies elit fermentum. Aenean a lacus nec ligula rhoncus ullamcorper.
+		</p>
+		<h5 id="item-3-1">Item 3-1</h5>
+		<p>
 
-					Pellentesque feugiat dapibus neque ut ornare. Aenean tortor tortor, faucibus non commodo non, imperdiet pharetra eros. Maecenas egestas venenatis tellus, vitae ultricies sem accumsan id. Nunc luctus sodales ipsum, eget gravida felis venenatis non. Suspendisse auctor, purus eget imperdiet congue, felis quam fermentum velit, vitae faucibus velit felis vel ante. Sed sagittis facilisis felis sed sagittis. Quisque efficitur non tortor vel molestie. Suspendisse risus turpis, dictum dignissim tincidunt eu, pharetra nec enim.
+		</p>
+		<h5 id="item-3-2">Item 3-2</h5>
+		<p>
 
-					Donec sed dui nec eros malesuada congue at sed metus. Morbi libero ante, aliquet scelerisque semper eget, tincidunt non nulla. Sed tincidunt massa eu accumsan volutpat. Fusce eu sollicitudin mauris, in maximus lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur turpis tortor, euismod sed lacus vitae, venenatis elementum lacus. In condimentum, magna sed vestibulum consectetur, leo augue imperdiet tortor, sed interdum ligula neque non dolor. Etiam vel aliquet ipsum. Aenean bibendum ut tellus vitae bibendum. Suspendisse convallis nulla ac nunc gravida, vitae finibus mauris dictum. Suspendisse ultricies luctus mattis. Vivamus aliquam sed nulla sed posuere. Ut tempor, arcu eu bibendum imperdiet, dolor lectus viverra felis, vitae tincidunt enim neque auctor metus. Aenean convallis nisl a sem bibendum, sit amet pharetra dui auctor. Aliquam semper ullamcorper ultricies. Suspendisse ut ante interdum, luctus ligula a, suscipit erat.
-
-					Sed vel lobortis enim. Quisque quis malesuada ligula. Proin in elementum metus, vitae viverra dui. Vestibulum varius sodales magna, eget vulputate magna. Integer in tortor aliquet, congue ligula at, congue purus. Morbi at mollis nisi, at rutrum ipsum. Maecenas vitae lorem magna. Maecenas sem nulla, tincidunt ac sem ut, gravida sollicitudin velit.
-				</p>
-				<h4 id="item-3">Item 3</h4>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus velit lectus, placerat sed justo et, cursus ullamcorper nibh. Sed sagittis pellentesque aliquet. Donec nec nibh enim. Fusce luctus odio et pellentesque tempor. Phasellus hendrerit felis sem, non ornare nulla accumsan et. Nunc aliquet condimentum enim, sed porttitor mauris placerat at. Morbi id rhoncus risus, ut gravida mauris. Curabitur in diam convallis, tincidunt sapien dapibus, tincidunt dui.
-
-					Morbi quis metus vel dolor blandit vulputate. Nulla facilisi. Ut porttitor nulla vel dapibus rutrum. Curabitur vulputate, ipsum sit amet laoreet tempor, mauris mi faucibus sapien, in mattis arcu orci id lorem. Pellentesque fringilla massa et justo rutrum, ultrices finibus metus tempus. Curabitur efficitur risus id ipsum condimentum bibendum. Ut condimentum leo nec metus laoreet, eget imperdiet orci lobortis. Praesent semper ipsum nec erat feugiat, nec ultricies elit fermentum. Aenean a lacus nec ligula rhoncus ullamcorper.
-
-					Pellentesque feugiat dapibus neque ut ornare. Aenean tortor tortor, faucibus non commodo non, imperdiet pharetra eros. Maecenas egestas venenatis tellus, vitae ultricies sem accumsan id. Nunc luctus sodales ipsum, eget gravida felis venenatis non. Suspendisse auctor, purus eget imperdiet congue, felis quam fermentum velit, vitae faucibus velit felis vel ante. Sed sagittis facilisis felis sed sagittis. Quisque efficitur non tortor vel molestie. Suspendisse risus turpis, dictum dignissim tincidunt eu, pharetra nec enim.
-
-					Donec sed dui nec eros malesuada congue at sed metus. Morbi libero ante, aliquet scelerisque semper eget, tincidunt non nulla. Sed tincidunt massa eu accumsan volutpat. Fusce eu sollicitudin mauris, in maximus lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur turpis tortor, euismod sed lacus vitae, venenatis elementum lacus. In condimentum, magna sed vestibulum consectetur, leo augue imperdiet tortor, sed interdum ligula neque non dolor. Etiam vel aliquet ipsum. Aenean bibendum ut tellus vitae bibendum. Suspendisse convallis nulla ac nunc gravida, vitae finibus mauris dictum. Suspendisse ultricies luctus mattis. Vivamus aliquam sed nulla sed posuere. Ut tempor, arcu eu bibendum imperdiet, dolor lectus viverra felis, vitae tincidunt enim neque auctor metus. Aenean convallis nisl a sem bibendum, sit amet pharetra dui auctor. Aliquam semper ullamcorper ultricies. Suspendisse ut ante interdum, luctus ligula a, suscipit erat.
-
-					Sed vel lobortis enim. Quisque quis malesuada ligula. Proin in elementum metus, vitae viverra dui. Vestibulum varius sodales magna, eget vulputate magna. Integer in tortor aliquet, congue ligula at, congue purus. Morbi at mollis nisi, at rutrum ipsum. Maecenas vitae lorem magna. Maecenas sem nulla, tincidunt ac sem ut, gravida sollicitudin velit.
-				</p>
-				<h5 id="item-3-1">Item 3-1</h5>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus velit lectus, placerat sed justo et, cursus ullamcorper nibh. Sed sagittis pellentesque aliquet. Donec nec nibh enim. Fusce luctus odio et pellentesque tempor. Phasellus hendrerit felis sem, non ornare nulla accumsan et. Nunc aliquet condimentum enim, sed porttitor mauris placerat at. Morbi id rhoncus risus, ut gravida mauris. Curabitur in diam convallis, tincidunt sapien dapibus, tincidunt dui.
-
-					Morbi quis metus vel dolor blandit vulputate. Nulla facilisi. Ut porttitor nulla vel dapibus rutrum. Curabitur vulputate, ipsum sit amet laoreet tempor, mauris mi faucibus sapien, in mattis arcu orci id lorem. Pellentesque fringilla massa et justo rutrum, ultrices finibus metus tempus. Curabitur efficitur risus id ipsum condimentum bibendum. Ut condimentum leo nec metus laoreet, eget imperdiet orci lobortis. Praesent semper ipsum nec erat feugiat, nec ultricies elit fermentum. Aenean a lacus nec ligula rhoncus ullamcorper.
-
-					Pellentesque feugiat dapibus neque ut ornare. Aenean tortor tortor, faucibus non commodo non, imperdiet pharetra eros. Maecenas egestas venenatis tellus, vitae ultricies sem accumsan id. Nunc luctus sodales ipsum, eget gravida felis venenatis non. Suspendisse auctor, purus eget imperdiet congue, felis quam fermentum velit, vitae faucibus velit felis vel ante. Sed sagittis facilisis felis sed sagittis. Quisque efficitur non tortor vel molestie. Suspendisse risus turpis, dictum dignissim tincidunt eu, pharetra nec enim.
-
-					Donec sed dui nec eros malesuada congue at sed metus. Morbi libero ante, aliquet scelerisque semper eget, tincidunt non nulla. Sed tincidunt massa eu accumsan volutpat. Fusce eu sollicitudin mauris, in maximus lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur turpis tortor, euismod sed lacus vitae, venenatis elementum lacus. In condimentum, magna sed vestibulum consectetur, leo augue imperdiet tortor, sed interdum ligula neque non dolor. Etiam vel aliquet ipsum. Aenean bibendum ut tellus vitae bibendum. Suspendisse convallis nulla ac nunc gravida, vitae finibus mauris dictum. Suspendisse ultricies luctus mattis. Vivamus aliquam sed nulla sed posuere. Ut tempor, arcu eu bibendum imperdiet, dolor lectus viverra felis, vitae tincidunt enim neque auctor metus. Aenean convallis nisl a sem bibendum, sit amet pharetra dui auctor. Aliquam semper ullamcorper ultricies. Suspendisse ut ante interdum, luctus ligula a, suscipit erat.
-
-					Sed vel lobortis enim. Quisque quis malesuada ligula. Proin in elementum metus, vitae viverra dui. Vestibulum varius sodales magna, eget vulputate magna. Integer in tortor aliquet, congue ligula at, congue purus. Morbi at mollis nisi, at rutrum ipsum. Maecenas vitae lorem magna. Maecenas sem nulla, tincidunt ac sem ut, gravida sollicitudin velit.
-				</p>
-				<h5 id="item-3-2">Item 3-2</h5>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus velit lectus, placerat sed justo et, cursus ullamcorper nibh. Sed sagittis pellentesque aliquet. Donec nec nibh enim. Fusce luctus odio et pellentesque tempor. Phasellus hendrerit felis sem, non ornare nulla accumsan et. Nunc aliquet condimentum enim, sed porttitor mauris placerat at. Morbi id rhoncus risus, ut gravida mauris. Curabitur in diam convallis, tincidunt sapien dapibus, tincidunt dui.
-
-					Morbi quis metus vel dolor blandit vulputate. Nulla facilisi. Ut porttitor nulla vel dapibus rutrum. Curabitur vulputate, ipsum sit amet laoreet tempor, mauris mi faucibus sapien, in mattis arcu orci id lorem. Pellentesque fringilla massa et justo rutrum, ultrices finibus metus tempus. Curabitur efficitur risus id ipsum condimentum bibendum. Ut condimentum leo nec metus laoreet, eget imperdiet orci lobortis. Praesent semper ipsum nec erat feugiat, nec ultricies elit fermentum. Aenean a lacus nec ligula rhoncus ullamcorper.
-
-					Pellentesque feugiat dapibus neque ut ornare. Aenean tortor tortor, faucibus non commodo non, imperdiet pharetra eros. Maecenas egestas venenatis tellus, vitae ultricies sem accumsan id. Nunc luctus sodales ipsum, eget gravida felis venenatis non. Suspendisse auctor, purus eget imperdiet congue, felis quam fermentum velit, vitae faucibus velit felis vel ante. Sed sagittis facilisis felis sed sagittis. Quisque efficitur non tortor vel molestie. Suspendisse risus turpis, dictum dignissim tincidunt eu, pharetra nec enim.
-
-					Donec sed dui nec eros malesuada congue at sed metus. Morbi libero ante, aliquet scelerisque semper eget, tincidunt non nulla. Sed tincidunt massa eu accumsan volutpat. Fusce eu sollicitudin mauris, in maximus lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur turpis tortor, euismod sed lacus vitae, venenatis elementum lacus. In condimentum, magna sed vestibulum consectetur, leo augue imperdiet tortor, sed interdum ligula neque non dolor. Etiam vel aliquet ipsum. Aenean bibendum ut tellus vitae bibendum. Suspendisse convallis nulla ac nunc gravida, vitae finibus mauris dictum. Suspendisse ultricies luctus mattis. Vivamus aliquam sed nulla sed posuere. Ut tempor, arcu eu bibendum imperdiet, dolor lectus viverra felis, vitae tincidunt enim neque auctor metus. Aenean convallis nisl a sem bibendum, sit amet pharetra dui auctor. Aliquam semper ullamcorper ultricies. Suspendisse ut ante interdum, luctus ligula a, suscipit erat.
-
-					Sed vel lobortis enim. Quisque quis malesuada ligula. Proin in elementum metus, vitae viverra dui. Vestibulum varius sodales magna, eget vulputate magna. Integer in tortor aliquet, congue ligula at, congue purus. Morbi at mollis nisi, at rutrum ipsum. Maecenas vitae lorem magna. Maecenas sem nulla, tincidunt ac sem ut, gravida sollicitudin velit.
-				</p>
-			</div>
-		</div>
+		</p>
 	</div>
+</div>
+</div>
+	
+<div class="container-fluid" id="secondDiv">
+	<div class="row d-flex">
+			
+	</div>
+</div>
+
 </body>
 
 </html>
