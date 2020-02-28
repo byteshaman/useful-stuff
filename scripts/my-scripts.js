@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
 	$('li a').attr({
-		data-toggle: 'popover',
+		'data-toggle': 'popover',
 		target: '_blank'
 	});
 
