@@ -1,0 +1,64 @@
+/*To make navbar stay fixed on top*/
+#side-navbar > .nav {
+	top: 10px;
+	left: 5px;
+	position: fixed;
+}
+
+
+/*Active nav link bg-color*/
+.nav-pills .nav-link.active {
+	background-color: black;
+}
+
+body, .nav-link, .nav-link:hover, li a {
+	color: black;
+}
+
+h2, h3 {
+	margin-top: 15px;
+}
+
+li {
+	list-style: none;
+	margin-left: -20px;
+	padding-left: 25px;
+}
+
+li.en {
+	background: url(../imgs/uk-flag.png) left no-repeat;
+}
+
+li.it {
+	background: url(../imgs/it-flag.png) left center no-repeat;
+}
+
+/*To make the popover content not go in a new line after few words*/
+.popover {
+	max-width: 100%;
+}	
+
+/*flex: flex-grow flex-shrink flex-basis
+		* flex-grow/shrink:	a number specifying how much the item will grow/shrink relative to the rest of the flexible items
+		* flex-basis	a number specifying the length of the item
+*/
+.flex-fixed-width-item {
+    flex-basis: 200px;
+}
+
+#aside-navbar {
+	padding: 5px;
+	border: 2px solid white;
+}
+
+div.row > div {
+	padding: 5px;
+	border: 2px solid green;
+}
+
+
+#secondDiv {
+	padding: 5px;
+	border: 2px solid yellow;
+	height: 150px;
+}
