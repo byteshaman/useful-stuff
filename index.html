@@ -9,6 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" />
 	<!-- PERSONAL STYLE -->
 	<link rel="stylesheet" type="text/css" href="css/my-style.css" />
+	<!-- TEST STYLE -->
+	<link rel="stylesheet" type="text/css" href="css/test-style.css" />
 
 	<!-- SCRIPTS -->
 	<!-- LOADING JQUERY -->
@@ -21,22 +23,28 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/jquery.dataTables.min.js"></script>
 	<!-- LOADING MY SCRIPTS -->
 	<script src="scripts/my-scripts.js"></script>
-	
+	<style>
+		#sidebar {
+		}
+	</style>
+
 </head>
 
 <!-- data-spy="scroll": element that should be used as the scrollable area -->
 <!-- data-target: attribute with a value of the id or the class name of the navigation bar -->
 <!-- data-offset: (optional) attribute that specifies the number of pixels to offset from top when calculating the position of scroll -->
-<body data-spy="scroll" data-target="#side-navbar" data-offset="15" class="bg-secondary">
+<body data-spy="scroll" data-target="#sidebar" data-offset="15" class="bg-secondary">
+
 <div class="container-fluid">
 <div class="row">
-	<nav id="side-navbar" class="navbar navbar-dark bg-dark flex-fixed-width-item">
+	<nav id="sidebar" class="navbar navbar-dark bg-dark">
 		<nav class="nav nav-pills flex-column">
 			<a class="nav-link" href="#webdev">Web Development</a>
 			<nav class="nav nav-pills flex-column">
 				<a class="nav-link ml-3" href="#webdev-html">HTML</a>
 				<a class="nav-link ml-3" href="#webdev-css">CSS</a>
 				<a class="nav-link ml-3" href="#webdev-js">JavaScript</a>
+				<a class="nav-link ml-3" href="#webdev-bs">Bootstrap</a>
 				<a class="nav-link ml-3" href="#webdev-misc">Miscellaneous</a>
 			</nav>
 			<a class="nav-link" href="#sql">SQL</a>
@@ -44,9 +52,8 @@
 		</nav>
 	</nav>
 
-	<div class="col-3 col-sm-4 col-md-4 col-lg-9 col-xl-9" id="content">
-
-		<h2 id="webdev">Web Development</h2>
+	<div id="content" class="col-7 col-sm-7 col-md-8 col-lg-9 col-xl-9">
+		<h2 id="webdev" class="mt-0">Web Development</h2>
 		<!-- WEBDEV HTML -->
 		<h3 id="webdev-html">HTML links:</h3>
 		<ul>
@@ -65,7 +72,7 @@
 			<li class="en">
 				<a href="https://internetingishard.com/" data-content="Good website with awesome diagrams">HTML 	&amp; CSS guide</a>
 			</li>
-			
+
 		</ul>
 		<!-- WEBDEV CSS -->
 		<h3 id="webdev-css">CSS links:</h3>
@@ -77,12 +84,16 @@
 				<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Guide to flexbox</a>
 			</li>
 			<li class="en">
+				<a href="https://blog.froont.com/positioning-in-web-design/">Positioning explained with GIFs</a>
+			</li>
+
+			<li class="en">
 				<a href="https://cssreference.io/" data-content="cssreference.io">A visual guide to CSS</a>
 			</li>
 			<li class="en">
 				<a href="https://www.w3schools.com/cssref/">List of CSS properties</a>
 			</li>
-			
+
 			<li class="en">
 				<a href="https://daneden.github.io/animate.css/">CSS Animate</a>
 			</li>
@@ -92,6 +103,7 @@
 			</li>
 		</ul>
 		<!-- WEBDEV JS -->
+
 		<h3 id="webdev-js">JavaScript:</h3>
 		<ul>
 			<li class="en">
@@ -104,6 +116,129 @@
 				<a href="https://www.w3schools.com/jsref/jsref_reference.asp">JS reference in alphabetical order</a>
 			</li>
 		</ul>
+		<!-- WEBDEV BS -->
+		<h3 id="webdev-bs">Bootstrap:</h3>
+
+		<ul>
+			<li class="it">
+				<a href="https://italia.github.io/bootstrap-italia/docs/come-iniziare/introduzione/">Documentazione Bootstrap in italiano</a>
+			</li>
+			<li class="en">
+				<a href="https://www.w3schools.com/bootstrap4/default.asp" data-content="bootstrapcreative.com">Documentazione Bootstrap</a>
+			</li>
+			<li class="en">
+				<a href="https://hackerthemes.com/bootstrap-cheatsheet/" data-content="bootstrapcreative.com">Bootstrap interactive cheatsheet</a>
+			</li>
+			<li class="en">
+				<a href="https://bootstrapcreative.com/resources/bootstrap-4-css-classes-index/" data-content="bootstrapcreative.com">Bootstrap classes index</a>
+			</li>
+		</ul>
+
+
+
+		<h4>Boostrap breakpoints (hilight current BP):</h4>
+
+		<table class="table table-dark table-bordered table-hover table-striped">
+			<thead>
+				<tr>
+					<th></th>
+					<th class="text-center">
+						<span class="col d-none d-sm-block">
+							<small>0px &ge;</small>
+							XS
+							<small>&lt; 576px</small>
+						</span>
+						<span class="col bg-secondary d-block d-sm-none">
+							<small>0px &gt;</small>
+							XS
+							<small>&lt; 576px</small>
+						</span>
+					</th>
+					<th class="text-center">
+						<span class="col d-block d-sm-none d-md-block">
+							<small>576px &ge;</small>
+							S
+							<small>&lt; 768px</small>
+						</span>
+						<span class="col bg-secondary d-none d-sm-block d-md-none">
+							<small>576px &ge;</small>
+							S
+							<small>&lt; 768px</small>
+						</span>
+						
+					</th>
+					<th class="text-center">
+						<span class="col d-block d-sm-block d-md-none d-lg-block">
+							<small>768px &ge;</small>
+							M
+							<small>&lt; 992px</small>
+						</span>
+						<span class="col bg-secondary d-none d-sm-none d-md-block d-lg-none">
+							<small>768px &ge;</small>
+							M
+							<small>&lt; 992px</small>
+						</span>
+					</th>
+					<th class="text-center">
+						<span class="col d-block d-sm-block d-md-block d-lg-none d-xl-block">
+							<small>992px &ge;</small>
+							L
+							<small>&lt; 1200px</small>
+						</span>
+						<span class="col bg-secondary d-none d-sm-none d-md-none d-lg-block d-xl-none">
+							<small>992px &ge;</small>
+							L
+							<small>&lt; 1200px</small>
+						</span>
+					</th>
+					<th class="text-center">
+						<span class="col d-block d-xl-none">
+							<small>1200px &ge;</small>
+							XL
+						</span>
+						<span class="col bg-secondary d-none d-xl-block">
+							<small>1200px &ge;</small>
+							XL
+						</span>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th class="text-nowrap" scope="row">Max container width</th>
+					<td>None (auto)</td>
+					<td>540px</td>
+					<td>720px</td>
+					<td>960px</td>
+					<td>1140px</td>
+				</tr>
+				<tr>
+					<th class="text-nowrap" scope="row">Class prefix</th>
+					<td>.col-*</td>
+					<td>.col-sm-*</td>
+					<td>.col-md-*</td>
+					<td>.col-lg-*</td>
+					<td>.col-xl-*</td>
+				</tr>
+				<tr>
+					<th class="text-nowrap" scope="row"># of columns</th>
+					<td colspan="5">12</td>
+				</tr>
+				<tr>
+					<th class="text-nowrap" scope="row">Gutter width</th>
+					<td colspan="5">30px (15px on each side of a column)</td>
+				</tr>
+				<tr>
+					<th class="text-nowrap" scope="row">Nestable</th>
+					<td colspan="5">Yes</td>
+				</tr>
+				<tr>
+					<th class="text-nowrap" scope="row">Column ordering</th>
+					<td colspan="5">Yes</td>
+				</tr>
+			</tbody>
+		</table>
+
 		<!-- WEBDEV MISC -->
 		<h3 id="webdev-misc">Miscellaneous:</h3>
 		<ul>
@@ -128,9 +263,9 @@
 			<li class="en">
 				<a href="https://www.websitedimensions.com/">Best practices for websites dimension</a>
 			</li>
-			
 		</ul>
 
+		<hr class="my-3" />
 
 		<h2 id="sql">SQL</h2>
 		<ul>
@@ -145,67 +280,6 @@
 			</li>
 		</ul>
 
-		<table class="table table-bordered table-dark table-striped">
-			<thead>
-				<tr>
-					<th class="text-center">FLEXBOX BEAKPOINTS</th>
-					<th class="text-center">
-						Extra small<br>
-						<small>&lt;576px</small>
-					</th>
-					<th class="text-center">
-						Small<br>
-						<small>≥576px</small>
-					</th>
-					<th class="text-center">
-						Medium<br>
-						<small>≥768px</small>
-					</th>
-					<th class="text-center">
-						Large<br>
-						<small>≥992px</small>
-					</th>
-					<th class="text-center">
-						Extra large<br>
-						<small>≥1200px</small>
-					</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<th class="text-nowrap" scope="row">Max container width</th>
-					<td>None (auto)</td>
-					<td>540px</td>
-					<td>720px</td>
-					<td>960px</td>
-					<td>1140px</td>
-				</tr>
-				<tr>
-					<th class="text-nowrap" scope="row">Class prefix</th>
-					<td><code>.col-</code></td>
-					<td><code>.col-sm-</code></td>
-					<td><code>.col-md-</code></td>
-					<td><code>.col-lg-</code></td>
-					<td><code>.col-xl-</code></td>
-				</tr>
-				<tr>
-					<th class="text-nowrap" scope="row"># of columns</th>
-					<td colspan="5">12</td>
-				</tr>
-				<tr>
-					<th class="text-nowrap" scope="row">Gutter width</th>
-					<td colspan="5">30px (15px on each side of a column)</td>
-				</tr>
-				<tr>
-					<th class="text-nowrap" scope="row">Nestable</th>
-					<td colspan="5">Yes</td>
-				</tr>
-				<tr>
-					<th class="text-nowrap" scope="row">Column ordering</th>
-					<td colspan="5">Yes</td>
-				</tr>
-			</tbody>
-		</table>
 	</div> <!-- content div -->
 </div> <!-- row div -->
 </div> <!-- container div -->
