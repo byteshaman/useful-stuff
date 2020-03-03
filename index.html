@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-	<title>Homepage</title>
+	<title>Useful links for devs</title>
 	<!-- LOADING CSS -->
 	<!-- BOOTSTRAP -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -9,8 +9,6 @@
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" />
 	<!-- PERSONAL STYLE -->
 	<link rel="stylesheet" type="text/css" href="css/my-style.css" />
-	<!-- TEST STYLE -->
-	<link rel="stylesheet" type="text/css" href="css/test-style.css" />
 
 	<!-- SCRIPTS -->
 	<!-- LOADING JQUERY -->
@@ -37,8 +35,13 @@
 
 <div class="container-fluid">
 <div class="row">
-	<nav id="sidebar" class="navbar navbar-dark bg-dark">
+	<nav id="sidebar" class="navbar navbar-dark bg-dark p-1">
 		<nav class="nav nav-pills flex-column">
+			<a class="nav-link" href="#useful">Useful links</a>
+			<nav class="nav nav-pills flex-column">
+				<a class="nav-link ml-3" href="#useful-web-tools">Websites &amp; Tools</a>
+				<a class="nav-link ml-3" href="#useful-tut-gui">Tutorials &amp; Guides</a>
+			</nav>
 			<a class="nav-link" href="#webdev">Web Development</a>
 			<nav class="nav nav-pills flex-column">
 				<a class="nav-link ml-3" href="#webdev-html">HTML</a>
@@ -53,234 +56,372 @@
 	</nav>
 
 	<div id="content" class="col-7 col-sm-7 col-md-8 col-lg-9 col-xl-9">
-		<h2 id="webdev" class="mt-0">Web Development</h2>
-		<!-- WEBDEV HTML -->
-		<h3 id="webdev-html">HTML links:</h3>
+
+		<h2 id="useful">Useful links</h2>
+
+		<!-- WEBSITES & TOOLS -->
+
+		<h3 id="useful-web-tools">Websites &amp; Tools</h3>
 		<ul>
 			<li class="en">
-				<a href="https://www.w3schools.com/tags/">List of HTML tags</a>
+				<a href="https://github.com/sindresorhus/awesome#contents" data-content="Comprehensive list of useful websites">Awesome lists</a>
 			</li>
 			<li class="en">
-				<a href="https://www.w3schools.com/TAgs/ref_standardattributes.asp">HTML global attributes</a>
+				<a href="https://www.freecodecamp.org/" data-content="Learn to code online and get certifications">FreeCodeCamp</a>
 			</li>
 			<li class="en">
-				<a href="https://validator.w3.org/">HTML validator</a>
+				<a href="https://www.codewars.com/" data-content="Test your coding skills by doing code challenges">CodeWars</a>
 			</li>
 			<li class="en">
-				<a href="https://www.freeformatter.com/html-entities.html" data-content="freeformatter.com">List of HTML entities</a>
+				<a href="https://toggl.com/">Toggl (time tracker)</a>
 			</li>
 			<li class="en">
-				<a href="https://internetingishard.com/" data-content="Good website with awesome diagrams">HTML 	&amp; CSS guide</a>
-			</li>
-
-		</ul>
-		<!-- WEBDEV CSS -->
-		<h3 id="webdev-css">CSS links:</h3>
-		<ul>
-			<li class="en">
-				<a href="https://www.w3.org/TR/selectors-3/#selectors">CSS3 Selectors</a>
+				<a href="https://code.labstack.com/">Labstack: multi-language programming playground</a>
 			</li>
 			<li class="en">
-				<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Guide to flexbox</a>
+				<a href="https://stackoverflow.com/">Stack Overflow</a>
 			</li>
 			<li class="en">
-				<a href="https://blog.froont.com/positioning-in-web-design/">Positioning explained with GIFs</a>
-			</li>
-
-			<li class="en">
-				<a href="https://cssreference.io/" data-content="cssreference.io">A visual guide to CSS</a>
-			</li>
-			<li class="en">
-				<a href="https://www.w3schools.com/cssref/">List of CSS properties</a>
-			</li>
-
-			<li class="en">
-				<a href="https://daneden.github.io/animate.css/">CSS Animate</a>
-			</li>
-			<li class="en">
-				<!-- data-html to be able to use HTML tags inside content -->
-				<a href="https://medium.com/code-better/css-units-for-font-size-px-em-rem-79f7e592bb97" data-html="true" data-content="PX: fixed size <br/>EM: 1em = font-size of parent <br/> REM 1rem = value of HTML root element" target="_blank">PX, EM and REM</a>
+				<a href="https://www.reddit.com/r/learnprogramming/">r/learnprogramming</a>
 			</li>
 		</ul>
-		<!-- WEBDEV JS -->
 
-		<h3 id="webdev-js">JavaScript:</h3>
+		<!-- TUTORIALS & GUIDES -->
+
+		<h3 id="useful-tut-gui">Tutorials &amp; Guides</h3>
+		<h4 class="ml-3">Bootstrap</h4>
 		<ul>
-			<li class="en">
-				<a href="https://api.jquery.com/">jQuery documentation</a>
-			</li>
-			<li class="en">
-				<a href="https://css-tricks.com/snippets/jquery/make-an-jquery-hasattr/">Emulate hasAttribute() in jQuery</a>
-			</li>
-			<li class="en">
-				<a href="https://www.w3schools.com/jsref/jsref_reference.asp">JS reference in alphabetical order</a>
+			<li class="en multi">
+				<a href="https://www.w3schools.com/bootstrap4/default.asp"></a>
+				<br />
+				<a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/"></a>
+
 			</li>
 		</ul>
-		<!-- WEBDEV BS -->
-		<h3 id="webdev-bs">Bootstrap:</h3>
 
+		<h4 class="ml-3">HTML, CSS</h4>
 		<ul>
+			<li class="en">
+				<a href="https://internetingishard.com/">Web Development tutorials for beginners</a>
+			</li>
+			<li class="en">
+				<a href="https://learn.shayhowe.com/">Begginners and advanced HTML/CSS tutorials</a>
+			</li>
 			<li class="it">
-				<a href="https://italia.github.io/bootstrap-italia/docs/come-iniziare/introduzione/">Documentazione Bootstrap in italiano</a>
+				<a href="https://www.html.it/guide/guida-html/">Guida HTML</a> (<a href="https://www.html.it/guide/guida-html5/">HTML5</a>)
 			</li>
 			<li class="en">
-				<a href="https://www.w3schools.com/bootstrap4/default.asp" data-content="bootstrapcreative.com">Documentazione Bootstrap</a>
+				<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS flexbox guide</a>
 			</li>
 			<li class="en">
-				<a href="https://hackerthemes.com/bootstrap-cheatsheet/" data-content="bootstrapcreative.com">Bootstrap interactive cheatsheet</a>
-			</li>
-			<li class="en">
-				<a href="https://bootstrapcreative.com/resources/bootstrap-4-css-classes-index/" data-content="bootstrapcreative.com">Bootstrap classes index</a>
+				<a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS grid guide</a>
 			</li>
 		</ul>
 
-
-
-		<h4>Boostrap breakpoints (hilight current BP):</h4>
-
-		<table class="table table-dark table-bordered table-hover table-striped">
-			<thead>
-				<tr>
-					<th></th>
-					<th class="text-center">
-						<span class="col d-none d-sm-block">
-							<small>0px &ge;</small>
-							XS
-							<small>&lt; 576px</small>
-						</span>
-						<span class="col bg-secondary d-block d-sm-none">
-							<small>0px &gt;</small>
-							XS
-							<small>&lt; 576px</small>
-						</span>
-					</th>
-					<th class="text-center">
-						<span class="col d-block d-sm-none d-md-block">
-							<small>576px &ge;</small>
-							S
-							<small>&lt; 768px</small>
-						</span>
-						<span class="col bg-secondary d-none d-sm-block d-md-none">
-							<small>576px &ge;</small>
-							S
-							<small>&lt; 768px</small>
-						</span>
-						
-					</th>
-					<th class="text-center">
-						<span class="col d-block d-sm-block d-md-none d-lg-block">
-							<small>768px &ge;</small>
-							M
-							<small>&lt; 992px</small>
-						</span>
-						<span class="col bg-secondary d-none d-sm-none d-md-block d-lg-none">
-							<small>768px &ge;</small>
-							M
-							<small>&lt; 992px</small>
-						</span>
-					</th>
-					<th class="text-center">
-						<span class="col d-block d-sm-block d-md-block d-lg-none d-xl-block">
-							<small>992px &ge;</small>
-							L
-							<small>&lt; 1200px</small>
-						</span>
-						<span class="col bg-secondary d-none d-sm-none d-md-none d-lg-block d-xl-none">
-							<small>992px &ge;</small>
-							L
-							<small>&lt; 1200px</small>
-						</span>
-					</th>
-					<th class="text-center">
-						<span class="col d-block d-xl-none">
-							<small>1200px &ge;</small>
-							XL
-						</span>
-						<span class="col bg-secondary d-none d-xl-block">
-							<small>1200px &ge;</small>
-							XL
-						</span>
-					</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<th class="text-nowrap" scope="row">Max container width</th>
-					<td>None (auto)</td>
-					<td>540px</td>
-					<td>720px</td>
-					<td>960px</td>
-					<td>1140px</td>
-				</tr>
-				<tr>
-					<th class="text-nowrap" scope="row">Class prefix</th>
-					<td>.col-*</td>
-					<td>.col-sm-*</td>
-					<td>.col-md-*</td>
-					<td>.col-lg-*</td>
-					<td>.col-xl-*</td>
-				</tr>
-				<tr>
-					<th class="text-nowrap" scope="row"># of columns</th>
-					<td colspan="5">12</td>
-				</tr>
-				<tr>
-					<th class="text-nowrap" scope="row">Gutter width</th>
-					<td colspan="5">30px (15px on each side of a column)</td>
-				</tr>
-				<tr>
-					<th class="text-nowrap" scope="row">Nestable</th>
-					<td colspan="5">Yes</td>
-				</tr>
-				<tr>
-					<th class="text-nowrap" scope="row">Column ordering</th>
-					<td colspan="5">Yes</td>
-				</tr>
-			</tbody>
-		</table>
-
-		<!-- WEBDEV MISC -->
-		<h3 id="webdev-misc">Miscellaneous:</h3>
+		<h4 class="ml-3">SQL</h4>
 		<ul>
 			<li class="en">
-				<a href="https://wave.webaim.org/" data-content="Web Accessibility Evaluation Tool">WAVE tool</a>
+				<a href="https://sqlbolt.com/">Interactive SQL tutorial</a>
 			</li>
 			<li class="en">
-				<a href="https://webaim.org/resources/contrastchecker/" data-content="webaim.com">Contrast validator</a>
-			</li>
-			<li class="en">
-				<a href="https://www.browserling.com/" data-content="browserling.com">Cross browser tester</a>
-			</li>
-			<li class="en">
-				<a href="https://www.w3schools.com/colors/colors_picker.asp">Color picker</a>
-			</li>
-			<li class="en">
-				<a href="https://caniuse.com/" data-content="Up-to-date browser support tables">Can I use?</a>
-			</li>
-			<li class="en">
-				<a href="http://www.evolutionoftheweb.com/">Evolution of WEB</a>
-			</li>
-			<li class="en">
-				<a href="https://www.websitedimensions.com/">Best practices for websites dimension</a>
+				<a href="https://www.1keydata.com/sql/">Tutorial SQL </a> (<a href="https://www.1keydata.com/it/sql/" data-content="Italian version"><img src="imgs/it-flag.png" /></a>)
 			</li>
 		</ul>
 
-		<hr class="my-3" />
-
-		<h2 id="sql">SQL</h2>
+		<h4 class="ml-3">Multi-language</h4>
 		<ul>
 			<li class="en">
-				<a href="https://www.1keydata.com/sql/" data-content="1keydata.com">Tutorial SQL </a> (<a href="https://www.1keydata.com/it/sql/" data-content="Italian version"><img src="imgs/it-flag.png" /></a>)
+				<a href="https://developer.mozilla.org/en-US/docs/Web/Tutorials">MDN Web development tutorials</a>
+			</li>
+			<li class="it">
+				<a href="http://www.edutecnica.it/informatica.htm">Appunti vari informatica</a>
 			</li>
 			<li class="en">
-				<a href="https://dev.mysql.com/doc/refman/8.0/en/">MySQL 8.0 reference manual</a>
+				<a href="https://www.geeksforgeeks.org/">Geeks for Geeks</a>
 			</li>
 			<li class="en">
-				<a href="https://www.browserling.com/" data-content="browserling.com">Cross browser tester</a>
+				<a href="https://www.w3schools.com/">W3Schools</a>
 			</li>
+			<li class="it1">
+				<a href="https://www.youtube.com/user/fcamuso/playlists">Canale YT fcamuso</a>
+			</li>
+
 		</ul>
 
-	</div> <!-- content div -->
+
+			<!-- ########################################################## -->
+			<hr class="my-3 separator" />
+			<!-- ########################################################## -->
+
+			<h2 id="webdev">Web Development</h2>
+
+
+
+			<!-- WEBDEV HTML -->
+			<h3 id="webdev-html">HTML</h3>
+			<ul>
+				<li class="en multi">
+					List of HTML tags:
+					<a href="https://www.w3schools.com/tags/"></a>,
+					<a href="https://www.htmlquick.com/reference/tags.html"></a>
+				</li>
+				<li class="en multi">
+					List of HTML global attributes:
+					<a href="https://www.w3schools.com/TAgs/ref_standardattributes.asp"></a>,
+					<a href="https://www.htmlquick.com/reference/attributes.html"></a>
+				</li>
+				<li class="en multi">
+					List of HTML entities:
+					<a href="https://www.freeformatter.com/html-entities.html"></a>,
+					<a href="https://www.htmlquick.com/reference/character-entity-reference.html"></a>
+				</li>
+				<li class="en">
+					<a href="https://validator.w3.org/">HTML validator</a>
+				</li>
+				<li class="en">
+					<a href="https://www.htmlquick.com/reference/uri-url.html/">URI &amp; URL</a>
+				</li>
+			</ul>
+
+
+			<!-- WEBDEV CSS -->
+			<h3 id="webdev-css">CSS</h3>
+			<ul>
+				<li class="en">
+					<a href="https://www.w3.org/TR/selectors-3/#selectors">CSS3 Selectors</a>
+				</li>
+				<li class="en">
+					<a href="https://blog.froont.com/positioning-in-web-design/">Positioning explained with GIFs</a>
+				</li>
+				<li class="en">
+					<a href="https://css-tricks.com/snippets/">Various code snippets</a>
+				</li>
+				<li class="en">
+					<a href="https://flexboxfroggy.com/">Learn flexbox with "Flexbox Froggy" game</a>
+				</li>
+				<li class="en">
+					<a href="https://cssreference.io/">A visual guide to CSS</a>
+				</li>
+				<li class="en">
+					<a href="https://www.w3schools.com/cssref/">List of CSS properties</a>
+				</li>
+				<li class="en">
+					<a href="https://daneden.github.io/animate.css/">CSS Animations</a>
+				</li>
+				<li class="en">
+					<!-- data-html to be able to use HTML tags inside content -->
+					<a href="https://medium.com/code-better/css-units-for-font-size-px-em-rem-79f7e592bb97" data-html="true" data-content="PX: fixed size <br/>EM: 1em = font-size of parent <br/> REM 1rem = value of HTML root element" target="_blank">PX, EM and REM</a>
+				</li>
+			</ul>
+
+
+
+			<!-- WEBDEV JS -->
+			<h3 id="webdev-js">JavaScript/jQuery</h3>
+			<ul>
+				<li class="en">
+					<a href="https://api.jquery.com/">jQuery documentation</a>
+				</li>
+				<li class="en">
+					<a href="https://css-tricks.com/snippets/jquery/make-an-jquery-hasattr/">Emulate hasAttribute() in jQuery</a>
+				</li>
+				<li class="en">
+					<a href="https://www.w3schools.com/jsref/jsref_reference.asp">JS reference in alphabetical order</a>
+				</li>
+			</ul>
+
+
+
+
+			<!-- WEBDEV BS -->
+			<h3 id="webdev-bs">Bootstrap</h3>
+			<ul>
+				<li class="it">
+					<a href="https://italia.github.io/bootstrap-italia/docs/come-iniziare/introduzione/">Documentazione Bootstrap</a>
+				</li>
+				<li class="en">
+					<a href="https://hackerthemes.com/bootstrap-cheatsheet/">Bootstrap interactive cheatsheet</a>
+				</li>
+				<li class="en">
+					<a href="https://bootstrapcreative.com/resources/bootstrap-4-css-classes-index/">Bootstrap classes index</a>
+				</li>
+			</ul>
+
+			<h4>Boostrap breakpoints (current = highlighted)</h4>
+			<table class="table table-dark table-sm table-bordered table-hover table-striped">
+				<thead>
+					<tr>
+						<th></th>
+						<th class="text-center">
+							<span class="col d-none d-sm-block">
+								<small>0px &ge;</small>
+								XS
+								<small>&lt; 576px</small>
+							</span>
+							<span class="col bg-secondary d-block d-sm-none">
+								<small>0px &gt;</small>
+								XS
+								<small>&lt; 576px</small>
+							</span>
+						</th>
+						<th class="text-center">
+							<span class="col d-block d-sm-none d-md-block">
+								<small>576px &ge;</small>
+								S
+								<small>&lt; 768px</small>
+							</span>
+							<span class="col bg-secondary d-none d-sm-block d-md-none">
+								<small>576px &ge;</small>
+								S
+								<small>&lt; 768px</small>
+							</span>
+
+						</th>
+						<th class="text-center">
+							<span class="col d-block d-sm-block d-md-none d-lg-block">
+								<small>768px &ge;</small>
+								M
+								<small>&lt; 992px</small>
+							</span>
+							<span class="col bg-secondary d-none d-sm-none d-md-block d-lg-none">
+								<small>768px &ge;</small>
+								M
+								<small>&lt; 992px</small>
+							</span>
+						</th>
+						<th class="text-center">
+							<span class="col d-block d-sm-block d-md-block d-lg-none d-xl-block">
+								<small>992px &ge;</small>
+								L
+								<small>&lt; 1200px</small>
+							</span>
+							<span class="col bg-secondary d-none d-sm-none d-md-none d-lg-block d-xl-none">
+								<small>992px &ge;</small>
+								L
+								<small>&lt; 1200px</small>
+							</span>
+						</th>
+						<th class="text-center">
+							<span class="col d-block d-xl-none">
+								<small>1200px &ge;</small>
+								XL
+							</span>
+							<span class="col bg-secondary d-none d-xl-block">
+								<small>1200px &ge;</small>
+								XL
+							</span>
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th class="text-nowrap" scope="row">Max container width</th>
+						<td>None (auto)</td>
+						<td>540px</td>
+						<td>720px</td>
+						<td>960px</td>
+						<td>1140px</td>
+					</tr>
+					<tr>
+						<th class="text-nowrap" scope="row">Class prefix</th>
+						<td>.col-*</td>
+						<td>.col-sm-*</td>
+						<td>.col-md-*</td>
+						<td>.col-lg-*</td>
+						<td>.col-xl-*</td>
+					</tr>
+					<tr>
+						<th class="text-nowrap" scope="row"># of columns</th>
+						<td colspan="5">12</td>
+					</tr>
+					<tr>
+						<th class="text-nowrap" scope="row">Gutter width</th>
+						<td colspan="5">30px (15px on each side of a column)</td>
+					</tr>
+					<tr>
+						<th class="text-nowrap" scope="row">Nestable</th>
+						<td colspan="5">Yes</td>
+					</tr>
+					<tr>
+						<th class="text-nowrap" scope="row">Column ordering</th>
+						<td colspan="5">Yes</td>
+					</tr>
+				</tbody>
+			</table>
+
+
+
+
+
+			<!-- WEBDEV MISC -->
+			<h3 id="webdev-misc">Miscellaneous:</h3>
+			<ul>
+				<li class="en">
+					<a href="https://wave.webaim.org/" data-content="Web Accessibility Evaluation Tool">WAVE tool</a>
+				</li>
+				<li class="en">
+					<a href="https://webaim.org/resources/contrastchecker/" data-content="webaim.com">Contrast validator</a>
+				</li>
+				<li class="en">
+					<a href="https://www.browserling.com/" data-content="browserling.com">Cross browser tester</a>
+				</li>
+				<li class="en">
+					<a href="https://www.w3schools.com/colors/colors_picker.asp">Color picker</a>
+				</li>
+				<li class="en">
+					<a href="https://caniuse.com/">Up-to-date browser support tables</a>
+				</li>
+				<li class="en">
+					<a href="http://www.evolutionoftheweb.com/" data-content="Ever wondered how it all started?">Evolution of the WEB</a>
+				</li>
+				<li class="en">
+					<a href="https://www.websitedimensions.com/">Best practices for websites dimensions</a>
+				</li>
+				<li class="en">
+					<a href="https://codepen.io/">Codepen: online front-end editor</a>
+				</li>
+				<li class="en">
+					<a href="https://jsoneditoronline.org/">JSON online editor</a>
+				</li>
+
+
+			</ul>
+
+			<!-- ########################################################## -->
+			<hr class="my-3 separator" />
+			<!-- ########################################################## -->
+
+			<h2 id="sql">SQL</h2>
+			<ul>
+				
+				<li class="en">
+					<a href="https://dev.mysql.com/doc/refman/8.0/en/">MySQL 8.0 reference manual</a>
+				</li>
+			</ul>
+
+			<h2 id="python">Python 3</h2>
+			<ul>
+				<li class="it">
+					<a href="http://www.ifac.cnr.it/~zoppetti/corsopython/">Corso Python (Zoppetti)</a>
+				</li>
+				<li class="it">
+					<a href="http://www.python.it/doc/Howtothink/Howtothink-html-it/index.htm">Pensare da informatico</a>
+				</li>
+			</ul>
+
+			<h2 id="cpp">C++</h2>
+			<ul>
+				<li class="it">
+					<a href="http://www.ifac.cnr.it/~zoppetti/corsopython/">Corso Python (Zoppetti)</a>
+				</li>
+				<li class="it">
+					<a href="http://www.python.it/doc/Howtothink/Howtothink-html-it/index.htm">Pensare da informatico</a>
+				</li>
+			</ul>
+
+
+
+</div> <!-- content div -->
 </div> <!-- row div -->
 </div> <!-- container div -->
 
