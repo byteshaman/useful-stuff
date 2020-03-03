@@ -14,8 +14,12 @@
 	background-color: black;
 }
 
-body, .nav-link, .nav-link:hover, li a {
+body, .nav-link, .nav-link:hover {
 	color: black;
+}
+
+li a {
+	color: navy;
 }
 
 h2, h3 {
@@ -40,3 +44,9 @@ li.it {
 .popover {
 	max-width: 100%;
 }	
+
+/*Styles the hr elements*/
+.separator {
+	background-color: #fff;
+	border-top: 2px dotted #8c8b8b;
+}
