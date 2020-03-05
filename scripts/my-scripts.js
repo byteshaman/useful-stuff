@@ -59,4 +59,9 @@
 		$(this).text(textVal); //assigns the formatted URL value to the link's text
 	});
 
+
+		let navH = $('#navbar').innerHeight();
+		$('body').css('margin-top',navH);
+
+
 });
