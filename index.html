@@ -1,8 +1,8 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="mul">
 <head>
 	<title>Useful links for devs</title>
-	<!-- LOADING CSS -->
+	<!-- CSS -->
 	<!-- BOOTSTRAP -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<!-- DATATABLES -->
@@ -21,46 +21,44 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/jquery.dataTables.min.js"></script>
 	<!-- LOADING MY SCRIPTS -->
 	<script src="scripts/my-scripts.js"></script>
-	<style>
-		#sidebar {
-		}
-	</style>	
-
 
 </head>
 
 <!-- data-spy="scroll": element that should be used as the scrollable area -->
 <!-- data-target: attribute with a value of the id or the class name of the navigation bar -->
 <!-- data-offset: (optional) attribute that specifies the number of pixels to offset from top when calculating the position of scroll -->
-<body data-spy="scroll" data-target="#sidebar" data-offset="30" class="bg-secondary">
+<body data-spy="scroll" data-target="#sidebar" class="bg-secondary">
 
 <div class="container-fluid">
-<div class="row">
-	<nav class="navbar fixed-top navbar-dark bg-dark navbar-expand justify-content-center" id="navbar">
-		<ul class="navbar-nav">
-			<li class="nav-item">
-				<a class="nav-link" href="#">Link 1</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Link 2</a>
-			</li>
+<!-- NAVBAR -->
+<div class="row" id="menu">
+<nav class="navbar fixed-top navbar-dark bg-dark navbar-expand justify-content-center" id="navbar">
+	<ul class="navbar-nav">
+		<li class="nav-item">
+			<a class="nav-link" href="/index.html">Link 4 Devs</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Link 2</a>
+		</li>
 
-			<!-- Dropdown -->
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-					Dropdown link
-				</a>
-				<div class="dropdown-menu">
-					<a class="dropdown-item" href="#">Link 1</a>
-					<a class="dropdown-item" href="#">Link 2</a>
-					<a class="dropdown-item" href="#">Link 3</a>
-				</div>
-			</li>
-		</ul>
-	</nav>
+		<!-- Dropdown -->
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+				Dropdown link
+			</a>
+			<div class="dropdown-menu">
+				<a class="dropdown-item" href="#">Link 1</a>
+				<a class="dropdown-item" href="#">Link 2</a>
+				<a class="dropdown-item" href="#">Link 3</a>
+			</div>
+		</li>
+	</ul>
+</nav>
 </div>
 
-<div class="row">
+<!-- SIDEBAR + CONTENT -->
+<div class="row" id="sidebarandcontent">
+	<!-- SIDEBAR -->
 	<nav id="sidebar" class="navbar navbar-dark bg-dark p-1">
 		<nav class="nav nav-pills flex-column">
 			<a class="nav-link" href="#useful">Useful links</a>
@@ -78,9 +76,16 @@
 			</nav>
 			<a class="nav-link" href="#sql">SQL</a>
 			<a class="nav-link" href="#python">PYTHON 3</a>
+			<a class="nav-link" href="#cpp">C++</a>
+			<a class="nav-link" href="#git">Git</a>
+			<a class="nav-link" href="#stackover">Stack Overflow</a>
+			<a class="nav-link" href="#regexp">Regular Expressions</a>
+			<a class="nav-link" href="#websec">Web Security</a>
+
 		</nav>
 	</nav>
 
+	<!-- CONTENT -->
 	<div id="content" class="col-7 col-sm-7 col-md-8 col-lg-9 col-xl-9">
 
 		<h2 id="useful" class="mt-1">Useful links</h2>
@@ -127,7 +132,6 @@
 				<a href="https://www.w3schools.com/bootstrap4/default.asp"></a>
 				<br />
 				<a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/"></a>
-
 			</li>
 		</ul>
 
@@ -156,7 +160,7 @@
 				<a href="https://sqlbolt.com/">Interactive SQL tutorial</a>
 			</li>
 			<li class="en">
-				<a href="https://www.1keydata.com/sql/">Tutorial SQL </a> (<a href="https://www.1keydata.com/it/sql/" data-content="Italian version"><img src="imgs/it-flag.png" /></a>)
+				<a href="https://www.1keydata.com/sql/">Tutorial SQL </a> (<a href="https://www.1keydata.com/it/sql/" data-content="Italian version"><img src="imgs/it-flag.png" alt="Italian flag" /></a>)
 			</li>
 		</ul>
 
@@ -189,8 +193,6 @@
 
 		<h2 id="webdev">Web Development</h2>
 
-
-
 		<!-- WEBDEV HTML -->
 		<h3 id="webdev-html">HTML</h3>
 		<ul>
@@ -216,7 +218,6 @@
 				<a href="https://www.htmlquick.com/reference/uri-url.html/">URI &amp; URL</a>
 			</li>
 		</ul>
-
 
 		<!-- WEBDEV CSS -->
 		<h3 id="webdev-css">CSS</h3>
@@ -252,8 +253,6 @@
 			</li>
 		</ul>
 
-
-
 		<!-- WEBDEV JS -->
 		<h3 id="webdev-js">JavaScript/jQuery</h3>
 		<ul>
@@ -266,10 +265,10 @@
 			<li class="en">
 				<a href="https://www.w3schools.com/jsref/default.asp">JS reference ordered by category</a>
 			</li>
+			<li class="en">
+				<a href="https://esprima.org/demo/validate.html">JS syntax validator</a>
+			</li>
 		</ul>
-
-
-
 
 		<!-- WEBDEV BS -->
 		<h3 id="webdev-bs">Bootstrap</h3>
@@ -389,9 +388,6 @@
 			</tbody>
 		</table>
 
-
-
-
 		<!-- WEBDEV MISC -->
 		<h3 id="webdev-misc">Miscellaneous:</h3>
 		<ul>
@@ -433,11 +429,14 @@
 
 		<h2 id="sql">SQL</h2>
 		<ul>
-
 			<li class="en">
 				<a href="https://dev.mysql.com/doc/refman/8.0/en/">MySQL 8.0 reference manual</a>
 			</li>
 		</ul>
+
+		<!-- ########################################################## -->
+		<hr class="my-3 separator" />
+		<!-- ########################################################## -->
 
 		<h2 id="python">Python 3</h2>
 		<ul>
@@ -448,6 +447,10 @@
 				<a href="http://www.python.it/doc/Howtothink/Howtothink-html-it/index.htm">Pensare da informatico</a>
 			</li>
 		</ul>
+
+		<!-- ########################################################## -->
+		<hr class="my-3 separator" />
+		<!-- ########################################################## -->
 
 		<h2 id="cpp">C++</h2>
 		<ul>
@@ -467,6 +470,9 @@
 			</li>
 		</ul>
 
+		<!-- ########################################################## -->
+		<hr class="my-3 separator" />
+		<!-- ########################################################## -->
 
 		<h2 id="git">Git</h2>
 		<ul>
@@ -481,7 +487,11 @@
 			</li>
 		</ul>
 
-		<h2 id="stackoverflow">Stack Overflow</h2>
+		<!-- ########################################################## -->
+		<hr class="my-3 separator" />
+		<!-- ########################################################## -->
+
+		<h2 id="stackover">Stack Overflow</h2>
 		<h3>Web Development</h3>
 		<ul>
 			<li class="en">
@@ -492,11 +502,40 @@
 			</li>
 		</ul>
 
-		REGEXP
+		<!-- ########################################################## -->
+		<hr class="my-3 separator" />
+		<!-- ########################################################## -->
 
-		https://regexone.com/
+		<h2 id="regexp">Regular Expressions</h2>
+		<ul>
+			<li class="en">
+				<a href="https://regexr.com/">Regular Expression interactive exercises</a>
+			</li>
+			<li class="en">
+				<a href="https://regexr.com/">Regular Expression interactive website</a>
+			</li>
+		</ul>
 
-		<a href="https://regexr.com/">Regular Expression interactive website</a>
+		<!-- ########################################################## -->
+		<hr class="my-3 separator" />
+		<!-- ########################################################## -->
+
+		<h2 id="websec">Web Security</h2>
+		<ul>
+			<li class="en">
+				<a href="https://www.hackthissite.org/pages/index/index.php">Hack this site!</a>
+			</li>
+			<li class="en">
+				<a href="https://amazena.it/">Amazena</a>
+			</li>
+			<li class="en">
+				<a href="http://ce-2019-02-22.herokuapp.com/">Cyber exercises</a>
+			</li>
+
+		</ul>
+
+		
+		
 
 	</div> <!-- content div -->
 </div> <!-- row div -->
