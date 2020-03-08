@@ -2,11 +2,10 @@
 <html lang="mul">
 <head>
 	<title>Useful links for devs</title>
+	<meta charset="utf-8" />
 	<!-- CSS -->
 	<!-- BOOTSTRAP -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<!-- DATATABLES -->
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" />
 	<!-- PERSONAL STYLE -->
 	<link rel="stylesheet" type="text/css" href="css/my-style.css" />
 
@@ -17,8 +16,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<!-- LOADING BOOTSTRAP -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-	<!-- LOADING DATATABLES -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/jquery.dataTables.min.js"></script>
 	<!-- LOADING MY SCRIPTS -->
 	<script src="scripts/my-scripts.js"></script>
 
@@ -31,14 +28,14 @@
 
 <div class="container-fluid">
 <!-- NAVBAR -->
-<div class="row" id="menu">
-<nav class="navbar fixed-top navbar-dark bg-dark navbar-expand justify-content-center" id="navbar">
-	<ul class="navbar-nav">
+<div class="row">
+<nav id="navbar" class="navbar fixed-top navbar-dark bg-dark navbar-expand justify-content-center" >
+	<ul class="nav nav-pills">
 		<li class="nav-item">
-			<a class="nav-link" href="/index.html">Link 4 Devs</a>
+			<a class="nav-link active" href="index.html">Link 4 Devs</a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="#">Link 2</a>
+			<a class="nav-link" href="pages/useful-software.html">Useful software</a>
 		</li>
 
 		<!-- Dropdown -->
@@ -57,7 +54,7 @@
 </div>
 
 <!-- SIDEBAR + CONTENT -->
-<div class="row" id="sidebarandcontent">
+<div id="sidebarandcontent" class="row">
 	<!-- SIDEBAR -->
 	<nav id="sidebar" class="navbar navbar-dark bg-dark p-1">
 		<nav class="nav nav-pills flex-column">
@@ -224,6 +221,9 @@
 		<ul>
 			<li class="en">
 				<a href="https://www.w3.org/TR/selectors-3/#selectors">CSS3 selectors</a> (<a href="https://guide.freecodecamp.org/css/tutorials/css-selectors-cheat-sheet/">Cheatsheet</a>)
+			</li>
+			<li class="en">
+				<a href="https://css-tricks.com/multiple-class-id-selectors/">Multiple class VS ID+class selector</a>
 			</li>
 			<li class="en">
 				<a href="https://blog.froont.com/positioning-in-web-design/">Positioning explained with GIFs</a>
@@ -446,6 +446,12 @@
 			<li class="it">
 				<a href="http://www.python.it/doc/Howtothink/Howtothink-html-it/index.htm">Pensare da informatico</a>
 			</li>
+			<li class="en">
+				<a href="https://docs.python.org/3/tutorial/">Python 3 official tutorial</a>
+			</li>
+			<li class="en">
+				<a href="https://realpython.com/python-f-strings/">f-Strings</a>
+			</li>
 		</ul>
 
 		<!-- ########################################################## -->
@@ -498,7 +504,10 @@
 				<a href="https://stackoverflow.com/questions/15320801/">How to include an HTML file with jQuery?</a>
 			</li>
 			<li class="en">
-				<a href="https://stackoverflow.com/questions/762011/">JS: var VS let</a>
+				<a href="https://stackoverflow.com/questions/762011/">var VS let (JavaScript)</a>
+			</li>
+			<li class="en">
+				<a href="https://stackoverflow.com/questions/1024847/how-can-i-add-new-keys-to-a-dictionary/8381589#8381589">How to add new keys to a dictionary? (Python)</a>
 			</li>
 		</ul>
 
