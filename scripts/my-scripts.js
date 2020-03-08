@@ -28,7 +28,6 @@ function setDataContent(elem) {
 		websiteName = "w3schools";
 	else if (websiteName.indexOf('github.') > -1)
 		websiteName = "github";
-
 	elem.attr('data-content', websiteName);
 }
 
@@ -50,7 +49,6 @@ function moveAnchorDown() {
 		let target = $($(this).attr('href'));
 		let offsetTop = target.offset().top;
 		let scrollto = offsetTop - navH;
-		console.log(scrollto);
 	$('html, body').animate({scrollTop:scrollto}, 5);
 	});
 }
@@ -64,11 +62,11 @@ $(document).ready(function () {
 	moveAnchorDown();
 	
 
-	//make list links inside element with id="content" open in a new tab
+	//make list links, children of #content, open in a new tab
 	$('#content li a').attr('target', '_blank');
 
 	//scan every list link which hasn't a 'multi' class
-	$('li:not(.multi) a').each(function () {
+	$('#sidebarandcontent li:not(.multi) a').each(function () {
 		var attr = $(this).attr('data-content');
 		if (typeof attr !== typeof undefined && attr !== false) { //if link has attribute 'data-content' (undefined works for some browsers, false for others)
 			makePoppable($(this)); //make it poppable
@@ -79,10 +77,12 @@ $(document).ready(function () {
 	});
 
 	//scan every list link with multi class
-	$('li.multi a').each(function () {
+	$('#sidebarandcontent li.multi a').each(function () {
 		var textVal = formatWell($(this));
 		$(this).text(textVal); //assigns the formatted URL value to the link's text
 	});
+
+	$('#swTable').DataTable();
 
 });
 
