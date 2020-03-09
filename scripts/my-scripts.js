@@ -64,6 +64,7 @@ $(document).ready(function () {
 
 	//make list links, children of #content, open in a new tab
 	$('#content li a').attr('target', '_blank');
+	$('td>a').attr('target', '_blank');
 
 	//scan every list link which hasn't a 'multi' class
 	$('#sidebarandcontent li:not(.multi) a').each(function () {
