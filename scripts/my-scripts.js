@@ -31,10 +31,6 @@ function setDataContent(elem) {
 	elem.attr('data-content', websiteName);
 }
 
-//function loadNav() {
-//    $('#menu').load('../pages/menu.html');
-//}
-
 function moveBodySidebarDown () {
 	$('body').css('margin-top',navH);
 	$('body').attr('data-offset',navH + 5); //to apply the "active" class properly
@@ -52,6 +48,7 @@ function moveAnchorDown() {
 	$('html, body').animate({scrollTop:scrollto}, 5);
 	});
 }
+
 
 //global variable
 var navH;
@@ -83,7 +80,14 @@ $(document).ready(function () {
 		$(this).text(textVal); //assigns the formatted URL value to the link's text
 	});
 
-	$('#swTable').DataTable();
+	$('#swTable').DataTable(
+		{
+			"sScrollY": "575", //fixed height
+      "bScrollCollapse": false, 
+			"lengthMenu": [ 15, 50, 75, 100 ] //personalize "Show X entries" menu
+
+		}
+	);
 	
 
 });
