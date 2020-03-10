@@ -59,9 +59,11 @@ $(document).ready(function () {
 	moveAnchorDown();
 	
 
-	//make list links, children of #content, open in a new tab
-	$('#content li a').attr('target', '_blank');
-	$('td>a').attr('target', '_blank');
+	//make list links, children of #content, and table links open in a new tab; 'rel','noopener' to prevent performance and security issues for _blank (https://web.dev/external-anchors-use-rel-noopener/)
+	$('#content li a, td>a').attr({
+	'target': '_blank',
+	'rel':'noopener'});
+
 
 	//scan every list link which hasn't a 'multi' class
 	$('#sidebarandcontent li:not(.multi) a').each(function () {
@@ -85,10 +87,7 @@ $(document).ready(function () {
 			"sScrollY": "575", //fixed height
       "bScrollCollapse": false, 
 			"lengthMenu": [ 15, 50, 75, 100 ] //personalize "Show X entries" menu
-
 		}
 	);
-	
-
 });
 
