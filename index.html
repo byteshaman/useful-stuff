@@ -1,580 +1,68 @@
-﻿<!DOCTYPE html>
-<html lang="mul">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Useful links for devs</title>
+	<title>Index</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!-- CSS -->
 	<!-- BOOTSTRAP -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<!-- PERSONAL STYLE -->
-	<link rel="stylesheet" type="text/css" href="css/my-style.css" />
+	<!-- MY STYLE -->
+
 
 	<!-- SCRIPTS -->
-	<!-- LOADING JQUERY -->
+	<!-- JQUERY -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<!-- LOADING POPPER -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<!-- LOADING BOOTSTRAP -->
+	<!-- BOOTSTRAP -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-	<!-- LOADING MY SCRIPTS -->
-	<script src="scripts/my-scripts.js"></script>
-
+	<!-- MY SCRIPTS -->
+	<script src="scripts/index.js"></script>
 </head>
 
-<!-- data-spy="scroll": element that should be used as the scrollable area -->
-<!-- data-target: attribute with a value of the id or the class name of the navigation bar -->
-<!-- data-offset: (optional) attribute that specifies the number of pixels to offset from top when calculating the position of scroll -->
-<body data-spy="scroll" data-target="#sidebar" class="bg-secondary">
 
-<div class="container-fluid">
-<!-- NAVBAR -->
-<div class="row">
-<nav id="navbar" class="navbar fixed-top navbar-dark bg-dark navbar-expand justify-content-center" >
-	<ul class="nav nav-pills">
-		<li class="nav-item">
-			<a class="nav-link active" href="index.html">Link 4 Devs</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="pages/useful-software.html">Useful software</a>
-		</li>
-
-		<!-- Dropdown -->
-		<li class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-				Dropdown link
-			</a>
-			<div class="dropdown-menu">
-				<a class="dropdown-item" href="#">Link 1</a>
-				<a class="dropdown-item" href="#">Link 2</a>
-				<a class="dropdown-item" href="#">Link 3</a>
+<body class="bg-dark">
+	<div class="container-fluid text-center text-white">
+		<!-- Vertical center elements -->
+		<div class="row vh-100 d-flex align-items-center"> 
+			<div class="col-12 mx-auto" id="cardRowContainer">
+				<div class="row">
+					<div class="card">
+						<div>
+							<h5 class="card-title">Link 4 Devs</h5>
+							<p class="card-text">Interactive website where you can filter various websites, related to IT, with button tags.</p>
+							<a href="./pages/link-4-devs.html" class="btn">Bring me there</a>
+						</div>
+					</div>
+		
+					<div class="card">
+						<div>
+							<h5 class="card-title">List template</h5>
+							<p class="card-text">Template website (with a fixed sidebar and navbar) with placeholder list elements.</p>
+							<a href="./pages/list-template.html" class="btn">Bring me there</a>
+						</div>
+					</div>
+				</div>
+		
+				<div class="row">
+					<div class="card">
+						<div>
+							<h5 class="card-title">Useful software</h5>
+							<p class="card-text">An interactive table (powered by DataTable jQuery plugin) with my favorite software.</p>
+							<a href="./pages/useful-software.html" class="btn">Bring me there</a>
+						</div>
+					</div>
+					<div class="card">
+						<div>
+							<h5 class="card-title">Useful websites</h5>
+							<p class="card-text">Similar to link 4 devs, but with general websites that I find useful.</p>
+							<a href="#" class="btn">WIP...</a>
+						</div>
+					</div>
+				</div>
 			</div>
-		</li>
-	</ul>
-</nav>
-</div>
-
-<!-- SIDEBAR + CONTENT -->
-<div id="sidebarandcontent" class="row">
-	<!-- SIDEBAR -->
-	<nav id="sidebar" class="navbar navbar-dark bg-dark p-1">
-		<nav class="nav nav-pills flex-column">
-			<a class="nav-link" href="#useful">Useful links</a>
-			<nav class="nav nav-pills flex-column">
-				<a class="nav-link ml-3" href="#useful-web-tools">Websites &amp; Tools</a>
-				<a class="nav-link ml-3" href="#useful-tut-gui">Tutorials &amp; Guides</a>
-			</nav>
-			<a class="nav-link" href="#webdev">Web Development</a>
-			<nav class="nav nav-pills flex-column">
-				<a class="nav-link ml-3" href="#webdev-html">HTML</a>
-				<a class="nav-link ml-3" href="#webdev-css">CSS</a>
-				<a class="nav-link ml-3" href="#webdev-js">JavaScript</a>
-				<a class="nav-link ml-3" href="#webdev-bs">Bootstrap</a>
-				<a class="nav-link ml-3" href="#webdev-misc">Miscellaneous</a>
-			</nav>
-			<a class="nav-link" href="#sql">SQL</a>
-			<a class="nav-link" href="#python">PYTHON 3</a>
-			<a class="nav-link" href="#cpp">C++</a>
-			<a class="nav-link" href="#git">Git</a>
-			<a class="nav-link" href="#stackover">Stack Overflow</a>
-			<a class="nav-link" href="#regexp">Regular Expressions</a>
-			<a class="nav-link" href="#websec">Web Security</a>
-
-		</nav>
-	</nav>
-
-	<!-- CONTENT -->
-	<div id="content" class="col-7 col-sm-7 col-md-8 col-lg-9 col-xl-9">
-
-		<h2 id="useful" class="mt-1">Useful links</h2>
-
-		<!-- WEBSITES & TOOLS -->
-
-		<h3 id="useful-web-tools">Websites &amp; Tools</h3>
-		<ul>
-			<li class="en">
-				<a href="https://github.com/sindresorhus/awesome#contents" data-content="Comprehensive list of useful websites">Awesome lists</a>
-			</li>
-			<li class="en">
-				<a href="https://www.freecodecamp.org/" data-content="Learn to code online and get certifications">FreeCodeCamp</a>
-			</li>
-			<li class="en">
-				<a href="https://scrimba.com/" data-content="Interactive free video-courses">Scrimba</a>
-			</li>
-			<li class="en multi">
-				Code challenges:
-				<a href="https://www.codewars.com/"></a>
-				<a href="https://exercism.io/"></a>
-			</li>
-			<li class="en">
-				<a href="https://toggl.com/">Toggl (time tracker)</a>
-			</li>
-			<li class="en">
-				<a href="https://web.dev/measure/">Measure a website's performances</a>
-			</li>
-
-			<li class="en">
-				<a href="https://code.labstack.com/">Labstack: multi-language programming playground</a>
-			</li>
-			<li class="en">
-				<a href="https://stackoverflow.com/">Stack Overflow</a>
-			</li>
-			<li class="en">
-				<a href="https://www.reddit.com/r/learnprogramming/">r/learnprogramming</a>
-			</li>
-		</ul>
-
-		<!-- TUTORIALS & GUIDES -->
-
-		<h3 id="useful-tut-gui">Tutorials &amp; Guides</h3>
-		<h4 class="ml-3">Bootstrap</h4>
-		<ul>
-			<li class="en multi">
-				<a href="https://www.w3schools.com/bootstrap4/default.asp"></a>
-				<br />
-				<a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/"></a>
-			</li>
-		</ul>
-
-		<h4 class="ml-3">HTML, CSS</h4>
-		<ul>
-			<li class="en">
-				<a href="https://internetingishard.com/">Web Development tutorials for beginners</a>
-			</li>
-			<li class="en">
-				<a href="https://learn.shayhowe.com/">Begginners and advanced HTML/CSS tutorials</a>
-			</li>
-			<li class="it">
-				<a href="https://www.html.it/guide/guida-html/">Guida HTML</a> (<a href="https://www.html.it/guide/guida-html5/">HTML5</a>)
-			</li>
-			<li class="en">
-				<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS flexbox guide</a>
-			</li>
-			<li class="en">
-				<a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS grid guide</a>
-			</li>
-		</ul>
-
-		<h4 class="ml-3">SQL</h4>
-		<ul>
-			<li class="en">
-				<a href="https://sqlbolt.com/">Interactive SQL tutorial</a>
-			</li>
-			<li class="en">
-				<a href="https://www.1keydata.com/sql/">Tutorial SQL </a> (<a href="https://www.1keydata.com/it/sql/" data-content="Italian version"><img src="imgs/it-flag.png" alt="Italian flag" /></a>)
-			</li>
-		</ul>
-
-		<h4 class="ml-3">Multi-language</h4>
-		<ul>
-			<li class="en">
-				<a href="https://developer.mozilla.org/en-US/docs/Web/Tutorials">MDN Web development tutorials</a>
-			</li>
-			<li class="it">
-				<a href="http://www.edutecnica.it/informatica.htm">Appunti vari informatica</a>
-			</li>
-			<li class="en">
-				<a href="https://www.geeksforgeeks.org/">Geeks for Geeks</a>
-			</li>
-			<li class="en">
-				<a href="https://www.w3schools.com/">W3Schools</a>
-			</li>
-			<li class="en">
-				<a href="https://www.tutorialspoint.com/index.htm">TutorialsPoint</a>
-			</li>
-			<li class="it">
-				<a href="https://www.youtube.com/user/fcamuso/playlists">Canale YT fcamuso</a>
-			</li>
-		</ul>
-
-
-		<hr class="my-3 separator" /> <!-- ############################### -->
+		</div>
 		
 
-		<h2 id="webdev">Web Development</h2>
-
-		<!-- WEBDEV HTML -->
-		<h3 id="webdev-html">HTML</h3>
-		<ul>
-			<li class="en multi">
-				List of HTML tags:
-				<a href="https://www.w3schools.com/tags/"></a>,
-				<a href="https://www.htmlquick.com/reference/tags.html"></a>
-			</li>
-			<li class="en multi">
-				List of HTML global attributes:
-				<a href="https://www.w3schools.com/TAgs/ref_standardattributes.asp"></a>,
-				<a href="https://www.htmlquick.com/reference/attributes.html"></a>
-			</li>
-			<li class="en multi">
-				List of HTML entities:
-				<a href="https://www.freeformatter.com/html-entities.html"></a>,
-				<a href="https://www.htmlquick.com/reference/character-entity-reference.html"></a>
-			</li>
-			<li class="en">
-				<a href="https://validator.w3.org/">W3 HTML validator</a>
-			</li>
-			<li class="en">
-				<a href="https://www.htmlquick.com/reference/uri-url.html/">URI &amp; URL</a>
-			</li>
-		</ul>
-
-		<!-- WEBDEV CSS -->
-		<h3 id="webdev-css">CSS</h3>
-		<ul>
-			<li class="en">
-				<a href="https://www.w3.org/TR/selectors-3/#selectors">CSS3 selectors</a> (<a href="https://guide.freecodecamp.org/css/tutorials/css-selectors-cheat-sheet/">Cheatsheet</a>)
-			</li>
-			<li class="en">
-				<a href="https://css-tricks.com/multiple-class-id-selectors/">Multiple class VS ID+class selector</a>
-			</li>
-			<li class="en">
-				<a href="https://blog.froont.com/positioning-in-web-design/">Positioning explained with GIFs</a>
-			</li>
-			<li class="en">
-				<a href="http://www.barelyfitz.com/screencast/html-training/css/positioning/">CSS Positioning in 10 steps</a>
-			</li>
-			<li class="en multi">
-				CSS games:
-				<a href="https://flexboxfroggy.com/"></a>, <a href="https://cssgridgarden.com/"></a>,  <a href="https://flukeout.github.io/"></a>,
-			</li>
-			<li class="en">
-				<a href="https://cssreference.io/">A visual guide to CSS</a>
-			</li>
-			<li class="en">
-				<a href="http://howtocenterincss.com/">How to center in CSS</a>
-			</li>
-			<li class="en">
-				<a href="https://www.w3schools.com/cssref/">List of CSS properties</a>
-			</li>
-			<li class="en">
-				<a href="https://daneden.github.io/animate.css/">CSS Animations</a>
-			</li>
-			<li class="en">
-				<!-- data-html to be able to use HTML tags inside content -->
-				<a href="https://medium.com/code-better/css-units-for-font-size-px-em-rem-79f7e592bb97" data-html="true" data-content="PX: fixed size <br/>EM: 1em = font-size of parent <br/> REM 1rem = value of HTML root element" target="_blank">PX, EM and REM</a>
-			</li>
-		</ul>
-
-		<!-- WEBDEV JS -->
-		<h3 id="webdev-js">JavaScript</h3>
-		<ul>
-			<li class="en">
-				<a href="https://api.jquery.com/">jQuery documentation</a>
-			</li>
-			<li class="en">
-				<a href="https://www.json.org/json-en.html">JSON documentation</a>
-			</li>
-			<li class="en">
-				<a href="https://css-tricks.com/snippets/jquery/make-an-jquery-hasattr/">Emulate hasAttribute() in jQuery</a>
-			</li>
-			<li class="en">
-				<a href="https://www.w3schools.com/jsref/default.asp">JS reference ordered by category</a>
-			</li>
-			<li class="en">
-				<a href="https://esprima.org/demo/validate.html">JS syntax validator</a>
-			</li>
-			<li class="en">
-				<a href="https://datatables.net/reference/option/">DataTables list of options</a>
-			</li>
-			<li class="en">
-				<a href="https://blog.teamtreehouse.com/unobtrusive-javascript-important">How to write unobtrusive JS code</a>
-			</li>
-		</ul>
-
-		<!-- WEBDEV BS -->
-		<h3 id="webdev-bs">Bootstrap</h3>
-		<ul>
-			<li class="it">
-				<a href="https://italia.github.io/bootstrap-italia/docs/come-iniziare/introduzione/">Documentazione Bootstrap</a>
-			</li>
-			<li class="en">
-				<a href="https://hackerthemes.com/bootstrap-cheatsheet/">Bootstrap interactive cheatsheet</a>
-			</li>
-			<li class="en">
-				<a href="https://bootstrapcreative.com/resources/bootstrap-4-css-classes-index/">Bootstrap classes index</a>
-			</li>
-		</ul>
-
-		<h4>Boostrap breakpoints (current = highlighted)</h4>
-
-		<!-- RESPONSIVE TABLE -->
-		<table class="table table-dark table-sm table-bordered table-hover table-striped">
-			<thead>
-				<tr>
-					<th></th>
-					<th class="text-center">
-						<span class="col d-none d-sm-block">
-							<small>0px &ge;</small>
-							XS
-							<small>&lt; 576px</small>
-						</span>
-						<span class="col bg-secondary d-block d-sm-none">
-							<small>0px &gt;</small>
-							XS
-							<small>&lt; 576px</small>
-						</span>
-					</th>
-					<th class="text-center">
-						<span class="col d-block d-sm-none d-md-block">
-							<small>576px &ge;</small>
-							S
-							<small>&lt; 768px</small>
-						</span>
-						<span class="col bg-secondary d-none d-sm-block d-md-none">
-							<small>576px &ge;</small>
-							S
-							<small>&lt; 768px</small>
-						</span>
-
-					</th>
-					<th class="text-center">
-						<span class="col d-block d-sm-block d-md-none d-lg-block">
-							<small>768px &ge;</small>
-							M
-							<small>&lt; 992px</small>
-						</span>
-						<span class="col bg-secondary d-none d-sm-none d-md-block d-lg-none">
-							<small>768px &ge;</small>
-							M
-							<small>&lt; 992px</small>
-						</span>
-					</th>
-					<th class="text-center">
-						<span class="col d-block d-sm-block d-md-block d-lg-none d-xl-block">
-							<small>992px &ge;</small>
-							L
-							<small>&lt; 1200px</small>
-						</span>
-						<span class="col bg-secondary d-none d-sm-none d-md-none d-lg-block d-xl-none">
-							<small>992px &ge;</small>
-							L
-							<small>&lt; 1200px</small>
-						</span>
-					</th>
-					<th class="text-center">
-						<span class="col d-block d-xl-none">
-							<small>1200px &ge;</small>
-							XL
-						</span>
-						<span class="col bg-secondary d-none d-xl-block">
-							<small>1200px &ge;</small>
-							XL
-						</span>
-					</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<th class="text-nowrap" scope="row">Max container width</th>
-					<td>None (auto)</td>
-					<td>540px</td>
-					<td>720px</td>
-					<td>960px</td>
-					<td>1140px</td>
-				</tr>
-				<tr>
-					<th class="text-nowrap" scope="row">Class prefix</th>
-					<td>.col-*</td>
-					<td>.col-sm-*</td>
-					<td>.col-md-*</td>
-					<td>.col-lg-*</td>
-					<td>.col-xl-*</td>
-				</tr>
-				<tr>
-					<th class="text-nowrap" scope="row"># of columns</th>
-					<td colspan="5">12</td>
-				</tr>
-				<tr>
-					<th class="text-nowrap" scope="row">Gutter width</th>
-					<td colspan="5">30px (15px on each side of a column)</td>
-				</tr>
-				<tr>
-					<th class="text-nowrap" scope="row">Nestable</th>
-					<td colspan="5">Yes</td>
-				</tr>
-				<tr>
-					<th class="text-nowrap" scope="row">Column ordering</th>
-					<td colspan="5">Yes</td>
-				</tr>
-			</tbody>
-		</table>
-
-		<!-- WEBDEV MISC -->
-		<h3 id="webdev-misc">Miscellaneous:</h3>
-		<ul>
-			<li class="en">
-				<a href="https://wave.webaim.org/" data-content="Web Accessibility Evaluation Tool">WAVE tool</a>
-			</li>
-			<li class="en">
-				<a href="https://webaim.org/resources/contrastchecker/">Contrast validator</a>
-			</li>
-			<li class="en">
-				<a href="https://github.com/dargaCode/WebDevStudyResources/" data-content="Another great list of useful resources, specific for Web Development">Web Development Study Resource</a>
-			</li>
-			<li class="en">
-				<a href="https://www.browserling.com/">Cross browser tester</a>
-			</li>
-			<li class="en">
-				<a href="https://www.w3schools.com/colors/colors_picker.asp">Color picker</a>
-			</li>
-			<li class="en">
-				<a href="https://caniuse.com/">Up-to-date browser support tables</a>
-			</li>
-			<li class="en">
-				<a href="http://www.evolutionoftheweb.com/" data-content="Ever wondered how it all started?">Evolution of the WEB</a>
-			</li>
-			<li class="en">
-				<a href="https://www.websitedimensions.com/">Best practices for websites dimensions</a>
-			</li>
-			<li class="en">
-				<a href="https://codepen.io/">Codepen: online front-end editor</a>
-			</li>
-			<li class="en">
-				<a href="https://jsoneditoronline.org/">JSON online editor</a>
-			</li>
-			<li class="en">
-				<a href="https://bootstrapcreative.com/what-are-the-integrity-and-crossorigin-attributes-and-why-are-they-necessary/">What are integrity and crossorigin attributes?</a>
-			</li>
-		</ul>
-	
-		<hr class="my-3 separator" /> <!-- ############################### -->
-		
-		<h2 id="sql">SQL</h2>
-		<ul>
-			<li class="en">
-				<a href="https://dev.mysql.com/doc/refman/8.0/en/">MySQL 8.0 reference manual</a>
-			</li>
-		</ul>
-
-	
-		<hr class="my-3 separator" /> <!-- ############################### -->
-		
-
-		<h2 id="python">Python 3</h2>
-		<ul>
-			<li class="it">
-				<a href="http://www.ifac.cnr.it/~zoppetti/corsopython/">Corso Python (Zoppetti)</a>
-			</li>
-			<li class="it">
-				<a href="http://www.python.it/doc/Howtothink/Howtothink-html-it/index.htm">Pensare da informatico</a>
-			</li>
-			<li class="en">
-				<a href="https://docs.python.org/3/tutorial/">Python 3 official tutorial</a>
-			</li>
-			<li class="en">
-				<a href="https://realpython.com/python-f-strings/">f-Strings</a>
-			</li>
-		</ul>
-
-		
-		<hr class="my-3 separator" /> <!-- ############################### -->
-		
-
-		<h2 id="cpp">C++</h2>
-		<ul>
-			<li class="en">
-				<a href="https://en.cppreference.com/w/cpp">C++ reference</a>
-			</li>
-			<li class="it">
-				<a href="https://www.geeksforgeeks.org/type-conversion-in-c/">Type conversion in C++</a>
-			</li>
-			<li class="en">
-				<a href="http://isocpp.github.io/CppCoreGuidelines/">C++ coding guidelines</a>
-			</li>
-			<li class="en multi">
-				C++ operators:
-				<a href="http://www.cplusplus.com/doc/tutorial/operators/"></a>,
-				<a href="https://www.tutorialspoint.com/cplusplus/cpp_operators.htm"></a>
-			</li>
-		</ul>
-
-		
-		<hr class="my-3 separator" /> <!-- ############################### -->
-		
-
-		<h2 id="git">Git</h2>
-		<ul>
-			<li class="en">
-				<a href="https://learngitbranching.js.org/">Learn GIT branching</a>
-			</li>
-			<li class="en">
-				<a href="https://github.com/k88hudson/git-flight-rules#conventions-for-this-document">GIT "flight rules"</a>
-			</li>
-			<li class="en">
-				<a href="http://marklodato.github.io/visual-git-guide/index-en.html">GIT visual guide</a>
-			</li>
-		</ul>
-
-		
-		<hr class="my-3 separator" /> <!-- ############################### -->
-		
-
-		<h2 id="stackover">This &amp; That</h2>
-		<ul>
-			<li class="en">
-				<a href="https://github.community/t5/Support-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372">Git: Clone vs Fork</a>
-			</li>
-			<li class="en">
-				<a href="https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/">Framework vs Library</a>
-			</li>
-
-		</ul>
-
-		<h2 id="stackover">Stack Overflow</h2>
-		<h3>Web Development</h3>
-		<ul>
-			<li class="en">
-				<a href="https://stackoverflow.com/questions/15320801/">How to include an HTML file with jQuery?</a>
-			</li>
-			<li class="en">
-				<a href="https://stackoverflow.com/questions/762011/">var VS let (JavaScript)</a>
-			</li>
-			<li class="en">
-				<a href="https://stackoverflow.com/questions/1024847/how-can-i-add-new-keys-to-a-dictionary/8381589#8381589">How to add new keys to a dictionary? (Python)</a>
-			</li>
-		</ul>
-
-
-		
-		<hr class="my-3 separator" /> <!-- ############################### -->
-		
-
-		<h2 id="regexp">Regular Expressions</h2>
-		<ul>
-			<li class="en">
-				<a href="https://regexr.com/">Regular Expression interactive exercises</a>
-			</li>
-			<li class="en">
-				<a href="https://regexr.com/">Regular Expression interactive website</a>
-			</li>
-		</ul>
-
-		
-		<hr class="my-3 separator" /> <!-- ############################### -->
-		
-
-		<h2 id="websec">Web Security</h2>
-		<ul>
-			<li class="en">
-				<a href="https://www.hackthissite.org/pages/index/index.php">Hack this site!</a>
-			</li>
-			<li class="it">
-				<a href="https://amazena.it/" data-content="Try to buy articles without paying for them, buy unavailable articles etc">Amazena</a>
-			</li>
-			<li class="en">
-				<a href="http://ce-2019-02-22.herokuapp.com/">Cyber exercises</a>
-			</li>
-
-		</ul>
-
-		
-		
-
-	</div> <!-- content div -->
-</div> <!-- row div -->
-</div> <!-- container div -->
-
-
+	</div>
 </body>
 </html>

@@ -1,0 +1,723 @@
+﻿<!DOCTYPE html>
+<html lang="mul">
+<head>
+	<title>Link 4 devs</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- CSS -->
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<!-- DATATABLES -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" /> 
+	<!-- PERSONAL STYLE -->
+	<link rel="stylesheet" type="text/css" href="../css/shared.css" />
+	<link rel="stylesheet" type="text/css" href="../css/link-4-devs.css" />
+
+	<!-- SCRIPTS -->
+	<!-- LOADING JQUERY -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- LOADING BOOTSTRAP -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<!-- LOADING DATATABLES -->
+	<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+	<!-- LOADING DATATABLES BOOTSTRAP -->
+	<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+	<!-- LOADING MY SCRIPTS -->
+	<script src="../scripts/shared.js"></script>
+	<script src="../scripts/link-4-devs.js"></script>
+</head>
+
+<!-- data-spy="scroll": element that should be used as the scrollable area -->
+<!-- data-target: attribute with a value of the id or the class name of the navigation bar -->
+<!-- data-offset: (optional) attribute that specifies the number of pixels to offset from top when calculating the position of scroll -->
+<body class="bg-secondary">
+
+	<div class="container-fluid">
+		<!-- NAVBAR -->
+		<div class="row">
+			<nav id="navbar" class="navbar fixed-top navbar-dark bg-dark navbar-expand justify-content-center" >
+				<ul class="nav nav-pills">
+					<li class="nav-item">
+						<a class="nav-link active" href="link-4-devs.html">Link 4 Devs</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="useful-software.html">Useful software</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="list-template.html">List template</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+
+<!-- Sostituire
+	webdevv -> web development
+	sover -> stack overflow
+	ghub -> github 
+	multilang -> multi-language
+	websec -> web security
+	g4g -> geeks for geeks
+-->
+
+	<!-- TODO JUMBOTRON WITH TAGS EXPLANATION -->
+
+
+
+		<!-- FILTER CONTAINER -->
+		<div class="row">
+			<!-- Display buttons centered -->
+			<div class="mx-auto my-2 p-2 col-xl-8 col-lg-8 col-md-10 col-sm-12" id="tagContainer">
+				<button>#Bootstrap</button>
+				<button>#C++</button>
+				<button>#Cheatsheet</button>
+				<button>#CSS</button>
+				<button>#Discord server</button>
+				<button>#Documentation</button>
+				<button>#Exercise</button>
+				<button>#Game</button>
+				<button>#Geeks for Geeks</button>
+				<button>#Git</button>
+				<button>#GitHub</button>
+				<button>#HTML</button>
+				<button>#Interactive</button>
+				<button>#JavaScript</button>
+				<button>#jQuery</button>
+				<button>#JSON</button>
+				<button>#Multi-language</button>
+				<button>#Python</button>
+				<button>#Reddit</button>
+				<button>#SQL</button>
+				<button>#Stack Overflow</button>
+				<button>#Support</button>
+				<button>#This &amp; that</button>
+				<button>#Tips &amp; tricks</button>
+				<button>#Tool</button>
+				<button>#Tutorial</button>
+				<button>#Video course</button>
+				<button>#W3S</button>
+				<button>#Web Development</button>
+				<button>#Web Security</button>
+				<button>#YouTube</button>
+			</div>
+		</div>
+
+		<!-- TABLE CONTAINER -->
+		<div class="row">
+			<div class="col-xl-8 col-lg-8 col-md-10 col-sm-12 mx-auto my-3" id="tableContainer">
+				<table id="l4dTable" class="table table-dark table-striped table-hover table-bordered table-sm" width=100%>
+					
+					<!-- THEAD -->
+					<thead class="thead-dark">
+						<tr>
+							<th>Language</th>
+							<th>Name</th>
+							<th>Description</th>
+						</tr>
+					</thead>
+
+					<!-- TBODY -->
+					<tbody>
+<!-- 0-9 -->
+						<!-- 1keydata -->
+						<tr data-tags="sql, tutorial">
+							<td class="en"></td>
+							<td><a href="https://www.1keydata.com/">1keydata</a></td>
+							<td>Web Development tutorials</td>
+						</tr>
+
+<!-- A -->
+					<!-- animate.css -->
+					<tr data-tags="css, github, web development">
+						<td class="en"></td>
+						<td><a href="https://daneden.github.io/animate.css/">animate.css</a></td>
+						<td>CSS animations</td>
+					</tr>
+
+					<!-- Awesomelist -->
+					<tr data-tags="github, multi-language">
+						<td class="en"></td>
+						<td><a href="https://github.com/sindresorhus/awesome#contents">awesome</a></td>
+						<td>Awesome lists about all kinds of interesting topics</td>
+					</tr>
+
+<!-- B -->
+					<!-- Barelyfitz -->
+					<tr data-tags="css, tutorial, web development">
+						<td class="en"></td>
+						<td><a href="http://www.barelyfitz.com/screencast/html-training/css/positioning/">Bootstrap</a></td>
+						<td>CSS Positioning in 10 steps</td>
+					</tr>
+
+					<!-- Bootstrap Creative -->
+					<tr data-tags="bootstrap, cheatsheet, web development">
+						<td class="en"></td>
+						<td><a href="https://bootstrapcreative.com/resources/bootstrap-4-css-classes-index/">Bootstrap Creative</a></td>
+						<td>Bootstrap4 class list/cheatsheet</td>
+					</tr>
+
+					<!-- Bootstrap Creative -->
+					<tr data-tags="web development">
+						<td class="en"></td>
+						<td><a href="https://bootstrapcreative.com/what-are-the-integrity-and-crossorigin-attributes-and-why-are-they-necessary/">Bootstrap Creative</a></td>
+						<td>What are integrity and crossorigin attributes?</td>
+					</tr>
+
+					<!-- Bootstrap4 Flex -->
+					<tr data-tags="bootstrap, documentation, web development">
+						<td class="en"></td>
+						<td><a href="https://getbootstrap.com/docs/4.0/utilities/flex/">Bootstrap</a></td>
+						<td>Bootstrap4 flex documentation</td>
+					</tr>
+
+					<!-- Bootstrap4 Grid -->
+					<tr data-tags="bootstrap, documentation, web development">
+						<td class="en"></td>
+						<td><a href="https://getbootstrap.com/docs/4.0/layout/grid/#grid-options">Bootstrap</a></td>
+						<td>Bootstrap4 grid options</td>
+					</tr>
+
+					<!-- Bootstrap4 input group -->
+					<tr data-tags="bootstrap, documentation, web development">
+						<td class="en"></td>
+						<td><a href="https://getbootstrap.com/docs/4.0/components/input-group/">Bootstrap</a></td>
+						<td>Bootstrap4 input group</td>
+					</tr>
+
+					<!-- Bootstrap Italia -->
+					<tr data-tags="bootstrap, documentation, github, web development">
+						<td class="it"></td>
+						<td><a href="https://italia.github.io/bootstrap-italia/docs/come-iniziare/introduzione/">Bootstrap</a></td>
+						<td>Documentazione Boostrap Italia</td>
+					</tr>
+
+					<!-- Bootstrap Shuffle -->
+					<tr data-tags="bootstrap, web development">
+						<td class="en"></td>
+						<td><a href="https://bootstrapshuffle.com/classes">Bootstrap Shuffle</a></td>
+						<td>Bootstrap4 class list</td>
+					</tr>	
+
+
+<!-- C -->
+					<!-- CodeWars -->
+					<tr data-tags="exercise, interactive, multi-language">
+						<td class="en"></td>
+						<td><a href="https://www.codewars.com/">Codewars</a></td>
+						<td>Code challenges</td>
+					</tr>
+
+					<!-- Converting Colors -->
+					<tr data-tags="tool, web development">
+						<td class="en"></td>
+						<td><a href="https://convertingcolors.com/">Converting Colors</a></td>
+						<td>Convert colors in 15 different formats</td>
+					</tr>
+
+					<!-- CSS diner -->
+					<tr data-tags="css, exercise, game, github, interactive">
+						<td class="en"></td>
+						<td><a href="https://flukeout.github.io/">CSS Diner</a></td>
+						<td>learn CSS selectors with this interactive game</td>
+					</tr>
+
+					<!-- CSS Grid Garden -->
+					<tr data-tags="css, exercise, game, interactive">
+						<td class="en"></td>
+						<td><a href="https://cssgridgarden.com/">CSS Grid Garden</a></td>
+						<td>Learn CSS grid with this interactive game</td>
+					</tr>
+
+					<!-- CSS Grid Garden -->
+					<tr data-tags="css, exercise, game, interactive">
+						<td class="en"></td>
+						<td><a href="https://cssgridgarden.com/">CSS Grid Garden</a></td>
+						<td>Learn CSS grid with this interactive game</td>
+					</tr>
+
+					<!-- CSS reference -->
+					<tr data-tags="css, tutorial, web development">
+						<td class="en"></td>
+						<td><a href="https://cssreference.io/">CSS Reference</a></td>
+						<td>A visual guide to CSS</td>
+					</tr>
+
+					<!-- CSS tricks hasAttribute in jQuery -->
+					<tr data-tags="jquery, tutorial, web development">
+						<td class="en"></td>
+						<td><a href="https://css-tricks.com/snippets/jquery/make-an-jquery-hasattr/">CSS-Tricks</a></td>
+						<td>Emulate JavaScript's hasAttribute() in jQuery</td>
+					</tr>
+
+					<!-- CSS tricks flexbox -->
+					<tr data-tags="css, tutorial, web development">
+						<td class="en"></td>
+						<td><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS-Tricks</a></td>
+						<td>Complete flexbox guide</td>
+					</tr>
+
+					<!-- CSS tricks grid -->
+					<tr data-tags="css, tutorial, web development">
+						<td class="en"></td>
+						<td><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS-Tricks</a></td>
+						<td>Complete grid guide</td>
+					</tr>
+
+					<!-- CSS tricks Multiple class VS ID+class selector -->
+					<tr data-tags="css, this &amp; that, web development">
+						<td class="en"></td>
+						<td><a href="https://css-tricks.com/multiple-class-id-selectors/">CSS-Tricks</a></td>
+						<td>Multiple class VS ID+class selector</td>
+					</tr>
+
+
+<!-- D -->
+
+					<!-- Datatables -->
+					<tr data-tags="documentation, jquery, web development">
+						<td class="en"></td>
+						<td><a href="https://datatables.net/reference/option/">DataTables</a></td>
+						<td>DataTables options documentation</td>
+					</tr>		
+
+					<!-- Datatables Live -->
+					<tr data-tags="interactive, jquery, web development">
+						<td class="en"></td>
+						<td><a href="http://live.datatables.net/">DataTables live</a></td>
+						<td>DataTables plugin playground</td>
+					</tr>			
+
+<!-- E -->
+					<!-- Edutecnica -->
+					<tr data-tags="multi-language, tutorial">
+						<td class="it"></td>
+						<td><a href="http://www.edutecnica.it/informatica.htm">Edutecnica</a></td>
+						<td>Appunti vari informatica</td>
+					</tr>
+
+					<!-- Esprima -->
+					<tr data-tags="javascript, tool, web development">
+						<td class="it"></td>
+						<td><a href="https://esprima.org/demo/validate.html">Esprima</a></td>
+						<td>JavaScript syntax validator</td>
+					</tr>
+
+					
+
+					<!-- Exercism -->
+					<tr data-tags="exercise, interactive, multi-language">
+						<td class="en"></td>
+						<td><a href="https://exercism.io/">Exercism</a></td>
+						<td>Code practice and mentorship for everyone</td>
+					</tr>
+
+<!-- F -->
+					<!-- Flexbox Froggy -->
+					<tr data-tags="css, game, interactive">
+						<td class="en"></td>
+						<td><a href="https://flexboxfroggy.com/">Flexbox Froggy</a></td>
+						<td>Learn flexbox with this interactive game</td>
+					</tr>
+
+					<!-- Flexbox Defense -->
+					<tr data-tags="css, game, interactive">
+						<td class="en"></td>
+						<td><a href="http://www.flexboxdefense.com/">Flexbox Defense</a></td>
+						<td>Learn flexbox with this interactive game</td>
+					</tr>
+
+					<!-- FreeCodeCamp -->
+					<tr data-tags="interactive, multi-language, support, tutorial">
+						<td class="en"></td>
+						<td><a href="https://www.freecodecamp.org/">FreeCodeCamp</a></td>
+						<td>Learn to code online and get certifications</td>
+					</tr>
+
+					<!-- FreeCodeCamp CSS selectors -->
+					<tr data-tags="css, web development">
+						<td class="en"></td>
+						<td><a href="https://guide.freecodecamp.org/css/tutorials/css-selectors-cheat-sheet/">FreeCodeCamp</a></td>
+						<td>CSS selectors</td>
+					</tr>
+
+					
+					<!-- FreeFormatter HTML entities -->
+					<tr data-tags="html, web development">
+						<td class="en"></td>
+						<td><a href="https://www.freeformatter.com/html-entities.html">FreeFormatter</a></td>
+						<td>List of HTML entities</td>
+					</tr>
+
+					<!-- FreeFormatter Lorem ipsum generator -->
+					<tr data-tags="html, tools, web development">
+						<td class="en"></td>
+						<td><a href="https://www.freeformatter.com/lorem-ipsum-generator.html">FreeFormatter</a></td>
+						<td>Lorem ipsum generator</td>
+					</tr>
+
+					<!-- FreeFormatter HTML formatter -->
+					<tr data-tags="html, tools, web development">
+						<td class="en"></td>
+						<td><a href="https://www.freeformatter.com/html-formatter.html">FreeFormatter</a></td>
+						<td>HTML formatter</td>
+					</tr>
+
+					<!-- Froont blog -->
+					<tr data-tags="css, web development">
+						<td class="en"></td>
+						<td><a href="https://blog.froont.com/positioning-in-web-design/">Froont blog</a></td>
+						<td>Positioning explained with GIFs</td>
+					</tr>
+
+
+					
+
+
+<!-- G -->
+					<!-- Geeks for Geeks -->
+					<tr data-tags="geeks for geeks, interactive, multi-language, tutorial">
+						<td class="en"></td>
+						<td><a href="https://www.geeksforgeeks.org/">Geeks for Geeks</a></td>
+						<td>A computer science portal for geeks</td>
+					</tr>
+
+					<!-- Geeks for Geeks practice -->
+					<tr data-tags="exercise, geeks for geeks, interactive, multi-language, tutorial">
+						<td class="en"></td>
+						<td><a href="https://practice.geeksforgeeks.org/">Geeks for Geeks</a></td>
+						<td>Practice with different code exercises</td>
+					</tr>
+
+					
+
+
+<!-- H -->
+					<!-- hackerthemes  -->
+					<tr data-tags="bootstrap, cheatsheet, web development">
+						<td class="en"></td>
+						<td><a href="https://hackerthemes.com/bootstrap-cheatsheet/">hackerthemes</a></td>
+						<td>Bootstrap4 class list/cheatsheet</td>
+					</tr>
+
+					<!-- HTML.it  -->
+					<tr data-tags="html, tutorial">
+						<td class="it"></td>
+						<td><a href="https://www.html.it/guide/guida-html5/">HTML.it</a></td>
+						<td>Guida HTML5</td>
+					</tr>
+
+					<!-- HTMLquick HTML tags -->
+					<tr data-tags="html, web development">
+						<td class="en"></td>
+						<td><a href="https://www.htmlquick.com/reference/tags.html">HTMLquick</a></td>
+						<td>List of HTML tags</td>
+					</tr>
+
+					<!-- HTMLquick HTML global attributes -->
+					<tr data-tags="html, web development">
+						<td class="en"></td>
+						<td><a href="https://www.htmlquick.com/reference/attributes.html">HTMLquick</a></td>
+						<td>List of HTML global attributes</td>
+					</tr>
+
+					<!-- HTMLquick HTML entities -->
+					<tr data-tags="html, web development">
+						<td class="en"></td>
+						<td><a href="https://www.htmlquick.com/reference/character-entity-reference.html">HTMLquick</a></td>
+						<td>List of HTML entities</td>
+					</tr>
+
+					<!-- HTMLquick URL vs URI  -->
+					<tr data-tags="html, this &amp; that, web development">
+						<td class="en"></td>
+						<td><a href="https://www.htmlquick.com/reference/uri-url.html/">HTMLquick</a></td>
+						<td>URL vs URI</td>
+					</tr>
+
+					<!-- How to center in CSS  -->
+					<tr data-tags="css, interactive, web development">
+						<td class="en"></td>
+						<td><a href="http://howtocenterincss.com/">howtocenterinCSS</a></td>
+						<td>Complete guide to CSS centering</td>
+					</tr>
+
+
+<!-- I -->
+					<!-- Interneting is hard -->
+					<tr data-tags="css, html, tutorial, web development">
+						<td class="en"></td>
+						<td><a href="https://internetingishard.com/">internetingishard</a></td>
+						<td>HTML/CSS tutorials for beginners</td>
+					</tr>
+
+
+<!-- J -->
+					<!-- jQuery documentation -->
+					<tr data-tags="documentation, jquery, web development">
+						<td class="en"></td>
+						<td><a href="https://api.jquery.com/">jQuery</a></td>
+						<td>jQuery documentation</td>
+					</tr>
+
+					<!-- JSON documentation -->
+					<tr data-tags="documentation, json">
+						<td class="en"></td>
+						<td><a href="https://www.json.org/json-en.html">JSON</a></td>
+						<td>JSON documentation</td>
+					</tr>
+
+					<!-- JSON editor -->
+					<tr data-tags="json, tool, web development">
+						<td class="en"></td>
+						<td><a href="https://jsoneditoronline.org/">JSON editor online</a></td>
+						<td>JSON online editor</td>
+					</tr>
+
+					
+
+
+
+<!-- K -->
+
+
+<!-- L -->
+					<!-- LabStack -->
+					<tr data-tags="interactive, multi-language, tool">
+						<td class="en"></td>
+						<td><a href="https://code.labstack.com/">Labstack</a></td>
+						<td>Multi-language programming playground</td>
+					</tr>
+
+					<!-- LogicAndCodingGames -->
+					<tr data-tags="game, github">
+						<td class="en"></td>
+						<td><a href="https://github.com/dargaCode/LogicAndCodingGames/">LogicAndCodingGames</a></td>
+						<td>A great list of coding and logic games</td>
+					</tr>
+					
+
+<!-- M -->
+					<!-- Measure -->
+					<tr data-tags="tool, web development">
+						<td class="en"></td>
+						<td><a href="https://web.dev/measure/">Measure</a></td>
+						<td>Measure a website's performances</td>
+					</tr>
+
+					<!-- Measure -->
+					<tr data-tags="css, this &amp; that, web development">
+						<td class="en"></td>
+						<td><a href="https://medium.com/code-better/css-units-for-font-size-px-em-rem-79f7e592bb97">Medium</a></td>
+						<td>PX vs REM vs EM</td>
+					</tr>
+					
+
+					<!-- MDN -->
+					<tr data-tags="documentation, mdn, web development">
+						<td class="en"></td>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/Tutorials">MDN</a></td>
+						<td>MDN Web Development tutorials</td>
+					</tr>
+
+					<!-- MDN flexbox -->
+					<tr data-tags="css, documentation, mdn, web development">
+						<td class="en"></td>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout">MDN</a></td>
+						<td>MDN flexbox</td>
+					</tr>
+
+
+
+					
+
+<!-- N -->
+
+<!-- O -->
+
+<!-- P -->
+
+<!-- Q -->
+
+<!-- R -->
+					<!-- r/learnprogramming -->
+					<tr data-tags="multi-language, reddit, support">
+						<td class="en"></td>
+						<td><a href="https://www.reddit.com/r/learnprogramming/">r/learnprogramming</a></td>
+						<td>Ask for help for various programming languages</td>
+					</tr>
+
+<!-- S -->
+					<!-- Scrimba -->
+					<tr data-tags="interactive, multi-language, tutorial, video course">
+						<td class="en"></td>
+						<td><a href="https://scrimba.com/">Scrimba</a></td>
+						<td>Learn to code with interactive video tutorials</td>
+					</tr>
+
+					<!-- ShayHowe -->
+					<tr data-tags="css, html, tutorial, web development">
+						<td class="en"></td>
+						<td><a href="https://learn.shayhowe.com/">ShayHowe</a></td>
+						<td>Begginners and advanced HTML/CSS tutorials</td>
+					</tr>
+
+					<!-- SQL bolt -->
+					<tr data-tags="interactive, sql, tutorial">
+						<td class="en"></td>
+						<td><a href="https://sqlbolt.com/">SQLBolt</a></td>
+						<td>Learn SQL with simple, interactive exercises</td>
+					</tr>
+
+					<!-- Stack Overflow -->
+					<tr data-tags="multi-language, stack overflow, support">
+						<td class="en"></td>
+						<td><a href="https://stackoverflow.com/">Stack Overflow</a></td>
+						<td>The largest and most trusted community for developers</td>
+					</tr>
+
+
+<!-- T -->
+					<!-- Tutorialrepublic -->
+					<tr data-tags="javascript, tips &amp; tricks, web development">
+						<td class="en"></td>
+						<td><a href="https://blog.teamtreehouse.com/unobtrusive-javascript-important">treehouse blog</a></td>
+						<td>How to write unobtrusive JS code</td>
+					</tr>
+
+					<!-- Tutorialrepublic -->
+					<tr data-tags="multi-language, tutorial, web development">
+						<td class="en"></td>
+						<td><a href="https://www.tutorialrepublic.com/">TutorialRepublic</a></td>
+						<td>Web Developement tutorials</td>
+					</tr>
+
+					<!-- Tutorialrepublic BS -->
+					<tr data-tags="bootstrap, tutorial, web development">
+						<td class="en"></td>
+						<td><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/">TutorialRepublic</a></td>
+						<td>Bootstrap4 tutorial</td>
+					</tr>
+
+
+
+<!-- U -->
+
+<!-- V -->
+					<!-- vanseodesign -->
+					<tr data-tags="css, tips &amp; tricks, web development">
+						<td class="en"></td>
+						<td><a href="http://vanseodesign.com/css/vertical-centering/">vanseodesign</a></td>
+						<td>Six methods for vertical centering with CSS</td>
+					</tr>
+
+
+
+<!-- W -->
+					<!-- W3 HTML validator -->
+					<tr data-tags="html, tool, web development">
+						<td class="en"></td>
+						<td><a href="https://validator.w3.org/">W3</a></td>
+						<td>HTML validator</td>
+					</tr>
+
+					<!-- W3 CSS selectors -->
+					<tr data-tags="css, documentation, web development">
+						<td class="en"></td>
+						<td><a href="https://www.w3.org/TR/selectors-3/#selectors">W3</a></td>
+						<td>CSS selectors</td>
+					</tr>
+
+
+					<!-- W3S -->
+					<tr data-tags="multi-language, tutorial, w3s, web development">
+						<td class="en"></td>
+						<td><a href="https://www.w3schools.com/">W3S</a></td>
+						<td>Learn web technologies online</td>
+					</tr>
+
+					<!-- W3S Bootstrap -->
+					<tr data-tags="bootstrap, tutorial, w3s, web development">
+						<td class="en"></td>
+						<td><a href="https://www.w3schools.com/bootstrap4/default.asp">W3S</a></td>
+						<td>Bootstrap4 tutorial</td>
+					</tr>
+
+					<!-- W3S Color picker -->
+					<tr data-tags="w3s, tools">
+						<td class="en"></td>
+						<td><a href="https://www.w3schools.com/colors/colors_picker.asp">W3S</a></td>
+						<td>Color picker</td>
+					</tr>
+
+
+					<!-- W3S List of CSS properties -->
+					<tr data-tags="css, w3s, web development">
+						<td class="en"></td>
+						<td><a href="https://www.w3schools.com/cssref/">W3S</a></td>
+						<td>List of CSS properties</td>
+					</tr>
+
+					<!-- W3S HTML tags -->
+					<tr data-tags="html, w3s, web development">
+						<td class="en"></td>
+						<td><a href="https://www.w3schools.com/tags/">W3S</a></td>
+						<td>List of HTML tags</td>
+					</tr>
+
+					<!-- W3S HTML global attributes -->
+					<tr data-tags="html, w3s, web development">
+						<td class="en"></td>
+						<td><a href="https://www.w3schools.com/tags/">W3S</a></td>
+						<td>List of HTML tags</td>
+					</tr>
+
+					<!-- W3S JS reference ordered by category -->
+					<tr data-tags="javascript, w3s, web development">
+						<td class="en"></td>
+						<td><a href="https://www.w3schools.com/jsref/default.asp">W3S</a></td>
+						<td>JavaScript reference ordered by category</td>
+					</tr>
+
+					<!-- Webaim -->
+					<tr data-tags="tools, web development">
+						<td class="en"></td>
+						<td><a href="https://webaim.org/resources/contrastchecker/">Webaim</a></td>
+						<td>Contrast validator</td>
+					</tr>
+
+
+					<!-- WebDevStudyResources -->
+					<tr data-tags="github, web development">
+						<td class="en"></td>
+						<td><a href="https://github.com/dargaCode/WebDevStudyResources/">WebDevStudyResources</a></td>
+						<td>A great list of useful resources, specific for Web Development</td>
+					</tr>
+
+					<!-- Web Dev external anchors rel noopener -->
+					<tr data-tags="html, tips &amp; tricks, web development">
+						<td class="en"></td>
+						<td><a href="https://web.dev/external-anchors-use-rel-noopener/">Web.Dev</a></td>
+						<td>External anchors and rel noopener</td>
+					</tr>
+
+<!-- X -->
+
+<!-- Y -->
+					<!-- YouTube -->
+					<tr data-tags="multi-language, tutorial, video course, youtube">
+						<td class="it"></td>
+						<td><a href="https://www.youtube.com/user/fcamuso/playlists">YouTube</a></td>
+						<td>Canale YT fcamuso</td>
+					</tr>
+
+<!-- Z -->
+					</tbody>
+
+				</table>
+			</div>
+		</div>
+
+
+	</div>
+</body>
+</html>

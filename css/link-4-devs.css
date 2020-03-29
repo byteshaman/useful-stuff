@@ -1,0 +1,18 @@
+.my-btn, .my-btn:hover {
+	border-color: black;
+	border-radius: 40px;
+	background-color: black;
+	color: white;
+}
+
+.my-btn.selected {
+	background-color: darkgreen;
+}
+
+td.en {
+	background: url(../imgs/en-flag.png) center no-repeat;
+}
+
+td.it {
+	background: url(../imgs/it-flag.png) center no-repeat;
+}
