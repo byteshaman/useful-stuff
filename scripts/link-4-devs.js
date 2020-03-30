@@ -3,15 +3,6 @@ let listObj = {}
 let trToShow = new Array();
 let filtersArr = new Array();
 
-// EVENT LISTENER
-function eventListener() {
-  $('#tagContainer button').click( function() {
-    // Toggle class of clicked button
-    $(this).toggleClass('selected');
-    addRemoveFiltersArr($(this)); // Calls populateLiToShow and disableUselssButtons
-  });
-}
-
 // Add or remove tag from filtersArr
 function addRemoveFiltersArr(btn) {
   // Get the text of the button pressed, minus '#' to avoid problems with jQuery selectors
@@ -22,11 +13,45 @@ function addRemoveFiltersArr(btn) {
   if (i === -1) {
     filtersArr.push(tagName);
   }
-  else {
-    // Remove tag if it's already there (remove at i index, 1 time)
+  // Remove tag if it's already there (remove at i index, 1 time)
+  else { 
     filtersArr.splice(i, 1);
   }
-  populateTrToShow(); // Calls containsAll and hideAllTr, and if needed displayFilteredTr
+  populateTrToShow(filtersArr); // Calls containsAll and hideAllTr, and if needed displayFilteredTr
+}
+
+
+// Check if arr2 contains every element of arr1
+function containsAll(arr1, arr2){
+  return arr1.every(elem => arr2.includes(elem));
+}
+
+// Disable buttons that would produce an empty result
+function disableButtons ()  {
+  let filtersArrPlus = filtersArr;
+  // For every not active button
+  $('button:not(.selected)').each(function() {
+    let count = 0;
+    let btnText = $(this).text().substr(1).toLowerCase();
+    filtersArrPlus.push(btnText);
+    // For every key in listObj
+    for (let key in listObj) {
+      // Put tags (which is an array) in trObjectTagArray
+      let trObjectTagArray = listObj[key].tags;
+      // If the processed element's tag array contains every "filter" tag then increase count
+      if (containsAll (filtersArrPlus, trObjectTagArray)) {
+        count ++;
+      }
+    }
+    if (count === 0) {
+      $(this).prop('disabled', true);
+    }
+    else {
+      $(this).prop('disabled', false);
+    }
+    // Remove the last element added
+    filtersArrPlus.pop();
+  });
 }
 
 // Display filtered Tr
@@ -35,6 +60,18 @@ function displayFilteredTr() {
     elem.css('display','table-row');
   }
 }
+
+// EVENT LISTENER: button click inside event listener
+function eventListener() {
+  $('#tagContainer button').click( function() {
+    // Toggle class of clicked button
+    $(this).toggleClass('selected');
+    addRemoveFiltersArr($(this)); // Calls populateLiToShow
+    disableButtons(); // Check if any button needs to be disabled because it would produce no results if combined with current tags in filtersArr
+  });
+}
+
+
 
 // Hide every tr of table's body
 function hideAllTr () {
@@ -76,12 +113,9 @@ function populateListObj() {
 }
 
 // Populate the array trToShow with tr elements based on user's chosen tags
-//! NEWWWWWWWWWWWWWWWWWWWWWWWWWW
 function populateTrToShow() {
   // Clear existing elements
   trToShow = [];
-  // Keep tracks of how many li elements are being displayed
-  let count = 0;
   // For every key in listObj
   for (let key in listObj) {
     // Put tags (which is an array) in trObjectTagArray
@@ -89,23 +123,15 @@ function populateTrToShow() {
     // If the processed element's tag array contains every "filter" tag then add the element (the tr itself) to trToShow
     if (containsAll (filtersArr, trObjectTagArray)) {
       trToShow.push(listObj[key].tr)
-      count ++;
     }
   }
   hideAllTr(); 
-  if (count !== 0) {
-    displayFilteredTr();
-  }
+  displayFilteredTr(); // There will always be at least one displayed items thanks to disableButtons()
 }
 
 //* Style the buttons by adding them classes
 function styleButtons() {
   $('#tagContainer button').addClass('btn my-1 my-btn');
-}
-
-// Check if arr1 contains every element of arr2
-function containsAll(arr1, arr2){
-  return arr1.every(elem => arr2.includes(elem));
 }
 
 

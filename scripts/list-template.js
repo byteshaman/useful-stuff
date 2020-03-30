@@ -20,7 +20,11 @@ function makePoppable(elem) {
 // Every time the user clicks on a link whose href starts with '#', scroll to it keeping in mind the fixed navbar's height
 function moveAnchorDown() {
 	$('a[href^="#"]').click(function () {
+		// Set the target to be the link on on which the user has clicked
 		let target = $($(this).attr('href'));
+		console.log(typeof ($(this).attr('href')));
+		
+		// Get the offset position for the target
 		let offsetTop = target.offset().top;
 		let scrollto = offsetTop - navH;
 	$('html, body').animate({scrollTop:scrollto}, 5);
@@ -29,14 +33,12 @@ function moveAnchorDown() {
 
 
 function moveSidebarDown () {
-  $('body').attr('data-offset',navH + 5); //to properly apply the "active" class properly to main category 1 on page load
-
-	//positioning the navbar's links
+  $('body').attr('data-offset',navH + 5); // To properly apply the "active" class to main category 1 when the scrollbar is on top
+	// Position the sidebar's links
 	$('#sidebar>nav').css('top',navH); 
 }
 
 // Scan every list link with multi class and set its content
-
 function scanMultiLi() {  
   $('#sidebarandcontent li.multi a').each(function () {
     var textVal = formatWell($(this));
@@ -60,31 +62,20 @@ function scanNotMultiLi() {
   });
 }
 
-// Set the data-content attribute of elem to a custom one for specific websites, used for websites that appear many times 
+// Set the data-content attribute of elem to a custom one for specific websites, the idea is to use this function for websites that are used many times
 function setDataContent(elem) {
 	makePoppable(elem);
 	let websiteName = formatWell(elem);
-	//set data-content to custom values for most used links
+	// Set data-content to custom values for most used links: e.g. if the name contains github. then data-content will be just "github"
 	if (websiteName.indexOf('github.') > -1)
 		websiteName = "github";
-	else if (websiteName.indexOf('css-tricks') > -1)
-		websiteName = "css-tricks.com";
-	else if (websiteName.indexOf('w3schools') > -1)
-		websiteName = "w3schools";
 	elem.attr('data-content', websiteName);
 }
 
-
-function targetBlankForContentLiLinks() {
-  $('#content li a').attr({
-    'target': '_blank',
-    'rel':'noopener'});
-}
   
 $(document).ready(function () {
   moveAnchorDown();
   moveSidebarDown ();
-  targetBlankForContentLiLinks();
   scanMultiLi();
   scanNotMultiLi();
 });
