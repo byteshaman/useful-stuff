@@ -3,3 +3,4 @@ node_modules
 debug.log
 Web.config
 favorites-list.sln
+.vscode

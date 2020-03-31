@@ -5,8 +5,10 @@ let filtersArr = new Array();
 
 // Add or remove tag from filtersArr
 function addRemoveFiltersArr(btn) {
-  // Get the text of the button pressed, minus '#' to avoid problems with jQuery selectors
-  let tagName = btn.text().substr(1).toLowerCase();
+  // Get the value of the pressed button
+  let tagName = btn.val();
+  console.log(tagName);
+  
   // Check if filtersArr contains the tag
   let i = filtersArr.indexOf(tagName);
   // Add tag if it's not already there
@@ -20,7 +22,6 @@ function addRemoveFiltersArr(btn) {
   populateTrToShow(filtersArr); // Calls containsAll and hideAllTr, and if needed displayFilteredTr
 }
 
-
 // Check if arr2 contains every element of arr1
 function containsAll(arr1, arr2){
   return arr1.every(elem => arr2.includes(elem));
@@ -32,8 +33,8 @@ function disableButtons ()  {
   // For every not active button
   $('button:not(.selected)').each(function() {
     let count = 0;
-    let btnText = $(this).text().substr(1).toLowerCase();
-    filtersArrPlus.push(btnText);
+    let btnVal = $(this).val();
+    filtersArrPlus.push(btnVal);
     // For every key in listObj
     for (let key in listObj) {
       // Put tags (which is an array) in trObjectTagArray
@@ -63,15 +64,13 @@ function displayFilteredTr() {
 
 // EVENT LISTENER: button click inside event listener
 function eventListener() {
-  $('#tagContainer button').click( function() {
+  $('#tagContainer button').click(function() {
     // Toggle class of clicked button
     $(this).toggleClass('selected');
     addRemoveFiltersArr($(this)); // Calls populateLiToShow
     disableButtons(); // Check if any button needs to be disabled because it would produce no results if combined with current tags in filtersArr
   });
 }
-
-
 
 // Hide every tr of table's body
 function hideAllTr () {
@@ -82,18 +81,18 @@ function hideAllTr () {
 function initDataTable() {
   $('#l4dTable').DataTable(
     {
-      // Make the table scrollable
+      // Make the table scrollable after the height is > 400px
       "scrollY": 400,
-      "paging": false,
-      "autoWidth": true,
+      
       // Make first column not orderable
       "columnDefs": [
-              { "targets": 0, "orderable": false },
-              { "targets": 0, "width": "30px" }
+              { "targets": 0, "orderable": false, "width": '1px' },
+              
       ],
       // Make the second column (Name) the default one for ordering
       "order": [[ 1, "asc" ]],
-      // Remove "show entries" info
+      // Remove "show entries" and pagination info
+      "paging": false,
       "bInfo" : false
     }
   );
@@ -129,14 +128,22 @@ function populateTrToShow() {
   displayFilteredTr(); // There will always be at least one displayed items thanks to disableButtons()
 }
 
-//* Style the buttons by adding them classes
+// Style the buttons by adding them classes
 function styleButtons() {
   $('#tagContainer button').addClass('btn my-1 my-btn');
+}
+
+// Style the cards by adding them classes
+function styleCards() {
+  $('#tagContainer .card').addClass('bg-secondary h-100');
+  $('#tagContainer .card-body').addClass('p-0');
+  $('#tagContainer .card').css('border','none');
 }
 
 
 $(document).ready( function() {
   styleButtons();
+  styleCards();
   populateListObj()
   eventListener();
   initDataTable();

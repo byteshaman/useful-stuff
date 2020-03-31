@@ -14,15 +14,15 @@
 	<link rel="stylesheet" type="text/css" href="../css/link-4-devs.css" />
 
 	<!-- SCRIPTS -->
-	<!-- LOADING JQUERY -->
+	<!-- JQUERY -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<!-- LOADING BOOTSTRAP -->
+	<!-- BOOTSTRAP -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-	<!-- LOADING DATATABLES -->
+	<!-- DATATABLES -->
 	<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
-	<!-- LOADING DATATABLES BOOTSTRAP -->
+	<!-- DATATABLES BOOTSTRAP -->
 	<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
-	<!-- LOADING MY SCRIPTS -->
+	<!-- MY SCRIPTS -->
 	<script src="../scripts/shared.js"></script>
 	<script src="../scripts/link-4-devs.js"></script>
 </head>
@@ -51,68 +51,101 @@
 		</div>
 
 
-<!-- Sostituire
-	webdevv -> web development
-	sover -> stack overflow
-	ghub -> github 
-	multilang -> multi-language
-	websec -> web security
+<!-- Abbreviations:
+	bs -> bootstrap
+	cheat -> cheatsheet
+	cpp -> c++
+	discord -> discord server
 	g4g -> geeks for geeks
+	gh -> github 
+	js -> javascript
+	jq -> jquery
+	multi -> multi
+	py -> python
+	sover -> stack overflow
+	supp -> support
+	thisthat -> this & that
+	tips -> tips & tricks
+	webdev -> web development
+	websec -> web security
+	yt -> youtube
 -->
 
-	<!-- TODO JUMBOTRON WITH TAGS EXPLANATION -->
 
 
-
-		<!-- FILTER CONTAINER -->
-		<div class="row">
-			<!-- Display buttons centered -->
-			<div class="mx-auto my-2 p-2 col-xl-8 col-lg-8 col-md-10 col-sm-12" id="tagContainer">
-				<button>#Article</button>
-				<button>#Bootstrap</button>
-				<button>#C++</button>
-				<button>#Cheatsheet</button>
-				<button>#CSS</button>
-				<button>#Discord server</button>
-				<button>#Documentation</button>
-				<button>#Exercise</button>
-				<button>#Game</button>
-				<button>#Geeks for Geeks</button>
-				<button>#Git</button>
-				<button>#GitHub</button>
-				<button>#Hacking</button>
-				<button>#HTML</button>
-				<button>#Interactive</button>
-				<button>#JavaScript</button>
-				<button>#jQuery</button>
-				<button>#JSON</button>
-				<button>#Multi-language</button>
-				<button>#Python</button>
-				<button>#Reddit</button>
-				<button>#SQL</button>
-				<button>#Stack Overflow</button>
-				<button>#Support</button>
-				<button>#This &amp; that</button>
-				<button>#Tips &amp; tricks</button>
-				<button>#Tool</button>
-				<button>#Tutorial</button>
-				<button>#Video course</button>
-				<button>#W3S</button>
-				<button>#Web Development</button>
-				<button>#Web Security</button>
-				<button>#YouTube</button>
+	<!-- FILTER CONTAINER -->
+	<div class="row text-center mt-3" id="tagContainer">
+		<!-- TOPIC -->
+		<div class="col-lg-4">
+			<div class="card">
+				<div class="card-body ">
+					<h5 class="card-title">TOPIC</h5>
+					<button value="bs">#Bootstrap</button>
+					<button value="cpp">#C++</button>
+					<button value="css">#CSS</button>
+					<button value="git">#Git</button>
+					<button value="hacking">#Hacking</button>
+					<button value="html">#HTML</button>
+					<button value="js">#JavaScript</button>
+					<button value="jq">#jQuery</button>
+					<button value="json">#JSON</button>
+					<button value="multi">#Multi-language</button>
+					<button value="py">#Python</button>
+					<button value="sql">#SQL</button>
+					<button value="supp">#Support</button>
+					<button value="webdev">#Web Development</button>
+					<button value="websec">#Web Security</button>
+				</div>
 			</div>
 		</div>
+	
+		<!-- TYPE -->
+		<div class="col-lg-4">
+			<div class="card">
+				<div class="card-body">
+					<h5 class="card-title">RESOURCE TYPE</h5>
+					<button value="article">#Article</button>
+					<button value="cheat">#Cheatsheet</button>
+					<button value="discord">#Discord server</button>
+					<button value="doc">#Documentation</button>
+					<button value="exercise">#Exercise</button>
+					<button value="game">#Game</button>
+					<button value="interactive">#Interactive</button>
+					<button value="thisthat">#This &amp; that</button>
+					<button value="tips">#Tips &amp; tricks</button>
+					<button value="tool">#Tool</button>
+					<button value="tutorial">#Tutorial</button>
+					<button value="videocourse">#Video course</button>
+				</div>			
+			</div>
+		</div>
+	
+		<!-- WEBSITES -->
+		<div class="col-lg-4">
+			<div class="card">
+				<div class="card-body">
+					<h5 class="card-title">WEBSITE</h5>
+					<button value="g4g">#Geeks for Geeks</button>
+					<button value="gh">#GitHub</button>
+					<button value="mdn">#MDN</button>
+					<button value="reddit">#Reddit</button>
+					<button value="sover">#Stack Overflow</button>
+					<button value="w3s">#W3Schools</button>
+					<button value="yt">#YouTube</button>
+				</div>	
+			</div>
+		</div>
+	</div>
 
 		<!-- TABLE CONTAINER -->
 		<div class="row">
 			<div class="col-xl-8 col-lg-8 col-md-10 col-sm-12 mx-auto my-3" id="tableContainer">
-				<table id="l4dTable" class="table table-dark table-striped table-hover table-bordered table-sm" width=100%>
+				<table id="l4dTable" class="table table-dark table-striped table-bordered table-sm" width="100%">
 					
 					<!-- THEAD -->
-					<thead class="thead-dark">
+					<thead>
 						<tr>
-							<th>Language</th>
+							<th>Lang</th>
 							<th>Name</th>
 							<th>Description</th>
 						</tr>
@@ -130,14 +163,14 @@
 
 <!-- A -->
 					<!-- animate.css -->
-					<tr data-tags="css, github, web development">
+					<tr data-tags="css, gh">
 						<td class="en"></td>
 						<td><a href="https://daneden.github.io/animate.css/">animate.css</a></td>
 						<td>CSS animations</td>
 					</tr>
 
 					<!-- Amazena -->
-					<tr data-tags="exercise, hacking, web security">
+					<tr data-tags="exercise, hacking, websec">
 						<td class="it"></td>
 						<td><a href="https://amazena.it/">Amazena</a></td>
 						<td>Sito web per provare attacchi informatici</td>
@@ -150,72 +183,72 @@
 						<td>Git tutorials: beginner to advanced</td>
 					</tr>
 
-					<!-- Awesomelist -->
-					<tr data-tags="github, multi-language">
+					<!-- Awesome Lists -->
+					<tr data-tags="gh, multi">
 						<td class="en"></td>
-						<td><a href="https://github.com/sindresorhus/awesome#contents">awesome</a></td>
+						<td><a href="https://github.com/sindresorhus/awesome#contents">Awesome Lists</a></td>
 						<td>Awesome lists about all kinds of interesting topics</td>
 					</tr>
 
 <!-- B -->
 					<!-- Barelyfitz -->
-					<tr data-tags="css, tutorial, web development">
+					<tr data-tags="css, tutorial, webdev">
 						<td class="en"></td>
 						<td><a href="http://www.barelyfitz.com/screencast/html-training/css/positioning/">BarelyFitz Designs</a></td>
 						<td>CSS Positioning in 10 steps</td>
 					</tr>
 
 					<!-- Bootstrap Creative -->
-					<tr data-tags="bootstrap, cheatsheet, web development">
+					<tr data-tags="bs, cheat, webdev">
 						<td class="en"></td>
 						<td><a href="https://bootstrapcreative.com/resources/bootstrap-4-css-classes-index/">Bootstrap Creative</a></td>
 						<td>Bootstrap4 class list/cheatsheet</td>
 					</tr>
 
 					<!-- Bootstrap Creative -->
-					<tr data-tags="web development">
+					<tr data-tags="webdev">
 						<td class="en"></td>
 						<td><a href="https://bootstrapcreative.com/what-are-the-integrity-and-crossorigin-attributes-and-why-are-they-necessary/">Bootstrap Creative</a></td>
 						<td>What are integrity and crossorigin attributes?</td>
 					</tr>
 
 					<!-- Bootstrap4 Flex -->
-					<tr data-tags="bootstrap, documentation, web development">
+					<tr data-tags="bs, doc, webdev">
 						<td class="en"></td>
 						<td><a href="https://getbootstrap.com/docs/4.0/utilities/flex/">Bootstrap</a></td>
 						<td>Bootstrap4 flex documentation</td>
 					</tr>
 
 					<!-- Bootstrap4 Grid -->
-					<tr data-tags="bootstrap, documentation, web development">
+					<tr data-tags="bs, doc, webdev">
 						<td class="en"></td>
 						<td><a href="https://getbootstrap.com/docs/4.0/layout/grid/#grid-options">Bootstrap</a></td>
 						<td>Bootstrap4 grid options</td>
 					</tr>
 
 					<!-- Bootstrap4 input group -->
-					<tr data-tags="bootstrap, documentation, web development">
+					<tr data-tags="bs, doc, webdev">
 						<td class="en"></td>
 						<td><a href="https://getbootstrap.com/docs/4.0/components/input-group/">Bootstrap</a></td>
 						<td>Bootstrap4 input group</td>
 					</tr>
 
 					<!-- Bootstrap Italia -->
-					<tr data-tags="bootstrap, documentation, github, web development">
+					<tr data-tags="bs, doc, gh, webdev">
 						<td class="it"></td>
 						<td><a href="https://italia.github.io/bootstrap-italia/docs/come-iniziare/introduzione/">Bootstrap Italia</a></td>
 						<td>Documentazione Boostrap Italia</td>
 					</tr>
 
 					<!-- Bootstrap Shuffle -->
-					<tr data-tags="bootstrap, web development">
+					<tr data-tags="bs, webdev">
 						<td class="en"></td>
 						<td><a href="https://bootstrapshuffle.com/classes">Bootstrap Shuffle</a></td>
 						<td>Bootstrap4 class list</td>
 					</tr>	
 
 					<!-- Browserling -->
-					<tr data-tags="tool, web development">
+					<tr data-tags="tool, webdev">
 						<td class="en"></td>
 						<td><a href="https://www.browserling.com/">Browserling</a></td>
 						<td>Cross browser tester</td>
@@ -224,42 +257,58 @@
 
 <!-- C -->
 					<!-- Cpp Reference -->
-					<tr data-tags="c++, documentation">
+					<tr data-tags="cpp, doc">
 						<td class="en"></td>
 						<td><a href="https://en.cppreference.com/w/cpp">Cpp Reference</a></td>
 						<td>C++ reference</td>
 					</tr>			
 
 					<!-- CanIUse -->
-					<tr data-tags="exercise, interactive, multi-language">
+					<tr data-tags="exercise, interactive, multi">
 						<td class="en"></td>
 						<td><a href="https://caniuse.com/">CanIUse</a></td>
 						<td>Up-to-date browser support tables</td>
 					</tr>
 
+					<!-- cdnjs -->
+					<tr data-tags="tool, webdev">
+						<td class="en"></td>
+						<td><a href="https://cdnjs.com/">cdnjs</a></td>
+						<td>The best FOSS CDN for web related libraries</td>
+					</tr>
+
+					<!-- CodeSupport -->
+					<tr data-tags="multi">
+						<td class="en"></td>
+						<td><a href="https://staging.codesupport.dev/resources">CodeSupport</a></td>
+						<td>A collection of programming resources curated by the CodeSupport community</td>
+					</tr>
+
+					
+
 					<!-- Codepen -->
-					<tr data-tags="interactive, tool, web development">
+					<tr data-tags="interactive, tool, webdev">
 						<td class="en"></td>
 						<td><a href="https://codepen.io/">Codepen</a></td>
 						<td>Online front-end editor</td>
 					</tr>
 
 					<!-- CodeWars -->
-					<tr data-tags="exercise, interactive, multi-language">
+					<tr data-tags="exercise, interactive, multi">
 						<td class="en"></td>
 						<td><a href="https://www.codewars.com/">Codewars</a></td>
 						<td>Code challenges</td>
 					</tr>
 
 					<!-- Converting Colors -->
-					<tr data-tags="tool, web development">
+					<tr data-tags="tool, webdev">
 						<td class="en"></td>
 						<td><a href="https://convertingcolors.com/">Converting Colors</a></td>
 						<td>Convert colors in 15 different formats</td>
 					</tr>
 
 					<!-- cplusplus C++ operators -->
-					<tr data-tags="c++, documentation, interactive">
+					<tr data-tags="cpp, doc, interactive">
 						<td class="en"></td>
 						<td><a href="http://www.cplusplus.com/doc/tutorial/operators/">cplusplus</a></td>
 						<td>C++ operators</td>
@@ -267,31 +316,31 @@
 
 
 					<!-- cplusplus reference -->
-					<tr data-tags="c++, documentation">
+					<tr data-tags="cpp, documentation">
 						<td class="en"></td>
 						<td><a href="http://www.cplusplus.com/reference/">cplusplus</a></td>
 						<td>Standard C++ Library reference</td>
 					</tr>
 
 					<!-- cplusplus -->
-					<tr data-tags="c++, support">
+					<tr data-tags="cpp, supp">
 						<td class="en"></td>
 						<td><a href="http://www.cplusplus.com/forum/">cplusplus</a></td>
 						<td>C++ forum where you can ask for help</td>
 					</tr>
 
 					<!-- CSS diner -->
-					<tr data-tags="css, exercise, game, github, interactive">
+					<tr data-tags="css, exercise, game, gh, interactive">
 						<td class="en"></td>
 						<td><a href="https://flukeout.github.io/">CSS Diner</a></td>
 						<td>learn CSS selectors with this interactive game</td>
 					</tr>
 
-					<!-- CSS Grid Garden -->
-					<tr data-tags="css, exercise, game, interactive">
+					<!-- CSS gg -->
+					<tr data-tags="css">
 						<td class="en"></td>
-						<td><a href="https://cssgridgarden.com/">CSS Grid Garden</a></td>
-						<td>Learn CSS grid with this interactive game</td>
+						<td><a href="https://css.gg/">CSSgg</a></td>
+						<td>500+ CSS icons</td>
 					</tr>
 
 					<!-- CSS Grid Garden -->
@@ -302,35 +351,35 @@
 					</tr>
 
 					<!-- CSS reference -->
-					<tr data-tags="css, tutorial, web development">
+					<tr data-tags="css, tutorial, webdev">
 						<td class="en"></td>
 						<td><a href="https://cssreference.io/">CSS Reference</a></td>
 						<td>A visual guide to CSS</td>
 					</tr>
 
 					<!-- CSS tricks hasAttribute in jQuery -->
-					<tr data-tags="jquery, tutorial, web development">
+					<tr data-tags="jq, tutorial, webdev">
 						<td class="en"></td>
 						<td><a href="https://css-tricks.com/snippets/jquery/make-an-jquery-hasattr/">CSS-Tricks</a></td>
 						<td>Emulate JavaScript's hasAttribute() in jQuery</td>
 					</tr>
 
 					<!-- CSS tricks flexbox -->
-					<tr data-tags="css, tutorial, web development">
+					<tr data-tags="css, tutorial, webdev">
 						<td class="en"></td>
 						<td><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS-Tricks</a></td>
 						<td>Complete flexbox guide</td>
 					</tr>
 
 					<!-- CSS tricks grid -->
-					<tr data-tags="css, tutorial, web development">
+					<tr data-tags="css, tutorial, webdev">
 						<td class="en"></td>
 						<td><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS-Tricks</a></td>
 						<td>Complete grid guide</td>
 					</tr>
 
 					<!-- CSS tricks Multiple class VS ID+class selector -->
-					<tr data-tags="css, this &amp; that, web development">
+					<tr data-tags="css, thisthat, webdev">
 						<td class="en"></td>
 						<td><a href="https://css-tricks.com/multiple-class-id-selectors/">CSS-Tricks</a></td>
 						<td>Multiple class VS ID+class selector</td>
@@ -340,14 +389,14 @@
 <!-- D -->
 
 					<!-- Datatables -->
-					<tr data-tags="documentation, jquery, web development">
+					<tr data-tags="doc, jq, webdev">
 						<td class="en"></td>
 						<td><a href="https://datatables.net/reference/option/">DataTables</a></td>
 						<td>DataTables options documentation</td>
 					</tr>		
 
 					<!-- Datatables Live -->
-					<tr data-tags="interactive, jquery, web development">
+					<tr data-tags="interactive, jq, webdev">
 						<td class="en"></td>
 						<td><a href="http://live.datatables.net/">DataTables live</a></td>
 						<td>DataTables plugin playground</td>
@@ -361,35 +410,42 @@
 					</tr>		
 
 					<!-- Discord: CodeSupport -->
-					<tr data-tags="discord server, multi-language, support">
+					<tr data-tags="discord, multi, supp">
 						<td class="en"></td>
 						<td><a href="http://codesupport.dev/">Discord</a></td>
 						<td>CodeSupport server</td>
 					</tr>	
 
+					<!-- Discord: CodeSupport -->
+					<tr data-tags="discord, multi, supp">
+						<td class="en"></td>
+						<td><a href="http://codesupport.dev/">Discord</a></td>
+						<td>FreeCodeCamp unofficial server</td>
+					</tr>	
+
 					<!-- Discord: Frontend Developers -->
-					<tr data-tags="discord server, support, web development">
+					<tr data-tags="discord, supp, webdev">
 						<td class="en"></td>
 						<td><a href="https://discordapp.com/invite/kx7pk6J">Discord</a></td>
 						<td>Frontend Developers server</td>
 					</tr>	
 
 					<!-- Discord: TheCodingDen -->
-					<tr data-tags="discord server, multi-language, support">
+					<tr data-tags="discord, multi, supp">
 						<td class="en"></td>
 						<td><a href="https://discord.gg/code">Discord</a></td>
 						<td>TheCodingDen server</td>
 					</tr>	
 
 					<!-- Discord: Programming Discussions -->
-					<tr data-tags="discord server, multi-language, support">
+					<tr data-tags="discord, multi, supp">
 						<td class="en"></td>
 						<td><a href="http://invite.progdisc.club/">Discord</a></td>
 						<td>Programming Discussions server</td>
 					</tr>	
 
 					<!-- Discord: r/webdev -->
-					<tr data-tags="discord server, support, web developers">
+					<tr data-tags="discord, supp, webdev">
 						<td class="en"></td>
 						<td><a href="https://discord.gg/keD8rZp">Discord</a></td>
 						<td>Official r/webdev server</td>
@@ -398,21 +454,30 @@
 
 <!-- E -->
 					<!-- Edutecnica -->
-					<tr data-tags="multi-language, tutorial">
+					<tr data-tags="multi, tutorial">
 						<td class="it"></td>
 						<td><a href="http://www.edutecnica.it/informatica.htm">Edutecnica</a></td>
 						<td>Appunti vari informatica</td>
 					</tr>
 
+					<!-- electrictoolbox -->
+					<tr data-tags="article, jq, tutorial">
+						<td class="it"></td>
+						<td><a href="https://electrictoolbox.com/jquery-set-multiple-attributes/">electrictoolbox</a></td>
+						<td>Set multiple attributes with jQuery</td>
+					</tr>
+
+					
+
 					<!-- Esprima -->
-					<tr data-tags="javascript, tool, web development">
+					<tr data-tags="js, tool, webdev">
 						<td class="en"></td>
 						<td><a href="https://esprima.org/demo/validate.html">Esprima</a></td>
 						<td>JavaScript syntax validator</td>
 					</tr>
 
 					<!-- Exercism -->
-					<tr data-tags="exercise, interactive, multi-language">
+					<tr data-tags="exercise, interactive, multi">
 						<td class="en"></td>
 						<td><a href="https://exercism.io/">Exercism</a></td>
 						<td>Code practice and mentorship for everyone</td>
@@ -441,56 +506,49 @@
 					</tr>
 
 					<!-- FreeCodeCamp -->
-					<tr data-tags="exercise, interactive, multi-language, tutorial">
+					<tr data-tags="exercise, interactive, multi, tutorial">
 						<td class="en"></td>
 						<td><a href="https://www.freecodecamp.org/">FreeCodeCamp</a></td>
 						<td>Learn to code online and get certifications</td>
 					</tr>
 
 					<!-- FreeCodeCamp CSS selectors -->
-					<tr data-tags="css, web development">
+					<tr data-tags="css, webdev">
 						<td class="en"></td>
 						<td><a href="https://guide.freecodecamp.org/css/tutorials/css-selectors-cheat-sheet/">FreeCodeCamp</a></td>
 						<td>CSS selectors</td>
 					</tr>
 
 					<!-- FreeCodeCamp Framework vs Library -->
-					<tr data-tags="this &amp; that">
+					<tr data-tags="thisthat">
 						<td class="en"></td>
 						<td><a href="https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/">FreeCodeCamp</a></td>
 						<td>Framework vs Library</td>
 					</tr>
 
 					<!-- FreeCodeCamp forum -->
-					<tr data-tags="multi-language, support">
+					<tr data-tags="multi, supp">
 						<td class="en"></td>
 						<td><a href="https://www.freecodecamp.org/forum/">FreeCodeCamp</a></td>
 						<td>FreeCodeCamp forum where you can ask for help</td>
 					</tr>	
 					
 					<!-- FreeFormatter HTML entities -->
-					<tr data-tags="html, web development">
+					<tr data-tags="html, webdev">
 						<td class="en"></td>
 						<td><a href="https://www.freeformatter.com/html-entities.html">FreeFormatter</a></td>
 						<td>List of HTML entities</td>
 					</tr>
 
 					<!-- FreeFormatter Lorem ipsum generator -->
-					<tr data-tags="html, tool, web development">
+					<tr data-tags="html, tool, webdev">
 						<td class="en"></td>
 						<td><a href="https://www.freeformatter.com/lorem-ipsum-generator.html">FreeFormatter</a></td>
 						<td>Lorem ipsum generator</td>
 					</tr>
 
-					<!-- FreeFormatter HTML formatter -->
-					<tr data-tags="html, tool, web development">
-						<td class="en"></td>
-						<td><a href="https://www.freeformatter.com/html-formatter.html">FreeFormatter</a></td>
-						<td>HTML formatter</td>
-					</tr>
-
 					<!-- Froont blog -->
-					<tr data-tags="css, web development">
+					<tr data-tags="css, webdev">
 						<td class="en"></td>
 						<td><a href="https://blog.froont.com/positioning-in-web-design/">Froont blog</a></td>
 						<td>Positioning explained with GIFs</td>
@@ -498,57 +556,57 @@
 
 <!-- G -->
 					<!-- Geeks for Geeks -->
-					<tr data-tags="geeks for geeks, interactive, multi-language, tutorial">
+					<tr data-tags="g4g, interactive, multi, tutorial">
 						<td class="en"></td>
 						<td><a href="https://www.geeksforgeeks.org/">Geeks for Geeks</a></td>
 						<td>A computer science portal for geeks</td>
 					</tr>
 
 					<!-- Geeks for Geeks practice -->
-					<tr data-tags="exercise, geeks for geeks, interactive, multi-language, tutorial">
+					<tr data-tags="exercise, g4g, interactive, multi, tutorial">
 						<td class="en"></td>
 						<td><a href="https://practice.geeksforgeeks.org/">Geeks for Geeks</a></td>
 						<td>Practice with different code exercises</td>
 					</tr>
 
 					<!-- Geeks for Geeks C++ type conversion -->
-					<tr data-tags="c++, geeks for geeks, tutorial">
+					<tr data-tags="cpp, g4g, tutorial">
 						<td class="en"></td>
 						<td><a href="https://www.geeksforgeeks.org/type-conversion-in-c/">Geeks for Geeks</a></td>
 						<td>Type conversion in C++</td>
 					</tr>
 
 					<!-- Git flight rules-->
-					<tr data-tags="git, github, tutorial">
+					<tr data-tags="git, gh, tutorial">
 						<td class="en"></td>
 						<td><a href="https://github.com/k88hudson/git-flight-rules#conventions-for-this-document">Git flight rules</a></td>
 						<td>A good list of how-to for Git</td>
 					</tr>
 
 					<!-- Clone vs Fork-->
-					<tr data-tags="git, github, this &amp; that">
+					<tr data-tags="git, gh, thisthat">
 						<td class="en"></td>
-						<td><a href="https://github.community/t5/Support-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372">Git Community</a></td>
-						<td>Git: Clone vs Fork</td>
+						<td><a href="https://github.community/t5/Support-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372">Github Community</a></td>
+						<td>Clone vs Fork</td>
 					</tr>
 
 <!-- H -->
 					<!-- hackerthemes  -->
-					<tr data-tags="bootstrap, cheatsheet, web development">
+					<tr data-tags="bs, cheat, webdev">
 						<td class="en"></td>
 						<td><a href="https://hackerthemes.com/bootstrap-cheatsheet/">hackerthemes</a></td>
 						<td>Bootstrap4 class list/cheatsheet</td>
 					</tr>
 
 					<!-- Hack This Site  -->
-					<tr data-tags="exercise, hacking, interactive, web security">
+					<tr data-tags="exercise, hacking, interactive, websec">
 						<td class="en"></td>
 						<td><a href="https://www.hackthissite.org/pages/index/index.php">Hack This Site!</a></td>
 						<td>Free training ground for users to test and expand their hacking skills</td>
 					</tr>
 
 					<!-- Hacker 101  -->
-					<tr data-tags="exercise, hacking, interactive, web security">
+					<tr data-tags="exercise, hacking, interactive, websec">
 						<td class="en"></td>
 						<td><a href="https://www.hacker101.com/">Hacker101</a></td>
 						<td>Free class for web security</td>
@@ -556,7 +614,7 @@
 
 
 					<!-- HTML.it HTML5  -->
-					<tr data-tags="html, tutorial, web development">
+					<tr data-tags="html, tutorial, webdev">
 						<td class="it"></td>
 						<td><a href="https://www.html.it/guide/guida-html5/">HTML.it</a></td>
 						<td>Guida HTML5</td>
@@ -569,36 +627,43 @@
 						<td>Guida ai Web Components</td>
 					</tr>
 
+					<!-- HTMLFormatter -->
+					<tr data-tags="html, tool, webdev">
+						<td class="en"></td>
+						<td><a href="https://htmlformatter.com/">HTML Formatter</a></td>
+						<td>HTML formatter</td>
+					</tr>
+
 					<!-- HTMLquick HTML tags -->
-					<tr data-tags="html, web development">
+					<tr data-tags="html, webdev">
 						<td class="en"></td>
 						<td><a href="https://www.htmlquick.com/reference/tags.html">HTMLquick</a></td>
 						<td>List of HTML tags</td>
 					</tr>
 
 					<!-- HTMLquick HTML global attributes -->
-					<tr data-tags="html, web development">
+					<tr data-tags="html, webdev">
 						<td class="en"></td>
 						<td><a href="https://www.htmlquick.com/reference/attributes.html">HTMLquick</a></td>
 						<td>List of HTML global attributes</td>
 					</tr>
 
 					<!-- HTMLquick HTML entities -->
-					<tr data-tags="html, web development">
+					<tr data-tags="html, webdev">
 						<td class="en"></td>
 						<td><a href="https://www.htmlquick.com/reference/character-entity-reference.html">HTMLquick</a></td>
 						<td>List of HTML entities</td>
 					</tr>
 
 					<!-- HTMLquick URL vs URI  -->
-					<tr data-tags="html, this &amp; that, web development">
+					<tr data-tags="html, thisthat, webdev">
 						<td class="en"></td>
 						<td><a href="https://www.htmlquick.com/reference/uri-url.html/">HTMLquick</a></td>
 						<td>URL vs URI</td>
 					</tr>
 
 					<!-- How to center in CSS  -->
-					<tr data-tags="css, interactive, web development">
+					<tr data-tags="css, interactive, webdev">
 						<td class="en"></td>
 						<td><a href="http://howtocenterincss.com/">howtocenterinCSS</a></td>
 						<td>Complete guide to CSS centering</td>
@@ -607,21 +672,21 @@
 
 <!-- I -->
 					<!-- ifac -->
-					<tr data-tags="python, tutorial">
+					<tr data-tags="py, tutorial">
 						<td class="it"></td>
 						<td><a href="http://www.ifac.cnr.it/~zoppetti/corsopython/">ifac</a></td>
 						<td>Corso su Python3</td>
 					</tr>
 
 					<!-- Interneting is hard -->
-					<tr data-tags="css, html, tutorial, web development">
+					<tr data-tags="css, html, tutorial, webdev">
 						<td class="en"></td>
 						<td><a href="https://internetingishard.com/">internetingishard</a></td>
 						<td>HTML/CSS tutorials for beginners</td>
 					</tr>
 
 					<!-- C++ core guidelines -->
-					<tr data-tags="c++, github, tips &amp; tricks">
+					<tr data-tags="cpp, gh, tips">
 						<td class="en"></td>
 						<td><a href="http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines.html">ISO Cpp</a></td>
 						<td>C++ core guidelines</td>
@@ -629,33 +694,50 @@
 
 
 <!-- J -->
+					<!-- Host page on GitHub pages -->
+					<tr data-tags="article, gh, tutorial, webdev">
+						<td class="en"></td>
+						<td><a href="http://jmcglone.com/guides/github-pages/">jmcglone.</a></td>
+						<td>A guide to creating and hosting GitHub pages</td>
+					</tr>
+
+
 					<!-- jQuery documentation -->
-					<tr data-tags="documentation, jquery, web development">
+					<tr data-tags="doc, jq, webdev">
 						<td class="en"></td>
 						<td><a href="https://api.jquery.com/">jQuery</a></td>
 						<td>jQuery documentation</td>
 					</tr>
 
 					<!-- JSFiddle -->
-					<tr data-tags="interactive, tool, web development">
+					<tr data-tags="interactive, tool, webdev">
 						<td class="en"></td>
 						<td><a href="https://jsfiddle.net/">JSFiddle</a></td>
 						<td>Online front-end editor</td>
 					</tr>
 
 					<!-- JSON documentation -->
-					<tr data-tags="documentation, json">
+					<tr data-tags="doc, json">
 						<td class="en"></td>
 						<td><a href="https://www.json.org/json-en.html">JSON</a></td>
 						<td>JSON documentation</td>
 					</tr>
 
 					<!-- JSON editor -->
-					<tr data-tags="json, tool, web development">
+					<tr data-tags="json, tool">
 						<td class="en"></td>
 						<td><a href="https://jsoneditoronline.org/">JSON editor online</a></td>
 						<td>JSON online editor</td>
 					</tr>
+
+					<!-- jsperf -->
+					<tr data-tags="js, tool">
+						<td class="en"></td>
+						<td><a href="https://jsperf.com/">jsperf</a></td>
+						<td>JavaScript performance playground</td>
+					</tr>
+
+					
 
 
 <!-- K -->
@@ -663,7 +745,7 @@
 
 <!-- L -->
 					<!-- LabStack -->
-					<tr data-tags="interactive, multi-language, tool">
+					<tr data-tags="interactive, multi, tool">
 						<td class="en"></td>
 						<td><a href="https://code.labstack.com/">Labstack</a></td>
 						<td>Multi-language programming playground</td>
@@ -676,6 +758,21 @@
 						<td>The most visual and interactive way to learn Git on the web</td>
 					</tr>
 
+					<!-- Leetcode -->
+					<tr data-tags="exercise, interactive, multi">
+						<td class="en"></td>
+						<td><a href="https://leetcode.com/problemset/">Leetcode</a></td>
+						<td>Solve code challenges in various languages</td>
+					</tr>
+
+					<!-- listjs => -->
+					<tr data-tags="doc, js, mdn, webdev">
+						<td class="en"></td>
+						<td><a href="https://listjs.com/">MDN</a></td>
+						<td>Native JavaScript that makes your plain HTML lists super flexible</td>
+					</tr>
+
+
 					<!-- LogicAndCodingGames -->
 					<tr data-tags="game, github">
 						<td class="en"></td>
@@ -686,43 +783,49 @@
 
 <!-- M -->
 					<!-- Mark Lodato -->
-					<tr data-tags="tool, web development">
+					<tr data-tags="tool, webdev">
 						<td class="en"></td>
 						<td><a href="http://marklodato.github.io/visual-git-guide/index-en.html">Mark Lodato</a></td>
 						<td>Git visual guide</td>
 					</tr>
 
 					<!-- Measure -->
-					<tr data-tags="tool, web development">
+					<tr data-tags="tool, webdev">
 						<td class="en"></td>
 						<td><a href="https://web.dev/measure/">Measure</a></td>
 						<td>Measure a website's performances</td>
 					</tr>
 
 					<!-- Measure -->
-					<tr data-tags="css, this &amp; that, web development">
+					<tr data-tags="css, thisthat, webdev">
 						<td class="en"></td>
 						<td><a href="https://medium.com/code-better/css-units-for-font-size-px-em-rem-79f7e592bb97">Medium</a></td>
 						<td>PX vs REM vs EM</td>
 					</tr>
-					
 
 					<!-- MDN -->
-					<tr data-tags="documentation, mdn, web development">
+					<tr data-tags="doc, mdn, tutorial, webdev">
 						<td class="en"></td>
 						<td><a href="https://developer.mozilla.org/en-US/docs/Web/Tutorials">MDN</a></td>
-						<td>MDN Web Development tutorials</td>
+						<td>Various web development tutorials</td>
 					</tr>
 
 					<!-- MDN flexbox -->
-					<tr data-tags="css, documentation, mdn, web development">
+					<tr data-tags="css, doc, mdn, webdev">
 						<td class="en"></td>
 						<td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout">MDN</a></td>
-						<td>MDN flexbox</td>
+						<td>Guide to flexible box layout</td>
 					</tr>
 
-					<!-- MySQL -->
-					<tr data-tags="documentation, sql">
+					<!-- MDN => -->
+					<tr data-tags="doc, js, mdn, webdev">
+						<td class="en"></td>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions">MDN</a></td>
+						<td>JavaScript arrow functions</td>
+					</tr>
+
+					<!-- MySQL doc -->
+					<tr data-tags="doc, sql">
 						<td class="en"></td>
 						<td><a href="https://dev.mysql.com/doc/refman/8.0/en/">MySQL</a></td>
 						<td>MySQL 8.0 reference manual</td>
@@ -731,7 +834,7 @@
 <!-- N -->
 
 					<!-- Net Sparker -->
-					<tr data-tags="cheatsheet, hacking, sql, web security">
+					<tr data-tags="cheat, hacking, sql, websec">
 						<td class="en"></td>
 						<td><a href="https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/">Net Sparker</a></td>
 						<td>SQL injection cheat sheet</td>
@@ -741,48 +844,62 @@
 
 <!-- P -->
 					<!-- Pensare da informatico -->
-					<tr data-tags="python, tutorial">
+					<tr data-tags="py, tutorial">
 						<td class="it"></td>
 						<td><a href="http://www.python.it/doc/Howtothink/Howtothink-html-it/index.htm">Python.it</a></td>
 						<td>Pensare da informatico: corso su Python</td>
 					</tr>
 
 					<!-- Python doc -->
-					<tr data-tags="documentation, python, tutorial">
+					<tr data-tags="doc, py, tutorial">
 						<td class="en"></td>
 						<td><a href="https://docs.python.org/3/tutorial/">Python.org</a></td>
-						<td>fficial Python documentation/tutorial</td>
+						<td>Official Python documentation/tutorial</td>
 					</tr>
 
+					<!-- Polyfill -->
+					<tr data-tags="tool, webdev">
+						<td class="en"></td>
+						<td><a href="https://polyfill.io/v3/">Polyfill</a></td>
+						<td>Support differing browsers by attempting to recreate the missing features with polyfills</td>
+					</tr>
 					
+
+					<!-- Practice Python -->
+					<tr data-tags="exercise, interactive, py">
+						<td class="en"></td>
+						<td><a href="http://www.practicepython.org/">Practice Python</a></td>
+						<td>Learn Python by solving code challenges</td>
+					</tr>
+	
 
 <!-- Q -->
 
 <!-- R -->
 
 					<!-- Regexr -->
-					<tr data-tags="cheatsheet, documentation, exercise, interactive, javascript, tool">
+					<tr data-tags="cheat, doc, exercise, interactive, js, tool">
 						<td class="en"></td>
 						<td><a href="https://regexr.com/">Regexr</a></td>
 						<td>Online tool to learn, build and test regular expressions</td>
 					</tr>
 
 					<!-- r/learnprogramming -->
-					<tr data-tags="multi-language, reddit, support">
+					<tr data-tags="multi, reddit, supp">
 						<td class="en"></td>
 						<td><a href="https://www.reddit.com/r/learnprogramming/">r/learnprogramming</a></td>
 						<td>Ask for help for various programming languages</td>
 					</tr>
 
 					<!-- r/italyinformatica -->
-					<tr data-tags="multi-language, reddit, support">
+					<tr data-tags="multi, reddit, supp">
 						<td class="it"></td>
 						<td><a href="https://www.reddit.com/r/ItalyInformatica/">r/ItalyInformatica</a></td>
 						<td>Il panorama informatico italiano su Reddit</td>
 					</tr>
 
 					<!-- r/webdev -->
-					<tr data-tags="reddit, support, web development">
+					<tr data-tags="reddit, supp, webdev">
 						<td class="en"></td>
 						<td><a href="https://www.reddit.com/r/webdev/">r/webdev</a></td>
 						<td>A community dedicated to all things web development</td>
@@ -790,32 +907,46 @@
 					
 
 					<!-- Realpython - Python fstrings -->
-					<tr data-tags="python, tutorial">
+					<tr data-tags="py, tutorial">
 						<td class="en"></td>
 						<td><a href="https://realpython.com/python-f-strings/">RealPython</a></td>
 						<td>Python f-strings</td>
 					</tr>
 
 <!-- S -->
+					<!-- SamanthaMing -->
+					<tr data-tags="thisthat, tutorial, webdev">
+						<td class="en"></td>
+						<td><a href="https://www.samanthaming.com/">SamanthaMing.com</a></td>
+						<td>Awesome website with a lot of intuitive tidbits on various topics</td>
+					</tr>
+
 					<!-- Scrimba -->
-					<tr data-tags="interactive, multi-language, tutorial, video course">
+					<tr data-tags="interactive, multi, tutorial, videocourse">
 						<td class="en"></td>
 						<td><a href="https://scrimba.com/">Scrimba</a></td>
 						<td>Learn to code with interactive video tutorials</td>
 					</tr>
 
 					<!-- ShayHowe -->
-					<tr data-tags="css, html, tutorial, web development">
+					<tr data-tags="css, html, tutorial, webdev">
 						<td class="en"></td>
 						<td><a href="https://learn.shayhowe.com/">ShayHowe</a></td>
 						<td>Begginners and advanced HTML/CSS tutorials</td>
 					</tr>
 
 					<!-- Shodan -->
-					<tr data-tags="web security">
+					<tr data-tags="websec">
 						<td class="en"></td>
 						<td><a href="https://www.shodan.io/">Hack This Site!</a></td>
 						<td>The search engine for finding vulnerable servers</td>
+					</tr>
+
+					<!-- Solved by Flexbox -->
+					<tr data-tags="css, tips">
+						<td class="en"></td>
+						<td><a href="https://philipwalton.github.io/solved-by-flexbox/">Solved by Flexbox</a></td>
+						<td>Showcase of problems once hard to solve that are now easily solved thanks to Flexbox</td>
 					</tr>
 
 					<!-- SQL bolt -->
@@ -826,70 +957,88 @@
 					</tr>
 
 					<!-- Stack Overflow -->
-					<tr data-tags="multi-language, stack overflow, support">
+					<tr data-tags="multi, sover, supp">
 						<td class="en"></td>
 						<td><a href="https://stackoverflow.com/">Stack Overflow</a></td>
 						<td>The largest and most trusted community for developers</td>
 					</tr>
 
 					<!-- Stack Overflow: include HTMl file with jQuery -->
-					<tr data-tags="html, jquery, stack overflow, web development">
+					<tr data-tags="html, jq, sover, webdev">
 						<td class="en"></td>
 						<td><a href="https://stackoverflow.com/questions/15320801/">Stack Overflow</a></td>
 						<td>How to include an HTML file with jQuery?</td>
 					</tr>
 
 					<!-- Stack Overflow: var vs let -->
-					<tr data-tags="javascript, stack overflow, this &amp; that">
+					<tr data-tags="js, sover, thisthat">
 						<td class="en"></td>
 						<td><a href="https://stackoverflow.com/questions/762011/">Stack Overflow</a></td>
-						<td>JavaScript: var vs let</td>
+						<td>var vs let</td>
 					</tr>
 
 					<!-- Stack Overflow: How to add new keys to a dictionary? -->
-					<tr data-tags="python, stack overflow">
+					<tr data-tags="py, sover">
 						<td class="en"></td>
 						<td><a href="https://stackoverflow.com/questions/1024847/how-can-i-add-new-keys-to-a-dictionary/8381589#8381589">Stack Overflow</a></td>
 						<td>Python: how to add new keys to a dictionary?</td>
 					</tr>
 
+					<!-- Stack Overflow: var vs let -->
+					<tr data-tags="html, sover, thisthat">
+						<td class="en"></td>
+						<td><a href="https://stackoverflow.com/questions/7730695/">Stack Overflow</a></td>
+						<td>disabled vs readonly</td>
+					</tr>
 
+					<!-- Stack Overflow: convert float to int -->
+					<tr data-tags="js, sover">
+						<td class="en"></td>
+						<td><a href="https://stackoverflow.com/questions/596467/">Stack Overflow</a></td>
+						<td>Convert float to int in JS</td>
+					</tr>
 
 <!-- T -->
+					<!-- TomHodgins -->
+					<tr data-tags="interactive, tool, webdev">
+						<td class="en"></td>
+						<td><a href="https://tomhodgins.com/demo/dom/">TomHodgins.com</a></td>
+						<td>Live DOM viewer tool</td>
+					</tr>
+
 					<!-- Tutorialrepublic -->
-					<tr data-tags="javascript, tips &amp; tricks, web development">
+					<tr data-tags="js, tips, webdev">
 						<td class="en"></td>
 						<td><a href="https://blog.teamtreehouse.com/unobtrusive-javascript-important">treehouse blog</a></td>
 						<td>How to write unobtrusive JS code</td>
 					</tr>
 
 					<!-- Tutorialrepublic -->
-					<tr data-tags="multi-language, tutorial, web development">
+					<tr data-tags="multi, tutorial, webdev">
 						<td class="en"></td>
 						<td><a href="https://www.tutorialrepublic.com/">TutorialRepublic</a></td>
 						<td>Web Developement tutorials</td>
 					</tr>
 
 					<!-- Tutorialrepublic BS -->
-					<tr data-tags="bootstrap, tutorial, web development">
+					<tr data-tags="bs, tutorial, webdev">
 						<td class="en"></td>
 						<td><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/">TutorialRepublic</a></td>
 						<td>Bootstrap4 tutorial</td>
 					</tr>
 
 					<!-- Tutorialspoint -->
-					<tr data-tags="c++, documentation, interactive">
+					<tr data-tags="cpp, doc, interactive">
 						<td class="en"></td>
 						<td><a href="https://www.tutorialspoint.com/cplusplus/cpp_operators.htm">Tutorialspoint</a></td>
 						<td>C++ operators</td>
 					</tr>
 
-
 <!-- U -->
 
 <!-- V -->
 					<!-- vanseodesign -->
-					<tr data-tags="css, tips &amp; tricks, web development">
+					<tr data-tags="css, tips, webdev">
 						<td class="en"></td>
 						<td><a href="http://vanseodesign.com/css/vertical-centering/">vanseodesign</a></td>
 						<td>Six methods for vertical centering with CSS</td>
@@ -897,29 +1046,28 @@
 
 <!-- W -->
 					<!-- W3 HTML validator -->
-					<tr data-tags="html, tool, web development">
+					<tr data-tags="html, tool, webdev">
 						<td class="en"></td>
 						<td><a href="https://validator.w3.org/">W3</a></td>
 						<td>HTML validator</td>
 					</tr>
 
 					<!-- W3 CSS selectors -->
-					<tr data-tags="css, documentation, web development">
+					<tr data-tags="css, doc, webdev">
 						<td class="en"></td>
 						<td><a href="https://www.w3.org/TR/selectors-3/#selectors">W3</a></td>
 						<td>CSS selectors</td>
 					</tr>
 
-
 					<!-- W3S -->
-					<tr data-tags="multi-language, tutorial, w3s, web development">
+					<tr data-tags="multi, tutorial, w3s, webdev">
 						<td class="en"></td>
 						<td><a href="https://www.w3schools.com/">W3S</a></td>
 						<td>Learn web technologies online</td>
 					</tr>
 
 					<!-- W3S Bootstrap -->
-					<tr data-tags="bootstrap, tutorial, w3s, web development">
+					<tr data-tags="bs, tutorial, w3s, webdev">
 						<td class="en"></td>
 						<td><a href="https://www.w3schools.com/bootstrap4/default.asp">W3S</a></td>
 						<td>Bootstrap4 tutorial</td>
@@ -932,79 +1080,114 @@
 						<td>Color picker</td>
 					</tr>
 
+					<!-- W3S Color list -->
+					<tr data-tags="css, w3s">
+						<td class="en"></td>
+						<td><a href="https://www.w3schools.com/cssref/css_colors.asp">W3S</a></td>
+						<td>CSS color names list</td>
+					</tr>	
 
 					<!-- W3S List of CSS properties -->
-					<tr data-tags="css, w3s, web development">
+					<tr data-tags="css, w3s, webdev">
 						<td class="en"></td>
 						<td><a href="https://www.w3schools.com/cssref/">W3S</a></td>
 						<td>List of CSS properties</td>
 					</tr>
 
 					<!-- W3S HTML tags -->
-					<tr data-tags="html, w3s, web development">
+					<tr data-tags="html, w3s, webdev">
 						<td class="en"></td>
 						<td><a href="https://www.w3schools.com/tags/">W3S</a></td>
 						<td>List of HTML tags</td>
 					</tr>
 
 					<!-- W3S HTML global attributes -->
-					<tr data-tags="html, w3s, web development">
+					<tr data-tags="html, w3s, webdev">
 						<td class="en"></td>
 						<td><a href="https://www.w3schools.com/tags/">W3S</a></td>
 						<td>List of HTML tags</td>
 					</tr>
 
 					<!-- W3S JS reference ordered by category -->
-					<tr data-tags="javascript, w3s, web development">
+					<tr data-tags="js, w3s, webdev">
 						<td class="en"></td>
 						<td><a href="https://www.w3schools.com/jsref/default.asp">W3S</a></td>
 						<td>JavaScript reference ordered by category</td>
 					</tr>
 
 					<!-- Website Dimensions -->
-					<tr data-tags="tips &amp; tricks, web development">
+					<tr data-tags="tips, webdev">
 						<td class="en"></td>
 						<td><a href="https://www.websitedimensions.com/">Website Dimensions</a></td>
 						<td>Best practices for websites dimensions</td>
 					</tr>
 
 					<!-- Webaim -->
-					<tr data-tags="tool, web development">
+					<tr data-tags="tool, webdev">
 						<td class="en"></td>
 						<td><a href="https://webaim.org/resources/contrastchecker/">Webaim</a></td>
 						<td>Contrast validator</td>
 					</tr>
 
 					<!-- Webaim WAVE -->
-					<tr data-tags="tool, web development">
+					<tr data-tags="tool, webdev">
 						<td class="en"></td>
 						<td><a href="https://wave.webaim.org/">Webaim</a></td>
 						<td>Web Accessibility Evaluation Tool</td>
 					</tr>
 
-
 					<!-- WebDevStudyResources -->
-					<tr data-tags="github, web development">
+					<tr data-tags="gh, webdev">
 						<td class="en"></td>
 						<td><a href="https://github.com/dargaCode/WebDevStudyResources/">WebDevStudyResources</a></td>
-						<td>A great list of useful resources, specific for Web Development</td>
+						<td>A great list of useful resources, specific for web development</td>
+					</tr>
+
+					<!-- Web.Dev -->
+					<tr data-tags="article, tips, webdev">
+						<td class="en"></td>
+						<td><a href="https://web.dev/learn/">Web.Dev</a></td>
+						<td>Various articles/tips for the modern web</td>
 					</tr>
 
 					<!-- Web Dev external anchors rel noopener -->
-					<tr data-tags="html, tips &amp; tricks, web development">
+					<tr data-tags="article, html, tips, webdev">
 						<td class="en"></td>
 						<td><a href="https://web.dev/external-anchors-use-rel-noopener/">Web.Dev</a></td>
 						<td>External anchors and rel noopener</td>
 					</tr>
 
+					<!-- Web Dev external anchors rel noopener -->
+					<tr data-tags="article, html, tips, webdev">
+						<td class="en"></td>
+						<td><a href="https://web.dev/external-anchors-use-rel-noopener/">Web.Dev</a></td>
+						<td>External anchors and rel noopener</td>
+					</tr>
+
+					<!-- Web Skills -->
+					<tr data-tags="gh, webdev">
+						<td class="en"></td>
+						<td><a href="https://andreasbm.github.io/web-skills/">Web Skils</a></td>
+						<td>Visual overview of useful skills to learn as a web developer.</td>
+					</tr>
+
+					
+
 <!-- X -->
 
 <!-- Y -->
 					<!-- YouTube -->
-					<tr data-tags="multi-language, tutorial, video course, youtube">
+					<tr data-tags="multi, tutorial, videocourse, yt">
 						<td class="it"></td>
 						<td><a href="https://www.youtube.com/user/fcamuso/playlists">YouTube</a></td>
 						<td>Canale YT fcamuso</td>
+					</tr>
+
+					<!-- You might not need jQuery -->
+					<tr data-tags="js, jq">
+						<td class="it"></td>
+						<td><a href="http://youmightnotneedjquery.com/">You might not need jQuery</a></td>
+						<td>Alternatives to common jQuery functions</td>
 					</tr>
 
 <!-- Z -->
