@@ -11,6 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" /> 
 		<!-- PERSONAL STYLE -->
 		<link rel="stylesheet" type="text/css" href="../css/shared.css" />
+		<link rel="stylesheet" type="text/css" href="../css/tag-buttons-style.css" />
 		<link rel="stylesheet" type="text/css" href="../css/useful-software.css" />
 
 		<!-- SCRIPTS -->
@@ -23,7 +24,8 @@
 		<!-- LOADING DATATABLES BOOTSTRAP -->
 		<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
     <!-- LOADING MY SCRIPTS -->
-  	<script src="../scripts/shared.js"></script>
+		<script src="../scripts/shared.js"></script>
+		<script src="../scripts/tag-handler.js"></script>
 </head>
 
 <body class="bg-secondary">
@@ -43,1547 +45,1237 @@
 		  </li>
 	  </ul>
   </nav>
-  </div>
+	</div>
+	
+		<!-- FILTER CONTAINER -->
+		<div class="row text-center mt-3" id="tagContainer">
+			<!-- MAIN -->
+			<div class="col-lg-3 p-0">
+				<div class="card main">
+					<div class="card-body">
+						<h5 class="card-title">MAIN CATEGORY</h5>
+						<button value="audio">Audio</button>
+						<button value="downloader">Downloader</button>
+						<button value="ext">Extension</button>
+						<button value="gaming">Gaming</button>
+						<button value="image">Image</button>
+						<button value="programming">Programming</button>
+						<button value="security">Security</button>
+						<button value="utility">Utility</button>
+						<button value="video">Video</button>
+						<button value="browser">Web browser</button>
+					</div>
+				</div>
+			</div>
+		
+			<!-- SUBCATEGORY -->
+			<div class="col-lg-5 p-0">
+				<div class="card sub">
+					<div class="card-body">
+						<h5 class="card-title">SUBCATEGORY</h5>
+						<button value="analyzer">Analyzer</button>
+						<button value="antimalware">Antimalware</button>
+						<button value="antivirus">Antivirus</button>
+						<button value="clipman">Clipboard manager</button>
+						<button value="contmen">Context menu editor</button>
+						<button value="converter">Converter</button>
+						<button value="datarec">Data recovery</button>
+						<button value="datasync">Data sync</button>
+						<button value="db">Database</button>
+						<button value="daw">DAW</button>
+						<button value="diskanal">Disk analyzer</button>
+						<button value="diskclean">Disk cleaner</button>
+						<button value="driver">Driver</button>
+						<button value="editor">Editor</button>
+						<button value="emulator">Emulator</button>
+						<button value="encoder">Encoder</button>
+						<button value="framework">Framework</button>
+						<button value="generator">Generator</button>
+						<button value="hw">Hardware</button>
+						<button value="ide">IDE</button>
+						<button value="fef">Files &amp; folders</button>
+						<button value="filearch">File archiver</button>
+						<button value="filetrans">File transfer</button>
+						<button value="manager">Manager</button>
+						<button value="music">Music</button>
+						<button value="misc">Other</button>
+						<button value="pdfread">PDF Reader</button>
+						<button value="player">Player</button>
+						<button value="remote">Remote desktop</button>
+						<button value="screencap">Screen capture</button>
+						
+						<button value="store">Store</button>
+						<button value="viewer">Viewer</button>
+						<button value="winman">Windows manager</button>
+					</div>			
+				</div>
+			</div>
+		
+			<!-- LICENSE -->
+			<div class="col-6 col-lg-2 p-0">
+				<div class="card license">
+					<div class="card-body">
+						<h5 class="card-title">LICENSE</h5>
+						<button value="freemium">Freemium</button>
+						<button value="freeware">Freeware</button>
+						<button value="shareware">Shareware</button>
+					</div>	
+				</div>
+			</div>
 
-	<!-- CONTENT -->
-  <div class="row mt-3">
-		<div class="mx-auto col-11">
-			<table id="swTable" class="table table-dark table-striped table-hover table-bordered table-sm" width=100%>
+			<!-- SOFTWARE -->
+			<div class="col-6 col-lg-2 p-0">
+				<div class="card software">
+					<div class="card-body">
+						<h5 class="card-title">SOFTWARE</h5>
+						<button value="gc">Google Chrome</button>
+						<button value="mb">MusicBee</button>
+						<button value="vs">Visual Studio</button>
+						<button value="vsc">VS Code</button>
+					</div>	
+				</div>
+			</div>
+		</div>
+
+		</div>
+
+			
+
+	<!-- TABLE CONTAINER -->
+	<div class="row">
+		<div class="col-xl-8 col-lg-8 col-md-10 col-sm-12 mx-auto my-3" id="tableContainer">
+			<table id="swTable" class="table table-dark table-striped table-hover table-bordered table-sm" width="100%">
 				
 				<!-- THEAD -->
 				<thead class="thead-dark">
-					<tr class="text-center">
+					<tr>
 						<th>Name</th>
-						<th>Category</th>
-						<th>Subcategory</th>
 						<th>Description</th>
-						<th>Software type</th>
 					</tr>
 				</thead>
 
 				<!-- TBODY -->
 				<tbody>
-		<!-- AUDIO -->
+
+<!-- AUDIO -->
 					<!-- Analyzer -->
-					<tr>
+					<tr data-tags="audio, analyzer, freeware">
 						<td>
 							<a href="http://spek.cc/">Spek</a>
 						</td>
-						<td>Audio</td>
-						<td>Analyzer</td>
 						<td>Analyse your audio files by showing their spectrogram</td>
-						<td>Freeware</td>
 					</tr>
-
+				
 					<!-- Converter -->
-					<tr>
+					<tr data-tags="audio, converter, freeware">
 						<td>
-							<a href="https://www.mediahuman.com/audio-converter/">MediaHuman Audio Converter</a>
+							<a href="https://www.mediahuman.com/audio-converter/">MediaHuman Audio
+								Converter</a>
 						</td>
-						<td>Audio</td>
-						<td>Converter</td>
 						<td>Convert your music to many audio formats</td>
-						<td>Freeware</td>
 					</tr>
-
+				
 					<!-- DAW -->
-					<tr>
+					<tr data-tags="audio, daw, shareware">
 						<td>
 							<a href="https://www.ableton.com/en/live/">Ableton Live</a>
 						</td>
-						<td>Audio</td>
-						<td>DAW</td>
 						<td>Fast, fluid and flexible DAW for music creation and performance</td>
-						<td>Shareware</td>
 					</tr>
-					<tr>
+					<tr data-tags="audio, daw, freeware">
 						<td>
 							<a href="http://ardour.org/">Ardour</a>
 						</td>
-						<td>Audio</td>
-						<td>DAW</td>
 						<td>Free DAW that lets you record, edit and mix</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<tr data-tags="audio, daw, shareware">
 						<td>
 							<a href="https://www.reaper.fm/">Reaper</a>
 						</td>
-						<td>Audio</td>
-						<td>DAW</td>
 						<td>Complete and very cheap digital audio production application</td>
-						<td>Shareware</td>
 					</tr>
-					<tr>
+					<tr data-tags="audio, daw, shareware">
 						<td>
 							<a href="https://www.presonus.com/products/Studio-One/downloads">Studio One</a>
 						</td>
-						<td>Audio</td>
-						<td>DAW</td>
 						<td>A really good DAW with a super intuitive GUI</td>
-						<td>Shareware</td>
 					</tr>
-
+				
 					<!-- Driver -->
-					<tr>
+					<tr data-tags="audio, driver, freeware">
 						<td>
 							<a href="http://www.asio4all.org/">ASIO4ALL</a>
 						</td>
-						<td>Audio</td>
-						<td>Driver</td>
 						<td>Universal ASIO driver for WDM audio</td>
-						<td>Freeware</td>
-					</tr>
-					
-					<!-- Editor -->
-					<tr>
-						<td>
-							<a href="https://www.audacityteam.org/download/">Audacity</a>
-						</td>
-						<td>Audio</td>
-						<td>Editor</td>
-						<td>Multi-track audio editor and recorder</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="http://www.darkaudacity.com/download.html">Dark Audacity</a>
-						</td>
-						<td>Audio</td>
-						<td>Editor</td>
-						<td>Alternative version of Audacity, dark theme and improved GUI</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://www.shchuka.com/software/mergemp3/#download">Merge MP3</a>
-						</td>
-						<td>Audio</td>
-						<td>Editor</td>
-						<td>Merge multiple sound files into one recording</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="http://mpesch3.de/index.html">MP3DirectCut</a>
-						</td>
-						<td>Audio</td>
-						<td>Editor</td>
-						<td>Cut, crop, split, join your tracks, change the level and fade MP3 without re-encoding</td>
-						<td>Freeware</td>
-					</tr>
-
-					<!-- Encoder -->
-					<tr>
-						<td>
-							<a href="https://lame.sourceforge.io/">LAME</a>
-						</td>
-						<td>Audio</td>
-						<td>Encoder</td>
-						<td>The best MP3 encoder</td>
-						<td>Freeware</td>
-					</tr>
-
-					<!-- Generator -->
-					<tr>
-						<td>
-							<a href="https://www.vectormediasoftware.com/atmdeluxehome.htm">Atmosphere Deluxe</a>
-						</td>
-						<td>Audio</td>
-						<td>Generator</td>
-						<td>Mask noise, promote relaxation with an entire collection of natural sounds</td>
-						<td>Shareware</td>
-					</tr>
-
-					<!-- Player -->
-					<tr>
-						<td>
-							<a href="https://www.getmusicbee.com/downloads/">MusicBee</a>
-						</td>
-						<td>Audio</td>
-						<td>Player</td>
-						<td>Organize, find, and play music files on your PC</td>
-						<td>Freeware</td>
-					</tr>
-
-					<!-- Tag editor -->
-					<tr>
-						<td>
-							<a href="https://www.mp3tag.de/en/">Mp3tag</a>
-						</td>
-						<td>Audio</td>
-						<td>Tag editor</td>
-						<td>Powerful tool to edit metadata of audio files</td>
-						<td>Freeware</td>
-					</tr>
-					
-					<!-- Visualizer -->
-					<tr>
-						<td>
-							<a href="https://www.morphyre.com/">Morphyre</a>
-						</td>
-						<td>Audio</td>
-						<td>Visualizer</td>
-						<td>Music visualizer with thousands of unique 3D scenes</td>
-						<td>Freeware</td>
-					</tr>			
-					
-		<!-- DOWNLOADER -->
-					<!-- Manager -->
-					<tr>
-						<td>
-							<a href="https://www.freedownloadmanager.org/download.htm">Free Dwonload Manager</a>
-						</td>
-						<td>Downloader</td>
-						<td>Manager</td>
-						<td>A free alternative to IDM</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://www.internetdownloadmanager.com/download.html">Internet Download Manager</a>
-						</td>
-						<td>Downloader</td>
-						<td>Manager</td>
-						<td>Increase download speeds by up to 5 times, resume and schedule downloads</td>
-						<td>Shareware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://jdownloader.org/download/index">JDownloader 2</a>
-						</td>
-						<td>Downloader</td>
-						<td>Manager</td>
-						<td>Automatically download groups of files from one-click hosting sites</td>
-						<td>Freeware</td>
-					</tr>
-
-				<!-- Music -->
-					<tr>
-						<td>
-							<a href="https://notabug.org/RemixDevs/DeezloaderRemix">Deezloader Remix</a>
-						</td>
-						<td>Downloader</td>
-						<td>Music</td>
-						<td>Download music from Deezer servers</td>
-						<td>Freeware</td>
-					</tr>
-
-				<!-- Other -->
-					<tr>
-						<td>
-							<a href="http://www.slsknet.org/news/node/1">Soulseek</a>
-						</td>
-						<td>Downloader</td>
-						<td>-</td>
-						<td>P2P file sharing network</td>
-						<td>Freeware</td>
-					</tr>
-
-					
-				<!-- Subtitle -->
-					<tr>
-						<td>
-							<a href="https://getcaption.co/">Caption</a>
-						</td>
-						<td>Downloader</td>
-						<td>Subtitles</td>
-						<td>Search and download subtitles quickly</td>
-						<td>Freeware</td>
-					</tr>
-					
-				<!-- Torrent -->
-					<tr>
-						<td>
-							<a href="https://www.utorrent.com/downloads/win">µTorrent</a>
-						</td>
-						<td>Downloader</td>
-						<td>Torrent</td>
-						<td>Most famous BitTorrent download client</td>
-						<td>Freemium</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://dev.deluge-torrent.org/wiki/Download">Deluge</a>
-						</td>
-						<td>Downloader</td>
-						<td>Torrent</td>
-						<td>Another good BitTorrent download client/td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://www.qbittorrent.org/download.php">qBittorrent</a>
-						</td>
-						<td>Downloader</td>
-						<td>Torrent</td>
-						<td>Another good BitTorrent download client</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://webtorrent.io/">WebTorrent Desktop</a>
-						</td>
-						<td>Downloader</td>
-						<td>Torrent</td>
-						<td>BitTorrent client to stream your torrent without having to wait for it to finish downloading</td>
-						<td>Freeware</td>
-					</tr>
-
-				<!-- YouTube -->
-					<tr>
-						<td>
-							<a href="https://www.mediahuman.com/youtube-downloader/">MediaHuman YouTube Downloader</a>
-						</td>
-						<td>Downloader</td>
-						<td>YouTube</td>
-						<td>Download and convert YouTube videos</td>
-						<td>Freeware</td>
-					</tr>
-					
-
-		<!-- EXTENSION -->
-					<!-- Google Chrome -->
-					<tr>
-						<td>
-							<a href="https://chrome.google.com/webstore/detail/cmedhionkhpnakcndndgjdbohmhepckk">AdBlock for YouTube</a>
-						</td>
-						<td>Extension</td>
-						<td>Google Chrome</td>
-						<td>Block YouTube Ads</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom">AdBlock</a>
-						</td>
-						<td>Extension</td>
-						<td>Google Chrome</td>
-						<td>Block internet Ads</td>
-						<td>Freemium</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://chrome.google.com/webstore/detail/mjicdmidmifkppilbbcanmnljpffmfmh">Darkloud</a>
-						</td>
-						<td>Extension</td>
-						<td>Google Chrome</td>
-						<td>Dark theme for SoundCloud</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://chrome.google.com/webstore/detail/imilbobhamcfahccagbncamhpnbkaenm">Darkness</a>
-						</td>
-						<td>Extension</td>
-						<td>Google Chrome</td>
-						<td>Dark themes for various websites</td>
-						<td>Freemium</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://chrome.google.com/webstore/detail/fljfmblajgejeicncojogelbkhbobejn">Discogs Enhancer</a>
-						</td>
-						<td>Extension</td>
-						<td>Google Chrome</td>
-						<td>Enhance Discogs website</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://chrome.google.com/webstore/detail/fljfmblajgejeicncojogelbkhbobejn">Discogs Enhancer</a>
-						</td>
-						<td>Extension</td>
-						<td>Google Chrome</td>
-						<td>Enhance Discogs website</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://chrome.google.com/webstore/detail/kbfnbcaeplbcioakkpcpgfkobkghlhen">Grammarly</a>
-						</td>
-						<td>Extension</td>
-						<td>Google Chrome</td>
-						<td>Writing assistant</td>
-						<td>Freemium</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://chrome.google.com/webstore/detail/bnomihfieiccainjcjblhegjgglakjdd">Improve YouTube</a>
-						</td>
-						<td>Extension</td>
-						<td>Google Chrome</td>
-						<td>Various enhancements for YouTube website</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo">Tamper Monkey</a>
-						</td>
-						<td>Extension</td>
-						<td>Google Chrome</td>
-						<td>The world's most popular userscript manager</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm">Ublock Origin</a>
-						</td>
-						<td>Extension</td>
-						<td>Google Chrome</td>
-						<td>Another Ad blocker for Chrome</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://chrome.google.com/webstore/detail/jldjjifbpipdmligefcogandjojpdagn">View Image Info</a>
-						</td>
-						<td>Extension</td>
-						<td>Google Chrome</td>
-						<td>Get properties of the image your cursor is pointing to via context menu</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://chrome.google.com/webstore/detail/kkelicaakdanhinjdeammmilcgefonfh">Window Resizer</a>
-						</td>
-						<td>Extension</td>
-						<td>Google Chrome</td>
-						<td>Resize the browser window to emulate various screen resolutions</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://chrome.google.com/webstore/detail/hncgkmhphmncjohllpoleelnibpmccpj">xStyle</a>
-						</td>
-						<td>Extension</td>
-						<td>Google Chrome</td>
-						<td>Install user-made themes &amp; skins for many sites or create your own</td>
-						<td>Freeware</td>
-					</tr>
-					
-
-					<!-- MusicBee -->
-					<tr>
-						<td>
-							<a href="https://getmusicbee.com/addons/visualizer/179/morphyre/">Morphyre plugin</a>
-						</td>
-						<td>Extension</td>
-						<td>MusicBee</td>
-						<td>Morphyre visualizer plugin for MusicBee</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://getmusicbee.com/addons/visualizer/52/milkdrop-visualizer/">Milkdrop plugin</a>
-						</td>
-						<td>Extension</td>
-						<td>MusicBee</td>
-						<td>Milkdrop visualizer plugin for MusicBee</td>
-						<td>Freeware</td>
-					</tr>
-
-					<!-- Visual Studio -->
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ClearMEFComponentCache">Clear MEF Cache</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio</td>
-						<td>Clears the MEF cache on disk and lets Visual Studio rebuild it</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CommentRemover">Comment Remover</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio</td>
-						<td>Remove all comments in any file with a click of a button</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=thomaswelen.SelectNextOccurrence">Select Next Occurence</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio</td>
-						<td>Selects the next occurrence of the current selection and adds multiple cursors for editing</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017">Web Essentials</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio</td>
-						<td>The easiest way to set up Visual Studio for the ultimate Web Development experience</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=mwilski.CollapseLevel">Collapse Level</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio</td>
-						<td>Collapse your structures using simple commands</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=RionWilliams.Glyphfriend2019">Glyphfriend2019</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio</td>
-						<td>Display preview glyphs for many of the common glyph-based font libraries</td>
-						<td>Freeware</td>
-					</tr>
-
-					<!-- Visual Studio Code -->
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify">Beautify</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Easily beautify your code</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments">Better Comments</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Improve your code commenting by annotating with alert, informational, TODOs, and more!</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics">Codemetrics</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Run code snippet or code file for multiple languages</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner">Code runner</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Compute complexity in JS/TS files</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek">CSS Peak</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Compute complexity in JS/TS files</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome">Debugger for Chrome</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Debug your JS code in Chrome browser</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode">Discord Presence</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Update your discord status with the newly added rich presence</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=samundrak.esdoc-mdn">ESdoc MDN</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Quickly see docs from MDN</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">ESLint</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Integrates ESLint JavaScript into VS Code</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=vikyd.vscode-fold-level">Fold Level</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Collapse your structures using simple commands (requires adding custom keyboard shortcuts)</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens">GitLens</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Supercharge the Git capabilities built into VS Code</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag">Highlight Matching Tag</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Missing CSS support for HTML documents</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css">HTML-CSS</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Missing CSS support for HTML documents</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost">Import Cost</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Display inline import/require package size in the editor</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-instant-markdown">Instand Markdown</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Instant previews of your markdown files as you type</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion">Intellisense for CSS in HTML</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>CSS class name completion for the HTML class attribute based on the definitions found in your workspace</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets">jQuery code snippets</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Useful snippets for jQuery</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare">LiveShare</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Real-time collaborative development</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.liveserver">Live Server</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Launch a development local Server with live reload feature for static and dynamic pages</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync">Settings Synch</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Synchronize all your stuff using GitHub Gist</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=spikespaz.vscode-smoothtype">Smoothtype</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Smooth typing anymation</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=henoc.svgeditor">SVG Editor</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Visual and literal SVG editor</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=ryu1kn.text-marker">Text Marker</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>Highlight multiple text patterns with different colors at the same time</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://marketplace.visualstudio.com/items?itemName=visualstudioexptteam.vscodeintellicode">VS Code IntelliCode</a>
-						</td>
-						<td>Extension</td>
-						<td>Visual Studio Code</td>
-						<td>AI-assisted development</td>
-						<td>Freeware</td>
-					</tr>
-
-		<!-- IMAGE -->
-					<!-- Editor -->
-					<tr>
-						<td>
-							<a href="https://www.gimp.org/downloads/">GIMP</a>
-						</td>
-						<td>Image</td>
-						<td>Editor</td>
-						<td>Photo retouching, image composition and image authoring</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://www.softpedia.com/get/Multimedia/Graphic/Graphic-Others/FileMind-QuickFix.shtml">FileMind QuickFix</a>
-						</td>
-						<td>Image</td>
-						<td>Editor</td>
-						<td>Remove personal information from your digital photos</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://www.theinpaint.com/download.html">InPaint</a>
-						</td>
-						<td>Image</td>
-						<td>Editor</td>
-						<td>Remove unwanted object from photos</td>
-						<td>Shareware</td>
-					</tr>
-					
-					<!-- Viewer -->
-					<tr>
-						<td>
-							<a href="https://www.irfanview.com/">IrfanView</a>
-						</td>
-						<td>Image</td>
-						<td>Viewer</td>
-						<td>Fast and compact image viewer</td>
-						<td>Freeware</td>
-					</tr>
-
-
-
-		<!-- GAMING -->
-					<!-- Digital distribution platform -->
-					<tr>
-						<td>
-							<a href="https://www.epicgames.com/store/">Epic Games Launcher</a>
-						</td>
-						<td>Gaming</td>
-						<td>Digital distribution platform</td>
-						<td>Desktop client for Epic Games store</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://www.origin.com/en-us/store/download">Origin</a>
-						</td>
-						<td>Gaming</td>
-						<td>Digital distribution platform</td>
-						<td>Desktop client for Origin store</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://store.steampowered.com/">Steam</a>
-						</td>
-						<td>Gaming</td>
-						<td>Digital distribution platform</td>
-						<td>Desktop client for Steam store</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://uplay.ubisoft.com/">Uplay</a>
-						</td>
-						<td>Gaming</td>
-						<td>Digital distribution platform</td>
-						<td>Desktop client for Ubisoft store</td>
-						<td>Freeware</td>
-					</tr>
-					<!-- Trainer aggregator -->
-					<tr>
-						<td>
-							<a href="https://www.wemod.com/download">WeMod</a>
-						</td>
-						<td>Gaming</td>
-						<td>Trainer</td>
-						<td>Find cheats, trainers, mods and more, all in one app</td>
-						<td>Freeware</td>
-					</tr>		
-					<tr>
-						<td>
-							<a href="https://www.cheatengine.org/downloads.php">Cheat Engine</a>
-						</td>
-						<td>Gaming</td>
-						<td>Trainer</td>
-						<td>Modify single player games' memory values to make them harder/easier</td>
-						<td>Freeware</td>
-					</tr>					
-
-					
-		<!-- MISCELLANEOUS -->
-					<tr>
-						<td>
-							<a href="https://www.bluestacks.com/download.html">BlueStacks 4</a>
-						</td>
-						<td>Miscellaneous</td>
-						<td>Emulator</td>
-						<td>Emulate and Android environment on your PC</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://www.onenote.com/download">Microsoft OneNote</a>
-						</td>
-						<td>Miscellaneous</td>
-						<td>Notetaking</td>
-						<td>Free-form information gathering and multi-user collaboration</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://pencil.evolus.vn/">Pencil</a>
-						</td>
-						<td>Miscellaneous</td>
-						<td>-</td>
-						<td>Prototyping tool to create mockups</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://chocolatey.org/install">Chocolatey</a>
-						</td>
-						<td>Miscellaneous</td>
-						<td>Package manager</td>
-						<td>Wraps installers, executables, zips, and scripts into compiled packages</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://www.nikse.dk/subtitleedit">Subtitle Edit</a>
-						</td>
-						<td>Miscellaneous</td>
-						<td>Subtitle editor</td>
-						<td>Create, adjust or translate any subtitle</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://desktop.telegram.org/">Telegram Desktop</a>
-						</td>
-						<td>Miscellaneous</td>
-						<td>Instant messaging</td>
-						<td>Client for Telegram app</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://www.nvidia.com/en-us/geforce/geforce-experience/">GeForce Experience</a>
-						</td>
-						<td>Miscellaneous</td>
-						<td>Video driver</td>
-						<td>Download driver for your Nvidia card, optimize owned games</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://calibre-ebook.com/download">Calibre</a>
-						</td>
-						<td>Miscellaneous</td>
-						<td>eBook manager</td>
-						<td>The one stop solution for all your e-book needs</td>
-						<td>Freeware</td>
-					</tr>
-
-
-		<!-- PROGRAMMING -->
-					<!-- Database -->
-					<tr>
-						<td>
-							<a href="https://www.couchbase.com/downloads?family=server">Couchbase Server</a>
-						</td>
-						<td>Programming</td>
-						<td>Database</td>
-						<td>Full-featured NoSQL database</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms">SQL Server Management Studio</a>
-						</td>
-						<td>Programming</td>
-						<td>Database</td>
-						<td>Integrated environment for managing any SQL infrastructure</td>
-						<td>Freeware</td>
-					</tr>
-					<tr>
-						<td>
-							<a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloadss">SQL Server</a>
-						</td>
-						<td>Programming</td>
-						<td>Database</td>
-						<td>Ideal for development and production for desktop, web, and small server applications</td>
-						<td>Freemium</td>
 					</tr>
 				
 					<!-- Editor -->
-					<tr>
+					<tr data-tags="audio, editor, freeware">
+						<td>
+							<a href="https://www.audacityteam.org/download/">Audacity</a>
+						</td>
+						<td>Multi-track audio editor and recorder</td>
+					</tr>
+					<tr data-tags="audio, editor, freeware">
+						<td>
+							<a href="http://www.darkaudacity.com/download.html">Dark Audacity</a>
+						</td>
+						<td>Alternative version of Audacity, dark theme and improved GUI</td>
+					</tr>
+					<tr data-tags="audio, editor, freeware">
+						<td>
+							<a href="https://www.shchuka.com/software/mergemp3/#download">Merge MP3</a>
+						</td>
+						<td>Merge multiple sound files into one recording</td>
+					</tr>
+					<tr data-tags="audio, editor, freeware">
+						<td>
+							<a href="http://mpesch3.de/index.html">MP3DirectCut</a>
+						</td>
+						<td>Cut, crop, split, join your tracks, change the level and fade MP3 without re-encoding</td>
+					</tr>
+					<!-- MP3 Tag -->
+					<tr data-tags="audio, editor, freeware">
+						<td>
+							<a href="https://www.mp3tag.de/en/">Mp3tag</a>
+						</td>
+						<td>Powerful tool to edit metadata of audio files</td>
+					</tr>
+				
+		<!-- Encoder -->
+					<!-- LAME -->
+					<tr data-tags="audio, encoder, freeware">
+						<td>
+							<a href="https://lame.sourceforge.io/">LAME</a>
+						</td>
+						<td>The best MP3 encoder</td>
+					</tr>
+				
+		<!-- Generator -->
+					<tr data-tags="audio, generator, shareware">
+						<td>
+							<a href="https://www.vectormediasoftware.com/atmdeluxehome.htm">Atmosphere
+								Deluxe</a>
+						</td>
+						<td>Mask noise, promote relaxation with an entire collection of natural sounds</td>
+					</tr>
+				
+		<!-- Player -->
+					<!-- MusicBee -->
+					<tr data-tags="audio, freeware, music, player">
+						<td>
+							<a href="https://www.getmusicbee.com/downloads/">MusicBee</a>
+						</td>
+						<td>Organize, find, and play music files on your PC</td>
+					</tr>
+					
+				
+					<!-- Visualizer -->
+					<tr data-tags="audio, visualizer, freeware">
+						<td>
+							<a href="https://www.morphyre.com/">Morphyre</a>
+						</td>
+						<td>Music visualizer with thousands of unique 3D scenes</td>
+					</tr>
+				
+<!-- DOWNLOADER -->
+					<!-- Manager -->
+					<tr data-tags="downloader, manager, freeware">
+						<td>
+							<a href="https://www.freedownloadmanager.org/download.htm">Free Dwonload
+								Manager</a>
+						</td>
+						<td>A free alternative to IDM</td>
+					</tr>
+					<tr data-tags="downloader, manager, shareware">
+						<td>
+							<a href="https://www.internetdownloadmanager.com/download.html">Internet Download
+								Manager</a>
+						</td>
+						<td>Increase download speeds by up to 5 times, resume and schedule downloads</td>
+					</tr>
+					<tr data-tags="downloader, manager, freeware">
+						<td>
+							<a href="https://jdownloader.org/download/index">JDownloader 2</a>
+						</td>
+						<td>Automatically download groups of files from one-click hosting sites</td>
+					</tr>
+				
+					<!-- Music -->
+					<tr data-tags="downloader, music, freeware">
+						<td>
+							<a href="https://notabug.org/RemixDevs/DeezloaderRemix">Deezloader Remix</a>
+						</td>
+						<td>Download music from Deezer servers</td>
+					</tr>
+				
+					<!-- Other -->
+					<tr data-tags="downloader, freeware">
+						<td>
+							<a href="http://www.slsknet.org/news/node/1">Soulseek</a>
+						</td>
+						<td>P2P file sharing network</td>
+					</tr>
+				
+				
+					<!-- Subtitle -->
+					<tr data-tags="downloader, subtitles, freeware">
+						<td>
+							<a href="https://getcaption.co/">Caption</a>
+						</td>
+						<td>Search and download subtitles quickly</td>
+					</tr>
+				
+					<!-- Torrent -->
+					<tr data-tags="downloader, torrent, freemium">
+						<td>
+							<a href="https://www.utorrent.com/downloads/win">µTorrent</a>
+						</td>
+						<td>Most famous BitTorrent download client</td>
+					</tr>
+					<tr data-tags="downloader, torrent, freeware">
+						<td>
+							<a href="https://dev.deluge-torrent.org/wiki/Download">Deluge</a>
+						</td>
+						<td>Another good BitTorrent download client</td>
+					</tr>
+					<tr data-tags="downloader, torrent, freeware">
+						<td>
+							<a href="https://www.qbittorrent.org/download.php">qBittorrent</a>
+						</td>
+						<td>Another good BitTorrent download client</td>
+					</tr>
+					<tr data-tags="downloader, torrent, freeware">
+						<td>
+							<a href="https://webtorrent.io/">WebTorrent Desktop</a>
+						</td>
+						<td>BitTorrent client to stream your torrent without having to wait for it to finish downloading</td>
+					</tr>
+				
+		<!-- MediaHuman YouTube Downloader -->
+					<tr data-tags="downloader, freeware, video">
+						<td>
+							<a href="https://www.mediahuman.com/youtube-downloader/">MediaHuman YouTube
+								Downloader</a>
+						</td>
+						<td>Download and convert YouTube videos</td>
+					</tr>
+				
+				
+<!-- EXTENSION -->
+		<!-- Google Chrome -->
+					<!-- AdBlock for YT -->
+					<tr data-tags="ext, freeware, gc">
+						<td>
+							<a href="https://chrome.google.com/webstore/detail/cmedhionkhpnakcndndgjdbohmhepckk">AdBlock for YouTube</a>
+						</td>
+						<td>Block YouTube Ads</td>
+					</tr>
+					<!-- DarkReader -->
+					<tr data-tags="ext, freeware, gc">
+						<td>
+							<a href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh">Dark Reader</a>
+						</td>
+						<td>Easily set dark themes for every web page you want</td>
+					</tr>
+					<tr data-tags="ext, freemium, gc">
+						<td>
+							<a href="https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom">AdBlock</a>
+						</td>
+						<td>Block internet Ads</td>
+					</tr>
+					<tr data-tags="ext, freeware, gc">
+						<td>
+							<a href="https://chrome.google.com/webstore/detail/mjicdmidmifkppilbbcanmnljpffmfmh">Darkloud</a>
+						</td>
+						<td>Dark theme for SoundCloud</td>
+					</tr>
+					<tr data-tags="ext, freemium, gc">
+						<td>
+							<a href="https://chrome.google.com/webstore/detail/imilbobhamcfahccagbncamhpnbkaenm">Darkness</a>
+						</td>
+						<td>Dark themes for various websites</td>
+					</tr>
+					<tr data-tags="ext, freeware, gc">
+						<td>
+							<a href="https://chrome.google.com/webstore/detail/fljfmblajgejeicncojogelbkhbobejn">Discogs Enhancer</a>
+						</td>
+						<td>Enhance Discogs website</td>
+					</tr>
+					<tr data-tags="ext, freeware, gc">
+						<td>
+							<a href="https://chrome.google.com/webstore/detail/fljfmblajgejeicncojogelbkhbobejn">Discogs Enhancer</a>
+						</td>
+						<td>Enhance Discogs website</td>
+					</tr>
+					<tr data-tags="ext, freemium, gc">
+						<td>
+							<a href="https://chrome.google.com/webstore/detail/kbfnbcaeplbcioakkpcpgfkobkghlhen">Grammarly</a>
+						</td>
+						<td>Writing assistant</td>
+					</tr>
+					<tr data-tags="ext, freeware, gc">
+						<td>
+							<a href="https://chrome.google.com/webstore/detail/bnomihfieiccainjcjblhegjgglakjdd">Improve YouTube</a>
+						</td>
+						<td>Various enhancements for YouTube website</td>
+					</tr>
+					<tr data-tags="ext, freeware, gc">
+						<td>
+							<a href="https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo">Tamper Monkey</a>
+						</td>
+						<td>The world's most popular userscript manager</td>
+					</tr>
+					<tr data-tags="ext, freeware, gc">
+						<td>
+							<a href="https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm">Ublock Origin</a>
+						</td>
+						<td>Another Ad blocker for Chrome</td>
+					</tr>
+					<tr data-tags="ext, freeware, gc">
+						<td>
+							<a href="https://chrome.google.com/webstore/detail/jldjjifbpipdmligefcogandjojpdagn">View Image Info</a>
+						</td>
+						<td>Get properties of the image your cursor is pointing to via context menu</td>
+					</tr>
+					<tr data-tags="ext, freeware, gc">
+						<td>
+							<a href="https://chrome.google.com/webstore/detail/kkelicaakdanhinjdeammmilcgefonfh">Window Resizer</a>
+						</td>
+						<td>Resize the browser window to emulate various screen resolutions</td>
+					</tr>
+					<!-- xStyle -->
+					<tr data-tags="ext, freeware, gc">
+						<td>
+							<a href="https://chrome.google.com/webstore/detail/hncgkmhphmncjohllpoleelnibpmccpj">xStyle</a>
+						</td>
+						<td>Install user-made themes &amp; skins for many sites or create your own</td>
+					</tr>
+					
+					
+				
+				
+		<!-- MusicBee -->
+					<tr data-tags="ext, mb, freeware, visualizer">
+						<td>
+							<a href="https://getmusicbee.com/addons/visualizer/179/morphyre/">Morphyre
+								plugin</a>
+						</td>
+						<td>Morphyre visualizer plugin for MusicBee</td>
+					</tr>
+					<tr data-tags="ext, mb, freeware, visualizer">
+						<td>
+							<a href="https://getmusicbee.com/addons/visualizer/52/milkdrop-visualizer/">Milkdrop plugin</a>
+						</td>
+						<td>Milkdrop visualizer plugin for MusicBee</td>
+					</tr>
+				
+					<!-- Visual Studio -->
+					<tr data-tags="ext, vs, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ClearMEFComponentCache"
+								target="_blank" rel="noopener">Clear MEF Cache</a>
+						</td>
+						<td>Clears the MEF cache on disk and lets Visual Studio rebuild it</td>
+					</tr>
+					<tr data-tags="ext, vs, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CommentRemover">Comment Remover</a>
+						</td>
+						<td>Remove all comments in any file with a click of a button</td>
+					</tr>
+					<tr data-tags="ext, vs, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=thomaswelen.SelectNextOccurrence">Select Next Occurence</a>
+						</td>
+						<td>Selects the next occurrence of the current selection and adds multiple cursors for editing</td>
+					</tr>
+					<tr data-tags="ext, vs, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017">Web Essentials</a>
+						</td>
+						<td>The easiest way to set up Visual Studio for the ultimate Web Development experience</td>
+					</tr>
+					<tr data-tags="ext, vs, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=mwilski.CollapseLevel">Collapse Level</a>
+						</td>
+						<td>Collapse your structures using simple commands</td>
+					</tr>
+					<tr data-tags="ext, vs, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=RionWilliams.Glyphfriend2019">Glyphfriend2019</a>
+						</td>
+						<td>Display preview glyphs for many of the common glyph-based font libraries</td>
+					</tr>
+				
+					<!-- Visual Studio Code -->
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify">Beautify</a>
+						</td>
+						<td>Easily beautify your code</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments">Better Comments</a>
+						</td>
+						<td>Improve your code commenting by annotating with alert, informational, TODOs, and more!</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics">Codemetrics</a>
+						</td>
+						<td>Run code snippet or code file for multiple languages</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner">Code runner</a>
+						</td>
+						<td>Compute complexity in JS/TS files</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek">CSS Peak</a>
+						</td>
+						<td>Compute complexity in JS/TS files</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome">Debugger for Chrome</a>
+						</td>
+						<td>Debug your JS code in Chrome browser</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode">Discord Presence</a>
+						</td>
+						<td>Update your discord status with the newly added rich presence</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=samundrak.esdoc-mdn">ESdoc MDN</a>
+						</td>
+						<td>Quickly see docs from MDN</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">ESLint</a>
+						</td>
+						<td>Integrates ESLint JavaScript into VS Code</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=vikyd.vscode-fold-level">Fold Level</a>
+						</td>
+						<td>Collapse your structures using simple commands (requires adding custom keyboard shortcuts)</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens">GitLens</a>
+						</td>
+						<td>Supercharge the Git capabilities built into VS Code</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag">Highlight Matching Tag</a>
+						</td>
+						<td>Missing CSS support for HTML documents</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css">HTML-CSS</a>
+						</td>
+						<td>Missing CSS support for HTML documents</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost">Import Cost</a>
+						</td>
+						<td>Display inline import/require package size in the editor</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-instant-markdown">Instand Markdown</a>
+						</td>
+						<td>Instant previews of your markdown files as you type</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion">Intellisense for CSS in HTML</a>
+						</td>
+						<td>CSS class name completion for the HTML class attribute based on the definitions found in your workspace</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets">jQuery code snippets</a>
+						</td>
+						<td>Useful snippets for jQuery</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare">LiveShare</a>
+						</td>
+						<td>Real-time collaborative development</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.liveserver">Live Server</a>
+						</td>
+						<td>Launch a development local Server with live reload feature for static and dynamic pages</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync">Settings Synch</a>
+						</td>
+						<td>Synchronize all your stuff using GitHub Gist</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=spikespaz.vscode-smoothtype">Smoothtype</a>
+						</td>
+						<td>Smooth typing anymation</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=henoc.svgeditor">SVG
+								Editor</a>
+						</td>
+						<td>Visual and literal SVG editor</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=ryu1kn.text-marker">Text Marker</a>
+						</td>
+						<td>Highlight multiple text patterns with different colors at the same time</td>
+					</tr>
+					<tr data-tags="ext, vsc, freeware">
+						<td>
+							<a href="https://marketplace.visualstudio.com/items?itemName=visualstudioexptteam.vscodeintellicode"
+								target="_blank" rel="noopener">VS Code IntelliCode</a>
+						</td>
+						<td>AI-assisted development</td>
+					</tr>
+				
+		<!-- IMAGE -->
+					<!-- Editor -->
+					<tr data-tags="image, editor, freeware">
+						<td>
+							<a href="https://www.gimp.org/downloads/">GIMP</a>
+						</td>
+						<td>Photo retouching, image composition and image authoring</td>
+					</tr>
+					<tr data-tags="image, editor, freeware">
+						<td>
+							<a href="https://www.softpedia.com/get/Multimedia/Graphic/Graphic-Others/FileMind-QuickFix.shtml">FileMind QuickFix</a>
+						</td>
+						<td>Remove personal information from your digital photos</td>
+					</tr>
+					<tr data-tags="image, editor, shareware">
+						<td>
+							<a href="https://www.theinpaint.com/download.html">InPaint</a>
+						</td>
+						<td>Remove unwanted object from photos</td>
+					</tr>
+				
+					<!-- Viewer -->
+					<tr data-tags="image, viewer, freeware">
+						<td>
+							<a href="https://www.irfanview.com/">IrfanView</a>
+						</td>
+						<td>Fast and compact image viewer</td>
+					</tr>
+				
+				
+				
+		<!-- GAMING -->
+					<!-- Store -->
+					<tr data-tags="gaming, store, freeware">
+						<td>
+							<a href="https://www.epicgames.com/store/">Epic Games Launcher</a>
+						</td>
+						<td>Desktop client for Epic Games store</td>
+					</tr>
+					<tr data-tags="gaming, store, freeware">
+						<td>
+							<a href="https://www.origin.com/en-us/store/download">Origin</a>
+						</td>
+						<td>Desktop client for Origin store</td>
+					</tr>
+					<tr data-tags="gaming, store, freeware">
+						<td>
+							<a href="https://store.steampowered.com/">Steam</a>
+						</td>
+						<td>Desktop client for Steam store</td>
+					</tr>
+					<tr data-tags="gaming, store, freeware">
+						<td>
+							<a href="https://uplay.ubisoft.com/">Uplay</a>
+						</td>
+						<td>Desktop client for Ubisoft store</td>
+					</tr>
+					<!-- Trainer aggregator -->
+					<tr data-tags="gaming, trainer, freeware">
+						<td>
+							<a href="https://www.wemod.com/download">WeMod</a>
+						</td>
+						<td>Find cheats, trainers, mods and more, all in one app</td>
+					</tr>
+					<tr data-tags="gaming, trainer, freeware">
+						<td>
+							<a href="https://www.cheatengine.org/downloads.php">Cheat Engine</a>
+						</td>
+						<td>Modify single player games' memory values to make them harder/easier</td>
+					</tr>
+				
+				
+		<!-- MISCELLANEOUS -->
+					<!-- BlueStacks -->
+					<tr data-tags="emulator, freeware, utility">
+						<td>
+							<a href="https://www.bluestacks.com/download.html">BlueStacks 4</a>
+						</td>
+						<td>Emulate and Android environment on your PC</td>
+					</tr>
+					<!-- MS OneNote -->
+					<tr data-tags="misc, freeware, utility">
+						<td>
+							<a href="https://www.onenote.com/download">Microsoft OneNote</a>
+						</td>
+						<td>Free-form information gathering and multi-user collaboration</td>
+					</tr>
+					<!-- Pencil -->
+					<tr data-tags="misc, freeware, utility">
+						<td>
+							<a href="https://pencil.evolus.vn/">Pencil</a>
+						</td>
+						<td>Prototyping tool to create mockups</td>
+					</tr>
+					<tr data-tags="misc, package manager, freeware">
+						<td>
+							<a href="https://chocolatey.org/install">Chocolatey</a>
+						</td>
+						<td>Wraps installers, executables, zips, and scripts into compiled packages</td>
+					</tr>
+					<tr data-tags="misc, subtitle editor, freeware">
+						<td>
+							<a href="https://www.nikse.dk/subtitleedit">Subtitle Edit</a>
+						</td>
+						<td>Create, adjust or translate any subtitle</td>
+					</tr>
+
+					<!-- Telegram Desktop -->
+					<tr data-tags="misc, instant messaging, freeware">
+						<td>
+							<a href="https://desktop.telegram.org/">Telegram Desktop</a>
+						</td>
+						<td>Client for Telegram app</td>
+					</tr>
+
+					<!-- Calibre -->
+					<tr data-tags="freeware, misc, utility">
+						<td>
+							<a href="https://calibre-ebook.com/download">Calibre</a>
+						</td>
+						<td>The one stop solution for all your e-book needs</td>
+					</tr>
+				
+				
+<!-- PROGRAMMING -->
+		<!-- Database -->
+					<!-- Couchbase Server -->
+					<tr data-tags="db, freeware, programming ">
+						<td>
+							<a href="https://www.couchbase.com/downloads?family=server">Couchbase Server</a>
+						</td>
+						<td>Full-featured NoSQL database</td>
+					</tr>
+					<!-- SQL Server Management Studio -->
+					<tr data-tags="db, freeware, programming ">
+						<td>
+							<a href="https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms">SQL Server Management Studio</a>
+						</td>
+						<td>Integrated environment for managing any SQL infrastructure</td>
+					</tr>
+					<!-- SQL Server -->
+					<tr data-tags="db, freemium, programming ">
+						<td>
+							<a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloadss">SQL
+								Server</a>
+						</td>
+						<td>Ideal for development and production for desktop, web, and small server applications</td>
+					</tr>
+				
+		<!-- Editor -->
+					<!-- Atom -->
+					<tr data-tags="editor, freeware, programming">
 						<td>
 							<a href="https://atom.io/">Atom</a>
 						</td>
-						<td>Programming</td>
-						<td>Editor</td>
 						<td>A hackable text editor for the 21st Century</td>
-						<td>Freeware</td>
 					</tr>
-
+				
 					<!-- VS Code -->
-					<tr>
+					<tr data-tags="editor, freeware, programming, vsc">
 						<td>
 							<a href="https://code.visualstudio.com/download">Microsoft VS Code</a>
 						</td>
-						<td>Programming</td>
-						<td>Editor</td>
 						<td>Code editor redefined and optimized for building and debugging modern web and cloud applications</td>
-						<td>Freeware</td>
 					</tr>
-
+				
 					<!-- Framework -->
-					<tr>
+					<tr data-tags="framework, freeware, programming ">
 						<td>
-							<a href="https://www.microsoft.com/en-us/download/details.aspx?id=20914">Microsoft XNA Framework</a>
+							<a href="https://www.microsoft.com/en-us/download/details.aspx?id=20914">Microsoft
+								XNA Framework</a>
 						</td>
-						<td>Programming</td>
-						<td>Framework</td>
 						<td>A framework for game development</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<tr data-tags="framework, freeware, programming ">
 						<td>
 							<a href="http://www.monogame.net/downloads/">MonoGame</a>
 						</td>
-						<td>Programming</td>
-						<td>Framework</td>
 						<td>Implementation of XNA framework for cross-platform game development</td>
-						<td>Freeware</td>
 					</tr>
-
+				
 					<!-- FTP -->
-					<tr>
+					<tr data-tags="ftp, freeware, programming ">
 						<td>
 							<a href="https://filezilla-project.org/download.php">FileZilla Client</a>
 						</td>
-						<td>Programming</td>
-						<td>FTP</td>
 						<td>Fast and reliable cross-platform FTP, FTPS and SFTP client</td>
-						<td>Freeware</td>
 					</tr>
-
+				
 					<!-- IDE -->
-					<tr>
+					<tr data-tags="ide, freeware, programming ">
 						<td>
-							<a href="https://visualstudio.microsoft.com/vs/community/">Microsoft VS Community</a>
+							<a href="https://visualstudio.microsoft.com/vs/community/">Microsoft VS
+								Community</a>
 						</td>
-						<td>Programming</td>
-						<td>IDE</td>
 						<td>A fully-featured, extensible, free IDE</td>
-						<td>Freeware</td>
 					</tr>
-
+				
 					<!-- Package manager -->
-					<tr>
+					<tr data-tags="programming, package manager, freemium">
 						<td>
 							<a href="https://nodejs.org/en/download/">npm</a>
 						</td>
-						<td>Programming</td>
-						<td>Package manager</td>
 						<td>JavaScript package manager (downloaded with Node.js)</td>
-						<td>Freemium</td>
 					</tr>
-
-		<!-- SECURITY -->
-				<!-- Antivirus -->
-					<tr>
+				
+<!-- SECURITY -->
+					<!-- Antivirus -->
+					<tr data-tags="antivirus, security shareware">
 						<td>
 							<a href="https://www.kaspersky.com/downloads">Kaspersky</a>
 						</td>
-						<td>Utility</td>
-						<td>Antivirus</td>
 						<td>Different antivirus for the protection of your PC</td>
-						<td>Shareware</td>
 					</tr>
-					<tr>
+					<tr data-tags="antivirus, security freeware">
 						<td>
 							<a href="https://www.bitdefender.co.uk/solutions/free.html">BitDefender</a>
 						</td>
-						<td>Utility</td>
-						<td>Antivirus</td>
 						<td>Free and powerful antivirus</td>
-						<td>Freeware</td>
 					</tr>
-
-					<!-- Antimalware -->
-					<tr>
+				
+		<!-- Antimalware -->
+					<!-- MalwareBytes Adwcleaner -->
+					<tr data-tags="antimalware, freeware, security">
 						<td>
 							<a href="https:/www.malwarebytes.com/adwcleaner/">MalwareBytes Adwcleaner</a>
 						</td>
-						<td>Utility</td>
-						<td>Antimalware</td>
 						<td>Remove adware, bloatware, unwanted toolbars, and other potentially unwanted programs</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<!-- MalwareBytes -->
+					<tr data-tags="antimalware, freemium, security">
 						<td>
 							<a href="https://www.malwarebytes.com/mwb-download/">MalwareBytes</a>
 						</td>
-						<td>Utility</td>
-						<td>Antimalware</td>
 						<td>Protects your PC from advanced malware and ransomware</td>
-						<td>Freemium</td>
 					</tr>
-					
-												
-					
-		<!-- UTILITIES -->
+				
+				
+				
+<!-- UTILITY -->
 					<!-- Clipboard manager -->
-					<tr>
+					<tr data-tags="clipman, freeware, utility">
 						<td>
 							<a href="https://hluk.github.io/CopyQ/">CopyQ</a>
 						</td>
-						<td>Utility</td>
-						<td>Clipboard manager</td>
 						<td>Advanced clipboard manager with editing and scripting features</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<tr data-tags="clipman, freeware, utility">
 						<td>
 							<a href="https://ditto-cp.sourceforge.io/">Ditto</a>
 						</td>
-						<td>Utility</td>
-						<td>Clipboard manager</td>
 						<td>Extension to the standard Windows clipboard</td>
-						<td>Freeware</td>
 					</tr>
-
+				
 					<!-- Context menu editor -->
-					<tr>
+					<tr data-tags="contmen, freeware, utility">
 						<td>
 							<a href="https://www.sordum.org/7615/easy-context-menu-v1-6/">Easy Context Menu</a>
 						</td>
-						<td>Utility</td>
-						<td>Context menu editor</td>
 						<td>Add any program, app or webpage into your Windows context menu</td>
-						<td>Freeware</td>
 					</tr>
-
+				
 					<!-- Data recovery -->
-					<tr>
+					<tr data-tags="datarec, freemium, utility">
 						<td>
-							<a href="https://www.easeus.com/data-recovery-software/">EaseUS Data Recovery Wizard</a>
+							<a href="https://www.easeus.com/data-recovery-software/">EaseUS data recovery
+								Wizard</a>
 						</td>
-						<td>Utility</td>
-						<td>Data recovery</td>
 						<td>Client to manage synchronized data on Google Drive</td>
-						<td>Freemium</td>
 					</tr>
-					<tr>
+					<tr data-tags="datarec, freeware, utility">
 						<td>
 							<a href="http://www.puransoftware.com/Data-Recovery.html">Puran Data Recover</a>
 						</td>
-						<td>Utility</td>
-						<td>Data recovery</td>
 						<td>Recover data from damaged media (scratched CDs, DVDs, damaged pen drives etc)</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<tr data-tags="datarec, freeware, utility">
 						<td>
 							<a href="http://www.puransoftware.com/File-Recovery.html">Puran File Recover</a>
 						</td>
-						<td>Utility</td>
-						<td>Data recovery</td>
 						<td>Recover deleted/lost files/partitions</td>
-						<td>Freeware</td>
 					</tr>
-					
-
-					<!-- Data sync -->
-					<tr>
+				
+				
+					<!-- Datasync -->
+					<tr data-tags="datasync, freeware, utility">
 						<td>
-							<a href="https://www.google.com/drive/download/backup-and-sync/">Backup &amp; sync</a>
+							<a href="https://www.google.com/drive/download/backup-and-sync/">Backup &amp;
+								sync</a>
 						</td>
-						<td>Utility</td>
-						<td>Data sync</td>
 						<td>Client to manage synchronized data on Google Drive</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<tr data-tags="datasync, freeware, utility">
 						<td>
 							<a href="https://www.dropbox.com/downloading">Dropbox</a>
 						</td>
-						<td>Utility</td>
-						<td>Data sync</td>
 						<td>Client to manage synchronized data on Dropbox</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<tr data-tags="datasync, freeware, utility">
 						<td>
 							<a href="https://mega.nz/sync">Megasync</a>
 						</td>
-						<td>Utility</td>
-						<td>Data sync</td>
 						<td>Client to manage synchronized data on Mega</td>
-						<td>Freeware</td>
 					</tr>
-
-
+				
+				
 					<!-- Disk checker -->
-					<tr>
+					<tr data-tags="diskanal, freeware, utility">
 						<td>
 							<a href="https://crystalmark.info/en/download/">CrystalDiskInfo</a>
 						</td>
-						<td>Utility</td>
-						<td>Disk analyzer</td>
 						<td>HDD/SSD utility software which supports a part of USB, Intel/AMD RAID and NVMe</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<tr data-tags="diskanal, freemium, utility">
 						<td>
 							<a href="https://www.jam-software.com/treesize_free">TreeSize</a>
 						</td>
-						<td>Utility</td>
-						<td>Disk analyzer</td>
 						<td>Quickly scan directory sizes and find space hogs</td>
-						<td>Freemium</td>
 					</tr>
-
-					<!-- Disk cleaner -->
-					<tr>
+				
+		<!-- Disk cleaner -->
+					<tr data-tags="diskclean, freemium, utility">
 						<td>
 							<a href="https://www.ccleaner.com/download">CCleaner</a>
 						</td>
-						<td>Utility</td>
-						<td>Disk cleaner</td>
 						<td>Clean, optimize &amp; tune up your PC</td>
-						<td>Freemium</td>
 					</tr>
-
-					<!-- File archiver -->
-					<tr>
+				
+		<!-- File archiver -->
+					<tr data-tags="filearch, freeware, utility">
 						<td>
 							<a href="https://www.7-zip.org/download.html">7-Zip</a>
 						</td>
-						<td>Utility</td>
-						<td>File archiver</td>
 						<td>File archiver with a high compression ratio</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<tr data-tags="filearch, shareware, utility">
 						<td>
 							<a href="https://www.win-rar.com/download.html?">WinRAR</a>
 						</td>
-						<td>Utility</td>
-						<td>File archiver</td>
 						<td>Data compression, encryption and archiving tool</td>
-						<td>Shareware</td>
 					</tr>
-
-					<!-- File transfer -->
-					<tr>
+				
+		<!-- File transfer -->
+					<!-- TeraCopy -->
+					<tr data-tags="filetrans, freemium, utility">
 						<td>
 							<a href="https://www.codesector.com/teracopy">Teracopy</a>
 						</td>
-						<td>Utility</td>
-						<td>File transfer</td>
 						<td>Copy your files faster and more securely</td>
-						<td>Freemium</td>
 					</tr>
-
-					<!-- Files & folders -->
-					<tr>
+				
+		<!-- Files & folders -->
+					<tr data-tags="fef, freeware, utility">
 						<td>
 							<a href="https://www.petges.lu/download/">Attribute Changer</a>
 						</td>
-						<td>Utility</td>
-						<td>Files &amp; folders</td>
 						<td>Change file and folder properties with ease</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<tr data-tags="fef, freemium, utility">
 						<td>
-							<a href="http://www.tucows.com/preview/607345/Directory-List--Print">Directory List &amp; Print</a>
+							<a href="http://www.tucows.com/preview/607345/Directory-List--Print">Directory List
+								&amp; Print</a>
 						</td>
-						<td>Utility</td>
-						<td>Files &amp; folders</td>
 						<td>Easily list and print the content of any directory</td>
-						<td>Freemium</td>
-					</tr>	
-					<tr>
+					</tr>
+		<!-- Everything -->
+					<tr data-tags="fef, freeware, utility">
 						<td>
 							<a href="https://www.voidtools.com/">Everything</a>
 						</td>
-						<td>Utility</td>
-						<td>Files &amp; folders</td>
 						<td>Locate files and folders by name instantly</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<!-- File renamer -->
+					<tr data-tags="fef, freemium, utility">
 						<td>
-							<a href="https://www.sherrodcomputers.com/products_filerenamer.cfm">File Renamer</a>
+							<a href="https://www.sherrodcomputers.com/products_filerenamer.cfm">File
+								Renamer</a>
 						</td>
-						<td>Utility</td>
-						<td>Files &amp; folders</td>
 						<td>Easily and quickly rename multiple files at once</td>
-						<td>Freemium</td>
 					</tr>
-					<tr>
+					<!-- FreeFileSync -->
+					<tr data-tags="fef, freeware, utility">
 						<td>
 							<a href="https://freefilesync.org/download.php">FreeFileSync</a>
 						</td>
-						<td>Utility</td>
-						<td>Files &amp; folders</td>
 						<td>Folder comparison and synchronization</td>
-						<td>Freeware</td>
 					</tr>
-
-					<!-- Hardware -->
-					<tr>
+				
+		<!-- Hardware -->
+					<!-- Speccy -->
+					<tr data-tags="hw, freemium, utility">
 						<td>
 							<a href="https://www.ccleaner.com/speccy">Speccy</a>
 						</td>
-						<td>Utility</td>
-						<td>Hardware</td>
 						<td>Fast, lightweight, advanced system information tool for your PC</td>
-						<td>Freemium</td>
-					</tr> 		
-					<tr>
+					</tr>
+					<!-- HWiNFO -->
+					<tr data-tags="hw, freemium, utility">
 						<td>
 							<a href="https://www.hwinfo.com/">HWiNFO</a>
 						</td>
-						<td>Utility</td>
-						<td>Hardware</td>
 						<td>Comprehensive hardware analysis, monitoring and reporting</td>
-						<td>Freemium</td>
 					</tr>
-					<tr>
+					<!-- HWMonitor -->
+					<tr data-tags="hw, freeware, utility">
 						<td>
 							<a href="https://www.cpuid.com/softwares/hwmonitor.html">HWMonitor</a>
 						</td>
-						<td>Utility</td>
-						<td>Hardware</td>
 						<td>Hardware monitoring program that reads PC systems main health sensors</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<!-- RivaTuner -->
+					<tr data-tags="hw, freeware, utility">
 						<td>
 							<a href="https://www.guru3d.com/content-page/rivatuner.html">RivaTuner</a>
 						</td>
-						<td>Utility</td>
-						<td>Hardware</td>
 						<td>Complete powerful tweaking environment to tune NVIDIA GPU based display adapters</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<!-- MSI Afterburner -->
+					<tr data-tags="hw, freeware, utility">
 						<td>
 							<a href="https://www.msi.com/page/afterburner">MSI Afterburner</a>
 						</td>
-						<td>Utility</td>
-						<td>Hardware</td>
 						<td>The world’s most recognized and widely used graphics card overclocking utility</td>
-						<td>Freeware</td>
 					</tr>
-					
-
+				
+				
 					<!-- Monitor manager -->
-					<tr>
+					<tr data-tags="monitor manager, freeware, utility">
 						<td>
 							<a href="https://www.clickmonitorddc.bplaced.net/">ClickMonitorDDC</a>
 						</td>
-						<td>Utility</td>
-						<td>Monitor manager</td>
 						<td>Modify the brightness and contrast of your DDC-compatible monitor easily</td>
-						<td>Freeware</td>
 					</tr>
-
+				
 					<!-- PDF Reader -->
-					<tr>
+					<tr data-tags="pdfread, freeware, utility">
 						<td>
 							<a href="https://get.adobe.com/reader/">Adobe Acrobat Reader</a>
 						</td>
-						<td>Utility</td>
-						<td>PDF reader</td>
 						<td>View, print, and comment on PDF documents</td>
-						<td>Freeware</td>
 					</tr>
-
+				
 					<!-- Remote desktop -->
-					<tr>
+					<tr data-tags="remote, freemium, utility">
 						<td>
 							<a href="https://www.teamviewer.com/download/">TeamViewer</a>
 						</td>
-						<td>Utility</td>
-						<td>Remote desktop</td>
 						<td>Establish connections between devices to real-time remote access and support</td>
-						<td>Freemium</td>
 					</tr>
-					<tr>
+					<tr data-tags="remote, freeware, utility">
 						<td>
 							<a href="https://jumpdesktop.com/free-remote-desktop.html">Jump Desktop</a>
 						</td>
-						<td>Utility</td>
-						<td>Remote desktop</td>
 						<td>Secure and reliable remote desktop app</td>
-						<td>Freeware</td>
 					</tr>
-
-					<!-- Screen capture -->
-					<tr>
+		<!-- Screen capture -->
+					<!-- Pic Pick -->
+					<tr data-tags="screencap, freeware, utility">
 						<td>
 							<a href="https://picpick.app/en/">Pic Pick</a>
 						</td>
-						<td>Utility</td>
-						<td>Screen capture</td>
 						<td>A full-featured screen capture tool</td>
-						<td>Freeware</td>
 					</tr>
-
-					<!-- Screen recorder -->
-					<tr>
+				
+					<!-- Screen to GIF -->
+					<tr data-tags="screencap, freeware, utility">
 						<td>
 							<a href="https://www.screentogif.com/">Screen to GIF</a>
 						</td>
-						<td>Utility</td>
-						<td>Screen recorder</td>
 						<td>Screen, webcam and sketchboard recorder with an integrated editor</td>
-						<td>Freeware</td>
-					</tr>	
-			
-					
-
+					</tr>
+				
+				
+				
 					<!-- Uninstaller -->
-					<tr>
+					<tr data-tags="freemium, uninstaller, utility">
 						<td>
 							<a href="https://www.iobit.com/en/advanceduninstaller.php">IObit Uninstaller</a>
 						</td>
-						<td>Utility</td>
-						<td>Uninstaller</td>
 						<td>Completely uninstall unwanted software, Windows apps &amp; browser plug-ins</td>
-						<td>Freemium</td>
 					</tr>
-					<tr>
+					<tr data-tags="freeware, uninstaller, utility">
 						<td>
 							<a href="https://www.guru3d.com/files_details/display_driver_uninstaller_download.html">Display Driver Uninstaller</a>
 						</td>
-						<td>Utility</td>
-						<td>Uninstaller</td>
 						<td>Completely uninstall AMD/NVIDIA graphics card drivers without leaving traces behind</td>
-						<td>Freeware</td>
 					</tr>
-
-					<!-- Windows manager -->
-					<tr>
+				
+		<!-- Windows manager -->
+					<!-- WindowTop -->
+					<tr data-tags="winman, freemium, utility">
 						<td>
-							<a href="https://windowtop.info/">Display Driver Uninstaller</a>
+							<a href="https://windowtop.info/">WindowTop</a>
 						</td>
-						<td>Utility</td>
-						<td>Windows manager</td>
 						<td>Manage your windows practically and efficiently</td>
-						<td>Freemium</td>
 					</tr>
-					
-
-		<!-- VIDEO -->
-					
+				
+				
+<!-- VIDEO -->
+				
 					<!-- Converter -->
-					<tr>
+					<tr data-tags="converter, shareware, video">
 						<td>
 							<a href="https://videoconverter.wondershare.com/">Wondershare UniConverter</a>
 						</td>
-						<td>Video</td>
-						<td>Converter</td>
 						<td>Powerful video converter</td>
-						<td>Shareware</td>
 					</tr>
 
+					<!-- Driver -->
+					<tr data-tags="driver, freeware, video">
+						<td>
+							<a href="https://www.nvidia.com/en-us/geforce/geforce-experience/">GeForce
+								Experience</a>
+						</td>
+						<td>Download driver for your Nvidia card, optimize owned games</td>
+					</tr>
+				
 					<!-- Editor -->
-					<tr>
+					<tr data-tags="editor, freeware, video">
 						<td>
 							<a href="http://avidemux.sourceforge.net/">Avidemux</a>
 						</td>
-						<td>Video</td>
-						<td>Editor</td>
 						<td>Video editor designed for simple cutting, filtering and encoding tasks</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<tr data-tags="editor, freeware, video">
 						<td>
 							<a href="https://sourceforge.net/projects/gmkvextractgui/">gMKVExtractGUI</a>
 						</td>
-						<td>Video</td>
-						<td>Editor</td>
 						<td>GUI for extracting stuff from MKV files</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<tr data-tags="editor, freeware, video">
 						<td>
 							<a href="https://www.makemkv.com/download/">MakeMKV</a>
 						</td>
-						<td>Video</td>
-						<td>Editor</td>
 						<td>Make MKV files from DVD/Bluray</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<tr data-tags="editor, freeware, video">
 						<td>
 							<a href="https://mkvtoolnix.download/">MKVTollNix</a>
 						</td>
-						<td>Video</td>
-						<td>Editor</td>
 						<td>Set of tools to create, alter and inspect MKV files</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<tr data-tags="editor, shareware, video">
 						<td>
 							<a href="https://filmora.wondershare.com/video-editor/">Wondershare Filmora</a>
 						</td>
-						<td>Video</td>
-						<td>Editor</td>
 						<td>Powerful video editor</td>
-						<td>Shareware</td>
 					</tr>
-
+				
 					<!-- Player -->
-					<tr>
+					<tr data-tags="player, freeware, video">
 						<td>
 							<a href="https://www.videolan.org/vlc/">VLC</a>
 						</td>
-						<td>Video</td>
-						<td>Player</td>
 						<td>Video editor designed for simple cutting, filtering and encoding tasks</td>
-						<td>Freeware</td>
 					</tr>
-
-		<!-- VoIP -->
-					<tr>
+				
+					<!-- VoIP -->
+					<tr data-tags="voip, freeware">
 						<td>
 							<a href="https://discordapp.com/">Discord</a>
 						</td>
-						<td>VoIP</td>
-						<td>-</td>
 						<td>All-in-one voice and text chat</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<tr data-tags="voip, freeware">
 						<td>
 							<a href="https://www.skype.com/get-skype/">Skype</a>
 						</td>
-						<td>VoIP</td>
-						<td>-</td>
 						<td>One of the most famous software for voice calls, video chats and instant messaging</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<tr data-tags="voip, freeware">
 						<td>
 							<a href="https://teamspeak.com/en/downloads/">TeamSpeak</a>
 						</td>
-						<td>VoIP</td>
-						<td>-</td>
 						<td>VoIP communication system for online gaming</td>
-						<td>Freeware</td>
 					</tr>
-
-		<!-- WEB BROWSERS -->
-					<tr>
+				
+<!-- WEB BROWSERS -->
+					<tr data-tags="browser, freeware, gc">
 						<td>
 							<a href="https://www.google.com/chrome/">Google Chrome</a>
 						</td>
-						<td>Web browser</td>
-						<td>-</td>
 						<td>Google web browser</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<tr data-tags="browser, freeware">
 						<td>
 							<a href="https://www.mozilla.org/firefox/new/">Firefox</a>
 						</td>
-						<td>Web browser</td>
-						<td>-</td>
 						<td>Mozilla web browser</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<tr data-tags="browser, freeware">
 						<td>
 							<a href="https://www.microsoft.com/en-us/edge">Microsoft Edge</a>
 						</td>
-						<td>Web browser</td>
-						<td>-</td>
 						<td>Microsoft web browser based on Chromium</td>
-						<td>Freeware</td>
 					</tr>
-					<tr>
+					<tr data-tags="browser, freeware">
 						<td>
 							<a href="https://www.torproject.org/download/">Tor</a>
 						</td>
-						<td>Web browser</td>
-						<td>-</td>
 						<td>Web browser to protect yourself against tracking, surveillance, and censorship</td>
-						<td>Freeware</td>
 					</tr>
-
+				
 				</tbody>
 
 			</table>
-
-			<!--  -->
 			<script>
 				$('#swTable').DataTable(
-					{
-						"sScrollY": "575", //fixed height
-						"bScrollCollapse": false, 
-						"lengthMenu": [ 15, 30, 45, 60 ] //personalize "Show X entries" menu
+    		{
+						// Make the table scrollable after the height is > 400px
+						"scrollY": 450,
+						// Remove "show entries" and pagination info
+						"paging": false,
+						"bInfo" : false
 					}
 				);
 			</script>
-
 		</div>
-  </div>
+	</div>
 </div>
 
 

@@ -1,18 +1,19 @@
-.my-btn, .my-btn:hover {
-	border-color: black;
-	border-radius: 40px;
-	background-color: black;
-	color: white;
-}
-
-.my-btn.selected {
-	background-color: midnightblue;
-}
-
 td.en {
 	background: url(../imgs/en-flag.png) center no-repeat;
 }
 
 td.it {
 	background: url(../imgs/it-flag.png) center no-repeat;
+}
+
+.website button, .website button:hover  {
+	color: yellowgreen;
+}
+
+.resType button, .resType button:hover {
+	color: orange;
+}
+
+.topic button, .topic button:hover {
+	color: yellow;
 }

@@ -12,6 +12,8 @@
 	<!-- PERSONAL STYLE -->
 	<link rel="stylesheet" type="text/css" href="../css/shared.css" />
 	<link rel="stylesheet" type="text/css" href="../css/link-4-devs.css" />
+	<link rel="stylesheet" type="text/css" href="../css/tag-buttons-style.css" />
+
 
 	<!-- SCRIPTS -->
 	<!-- JQUERY -->
@@ -24,7 +26,7 @@
 	<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
 	<!-- MY SCRIPTS -->
 	<script src="../scripts/shared.js"></script>
-	<script src="../scripts/link-4-devs.js"></script>
+	<script src="../scripts/tag-handler.js"></script>
 </head>
 
 <!-- data-spy="scroll": element that should be used as the scrollable area -->
@@ -77,61 +79,61 @@
 	<div class="row text-center mt-3" id="tagContainer">
 		<!-- TOPIC -->
 		<div class="col-lg-4">
-			<div class="card">
-				<div class="card-body ">
+			<div class="card topic">
+				<div class="card-body">
 					<h5 class="card-title">TOPIC</h5>
-					<button value="bs">#Bootstrap</button>
-					<button value="cpp">#C++</button>
-					<button value="css">#CSS</button>
-					<button value="git">#Git</button>
-					<button value="hacking">#Hacking</button>
-					<button value="html">#HTML</button>
-					<button value="js">#JavaScript</button>
-					<button value="jq">#jQuery</button>
-					<button value="json">#JSON</button>
-					<button value="multi">#Multi-language</button>
-					<button value="py">#Python</button>
-					<button value="sql">#SQL</button>
-					<button value="supp">#Support</button>
-					<button value="webdev">#Web Development</button>
-					<button value="websec">#Web Security</button>
+					<button value="bs">Bootstrap</button>
+					<button value="cpp">C++</button>
+					<button value="css">CSS</button>
+					<button value="git">Git</button>
+					<button value="hacking">Hacking</button>
+					<button value="html">HTML</button>
+					<button value="js">JavaScript</button>
+					<button value="jq">jQuery</button>
+					<button value="json">JSON</button>
+					<button value="multi">Multi-language</button>
+					<button value="py">Python</button>
+					<button value="sql">SQL</button>
+					<button value="supp">Support</button>
+					<button value="webdev">Web Development</button>
+					<button value="websec">Web Security</button>
 				</div>
 			</div>
 		</div>
 	
 		<!-- TYPE -->
 		<div class="col-lg-4">
-			<div class="card">
+			<div class="card resType">
 				<div class="card-body">
 					<h5 class="card-title">RESOURCE TYPE</h5>
-					<button value="article">#Article</button>
-					<button value="cheat">#Cheatsheet</button>
-					<button value="discord">#Discord server</button>
-					<button value="doc">#Documentation</button>
-					<button value="exercise">#Exercise</button>
-					<button value="game">#Game</button>
-					<button value="interactive">#Interactive</button>
-					<button value="thisthat">#This &amp; that</button>
-					<button value="tips">#Tips &amp; tricks</button>
-					<button value="tool">#Tool</button>
-					<button value="tutorial">#Tutorial</button>
-					<button value="videocourse">#Video course</button>
+					<button value="article">Article</button>
+					<button value="cheat">Cheatsheet</button>
+					<button value="discord">Discord server</button>
+					<button value="doc">Documentation</button>
+					<button value="exercise">Exercise</button>
+					<button value="game">Game</button>
+					<button value="interactive">Interactive</button>
+					<button value="thisthat">This &amp; that</button>
+					<button value="tips">Tips &amp; tricks</button>
+					<button value="tool">Tool</button>
+					<button value="tutorial">Tutorial</button>
+					<button value="videocourse">Video course</button>
 				</div>			
 			</div>
 		</div>
 	
 		<!-- WEBSITES -->
 		<div class="col-lg-4">
-			<div class="card">
+			<div class="card website">
 				<div class="card-body">
 					<h5 class="card-title">WEBSITE</h5>
-					<button value="g4g">#Geeks for Geeks</button>
-					<button value="gh">#GitHub</button>
-					<button value="mdn">#MDN</button>
-					<button value="reddit">#Reddit</button>
-					<button value="sover">#Stack Overflow</button>
-					<button value="w3s">#W3Schools</button>
-					<button value="yt">#YouTube</button>
+					<button value="g4g">Geeks for Geeks</button>
+					<button value="gh">GitHub</button>
+					<button value="mdn">MDN</button>
+					<button value="reddit">Reddit</button>
+					<button value="sover">Stack Overflow</button>
+					<button value="w3s">W3Schools</button>
+					<button value="yt">YouTube</button>
 				</div>	
 			</div>
 		</div>
@@ -1194,6 +1196,26 @@
 					</tbody>
 
 				</table>
+
+				<!-- INIT DATATABLE -->
+				<script>
+					$('#l4dTable').DataTable(
+					{
+						// Make the table scrollable after the height is > 400px
+						"scrollY": 450,
+						// Make first column not orderable
+						"columnDefs": [
+										{ "targets": 0, "orderable": false, "width": '1px' },
+										
+						],
+						// Make the second column (Name) the default one for ordering
+						"order": [[ 1, "asc" ]],
+						// Remove "show entries" and pagination info
+						"paging": false,
+						"bInfo" : false
+					}
+				);
+				</script>
 			</div>
 		</div>
 

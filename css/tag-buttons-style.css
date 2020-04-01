@@ -1,0 +1,9 @@
+.my-btn, .my-btn:hover {
+	border-color: black;
+	border-radius: 40px;
+	background-color: black;
+}
+
+.my-btn.selected {
+	background-color: midnightblue;
+}

@@ -74,41 +74,30 @@ function eventListener() {
 
 // Hide every tr of table's body
 function hideAllTr () {
-  $('#l4dTable tbody > tr').css('display','none');  
+  $('tbody > tr').css('display','none');  
 }
 
 // Initialize DataTable
 function initDataTable() {
-  $('#l4dTable').DataTable(
-    {
-      // Make the table scrollable after the height is > 400px
-      "scrollY": 400,
-      
-      // Make first column not orderable
-      "columnDefs": [
-              { "targets": 0, "orderable": false, "width": '1px' },
-              
-      ],
-      // Make the second column (Name) the default one for ordering
-      "order": [[ 1, "asc" ]],
-      // Remove "show entries" and pagination info
-      "paging": false,
-      "bInfo" : false
-    }
-  );
+  
 }
 
 
 // Make an object like: idx: {tags: [tag1, tag2], tr: trElem }
 function populateListObj() {
+  let gigaArray = new Array();
   // For each tr in the table body
-  $('#l4dTable tbody > tr').each( function(idx) {
+  $('table tbody > tr').each( function(idx) {
     // Add its tag and the element itself to the object
     listObj[idx] = {
       tags : $(this).attr('data-tags').split(', '), 
       tr : $(this)
     };
+    gigaArray.push(... $(this).attr('data-tags').split(', '));
+    gigaArray.sort();
   });
+  let uniq = [...new Set(gigaArray)];
+  console.log(uniq);
 }
 
 // Populate the array trToShow with tr elements based on user's chosen tags
@@ -146,6 +135,5 @@ $(document).ready( function() {
   styleCards();
   populateListObj()
   eventListener();
-  initDataTable();
 })
 

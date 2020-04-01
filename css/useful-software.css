@@ -1,10 +1,15 @@
-/* Datatables navigation buttons */
-.page-link {
-	border: 0px;
-	color: white!important;
-	background-color: var(--dark)!important;
+.main button, .main button:hover  {
+	color: yellowgreen;
 }
 
-li.active > a.page-link {
-	background-color: black !important;
+.sub button, .sub button:hover {
+	color: orange;
+}
+
+.license button, .license button:hover {
+	color: yellow;
+}
+
+.software button, .software button:hover {
+	color: brown;
 }
