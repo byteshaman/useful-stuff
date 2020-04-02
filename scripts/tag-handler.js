@@ -85,7 +85,6 @@ function initDataTable() {
 
 // Make an object like: idx: {tags: [tag1, tag2], tr: trElem }
 function populateListObj() {
-  let gigaArray = new Array();
   // For each tr in the table body
   $('table tbody > tr').each( function(idx) {
     // Add its tag and the element itself to the object
@@ -93,11 +92,7 @@ function populateListObj() {
       tags : $(this).attr('data-tags').split(', '), 
       tr : $(this)
     };
-    gigaArray.push(... $(this).attr('data-tags').split(', '));
-    gigaArray.sort();
   });
-  let uniq = [...new Set(gigaArray)];
-  console.log(uniq);
 }
 
 // Populate the array trToShow with tr elements based on user's chosen tags
@@ -117,22 +112,15 @@ function populateTrToShow() {
   displayFilteredTr(); // There will always be at least one displayed items thanks to disableButtons()
 }
 
-// Style the buttons by adding them classes
-function styleButtons() {
+// Add classes to card body and button
+function addClasses() {
   $('#tagContainer button').addClass('btn my-1 my-btn');
-}
-
-// Style the cards by adding them classes
-function styleCards() {
-  $('#tagContainer .card').addClass('bg-secondary h-100');
-  $('#tagContainer .card-body').addClass('p-0');
-  $('#tagContainer .card').css('border','none');
+  $('#tagContainer .card-body').addClass('p-0');;
 }
 
 
 $(document).ready( function() {
-  styleButtons();
-  styleCards();
+  addClasses();
   populateListObj()
   eventListener();
 })

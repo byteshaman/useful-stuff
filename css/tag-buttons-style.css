@@ -7,3 +7,34 @@
 .my-btn.selected {
 	background-color: midnightblue;
 }
+
+div.dataTables_wrapper div.dataTables_filter label {
+  display: block;
+}
+ 
+div.dataTables_wrapper div.dataTables_filter input {
+	width: 95%;
+	margin: 0;
+}
+
+button.yellowgreen, button:hover.yellowgreen  {
+	color: yellowgreen;
+}
+
+button.orange, button:hover.orange {
+	color: orange;
+}
+
+button.yellow, button:hover.yellow {
+	color: yellow;
+}
+
+button.brown, button:hover.brown {
+	color: brown;
+}
+
+#tagContainer .card {
+	background-color: var(--secondary);
+	height: 100%;
+	border: none;
+}

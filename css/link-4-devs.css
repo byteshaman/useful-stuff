@@ -5,15 +5,3 @@ td.en {
 td.it {
 	background: url(../imgs/it-flag.png) center no-repeat;
 }
-
-.website button, .website button:hover  {
-	color: yellowgreen;
-}
-
-.resType button, .resType button:hover {
-	color: orange;
-}
-
-.topic button, .topic button:hover {
-	color: yellow;
-}

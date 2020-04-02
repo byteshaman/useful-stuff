@@ -76,64 +76,64 @@
 
 
 	<!-- FILTER CONTAINER -->
-	<div class="row text-center mt-3" id="tagContainer">
+	<div class="row text-center mt-2 d-none d-md-flex" id="tagContainer">
 		<!-- TOPIC -->
-		<div class="col-lg-4">
-			<div class="card topic">
+		<div class="col-4">
+			<div class="card">
 				<div class="card-body">
 					<h5 class="card-title">TOPIC</h5>
-					<button value="bs">Bootstrap</button>
-					<button value="cpp">C++</button>
-					<button value="css">CSS</button>
-					<button value="git">Git</button>
-					<button value="hacking">Hacking</button>
-					<button value="html">HTML</button>
-					<button value="js">JavaScript</button>
-					<button value="jq">jQuery</button>
-					<button value="json">JSON</button>
-					<button value="multi">Multi-language</button>
-					<button value="py">Python</button>
-					<button value="sql">SQL</button>
-					<button value="supp">Support</button>
-					<button value="webdev">Web Development</button>
-					<button value="websec">Web Security</button>
+					<button class="yellowgreen" value="bs">Bootstrap</button>
+					<button class="yellowgreen" value="cpp">C++</button>
+					<button class="yellowgreen" value="css">CSS</button>
+					<button class="yellowgreen" value="git">Git</button>
+					<button class="yellowgreen" value="hacking">Hacking</button>
+					<button class="yellowgreen" value="html">HTML</button>
+					<button class="yellowgreen" value="js">JavaScript</button>
+					<button class="yellowgreen" value="jq">jQuery</button>
+					<button class="yellowgreen" value="json">JSON</button>
+					<button class="yellowgreen" value="multi">Multi-language</button>
+					<button class="yellowgreen" value="py">Python</button>
+					<button class="yellowgreen" value="sql">SQL</button>
+					<button class="yellowgreen" value="supp">Support</button>
+					<button class="yellowgreen" value="webdev">Web Development</button>
+					<button class="yellowgreen" value="websec">Web Security</button>
 				</div>
 			</div>
 		</div>
 	
 		<!-- TYPE -->
-		<div class="col-lg-4">
-			<div class="card resType">
+		<div class="col-4">
+			<div class="card">
 				<div class="card-body">
 					<h5 class="card-title">RESOURCE TYPE</h5>
-					<button value="article">Article</button>
-					<button value="cheat">Cheatsheet</button>
-					<button value="discord">Discord server</button>
-					<button value="doc">Documentation</button>
-					<button value="exercise">Exercise</button>
-					<button value="game">Game</button>
-					<button value="interactive">Interactive</button>
-					<button value="thisthat">This &amp; that</button>
-					<button value="tips">Tips &amp; tricks</button>
-					<button value="tool">Tool</button>
-					<button value="tutorial">Tutorial</button>
-					<button value="videocourse">Video course</button>
+					<button class="orange" value="article">Article</button>
+					<button class="orange" value="cheat">Cheatsheet</button>
+					<button class="orange" value="discord">Discord server</button>
+					<button class="orange" value="doc">Documentation</button>
+					<button class="orange" value="exercise">Exercise</button>
+					<button class="orange" value="game">Game</button>
+					<button class="orange" value="interactive">Interactive</button>
+					<button class="orange" value="thisthat">This &amp; that</button>
+					<button class="orange" value="tips">Tips &amp; tricks</button>
+					<button class="orange" value="tool">Tool</button>
+					<button class="orange" value="tutorial">Tutorial</button>
+					<button class="orange" value="videocourse">Video course</button>
 				</div>			
 			</div>
 		</div>
 	
 		<!-- WEBSITES -->
-		<div class="col-lg-4">
+		<div class="col-4">
 			<div class="card website">
 				<div class="card-body">
 					<h5 class="card-title">WEBSITE</h5>
-					<button value="g4g">Geeks for Geeks</button>
-					<button value="gh">GitHub</button>
-					<button value="mdn">MDN</button>
-					<button value="reddit">Reddit</button>
-					<button value="sover">Stack Overflow</button>
-					<button value="w3s">W3Schools</button>
-					<button value="yt">YouTube</button>
+					<button class="yellow" value="g4g">Geeks for Geeks</button>
+					<button class="yellow" value="gh">GitHub</button>
+					<button class="yellow" value="mdn">MDN</button>
+					<button class="yellow" value="reddit">Reddit</button>
+					<button class="yellow" value="sover">Stack Overflow</button>
+					<button class="yellow" value="w3s">W3Schools</button>
+					<button class="yellow" value="yt">YouTube</button>
 				</div>	
 			</div>
 		</div>
@@ -147,7 +147,7 @@
 					<!-- THEAD -->
 					<thead>
 						<tr>
-							<th>Lang</th>
+							<th class="text-center" style="padding: 4px">Lang</th>
 							<th>Name</th>
 							<th>Description</th>
 						</tr>
@@ -352,6 +352,15 @@
 						<td>Learn CSS grid with this interactive game</td>
 					</tr>
 
+					<!-- CSS Layout -->
+					<tr data-tags="css">
+						<td class="en"></td>
+						<td><a href="https://csslayout.io/">CSS Layout</a></td>
+						<td>A collection of popular layouts and patterns made with CSS</td>
+					</tr>
+
+					
+
 					<!-- CSS reference -->
 					<tr data-tags="css, tutorial, webdev">
 						<td class="en"></td>
@@ -464,7 +473,7 @@
 
 					<!-- electrictoolbox -->
 					<tr data-tags="article, jq, tutorial">
-						<td class="it"></td>
+						<td class="en"></td>
 						<td><a href="https://electrictoolbox.com/jquery-set-multiple-attributes/">electrictoolbox</a></td>
 						<td>Set multiple attributes with jQuery</td>
 					</tr>
@@ -614,6 +623,14 @@
 						<td>Free class for web security</td>
 					</tr>
 
+					<!-- HTML DOM  -->
+					<tr data-tags="html, js, tutorial">
+						<td class="en"></td>
+						<td><a href="https://htmldom.dev/">HTMLDOM</a></td>
+						<td>Manage HTML DOM with vanilla JavaScript</td>
+					</tr>
+
+					
 
 					<!-- HTML.it HTML5  -->
 					<tr data-tags="html, tutorial, webdev">
@@ -1159,13 +1176,6 @@
 						<td>External anchors and rel noopener</td>
 					</tr>
 
-					<!-- Web Dev external anchors rel noopener -->
-					<tr data-tags="article, html, tips, webdev">
-						<td class="en"></td>
-						<td><a href="https://web.dev/external-anchors-use-rel-noopener/">Web.Dev</a></td>
-						<td>External anchors and rel noopener</td>
-					</tr>
-
 					<!-- Web Skills -->
 					<tr data-tags="gh, webdev">
 						<td class="en"></td>
@@ -1187,14 +1197,13 @@
 
 					<!-- You might not need jQuery -->
 					<tr data-tags="js, jq">
-						<td class="it"></td>
+						<td class="en"></td>
 						<td><a href="http://youmightnotneedjquery.com/">You might not need jQuery</a></td>
 						<td>Alternatives to common jQuery functions</td>
 					</tr>
 
 <!-- Z -->
 					</tbody>
-
 				</table>
 
 				<!-- INIT DATATABLE -->
@@ -1205,14 +1214,18 @@
 						"scrollY": 450,
 						// Make first column not orderable
 						"columnDefs": [
-										{ "targets": 0, "orderable": false, "width": '1px' },
-										
+							{ "targets": 0, "orderable": false, "width": '1px' },
 						],
 						// Make the second column (Name) the default one for ordering
 						"order": [[ 1, "asc" ]],
 						// Remove "show entries" and pagination info
 						"paging": false,
-						"bInfo" : false
+						"bInfo" : false,
+						// Show fplaceholder instead of label
+						"language": {
+							"search": "",
+							"searchPlaceholder": "Search"
+						}
 					}
 				);
 				</script>
