@@ -11,7 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" /> 
 		<!-- PERSONAL STYLE -->
 		<link rel="stylesheet" type="text/css" href="../css/shared.css" />
-		<link rel="stylesheet" type="text/css" href="../css/tag-buttons-style.css" />
+		<link rel="stylesheet" type="text/css" href="../css/tag-system-style.css" />
 
 		<!-- SCRIPTS -->
 		<!-- LOADING JQUERY -->
@@ -37,10 +37,10 @@
 			  <a class="nav-link" href="link-4-devs.html">Link 4 Devs</a>
 		  </li>
 		  <li class="nav-item">
-			  <a class="nav-link active" href="useful-software.html">Useful software</a>
+			  <a class="nav-link active" href="useful-software.html">Useful Software</a>
 		  </li>
 			<li class="nav-item">
-			  <a class="nav-link" href="list-template.html">List template</a>
+			  <a class="nav-link" href="favorite-websites.html">Favorite Websites</a>
 		  </li>
 	  </ul>
   </nav>
@@ -53,6 +53,12 @@
 			<div class="card">
 				<div class="card-body">
 					<h5 class="card-title">TAG LIST</h5>
+					<h6 class="card-subtitle">
+						<span style="color: greenyellow;">MAIN CATEGORY</span> - 
+						<span style="color: orange;">SUBCATEGORY</span> - 
+						<span style="color: brown;">SOFTWARE</span> - 
+						<span style="color: yellow;">LICENSE</span>
+					</h6>
 					<button class="orange" value="analyzer">Analyzer</button>
 					<button class="yellowgreen" value="audio">Audio</button>
 					<button class="orange" value="converter">Converter</button>
@@ -67,7 +73,6 @@
 					<button class="orange" value="emulator">Emulator</button>
 					<button class="yellowgreen" value="ext">Extension</button>
 					<button class="orange" value="fef">Files &amp; folders</button>
-					<button class="orange" value="framework">Framework</button>
 					<button class="yellow" value="freemium">Freemium</button>
 					<button class="yellow" value="freeware">Freeware</button>
 					<button class="yellowgreen" value="gaming">Gaming</button>
@@ -116,13 +121,6 @@
 
 				<!-- TBODY -->
 				<tbody>
-					<!-- FFmpeg -->
-					<tr data-tags="audio, analyzer, freeware">
-						<td>
-							<a href="http://spek.cc/">FFmpeg</a>
-						</td>
-						<td>A complete, cross-platform solution to record, convert and stream audio and video</td>
-					</tr>
 <!-- !AUDIO -->
 		<!-- Analyzer -->
 					<!-- Spek -->
@@ -142,7 +140,6 @@
 						</td>
 						<td>Convert your music to many audio formats</td>
 					</tr>
-					A complete, cross-platform solution to record, convert and stream audio and video.
 				
 		<!-- DAW -->
 					<!-- Ableton Live -->
@@ -238,6 +235,14 @@
 						</td>
 						<td>Organize, find, and play music files on your PC</td>
 					</tr>		
+
+		<!-- FFmpeg -->
+				<tr data-tags="audio, video, editor, player, freeware">
+					<td>
+						<a href="http://ffmpeg.org/download.html">FFmpeg</a>
+					</td>
+					<td>A complete, cross-platform solution to record, convert and stream audio and video</td>
+				</tr>
 				
 <!-- !DOWNLOADER -->
 		<!-- Manager -->
@@ -705,7 +710,7 @@
 						<td>
 							<a href="https://www.softpedia.com/get/Multimedia/Graphic/Graphic-Others/FileMind-QuickFix.shtml">FileMind QuickFix</a>
 						</td>
-						<td>Remove personal information from your digital photos</td>
+						<td>Remove metadata from your digital photos</td>
 					</tr>
 					<tr data-tags="image, editor, shareware">
 						<td>
@@ -770,21 +775,6 @@
 								Community</a>
 						</td>
 						<td>A fully-featured, extensible, free IDE</td>
-					</tr>
-				
-	<!-- Framework -->
-					<tr data-tags="programming, framework, freeware">
-						<td>
-							<a href="https://www.microsoft.com/en-us/download/details.aspx?id=20914">Microsoft
-								XNA Framework</a>
-						</td>
-						<td>A framework for game development</td>
-					</tr>
-					<tr data-tags="programming, framework, freeware">
-						<td>
-							<a href="http://www.monogame.net/downloads/">MonoGame</a>
-						</td>
-						<td>Implementation of XNA framework for cross-platform game development</td>
 					</tr>
 				
 		<!-- MISC -->
@@ -1118,6 +1108,14 @@
 						</td>
 						<td>Another client for Telegram app</td>
 					</tr>
+					<!-- Unigram  -->
+					<tr data-tags="utility, misc, freeware">
+						<td>
+							<a href="https://www.virtualbox.org/wiki/Downloads">Oracle VIrtualBox</a>
+						</td>
+						<td>General-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use</td>
+					</tr>
+					
 					<!-- WindowTop -->
 					<tr data-tags="utility, misc, freemium">
 						<td>

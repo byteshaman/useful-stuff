@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="mul">
+<head>
+    <title>Favorite Websites</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS -->
+		<!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<!-- DATATABLES -->
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" /> 
+		<!-- PERSONAL STYLE -->
+		<link rel="stylesheet" type="text/css" href="../css/shared.css" />
+		<link rel="stylesheet" type="text/css" href="../css/tag-system-style.css" />
+
+		<!-- SCRIPTS -->
+		<!-- LOADING JQUERY -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- LOADING BOOTSTRAP -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<!-- LOADING DATATABLES -->
+		<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+		<!-- LOADING DATATABLES BOOTSTRAP -->
+		<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+    <!-- LOADING MY SCRIPTS -->
+		<script src="../scripts/shared.js"></script>
+		<script src="../scripts/tag-handler.js"></script>
+</head>
+
+<body class="bg-secondary">
+<div class="container-fluid">
+	<!-- NAVBAR -->
+  <div class="row">
+  <nav id="navbar" class="navbar fixed-top navbar-dark bg-dark navbar-expand justify-content-center" >
+	  <ul class="nav nav-pills">
+		  <li class="nav-item">
+			  <a class="nav-link" href="link-4-devs.html">Link 4 Devs</a>
+		  </li>
+		  <li class="nav-item">
+			  <a class="nav-link" href="useful-software.html">Useful Software</a>
+      </li>
+      <li class="nav-item">
+			  <a class="nav-link active" href="favorite-websites.html">Favorite Websites</a>
+		  </li>
+	  </ul>
+  </nav>
+	</div>
+	
+	<!-- FILTER CONTAINER -->
+	<!-- Shown only on md, lg and xl -->
+	<div class="row text-center mt-2 d-none d-md-flex justify-content-center" id="tagContainer">
+		<div class="col-lg-11 col-xl-8">
+			<div class="card">
+				<div class="card-body">
+					<h5 class="card-title ">TAG LIST</h5>
+					<button value="anime">Anime</button>
+					<button value="article">Article</button>
+					<button value="catalog">Catalogation</button>
+					<button value="comp">Comparison</button>
+					<button value="disc">Discussion</button>
+					<button value="edu">Educational</button>
+					<button value="mail">Email</button>
+					<button value="game">Game</button>
+					<button value="image">Image</button>
+					<button value="info">Information</button>
+					<button value="manga">Manga</button>
+					<button value="misc">Miscellaneous</button>
+					<button value="movies">Movies</button>
+					<button value="music">Music</button>
+					<button value="privacy">Privacy</button>
+					<button value="reddit">Reddit</button>
+					<button value="tech">Technology</button>
+					<button value="text">Text</button>
+					<button value="tool">Tool</button>
+					<button value="trans">Translator</button>
+					<button value="tvs">TV Series</button>
+					<button value="sec">Security</button>
+					<button value="share">Sharing</button>
+					<button value="shop">Shop</button>
+					<button value="stream">Streaming</button>
+					<button value="subs">Subtitles</button>
+					<button value="useless">Useless</button>
+					<button value="video">Video</button>
+				</div>			
+			</div>
+		</div>
+	</div>
+
+	<!-- TABLE CONTAINER -->
+	<div class="row">
+		<div class="col-xl-8 col-lg-8 col-md-10 col-sm-12 mx-auto my-3" id="tableContainer">
+			<table id="swTable" class="table table-dark table-striped table-hover table-bordered table-sm" width="100%">
+				
+				<!-- THEAD -->
+				<thead class="thead-dark">
+					<tr>
+						<th>Name</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+
+				<!-- TBODY -->
+				<tbody>
+<!-- !0-9 -->
+					<!-- 120 Years -->
+					<tr data-tags="info, music">
+						<td><a href="http://120years.net/">120 Years</a></td>
+						<td>120 years of electronic music</td>
+					</tr>
+					<!-- 10minutesmail -->
+					<tr data-tags="mail, privacy">
+						<td><a href="https://10minutemail.com/">10minutemail</a></td>
+						<td>Beat SPAM with the best disposable email service</td>
+					</tr>		
+<!-- !A -->
+					<!-- AliExpress -->
+					<tr data-tags="shop">
+						<td><a href="https://www.aliexpress.com/">AliExpress</a></td>
+						<td>Chinese e-commerce</td>
+					</tr>
+					<!-- AllKeyShop -->
+					<tr data-tags="comparison, shop, game">
+						<td><a href="https://www.allkeyshop.com/">AllKeyShop</a></td>
+						<td>Compare prices for videogames and software keys</td>
+					</tr>
+					<!-- Amazon.it -->
+					<tr data-tags="shop">
+						<td><a href="https://www.amazon.it/">Amazon.it</a></td>
+						<td>Italian Amazon page</td>
+					</tr>
+					<!-- Anime filler list -->
+					<tr data-tags="anime">
+						<td><a href="http://www.animefillerlist.com/">Anime filler list</a></td>
+						<td>The ultimate anime filler list</td>
+					</tr>
+					<!-- AnimeClick -->
+					<tr data-tags="anime, catalog, manga">
+						<td><a href="https://www.animeclick.it/">AnimeClick</a></td>
+						<td>Italian portal for anime and manga</td>
+					</tr>
+					<!-- AlternativeTo -->
+					<tr data-tags="misc">
+						<td><a href="https://alternativeto.net/">AlternativeTo</a></td>
+						<td>Find software/websites alternatives to what you're using</td>
+					</tr>
+					<!-- Asian World -->
+					<tr data-tags="movies, subs, tvs">
+						<td><a href="http://www.asianworld.it/cercasub.php">Asian World</a></td>
+						<td>Italian website focused on providing subtitles for Asian movies and TV series</td>
+					</tr>
+<!-- !B -->
+					<!-- Bandcamp -->
+					<tr data-tags="shop, music">
+						<td><a href="https://bandcamp.com/">Bandcamp</a></td>
+						<td>Discover amazing new music and directly support the artists who make it</td>
+					</tr>
+					<!-- BestAlbumsEver -->
+					<tr data-tags="music">
+						<td><a href="http://www.bestalbumsever.net/">BestAlbumsEver</a></td>
+						<td>Discover great albums at random</td>
+					</tr>
+					<!-- BPMPower -->
+					<tr data-tags="shop, tech">
+						<td><a href="https://www.bpm-power.com/it/">BPMPower</a></td>
+						<td>Italian hw/sw shop</td>
+					</tr>
+					<!-- British Library Sounds -->
+					<tr data-tags="misc, music, stream">
+						<td><a href="https://sounds.bl.uk/">British Library Sounds</a></td>
+						<td>Italian hw/sw shop</td>
+					</tr>
+					<!-- Discogs -->
+					<tr data-tags="catalog, music, shop">
+						<td><a href="https://www.discogs.com/">Discogs</a></td>
+						<td>Music database and marketplace</td>
+					</tr>
+<!-- !C -->
+					<!-- Can You Run It? -->
+					<tr data-tags="game, tool">
+						<td><a href="https://www.systemrequirementslab.com/cyri">Can You Run It?</a></td>
+						<td>Scan your PC to know if you can run a game</td>
+					</tr>
+					<!-- Coffitivity -->
+					<tr data-tags="audio, misc">
+						<td><a href="https://coffitivity.com/">Coffitivity</a></td>
+						<td>Coffitivity recreates the ambient sounds of a cafe to boost your creativity and help you work better</td>
+					</tr>
+					<!-- Crunchyrol -->
+					<tr data-tags="anime, stream, video">
+						<td><a href="http://www.crunchyroll.com/">Crunchyroll</a></td>
+						<td>Streaming platform for anime</td>
+					</tr>
+<!-- !D -->
+					<!-- DeepL -->
+					<tr data-tags="trans">
+						<td><a href="https://www.deepl.com/translator">DeepL</a></td>
+						<td>Translator powered by DeepL's world-leading neural network technology</td>
+					</tr>
+					<!-- Disorientation -->
+					<tr data-tags="game">
+						<td><a href="https://armorgames.com/play/3486/game-of-disorientation">Disorientation</a></td>
+						<td>Trippy web browser game</td>
+					</tr>
+					<!-- Displate -->
+					<tr data-tags="shop">
+						<td><a href="https://displate.com/">Displate</a></td>
+						<td>Style your house with cool metal plates</td>
+					</tr>
+					<!-- Doodle -->
+					<tr data-tags="misc">
+						<td><a href="https://doodle.com/">Doodle</a></td>
+						<td>The simplest way to schedule meetings with clients, colleagues, or friends</td>
+					</tr>
+					<!-- Doom9 -->
+					<tr data-tags="article, subs">
+						<td><a href="http://www.doom9.it/index.html?/sub.htm">Doom9</a></td>
+						<td>Italian guide to subtitles synchronization</td>
+					</tr>
+					<!-- Dynamic Systems -->
+					<tr data-tags="game">
+						<td><a href="https://www.kongregate.com/games/LorenzGames/dynamic-systemss">Dynamic Systems</a></td>
+						<td>Logic web browser game</td>
+					</tr>
+<!-- !E -->
+					<!-- earth -->
+					<tr data-tags="info">
+						<td><a href="https://earth.nullschool.net/">earth</a></td>
+						<td>A global map of weather, wind and oceans condition</td>
+					</tr>		
+					<!-- eBay.it -->
+					<tr data-tags="shop">
+						<td><a href="https://www.ebay.it/">eBay.it</a></td>
+						<td>Italian eBay page</td>
+					</tr>		
+					<!-- ePrice -->
+					<tr data-tags="shop">
+						<td><a href="https://www.eprice.it/">ePrice</a></td>
+						<td>Italian ecommerce with a great variety of products</td>
+					</tr>		
+					<!-- Every Noise At Once -->
+					<tr data-tags="music">
+						<td><a href="http://everynoise.com/">Every Noise At Once</a></td>
+						<td>Algorithmically-generated, readability-adjusted scatter-plot of the musical genre-space</td>
+					</tr>		
+<!-- !G -->
+					<!-- GetFVid -->
+					<tr data-tags="video">
+						<td><a href="https://www.getfvid.com/">GetFVid</a></td>
+						<td>Download videos from Facebook</td>
+					</tr>
+					<!-- Gnoosic -->
+					<tr data-tags="music">
+						<td><a href="http://www.gnoosic.com/faves.php">Gnoosic</a></td>
+						<td>Discover new music based on artists you already like</td>
+					</tr>
+					<!-- gog -->
+					<tr data-tags="shop, game">
+						<td><a href="https://www.gog.com/games">gog</a></td>
+						<td>DRM free videogame keys</td>
+					</tr>
+					<!-- Giphy Gif Maker -->
+					<tr data-tags="image, tool">
+						<td><a href="https://giphy.com/create/gifmaker">Giphy Gif Maker</a></td>
+						<td>Create GIFs easily and quickly</td>
+					</tr>
+					<!-- GSM Arena -->
+					<tr data-tags="comparison, tech, tool">
+						<td><a href="https://www.gsmarena.com/tools.php3">GSM Arena</a></td>
+						<td>Compare mobile phones, tablets specs, photo quality and battery stats</td>
+					</tr>
+<!-- !H -->
+					<!-- Historygrapy -->
+					<tr data-tags="edu">
+						<td><a href="http://histography.io/">Historygrapy</a></td>
+						<td>4000 years of human history in one interactive page</td>
+					</tr>
+					<!-- Homeless World Cup -->
+					<tr data-tags="info">
+						<td><a href="https://homelessworldcup.org/homelessness-statistics/">Homeless World Cup</a></td>
+						<td>Global homeless statistics</td>
+					</tr>
+					<!-- Homicide Monitor -->
+					<tr data-tags="info">
+						<td><a href="https://homicide.igarape.org.br/">Homicide Monitor</a></td>
+						<td>Explore the distribution, dimensions and dynamics of international homicised around the world</td>
+					</tr>
+					<!-- HumbleBundle -->
+					<tr data-tags="shop, game">
+						<td><a href="https://www.humblebundle.com/store">HumbleBundle</a></td>
+						<td>Videogames, books and software bundles</td>
+					</tr>
+					<!-- HW1 -->
+					<tr data-tags="shop, tech">
+						<td><a href="https://www.hw1.it/">HW1</a></td>
+						<td>Italian hw/sw shop</td>
+					</tr>
+<!-- !I -->
+					<!-- Idealo.it -->
+					<tr data-tags="comp">
+						<td><a href="https://www.idealo.it/">Idealo.it</a></td>
+						<td>Italian page of Idealo price comparison website</td>
+					</tr>
+					<!-- IMDb -->
+					<tr data-tags="catalog, movies, tvs">
+						<td><a href="https://www.imdb.com/">IMDb</a></td>
+						<td>Database of movies and TV series with rating and review features</td>
+					</tr>
+					<!-- imgur -->
+					<tr data-tags="image, share, tool">
+						<td><a href="https://imgur.com/">imgur</a></td>
+						<td>Upload and share your images with the world</td>
+					</tr>
+					<!-- Impariamo l'italiano -->
+					<tr data-tags="edu">
+						<td><a href="http://www.impariamoitaliano.com/">Impariamo l'italiano</a></td>
+						<td>Website to learn Italian language with exercises</td>
+					</tr>
+					<!-- ItaliaOra -->
+					<tr data-tags="info">
+						<td><a href="https://www.italiaora.org/">ItaliaOra</a></td>
+						<td>Real time information about Italy</td>
+					</tr>
+					<!-- Ishkur's guide to Electronic Music -->
+					<tr data-tags="info, music">
+						<td><a href="http://music.ishkur.com/">Ishkur's guide to Electronic Music</a></td>
+						<td>An okay guide to electronic music</td>
+					</tr>
+					<!-- IsThereAnyDeal? -->
+					<tr data-tags="comparison, game">
+						<td><a href="https://isthereanydeal.com/">IsThereAnyDeal?</a></td>
+						<td>Find the best game deals across several digital distributors</td>
+					</tr>
+<!-- !J -->	
+					<!-- JustWatch -->
+					<tr data-tags="comparison, movies, streaming, tvs">
+						<td><a href="https://www.justwatch.com/">JustWatch</a></td>
+						<td>Streaming search engine</td>
+					</tr>
+<!-- !L -->
+					<!-- laleggepertutti -->
+					<tr data-tags="info, misc">
+						<td><a href="https://www.laleggepertutti.it/">laleggepertutti</a></td>
+						<td>Italian website about consulence on Italian laws</td>
+					</tr>
+					<!-- Last.fm -->
+					<tr data-tags="music, stream">
+						<td><a href="http://www.last.fm/">Last.fm</a></td>
+						<td>Play music, find songs, and discover artists</td>
+					</tr>	
+					<!-- Lunapic -->
+					<tr data-tags="image, tool">
+						<td><a href="https://www.lunapic.com/editor/">LunaPic</a></td>
+						<td>Free online photo editor</td>
+					</tr>
+<!-- !M -->
+					<!-- Music Map -->
+					<tr data-tags="music">
+						<td><a href="https://www.music-map.com/">Music Map</a></td>
+						<td>Discover new music based on artists you already like</td>
+					</tr>
+					<!-- MovieDay -->
+					<tr data-tags="misc, movies">
+						<td><a href="http://www.movieday.it/">MovieDay</a></td>
+						<td>Platform of film distribution where the people choose which movies should be played</td>
+					</tr>
+					<!-- MyAnimeList -->
+					<tr data-tags="anime, catalog, manga">
+						<td><a href="https://myanimelist.net/">MyAnimeList</a></td>
+						<td>Anime and manga database and community</td>
+					</tr>
+					<!-- MyTextTools -->
+					<tr data-tags="text, tool">
+						<td><a href="https://mytexttools.com/">MyTextTools</a></td>
+						<td>Powerful suite of browser-based text manipulation tools</td>
+					</tr>
+<!-- !N -->
+					<!-- NationStates -->
+					<tr data-tags="game">
+						<td><a href="https://www.nationstates.net/">NationStates</a></td>
+						<td>Nation simulation web browser game</td>
+					</tr>
+					<!-- NEXT -->
+					<tr data-tags="shop, tech">
+						<td><a href="https://www.nexths.it/">NEXT</a></td>
+						<td>Italian hw/sw shop</td>
+					</tr>
+					<!-- Non solo prog -->
+					<tr data-tags="info, music">
+						<td><a href="http://nonsoloprogrock.blogspot.com/2010/09/il-progressive-italiano-negli-anni-70.html">Non solo prog</a></td>
+						<td>Guite to Italian progressive rock</td>
+					</tr>
+<!-- !O -->
+					<!-- Ogres Crypt -->
+					<tr data-tags="misc">
+						<td><a href="http://ogres-crypt.com/public/NetFlix-Streaming-Genres2.html">Ogres Crypt</a></td>
+						<td>NetFlix streaming by alternate genres</td>
+					</tr>
+					<!-- OpenSubtitles -->
+					<tr data-tags="movies, subs, tvs">
+						<td><a href="https://www.opensubtitles.org/it/search/sublanguageid-ita,eng">OpenSubtitles</a></td>
+						<td>The best subtitle search engine</td>
+					</tr>
+					<!-- Outlook Live -->
+					<tr data-tags="mail">
+						<td><a href="https://outlook.live.com/owa/">Outlook Live</a></td>
+						<td>Free personal email and calendar from Microsoft</td>
+					</tr>
+<!-- !P -->
+					<!-- PCosta -->
+					<tr data-tags="game">
+						<td><a href="https://www.pcosta.net//ipdcs/">PCosta</a></td>
+						<td>Italian web browser game in which you must become Presidente della Repubblica</td>
+					</tr>
+					<!-- Privatebin -->
+					<tr data-tags="privacy, share, text">
+						<td><a href="https://privatebin.net/">Privatebin</a></td>
+						<td>Minimalist, open source online pastebin</td>
+					</tr>	
+					<!-- Protonmail -->
+					<tr data-tags="mail, privacy">
+						<td><a href="https://protonmail.com/">Protonmail</a></td>
+						<td>Free encrypted personal email</td>
+					</tr>	
+<!-- !R -->
+					<!-- Radiooooo -->
+					<tr data-tags="music">
+						<td><a href="https://radiooooo.com/">Radiooooo</a></td>
+						<td>Musical time machine</td>
+					</tr>	
+					<!-- Rate Your Music -->
+					<tr data-tags="catalog, discussion, movies, music">
+						<td><a href="https://rateyourmusic.com/">Rate Your Music</a></td>
+						<td>Catalog, rate, tag, and review your music and movies</td>
+					</tr>	
+					<!-- r/watchorder -->
+					<tr data-tags="anime, reddit">
+						<td><a href="https://www.reddit.com/r/anime/wiki/watch_order">r/watchorder</a></td>
+						<td>Chronological order of anime</td>
+					</tr>	
+					<!-- Reddit -->
+					<tr data-tags="disc, info, reddit">
+						<td><a href="https://www.reddit.com/	">Reddit</a></td>
+						<td>The front page of the internet</td>
+					</tr>
+					<!-- Reelgood -->
+					<tr data-tags="comparison, movies, streaming, tvs">
+						<td><a href="https://reelgood.com/">Reelgood</a></td>
+						<td>Streaming search engine</td>
+					</tr>
+					<!-- Remove BG -->
+					<tr data-tags="image, tool">
+						<td><a href="https://www.remove.bg/">Remove BG</a></td>
+						<td>Remove background from pictures</td>
+					</tr>
+					<!-- RageOn -->
+					<tr data-tags="shop">
+						<td><a href="https://www.rageon.com/">RageOn</a></td>
+						<td>Printed allover t-shirt and hoodies</td>
+					</tr>
+					<!-- RedBubble -->
+					<tr data-tags="shop">
+						<td><a href="https://www.redbubble.com/">RedBubble</a></td>
+						<td>Awesome products designed by independent artists</td>
+					</tr>
+<!-- !S -->
+					<!-- Skribbl -->
+					<tr data-tags="game">
+						<td><a href="https://skribbl.io/">Skribbl</a></td>
+						<td>Draw and guess web browser game</td>
+					</tr>
+					<!-- Soundcloud -->
+					<tr data-tags="music, stream">
+						<td><a href="https://soundcloud.com/">Soundcloud</a></td>
+						<td>Community of artists, bands, podcasters and creators of music & audio</td>
+					</tr>
+					<!-- Soul Safari -->
+					<tr data-tags="info, music, stream">
+						<td><a href="https://soulsafari.wordpress.com/">Soul Safari</a></td>
+						<td>Music treasures from Africa</td>
+					</tr>
+					<!-- Spartoo -->
+					<tr data-tags="shop">
+						<td><a href="https://www.spartoo.it/">Spartoo</a></td>
+						<td>Italian clothing/shoes shop</td>
+					</tr>
+					<!-- Spokeo -->
+					<tr data-tags="privacy">
+						<td><a href="https://www.spokeo.com/">Spokeo</a></td>
+						<td>Search by name, phone, address or email to confidentially lookup information about people you know</td>
+					</tr>
+					<!-- Spotify -->
+					<tr data-tags="music, stream">
+						<td><a href="https://www.spotify.com/">Spotify</a></td>
+						<td>Digital music service that gives you access to millions of songs</td>
+					</tr>
+					<!-- SSD -->
+					<tr data-tags="article, privacy">
+						<td><a href="https://ssd.eff.org/">Surveillance Self-Defense</a></td>
+						<td>Tips, tools and how-tos for safer online communications</td>
+					</tr>
+					<!-- SteamDB -->
+					<tr data-tags="game">
+						<td><a href="https://steamdb.info/upcoming/free/">SteamDB</a></td>
+						<td>Current and upcoming free games on Steam</td>
+					</tr>
+					<!-- Steam Library Filters -->
+					<tr data-tags="tool, game">
+						<td><a href="https://www.lorenzostanco.com/lab/steam/">Steam Library Filters</a></td>
+						<td>Search your Steam games by tags and features, sort by playtime, metascore, user reviews and more</td>
+					</tr>
+					<!-- Steam Tools -->
+					<tr data-tags="tool, game">
+						<td><a href="https://steam.tools/">Steam Tools</a></td>
+						<td>A set of Steam related WebApps built around trading cards, emoticons and backgrounds</td>
+					</tr>
+					<!-- StrumentiMusicali -->
+					<tr data-tags="shop, music">
+						<td><a href="https://www.strumentimusicali.net/">StrumentiMusicali</a></td>
+						<td>Italian musical instruments shop</td>
+					</tr>
+					<!-- Subspedia -->
+					<tr data-tags="movies, subs, tvs">
+						<td><a href="https://www.subspedia.tv/">Subspedia</a></td>
+						<td>Italian website to search for movies and TV series subtitles</td>
+					</tr>
+					<!-- SubScene -->
+					<tr data-tags="movies, subs, tvs">
+						<td><a href="https://subscene.com/">SubScene</a></td>
+						<td>Another good subtitle search engine</td>
+					</tr>
+					<!-- Syrphe -->
+					<tr data-tags="music">
+						<td><a href="http://www.syrphe.com/african&asian_database.htm">Syrphe</a></td>
+						<td>Electronic and experimental music database with a focus on Africa and Asia</td>
+					</tr>
+<!-- !T -->
+					<!-- TeeTee -->
+					<tr data-tags="shop">
+						<td><a href="https://www.teetee.eu/">TeeTee</a></td>
+						<td>Cool shirts at reasonable prices</td>
+					</tr>
+					<!-- The Atlantic -->
+					<tr data-tags="article, info">
+						<td><a href="https://www.theatlantic.com/health/archive/2013/10/a-real-time-map-of-births-and-deaths/280609/">The Atlantic</a></td>
+						<td>A real time map of births and deaths</td>
+					</tr>
+					<!-- The Internet Arcade -->
+					<tr data-tags="game">
+						<td><a href="https://archive.org/details/internetarcade">The Internet Arcade</a></td>
+						<td>Web-based library of arcade coin-operated video games from the 1970s through to the 1990s</td>
+					</tr>
+					<!-- The True Size Of -->
+					<tr data-tags="edu">
+						<td><a href="https://thetruesize.com/">The True Size Of</a></td>
+						<td>Drag and drop countries around the map to compare their relative size</td>
+					</tr>
+					<!-- The Scale Of Universe -->
+					<tr data-tags="edu">
+						<td><a href="http://htwins.net/scale2/">The Scale Of Universe</a></td>
+						<td>Zoom from the edge of the universe to the quantum foam of spacetime and learn about everything in between</td>
+					</tr>
+					<!-- TogetherPrice -->
+					<tr data-tags="misc">
+						<td><a href="https://www.togetherprice.com/">TogetherPrice</a></td>
+						<td>Online subscriptions cost sharing service</td>
+					</tr>
+					<!-- Tofogu -->
+					<tr data-tags="anime, article, movies">
+						<td><a href="https://www.tofugu.com/japan/best-anime-movies/">Tofugu</a></td>
+						<td>20 anime movies not made by Studio Ghibli</td>
+					</tr>
+					<!-- Topsters -->
+					<tr data-tags="movies, music">
+						<td><a href="https://www.neverendingchartrendering.org/">Topsters</a></td>
+						<td>Make movie and music charts</td>
+					</tr>
+					<!-- Trovaprezzi -->
+					<tr data-tags="comp">
+						<td><a href="https://www.trovaprezzi.it/">Trovaprezzi</a></td>
+						<td>Italian website to confront prices</td>
+					</tr>
+					<!-- TuneIn -->
+					<tr data-tags="music, stream">
+						<td><a href="https://tunein.com/">TuneIn</a></td>
+						<td>Free online music radio</td>
+					</tr>
+<!-- !U -->
+					<!-- ubu -->
+					<tr data-tags="info, music, movies, stream">
+						<td><a href="http://www.ubu.com/">ubu</a></td>
+						<td>All avant-garde website (dance, movies, music)</td>
+					</tr>
+					<!-- URSSS -->
+					<tr data-tags="music, stream">
+						<td><a href="https://www.ursss.com/">URSSS</a></td>
+						<td>Live music concerts to watch for free</td>
+					</tr>
+<!-- !V -->
+					<!-- Versus -->
+					<tr data-tags="comparison, tech, tool">
+						<td><a href="https://versus.com/en">Versus</a></td>
+						<td>Compare mobile phones, tablets, headphones and cameras specs</td>
+					</tr>
+					<!-- VVVVID -->
+					<tr data-tags="anime, streaming">
+						<td><a href="https://www.vvvvid.it/">VVVVID</a></td>
+						<td>Italian anime streaming website</td>
+					</tr>
+<!-- !W -->
+					<!-- What3Words -->
+					<tr data-tags="misc, useless">
+						<td><a href="https://www.What3Words.com/">What3Words</a></td>
+						<td>Divide the world into a grid of 3m x 3m squares each of which is univocally identified by a 3 word address</td>
+					</tr>
+					<!-- Who Sampled? -->
+					<tr data-tags="music">
+						<td><a href="https://www.whosampled.com/">Who Sampled?</a></td>
+						<td>Discover music through samples</td>
+					</tr>
+					<!-- worldtimebuddy -->
+					<tr data-tags="tool">
+						<td><a href="https://www.worldtimebuddy.com/">worldtimebuddy</a></td>
+						<td>Time zone converter</td>
+					</tr>
+					<!-- Youtube -->
+					<tr data-tags="music, stream, video">
+						<td><a href="https://www.youtube.com/">YouTube</a></td>
+						<td>Enjoy the videos and music you love, upload original content, and share it with the world</td>
+					</tr>
+					<!-- Zalando -->
+					<tr data-tags="shop">
+						<td><a href="https://www.zalando.it/">Zalando</a></td>
+						<td>Italian clothing/shoes shop</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<!-- Init Datatable -->
+			<script>
+				$('#swTable').DataTable(
+    		{
+						// Make the table scrollable after the height is > 400px
+						"scrollY": 450,
+						// Remove "show entries" and pagination info
+						"paging": false,
+						"bInfo" : false,
+						// Make second column not orderable
+						"columnDefs": [
+							{ "targets": 1, "orderable": false },
+						],
+						"language": {
+							"search": "",
+							"searchPlaceholder": "Search"
+						}
+					}
+				);
+			</script>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+		

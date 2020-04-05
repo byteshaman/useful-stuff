@@ -11,8 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" /> 
 	<!-- PERSONAL STYLE -->
 	<link rel="stylesheet" type="text/css" href="../css/shared.css" />
-	<link rel="stylesheet" type="text/css" href="../css/link-4-devs.css" />
-	<link rel="stylesheet" type="text/css" href="../css/tag-buttons-style.css" />
+	<link rel="stylesheet" type="text/css" href="../css/tag-system-style.css" />
 
 
 	<!-- SCRIPTS -->
@@ -46,36 +45,14 @@
 						<a class="nav-link" href="useful-software.html">Useful software</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="list-template.html">List template</a>
+						<a class="nav-link" href="favorite-websites.html">Favorite Websites</a>
 					</li>
 				</ul>
 			</nav>
 		</div>
 
-
-<!-- Abbreviations:
-	bs -> bootstrap
-	cheat -> cheatsheet
-	cpp -> c++
-	discord -> discord server
-	g4g -> geeks for geeks
-	gh -> github 
-	js -> javascript
-	jq -> jquery
-	multi -> multi
-	py -> python
-	sover -> stack overflow
-	supp -> support
-	thisthat -> this & that
-	tips -> tips & tricks
-	webdev -> web development
-	websec -> web security
-	yt -> youtube
--->
-
-
-
 	<!-- FILTER CONTAINER -->
+	<!-- Shown only on md, lg and xl -->
 	<div class="row text-center mt-2 d-none d-md-flex" id="tagContainer">
 		<!-- TOPIC -->
 		<div class="col-4">
@@ -84,6 +61,7 @@
 					<h5 class="card-title">TOPIC</h5>
 					<button class="yellowgreen" value="bs">Bootstrap</button>
 					<button class="yellowgreen" value="cpp">C++</button>
+					<button class="yellowgreen" value="cs">C#</button>
 					<button class="yellowgreen" value="css">CSS</button>
 					<button class="yellowgreen" value="git">Git</button>
 					<button class="yellowgreen" value="hacking">Hacking</button>
@@ -96,7 +74,6 @@
 					<button class="yellowgreen" value="sql">SQL</button>
 					<button class="yellowgreen" value="supp">Support</button>
 					<button class="yellowgreen" value="webdev">Web Development</button>
-					<button class="yellowgreen" value="websec">Web Security</button>
 				</div>
 			</div>
 		</div>
@@ -111,6 +88,7 @@
 					<button class="orange" value="discord">Discord server</button>
 					<button class="orange" value="doc">Documentation</button>
 					<button class="orange" value="exercise">Exercise</button>
+					<button class="orange" value="fw">Framework</button>
 					<button class="orange" value="game">Game</button>
 					<button class="orange" value="interactive">Interactive</button>
 					<button class="orange" value="thisthat">This &amp; that</button>
@@ -172,7 +150,7 @@
 					</tr>
 
 					<!-- Amazena -->
-					<tr data-tags="exercise, hacking, websec">
+					<tr data-tags="exercise, hacking">
 						<td class="it"></td>
 						<td><a href="https://amazena.it/">Amazena</a></td>
 						<td>Sito web per provare attacchi informatici</td>
@@ -359,7 +337,12 @@
 						<td>A collection of popular layouts and patterns made with CSS</td>
 					</tr>
 
-					
+					<!-- CSS Overflow -->
+					<tr data-tags="article, css">
+						<td class="en"></td>
+						<td><a href="https://ishadeed.com/article/overflow-css/">CSS Overflow</a></td>
+						<td>A collection of popular layouts and patterns made with CSS</td>
+					</tr>
 
 					<!-- CSS reference -->
 					<tr data-tags="css, tutorial, webdev">
@@ -470,6 +453,9 @@
 						<td><a href="http://www.edutecnica.it/informatica.htm">Edutecnica</a></td>
 						<td>Appunti vari informatica</td>
 					</tr>
+
+					
+					
 
 					<!-- electrictoolbox -->
 					<tr data-tags="article, jq, tutorial">
@@ -610,14 +596,14 @@
 					</tr>
 
 					<!-- Hack This Site  -->
-					<tr data-tags="exercise, hacking, interactive, websec">
+					<tr data-tags="exercise, hacking, interactive">
 						<td class="en"></td>
 						<td><a href="https://www.hackthissite.org/pages/index/index.php">Hack This Site!</a></td>
 						<td>Free training ground for users to test and expand their hacking skills</td>
 					</tr>
 
 					<!-- Hacker 101  -->
-					<tr data-tags="exercise, hacking, interactive, websec">
+					<tr data-tags="exercise, hacking, interactive">
 						<td class="en"></td>
 						<td><a href="https://www.hacker101.com/">Hacker101</a></td>
 						<td>Free class for web security</td>
@@ -785,12 +771,11 @@
 					</tr>
 
 					<!-- listjs => -->
-					<tr data-tags="doc, js, mdn, webdev">
+					<tr data-tags="js">
 						<td class="en"></td>
-						<td><a href="https://listjs.com/">MDN</a></td>
-						<td>Native JavaScript that makes your plain HTML lists super flexible</td>
+						<td><a href="https://listjs.com/">ListJS</a></td>
+						<td>Native JavaScript library that makes your plain HTML lists super flexible</td>
 					</tr>
-
 
 					<!-- LogicAndCodingGames -->
 					<tr data-tags="game, github">
@@ -843,6 +828,27 @@
 						<td>JavaScript arrow functions</td>
 					</tr>
 
+					<!-- Metasploit -->
+					<tr data-tags="hacking, fw">
+						<td class="en"></td>
+						<td><a href="https://www.metasploit.com/">Metasploit</a></td>
+						<td>Most used framework for pentesting</td>
+					</tr>
+
+					<!-- Microsoft XNA -->
+					<tr data-tags="cs, fw">
+						<td class="en"></td>
+						<td><a href="https://www.microsoft.com/en-us/download/details.aspx?id=20914">XNA Framework</a></td>
+						<td>A framework for game development</td>
+					</tr>
+
+					<!-- Monogame -->
+					<tr data-tags="cs, fw">
+						<td class="en"></td>
+						<td><a href="https://www.monogame.net/downloads/">XNA Framework</a></td>
+						<td>Implementation of XNA framework for cross-platform game development</td>
+					</tr>
+
 					<!-- MySQL doc -->
 					<tr data-tags="doc, sql">
 						<td class="en"></td>
@@ -853,7 +859,7 @@
 <!-- N -->
 
 					<!-- Net Sparker -->
-					<tr data-tags="cheat, hacking, sql, websec">
+					<tr data-tags="cheat, hacking, sql">
 						<td class="en"></td>
 						<td><a href="https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/">Net Sparker</a></td>
 						<td>SQL injection cheat sheet</td>
@@ -1215,6 +1221,7 @@
 						// Make first column not orderable
 						"columnDefs": [
 							{ "targets": 0, "orderable": false, "width": '1px' },
+							{ "targets": 2, "orderable": false}
 						],
 						// Make the second column (Name) the default one for ordering
 						"order": [[ 1, "asc" ]],
