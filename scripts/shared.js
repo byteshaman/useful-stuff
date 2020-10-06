@@ -1,7 +1,6 @@
 ﻿// Global variable
 let navH;
 
-
 // Move body down based on #navbar's height
 function moveBodyDown() {
 	$('body').css('margin-top',navH);
