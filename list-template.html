@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>List template</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- CSS -->
-		<!-- BOOTSTRAP -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<title>List template</title>
+	<meta charset="utf-8"
+		name="viewport" 
+		content="width=device-width, initial-scale=1" />
+	<!-- CSS -->
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" 
+				type="text/css" 
+				href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+	<!-- DATATABLES -->
+	<link rel="stylesheet" 
+				type="text/css" 
+				href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" /> 
+	<!-- PERSONAL STYLE -->
+	<link rel="stylesheet" 
+				type="text/css" 
+				href="./css/shared.css" />
+	<link rel="stylesheet" 
+				type="text/css" 
+				href="./css/list-template.css" />
 
-		<!-- PERSONAL STYLE -->
-		<link rel="stylesheet" type="text/css" href="../css/shared.css" />
-		<link rel="stylesheet" type="text/css" href="../css/list-template.css" />
-
-		<!-- SCRIPTS -->
-		<!-- LOADING JQUERY -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-			<!-- LOADING POPPER -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-		<!-- LOADING BOOTSTRAP -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
-    <!-- LOADING MY SCRIPTS -->
-		<script src="../scripts/shared.js"></script>
-		<script src="../scripts/list-template.js"></script>
-		
+	<!-- JS -->
+	<script type="module">
+		import 'https://code.jquery.com/jquery-3.5.1.min.js';
+		import 'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js';
+		import './scripts/shared.js';
+		import './scripts/list-template.js';
+	</script>
 </head>
 
 <!-- 
@@ -38,12 +43,6 @@
 			<nav id="navbar" class="navbar fixed-top navbar-dark bg-dark navbar-expand justify-content-center" >
 				<ul class="nav nav-pills">
 					<li class="nav-item">
-						<a class="nav-link" href="link-4-devs.html">Link 4 Devs</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="useful-software.html">Useful software</a>
-					</li>
-					<li class="nav-item">
 						<a class="nav-link active" href="list-template.html">List template</a>
 					</li>
 				</ul>
@@ -57,18 +56,14 @@
 		<nav class="nav nav-pills flex-column">
 			<a class="nav-link" href="#mc1">Main category 1</a>
 			<nav class="nav nav-pills flex-column">
-				<a class="nav-link ml-3" href="#sc1.1">Subcategory 1.1</a>
-				<a class="nav-link ml-3" href="#sc1.2">Subcategory 1.2</a>
+				<a class="nav-link ml-3" href="#sc1_1">Subcategory 1.1</a>
+				<a class="nav-link ml-3" href="#sc1_2">Subcategory 1.2</a>
 			</nav>
 			<a class="nav-link" href="#mc2">Main category 2</a>
-			<nav class="nav nav-pills flex-column">
-				<a class="nav-link ml-3" href="#sc2.1">Subcategory 2.1</a>
-				<a class="nav-link ml-3" href="#sc2.2">Subcategory 2.2</a>
-				<a class="nav-link ml-3" href="#sc2.2">Subcategory 2.2</a>
-			</nav>
 			<a class="nav-link" href="#mc3">Main category 3</a>
 		</nav>
 	</nav>
+	
 
 	<!-- CONTENT -->
 	<div id="content" class="col-7 col-sm-7 col-md-8 col-lg-9 col-xl-9">
@@ -79,7 +74,7 @@
 
 		<!-- SUBCATEGORY 1.1 -->
 
-		<h3 id="sc1.1">Subcategory 1.1</h3>
+		<h3 id="sc1_1">Subcategory 1.1</h3>
 		<ul>
 			<li class="en">
 				<a href="#">Elem with en class</a>
@@ -100,7 +95,7 @@
 
 		<!-- SUBCATEGORY 1.2 -->
 
-		<h3 id="sc1.2">Subcategory 1.2</h3>
+		<h3 id="sc1_2">Subcategory 1.2</h3>
 		<ul>
 			<li class="en">
 				<a href="#">Elem</a>
@@ -244,31 +239,49 @@
 				<li class="en">
 					<a href="#">Elem</a>
 				</li>
-				<li class="en">
+				<li class="it">
 					<a href="#">Elem</a>
 				</li>
 				<li class="en">
 					<a href="#">Elem</a>
 				</li>
-				<li class="en">
+				<li class="it">
 					<a href="#">Elem</a>
 				</li>
 				<li class="en">
 					<a href="#">Elem</a>
 				</li>
-				<li class="en">
+				<li class="it">
 					<a href="#">Elem</a>
 				</li>
 				<li class="en">
 					<a href="#">Elem</a>
 				</li>
-				<li class="en">
+				<li class="it">
 					<a href="#">Elem</a>
 				</li>
 				<li class="en">
 					<a href="#">Elem</a>
 				</li>
+				<li class="it">
+					<a href="#">Elem</a>
+				</li>
 				<li class="en">
+					<a href="#">Elem</a>
+				</li>
+				<li class="it">
+					<a href="#">Elem</a>
+				</li>
+				<li class="en">
+					<a href="#">Elem</a>
+				</li>
+				<li class="it">
+					<a href="#">Elem</a>
+				</li>
+				<li class="en">
+					<a href="#">Elem</a>
+				</li>
+				<li class="it">
 					<a href="#">Elem</a>
 				</li>
 			</ul>

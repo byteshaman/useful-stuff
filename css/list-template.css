@@ -1,15 +1,15 @@
-/* Set minimum dimension for sidebar*/
+/* Set minimum dimension for sidebar */
 #sidebar {
 	flex-basis: 200px;
 }
 
-/* Make sidebar nav stay fixed on top*/
+/* Make sidebar nav stay fixed on top */
 #sidebar>nav {
 	position: fixed;
 	top: 10px;
 }
 
-/* Hide unactive nested links*/
+/* Hide unactive nested links */
 #sidebar nav > a + nav a {
 	display: none;
 }
@@ -47,12 +47,12 @@ li a {
 	color: navy;
 }
 
-/* Make the popover content not go in a new line after few words*/
+/* Make the popover content not go in a new line after few words */
 .popover {
 	max-width: 100%;
 }	
 
-/*Styles the hr elements*/
+/* Styles the hr elements */
 .separator {
 	background-color: #fff;
 	border-top: 2px dotted #8c8b8b;

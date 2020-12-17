@@ -57,7 +57,7 @@ function disableButtons ()  {
 
 // Display filtered Tr
 function displayFilteredTr() {
-  for (elem of trToShow) {
+  for (const elem of trToShow) {
     elem.css('display','table-row');
   }
 }

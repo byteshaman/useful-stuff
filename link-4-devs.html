@@ -2,30 +2,34 @@
 <html lang="mul">
 <head>
 	<title>Link 4 devs</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta charset="utf-8"
+				name="viewport" 
+				content="width=device-width, initial-scale=1" />
 	<!-- CSS -->
 	<!-- BOOTSTRAP -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" 
+				type="text/css" 
+				href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
 	<!-- DATATABLES -->
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" /> 
+	<link rel="stylesheet" 
+				type="text/css" 
+				href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" /> 
 	<!-- PERSONAL STYLE -->
-	<link rel="stylesheet" type="text/css" href="../css/shared.css" />
-	<link rel="stylesheet" type="text/css" href="../css/tag-system-style.css" />
+	<link rel="stylesheet" 
+				type="text/css" 
+				href="./css/shared.css" />
+	<link rel="stylesheet" 
+				type="text/css" 
+				href="./css/tag-system-style.css" />
 
+	<!-- JS -->
+	<script type="module">
+		import './scripts/external-scripts.js';
+		import './scripts/shared.js';
+		import './scripts/tag-handler.js';
+		import './scripts/datatables-init.js';
+	</script>
 
-	<!-- SCRIPTS -->
-	<!-- JQUERY -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<!-- BOOTSTRAP -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-	<!-- DATATABLES -->
-	<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
-	<!-- DATATABLES BOOTSTRAP -->
-	<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
-	<!-- MY SCRIPTS -->
-	<script src="../scripts/shared.js"></script>
-	<script src="../scripts/tag-handler.js"></script>
 </head>
 
 <body class="bg-secondary">
@@ -120,7 +124,7 @@
 		<!-- TABLE CONTAINER -->
 		<div class="row">
 			<div class="col-xl-8 col-lg-8 col-md-10 col-sm-12 mx-auto my-3" id="tableContainer">
-				<table id="l4dTable" class="table table-dark table-striped table-bordered table-sm" width="100%">
+				<table id="datatablesTable" class="table table-dark table-striped table-bordered table-sm" width="100%">
 					
 					<!-- THEAD -->
 					<thead>
@@ -1362,35 +1366,8 @@
 
 					</tbody>
 				</table>
-
-				<!-- INIT DATATABLE -->
-				<script>
-					$('#l4dTable').DataTable(
-					{
-						// Make the table scrollable after the height is > 400px
-						"scrollY": 450,
-						// Make first column not orderable
-						"columnDefs": [
-							{ "targets": 0, "orderable": false, "width": '1px' },
-							{ "targets": 2, "orderable": false}
-						],
-						// Make the second column (Name) the default one for ordering
-						"order": [[ 1, "asc" ]],
-						// Remove "show entries" and pagination info
-						"paging": false,
-						"bInfo" : false,
-						// Show placeholder instead of label
-						"language": {
-							"search": "",
-							"searchPlaceholder": "Search"
-						}
-					}
-				);
-				</script>
 			</div>
 		</div>
-
-
 	</div>
 </body>
 </html>

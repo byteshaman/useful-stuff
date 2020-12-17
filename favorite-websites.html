@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html lang="mul">
 <head>
-    <title>Favorite Websites</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- CSS -->
-		<!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-		<!-- DATATABLES -->
-		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" /> 
-		<!-- PERSONAL STYLE -->
-		<link rel="stylesheet" type="text/css" href="../css/shared.css" />
-		<link rel="stylesheet" type="text/css" href="../css/tag-system-style.css" />
+	<title>Favorite Websites</title>
+	<meta charset="utf-8"
+				name="viewport" 
+				content="width=device-width, initial-scale=1" />
+	<!-- CSS -->
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" 
+				type="text/css" 
+				href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+	<!-- DATATABLES -->
+	<link rel="stylesheet" 
+				type="text/css" 
+				href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" /> 
+	<!-- PERSONAL STYLE -->
+	<link rel="stylesheet" 
+				type="text/css" 
+				href="./css/shared.css" />
+	<link rel="stylesheet" 
+				type="text/css" 
+				href="./css/tag-system-style.css" />
 
-		<!-- SCRIPTS -->
-		<!-- LOADING JQUERY -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<!-- LOADING BOOTSTRAP -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-		<!-- LOADING DATATABLES -->
-		<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
-		<!-- LOADING DATATABLES BOOTSTRAP -->
-		<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
-    <!-- LOADING MY SCRIPTS -->
-		<script src="../scripts/shared.js"></script>
-		<script src="../scripts/tag-handler.js"></script>
+	<!-- JS -->
+	<script type="module">
+		import './scripts/external-scripts.js';
+		import './scripts/shared.js';
+		import './scripts/tag-handler.js';
+		import './scripts/datatables-init.js';
+	</script>
 </head>
 
 <body class="bg-secondary">
@@ -88,13 +92,13 @@
 	<!-- TABLE CONTAINER -->
 	<div class="row">
 		<div class="col-xl-8 col-lg-8 col-md-10 col-sm-12 mx-auto my-3" id="tableContainer">
-			<table id="swTable" class="table table-dark table-striped table-hover table-bordered table-sm" width="100%">
+			<table id="datatablesTable" class="table table-dark table-striped table-hover table-bordered table-sm" width="100%">
 				
 				<!-- THEAD -->
 				<thead class="thead-dark">
 					<tr>
-						<th>Name</th>
-						<th>Description</th>
+						<th class="name">Name</th>
+						<th class="desc">Description</th>
 					</tr>
 				</thead>
 
@@ -832,30 +836,10 @@
 					</tr>
 				</tbody>
 			</table>
-
-			<!-- Init Datatable -->
-			<script>
-				$('#swTable').DataTable(
-    		{
-						// Make the table scrollable after the height is > 400px
-						"scrollY": 450,
-						// Remove "show entries" and pagination info
-						"paging": false,
-						"bInfo" : false,
-						// Make second column not orderable
-						"columnDefs": [
-							{ "targets": 1, "orderable": false },
-						],
-						"language": {
-							"search": "",
-							"searchPlaceholder": "Search"
-						}
-					}
-				);
-			</script>
 		</div>
 	</div>
 </div>
+		
 </body>
 </html>
 

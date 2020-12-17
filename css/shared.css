@@ -3,7 +3,9 @@ body, .nav-link, .nav-link:hover {
 	color: black;
 }
 
-/*Active nav link bg-color*/
+/* Active nav link bg-color */
 .nav-pills .nav-link.active {
 	background-color: black;
 }
+
+

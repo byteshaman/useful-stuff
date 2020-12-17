@@ -1,5 +1,6 @@
 ﻿// Global variable
-let navH;
+export let navH = document.getElementById("navbar").clientHeight;
+
 
 // Move body down based on #navbar's height
 function moveBodyDown() {
@@ -9,7 +10,7 @@ function moveBodyDown() {
 function targetBlankForExternalLinks() {
 	$('a[href^="http"]').attr({
 		'target': '_blank',
-		'rel': 'noopener'});
+		'rel': 'noopener noreferrer'});
 }
 
 function setBodyBgColor() {
@@ -18,7 +19,6 @@ function setBodyBgColor() {
 
 
 $(document).ready(function () {
-	navH = $('#navbar').innerHeight(); //assign navH a value after it's loaded
 	moveBodyDown();
 	setBodyBgColor();
 	targetBlankForExternalLinks();
