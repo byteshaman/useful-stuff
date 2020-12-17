@@ -1,16 +1,25 @@
+// Dynamycally set default column to be ordered
+let colNum = 0;
+const pageURL = location.href
+if (pageURL.includes('link-4-devs')) { //I'm in link-4-devs page default order column is 1st (Name)
+  colNum = 1;
+}
+
 $("#datatablesTable").DataTable({
-  // Make the table scrollable after the height is > 400px
+  // Make the table scrollable after the height is > 450px
   "scrollY": 450,
-  // Remove "show entries" and pagination info
+  // Remove pagination (to allow scrolling)
   "paging": false,
-  "bInfo": false,
-  // Make second column not orderable
+  // Make proper columns not orderable (based on class on TH element)
   "columnDefs":
-    [
-      { "targets": "lang", "orderable": false },
-      { "targets": "desc", "orderable": false },
-    ],
+  [
+    { "targets": ["lang", "desc"], "orderable": false },
+  ],
+  // Set default ordering column
+  "order": [[colNum, 'asc']],
+  // Show only search bar (which will occupy all the space available)
   "dom": 'ft',
+  // Put search as placeholder of searchbar
   "language": {
     "search": "",
     "searchPlaceholder": "Search"
