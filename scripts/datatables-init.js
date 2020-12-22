@@ -25,3 +25,6 @@ $("#datatablesTable").DataTable({
     "searchPlaceholder": "Search"
   }
 });
+
+// Set the width of the searchbar to 100% 
+$('div.dataTables_filter input').addClass('w-100');
