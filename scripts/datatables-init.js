@@ -1,7 +1,7 @@
 // Dynamycally set default column to be ordered
 let colNum = 0;
 const pageURL = location.href
-if (pageURL.includes('link-4-devs')) { //I'm in link-4-devs page default order column is 1st (Name)
+if (pageURL.includes('link-4-devs')) { //in link-4-devs page default order column is 2nd because of language col
   colNum = 1;
 }
 
