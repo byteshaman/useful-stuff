@@ -26,11 +26,13 @@
 		import './scripts/shared.js';
 		import './scripts/tag-handler.js';
 		import './scripts/datatables-init.js';
+    import './scripts/hide-preloader.js'
 	</script>
-
 </head>
 
+
 <body class="bg-secondary">
+  <script src="./scripts/preloader.js"></script>
 
 	<div class="container-fluid">
 		<!-- NAVBAR -->
@@ -41,7 +43,7 @@
 						<a class="nav-link active" href="link-4-devs.html">Link 4 Devs</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="useful-software.html">Useful software</a>
+						<a class="nav-link" href="useful-software.html">Useful Software</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="favorite-websites.html">Favorite Websites</a>
@@ -63,7 +65,7 @@
 					<button class="yellowgreen" value="cs">C#</button>
 					<button class="yellowgreen" value="css">CSS</button>
 					<button class="yellowgreen" value="git">Git</button>
-					<button class="yellowgreen" value="hacking">Hacking/Security</button>
+					<button class="yellowgreen" value="hacksec">Hacking/Security</button>
 					<button class="yellowgreen" value="html">HTML</button>
 					<button class="yellowgreen" value="js">JS</button>
 					<button class="yellowgreen" value="jq">jQuery</button>
@@ -170,7 +172,7 @@
 						<td>CSS animations</td>
 					</tr>
 					<!-- Amazena -->
-					<tr data-tags="exercise, hacking">
+					<tr data-tags="exercise, hacksec">
 						<td class="it"></td>
 						<td><a href="https://amazena.it/">Amazena</a></td>
 						<td>Sito web per provare attacchi informatici</td>
@@ -280,7 +282,7 @@
 						<td>Convert colors in 15 different formats</td>
 					</tr>
 					<!-- cplusplus reference -->
-					<tr data-tags="cpp, documentation">
+					<tr data-tags="cpp, doc">
 						<td class="en"></td>
 						<td><a href="http://www.cplusplus.com/reference/">cplusplus</a></td>
 						<td>Standard C++ Library reference</td>
@@ -621,19 +623,19 @@
 						<td>Bootstrap 4 class list/cheatsheet</td>
 					</tr>
 					<!-- Hack This Site  -->
-					<tr data-tags="exercise, hacking, interactive">
+					<tr data-tags="exercise, hacksec, interactive">
 						<td class="en"></td>
 						<td><a href="https://www.hackthissite.org/pages/index/index.php">Hack This Site!</a></td>
 						<td>Free training ground for users to test and expand their hacking skills</td>
 					</tr>
 					<!-- HackTheBox  -->
-					<tr data-tags="exercise, hacking, interactive">
+					<tr data-tags="exercise, hacksec, interactive">
 						<td class="en"></td>
 						<td><a href="https://www.hackthebox.eu/">HackTheBox</a></td>
 						<td>Learn	and improve your pen-testing skills</td>
 					</tr>
 					<!-- Hacker 101  -->
-					<tr data-tags="exercise, hacking, interactive">
+					<tr data-tags="exercise, hacksec, interactive">
 						<td class="en"></td>
 						<td><a href="https://www.hacker101.com/">Hacker101</a></td>
 						<td>Free class for web security</td>
@@ -841,7 +843,7 @@
 						<td>Solve code challenges in various languages</td>
 					</tr>
 					<!-- LogicAndCodingGames -->
-					<tr data-tags="game, github">
+					<tr data-tags="game, gh">
 						<td class="en"></td>
 						<td><a href="https://github.com/dargaCode/LogicAndCodingGames/">LogicAndCodingGames</a></td>
 						<td>A great list of coding and logic games</td>
@@ -890,7 +892,7 @@
 						<td>JavaScript arrow functions</td>
 					</tr>
 					<!-- Metasploit -->
-					<tr data-tags="hacking, fw">
+					<tr data-tags="hacksec, fw">
 						<td class="en"></td>
 						<td><a href="https://www.metasploit.com/">Metasploit</a></td>
 						<td>Most used framework for pentesting</td>
@@ -915,7 +917,7 @@
 					</tr>		
 <!-- !N -->
 					<!-- Net Sparker -->
-					<tr data-tags="cheat, hacking, sql">
+					<tr data-tags="cheat, hacksec, sql">
 						<td class="en"></td>
 						<td><a href="https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/">Net Sparker</a></td>
 						<td>SQL injection cheat sheet</td>
@@ -940,7 +942,7 @@
 						<td>Useful commands to get out of hard situations that happen while using Git</td>
 					</tr>
 					<!-- OverTheWire Wargames -->
-					<tr data-tags="exercise, game, hacking, interactive">
+					<tr data-tags="exercise, game, hacksec, interactive">
 						<td class="en"></td>
 						<td><a href="https://overthewire.org/wargames/">OverTheWire Wargames</a></td>
 						<td>Learn and practice security concepts in the form of fun-filled games</td>
@@ -1082,9 +1084,9 @@
 						<td>Beginners and advanced HTML/CSS tutorials</td>
 					</tr>
 					<!-- Shodan -->
-					<tr data-tags="websec">
+					<tr data-tags="hacksec">
 						<td class="en"></td>
-						<td><a href="https://www.shodan.io/">Hack This Site!</a></td>
+						<td><a href="https://www.shodan.io/">Shodan</a></td>
 						<td>The search engine for finding vulnerable servers</td>
 					</tr>
 					<!-- Solved by Flexbox -->
@@ -1094,7 +1096,7 @@
 						<td>Showcase of problems once hard to solve that are now easily solved thanks to Flexbox</td>
 					</tr>
 					<!-- SoloLearn -->
-					<tr data-tags="multi, interactive, support, tutorial">
+					<tr data-tags="multi, interactive, supp, tutorial">
 						<td class="en"></td>
 						<td><a href="https://www.sololearn.com/">SoloLearn</a></td>
 						<td>Learn to code for free</td>
@@ -1223,7 +1225,7 @@
 						<td>Live DOM viewer tool</td>
 					</tr>
 					<!-- TryHackMe -->
-					<tr data-tags="hacking, interactive">
+					<tr data-tags="hacksec, interactive">
 						<td class="en"></td>
 						<td><a href="https://tryhackme.com/">TryHackMe</a></td>
 						<td>Learn cybersecurity with these guides/challenges</td>
@@ -1373,7 +1375,7 @@
 						<td>CSS Flexbox Cheatsheet</td>
 					</tr>
           <!-- YouTube -->
-          <tr data-tags="laravel, thisthat, tutorial, YT">
+          <tr data-tags="laravel, thisthat, tutorial, yt">
             <td class="en"></td>
             <td><a href="https://www.youtube.com/watch?v=1wgLY-V69MM">YouTube</a></td>
             <td>Laravel Datatables: Default VS AJAX (Demo Project)</td>
@@ -1385,7 +1387,7 @@
 						<td>Canale YT fcamuso</td>
 					</tr>
 					<!-- YouTube -->
-					<tr data-tags="hacking, net, videocourse, yt">
+					<tr data-tags="hacksec, net, videocourse, yt">
 						<td class="en"></td>
 						<td><a href="https://www.youtube.com/playlist?list=PLG49S3nxzAnmpdmX7RoTOyuNJQAb-r-gd">YouTube</a></td>
 						<td>Professor Messer's CompTIA Network+ N10-007 training course</td>
