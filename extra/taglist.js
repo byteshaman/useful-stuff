@@ -1,8 +1,9 @@
 //just a list of tags for each page for development purpose
 
 let l4d_tags = {
+  ag = 'Angular',
   article,
-  bs,
+  bs = 'Bootstrap',
   cheat,
   cpp,
   cs,
@@ -13,7 +14,7 @@ let l4d_tags = {
   fcc,
   fw,
   game,
-  gh,
+  gh = 'GitHub',
   git,
   hacking,
   html,
@@ -22,6 +23,7 @@ let l4d_tags = {
   js,
   json,
   laravel,
+  linux,
   mdn,
   multi,
   net,
@@ -93,8 +95,7 @@ let us_tags = {
   gc = 'Google Chrome',
   hw,
   image,
-  manager,
-  mb,
+  mb = 'MusicBee',
   misc,
   music,
   pacman,

@@ -7,18 +7,11 @@ let filtersArr = new Array();
 function addRemoveFiltersArr(btn) {
   // Get the value of the pressed button
   let tagName = btn.val();
-  console.log(tagName);
   
   // Check if filtersArr contains the tag
   let i = filtersArr.indexOf(tagName);
-  // Add tag if it's not already there
-  if (i === -1) {
-    filtersArr.push(tagName);
-  }
-  // Remove tag if it's already there (remove at i index, 1 time)
-  else { 
-    filtersArr.splice(i, 1);
-  }
+  // Add tag if it's not already there, remove tag if it's already there (remove at i index, 1 time)
+  i === -1 ? filtersArr.push(tagName) : filtersArr.splice(i, 1);
   populateTrToShow(filtersArr); // Calls containsAll and hideAllTr, and if needed displayFilteredTr
 }
 
@@ -77,11 +70,6 @@ function hideAllTr () {
   $('tbody > tr').css('display','none');  
 }
 
-// Initialize DataTable
-function initDataTable() {
-  
-}
-
 
 // Make an object like: idx: {tags: [tag1, tag2], tr: trElem }
 function populateListObj() {
@@ -116,6 +104,7 @@ function populateTrToShow() {
 function addClasses() {
   $('#tagContainer button').addClass('btn my-1 my-btn');
   $('#tagContainer .card-body').addClass('p-0');;
+  document.querySelector('#tagContainer').classList.add('row', 'text-center', 'mt-2', 'd-none', 'd-md-flex', 'justify-content-center');
 }
 
 

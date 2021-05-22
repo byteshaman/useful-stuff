@@ -1,1 +1,0 @@
-document.querySelector('#loader').style.display = 'none';

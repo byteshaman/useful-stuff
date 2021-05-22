@@ -8,26 +8,9 @@
   <!-- FAVICON -->
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
 	<!-- CSS -->
-	<!-- BOOTSTRAP -->
-	<link rel="stylesheet" 
-				href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
-	<!-- DATATABLES -->
-	<link rel="stylesheet" 
-				href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" /> 
-	<!-- PERSONAL STYLE -->
-	<link rel="stylesheet" 
-				href="./css/shared.css" />
-	<link rel="stylesheet" 
-				href="./css/tag-system-style.css" />
-
+  <link rel="stylesheet" href="./css/styles.css" />
 	<!-- JS -->
-	<script type="module">
-		import './scripts/external-scripts.js';
-		import './scripts/shared.js';
-		import './scripts/tag-handler.js';
-    import './scripts/datatables-init.js';
-    import './scripts/hide-preloader.js';
-	</script>
+	<script type="module" src="scripts/scripts.js"></script>
 </head>
 
 
@@ -37,7 +20,7 @@
   <div class="container-fluid">
 	<!-- NAVBAR -->
   <div class="row">
-  <nav id="navbar" class="navbar fixed-top navbar-dark bg-dark navbar-expand justify-content-center" >
+  <nav id="navbar" class="navbar fixed-top navbar-dark bg-dark justify-content-center" >
 	  <ul class="nav nav-pills">
 		  <li class="nav-item">
 			  <a class="nav-link" href="link-4-devs.html">Link 4 Devs</a>
@@ -54,9 +37,8 @@
 	
 	<!-- FILTER CONTAINER -->
 	<!-- Shown only on md, lg and xl -->
-	<div class="row text-center mt-2 d-none d-md-flex justify-content-center" id="tagContainer">
-		<div class="col-lg-11 col-xl-8">
-			<div class="card">
+	<div id="tagContainer">
+			<div class="card col-11">
 				<div class="card-body">
 					<h5 class="card-title ">TAG LIST</h5>
 					<button value="anime">Anime</button>
@@ -88,12 +70,11 @@
 					<button value="video">Video</button>
 				</div>			
 			</div>
-		</div>
 	</div>
 
 	<!-- TABLE CONTAINER -->
 	<div class="row">
-		<div class="col-xl-8 col-lg-8 col-md-10 col-sm-12 mx-auto my-3" id="tableContainer">
+		<div id="tableContainer">
 			<table id="datatablesTable" class="table table-dark table-striped table-hover table-bordered table-sm" width="100%">
 				
 				<!-- THEAD -->
@@ -175,6 +156,11 @@
 					</tr>
 
 <!-- !B -->
+          <!-- Backloggd -->
+          <tr data-tags="catalog, game">
+            <td><a href="https://www.backloggd.com/">Backloggd</a></td>
+            <td>Log, rate and review your games</td>
+          </tr>
 					<!-- Bandcamp -->
 					<tr data-tags="shop, music">
 						<td><a href="https://bandcamp.com/">Bandcamp</a></td>
@@ -265,6 +251,11 @@
 						<td><a href="https://www.deepl.com/translator">DeepL</a></td>
 						<td>Translator powered by DeepL's world-leading neural network technology</td>
 					</tr>
+          <!-- diagrams.net -->
+          <tr data-tags="misc, tool">
+            <td><a href="https://app.diagrams.net/">diagrams.net</a></td>
+            <td>Flowchart maker and online diagram software</td>
+          </tr>
 					<!-- Discogs -->
 					<tr data-tags="catalog, music, shop">
 						<td><a href="https://www.discogs.com/">Discogs</a></td>
@@ -280,6 +271,11 @@
 						<td><a href="https://displate.com/">Displate</a></td>
 						<td>Style your house with cool metal plates</td>
 					</tr>
+          <!-- DontKillMyApp -->
+          <tr data-tags="comp, tech, tool">
+            <td><a href="https://dontkillmyapp.com/">DontKillMyApp</a></td>
+            <td>See how badly your Android phone vendor handles apps running in the background</td>
+          </tr>
 					<!-- Doodle -->
 					<tr data-tags="misc">
 						<td><a href="https://doodle.com/">Doodle</a></td>
@@ -351,6 +347,16 @@
 						<td><a href="https://giphy.com/create/gifmaker">Giphy Gif Maker</a></td>
 						<td>Create GIFs easily and quickly</td>
 					</tr>
+          <!-- GreasyFork -->
+          <tr data-tags="misc, tech">
+            <td><a href="https://greasyfork.org/">GreasyFork</a></td>
+            <td>Online repository of user scripts and user styles</td>
+          </tr>
+          <!-- Grouvee -->
+          <tr data-tags="catalog, game">
+            <td><a href="https://www.grouvee.com/">Grouvee</a></td>
+            <td>Log, rate and review your games</td>
+          </tr>
 					<!-- GSM Arena -->
 					<tr data-tags="comp, tech, tool">
 						<td><a href="https://www.gsmarena.com/tools.php3">GSM Arena</a></td>
@@ -373,6 +379,11 @@
 						<td><a href="https://homicide.igarape.org.br/">Homicide Monitor</a></td>
 						<td>Explore the distribution, dimensions and dynamics of international homicised around the world</td>
 					</tr>
+          <!-- HotoneHundo -->
+          <tr data-tags="article, music, tool">
+            <td><a href="https://hotonehundo.com/2018/01/11/last-fm-visualization-tools/">HotoneHundo</a></td>
+            <td>Last.fm visualization tools</td>
+          </tr>
 					<!-- howsecureismypassword -->
 					<tr data-tags="tool, sec">
 						<td><a href="https://howsecureismypassword.net/">howsecureismypassword</a></td>
@@ -438,7 +449,7 @@
 					<!-- Ishkur's guide to Electronic Music -->
 					<tr data-tags="info, music">
 						<td><a href="http://music.ishkur.com/">Ishkur's guide to Electronic Music</a></td>
-						<td>An okay guide to electronic music</td>
+						<td>A comprehensive guide to electronic music</td>
 					</tr>
 					<!-- IsThereAnyDeal? -->
 					<tr data-tags="comp, game">
@@ -464,6 +475,11 @@
 						<td><a href="https://password.kaspersky.com/">Kaspersky Password Check</a></td>
 						<td>Check passwords strenght</td>
 					</tr>
+          <!-- KukuKube -->
+          <tr data-tags="game">
+            <td><a href="https://kuku-kube.com/">KukuKube</a></td>
+            <td>Find the different tile and TAP</td>
+          </tr>
 
 <!-- !L -->
 					<!-- laleggepertutti -->
@@ -484,7 +500,7 @@
 					<!-- Letterboxd -->
 					<tr data-tags="catalog, movies">
 						<td><a href="https://letterboxd.com//">Letterboxd</a></td>
-						<td>Social network for cinephiles</td>
+						<td>Log, rate and review your movies</td>
 					</tr>
           <!-- lichess -->
           <tr data-tags="game">
@@ -502,7 +518,7 @@
 						<td>Free online photo editor</td>
 					</tr>
 
-<!-- !M -->
+<!-- !M -->s
 					<!-- Mangadex -->
 					<tr data-tags="manga">
 						<td><a href="https://mangadex.org/">Mangadex</a></td>
@@ -545,6 +561,11 @@
 						<td><a href="http://nonsoloprogrock.blogspot.com/2010/09/il-progressive-italiano-negli-anni-70.html">Non solo prog</a></td>
 						<td>Guite to Italian progressive rock</td>
 					</tr>
+          <!-- NowInStock -->
+          <tr data-tags="shop, tool">
+            <td><a href="https://www.nowinstock.net/">NowInStock</a></td>
+            <td>Product availability tracker</td>
+          </tr>
 
 <!-- !O -->
 					<!-- Ogres Crypt -->
@@ -557,6 +578,11 @@
 						<td><a href="http://www.oldversion.com/">OldVersion</a></td>
 						<td>Old version of Windows, Mac and Linux software</td>
 					</tr>
+          <!-- onemilionpet -->
+          <tr data-tags="useless">
+            <td><a href="http://www.onemillionpats.com/">onemillionpats</a></td>
+            <td>Pet Tofu-chan</td>
+          </tr>
 					<!-- OnlineTextTools -->
 					<tr data-tags="text, tool">
 						<td><a href="https://onlinetexttools.com/">OnlineTextTools</a></td>
@@ -629,7 +655,7 @@
 					<!-- Rate Your Music -->
 					<tr data-tags="catalog, disc, movies, music">
 						<td><a href="https://rateyourmusic.com/">Rate Your Music</a></td>
-						<td>Catalog, rate, tag, and review your music and movies</td>
+						<td>Log, rate and review your music and movies</td>
 					</tr>	
 					<!-- r/watchorder -->
 					<tr data-tags="anime">
@@ -668,6 +694,13 @@
 						<td><a href="https://www.sharedrop.io/">ShareDrop</a></td>
 						<td>P2P file transfer</td>
 					</tr>
+          <!-- ShareUS -->
+          <tr data-tags="article, tech">
+            <td><a
+                href="https://www.shareus.com/computer/how-to-check-if-ssd-is-compatible-with-laptop-or-desktop-motherboard.html">ShareUS</a>
+            </td>
+            <td>How to check if SSD is compatible with your PC</td>
+          </tr>
 					<!-- Skribbl -->
 					<tr data-tags="game">
 						<td><a href="https://skribbl.io/">Skribbl</a></td>
@@ -855,6 +888,11 @@
           </tr>
 
 <!-- !V -->
+          <!-- VelocityMicro -->
+          <tr data-tags="article, tech">
+            <td><a href="https://www.velocitymicro.com/blog/nvme-vs-m-2-vs-sata-whats-the-difference/">VelocityMicro</a></td>
+            <td>NVMe vs. M.2 vs. SATA - What's the difference?</td>
+          </tr>
 					<!-- Versus -->
 					<tr data-tags="comp, tech, tool">
 						<td><a href="https://versus.com/en">Versus</a></td>
@@ -908,7 +946,7 @@
 						<td>Discover music through samples</td>
 					</tr>
 					<!-- worldtimebuddy -->
-					<tr data-tags="tool">
+					<tr data-tags="misc, tool">
 						<td><a href="https://www.worldtimebuddy.com/">worldtimebuddy</a></td>
 						<td>Time zone converter</td>
 					</tr>

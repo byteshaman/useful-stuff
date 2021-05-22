@@ -1,0 +1,50 @@
+/*# EXTERNAL  */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css');
+@import url('https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap5.min.css');
+
+/*# MY STYLES  */
+.bg-dark {background-color: #343a40!important; } /* override new BS5 dark color */ 
+
+/*! BUTTONS */
+.my-btn, .my-btn:hover {
+	border-color: black;
+	border-radius: 40px;
+	background-color: black;
+	color: white;
+}
+
+.my-btn.selected {	background-color: midnightblue; }
+
+.brown, :hover.brown {	color: brown; }
+.orange, :hover.orange {	color: orange; }
+.yellowgreen, :hover.yellowgreen  {	color: yellowgreen; }
+.yellow, :hover.yellow {	color: yellow; }
+
+#tagContainer .card {
+	background-color: var(--secondary);
+	height: 100%;
+	border: none;
+}
+
+/*! NAVBAR  */
+/* Text color of navbar links */
+.nav-link, .nav-link:hover { color: white; }
+
+/* Active nav link bg-color */
+.nav-pills .nav-link.active {
+	background-color: black;
+}
+
+
+/*! TABLE  */
+div.dataTables_wrapper div.dataTables_filter label {  display: block; }
+ 
+div.dataTables_wrapper div.dataTables_filter input {
+	width: 95%;
+	margin: 0;
+}
+
+.lang {
+  text-align: center;
+  text-transform: uppercase;
+}

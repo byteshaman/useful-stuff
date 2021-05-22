@@ -7,37 +7,19 @@
         content="width=device-width, initial-scale=1" />
   <!-- FAVICON -->
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
-	<!-- CSS -->
-	<!-- BOOTSTRAP -->
-	<link rel="stylesheet"
-				href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
-	<!-- DATATABLES -->
-	<link rel="stylesheet"  
-				href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" /> 
-	<!-- PERSONAL STYLE -->
-	<link rel="stylesheet"  
-				href="./css/shared.css" />
-	<link rel="stylesheet"  
-				href="./css/tag-system-style.css" />
-
-	<!-- JS -->
-	<script type="module">
-		import './scripts/external-scripts.js';
-		import './scripts/shared.js';
-		import './scripts/tag-handler.js';
-		import './scripts/datatables-init.js';
-    import './scripts/hide-preloader.js';
-	</script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <!-- JS -->
+  <script type="module" src="scripts/scripts.js"></script>
 </head>
 
 
 <body class="bg-secondary">
-  <script src="./scripts/show-preloader.js"></script>
 
 	<div class="container-fluid">
   <!-- NAVBAR -->
   <div class="row">
-    <nav id="navbar" class="navbar fixed-top navbar-dark bg-dark navbar-expand justify-content-center" >
+    <nav id="navbar" class="navbar fixed-top navbar-dark bg-dark justify-content-center" >
       <ul class="nav nav-pills">
         <li class="nav-item">
           <a class="nav-link active" href="link-4-devs.html">Link 4 Devs</a>
@@ -54,12 +36,13 @@
 
 	<!-- FILTER CONTAINER -->
 	<!-- Shown only on md, lg and xl -->
-	<div class="row text-center mt-2 d-none d-md-flex justify-content-center" id="tagContainer">
+	<div id="tagContainer">
 		<!-- TOPIC -->
-		<div class="col-md-12 col-lg-4">
+		<div class="col-12 col-md-10 col-xl-4">
 			<div class="card">
 				<div class="card-body">
 					<h5 class="card-title">TOPIC</h5>
+					<button class="yellowgreen" value="ag">Angular</button>
 					<button class="yellowgreen" value="bs">Bootstrap</button>
 					<button class="yellowgreen" value="cpp">C++</button>
 					<button class="yellowgreen" value="cs">C#</button>
@@ -71,6 +54,7 @@
 					<button class="yellowgreen" value="jq">jQuery</button>
 					<button class="yellowgreen" value="json">JSON</button>
 					<button class="yellowgreen" value="laravel">Laravel</button>
+					<button class="yellowgreen" value="linux">Linux</button>
 					<button class="yellowgreen" value="multi">Multi-language</button>
 					<button class="yellowgreen" value="net">Networking</button>
 					<button class="yellowgreen" value="php">PHP</button>
@@ -84,7 +68,7 @@
 		</div>
 	
 		<!-- TYPE -->
-		<div class="col-md-12 col-lg-4">
+		<div class="col-12 col-md-10 col-xl-4">
 			<div class="card">
 				<div class="card-body">
 					<h5 class="card-title">RESOURCE TYPE</h5>
@@ -96,7 +80,7 @@
 					<button class="orange" value="fw">Framework</button>
 					<button class="orange" value="game">Game</button>
 					<button class="orange" value="interactive">Interactive</button>
-					<button class="orange" value="jslib">JS Library</button>
+					<button class="orange" value="libpak">Library/Package</button>
 					<button class="orange" value="thisthat">This &amp; that</button>
 					<button class="orange" value="tips">Tips &amp; tricks</button>
 					<button class="orange" value="tool">Tool</button>
@@ -107,7 +91,7 @@
 		</div>
 	
 		<!-- WEBSITES -->
-		<div class="col-md-12 col-lg-4">
+		<div class="col-12 col-md-10 col-xl-4">
 			<div class="card website">
 				<div class="card-body">
 					<h5 class="card-title">WEBSITE</h5>
@@ -125,13 +109,13 @@
 
 		<!-- TABLE CONTAINER -->
 		<div class="row">
-			<div class="col-xl-8 col-lg-8 col-md-10 col-sm-12 mx-auto my-3" id="tableContainer">
+			<div id="tableContainer">
 				<table id="datatablesTable" class="table table-dark table-striped table-bordered table-sm" width="100%">
 					
 					<!-- THEAD -->
 					<thead>
 						<tr>
-							<th class="lang text-center" style="padding: 4px">Lg</th>
+							<th class="text-center" style="padding: 4px">Lang</th>
 							<th class="name">Name</th>
 							<th class="desc">Description</th>
 						</tr>
@@ -140,15 +124,21 @@
 					<!-- TBODY -->
 					<tbody>
 <!-- !0-9 -->
+            <!-- 1-Line Layouts -->
+            <tr data-tags="css">
+              <td class="lang">en</td>
+              <td><a href="http://1linelayouts.glitch.me/">1linelayouts</a></td>
+              <td>10 modern layouts in one line of CSS</td>
+            </tr>
 						<!-- 1keydata -->
 						<tr data-tags="sql, tutorial">
-							<td class="en"></td>
+							<td class="lang">en</td>
 							<td><a href="https://www.1keydata.com/">1keydata</a></td>
 							<td>Web Development tutorials</td>
 						</tr>
 						<!-- 3v4l.org -->
 						<tr data-tags="interactive, php, tool">
-							<td class="en"></td>
+							<td class="lang">en</td>
 							<td><a href="https://3v4l.org/">3v4l.org</a></td>
 							<td>Online shell that allows you to run PHP code in more than 250 PHP versions at the same time.</td>
 						</tr>
@@ -156,678 +146,792 @@
 <!-- !A -->
 					<!-- accessible-colors -->
 					<tr data-tags="interactive, tool, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://accessible-colors.com/">accessible-colors</a></td>
 						<td>WCAG 2.0 AA and AAA color contrast checker</td>
 					</tr>
 					<!-- alligator.io -->
 					<tr data-tags="article, tips, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://alligator.io/">alligator.io</a></td>
 						<td>Front-End Web Development articles and examples</td>
 					</tr>
+          <!-- andy.carter -->
+          <tr data-tags="article, laravel">
+            <td class="lang">en</td>
+            <td><a href="https://andy-carter.com/blog/env-gotcha-in-laravel-when-caching-configuration">andy.carter</a></td>
+            <td>env() gotcha in Laravel when caching configuration</td>
+          </tr>
 					<!-- animate.css -->
 					<tr data-tags="css, gh">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://daneden.github.io/animate.css/">animate.css</a></td>
 						<td>CSS animations</td>
 					</tr>
 					<!-- Amazena -->
 					<tr data-tags="exercise, hacksec">
-						<td class="it"></td>
+						<td class="lang">it</td>
 						<td><a href="https://amazena.it/">Amazena</a></td>
 						<td>Sito web per provare attacchi informatici</td>
 					</tr>
           <!-- arstechnica.com -->
           <tr data-tags="article, thisthat">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/">arstechnica.com</a></td>
             <td>How to choose an open source license</td>
           </tr>
 					<!-- Artisan web: log query in laravel -->
 					<tr data-tags="article, laravel">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://artisansweb.net/how-to-log-query-in-laravel/">ArtisanWeb</a></td>
 						<td>How to log queries in laravel</td>
 					</tr>
 					<!-- Atlassian -->
 					<tr data-tags="git, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.atlassian.com/git/tutorials">Atlassian</a></td>
 						<td>Git tutorials: beginner to advanced</td>
 					</tr>
+          <!-- aulab.it -->
+          <tr data-tags="article, webdev">
+            <td class="lang">it</td>
+            <td><a href="https://aulab.it/blog">aulab.it</a></td>
+            <td>News e aggiornamenti del mondo del coding e della formazione IT</td>
+          </tr>
 					<!-- Awesome Lists -->
 					<tr data-tags="gh, multi">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://github.com/sindresorhus/awesome#contents">Awesome Lists</a></td>
 						<td>Awesome lists about all kinds of interesting topics</td>
 					</tr>
 <!-- !B -->
 					<!-- Barelyfitz -->
 					<tr data-tags="css, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://www.barelyfitz.com/screencast/html-training/css/positioning/">BarelyFitz Designs</a></td>
 						<td>CSS Positioning in 10 steps</td>
 					</tr>
+          <!-- Logrocket Blog -->
+          <tr data-tags="ag, article">
+            <td class="lang">en</td>
+            <td><a href="https://blog.logrocket.com/reactive-form-controls-form-groups-angular/">Logrocket Blog</a></td>
+            <td>FormGroup and FormControl in Angular</td>
+          </tr>
+          <!-- Bootstrap -->
+          <tr data-tags="bs, fw, webdev">
+            <td class="lang">en</td>
+            <td><a href="https://getbootstrap.com/">Bootstrap</a></td>
+            <td>The world's most popular front-end open source toolkit</td>
+          </tr>
 					<!-- Bootstrap Doc -->
 					<tr data-tags="bs, doc">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/">Bootstrap</a></td>
 						<td>Official Bootstrap 4 Documentation</td>
 					</tr>
 					<!-- Bootstrap Creative -->
 					<tr data-tags="bs, cheat">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://bootstrapcreative.com/resources/bootstrap-4-css-classes-index/">Bootstrap Creative</a></td>
 						<td>Bootstrap 4 class list/cheatsheet</td>
 					</tr>
 					<!-- Bootstrap Creative -->
 					<tr data-tags="article, html">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://bootstrapcreative.com/what-are-the-integrity-and-crossorigin-attributes-and-why-are-they-necessary/">Bootstrap Creative</a></td>
 						<td>What are integrity and crossorigin attributes?</td>
 					</tr>
 					<!-- Bootstrap Italia -->
 					<tr data-tags="bs, doc, gh">
-						<td class="it"></td>
+						<td class="lang">it</td>
 						<td><a href="https://italia.github.io/bootstrap-italia/docs/come-iniziare/introduzione/">Bootstrap Italia</a></td>
 						<td>Documentazione Boostrap Italia</td>
 					</tr>
 					<!-- Bootstrap Shuffle -->
 					<tr data-tags="bs">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://bootstrapshuffle.com/classes">Bootstrap Shuffle</a></td>
-						<td>Bootstrap 4 class list</td>
+						<td>All Bootstrap CSS classes</td>
 					</tr>	
 					<!-- Browserling -->
 					<tr data-tags="tool, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.browserling.com/">Browserling</a></td>
 						<td>Cross browser tester</td>
 					</tr>	
 <!-- !C -->
 					<!-- cppreference -->
 					<tr data-tags="cpp, doc">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://en.cppreference.com/w/cpp">cppreference</a></td>
 						<td>C++ reference</td>
 					</tr>			
           <!-- callbackhell -->
           <tr data-tags="js, tutorial">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="http://callbackhell.com/">callbackhell</a></td>
             <td>A guide to writing asynchronous JS programs</td>
           </tr>
 					<!-- CanIUse -->
 					<tr data-tags="tool, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://caniuse.com/">CanIUse</a></td>
 						<td>Up-to-date browser support tables</td>
 					</tr>
 					<!-- cdnjs -->
 					<tr data-tags="tool, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://cdnjs.com/">cdnjs</a></td>
 						<td>The best FOSS CDN for web related libraries</td>
 					</tr>
           <!-- cheatsheetseries -->
           <tr data-tags="cheat, hacksec, multi">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://cheatsheetseries.owasp.org/Glossary.html">cheatsheetseries</a></td>
             <td>Collection of high value information on specific application security topics</td>
           </tr>
+          <!-- chmodcommand -->
+          <tr data-tags="linux, interactive, tool">
+            <td class="lang">en</td>
+            <td><a href="https://chmodcommand.com/">chmodcommand</a></td>
+            <td>Quickly generate Linux permissions in numerical and symbolic formats.</td>
+          </tr>
 					<!-- CodeSupport -->
 					<tr data-tags="multi">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://staging.codesupport.dev/resources">CodeSupport</a></td>
 						<td>A collection of programming resources curated by the CodeSupport community</td>
 					</tr>
 					<!-- Codepen -->
 					<tr data-tags="interactive, tool, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://codepen.io/">Codepen</a></td>
 						<td>Online front-end editor</td>
 					</tr>
 					<!-- CodeWars -->
 					<tr data-tags="exercise, interactive, multi">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.codewars.com/">Codewars</a></td>
 						<td>Code challenges</td>
 					</tr>
 					<!-- Converting Colors -->
 					<tr data-tags="tool, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://convertingcolors.com/">Converting Colors</a></td>
 						<td>Convert colors in 15 different formats</td>
 					</tr>
 					<!-- cplusplus reference -->
 					<tr data-tags="cpp, doc">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://www.cplusplus.com/reference/">cplusplus</a></td>
 						<td>Standard C++ Library reference</td>
 					</tr>
 					<!-- cplusplus -->
 					<tr data-tags="cpp, supp">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://www.cplusplus.com/forum/">cplusplus</a></td>
 						<td>C++ forum where you can ask for help</td>
 					</tr>
+          <!-- crontab.guru -->
+          <tr data-tags="linux, interactive, tool">
+            <td class="lang">en</td>
+            <td><a href="https://crontab.guru/">crontab.guru</a></td>
+            <td>The quick and simple editor for cron schedule expressions</td>
+          </tr>
 					<!-- CSS diner -->
 					<tr data-tags="css, game, gh, interactive">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://flukeout.github.io/">CSS Diner</a></td>
 						<td>Learn CSS selectors with this interactive game</td>
 					</tr>
+          <!-- CSS Garden -->
+          <tr data-tags="css, exercise">
+            <td class="lang">en</td>
+            <td><a href="http://www.csszengarden.com/">CSS Garden</a></td>
+            <td>A demonstration of what can be accomplished visually through CSS-based design.</td>
+          </tr>
 					<!-- CSS gg -->
 					<tr data-tags="css">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://css.gg/">CSSgg</a></td>
 						<td>700+ CSS icons</td>
 					</tr>
+          <!-- CSSGradient -->
+          <tr data-tags="css, tool">
+            <td class="lang">en</td>
+            <td><a href="https://cssgradient.io/">CSSGradient</a></td>
+            <td>CSS gradient generator</td>
+          </tr>
 					<!-- cssgrid.io -->
 					<tr data-tags="css, videocourse">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://cssgrid.io/">cssgrid.io</a></td>
 						<td>Learn CSS grid for free with these 25 videos</td>
 					</tr>
 					<!-- CSS Grid Garden -->
 					<tr data-tags="css, game, interactive">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://cssgridgarden.com/">CSS Grid Garden</a></td>
 						<td>Learn CSS grid with this interactive game</td>
 					</tr>
 					<!-- CSS Layout -->
 					<tr data-tags="css">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://csslayout.io/">CSS Layout</a></td>
 						<td>A collection of popular layouts and patterns made with CSS</td>
 					</tr>
 					<!-- CSS Overflow -->
 					<tr data-tags="article, css">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://ishadeed.com/article/overflow-css/">ishadeed</a></td>
 						<td>Overflow in CSS</td>
 					</tr>
 					<!-- CSS reference -->
 					<tr data-tags="css, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://cssreference.io/">CSS Reference</a></td>
 						<td>A visual guide to CSS</td>
 					</tr>
 					<!-- CSS to SASS -->
 					<tr data-tags="css, tool">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://css2sass.herokuapp.com/">CSS2SASS</a></td>
 						<td>Convert CSS snippets to SASS</td>
 					</tr>
           <!-- CSS-tricks CSS almanac -->
           <tr data-tags="css">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://css-tricks.com/almanac/">CSS-tricks</a></td>
             <td>Alphabetical list of CSS selectors and properties</td>
           </tr>
 					<!-- CSS-Tricks all about floats -->
           <tr data-tags="css, tutorial">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://css-tricks.com/all-about-floats/">CSS-Tricks</a></td>
             <td>All about floats</td>
           </tr>
 					<!-- CSS-Tricks flexbox -->
 					<tr data-tags="css, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS-Tricks</a></td>
 						<td>Complete flexbox guide</td>
 					</tr>
 					<!-- CSS-Tricks grid -->
 					<tr data-tags="css, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS-Tricks</a></td>
 						<td>Complete grid guide</td>
 					</tr>
           <!-- CSS Tricks auto-fill vs auto-fit -->
           <tr data-tags="css, thisthat">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/">CSS Tricks</a></td>
             <td>CSS Grid: auto-fill vs auto-fit</td>
           </tr>
 					<!-- CSS-Tricks Multiple class VS ID+class selector -->
 					<tr data-tags="css, thisthat">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://css-tricks.com/multiple-class-id-selectors/">CSS-Tricks</a></td>
 						<td>Multiple class VS ID+class selector</td>
 					</tr>
 					<!-- culttt.com -->
 					<tr data-tags="article, php">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://culttt.com/2013/03/25/what-are-php-lambdas-and-closures/">culttt.com</a></td>
 						<td>What are PHP lambdas and closures?</td>
 					</tr>		
 <!-- !D -->
+          <!-- danielstern -->
+          <tr data-tags="css, tool">
+            <td class="lang">en</td>
+            <td><a href="http://danielstern.ca/range.css/#/">danielstern</a></td>
+            <td>CSS range generator for range inputs</td>
+          </tr>
 					<!-- Datatables -->
 					<tr data-tags="doc, jq, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://datatables.net/reference/option/">DataTables</a></td>
 						<td>DataTables options documentation</td>
 					</tr>		
 					<!-- Datatables Live -->
 					<tr data-tags="interactive, jq, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://live.datatables.net/">DataTables live</a></td>
 						<td>DataTables plugin playground</td>
 					</tr>
           <!-- davidwalsh.name -->
           <tr data-tags="article, css, js">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://davidwalsh.namecss-variables-javascript">davidwalsh.name</a></td>
             <td>How to Get and Set CSS Variable Values with JS</td>
           </tr>
           <!-- devdocs.io -->
           <tr data-tags="doc, multi, tool">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://devdocs.io/">devdocs.io</a></td>
             <td>Multiple API documentations combined in a fast, organized, and searchable interface</td>
           </tr>
+          <!-- DevTools Challenger -->
+          <tr data-tags="css, interactive">
+            <td class="lang">en</td>
+            <td><a href="http://devtoolschallenger.com/">DevTools Challenger</a></td>
+            <td>Interactive demo of some of Firefox Developer Edition's newest tools for manipulating CSS animations</td>
+          </tr>
 					<!-- Developer Roadmaps -->
 					<tr data-tags="tips, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://roadmap.sh/roadmaps">Developer Roadmaps</a></td>
 						<td>Step by step guides and paths to learn different tools or technologies</td>
 					</tr>
           <!-- dev.to -->
           <tr data-tags="article, tutorial, webdev">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://dev.to/amitthakur11/how-to-add-a-pre-loader-in-your-website-140i">dev.to</a></td>
             <td>How to add a pre loader in your website</td>
           </tr>
 					<!-- Digital Ocean -->
 					<tr data-tags="article">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols">Digital Ocean</a></td>
 						<td>An introduction to networking terminology</td>
 					</tr>		
           <!--Digitalocean -->
           <tr data-tags="article, js">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://www.digitalocean.com/community/tutorials/understanding-javascript-promises">DigitalOcean</a></td>
             <td>Understanding to JS Promises</td>
           </tr>
 					<!-- Discord: CodeSupport -->
 					<tr data-tags="discord, multi, supp">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://discord.com/invite/XQ9C3sY">Discord</a></td>
 						<td>CodeSupport Discord server</td>
 					</tr>	
 					<!-- Discord: FreeCodeCamp -->
 					<tr data-tags="discord, fcc, multi, supp">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://discord.gg/KVUmVXA">Discord</a></td>
 						<td>FreeCodeCamp official Discord server</td>
 					</tr>	
 					<!-- Discord: Frontend Developers -->
 					<tr data-tags="discord, supp, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://discordapp.com/invite/kx7pk6J">Discord</a></td>
 						<td>Frontend Developers Discord server</td>
 					</tr>	
 					<!-- Discord: TheCodingDen -->
 					<tr data-tags="discord, multi, supp">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://discord.gg/code">Discord</a></td>
 						<td>TheCodingDen Discord server</td>
 					</tr>	
 					<!-- Discord: Programming Discussions -->
 					<tr data-tags="discord, multi, supp">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://invite.progdisc.club/">Discord</a></td>
 						<td>Programming Discussions Discord server</td>
 					</tr>	
 					<!-- Discord: The Programmer's Hangout -->
 					<tr data-tags="discord, multi, supp">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://discord.gg/programming">Discord</a></td>
 						<td>The biggest general programming server on Discord</td>
 					</tr>	
 					<!-- Discord: r/webdev -->
 					<tr data-tags="discord, supp, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://discord.gg/keD8rZp">Discord</a></td>
 						<td>Official r/webdev Discord server</td>
 					</tr>		
 					<!-- DOM.specs -->
 					<tr data-tags="doc, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://dom.spec.whatwg.org/">DOM.specs</a></td>
 						<td>DOM standard</td>
 					</tr>		
           <!-- dummies.com -->
           <tr data-tags="article, js">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://www.dummies.com/web-design-development/javascript/what-are-callbacks-in-javascript-coding/">dummies.com</a></td>
             <td>What are callback functions in JS?</td>
           </tr>
 <!-- !E -->
 					<!-- Education Ecosystem -->
 					<tr data-tags="thisthat, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://blog.education-ecosystem.com/angular-js-vs-react-js-vs-node-js-which-is-the-best/">Education Ecosystem Blog</a></td>
 						<td>Angular vs React vs Node</td>
 					</tr>
 					<!-- Edutecnica -->
 					<tr data-tags="multi, tutorial">
-						<td class="it"></td>
+						<td class="lang">it</td>
 						<td><a href="http://www.edutecnica.it/informatica.htm">Edutecnica</a></td>
 						<td>Appunti vari informatica</td>
 					</tr>
 					<!-- electrictoolbox -->
 					<tr data-tags="article, jq, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://electrictoolbox.com/jquery-set-multiple-attributes/">electrictoolbox</a></td>
 						<td>Set multiple attributes with jQuery</td>
 					</tr>
+          <!-- EmailJS -->
+          <tr data-tags="libpak, js">
+            <td class="lang">en</td>
+            <td><a href="https://www.emailjs.com/">EmailJS</a></td>
+            <td>Send email directly from JS</td>
+          </tr>
 					<!-- es6-features -->
 					<tr data-tags="js, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://es6-features.org/">es6-features</a></td>
 						<td>JS ES6 new features and comparison with ES5</td>
 					</tr>
 					<!-- Esprima -->
 					<tr data-tags="js, tool">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://esprima.org/demo/validate.html">Esprima</a></td>
 						<td>JS syntax validator</td>
 					</tr>
 					<!-- Exercism -->
 					<tr data-tags="exercise, interactive, multi">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://exercism.io/">Exercism</a></td>
 						<td>Code practice and mentorship for everyone</td>
 					</tr>
 					<!-- Evolution of the Web -->
 					<tr data-tags="interactive">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://www.evolutionoftheweb.com/">Evolution of the Web</a></td>
 						<td>Ever wondered how it all started?</td>
 					</tr>
 <!-- !F -->
 					<!-- flavioscopes.com -->
 					<tr data-tags="article, js">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://flaviocopes.com/how-to-add-event-listener-multiple-elements-javascript/">flavioscopes.com</a></td>
 						<td>How to add an event listener to multiple elements in JS</td>
 					</tr>
 					<!-- flavioscopes.com -->
 					<tr data-tags="article, js">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://flaviocopes.com/web-storage-api/">flavioscopes.com</a></td>
 						<td>The Web Storage API: local storage and session storage</td>
 					</tr>
           <!-- flavioscopes.com -->
           <tr data-tags="article, webdev">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://flaviocopes.com/dom/">flavioscopes.com</a></td>
             <td>The Document Object Model</td>
           </tr>
 					<!-- flavioscopes.com -->
 					<tr data-tags="article, js, thisthat">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://flaviocopes.com/javascript-async-defer/">flavioscopes.com</a></td>
 						<td>Efficiently load JS with defer and async</td>
 					</tr>
 					<!-- Flexbox.io -->
 					<tr data-tags="css, videocourse">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://flexbox.io/">Flexbox.io</a></td>
 						<td>Learn flexbox for free with these 20 videos</td>
 					</tr>
 					<!-- Flexbox Froggy -->
 					<tr data-tags="css, game, interactive">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://flexboxfroggy.com/">Flexbox Froggy</a></td>
 						<td>Learn flexbox with this interactive game</td>
 					</tr>
 					<!-- Flexbox Defense -->
 					<tr data-tags="css, game, interactive">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://www.flexboxdefense.com/">Flexbox Defense</a></td>
 						<td>Learn flexbox with this interactive game</td>
 					</tr>
+          <!-- FontAwesome -->
+          <tr data-tags="css, libpak">
+            <td class="lang">en</td>
+            <td><a href="https://fontawesome.com/icons?d=gallery&m=free">FontAwesome</a></td>
+            <td>Free FontAwesome icons</td>
+          </tr>
 					<!-- FreeCodeCamp -->
 					<tr data-tags="exercise, fcc, interactive, multi, supp, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.freecodecamp.org/">FreeCodeCamp</a></td>
 						<td>Learn to code online and get certifications or ask for help in the official FCC forum</td>
 					</tr>
 					<!-- FreeCodeCamp console usage in JS -->
 					<tr data-tags="article, js, fcc">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.freecodecamp.org/news/javascript-console-log-example-how-to-print-to-the-console-in-js/">FreeCodeCamp</a></td>
 						<td>Various console() functions in JS</td>
 					</tr>
 					<!-- FreeCodeCamp CSS selectors -->
 					<tr data-tags="article, css, fcc">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://guide.freecodecamp.org/css/tutorials/css-selectors-cheat-sheet/">FreeCodeCamp</a></td>
 						<td>CSS selectors</td>
 					</tr>
 					<!-- FreeCodeCamp Framework vs Library -->
 					<tr data-tags="article, fcc, thisthat">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/">FreeCodeCamp</a></td>
 						<td>Framework vs Library</td>
 					</tr>
 					<!-- FreeCodeCamp: localStorage and sessionStorage -->
 					<tr data-tags="article, fcc, html, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.freecodecamp.org/">FreeCodeCamp</a></td>
 						<td>How to store data in web browser storage</td>
 					</tr>
 					<!-- FreeCodeCamp: how to use the Wireshark packet analyzer -->
 					<tr data-tags="article, fcc, net">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.freecodecamp.org/news/how-to-use-wireshark-packet-analyzer">FreeCodeCamp</a></td>
 						<td>How to use the Wireshark packet analyzer</td>
 					</tr>
 					<!-- FreeFormatter HTML entities -->
 					<tr data-tags="html">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.freeformatter.com/html-entities.html">FreeFormatter</a></td>
 						<td>List of HTML entities</td>
 					</tr>
 					<!-- FreeFormatter Lorem ipsum generator -->
 					<tr data-tags="tool, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.freeformatter.com/lorem-ipsum-generator.html">FreeFormatter</a></td>
 						<td>Lorem ipsum generator</td>
 					</tr>
 					<!-- Froont blog -->
 					<tr data-tags="article, css">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://blog.froont.com/positioning-in-web-design/">Froont blog</a></td>
 						<td>Positioning explained with GIFs</td>
 					</tr>
+          <!-- Frontend Practice -->
+          <tr data-tags="exercise, webdev">
+            <td class="lang">en</td>
+            <td><a href="https://www.frontendpractice.com/">Frontend Practice --></a></td>
+            <td>Take your frontend skills to the next level by recreating real websites</td>
+          </tr>
 <!-- !G -->
 					<!-- Geeks for Geeks -->
 					<tr data-tags="interactive, multi, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.geeksforgeeks.org/">Geeks for Geeks</a></td>
 						<td>A computer science portal for geeks</td>
 					</tr>
 					<!-- Geeks for Geeks C++ type conversion -->
 					<tr data-tags="article, cpp">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.geeksforgeeks.org/type-conversion-in-c/">Geeks for Geeks</a></td>
 						<td>Type conversion in C++</td>
 					</tr>
+          <!-- Geek for Geeks -->
+          <tr data-tags="article, ag, thisthat">
+            <td class="lang">en</td>
+            <td><a href="https://www.geeksforgeeks.org/what-is-the-difference-between-declarations-providers-and-import-in-ngmodule/">Geek for Geeks</a></td>
+            <td>Difference between, declarations, providers and import in ngmodule</td> 
+          </tr>
 					<!-- Git flight rules-->
 					<tr data-tags="git, gh, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://github.com/k88hudson/git-flight-rules#conventions-for-this-document">Git flight rules</a></td>
 						<td>How-tos list for Git</td>
 					</tr>
           <!-- Git-Hint -->
           <tr data-tags="cheat, git">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://git-hint.netlify.app/">Git-Hint</a></td>
             <td>Git cheat sheet of common oprations</td>
           </tr>
+          <!-- Git-It -->
+          <tr data-tags="tool, gh, git">
+            <td class="lang">en</td>
+            <td><a href="https://github.com/jlord/git-it-electron/releases">Git-It</a></td>
+            <td>Learn Git and GitHub basics</td>
+          </tr>
+          <!-- Git-School -->
+          <tr data-tags="git, gh, interactive">
+            <td class="lang">en</td>
+            <td><a href="http://git-school.github.io/visualizing-git/">Git-School</a></td>
+            <td>See what's going on underneath the hood when you use common Git operations</td>
+          </tr>
           <!-- GitHub -->
           <tr data-tags="gh, multi">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a
                 href="https://github.com/EbookFoundation/free-programming-books#list-of-free-learning-resources-in-many-languages-">GitHub</a>
             </td>
             <td>Free programming books</td>
           </tr>
           <!-- GitHub -->
+          <tr data-tags="ag, doc">
+            <td class="lang">en</td>
+            <td><a href="https://github.com/angular/flex-layout/wiki">GitHub</a></td>
+            <td>Angular Flex-Layout module documentation</td>
+          </tr>
+          <!-- GitHub -->
           <tr data-tags="gh, tool">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://education.github.com/pack">GitHub</a></td>
             <td>GitHub Student Developer Pack</td>
           </tr>
 					<!-- Github Community: Clone vs Fork-->
 					<tr data-tags="git, gh, thisthat">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://github.community/t5/Support-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372">Github Community</a></td>
 						<td>Clone vs Fork</td>
 					</tr>
           <!-- GitHub -->
           <tr data-tags="cheat, gh, js, thisthat">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://gist.github.com/jakub-g/385ee6b41085303a53ad92c7c8afd7a6">GitHub</a></td>
             <td>JS script inclusion cheatsheet</td>
           </tr>
+          <!-- goalkicker -->
+          <tr data-tags="multi">
+            <td class="lang">en</td>
+            <td><a href="https://goalkicker.com/">goalkicker</a></td>
+            <td>Free programming books</td>
+          </tr>
+          <!-- gridbyexample -->
+          <tr data-tags="css">
+            <td class="lang">en</td>
+            <td><a href="https://gridbyexample.com/examples/">gridbyexample</a></td>
+            <td>Collection of examplesto help you learn CSS Grid Layout</td>
+          </tr>
 					<!-- gsnedders -->
 					<tr data-tags="html, tool">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://gsnedders.html5.org/outliner/">gsnedders</a></td>
 						<td>HTML5 outliner</td>
 					</tr>
 <!-- !H -->
 					<!-- hackerthemes  -->
 					<tr data-tags="bs, cheat">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://hackerthemes.com/bootstrap-cheatsheet/">hackerthemes</a></td>
 						<td>Bootstrap 4 class list/cheatsheet</td>
 					</tr>
 					<!-- Hack This Site  -->
 					<tr data-tags="exercise, hacksec, interactive">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.hackthissite.org/pages/index/index.php">Hack This Site!</a></td>
 						<td>Free training ground for users to test and expand their hacking skills</td>
 					</tr>
 					<!-- HackTheBox  -->
 					<tr data-tags="exercise, hacksec, interactive">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.hackthebox.eu/">HackTheBox</a></td>
 						<td>Learn	and improve your pen-testing skills</td>
 					</tr>
 					<!-- Hacker 101  -->
 					<tr data-tags="exercise, hacksec, interactive">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.hacker101.com/">Hacker101</a></td>
 						<td>Free class for web security</td>
 					</tr>
 					<!-- HTML Document Structure  -->
 					<tr data-tags="article, html">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://html.com/document/">HTML.com</a></td>
 						<td>HTML document structure before and after HTML5</td>
 					</tr>
 					<!-- HTML5 pattern  -->
 					<tr data-tags="interactive, re, tool">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://html5pattern.com/">HTML5 Pattern</a></td>
 						<td>List of regularly used input-patterns</td>
 					</tr>
           <!-- HTMLSpec -->
           <tr data-tags="doc, html, js">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://html.spec.whatwg.org/multipage/webstorage.html#the-sessionstorage-attribute">HTMLSpec</a></td>
             <td>WebStorage documentation</td>
           </tr>
 					<!-- HTML DOM  -->
 					<tr data-tags="js, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://htmldom.dev/">HTMLDOM</a></td>
 						<td>Manage HTML DOM with vanilla JS</td>
 					</tr>
 					<!-- HTML.it DOM  -->
 					<tr data-tags="html, tutorial">
-						<td class="it"></td>
+						<td class="lang">it</td>
 						<td><a href="https://www.html.it/guide/guida-dom/">HTML.it</a></td>
 						<td>Guida al DOM</td>
 					</tr>
 					<!-- HTML.it HTML5  -->
 					<tr data-tags="html, tutorial">
-						<td class="it"></td>
+						<td class="lang">it</td>
 						<td><a href="https://www.html.it/guide/guida-html5/">HTML.it</a></td>
 						<td>Guida HTML5</td>
 					</tr>
 					<!-- HTML.it Web Components -->
 					<tr data-tags="html, tutorial">
-						<td class="it"></td>
+						<td class="lang">it</td>
 						<td><a href="https://www.html.it/guide/guida-ai-web-components/">HTML.it</a></td>
 						<td>Guida ai Web Components</td>
 					</tr>
 					<!-- weformatter -->
 					<tr data-tags="tool, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://weformatter.com/">Web Formatter</a></td>
 						<td>Code formatter for webdev languages</td>
 					</tr>
 					<!-- HTMLquick -->
 					<tr data-tags="html">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.htmlquick.com/tutorials.html">HTMLquick</a></td>
 						<td>HTML tutorial</td>
 					</tr>
 					<!-- HTMLquick HTML global attributes -->
 					<tr data-tags="html">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.htmlquick.com/reference/attributes.html">HTMLquick</a></td>
 						<td>List of HTML global attributes</td>
 					</tr>
 					<!-- HTMLquick URL vs URI  -->
 					<tr data-tags="article, thisthat, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.htmlquick.com/reference/uri-url.html">HTMLquick</a></td>
 						<td>URL vs URI</td>
 					</tr>
 					<!-- How to center in CSS  -->
 					<tr data-tags="css, interactive">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://howtocenterincss.com/">howtocenterinCSS</a></td>
 						<td>Complete guide to CSS centering</td>
 					</tr>
 <!-- !I -->
 					<!-- ifac -->
 					<tr data-tags="py, tutorial">
-						<td class="it"></td>
+						<td class="lang">it</td>
 						<td><a href="http://www.ifac.cnr.it/~zoppetti/corsopython/">ifac</a></td>
 						<td>Corso su Python3</td>
 					</tr>
 					<!-- Interneting is hard -->
 					<tr data-tags="css, html, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://internetingishard.com/">internetingishard</a></td>
 						<td>HTML/CSS tutorials for beginners</td>
 					</tr>
 					<!-- C++ core guidelines -->
 					<tr data-tags="cpp, gh, tips">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines.html">ISO cpp</a></td>
 						<td>C++ core guidelines</td>
 					</tr>
 <!-- !J -->
 					<!-- JavaScript 30 -->
 					<tr data-tags="exercise, js">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://javascript30.com/">JavaScript30</a></td>
 						<td>Learn vanilla JS by building 30 things</td>
 					</tr>
           <!-- javascript.plainenglish -->
           <tr data-tags="article">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a
                 href="https://javascript.plainenglish.io/deploying-any-app-to-github-pages-1e8e946bf890">javascript.plainenglish</a>
             </td>
@@ -835,571 +939,637 @@
           </tr>
 					<!-- JavaScript Garden -->
 					<tr data-tags="gh, js, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://bonsaiden.github.io/JavaScript-Garden/">JavaScript Garden</a></td>
 						<td>A growing collection of documentation about the most quirky parts of the JS programming language</td>
 					</tr>
 					<!-- JavaScript info -->
 					<tr data-tags="js, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://javascript.info">JavaScript info</a></td>
 						<td>A guide to modern JS</td>
 					</tr>
 					<!-- JenniferBland -->
 					<tr data-tags="article, js">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.jenniferbland.com/time-complexity-analysis-in-javascript/">JenniferBland.com</a></td>
 						<td>Time complexity in JS</td>
 					</tr>
 					<!-- Host page on GitHub pages -->
 					<tr data-tags="article, gh, tutorial, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://jmcglone.com/guides/github-pages/">jmcglone</a></td>
 						<td>A guide to creating and hosting GitHub pages</td>
 					</tr>
 					<!-- Jodies  -->
 					<tr data-tags="net, tool">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://jodies.de/ipcalc">Jodies</a></td>
 						<td>IP calculator, subnetting and supernetting</td>
 					</tr>
 					<!-- jQuery documentation -->
 					<tr data-tags="doc, jq">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://api.jquery.com/">jQuery</a></td>
 						<td>jQuery documentation</td>
 					</tr>
 					<!-- js.evie.dev -->
 					<tr data-tags="js, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://js.evie.dev/">js.evie.dev</a></td>
 						<td>Evie's accelerated JS tutorial</td>
 					</tr>
+          <!-- jscolor -->
+          <tr data-tags="libpak, js">
+            <td class="lang">en</td>
+            <td><a href="https://jscolor.com/">jscolor</a></td>
+            <td>JS library featuring a color picker with opacity channel</td>
+          </tr>
 					<!-- JSFiddle -->
 					<tr data-tags="interactive, tool, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://jsfiddle.net/">JSFiddle</a></td>
 						<td>Online front-end editor</td>
 					</tr>
 					<!-- JSON documentation -->
 					<tr data-tags="doc, json">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.json.org/json-en.html">JSON</a></td>
 						<td>JSON documentation</td>
 					</tr>
 					<!-- JSON editor -->
 					<tr data-tags="json, tool">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://jsoneditoronline.org/">JSON editor online</a></td>
 						<td>JSON online editor</td>
 					</tr>
 <!-- !K -->
 					<!-- Keycode.info -->
 					<tr data-tags="interactive, js, tool">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://keycode.info/">Keycode.info</a></td>
 						<td>Press any key to get the JS event keycode</td>
 					</tr>
 <!-- !L -->
 					<!-- LabStack -->
 					<tr data-tags="interactive, multi, tool">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://code.labstack.com/">Labstack</a></td>
 						<td>Multi-language programming playground</td>
 					</tr>
+          <!-- lambdatest -->
+          <tr data-tags="article, thisthat">
+            <td class="lang">en</td>
+            <td><a href="https://www.lambdatest.com/blog/bug-severity-vs-priority-in-testing-with-examples/">lambdatest</a></td>
+            <td>Difference between severity and priority in testing</td>
+          </tr>
 					<!-- Laracasts -->
 					<tr data-tags="multi, videocourse, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://laracasts.com/">Laracasts</a></td>
 						<td>Videocourses about everything related to web development</td>
 					</tr>
 					<!-- Learn CPP -->
 					<tr data-tags="cpp, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.learncpp.com//">Learn C++</a></td>
 						<td>Learn how to program in C++ for free</td>
 					</tr>
 					<!-- Learn Git Branching -->
 					<tr data-tags="git, interactive">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://learngitbranching.js.org/">Learn Git Branching</a></td>
 						<td>The most visual and interactive way to learn Git on the web</td>
 					</tr>
 					<!-- LearnSQL -->
 					<tr data-tags="article, sql">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://learnsql.com/blog/illustrated-guide-multiple-join/">LearnSQL</a></td>
 						<td>An illustrated guide to multiple join</td>
 					</tr>
 					<!-- Learn X in Y minutes -->
 					<tr data-tags="multi, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://learnxinyminutes.com/">Learn X in Y minutes</a></td>
 						<td>Scenic programming language tours</td>
 					</tr>
 					<!-- Leetcode -->
 					<tr data-tags="exercise, interactive, multi">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://leetcode.com/problemset/">Leetcode</a></td>
 						<td>Solve code challenges in various languages</td>
 					</tr>
+          <!-- Linuxsize -->
+          <tr data-tags="article, linux">
+            <td class="lang">en</td>
+            <td><a href="https://linuxize.com/post/how-to-exclude-files-and-directories-with-rsync/">Linuxsize</a></td>
+            <td>How to exclude files and directories with Rsync</td>
+          </tr>
 					<!-- LogicAndCodingGames -->
 					<tr data-tags="game, gh">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://github.com/dargaCode/LogicAndCodingGames/">LogicAndCodingGames</a></td>
 						<td>A great list of coding and logic games</td>
 					</tr>
 <!-- !M -->
 					<!-- mailtrap.io -->
 					<tr data-tags="tool, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://mailtrap.io/">Mailtrap.io</a></td>
 						<td>Fake SMTP testing server</td>
 					</tr>
 					<!-- Mark Lodato -->
 					<tr data-tags="git, tool">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://marklodato.github.io/visual-git-guide/index-en.html">Mark Lodato</a></td>
 						<td>Git visual guide</td>
 					</tr>
           <!-- Material.io -->
           <tr data-tags="tool, webdev">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://material.io/resources/color/#!/">Material.io</a></td>
             <td>Create color palettes for your UI and measure color accessibility</td>
           </tr>
+          <!-- mbitson -->
+          <tr data-tags="ag, tool">
+            <td class="lang">en</td>
+            <td><a href="http://mcg.mbitson.com/">mbitson</a></td>
+            <td>Material Design them and palette color generator</td>
+          </tr>
 					<!-- MDN -->
 					<tr data-tags="mdn, tutorial, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://developer.mozilla.org/en-US/docs/Web/Tutorials">MDN</a></td>
 						<td>Various web development tutorials</td>
 					</tr>
 					<!-- MDN HTML tags list -->
 					<tr data-tags="mdn, html">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN</a></td>
 						<td>List of HTML tags</td>
 					</tr>
 					<!-- MDN flexbox -->
 					<tr data-tags="css, mdn">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout">MDN</a></td>
 						<td>Guide to flexible box layout</td>
 					</tr>
 					<!-- MDN arrow functions -->
 					<tr data-tags="doc, js, mdn">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions">MDN</a></td>
 						<td>JS arrow functions</td>
 					</tr>
 					<!-- Medium -->
 					<tr data-tags="css, thisthat">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://medium.com/code-better/css-units-for-font-size-px-em-rem-79f7e592bb97">Medium</a></td>
 						<td>PX vs REM vs EM</td>
 					</tr>
           <!-- Medium -->
           <tr data-tags="article, laravel, tutorial">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://just1and0.medium.com/how-to-host-your-laravel-application-for-free-on-heroku-4789688d444b">Medium</a></td>
             <td>How to host a Laravel application for free on Heroku</td>
           </tr>
 					<!-- Metasploit -->
 					<tr data-tags="hacksec, fw">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.metasploit.com/">Metasploit</a></td>
 						<td>Most used framework for pentesting</td>
 					</tr>
 					<!-- Microsoft XNA -->
 					<tr data-tags="cs, fw">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.microsoft.com/en-us/download/details.aspx?id=20914">XNA Framework</a></td>
 						<td>A framework for game development</td>
 					</tr>
 					<!-- Monogame -->
 					<tr data-tags="cs, fw">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.monogame.net/downloads/">Monogame</a></td>
 						<td>Implementation of XNA framework for cross-platform game development</td>
 					</tr>
 					<!-- MySQL doc -->
 					<tr data-tags="doc, sql">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://dev.mysql.com/doc/refman/8.0/en/">MySQL</a></td>
 						<td>MySQL 8.0 reference manual</td>
 					</tr>		
 <!-- !N -->
 					<!-- Net Sparker -->
 					<tr data-tags="cheat, hacksec, sql">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/">Net Sparker</a></td>
 						<td>SQL injection cheat sheet</td>
 					</tr>	
-					<!-- NodeSchool.io -->
-					<tr data-tags="git, interactive, tutorial, webdev">
-						<td class="en"></td>
-						<td><a href="https://nodeschool.io/">NodeSchool.io</a></td>
-						<td>Open source workshops that teach web software skills</td>
-					</tr>
+          <!-- NodeSource -->
+          <tr data-tags="article">
+            <td class="lang">en</td>
+            <td><a href="https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/">NodeSource</a></td>
+            <td>An absolute beginners guide to using npm</td>
+          </tr>
 					<!-- Normalize.css -->
-					<tr data-tags="css, gh, tips">
-						<td class="en"></td>
+					<tr data-tags="css, gh, libpak">
+						<td class="lang">en</td>
 						<td><a href="https://github.com/necolas/normalize.css/blob/master/normalize.css">Normalize.css</a></td>
 						<td>Make browsers render all elements more consistently and in line with modern standards</td>
 					</tr>	
 <!-- !O -->
 					<!-- Oh shit, Git!?! -->
 					<tr data-tags="git, tips">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://ohshitgit.com/">Oh shit, Git!?!</a></td>
 						<td>Useful commands to get out of hard situations that happen while using Git</td>
 					</tr>
 					<!-- OverTheWire Wargames -->
-					<tr data-tags="exercise, game, hacksec, interactive">
-						<td class="en"></td>
+					<tr data-tags="game, hacksec, interactive">
+						<td class="lang">en</td>
 						<td><a href="https://overthewire.org/wargames/">OverTheWire Wargames</a></td>
 						<td>Learn and practice security concepts in the form of fun-filled games</td>
 					</tr>
 <!-- !P -->
 					<!-- Pensare da informatico -->
 					<tr data-tags="py, tutorial">
-						<td class="it"></td>
+						<td class="lang">it</td>
 						<td><a href="http://www.python.it/doc/Howtothink/Howtothink-html-it/index.htm">Python.it</a></td>
 						<td>Corso in italiano su Python</td>
 					</tr>
 					<!-- perf.link -->
 					<tr data-tags="js, tool">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://perf.link/">perf.link</a></td>
 						<td>JS performance benchmarks you can share via URL</td>
 					</tr>
 					<!-- PHP registration login form-->
 					<tr data-tags="gh, php, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://github.com/DerZanael/PHP-Registration-Login">PHP Registration Login</a></td>
 						<td>A tutorial for PHP registration/login</td>
 					</tr>
 					<!-- phpdelusions -->
 					<tr data-tags="article, php, sql">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://phpdelusions.net/mysqli_examples/prepared_select">phpdelusions</a></td>
 						<td>Mysqli SELECT query with prepared statements</td>
 					</tr>
 					<!-- phptherightway -->
 					<tr data-tags="php, tutorial">
-						<td class="it"></td>
+						<td class="lang">it</td>
 						<td><a href="http://it.phptherightway.com/">phptherightway</a></td>
 						<td>PHP: la retta via</td>
 					</tr>
+          <!-- picsum.photos -->
+          <tr data-tags="tool, webdev">
+            <td class="lang">en</td>
+            <td><a href="https://picsum.photos/">Lorem Picsum</a></td>
+            <td>The Lorem Ipsum for photos</td>
+          </tr>
 					<!-- Polyfill -->
 					<tr data-tags="tool, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://polyfill.io/v3/">Polyfill</a></td>
 						<td>Support differing browsers by attempting to recreate the missing features with polyfills</td>
 					</tr>
 					<!-- Practice Python -->
 					<tr data-tags="exercise, interactive, py">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://www.practicepython.org/">Practice Python</a></td>
 						<td>Learn Python by solving code challenges</td>
 					</tr>
 					<!-- Python doc -->
 					<tr data-tags="doc, py, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://docs.python.org/3/tutorial/">Python.org</a></td>
 						<td>Official Python documentation/tutorial</td>
 					</tr>
 <!-- !Q -->
           <!-- blog.quickadminpanel -->
           <tr data-tags="article, laravel">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://blog.quickadminpanel.com/datatables-editdelete-buttons-hide-under-javascript-dropdown/">blog.quickadminpanel</a></td>
             <td>Hide laravel datatables buttons under a dropdown button</td>
           </tr>
 <!-- !R -->
 					<!-- r/learnprogramming -->
 					<tr data-tags="multi, reddit, supp">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.reddit.com/r/learnprogramming/">r/learnprogramming</a></td>
 						<td>Ask for help for various programming languages</td>
 					</tr>
 					<!-- r/italyinformatica -->
 					<tr data-tags="multi, reddit, supp">
-						<td class="it"></td>
+						<td class="lang">it</td>
 						<td><a href="https://www.reddit.com/r/ItalyInformatica/">r/ItalyInformatica</a></td>
 						<td>Il panorama informatico italiano su Reddit</td>
 					</tr>
 					<!-- r/webdev -->
 					<tr data-tags="reddit, supp, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.reddit.com/r/webdev/">r/webdev</a></td>
 						<td>A community dedicated to all things web development</td>
 					</tr>
 					<!-- rbwhitaker.wikidot -->
 					<tr data-tags="cs, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://rbwhitaker.wikidot.com/xna-tutorials">rbwhitaker.wikidot</a></td>
 						<td>Various tutorials for XNA Framwork</td>
 					</tr>
           <!-- realfavicongenerator -->
           <tr data-tags="tool, webdev">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://realfavicongenerator.net/">realfavicongenerator</a></td>
             <td>Easily generates favicons for every browser</td>
           </tr>
           <!-- Regex101 -->
           <tr data-tags="interactive, re">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://regex101.com/">Regex101</a></td>
             <td>Build, test and debug regular expressions</td>
           </tr>
 					<!-- RegexHUB -->
 					<tr data-tags="cheat, interactive, re">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://projects.lukehaas.me/regexhub/">RegexHUB</a></td>
 						<td>Useful regex patterns</td>
 					</tr>
 					<!-- RegexOne -->
 					<tr data-tags="exercise, interactive, re, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://regexone.com/">RegexOne</a></td>
 						<td>Learn regular expressions with simple and interactive exercises</td>
 					</tr>
 					<!-- Regexr -->
 					<tr data-tags="cheat, doc, interactive, re, tool">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://regexr.com/">Regexr</a></td>
 						<td>Online tool to learn, build and test regular expressions</td>
 					</tr>
 					<!-- Realpython - Python fstrings -->
 					<tr data-tags="py, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://realpython.com/python-f-strings/">RealPython</a></td>
 						<td>Python f-strings</td>
 					</tr>
 					<!-- Realpython - Python socket -->
 					<tr data-tags="py, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://realpython.com/python-sockets/">RealPython</a></td>
 						<td>Socket programming in Python</td>
 					</tr>
 					<!-- repl -->
 					<tr data-tags="interactive, php, tool">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://repl.it/languages/php">repl</a></td>
 						<td>PHP CLI Online Compiler, IDE, Editor, Interpreter and REPL</td>
 					</tr>
           <!-- rowanmanning -->
           <tr data-tags="article, js">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://rowanmanning.com/posts/javascript-for-beginners-async/">rowanmanning</a></td>
             <td>JS for beginners: Async</td>
           </tr>
 <!-- !S -->
 					<!-- SamanthaMing -->
 					<tr data-tags="thisthat, tutorial, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.samanthaming.com/">SamanthaMing.com</a></td>
 						<td>Awesome website with a lot of intuitive tidbits on various topics (CSS, HTML, JS)</td>
           </tr>
+          <!-- SassMeister -->
+          <tr data-tags="css, interactive, tool">
+            <td class="lang">en</td>
+            <td><a href="https://www.sassmeister.com/">SassMeister</a></td>
+            <td>SASS playground</td>
+          </tr>
+          <!-- screensizemap -->
+          <tr data-tags="tool, webdev">
+            <td class="lang">en</td>
+            <td><a href="https://screensizemap.com/">screensizemap</a></td>
+            <td>A screen size comparison for responsive design</td>
+          </tr>
           <!-- Scrimba -->
           <tr data-tags="interactive, tutorial">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://scrimba.com/">Scrimba</a></td>
             <td>Learn to code with interactive tutorials</td>
           </tr>
 					<!-- ShayHowe -->
 					<tr data-tags="css, html, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://learn.shayhowe.com/">ShayHowe</a></td>
 						<td>Beginners and advanced HTML/CSS tutorials</td>
 					</tr>
 					<!-- Shodan -->
 					<tr data-tags="hacksec">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.shodan.io/">Shodan</a></td>
 						<td>The search engine for finding vulnerable servers</td>
 					</tr>
           <!-- snippet generator -->
           <tr data-tags="interactive, tool">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://snippet-generator.app/">snippet generator</a></td>
             <td>Easily create Visual Studio Code, Sublime Text and Atom snippets</td>
           </tr>
 					<!-- Solved by Flexbox -->
 					<tr data-tags="css, tips">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://philipwalton.github.io/solved-by-flexbox/">Solved by Flexbox</a></td>
 						<td>Showcase of problems once hard to solve that are now easily solved thanks to Flexbox</td>
 					</tr>
 					<!-- SoloLearn -->
 					<tr data-tags="multi, interactive, supp, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.sololearn.com/">SoloLearn</a></td>
 						<td>Learn to code for free</td>
 					</tr>
           <!-- SparkBox -->
           <tr data-tags="article, git">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://sparkbox.com/foundry/semantic_commit_messages">SparkBox</a></td>
             <td>Semantic commit messages</td>
           </tr>
 					<!-- Specificity Calculator -->
 					<tr data-tags="css, interactive">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://specificity.keegan.st/">Specificity Calculator</a></td>
 						<td>A visual way to understand CSS specificity</td>
 					</tr>
 					<!-- SQL bolt -->
 					<tr data-tags="exercise, interactive, sql, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://sqlbolt.com/">SQLBolt</a></td>
 						<td>Learn SQL with simple, interactive exercises</td>
 					</tr>
 					<!-- SQLZoo -->
 					<tr data-tags="exercise, interactive, sql, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://sqlzoo.net/wiki/SQL_Tutorial">SQLZoo</a></td>
 						<td>Learn SQL with simple, interactive exercises</td>
 					</tr>
+          <!-- Stackblitz -->
+          <tr data-tags="interactive, tool, webdev">
+            <td class="lang">en</td>
+            <td><a href="https://stackblitz.com/">Stackblitz</a></td>
+            <td>Create, edit and deploy fullstack apps</td>
+          </tr>
 					<!-- Stack Overflow -->
 					<tr data-tags="multi, sover, supp">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://stackoverflow.com/">Stack Overflow</a></td>
 						<td>The largest and most trusted community for developers</td>
 					</tr>
           <!-- Stack Overflow -->
           <tr data-tags="laravel, sover">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://stackoverflow.com/questions/43087648/">Stack Overflow</a></td>
             <td>Logging out via a link in Laravel</td>
           </tr>
 					<!--? THIS&THAT -->
 					<!-- Stack Overflow: var vs let -->
 					<tr data-tags="js, sover, thisthat">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://stackoverflow.com/questions/762011/">Stack Overflow</a></td>
 						<td>JS: var vs let</td>
 					</tr>
 					<!-- Stack Overflow: die() vs trigger_error() vs throw Exception -->
 					<tr data-tags="php, sover, thisthat">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://stackoverflow.com/questions/7063053/">Stack Overflow</a></td>
 						<td>PHP: die() vs trigger_error() vs throw Exception</td>
 					</tr>
 					<!-- Stack Overflow: null vs undefined -->
 					<tr data-tags="js, sover, thisthat">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://stackoverflow.com/questions/5076944/">Stack Overflow</a></td>
 						<td>JS: null vs undefined</td>
 					</tr>
 					<!-- Stack Overflow: null vs undefined -->
 					<tr data-tags="js, sover, thisthat">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call/14220323#14220323">Stack Overflow</a></td>
 						<td>JS: sync va async</td>
 					</tr>
 					<!-- Stack Overflow: polyfill vs transpiler -->
 					<tr data-tags="js, sover, thisthat">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://stackoverflow.com/questions/31205640/">Stack Overflow</a></td>
 						<td>JS: polyfill vs transpiler</td>
 					</tr>
 					<!-- Stack Overflow: align-items vs align-content -->
 					<tr data-tags="css, sover, thisthat">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://stackoverflow.com/questions/27539262/">Stack Overflow</a></td>
 						<td>CSS: difference between align-items and align-content</td>
 					</tr>
 					<!-- Stack Overflow: href vs src -->
 					<tr data-tags="html, sover, thisthat">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://stackoverflow.com/questions/3395359/">Stack Overflow</a></td>
 						<td>HTML: difference between src and href</td>
 					</tr>
 					<!-- Stack Overflow: b vs strong, i vs em -->
 					<tr data-tags="html, sover, thisthat">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://stackoverflow.com/questions/271743/">Stack Overflow</a></td>
 						<td>HTML: difference &lt;b&gt; and &lt;strong&gt;, &lt;i&gt; and &lt;em&gt;</td>
 					</tr>
 					<!-- Stack Overflow: property vs attribute -->
 					<tr data-tags="html, sover, thisthat">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://stackoverflow.com/questions/6003819/">Stack Overflow</a></td>
 						<td>HTML: difference between property and attribute</td>
 					</tr>
 					<!-- Stack Overflow: disabled vs readonly -->
 					<tr data-tags="html, sover, thisthat">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://stackoverflow.com/questions/7730695/">Stack Overflow</a></td>
 						<td>HTML: disabled vs readonly attribute</td>
 					</tr>
 					<!--? OTHER QUESTIONS -->
 					<!-- Stack Overflow: include HTMl file with jQuery -->
 					<tr data-tags="jq, sover">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://stackoverflow.com/questions/15320801/">Stack Overflow</a></td>
 						<td>How to include an HTML file with jQuery?</td>
 					</tr>
 					<!-- Stack Overflow: How to add new keys to a dictionary? -->
 					<tr data-tags="py, sover">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://stackoverflow.com/questions/1024847/how-can-i-add-new-keys-to-a-dictionary/8381589#8381589">Stack Overflow</a></td>
 						<td>Python: how to add new keys to a dictionary?</td>
 					</tr>
 					<!-- Stack Overflow: convert float to int -->
 					<tr data-tags="js, sover">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://stackoverflow.com/questions/596467/">Stack Overflow</a></td>
 						<td>Convert float to int in JS</td>
 					</tr>
 					<!-- Stack Overflow: link to artbitraty content on a webpage -->
 					<tr data-tags="html, tips, sover">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://stackoverflow.com/questions/16338602/">Stack Overflow</a></td>
 						<td>Linking to arbitrary content on a webpage without anchor tags</td>
 					</tr>
-<!-- !T -->
+<!-- !T --> 
+          <!-- The Odin Project -->
+          <tr data-tags="tutorial, webdev">
+            <td class="lang">en</td>
+            <td><a href="https://www.theodinproject.com/home">The Odin Project</a></td>
+            <td>Learn everything you need to know to become a web developer</td>
+          </tr>
+          <!-- TinyPNG -->
+          <tr data-tags="tool, webdev">
+            <td class="lang">en</td>
+            <td><a href="https://tinypng.com/">TinyPNG</a></td>
+            <td>Compress PNG images and increase loading time for your website</td>
+          </tr>
 					<!-- TomHodgins -->
 					<tr data-tags="interactive, tool, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://tomhodgins.com/demo/dom/">TomHodgins.com</a></td>
 						<td>Live DOM viewer tool</td>
 					</tr>
 					<!-- TryHackMe -->
 					<tr data-tags="hacksec, interactive">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://tryhackme.com/">TryHackMe</a></td>
 						<td>Learn cybersecurity with these guides/challenges</td>
 					</tr>
 					<!-- treehouse blog -->
 					<tr data-tags="article, js, tips">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://blog.teamtreehouse.com/unobtrusive-javascript-important">treehouse blog</a></td>
 						<td>How to write unobtrusive JS code</td>
 					</tr>
 					<!-- tobiashlin.com -->
 					<tr data-tags="article, cheat, js, jq">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/">tobiashlin.com</a></td>
 						<td>Cheat sheet for moving from jQuery to vanilla JS</td>
 					</tr>
+					<!-- tobiashlin.com -->
+					<tr data-tags="article, css">
+						<td class="lang">en</td>
+						<td><a href="https://tobiasahlin.com/blog/flexbox-break-to-new-row/">tobiashlin.com</a></td>
+						<td>Breaking to a new row with flexbox</td>
+					</tr>
 					<!-- Tutorialrepublic -->
 					<tr data-tags="tutorial, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.tutorialrepublic.com/">TutorialRepublic</a></td>
 						<td>Web Developement tutorials</td>
 					</tr>
 					<!-- Tutorialspoint -->
 					<tr data-tags="article, cpp">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.tutorialspoint.com/cplusplus/cpp_operators.htm">Tutorialspoint</a></td>
 						<td>C++ operators</td>
 					</tr>
 					<!-- TypeScript Handbook -->
 					<tr data-tags="doc, js, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.typescriptlang.org/docs">TypeScript lang</a></td>
 						<td>TypesScript official documentation and handbook</td>
 					</tr>
@@ -1407,92 +1577,98 @@
 <!-- !V -->
 					<!-- vanseodesign -->
 					<tr data-tags="css, tips">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://vanseodesign.com/css/vertical-centering/">vanseodesign</a></td>
 						<td>Six methods for vertical centering with CSS</td>
 					</tr>
 					<!-- VS Code can do that? -->
 					<tr data-tags="tips, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://vscodecandothat.com/">VS Code can do that?</a></td>
 						<td>All the best things about VS Code that nobody ever bothered to tell you</td>
 					</tr>
 <!-- !W -->
 					<!-- W3 HTML validator -->
 					<tr data-tags="html, tool, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://validator.w3.org/">W3</a></td>
 						<td>HTML validator</td>
 					</tr>
 					<!-- W3 CSS selectors -->
 					<tr data-tags="css, doc">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.w3.org/TR/selectors-3/#selectors">W3</a></td>
 						<td>CSS selectors</td>
 					</tr>
 					<!-- W3S -->
 					<tr data-tags="multi, tutorial, w3s">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.w3schools.com/">W3S</a></td>
 						<td>Learn web technologies online</td>
 					</tr>
 					<!-- W3S Color picker -->
 					<tr data-tags="w3s, tool">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.w3schools.com/colors/colors_picker.asp">W3S</a></td>
 						<td>Color picker</td>
 					</tr>
 					<!-- W3S Color list -->
 					<tr data-tags="css, w3s">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.w3schools.com/cssref/css_colors.asp">W3S</a></td>
 						<td>CSS color names list</td>
 					</tr>	
 					<!-- W3S List of CSS properties -->
 					<tr data-tags="css, w3s">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.w3schools.com/cssref/">W3S</a></td>
 						<td>List of CSS properties</td>
 					</tr>
 					<!-- Webaim -->
 					<tr data-tags="tool, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://webaim.org/resources/contrastchecker/">Webaim</a></td>
 						<td>Contrast validator</td>
 					</tr>
 					<!-- Webaim WAVE -->
 					<tr data-tags="tool, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://wave.webaim.org/">Webaim</a></td>
 						<td>Web Accessibility Evaluation Tool</td>
 					</tr>
 					<!-- WebDevStudyResources -->
 					<tr data-tags="gh, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://github.com/dargaCode/WebDevStudyResources/">WebDevStudyResources</a></td>
 						<td>A great list of useful resources, specific for web development</td>
 					</tr>
+          <!-- webdevtc -->
+          <tr data-tags="article, css">
+            <td class="lang">en</td>
+            <td><a href="https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/">webdevtc</a></td>
+            <td>How to add a gradient overlay to a background image using just CSS and HTML</td>
+          </tr>
 					<!-- Web.Dev -->
 					<tr data-tags="article, tips, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://web.dev/learn/">Web.Dev</a></td>
 						<td>Various articles/tips for the modern web</td>
 					</tr>
-					<!-- Web Dev external anchors rel noopener -->
+					<!-- Web.Dev external anchors rel noopener -->
 					<tr data-tags="article, html, tips">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://web.dev/external-anchors-use-rel-noopener/">Web.Dev</a></td>
 						<td>External links and rel noopener/noreferrer</td>
 					</tr>
-          <!-- Web.Dev 10 modern layouts in one line of CSS -->
-          <tr data-tags="article, css">
-            <td class="en"></td>
-            <td><a href="https://web.dev/one-line-layouts/">Web.Dev</a></td>
-            <td>10 modern layouts in one line of CSS</td>
+          <!-- WebPageTest -->
+          <tr data-tags="tool, webdev">
+            <td class="lang">en</td>
+            <td><a href="https://www.webpagetest.org/">WebPageTest</a></td>
+            <td>Website performance and optimization tool</td>
           </tr>
 					<!-- Web Skills -->
 					<tr data-tags="gh, tips, webdev">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://andreasbm.github.io/web-skills/">Web Skils</a></td>
 						<td>Visual overview of useful skills to learn as a web developer.</td>
 					</tr>
@@ -1501,43 +1677,49 @@
 <!-- !Y -->
 					<!-- yoksel.github.io -->
 					<tr data-tags="cheat, css, gh, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://yoksel.github.io/grid-cheatsheet/">yoksel.github.io</a></td>
 						<td>CSS Grid Cheatsheet</td>
 					</tr>
 					<!-- yoksel.github.io -->
 					<tr data-tags="cheat, css, gh, tutorial">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://yoksel.github.io/flex-cheatsheet/">yoksel.github.io</a></td>
 						<td>CSS Flexbox Cheatsheet</td>
 					</tr>
-          <!-- YouTube -->
+          <!-- YouTube LaravelDaily -->
           <tr data-tags="laravel, tutorial, yt">
-            <td class="en"></td>
+            <td class="lang">en</td>
             <td><a href="https://www.youtube.com/channel/UCTuplgOBi6tJIlesIboymGA">YouTube</a></td>
             <td>LaravelDaily YouTube channel</td>
           </tr>
-					<!-- YouTube -->
+          <!-- YouTube Kevin Powell -->
+          <tr data-tags="css, tips, tutorial, yt">
+            <td class="lang">en</td>
+            <td><a href="https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw">YouTube</a></td>
+            <td>Kevin Powell YouTube channel</td>
+          </tr>
+					<!-- YouTube fcamuso -->
 					<tr data-tags="multi, tutorial, videocourse, yt">
-						<td class="it"></td>
+						<td class="lang">it</td>
 						<td><a href="https://www.youtube.com/user/fcamuso/playlists">YouTube</a></td>
 						<td>Canale YT fcamuso</td>
 					</tr>
-					<!-- YouTube -->
+					<!-- YouTube CompTIA Network+ -->
 					<tr data-tags="hacksec, net, videocourse, yt">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="https://www.youtube.com/playlist?list=PLG49S3nxzAnmpdmX7RoTOyuNJQAb-r-gd">YouTube</a></td>
 						<td>Professor Messer's CompTIA Network+ N10-007 training course</td>
 					</tr>
 					<!-- YouTube -->
-					<tr data-tags="git, tutorial, videocourse, yt">
-						<td class="en"></td>
+					<tr data-tags="git, tutorial, yt">
+						<td class="lang">en</td>
 						<td><a href="https://www.youtube.com/watch?v=RGOj5yH7evk">YouTube</a></td>
 						<td>Git and GitHub crash course</td>
 					</tr>
 					<!-- You might not need jQuery -->
 					<tr data-tags="js, jq">
-						<td class="en"></td>
+						<td class="lang">en</td>
 						<td><a href="http://youmightnotneedjquery.com/">You might not need jQuery</a></td>
 						<td>Alternatives to common jQuery functions</td>
 					</tr>
