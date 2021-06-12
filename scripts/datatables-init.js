@@ -31,16 +31,16 @@ document.querySelectorAll('tbody tr').forEach((el) => {
 
 $("#datatablesTable").DataTable({
   // Make the table scrollable after the height is > 400 px
-  "scrollY": 400,
+  "scrollY": 565,
   // Remove pagination (to allow scrolling)
   "paging": false,
   // Make proper columns not orderable (based on class on TH element)
   "columnDefs":
   [
-    { "targets": ["lang", "desc", "tags"], "orderable": false },
+    { "targets": ["language", "desc", "tags"], "orderable": false },
   ],
   // Set default ordering column
-  "order": [[colNum, 'asc']],
+  "order": [colNum, 'asc'],
   // Show only search bar (which will occupy all the space available)
   "dom": 'ft',
   // Put search as placeholder of searchbar

@@ -1,18 +1,10 @@
 ﻿// Global variable
-export let navH = document.getElementById("navbar").clientHeight;
+const navH = document.getElementById("navbar").clientHeight + 5;
 
-// Move body down based on #navbar's height
-document.querySelector('body').style.marginTop = `${navH}px`; 
+document.querySelector('body').style.marginTop = `${navH}px`; // Move body down
 
-// External links in new tab
-document.querySelectorAll('a[href ^= "http"]').forEach(el => {
+// Set target and rel attributes for every external link
+document.querySelectorAll('a[href^="http"]').forEach(el => {
   el.target = '_blank';
   el.rel = 'noopener noreferrer';
 });
-
-
-// Add classes to body
-document.querySelector('body').classList.add('bg-seconday'); 
-
-
-
