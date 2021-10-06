@@ -21,6 +21,7 @@ let l4d_tags = {
   jq,
   js,
   laravel,
+  libpak = "Library Package",
   linux,
   mdn,
   multi,
