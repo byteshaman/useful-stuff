@@ -6,7 +6,6 @@ document.querySelector('body').addEventListener("click",(ev)  => {
   
   const target = ev.target;
   if (target.matches('.button-container button')) {
-    console.log('click');
     const idx = selectedTags.indexOf(target.value);
     updateButtonSelectedClass(target,idx);
     updateSelectedTags(target,idx);
@@ -69,8 +68,8 @@ function containsAll(arr1, arr2) {
 }
 
 export function clearOnChange() {
-  console.log('var');
-  const buttons = document.querySelectorAll(visibleButtons)
+  document.querySelector('#search').value='';
+  const buttons = document.querySelectorAll(visibleButtons);
   buttons.forEach(btn => {
     btn.classList.remove('selected')
     btn.disabled = false;
