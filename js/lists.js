@@ -1172,13 +1172,13 @@ export const l4d =
       tags: "article, tips, webdev",
       url: "https://alligator.io/",
       name: "alligator.io",
-      description: "Front - End Web Development articles and examples"
+      description: "Front-end web development articles and examples"
     },
     {
       tags: "exercise, hacksec",
       url: "https://amazena.it/",
       name: "Amazena",
-      description: "Sito web per provare attacchi informatici"
+      description: "[ITA] Sito web per provare attacchi informatici"
     },
     {
       tags: "article, laravel",
@@ -1241,6 +1241,12 @@ export const l4d =
       description: "CSS Positioning in 10 steps"
     },
     {
+      tags: "tool, webdev",
+      url: "https://beautifytools.com/",
+      name: "BeautifyTools",
+      description: "Beautifiers, converters, validator and more useful tools!"
+    },
+    {
       tags: "article, laravel",
       url: "https://blog.quickadminpanel.com/datatables-editdelete-buttons-hide-under-javascript-dropdown/",
       name: "blog.quickadminpanel",
@@ -1265,12 +1271,6 @@ export const l4d =
       description: "What are integrity and crossorigin attributes ?"
     },
     {
-      tags: "bs, doc",
-      url: "https://italia.github.io/bootstrap-italia/docs/come-iniziare/introduzione/",
-      name: "Bootstrap Italia",
-      description: "Documentazione Boostrap Italia"
-    },
-    {
       tags: "bs",
       url: "https://bootstrapshuffle.com/classes",
       name: "Bootstrap Shuffle",
@@ -1292,7 +1292,7 @@ export const l4d =
       tags: "tool, webdev",
       url: "https://caniuse.com/",
       name: "CanIUse",
-      description: "Up - to - date browser support tables"
+      description: "Up-to-date browser support tables"
     },
     {
       tags: "tool, webdev",
@@ -1319,10 +1319,22 @@ export const l4d =
       description: "A collection of useful snippets and code examples for various languages"
     },
     {
+      tags: "article, git",
+      url: "https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574",
+      name: "Code Tutsplus",
+      description: "How to work with GitHub and multiple accounts"
+    },
+    {
       tags: "interactive, tool, webdev",
       url: "https://codepen.io/",
       name: "Codepen",
-      description: "Online front - end editor"
+      description: "Online front-end editor"
+    },
+    {
+      tags: "css, tool",
+      url: "https://codepen.io/sosuke/pen/Pjoqqp",
+      name: "Codepen",
+      description: "CSS filter generator to convert from black to target hex color"
     },
     {
       tags: "multi",
@@ -1382,7 +1394,7 @@ export const l4d =
       tags: "css, exercise",
       url: "http://www.csszengarden.com/",
       name: "CSS Garden",
-      description: "A demonstration of what can be accomplished visually through CSS - based design."
+      description: "A demonstration of what can be accomplished visually through CSS-based design."
     },
     {
       tags: "css, game, interactive",
@@ -1406,7 +1418,7 @@ export const l4d =
       tags: "css, thisthat",
       url: "https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/",
       name: "CSS Tricks",
-      description: "CSS Grid: auto - fill vs auto - fit"
+      description: "CSS Grid: auto-fill vs auto-fit"
     },
     {
       tags: "css",
@@ -1481,13 +1493,19 @@ export const l4d =
       description: "CSS range generator for range inputs"
     },
     {
-      tags: "doc, jq, webdev",
+      tags: "libpak",
+      url: "https://datatables.net/reference/option/",
+      name: "DataTables",
+      description: "Add advanced interaction controls to your HTML tables"
+    },
+    {
+      tags: "doc",
       url: "https://datatables.net/reference/option/",
       name: "DataTables",
       description: "DataTables options documentation"
     },
     {
-      tags: "interactive, jq, webdev",
+      tags: "interactive",
       url: "http://live.datatables.net/",
       name: "DataTables live",
       description: "DataTables plugin playground"
@@ -1503,6 +1521,12 @@ export const l4d =
       url: "https://dev.to/nmhummel/learning-the-big-o-1eod?",
       name: "dev.to",
       description: "Learning the Big O"
+    },
+    {
+      tags: "ag, article",
+      url: "https://dev.to/angular/what-is-a-higher-order-observable-4k52",
+      name: "dev.to",
+      description: "What is a higher-order Observable?"
     },
     {
       tags: "article, tutorial, webdev",
@@ -1613,12 +1637,6 @@ export const l4d =
       description: "Appunti vari informatica"
     },
     {
-      tags: "article, jq, tutorial",
-      url: "https://electrictoolbox.com/jquery-set-multiple-attributes/",
-      name: "electrictoolbox",
-      description: "Set multiple attributes with jQuery"
-    },
-    {
       tags: "libpak, js",
       url: "https://www.emailjs.com/",
       name: "EmailJS",
@@ -1659,6 +1677,12 @@ export const l4d =
       url: "https://flaviocopes.com/web-storage-api/",
       name: "flavioscopes.com",
       description: "The Web Storage API: local storage and session storage"
+    },
+    {
+      tags: "article, js",
+      url: "https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/",
+      name: "flavioscopes.com",
+      description: "How to sort an array of objects by a property value in JavaScript"
     },
     {
       tags: "article, webdev",
@@ -1790,7 +1814,7 @@ export const l4d =
       tags: "git, tutorial",
       url: "https://github.com/k88hudson/git-flight-rules#conventions-for-this-document",
       name: "Git flight rules",
-      description: "How - tos list for Git"
+      description: "How-tos list for Git"
     },
     {
       tags: "cheat, git",
@@ -1820,7 +1844,7 @@ export const l4d =
       tags: "ag, doc",
       url: "https://github.com/angular/flex-layout/wiki",
       name: "GitHub",
-      description: "Angular Flex - Layout module documentation"
+      description: "Angular Flex-Layout module documentation"
     },
     {
       tags: "tool",
@@ -1880,7 +1904,7 @@ export const l4d =
       tags: "exercise, hacksec, interactive",
       url: "https://www.hackthebox.eu/",
       name: "HackTheBox",
-      description: "Learn and improve your pen - testing skills"
+      description: "Learn and improve your pen-testing skills"
     },
     {
       tags: "css, interactive",
@@ -1898,25 +1922,25 @@ export const l4d =
       tags: "html, tutorial",
       url: "https://www.html.it/guide/guida-dom/",
       name: "HTML.it",
-      description: "Guida al DOM"
-    },
-    {
-      tags: "html, tutorial",
-      url: "https://www.html.it/guide/guida-html5/",
-      name: "HTML.it",
-      description: "Guida HTML5"
+      description: "[ITA] Guida al DOM"
     },
     {
       tags: "html, tutorial",
       url: "https://www.html.it/guide/guida-ai-web-components/",
       name: "HTML.it",
-      description: "Guida ai Web Components"
+      description: "[ITA] Guida ai Web Components"
     },
     {
       tags: "interactive, re, tool",
       url: "http://html5pattern.com/",
       name: "HTML5 Pattern",
-      description: "List of regularly used input - patterns"
+      description: "List of regularly used input-patterns"
+    },
+    {
+      tags: "tips, webdev",
+      url: "https://html5please.com/",
+      name: "HTML5 Please",
+      description: "Look up HTML5, CSS3, etc features, know if they are ready for use and find out how you should use them"
     },
     {
       tags: "js, tutorial",
@@ -1955,6 +1979,12 @@ export const l4d =
       description: "Corso su Python3"
     },
     {
+      tags: "ag, article",
+      url: "https://indepth.dev/posts/1279/rxjs-in-angular-when-to-subscribe-rarely",
+      name: "indepth.dev",
+      description: "RxJS in Angular: When To Subscribe?"
+    },
+    {
       tags: "css, html, tutorial",
       url: "https://internetingishard.com/",
       name: "internetingishard",
@@ -1971,6 +2001,12 @@ export const l4d =
       url: "http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines.html",
       name: "ISO cpp",
       description: "C++ core guidelines"
+    },
+    {
+      tags: "article, git, tutorial",
+      url: "https://itnext.io/git-repository-transfer-keeping-all-history-670fe04cd5e4",
+      name: "ITNext.io",
+      description: "How to replicate your Git repo and keep all previous commits, branches, and tags"
     },
     {
       tags: "js, tutorial",
@@ -2015,10 +2051,10 @@ export const l4d =
       description: "IP calculator, subnetting and supernetting"
     },
     {
-      tags: "doc, jq",
+      tags: "libpak",
       url: "https://api.jquery.com/",
       name: "jQuery",
-      description: "jQuery documentation"
+      description: "Fast, small, and feature-rich JavaScript library"
     },
     {
       tags: "js, tutorial",
@@ -2042,7 +2078,13 @@ export const l4d =
       tags: "interactive, tool, webdev",
       url: "https://jsfiddle.net/",
       name: "JSFiddle",
-      description: "Online front - end editor"
+      description: "Online front-end editor"
+    },
+    {
+      tags: "js, tool",
+      url: "http://www.jsnice.org/",
+      name: "JSNice",
+      description: "Statistical renaming, type inference and obfuscator for JavaScript"
     },
     {
       tags: "doc, oth",
@@ -2072,7 +2114,7 @@ export const l4d =
       tags: "interactive, multi, tool",
       url: "https://code.labstack.com/",
       name: "Labstack",
-      description: "Multi - language programming playground"
+      description: "Multi-language programming playground"
     },
     {
       tags: "article, thisthat",
@@ -2105,6 +2147,12 @@ export const l4d =
       description: "Scenic programming language tours"
     },
     {
+      tags: "ag, tutorial",
+      url: "https://www.learnrxjs.io/",
+      name: "LearnRxJS",
+      description: "Clear examples, explanations, and resources for RxJS."
+    },
+    {
       tags: "article, sql",
       url: "https://learnsql.com/blog/illustrated-guide-multiple-join/",
       name: "LearnSQL",
@@ -2121,6 +2169,18 @@ export const l4d =
       url: "https://linuxize.com/post/how-to-exclude-files-and-directories-with-rsync/",
       name: "Linuxsize",
       description: "How to exclude files and directories with Rsync"
+    },
+    {
+      tags: "js, libpak",
+      url: "https://listjs.com/",
+      name: "ListJS",
+      description: "Tiny, simple and powerful library to enhance HTML tables and lists"
+    },
+    {
+      tags: "js, libpak",
+      url: "https://lodash.com/",
+      name: "Lodash",
+      description: "A modern JavaScript utility library delivering modularity, performance and extras"
     },
     {
       tags: "game",
@@ -2189,6 +2249,12 @@ export const l4d =
       description: "JS arrow functions"
     },
     {
+      tags: "linux, tutorial",
+      url: "https://mediatemple.net/blog/web-development-tech/complete-beginners-guide-cron-part-1/",
+      name: "MediaTemple",
+      description: "The complete beginners guide to Cron"
+    },
+    {
       tags: "article, css, thisthat",
       url: "https://medium.com/code-better/css-units-for-font-size-px-em-rem-79f7e592bb97",
       name: "Medium",
@@ -2207,7 +2273,7 @@ export const l4d =
       description: "Understanding Angular modules(NgModule) and their scopes"
     },
     {
-      tags: "ag, article, tips",
+      tags: "ag, article, tips, ts",
       url: "https://medium.com/rpdstartup/simplifying-typescript-import-paths-in-angular-c3249a4edbb3",
       name: "Medium",
       description: "Simplifying Typescript import paths in Angular"
@@ -2225,10 +2291,16 @@ export const l4d =
       description: "Experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!"
     },
     {
+      tags: "article, js, tips",
+      url: "https://michaeluloth.com/filter-boolean",
+      name: "michaeluloth.com",
+      description: "The filter(Boolean) trick"
+    },
+    {
       tags: "oth, fw",
       url: "https://www.monogame.net/downloads/",
       name: "Monogame",
-      description: "Implementation of XNA framework for cross - platform game development(C#)"
+      description: "Implementation of XNA framework for cross-platform game development(C#)"
     },
     {
       tags: "doc, sql",
@@ -2270,7 +2342,7 @@ export const l4d =
       tags: "game, hacksec, interactive",
       url: "https://overthewire.org/wargames/",
       name: "OverTheWire Wargames",
-      description: "Learn and practice security concepts in the form of fun - filled games"
+      description: "Learn and practice security concepts in the form of fun-filled games"
     },
     {
       tags: "js, tool",
@@ -2300,7 +2372,13 @@ export const l4d =
       tags: "php, tutorial",
       url: "http://it.phptherightway.com/",
       name: "phptherightway",
-      description: "PHP: la retta via"
+      description: "[ITA] PHP: la retta via"
+    },
+    {
+      tags: "js, libpak, tips",
+      url: "https://plainjs.com/",
+      name: "PlainJS",
+      description: "The Vanilla JavaScript repository"
     },
     {
       tags: "interactive, tool, webdev",
@@ -2366,7 +2444,7 @@ export const l4d =
       tags: "py, tutorial",
       url: "https://realpython.com/python-f-strings/",
       name: "RealPython",
-      description: "Python f - strings"
+      description: "Python f-strings"
     },
     {
       tags: "py, tutorial",
@@ -2399,10 +2477,10 @@ export const l4d =
       description: "Online tool to learn, build and test regular expressions"
     },
     {
-      tags: "interactive, php, tool",
-      url: "https://repl.it/languages/php",
-      name: "repl",
-      description: "PHP CLI Online Compiler, IDE, Editor, Interpreter and REPL"
+      tags: "interactive, multi, tool",
+      url: "https://replit.com/",
+      name: "Replit",
+      description: "simple yet powerful online IDE, editor, compiler, interpreter, and REPL"
     },
     {
       tags: "article, js",
@@ -2445,6 +2523,12 @@ export const l4d =
       url: "https://www.shodan.io/",
       name: "Shodan",
       description: "The search engine for finding vulnerable servers"
+    },
+    {
+      tags: "article, tips, webdev",
+      url: "https://www.skovy.dev/blog/measuring-frontend-performance-in-modern-browsers",
+      name: "skovy.dev",
+      description: "Measuring frontend performance"
     },
     {
       tags: "interactive, tool",
@@ -2528,7 +2612,7 @@ export const l4d =
       tags: "css, thisthat",
       url: "https://stackoverflow.com/questions/27539262/",
       name: "Stack Overflow",
-      description: "CSS: difference between align - items and align - content"
+      description: "CSS: difference between align-items and align-content"
     },
     {
       tags: "html, thisthat",
@@ -2553,12 +2637,6 @@ export const l4d =
       url: "https://stackoverflow.com/questions/7730695/",
       name: "Stack Overflow",
       description: "HTML: disabled vs readonly attribute"
-    },
-    {
-      tags: "jq",
-      url: "https://stackoverflow.com/questions/15320801/",
-      name: "Stack Overflow",
-      description: "How to include an HTML file with jQuery?"
     },
     {
       tags: "py",
@@ -2591,6 +2669,12 @@ export const l4d =
       description: "JS: sync va async"
     },
     {
+      tags: "interactive, php, tool",
+      url: "https://www.tehplayground.com/",
+      name: "tehokayground",
+      description: "Fast and easy to use PHP testbed"
+    },
+    {
       tags: "ag, article",
       url: "https://www.tektutorialshub.com/angular/meta-service-in-angular-add-update-meta-tags-example/",
       name: "tektutorialshub",
@@ -2603,13 +2687,19 @@ export const l4d =
       description: "Learn everything you need to know to become a web developer"
     },
     {
+      tags: "thisthat, webdev",
+      url: "https://thisthat.dev/",
+      name: "ThisThat",
+      description: "What is the difference between X and Y in the front-end development?"
+    },
+    {
       tags: "tool, webdev",
       url: "https://tinypng.com/",
       name: "TinyPNG",
       description: "Compress PNG images and increase loading time for your website"
     },
     {
-      tags: "article, cheat, js, jq",
+      tags: "article, cheat, js",
       url: "https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/",
       name: "tobiashlin.com",
       description: "Cheat sheet for moving from jQuery to vanilla JS"
@@ -2645,6 +2735,12 @@ export const l4d =
       description: "Learn cybersecurity with these guides/challenges"
     },
     {
+      tags: "tool, ts",
+      url: "https://tsplay-dev.vercel.app/",
+      name: "tsplay-dev",
+      description: "Short-links for the TypeScript playground"
+    },
+    {
       tags: "tutorial, webdev",
       url: "https://www.tutorialrepublic.com/",
       name: "TutorialRepublic",
@@ -2657,10 +2753,16 @@ export const l4d =
       description: "C++ operators"
     },
     {
-      tags: "doc, js, tutorial",
+      tags: "doc, ts",
       url: "https://www.typescriptlang.org/docs",
       name: "TypeScript lang",
       description: "TypesScript official documentation and handbook"
+    },
+    {
+      tags: "js, tool, ts",
+      url: "https://www.typescriptlang.org/play/",
+      name: "TypeScript playground",
+      description: "An online editor for exploring TypeScript and JavaScript"
     },
     {
       tags: "css, tips",
@@ -2753,6 +2855,12 @@ export const l4d =
       description: "Website performance and optimization tool"
     },
     {
+      tags: "net",
+      url: "https://en.wikipedia.org/wiki/List_of_HTTP_status_codes",
+      name: "Wikipedia",
+      description: "List of HTTP status codes"
+    },
+    {
       tags: "oth, fw",
       url: "https://www.microsoft.com/en-us/download/details.aspx?id=20914",
       name: "XNA Framework",
@@ -2771,7 +2879,7 @@ export const l4d =
       description: "CSS Flexbox Cheatsheet"
     },
     {
-      tags: "js, jq",
+      tags: "js",
       url: "http://youmightnotneedjquery.com/",
       name: "You might not need jQuery",
       description: "Alternatives to common jQuery functions"
@@ -3647,7 +3755,7 @@ export const fw = [
     tags: "article, tech",
     url: "https://www.velocitymicro.com/blog/nvme-vs-m-2-vs-sata-whats-the-difference/",
     name: "VelocityMicro",
-    description: "NVMe vs. M.2 vs. SATA - What's the difference?"
+    description: "NVMe vs. M.2 vs. SATA-What's the difference?"
   },
   {
     tags: "comp, tech, tool",
