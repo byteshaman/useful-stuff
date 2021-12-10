@@ -1,6 +1,11 @@
+:root {
+  --fs: clamp(1rem, 1vw + 0.25rem, 2rem);
+}
+
 body {
   margin: 0;
   background-color: #343a40;
+  font-size: var(--fs);
 }
 
 nav {
@@ -37,6 +42,10 @@ a.btn {
 }
 
 /*! TAGS */
+.tag-container {
+  width: 95%;
+  margin: 0 auto;
+}
 
 .index {
   display: flex;
@@ -64,7 +73,7 @@ button {
   border-radius: 20px;
   cursor: pointer;
   padding: 0.5rem 0.75rem;
-  font-size: 1rem;
+  font-size: var(--fs);
 }
 
 button.selected {
@@ -95,7 +104,7 @@ button:disabled, button:disabled:hover {
 /*! TABLE */
 
 table {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -134,8 +143,18 @@ td>a, td>a:hover {
   width: 60%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1280px) {
   .tag-container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .tags {
     display: none;
   }
 }
