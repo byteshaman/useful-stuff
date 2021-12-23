@@ -41,7 +41,7 @@ export const us =
       tags: "utility, misc, freemium",
       url: "https://anydesk.com/en",
       name: "AnyDesk",
-      description: "The fast remode desktop application"
+      description: "A fast remote desktop application"
     },
     {
       tags: "audio, music, freeware",
@@ -50,7 +50,7 @@ export const us =
       description: "Free DAW that lets you record, edit and mix"
     },
     {
-      tags: "audio, generator, shareware",
+      tags: "audio, shareware",
       url: "https://vectormediasoftware.com/atmdeluxehome.htm",
       name: "Atmosphere Deluxe",
       description: "Mask noise, promote relaxation with an entire collection of natural sounds"
@@ -68,7 +68,7 @@ export const us =
       description: "Change file and folder properties with ease"
     },
     {
-      tags: "audio, analyzer, editor, freeware",
+      tags: "audio, editor, freeware",
       url: "https://audacityteam.org/download/",
       name: "Audacity",
       description: "Multi-track audio editor and recorder"
@@ -92,7 +92,7 @@ export const us =
       description: "Video editor designed for simple cutting, filtering and encoding tasks"
     },
     {
-      tags: "utility, datasync, freeware",
+      tags: "utility, fef, freeware",
       url: "https://google.com/drive/download/backup-and-sync/",
       name: "Backup &amp; sync",
       description: "Client to manage synchronized data on Google Drive"
@@ -110,7 +110,7 @@ export const us =
       description: "Free and powerful antivirus"
     },
     {
-      tags: "utility, misc, emulator, freeware",
+      tags: "utility, misc, freeware",
       url: "https://bluestacks.com/download.html",
       name: "BlueStacks 4",
       description: "Emulate an Android environment on your PC"
@@ -140,7 +140,7 @@ export const us =
       description: "Modify single player games' memory values to make them harder/easier"
     },
     {
-      tags: "downloader, pacman, freeware",
+      tags: "programming, freeware",
       url: "https://chocolatey.org/install",
       name: "Chocolatey",
       description: "Wraps installers, executables, zips, and scripts into compiled packages"
@@ -188,16 +188,10 @@ export const us =
       description: "Deezer downloader"
     },
     {
-      tags: "music, stream",
-      url: "https://deezer.com/",
-      name: "Deezer",
-      description: "Digital music service that gives you access to millions of songs"
-    },
-    {
       tags: "downloader, torrent, freeware",
       url: "https://dev.deluge-torrent.org/wiki/Download",
       name: "Deluge",
-      description: "Another good BitTorrent download client"
+      description: "BitTorrent client"
     },
     {
       tags: "utility, fef, freemium",
@@ -218,13 +212,13 @@ export const us =
       description: "Completely uninstall AMD/NVIDIA graphics card drivers without leaving traces behind"
     },
     {
-      tags: "utility, datasync, freeware",
+      tags: "utility, fef, freeware",
       url: "https://dropbox.com/downloading",
       name: "Dropbox",
       description: "Client to manage synchronized data on Dropbox"
     },
     {
-      tags: "utility, datarec, freemium",
+      tags: "utility, fef, freemium",
       url: "https://easeus.com/data-recovery-software/",
       name: "EaseUS data recovery Wizard",
       description: "Complete data recovery software for Windows PC, laptops, hard drives, USB and more"
@@ -236,7 +230,7 @@ export const us =
       description: "Add any program, app or webpage into your Windows context menu"
     },
     {
-      tags: "gaming, store, freeware",
+      tags: "gaming, freeware",
       url: "https://epicgames.com/store/",
       name: "Epic Games Launcher",
       description: "Desktop client for Epic Games store"
@@ -290,7 +284,7 @@ export const us =
       description: "A fast and friendly git client"
     },
     {
-      tags: "utility, datasync, fef, freeware",
+      tags: "utility, fef, freeware",
       url: "https://freefilesync.org/download.php",
       name: "FreeFileSync",
       description: "Folder comparison and synchronization"
@@ -437,7 +431,7 @@ export const us =
       tags: "gaming, freeware",
       url: "https://gog.com/galaxy",
       name: "GOG Galaxy",
-      description: "Connect multiple ganming platforms and unite all your games and friends scattered across them in one powerful app."
+      description: "Connect multiple ganming platforms and unite all your games and friends scattered across them in one powerful app"
     },
     {
       tags: "utility, hw, freeware",
@@ -578,7 +572,7 @@ export const us =
       description: "Remove adware, bloatware, unwanted toolbars, and other potentially unwanted programs"
     },
     {
-      tags: "audio, converter, freeware",
+      tags: "audio, freeware",
       url: "https://mediahuman.com/audio-converter/",
       name: "MediaHuman Audio Converter",
       description: "Convert your music to many audio formats"
@@ -590,7 +584,7 @@ export const us =
       description: "Download and convert YouTube videos"
     },
     {
-      tags: "utility, datasync, freeware",
+      tags: "utility, fef, freeware",
       url: "https://mega.nz/sync",
       name: "Megasync",
       description: "Client to manage synchronized data on Mega"
@@ -662,7 +656,7 @@ export const us =
       description: "The all-in-one workspace for your notes, tasks, wikis, and databases"
     },
     {
-      tags: "programming, pacman, freeware",
+      tags: "programming, freeware",
       url: "https://nodejs.org/en/",
       name: "npm/nodejs",
       description: "NodeJS package manager"
@@ -680,7 +674,7 @@ export const us =
       description: "General-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use"
     },
     {
-      tags: "gaming, store, freeware",
+      tags: "gaming, freeware",
       url: "https://origin.com/en-us/store/download",
       name: "Origin",
       description: "Desktop client for Origin store"
@@ -734,13 +728,13 @@ export const us =
       description: "Circumvention software that provides uncensored access to Internet content"
     },
     {
-      tags: "utility, datarec, freeware",
+      tags: "utility, fef, freeware",
       url: "http://puransoftware.com/Data-Recovery.html",
       name: "Puran Data Recover",
       description: "Recover data from damaged media (scratched CDs, DVDs, damaged pen drives etc)"
     },
     {
-      tags: "utility, datarec, freeware",
+      tags: "utility, fef, freeware",
       url: "http://puransoftware.com/File-Recovery.html",
       name: "Puran File Recover",
       description: "Recover deleted/lost files/partitions"
@@ -749,7 +743,7 @@ export const us =
       tags: "downloader, torrent, freeware",
       url: "https://qbittorrent.org/download.php",
       name: "qBittorrent",
-      description: "Another good BitTorrent download client"
+      description: "BitTorrent client"
     },
     {
       tags: "utility, misc, freeware",
@@ -830,13 +824,13 @@ export const us =
       description: "Fast, lightweight, advanced system information tool for your PC"
     },
     {
-      tags: "audio, analyzer, freeware",
+      tags: "audio, freeware",
       url: "http://spek.cc/",
       name: "Spek",
       description: "Analyse your audio files by showing their spectrogram"
     },
     {
-      tags: "gaming, store, freeware",
+      tags: "gaming, freeware",
       url: "https://store.steampowered.com/",
       name: "Steam",
       description: "Desktop client for Steam store"
@@ -860,7 +854,7 @@ export const us =
       description: "Protect your digical life with this VPN"
     },
     {
-      tags: "utility, datasync, freeware",
+      tags: "utility, fef, freeware",
       url: "https://syncthing.net/",
       name: "Syncthing",
       description: "Synchronize files between two or more computers in real time, safely protected from prying eyes"
@@ -926,7 +920,7 @@ export const us =
       description: "Another client for Telegram app"
     },
     {
-      tags: "gaming, store, freeware",
+      tags: "gaming, freeware",
       url: "https://uplay.ubisoft.com/",
       name: "Uplay",
       description: "Desktop client for Ubisoft store"
@@ -1172,7 +1166,7 @@ export const us =
       description: "Powerful video editor"
     },
     {
-      tags: "converter, shareware, video",
+      tags: "video, shareware",
       url: "https://videoconverter.wondershare.com/",
       name: "Wondershare UniConverter",
       description: "Powerful video converter"
@@ -1193,7 +1187,7 @@ export const us =
       tags: "downloader, torrent, freemium",
       url: "https://utorrent.com/downloads/win",
       name: "µTorrent",
-      description: "Most famous BitTorrent download client"
+      description: "BitTorrent client"
     }
 ]
 
@@ -1220,7 +1214,7 @@ export const l4d =
       tags: "interactive, php, tool",
       url: "https://3v4l.org/",
       name: "3v4l.org",
-      description: "Online shell that allows you to run PHP code in more than 250 PHP versions at the same time."
+      description: "Online shell that allows you to run PHP code in more than 250 PHP versions at the same time"
     },
     {
       tags: "interactive, tool, webdev",
@@ -1370,7 +1364,7 @@ export const l4d =
       tags: "linux, interactive, tool",
       url: "https://chmodcommand.com/",
       name: "chmodcommand",
-      description: "Quickly generate Linux permissions in numerical and symbolic formats."
+      description: "Quickly generate Linux permissions in numerical and symbolic formats"
     },
     {
       tags: "cheat, interactive, multi",
@@ -1442,7 +1436,7 @@ export const l4d =
       tags: "css, game",
       url: "https://cssbattle.dev/",
       name: "CSS Battle",
-      description: "Use your CSS skills to replicate targets with smallest possible code."
+      description: "Use your CSS skills to replicate targets with smallest possible code"
     },
     {
       tags: "css, game, interactive",
@@ -1454,7 +1448,7 @@ export const l4d =
       tags: "css, exercise",
       url: "http://csszengarden.com/",
       name: "CSS Garden",
-      description: "A demonstration of what can be accomplished visually through CSS-based design."
+      description: "A demonstration of what can be accomplished visually through CSS-based design"
     },
     {
       tags: "css, game, interactive",
@@ -2234,7 +2228,7 @@ export const l4d =
       tags: "ag, tutorial",
       url: "https://learnrxjs.io/",
       name: "LearnRxJS",
-      description: "Clear examples, explanations, and resources for RxJS."
+      description: "Clear examples, explanations, and resources for RxJS"
     },
     {
       tags: "article, sql",
@@ -2906,7 +2900,7 @@ export const l4d =
       tags: "tips, webdev",
       url: "https://andreasbm.github.io/web-skills/",
       name: "Web Skils",
-      description: "Visual overview of useful skills to learn as a web developer."
+      description: "Visual overview of useful skills to learn as a web developer"
     },
     {
       tags: "article, tips, webdev",
@@ -3031,7 +3025,7 @@ export const fw = [
     description: "120 years of electronic music"
   },
   {
-    tags: "misc, tool",
+    tags: "audio, misc, tool, video",
     url: "https://123apps.com/",
     name: "123Apps",
     description: "Edit, convert, and create audio, video and more"
@@ -3079,19 +3073,19 @@ export const fw = [
     description: "Hardware news and benchmark"
   },
   {
-    tags: "anime",
+    tags: "animanga",
     url: "http://animefillerlist.com/",
     name: "Anime filler list",
     description: "The ultimate anime filler list"
   },
   {
-    tags: "anime, catalog, manga",
+    tags: "animanga, catalog",
     url: "https://animeclick.it/",
     name: "AnimeClick",
     description: "[ITA] Portale per anime e manga"
   },
   {
-    tags: "anime, stream",
+    tags: "animanga, stream",
     url: "https://animesaturn.it/",
     name: "AnimeSaturn",
     description: "[ITA] Sito web per vedere anime gratis"
@@ -3229,7 +3223,7 @@ export const fw = [
     description: "Database of movies and TV series with the best suggestion algorithm and filtering options"
   },
   {
-    tags: "anime, stream",
+    tags: "animanga, stream",
     url: "http://crunchyroll.com/",
     name: "Crunchyroll",
     description: "Streaming platform for anime"
@@ -3241,10 +3235,16 @@ export const fw = [
     description: "Check for dead links on a website"
   },
   {
-    tags: "trans",
+    tags: "misc, tool",
     url: "https://deepl.com/translator",
     name: "DeepL",
     description: "Translator powered by DeepL's world-leading neural network technology"
+  },
+  {
+    tags: "music, stream",
+    url: "https://deezer.com/",
+    name: "Deezer",
+    description: "Digital music service that gives you access to millions of songs"
   },
   {
     tags: "misc, tool",
@@ -3299,6 +3299,12 @@ export const fw = [
     url: "https://earth.nullschool.net/",
     name: "earth",
     description: "A global map of weather, wind and oceans condition"
+  },
+  {
+    tags: "image, useless",
+    url: "https://emojidb.org/",
+    name: "emojidb",
+    description: "Emoji database"
   },
   {
     tags: "text, useless",
@@ -3571,13 +3577,13 @@ export const fw = [
     description: "Free cloud storage with convenient and powerful always-on privacy"
   },
   {
-    tags: "manga",
+    tags: "animanga",
     url: "https://mangadex.org/",
     name: "Mangadex",
     description: "Read manga for free"
   },
   {
-    tags: "anime, manga",
+    tags: "animanga",
     url: "https://mangaupdates.com/index.html",
     name: "Manga Updates",
     description: "Read latest manga news, see how much of a manga has been adapte into an anime"
@@ -3601,7 +3607,7 @@ export const fw = [
     description: "Discover new music based on artists you already like"
   },
   {
-    tags: "anime, catalog, manga",
+    tags: "animanga, catalog",
     url: "https://myanimelist.net/",
     name: "MyAnimeList",
     description: "Anime and manga database and community"
@@ -3712,7 +3718,7 @@ export const fw = [
     tags: "privacy, sec",
     url: "https://privacyguides.org/",
     name: "Privacy Guides",
-    description: "Central privacy and security resource to protect yourself online."
+    description: "Central privacy and security resource to protect yourself online"
   },
   {
     tags: "privacy, text",
@@ -3733,7 +3739,7 @@ export const fw = [
     description: "Free encrypted personal email"
   },
   {
-    tags: "anime",
+    tags: "animanga",
     url: "https://reddit.com/r/anime/wiki/watch_order",
     name: "r/watchorder",
     description: "Chronological order of anime"
@@ -3973,7 +3979,7 @@ export const fw = [
     description: "Free URL shortener"
   },
   {
-    tags: "anime, article, movies",
+    tags: "animanga, article, movies",
     url: "https://tofugu.com/japan/best-anime-movies/",
     name: "Tofugu",
     description: "20 anime movies not made by Studio Ghibli"
@@ -4045,7 +4051,7 @@ export const fw = [
     description: "Benchmark website"
   },
   {
-    tags: "anime, stream",
+    tags: "animanga, stream",
     url: "https://vvvvid.it/",
     name: "VVVVID",
     description: "Italian anime streaming website"
