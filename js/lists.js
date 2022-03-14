@@ -1,4 +1,3 @@
-
 export const us =
   [
     {
@@ -45,7 +44,7 @@ export const us =
     },
     {
       tags: "audio, music, freeware",
-      url: "http://ardour.org/",
+      url: "https://community.ardour.org/download",
       name: "Ardour",
       description: "Free DAW that lets you record, edit and mix"
     },
@@ -87,19 +86,13 @@ export const us =
     },
     {
       tags: "video, editor, freeware",
-      url: "http://avidemux.sourceforge.net/",
+      url: "https://www.fosshub.com/Avidemux.html",
       name: "Avidemux",
       description: "Video editor designed for simple cutting, filtering and encoding tasks"
     },
     {
-      tags: "utility, fef, freeware",
-      url: "https://google.com/drive/download/backup-and-sync/",
-      name: "Backup &amp; sync",
-      description: "Client to manage synchronized data on Google Drive"
-    },
-    {
       tags: "utility, screen, freeware",
-      url: "https://github.com/debauchee/barrier#what-is-it",
+      url: "https://github.com/debauchee/barrier/releases",
       name: "Barrier",
       description: "Eliminate the barrier between your machines"
     },
@@ -112,12 +105,12 @@ export const us =
     {
       tags: "utility, misc, freeware",
       url: "https://bluestacks.com/download.html",
-      name: "BlueStacks 4",
+      name: "BlueStacks",
       description: "Emulate an Android environment on your PC"
     },
     {
       tags: "utility, disk, freemium",
-      url: "https://ccleaner.com/download",
+      url: "https://www.ccleaner.com/ccleaner/download/standard",
       name: "CCleaner",
       description: "Clean, optimize & tune up your PC"
     },
@@ -165,6 +158,12 @@ export const us =
     },
     {
       tags: "utility, disk, freeware",
+      url: "https://www.crucial.com/support/storage-executive",
+      name: "Crucial Storage Executive Tool",
+      description: "Management utility for Crucial SSDs"
+    },
+    {
+      tags: "utility, disk, freeware",
       url: "https://crystalmark.info/en/download/",
       name: "CrystalDiskInfo",
       description: "HDD/SSD utility software which supports a part of USB, Intel/AMD RAID and NVMe"
@@ -174,6 +173,12 @@ export const us =
       url: "https://itefix.net/cwrsync",
       name: "cwRsync",
       description: "Rsync packaging for Windows"
+    },
+    {
+      tags: "disk, security, freeware",
+      url: "https://dban.org//",
+      name: "DBAN",
+      description: "Delete information stored on HDDs in PC laptops, desktops, or servers"
     },
     {
       tags: "db, freeware, programming",
@@ -210,6 +215,12 @@ export const us =
       url: "https://guru3d.com/files_details/display_driver_uninstaller_download.html",
       name: "Display Driver Uninstaller",
       description: "Completely uninstall AMD/NVIDIA graphics card drivers without leaving traces behind"
+    },
+    {
+      tags: "utility, fef, freeware",
+      url: "https://www.google.com/drive/download/",
+      name: "Drive",
+      description: "Client to manage synchronized data on Google Drive"
     },
     {
       tags: "utility, fef, freeware",
@@ -518,6 +529,18 @@ export const us =
       description: "Different antivirus for the protection of your PC"
     },
     {
+      tags: "misc, utility",
+      url: "https://support.logi.com/hc/en-gb/articles/360025298053-Logitech-Gaming-Software",
+      name: "Logitech SetPoint",
+      description: "Customize functions on Logitech products"
+    },
+    {
+      tags: "misc, utility",
+      url: "https://support.logi.com/hc/en-nz/articles/360025141274",
+      name: "Logitech SetPoint",
+      description: "Customize your mouse, keyboard, touchpad and number pad settings in Windows"
+    },
+    {
       tags: "mb, freeware",
       url: "https://getmusicbee.com/addons/visualizer/52/milkdrop-visualizer/",
       name: "MB - Milkdrop",
@@ -584,10 +607,28 @@ export const us =
       description: "Download and convert YouTube videos"
     },
     {
+      tags: "audio, video, utility, freeware",
+      url: "https://mediaarea.net/en/MediaInfo/Download/Windows",
+      name: "MediaInfo",
+      description: "Display the most relevant technical and tag data for video and audio files"
+    },
+    {
       tags: "utility, fef, freeware",
       url: "https://mega.nz/sync",
       name: "Megasync",
       description: "Client to manage synchronized data on Mega"
+    },
+    {
+      tags: "misc, hw, freeware",
+      url: "https://www.memtest86.com/download.htm",
+      name: "MemTest86",
+      description: "Stand-alone memory testing software for x86 and ARM computers"
+    },
+    {
+      tags: "misc, utility, freeware",
+      url: "https://github.com/navossoc/MenuTools/releases",
+      name: "MenuTools",
+      description: "Add new features to the system menu of applications"
     },
     {
       tags: "audio, editor, freeware",
@@ -630,6 +671,12 @@ export const us =
       url: "https://mp3tag.de/en/",
       name: "Mp3tag",
       description: "Powerful tool to edit metadata of audio files"
+    },
+    {
+      tags: "utility, misc, freeware",
+      url: "https://mremoteng.org/",
+      name: "mRemoteNG",
+      description: "Open source, tabbed, multi-protocol, remote connections manager for Windows"
     },
     {
       tags: "audio, freeware, music, player",
@@ -684,6 +731,12 @@ export const us =
       url: "https://asdfg.me/osci/",
       name: "Oscilloscope",
       description: "A software oscilloscope made for looking at music"
+    },
+    {
+      tags: "utility, misc, freeware",
+      url: "https://patchmypc.com/home-updater",
+      name: "PatchMyPC Home Updater",
+      description: "Simplify third-party patching on your PC"
     },
     {
       tags: "utility, misc, freeware",
@@ -782,7 +835,7 @@ export const us =
       description: "Integrated environment for managing any SQL infrastructure"
     },
     {
-      tags: "utility, disk, freemium",
+      tags: "utility, disk, freeware",
       url: "https://samsung.com/semiconductor/minisite/ssd/download/tools/",
       name: "Samsung Magician",
       description: "Management utility for Samsung SSDs"
@@ -828,6 +881,12 @@ export const us =
       url: "http://spek.cc/",
       name: "Spek",
       description: "Analyse your audio files by showing their spectrogram"
+    },
+    {
+      tags: "audio, freeware",
+      url: "https://www.reddit.com/6fre3q/",
+      name: "Spek Guide",
+      description: "Guide on how to read Spek's results"
     },
     {
       tags: "gaming, freeware",
@@ -924,6 +983,12 @@ export const us =
       url: "https://uplay.ubisoft.com/",
       name: "Uplay",
       description: "Desktop client for Ubisoft store"
+    },
+    {
+      tags: "disk, tool, freeware",
+      url: "https://www.elby.ch/en/products/vcd.html",
+      name: "VirtualCloneDrive",
+      description: "Create a virtual unit where you can load CDs and DVDs as if you were putting them in the tray"
     },
     {
       tags: "video, player, freeware",
@@ -1244,7 +1309,7 @@ export const l4d =
       tags: "ag, libpak",
       url: "https://formly.dev/",
       name: "Angular Formly",
-      description: "Dynamic(JSON powered) form library for Angular that bring unmatched maintainability to your application's forms"
+      description: "Dynamic (JSON powered) form library for Angular that bring unmatched maintainability to your application's forms"
     },
     {
       tags: "ag, thisthat",
@@ -1280,7 +1345,7 @@ export const l4d =
       tags: "article, webdev",
       url: "https://aulab.it/blog",
       name: "aulab.it",
-      description: "News e aggiornamenti del mondo del coding e della formazione IT"
+      description: "[ITA] News e aggiornamenti del mondo del coding e della formazione IT"
     },
     {
       tags: "multi",
@@ -1307,13 +1372,13 @@ export const l4d =
       description: "Hide laravel datatables buttons under a dropdown button"
     },
     {
-      tags: "bs, doc",
+      tags: "css, doc, libpak",
       url: "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
       name: "Bootstrap",
       description: "Official Bootstrap 5 Documentation"
     },
     {
-      tags: "bs, cheat",
+      tags: "css, cheat, libpak",
       url: "https://bootstrapcreative.com/resources/bootstrap-5-cheat-sheet-classes-index/",
       name: "Bootstrap Creative",
       description: "Bootstrap 5 class list/cheatsheet"
@@ -1325,7 +1390,7 @@ export const l4d =
       description: "What are integrity and crossorigin attributes ?"
     },
     {
-      tags: "bs",
+      tags: "css, libpak",
       url: "https://bootstrapshuffle.com/classes",
       name: "Bootstrap Shuffle",
       description: "All Bootstrap CSS classes"
@@ -1502,7 +1567,7 @@ export const l4d =
       tags: "css, thisthat",
       url: "https://css-tricks.com/multiple-class-id-selectors/",
       name: "CSS-Tricks",
-      description: "Multiple class VS ID + class selector"
+      description: "CSS: Multiple class vs ID+class selector"
     },
     {
       tags: "css, tool",
@@ -1664,7 +1729,7 @@ export const l4d =
       tags: "discord, supp, webdev",
       url: "https://discord.gg/keD8rZp",
       name: "Discord",
-      description: "Official r / webdev Discord server"
+      description: "Official r/webdev Discord server"
     },
     {
       tags: "doc, webdev",
@@ -1961,7 +2026,7 @@ export const l4d =
       description: "Free class for web security"
     },
     {
-      tags: "bs, interactive, tool",
+      tags: "css, libpak, tool",
       url: "https://hackerthemes.com/bootstrap-tools/",
       name: "hackerthemes",
       description: "Bootstrap 4 tools"
@@ -2048,19 +2113,25 @@ export const l4d =
       tags: "py, tutorial",
       url: "http://ifac.cnr.it/~zoppetti/corsopython/",
       name: "ifac",
-      description: "Corso su Python3"
+      description: "[ITA] Corso su Python3"
     },
     {
-      tags: "ag, article",
+      tags: "ag, article, libpak",
       url: "https://indepth.dev/posts/1279/rxjs-in-angular-when-to-subscribe-rarely",
       name: "indepth.dev",
-      description: "RxJS in Angular: When To Subscribe?"
+      description: "RxJS in Angular: when to subscribe?"
+    },
+    {
+      tags: "ag, article, libpak",
+      url: "https://indepth.dev/reference/rxjs/operators",
+      name: "indepth.dev",
+      description: "RxJS operators list"
     },
     {
       tags: "css, html, tutorial",
       url: "https://internetingishard.com/",
       name: "internetingishard",
-      description: "HTML / CSS tutorials for beginners"
+      description: "HTML/CSS tutorials for beginners"
     },
     {
       tags: "article, css",
@@ -2079,6 +2150,12 @@ export const l4d =
       url: "https://itnext.io/git-repository-transfer-keeping-all-history-670fe04cd5e4",
       name: "ITNext.io",
       description: "How to replicate your Git repo and keep all previous commits, branches, and tags"
+    },
+    {
+      tags: "js, thisthat",
+      url: "https://jakearchibald.com/2017/await-vs-return-vs-return-await/",
+      name: "JakeArchibald.com",
+      description: "await vs return vs return await"
     },
     {
       tags: "js, tutorial",
@@ -2225,7 +2302,7 @@ export const l4d =
       description: "Scenic programming language tours"
     },
     {
-      tags: "ag, tutorial",
+      tags: "ag, libpak, tutorial",
       url: "https://learnrxjs.io/",
       name: "LearnRxJS",
       description: "Clear examples, explanations, and resources for RxJS"
@@ -2339,6 +2416,12 @@ export const l4d =
       description: "PX vs REM vs EM"
     },
     {
+      tags: "ag, article",
+      url: "https://ofirrifo.medium.com/custom-angular-component-using-two-way-data-binding-aka-banana-in-a-box-syntax-9eb06b8cfb09",
+      name: "Medium",
+      description: "Simple explanation of the 'Banana in a Box' concept"
+    },
+    {
       tags: "article, laravel",
       url: "https://just1and0.medium.com/how-to-host-your-laravel-application-for-free-on-heroku-4789688d444b",
       name: "Medium",
@@ -2378,7 +2461,13 @@ export const l4d =
       tags: "oth, fw",
       url: "https://monogame.net/downloads/",
       name: "Monogame",
-      description: "Implementation of XNA framework for cross-platform game development(C#)"
+      description: "Implementation of XNA framework for cross-platform game development (C#)"
+    },
+    {
+      tags: "ag, libpak",
+      url: "https://cuppalabs.github.io/components/multiselectDropdown/",
+      name: "Multiselect Dropdown",
+      description: "A multiselect dropdown component for Angular applications"
     },
     {
       tags: "doc, sql",
@@ -2438,7 +2527,7 @@ export const l4d =
       tags: "php, tutorial",
       url: "https://github.com/DerZanael/PHP-Registration-Login",
       name: "PHP Registration Login",
-      description: "A tutorial for PHP registration / login"
+      description: "A tutorial for PHP registration/login"
     },
     {
       tags: "article, php, sql",
@@ -2480,13 +2569,13 @@ export const l4d =
       tags: "py, tutorial",
       url: "http://python.it/doc/Howtothink/Howtothink-html-it/index.htm",
       name: "Python.it",
-      description: "Corso in italiano su Python"
+      description: "[ITA] Corso in italiano su Python"
     },
     {
       tags: "doc, py, tutorial",
       url: "https://docs.python.org/3/tutorial/",
       name: "Python.org",
-      description: "Official Python documentation / tutorial"
+      description: "Official Python documentation/tutorial"
     },
     {
       tags: "multi, reddit, supp",
@@ -2594,7 +2683,7 @@ export const l4d =
       tags: "css, html, tutorial",
       url: "https://learn.shayhowe.com/",
       name: "ShayHowe",
-      description: "Beginners and advanced HTML / CSS tutorials"
+      description: "Beginners and advanced HTML/CSS tutorials"
     },
     {
       tags: "hacksec",
@@ -2753,7 +2842,7 @@ export const l4d =
       description: "JS: sync va async"
     },
     {
-      tags: "libpak, js",
+      tags: "ag, libpak, js",
       url: "https://sweetalert2.github.io/",
       name: "SweetAlert",
       description: "Responsive, curstomizable and accessible replacement for JavaScript popup boxes"
@@ -2775,6 +2864,12 @@ export const l4d =
       url: "https://theodinproject.com/home",
       name: "The Odin Project",
       description: "Learn everything you need to know to become a web developer"
+    },
+    {
+      tags: "ag, libpak, tool",
+      url: "https://thinkrx.io/",
+      name: "ThinkRX",
+      description: "Instant marble diagrams for reactive programming libraries (RxJS,Bacon.js,Kefir.js)"
     },
     {
       tags: "thisthat, webdev",
@@ -2981,6 +3076,12 @@ export const l4d =
       description: "LaravelDaily YouTube channel"
     },
     {
+      tags: "git, tutorial, yt",
+      url: "https://www.youtube.com/playlist?list=PL9MslR9MhrJbO7u34sgR3J6iMqkFmVenG",
+      name: "YouTube",
+      description: "[ITA] Guida completa a Git"
+    },
+    {
       tags: "css, tips, tutorial, yt",
       url: "https://youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw",
       name: "YouTube",
@@ -2990,7 +3091,7 @@ export const l4d =
       tags: "multi, tutorial, videocourse, yt",
       url: "https://youtube.com/user/fcamuso/playlists",
       name: "YouTube",
-      description: "Canale YT fcamuso"
+      description: "[ITA] Canale YT fcamuso"
     },
     {
       tags: "hacksec, net, videocourse, yt",
@@ -3338,7 +3439,7 @@ export const fw = [
   },
   {
     tags: "audio, tool, video",
-    url: "https://filesmerge.com/merge-images",
+    url: "https://filesmerge.com/",
     name: "FilesMerge",
     description: "Merge audio, video, PDFs and other types of files!"
   },
@@ -3565,6 +3666,18 @@ export const fw = [
     description: "PSU tier list"
   },
   {
+    tags: "article, comp, tech",
+    url: "https://www.logicalincrements.com/articles/graphicscardcomparison",
+    name: "LogicalIncrements",
+    description: "Compare AMD and Nvidia graphic cards"
+  },
+  {
+    tags: "article, tech",
+    url: "https://luce-gas.it/guida/glossario/prese-elettriche",
+    name: "luce-gas.it",
+    description: "[ITA] Guida alle prese e spine elettriche"
+  },
+  {
     tags: "image, tool",
     url: "https://lunapic.com/editor/",
     name: "LunaPic",
@@ -3613,16 +3726,22 @@ export const fw = [
     description: "Anime and manga database and community"
   },
   {
-    tags: "movies, tvs",
-    url: "https://top10.netflix.com/",
-    name: "Netflix TOP10",
-    description: "Weekly Top 10 lists of the most-watched TV and films"
-  },
-  {
     tags: "game",
     url: "https://nationstates.net/",
     name: "NationStates",
     description: "Nation simulation web browser game"
+  },
+  {
+    tags: "movies, tool, tvs",
+    url: "https://app.nanocrowd.com/start",
+    name: "NanoCrowd",
+    description: "Find new movies/TV series to watch based on provided tags"
+  },
+  {
+    tags: "movies, tvs",
+    url: "https://top10.netflix.com/",
+    name: "Netflix TOP10",
+    description: "Weekly Top 10 lists of the most-watched TV and films"
   },
   {
     tags: "music",
@@ -3913,6 +4032,12 @@ export const fw = [
     description: "Tips, tools and how-tos for safer online communications"
   },
   {
+    tags: "comp, misc",
+    url: "https://www.switcho.it/ref/marco_zTp",
+    name: "Switcho",
+    description: "[ITA] Cambia fornitore utenze, evitando burocrazie e mal di testa"
+  },
+  {
     tags: "misc, tool",
     url: "https://sync.me/",
     name: "Synch.ME",
@@ -4045,6 +4170,12 @@ export const fw = [
     description: "Udemy coupons to get courses for free"
   },
   {
+    tags: "article, tech",
+    url: "https://wiki.unraid.net/Understanding_SMART_Reports",
+    name: "Unraid.net",
+    description: "Guide to understand S.M.A.R.T. test results"
+  },
+  {
     tags: "comp, tech",
     url: "https://userbenchmark.com/",
     name: "Userbenchmark",
@@ -4067,6 +4198,12 @@ export const fw = [
     url: "https://versus.com/en",
     name: "Versus",
     description: "Compare mobile phones, tablets, headphones and cameras specs"
+  },
+  {
+    tags: "misc, tool",
+    url: "https://victornpb.github.io/deleteDiscordMessages/help/copyPaste.html",
+    name: "Delete Discord Messages",
+    description: "Delete all messages in a Discord channel or DM"
   },
   {
     tags: "misc, sec",
@@ -4109,6 +4246,12 @@ export const fw = [
     url: "http://whichfaceisreal.com/index.php",
     name: "Which face is real?",
     description: "Guess which face is not generated by an IA"
+  },
+  {
+    tags: "tool, sec",
+    url: "https://whois.domaintools.com/",
+    name: "WhoIs",
+    description: "Research domain ownership with Whois Lookup"
   },
   {
     tags: "music",

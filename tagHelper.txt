@@ -1,0 +1,5 @@
+FWT: "animanga" | "article" | "catalog" | "comp" | "disc" | "edu" | "mail" | "game" | "image" | "misc" | "movies" | "music" | "privacy" | "tech" | "text" | "tool" | "tvs" | "sec" | "share" | "shop" | "stream" | "subs" | "useless" | "video"
+
+SWT: "app" | "audio" | "browser" | "db" | "disk" | "downloader" | "driver" | "editor" | "fef" | "freemium" | "freeware" | "gaming" | "gc" | "hw" | "image" | "misc" | "music" | "mb" | "player" | "programming" | "screen" | "security" | "shareware" | "subs" | "torrent" | "uninstaller" | "utility" | "video" | "vs" | "voip"
+
+L4DT: "ag" | "article" | "bs" | "cpp" | "cheat" | "css" | "discord" | "doc" | "exercise" | "fw" | "game" | "git" | "hacksec" | "html" | "interactive" | "js" | "laravel" | "libpak" | "linux" | "multi" | "net" | "oth" | "php" | "py" | "re" | "reddit" | "sql" | "supp" | "thisthat" | "tips" | "tool" | "ts" | "tutorial" | "videocourse" | "webdev"
