@@ -55,12 +55,6 @@ export const us =
       description: "Mask noise, promote relaxation with an entire collection of natural sounds"
     },
     {
-      tags: "programming, editor, freeware",
-      url: "https://atom.io/",
-      name: "Atom",
-      description: "A hackable text editor for the 21st Century"
-    },
-    {
       tags: "utility, fef, freeware",
       url: "https://petges.lu/download/",
       name: "Attribute Changer",
@@ -176,8 +170,8 @@ export const us =
     },
     {
       tags: "disk, security, freeware",
-      url: "https://dban.org//",
-      name: "DBAN",
+      url: "https://github.com/PartialVolume/shredos.x86_64",
+      name: "ShredOS",
       description: "Delete information stored on HDDs in PC laptops, desktops, or servers"
     },
     {
@@ -488,7 +482,7 @@ export const us =
     },
     {
       tags: "utility, uninstaller, freemium",
-      url: "https://iobit.com/en/advanceduninstaller.php",
+      url: "https://www.iobit.com/en/advanceduninstaller.php",
       name: "IObit Uninstaller",
       description: "Completely uninstall unwanted software, Windows apps & browser plug-ins"
     },
@@ -590,7 +584,7 @@ export const us =
     },
     {
       tags: "security, freeware",
-      url: "https:/malwarebytes.com/adwcleaner/",
+      url: "https://malwarebytes.com/adwcleaner/",
       name: "MalwareBytes Adwcleaner",
       description: "Remove adware, bloatware, unwanted toolbars, and other potentially unwanted programs"
     },
@@ -1318,6 +1312,18 @@ export const l4d =
       description: "Angular: ngmodule vs jsmodule"
     },
     {
+      tags: "ag, article",
+      url: "https://angular.io/guide/template-reference-variables",
+      name: "angular.io",
+      description: "Understanding template variables"
+    },
+    {
+      tags: "ag, article, libpak",
+      url: "https://blog.angular-university.io/rxjs-error-handling/",
+      name: "Angular University",
+      description: "RxJs error handling: the practical guide"
+    },
+    {
       tags: "css",
       url: "https://daneden.github.io/animate.css/",
       name: "animate.css",
@@ -1348,6 +1354,12 @@ export const l4d =
       description: "[ITA] News e aggiornamenti del mondo del coding e della formazione IT"
     },
     {
+      tags: "re, tool",
+      url: "https://www.autoregex.xyz/",
+      name: "AutoRegex",
+      description: "English to RegEx"
+    },
+    {
       tags: "multi",
       url: "https://github.com/sindresorhus/awesome#contents",
       name: "Awesome Lists",
@@ -1372,10 +1384,16 @@ export const l4d =
       description: "Hide laravel datatables buttons under a dropdown button"
     },
     {
+      tags: "tutorial, webdev",
+      url: "https://bobbyhadz.com/",
+      name: "Bobby Hadz Blog",
+      description: "Blog about web development and cloud computing"
+    },
+    {
       tags: "css, doc, libpak",
       url: "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
       name: "Bootstrap",
-      description: "Official Bootstrap 5 Documentation"
+      description: "Official Bootstrap 5 documentation"
     },
     {
       tags: "css, cheat, libpak",
@@ -1540,6 +1558,12 @@ export const l4d =
       description: "CSS Grid: auto-fill vs auto-fit"
     },
     {
+      tags: "article, php",
+      url: "https://css-tricks.com/snippets/php/check-if-website-is-available/",
+      name: "CSS Tricks",
+      description: "Check if a website is available with PHP"
+    },
+    {
       tags: "css",
       url: "https://css-tricks.com/almanac/",
       name: "CSS-tricks",
@@ -1630,8 +1654,14 @@ export const l4d =
       description: "DataTables plugin playground"
     },
     {
+      tags: "js, libpak",
+      url: "https://date-fns.org/",
+      name: "Date FNS",
+      description: "Modern JS date utility library"
+    },
+    {
       tags: "article, css, js",
-      url: "https://davidwalsh.namecss-variables-javascript",
+      url: "https://davidwalsh.name/css-variables-javascript",
       name: "davidwalsh.name",
       description: "How to Get and Set CSS Variable Values with JS"
     },
@@ -1730,6 +1760,12 @@ export const l4d =
       url: "https://discord.gg/keD8rZp",
       name: "Discord",
       description: "Official r/webdev Discord server"
+    },
+    {
+      tags: "article, interactive, sql",
+      url: "https://www.dofactory.com/sql/union",
+      name: "DoFactory",
+      description: "SQL UNION"
     },
     {
       tags: "doc, webdev",
@@ -1850,6 +1886,12 @@ export const l4d =
       url: "https://freecodecamp.org/",
       name: "FreeCodeCamp",
       description: "Learn to code online and get certifications or ask for help in the official FCC forum"
+    },
+    {
+      tags: "article, js",
+      url: "https://www.freecodecamp.org/news/javascript-promise-tutorial-how-to-resolve-or-reject-promises-in-js/",
+      name: "FreeCodeCamp",
+      description: "JS promise tutorial"
     },
     {
       tags: "article, js",
@@ -2014,6 +2056,12 @@ export const l4d =
       description: "HTML5 outliner"
     },
     {
+      tags: "doc, php",
+      url: "https://docs.guzzlephp.org/en/stable/",
+      name: "GuzzlePHP",
+      description: "Guzzle PHP library documentation"
+    },
+    {
       tags: "exercise, hacksec, interactive",
       url: "https://hackthissite.org/pages/index/index.php",
       name: "Hack This Site!",
@@ -2111,7 +2159,7 @@ export const l4d =
     },
     {
       tags: "py, tutorial",
-      url: "http://ifac.cnr.it/~zoppetti/corsopython/",
+      url: "http://www.ifac.cnr.it/~zoppetti/corsopython/",
       name: "ifac",
       description: "[ITA] Corso su Python3"
     },
@@ -2132,6 +2180,12 @@ export const l4d =
       url: "https://internetingishard.com/",
       name: "internetingishard",
       description: "HTML/CSS tutorials for beginners"
+    },
+    {
+      tags: "net, tool",
+      url: "https://jodies.de/ipcalc",
+      name: "ipcalc",
+      description: "ipcalc takes an IP address and netmask and calculates the resulting broadcast, network, Cisco wildcard mask, and host range"
     },
     {
       tags: "article, css",
@@ -2168,6 +2222,12 @@ export const l4d =
       url: "http://javascript.info",
       name: "JavaScript info",
       description: "A guide to modern JS"
+    },
+    {
+      tags: "article, js",
+      url: "https://javascript.info/mutation-observer",
+      name: "JavaScript info",
+      description: "Mutation observer"
     },
     {
       tags: "article",
@@ -2266,12 +2326,6 @@ export const l4d =
       description: "Press any key to get the JS event keycode"
     },
     {
-      tags: "interactive, multi, tool",
-      url: "https://code.labstack.com/",
-      name: "Labstack",
-      description: "Multi-language programming playground"
-    },
-    {
       tags: "article, thisthat",
       url: "https://lambdatest.com/blog/bug-severity-vs-priority-in-testing-with-examples/",
       name: "lambdatest",
@@ -2303,7 +2357,7 @@ export const l4d =
     },
     {
       tags: "ag, libpak, tutorial",
-      url: "https://learnrxjs.io/",
+      url: "https://www.learnrxjs.io/",
       name: "LearnRxJS",
       description: "Clear examples, explanations, and resources for RxJS"
     },
@@ -2438,6 +2492,12 @@ export const l4d =
       url: "https://medium.com/rpdstartup/simplifying-typescript-import-paths-in-angular-c3249a4edbb3",
       name: "Medium",
       description: "Simplifying Typescript import paths in Angular"
+    },
+    {
+      tags: "sql, tool",
+      url: "https://www.metabase.com/",
+      name: "Metabase",
+      description: "Business intelligence for everyone"
     },
     {
       tags: "hacksec, fw",
@@ -2663,7 +2723,7 @@ export const l4d =
     },
     {
       tags: "css, interactive, tool",
-      url: "https://sassmeister.com/",
+      url: "https://www.sassmeister.com/",
       name: "SassMeister",
       description: "SASS playground"
     },
@@ -2987,7 +3047,7 @@ export const l4d =
     },
     {
       tags: "tool, webdev",
-      url: "https://weformatter.com/",
+      url: "hhttps://webformatter.com/",
       name: "Web Formatter",
       description: "Code formatter for webdev languages"
     },
@@ -3186,12 +3246,6 @@ export const fw = [
     description: "[ITA] Portale per anime e manga"
   },
   {
-    tags: "animanga, stream",
-    url: "https://animesaturn.it/",
-    name: "AnimeSaturn",
-    description: "[ITA] Sito web per vedere anime gratis"
-  },
-  {
     tags: "share",
     url: "https://anonymousfiles.io/",
     name: "Anonymouse Files",
@@ -3312,7 +3366,7 @@ export const fw = [
     description: "Coffitivity recreates the ambient sounds of a cafe to boost your creativity and help you work better"
   },
   {
-    tags: "misc",
+    tags: "misc, tool",
     url: "http://corruptmyfile.com/",
     name: "Corrupt my files",
     description: "Corrupt your files to get extra time on assignments"
@@ -3346,6 +3400,12 @@ export const fw = [
     url: "https://deezer.com/",
     name: "Deezer",
     description: "Digital music service that gives you access to millions of songs"
+  },
+  {
+    tags: "game, misc",
+    url: "https://crimson-ceremony.net/demopals/ops2meur/index.php",
+    name: "Demo pals",
+    description: "List of old PS2 demo disks"
   },
   {
     tags: "misc, tool",
@@ -3520,6 +3580,12 @@ export const fw = [
     url: "https://howsecureismypassword.net/",
     name: "howsecureismypassword",
     description: "Check passwords strenght"
+  },
+  {
+    tags: "article",
+    url: "https://www.howtogeek.com/797147/turn-off-google-lens-chrome/",
+    name: "HowToGeek",
+    description: "How to turn off Lens search in Google Chrome"
   },
   {
     tags: "shop, game",
@@ -3772,6 +3838,12 @@ export const fw = [
     url: "http://oldversion.com/",
     name: "OldVersion",
     description: "Old version of Windows, Mac and Linux software"
+  },
+  {
+    tags: "music, tool",
+    url: "https://onlinesequencer.net/",
+    name: "OnlineSequencer",
+    description: "Make music online"
   },
   {
     tags: "text, tool",
@@ -4048,6 +4120,12 @@ export const fw = [
     url: "http://syrphe.com/african&asian_database.htm",
     name: "Syrphe",
     description: "Electronic and experimental music database with a focus on Africa and Asia"
+  },
+  {
+    tags: "comp, tech",
+    url: "https://technical.city/",
+    name: "Technical",
+    description: "PC hardware comparisons, specifications and ratings"
   },
   {
     tags: "comp, tech",
