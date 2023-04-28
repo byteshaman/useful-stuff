@@ -12,3 +12,10 @@ export interface PageInfo {
   description: string;
   categories?: string[];
 }
+
+export interface WebsiteInfo {
+  description: string;
+  name: string;
+  tags: string;
+  url: string;
+}

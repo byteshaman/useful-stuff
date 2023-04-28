@@ -6,12 +6,6 @@
     "description": "Web Development tutorials"
   },
   {
-    "tags": "css",
-    "url": "http://1linelayouts.glitch.me/",
-    "name": "1linelayouts",
-    "description": "10 modern layouts in one line of CSS"
-  },
-  {
     "tags": "interactive, php, tool",
     "url": "https://3v4l.org/",
     "name": "3v4l.org",
@@ -1802,13 +1796,19 @@
   {
     "tags": "article, tips, webdev",
     "url": "https://web.dev/learn/",
-    "name": "Web.Dev",
+    "name": "web.dev",
     "description": "Various articles/tips for the modern web"
+  },
+  {
+    "tags": "css",
+    "url": "https://web.dev/one-line-layouts/",
+    "name": "web.dev",
+    "description": "10 modern layouts in one line of CSS"
   },
   {
     "tags": "article, html, tips",
     "url": "https://web.dev/external-anchors-use-rel-noopener/",
-    "name": "Web.Dev",
+    "name": "web.dev",
     "description": "External links and rel noopener/noreferrer"
   },
   {
