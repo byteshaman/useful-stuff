@@ -17,7 +17,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatTooltipModule } from '@angular/material/tooltip';
-import { MainContentComponent } from './shared/main-content/main-content.component';
+import { ContentComponent } from './shared/content/content.component';
 //#endregion material modules
 
 const MaterialModules = [
@@ -37,7 +37,7 @@ const MaterialModules = [
 @NgModule({
   declarations: [
     AppComponent,
-    MainContentComponent
+    ContentComponent
   ],
   imports: [
     BrowserModule,

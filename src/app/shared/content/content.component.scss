@@ -1,0 +1,59 @@
+#button-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  overflow-y: hidden;
+}
+
+
+
+ul {
+  text-align: center;
+  list-style-type: none;
+
+  li {
+    font-size: 1rem;
+    display: inline;
+
+    &:not(:first-child)::before {
+      content: '🞄';
+      font-size: 1.5rem;
+      color: white;
+      position: relative;
+      top: 3px;
+      margin-inline: 3px;
+    }
+  }
+}
+
+
+//#region button
+button.selected {
+  background-color: #000864;
+}
+
+button:disabled, button:disabled:hover {
+  pointer-events: none;
+  opacity: .45;
+}
+
+.brown, :hover.brown {
+  color: brown !important;
+}
+
+.orange, :hover.orange {
+  color: orange !important;
+}
+
+.yellowgreen, :hover.yellowgreen {
+  color: yellowgreen !important;
+}
+
+.yellow, :hover.yellow {
+  color: yellow !important;
+}
+//#endregion button

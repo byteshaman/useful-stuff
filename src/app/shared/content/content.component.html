@@ -1,0 +1,13 @@
+<!-- <div id="categories">
+  <span *ngFor="let category of categories; let i = index" [ngClass]="getColorClass(category!)">{{ category | uppercase }} 
+    <span class="category-separator">{{ i !== categories.length -1 ? ' 🞄 ' : '' }}</span>
+  </span>
+</div> -->
+<ul>
+  <li *ngFor="let category of categories" [ngClass]="getColorClass(category!)">{{ category | uppercase }}</li>
+</ul>
+<div id="button-container">
+  <button mat-raised-button *ngFor="let button of buttons" [ngClass]="getColorClass(button.category!)">
+    {{button.description}}
+  </button>
+</div>

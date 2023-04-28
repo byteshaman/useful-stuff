@@ -4,7 +4,11 @@ export interface ButtonInfo {
   value: string;
 }
 
+
+export type codes = 'l4d' | 'web' | 'sw';
+
 export interface PageInfo {
-  code: string;
+  code: codes;
   description: string;
+  categories?: string[];
 }

@@ -1,0 +1,1250 @@
+[
+  {
+    "tags": "audio, shareware, misc, music",
+    "url": "https://soundradix.com/products/32-lives/",
+    "name": "32 Lives",
+    "description": "32-bit to 64-bit Audio Units and VST plug-ins adapter"
+  },
+  {
+    "tags": "utility, fef, freeware",
+    "url": "https://7-zip.org/download.html",
+    "name": "7-Zip",
+    "description": "File archiver with a high compression ratio"
+  },
+  {
+    "tags": "audio, driver, freeware",
+    "url": "http://asio4all.org/",
+    "name": "ASIO4ALL",
+    "description": "Universal ASIO driver for WDM audio"
+  },
+  {
+    "tags": "audio, music, shareware",
+    "url": "https://ableton.com/en/live/",
+    "name": "Ableton Live",
+    "description": "Fast, fluid and flexible DAW for music creation and performance"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://get.adobe.com/reader/",
+    "name": "Adobe Acrobat Reader",
+    "description": "View, print, and comment on PDF documents"
+  },
+  {
+    "tags": "utility, fef, freeware",
+    "url": "https://alldup.de/en_download_alldup.php",
+    "name": "AllDup",
+    "description": "Get rid of your file duplicates"
+  },
+  {
+    "tags": "utility, misc, freemium",
+    "url": "https://anydesk.com/en",
+    "name": "AnyDesk",
+    "description": "A fast remote desktop application"
+  },
+  {
+    "tags": "audio, music, freeware",
+    "url": "https://community.ardour.org/download",
+    "name": "Ardour",
+    "description": "Free DAW that lets you record, edit and mix"
+  },
+  {
+    "tags": "audio, shareware",
+    "url": "https://vectormediasoftware.com/atmdeluxehome.htm",
+    "name": "Atmosphere Deluxe",
+    "description": "Mask noise, promote relaxation with an entire collection of natural sounds"
+  },
+  {
+    "tags": "utility, fef, freeware",
+    "url": "https://petges.lu/download/",
+    "name": "Attribute Changer",
+    "description": "Change file and folder properties with ease"
+  },
+  {
+    "tags": "audio, editor, freeware",
+    "url": "https://audacityteam.org/download/",
+    "name": "Audacity",
+    "description": "Multi-track audio editor and recorder"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://autohotkey.com/",
+    "name": "AutoHotkey",
+    "description": "A scripting language for desktop automation"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://funk.eu/amt/",
+    "name": "AutoMovieThumbnailer",
+    "description": "Batch movie screencap creator"
+  },
+  {
+    "tags": "video, editor, freeware",
+    "url": "https://www.fosshub.com/Avidemux.html",
+    "name": "Avidemux",
+    "description": "Video editor designed for simple cutting, filtering and encoding tasks"
+  },
+  {
+    "tags": "utility, screen, freeware",
+    "url": "https://github.com/debauchee/barrier/releases",
+    "name": "Barrier",
+    "description": "Eliminate the barrier between your machines"
+  },
+  {
+    "tags": "security, freeware",
+    "url": "https://bitdefender.co.uk/solutions/free.html",
+    "name": "BitDefender",
+    "description": "Free and powerful antivirus"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://bluestacks.com/download.html",
+    "name": "BlueStacks",
+    "description": "Emulate an Android environment on your PC"
+  },
+  {
+    "tags": "utility, disk, freemium",
+    "url": "https://www.ccleaner.com/ccleaner/download/standard",
+    "name": "CCleaner",
+    "description": "Clean, optimize & tune up your PC"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://calibre-ebook.com/download",
+    "name": "Calibre",
+    "description": "The one stop solution for all your e-book needs"
+  },
+  {
+    "tags": "downloader, subs, freeware",
+    "url": "https://getcaption.co/",
+    "name": "Caption",
+    "description": "Search and download subtitles quickly"
+  },
+  {
+    "tags": "gaming, freeware",
+    "url": "https://cheatengine.org/downloads.php",
+    "name": "Cheat Engine",
+    "description": "Modify single player games' memory values to make them harder/easier"
+  },
+  {
+    "tags": "programming, freeware",
+    "url": "https://chocolatey.org/install",
+    "name": "Chocolatey",
+    "description": "Wraps installers, executables, zips, and scripts into compiled packages"
+  },
+  {
+    "tags": "utility, screen, freeware",
+    "url": "https://web.archive.org/web/20200803212815/https://clickmonitorddc.bplaced.net/",
+    "name": "ClickMonitorDDC",
+    "description": "Modify the brightness and contrast of your DDC-compatible monitor easily"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://hluk.github.io/CopyQ/",
+    "name": "CopyQ",
+    "description": "Advanced clipboard manager with editing and scripting features"
+  },
+  {
+    "tags": "db, freeware, programming",
+    "url": "https://couchbase.com/downloads?family=server",
+    "name": "Couchbase Server",
+    "description": "Full-featured NoSQL database"
+  },
+  {
+    "tags": "utility, disk, freeware",
+    "url": "https://www.crucial.com/support/storage-executive",
+    "name": "Crucial Storage Executive Tool",
+    "description": "Management utility for Crucial SSDs"
+  },
+  {
+    "tags": "utility, disk, freeware",
+    "url": "https://crystalmark.info/en/download/",
+    "name": "CrystalDiskInfo",
+    "description": "HDD/SSD utility software which supports a part of USB, Intel/AMD RAID and NVMe"
+  },
+  {
+    "tags": "programming, misc, freeware",
+    "url": "https://itefix.net/cwrsync",
+    "name": "cwRsync",
+    "description": "Rsync packaging for Windows"
+  },
+  {
+    "tags": "disk, security, freeware",
+    "url": "https://github.com/PartialVolume/shredos.x86_64",
+    "name": "ShredOS",
+    "description": "Delete information stored on HDDs in PC laptops, desktops, or servers"
+  },
+  {
+    "tags": "db, freeware, programming",
+    "url": "https://dbeaver.io/download/",
+    "name": "dbeaver",
+    "description": "Free multi-platform database tool for developers"
+  },
+  {
+    "tags": "downloader, freeware, music",
+    "url": "https://deemix.app/gui/",
+    "name": "Deemix",
+    "description": "Deezer downloader"
+  },
+  {
+    "tags": "downloader, torrent, freeware",
+    "url": "https://dev.deluge-torrent.org/wiki/Download",
+    "name": "Deluge",
+    "description": "BitTorrent client"
+  },
+  {
+    "tags": "utility, fef, freemium",
+    "url": "http://tucows.com/preview/607345/Directory-List--Print",
+    "name": "Directory List & Print",
+    "description": "Easily list and print the content of any directory"
+  },
+  {
+    "tags": "voip, freeware",
+    "url": "https://discordapp.com/",
+    "name": "Discord",
+    "description": "All-in-one voice and text chat"
+  },
+  {
+    "tags": "utility, uninstaller, freeware",
+    "url": "https://guru3d.com/files_details/display_driver_uninstaller_download.html",
+    "name": "Display Driver Uninstaller",
+    "description": "Completely uninstall AMD/NVIDIA graphics card drivers without leaving traces behind"
+  },
+  {
+    "tags": "utility, fef, freeware",
+    "url": "https://www.google.com/drive/download/",
+    "name": "Drive",
+    "description": "Client to manage synchronized data on Google Drive"
+  },
+  {
+    "tags": "utility, fef, freeware",
+    "url": "https://dropbox.com/downloading",
+    "name": "Dropbox",
+    "description": "Client to manage synchronized data on Dropbox"
+  },
+  {
+    "tags": "utility, fef, freemium",
+    "url": "https://easeus.com/data-recovery-software/",
+    "name": "EaseUS data recovery Wizard",
+    "description": "Complete data recovery software for Windows PC, laptops, hard drives, USB and more"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://sordum.org/7615/easy-context-menu-v1-6/",
+    "name": "Easy Context Menu",
+    "description": "Add any program, app or webpage into your Windows context menu"
+  },
+  {
+    "tags": "gaming, freeware",
+    "url": "https://epicgames.com/store/",
+    "name": "Epic Games Launcher",
+    "description": "Desktop client for Epic Games store"
+  },
+  {
+    "tags": "utility, fef, freeware",
+    "url": "https://voidtools.com/",
+    "name": "Everything",
+    "description": "Locate files and folders by name instantly"
+  },
+  {
+    "tags": "audio, video, editor, player, freeware",
+    "url": "http://ffmpeg.org/download.html",
+    "name": "FFmpeg",
+    "description": "A complete, cross-platform solution to record, convert and stream audio and video"
+  },
+  {
+    "tags": "utility, fef, freemium",
+    "url": "https://sherrodcomputers.com/products_filerenamer.cfm",
+    "name": "File Renamer",
+    "description": "Easily and quickly rename multiple files at once"
+  },
+  {
+    "tags": "image, editor, freeware",
+    "url": "https://softpedia.com/get/Multimedia/Graphic/Graphic-Others/FileMind-QuickFix.shtml",
+    "name": "FileMind QuickFix",
+    "description": "Remove metadata from your digital photos"
+  },
+  {
+    "tags": "programming, misc, freeware",
+    "url": "https://filezilla-project.org/download.php",
+    "name": "FileZilla Client",
+    "description": "Fast and reliable cross-platform FTP, FTPS and SFTP client"
+  },
+  {
+    "tags": "browser, freeware",
+    "url": "https://mozilla.org/firefox/new/",
+    "name": "Firefox",
+    "description": "Mozilla web browser"
+  },
+  {
+    "tags": "downloader, freeware",
+    "url": "https://fopnu.com/download/",
+    "name": "Fopnu",
+    "description": "P2P file sharing software"
+  },
+  {
+    "tags": "programming, misc, freeware",
+    "url": "https://git-fork.com/",
+    "name": "Fork",
+    "description": "A fast and friendly git client"
+  },
+  {
+    "tags": "utility, fef, freeware",
+    "url": "https://freefilesync.org/download.php",
+    "name": "FreeFileSync",
+    "description": "Folder comparison and synchronization"
+  },
+  {
+    "tags": "freemium, gc",
+    "url": "https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom",
+    "name": "GC - AdBlock",
+    "description": "Block internet Ads"
+  },
+  {
+    "tags": "freeware, gc",
+    "url": "https://chrome.google.com/webstore/detail/cmedhionkhpnakcndndgjdbohmhepckk",
+    "name": "GC - AdBlock for YouTube",
+    "description": "Block YouTube Ads"
+  },
+  {
+    "tags": "freeware, gc",
+    "url": "https://chrome.google.com/webstore/detail/bandcamp-volume/nlikaonifbagdlcjoepofomefchkahab",
+    "name": "GC - Bandcamp Volume",
+    "description": "Adds a volume slider to most pages on Bandcamp website"
+  },
+  {
+    "tags": "freeware, gc, security",
+    "url": "https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb",
+    "name": "GC - BitWarden",
+    "description": "Free password manager"
+  },
+  {
+    "tags": "freeware, gc",
+    "url": "https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh",
+    "name": "GC - Dark Reader",
+    "description": "Easily set dark themes for every web page you want"
+  },
+  {
+    "tags": "freemium, gc",
+    "url": "https://chrome.google.com/webstore/detail/imilbobhamcfahccagbncamhpnbkaenm",
+    "name": "GC - Darkness",
+    "description": "Dark themes for various websites"
+  },
+  {
+    "tags": "freeware, gc",
+    "url": "https://chrome.google.com/webstore/detail/fljfmblajgejeicncojogelbkhbobejn",
+    "name": "GC - Discogs Enhancer",
+    "description": "Enhance Discogs website"
+  },
+  {
+    "tags": "freeware, gc, downloader",
+    "url": "https://chrome.google.com/webstore/detail/github-downloader/jplmabjbdhggnlhndkdfciacklbjcfel",
+    "name": "GC - GitHub Downloader",
+    "description": "Easily download single files from GitHub"
+  },
+  {
+    "tags": "freemium, gc",
+    "url": "https://chrome.google.com/webstore/detail/kbfnbcaeplbcioakkpcpgfkobkghlhen",
+    "name": "GC - Grammarly",
+    "description": "Writing assistant"
+  },
+  {
+    "tags": "freeware, gc",
+    "url": "https://chrome.google.com/webstore/detail/bmnlcjabgnpnenekpadlanbbkooimhnj",
+    "name": "GC - Honey",
+    "description": "Automatically find and apply coupon codes when you shop online"
+  },
+  {
+    "tags": "shareware, gc, programming",
+    "url": "https://chrome.google.com/webstore/detail/bbpokcagpggnekcmamgdieebhpkjmljm",
+    "name": "GC - Hoverify",
+    "description": "Hover over elements to inspect CSS and HTML"
+  },
+  {
+    "tags": "freeware, gc",
+    "url": "https://chrome.google.com/webstore/detail/bnomihfieiccainjcjblhegjgglakjdd",
+    "name": "GC - Improve YouTube",
+    "description": "Various enhancements for YouTube website"
+  },
+  {
+    "tags": "freeware, gc, programming",
+    "url": "https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc",
+    "name": "GC - JSONView",
+    "description": "Validate and view JSON documents"
+  },
+  {
+    "tags": "freemium, gc",
+    "url": "https://chrome.google.com/webstore/detail/neebplgakaahbhdphmkckjjcegoiijjo",
+    "name": "GC - Keepa",
+    "description": "Amazon price tracker"
+  },
+  {
+    "tags": "freeware, gc",
+    "url": "https://chrome.google.com/webstore/detail/steam-url-opener/oiboilmeofgpoiopgjdllegafaaeblon",
+    "name": "GC - Steam URL Opener",
+    "description": "Allows you to open URLs inside Steam Client to save the hasle of logging in normal browser"
+  },
+  {
+    "tags": "gc, freeware",
+    "url": "https://chrome.google.com/webstore/detail/tabli/igeehkedfibbnhbfponhjjplpkeomghi",
+    "name": "GC - Tabli",
+    "description": "A simple, powerful tab manager"
+  },
+  {
+    "tags": "freeware, gc",
+    "url": "https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo",
+    "name": "GC - Tamper Monkey",
+    "description": "The world's most popular userscript manager"
+  },
+  {
+    "tags": "freeware, gc",
+    "url": "https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm",
+    "name": "GC - Ublock Origin",
+    "description": "Another Ad blocker for Chrome"
+  },
+  {
+    "tags": "freeware, gc",
+    "url": "https://chrome.google.com/webstore/detail/jldjjifbpipdmligefcogandjojpdagn",
+    "name": "GC - View Image Info",
+    "description": "Get properties of the image your cursor is pointing to via context menu"
+  },
+  {
+    "tags": "freeware, gc, programming",
+    "url": "https://chrome.google.com/webstore/detail/bmnlcjabgnpnenekpadlanbbkooimhnj",
+    "name": "GC - Web Developer",
+    "description": "Adds a toolbar button with various web developer tools"
+  },
+  {
+    "tags": "freeware, gc",
+    "url": "https://chrome.google.com/webstore/detail/kkelicaakdanhinjdeammmilcgefonfh",
+    "name": "GC - Window Resizer",
+    "description": "Resize the browser window to emulate various screen resolutions"
+  },
+  {
+    "tags": "freeware, gc",
+    "url": "https://chrome.google.com/webstore/detail/hncgkmhphmncjohllpoleelnibpmccpj",
+    "name": "GC - xStyle",
+    "description": "Install user-made themes & skins for many sites or create your own"
+  },
+  {
+    "tags": "image, editor, freeware",
+    "url": "https://gimp.org/downloads/",
+    "name": "GIMP",
+    "description": "Photo retouching, image composition and image authoring"
+  },
+  {
+    "tags": "gaming, freeware",
+    "url": "https://gog.com/galaxy",
+    "name": "GOG Galaxy",
+    "description": "Connect multiple ganming platforms and unite all your games and friends scattered across them in one powerful app"
+  },
+  {
+    "tags": "utility, hw, freeware",
+    "url": "https://techpowerup.com/gpuz/",
+    "name": "GPU-Z",
+    "description": "Lightweight system utility designed to provide vital information about your video card and graphics processor"
+  },
+  {
+    "tags": "driver, freeware, video",
+    "url": "https://nvidia.com/en-us/geforce/geforce-experience/",
+    "name": "GeForce Experience",
+    "description": "Download driver for your Nvidia card, optimize owned games"
+  },
+  {
+    "tags": "video, editor, freeware",
+    "url": "https://sourceforge.net/projects/gmkvextractgui/",
+    "name": "gMKVExtractGUI",
+    "description": "GUI for extracting stuff from MKV files"
+  },
+  {
+    "tags": "browser, freeware, gc",
+    "url": "https://google.com/chrome/",
+    "name": "Google Chrome",
+    "description": "Google web browser"
+  },
+  {
+    "tags": "utility, screen, freeware",
+    "url": "https://getgreenshot.org/downloads/",
+    "name": "Greenshot",
+    "description": "A free screenshot tool optimized for productivity"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "http://hidmacros.eu/download.php",
+    "name": "HID macros",
+    "description": "Send keyboard macros activated from different USB devices"
+  },
+  {
+    "tags": "utility, hw, freeware",
+    "url": "https://hwinfo.com/",
+    "name": "HWiNFO",
+    "description": "Comprehensive hardware analysis, monitoring and reporting"
+  },
+  {
+    "tags": "utility, uninstaller, freemium",
+    "url": "https://www.iobit.com/en/advanceduninstaller.php",
+    "name": "IObit Uninstaller",
+    "description": "Completely uninstall unwanted software, Windows apps & browser plug-ins"
+  },
+  {
+    "tags": "image, editor, shareware",
+    "url": "https://theinpaint.com/download.html",
+    "name": "InPaint",
+    "description": "Remove unwanted object from photos"
+  },
+  {
+    "tags": "downloader, shareware",
+    "url": "https://internetdownloadmanager.com/download.html",
+    "name": "Internet Download Manager",
+    "description": "Increase download speeds by up to 5 times, resume and schedule downloads"
+  },
+  {
+    "tags": "image, misc, freeware",
+    "url": "https://irfanview.com/",
+    "name": "IrfanView",
+    "description": "Fast and compact image viewer"
+  },
+  {
+    "tags": "downloader, freeware",
+    "url": "https://jdownloader.org/download/index",
+    "name": "JDownloader 2",
+    "description": "Automatically download groups of files from one-click hosting sites"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://jumpdesktop.com/free-remote-desktop.html",
+    "name": "Jump Desktop",
+    "description": "Secure and reliable remote desktop app"
+  },
+  {
+    "tags": "security, shareware",
+    "url": "https://kaspersky.com/downloads",
+    "name": "Kaspersky",
+    "description": "Different antivirus for the protection of your PC"
+  },
+  {
+    "tags": "misc, utility",
+    "url": "https://support.logi.com/hc/en-gb/articles/360025298053-Logitech-Gaming-Software",
+    "name": "Logitech SetPoint",
+    "description": "Customize functions on Logitech products"
+  },
+  {
+    "tags": "misc, utility",
+    "url": "https://support.logi.com/hc/en-nz/articles/360025141274",
+    "name": "Logitech SetPoint",
+    "description": "Customize your mouse, keyboard, touchpad and number pad settings in Windows"
+  },
+  {
+    "tags": "mb, freeware",
+    "url": "https://getmusicbee.com/addons/visualizer/52/milkdrop-visualizer/",
+    "name": "MB - Milkdrop",
+    "description": "Milkdrop visualizer plugin for MusicBee"
+  },
+  {
+    "tags": "mb, freeware",
+    "url": "https://getmusicbee.com/addons/visualizer/179/morphyre/",
+    "name": "MB - Morphyre",
+    "description": "Morphyre visualizer plugin for MusicBee"
+  },
+  {
+    "tags": "video, editor, freeware",
+    "url": "https://mkvtoolnix.download/",
+    "name": "MKVToolNix",
+    "description": "Set of tools to create, alter and inspect MKV files"
+  },
+  {
+    "tags": "audio, editor, freeware",
+    "url": "http://mpesch3.de/index.html",
+    "name": "MP3DirectCut",
+    "description": "Cut, crop, split, join your tracks, change the level and fade MP3 without re-encoding"
+  },
+  {
+    "tags": "hw, freeware, utility",
+    "url": "https://msi.com/page/afterburner",
+    "name": "MSI Afterburner",
+    "description": "The world’s most recognized and widely used graphics card overclocking utility"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://mailstore.com/en/products/mailstore-home/",
+    "name": "MailStore Home",
+    "description": "Backup your private emails from different sources"
+  },
+  {
+    "tags": "video, editor, freeware",
+    "url": "https://makemkv.com/download/",
+    "name": "MakeMKV",
+    "description": "Make MKV files from DVD/Bluray"
+  },
+  {
+    "tags": "security, freemium",
+    "url": "https://malwarebytes.com/mwb-download/",
+    "name": "MalwareBytes",
+    "description": "Protects your PC from advanced malware and ransomware"
+  },
+  {
+    "tags": "security, freeware",
+    "url": "https://malwarebytes.com/adwcleaner/",
+    "name": "MalwareBytes Adwcleaner",
+    "description": "Remove adware, bloatware, unwanted toolbars, and other potentially unwanted programs"
+  },
+  {
+    "tags": "audio, freeware",
+    "url": "https://mediahuman.com/audio-converter/",
+    "name": "MediaHuman Audio Converter",
+    "description": "Convert your music to many audio formats"
+  },
+  {
+    "tags": "downloader, freeware",
+    "url": "https://mediahuman.com/youtube-downloader/",
+    "name": "MediaHuman YouTube Downloader",
+    "description": "Download and convert YouTube videos"
+  },
+  {
+    "tags": "audio, video, utility, freeware",
+    "url": "https://mediaarea.net/en/MediaInfo/Download/Windows",
+    "name": "MediaInfo",
+    "description": "Display the most relevant technical and tag data for video and audio files"
+  },
+  {
+    "tags": "utility, fef, freeware",
+    "url": "https://mega.nz/sync",
+    "name": "Megasync",
+    "description": "Client to manage synchronized data on Mega"
+  },
+  {
+    "tags": "misc, hw, freeware",
+    "url": "https://www.memtest86.com/download.htm",
+    "name": "MemTest86",
+    "description": "Stand-alone memory testing software for x86 and ARM computers"
+  },
+  {
+    "tags": "misc, utility, freeware",
+    "url": "https://github.com/navossoc/MenuTools/releases",
+    "name": "MenuTools",
+    "description": "Add new features to the system menu of applications"
+  },
+  {
+    "tags": "audio, editor, freeware",
+    "url": "https://shchuka.com/software/mergemp3/#download",
+    "name": "Merge MP3",
+    "description": "Merge multiple sound files into one recording"
+  },
+  {
+    "tags": "browser, freeware",
+    "url": "https://microsoft.com/en-us/edge",
+    "name": "Microsoft Edge",
+    "description": "Microsoft web browser based on Chromium"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://onenote.com/download",
+    "name": "Microsoft OneNote",
+    "description": "Free-form information gathering and multi-user collaboration"
+  },
+  {
+    "tags": "programming, editor, freeware, vs",
+    "url": "https://code.visualstudio.com/download",
+    "name": "Microsoft VS Code",
+    "description": "Code editor redefined and optimized for building and debugging modern web and cloud applications"
+  },
+  {
+    "tags": "programming, editor, freeware",
+    "url": "https://visualstudio.microsoft.com/vs/community/",
+    "name": "Microsoft VS Community",
+    "description": "A fully-featured, extensible, free IDE"
+  },
+  {
+    "tags": "video, misc, freeware",
+    "url": "https://morphyre.com/",
+    "name": "Morphyre",
+    "description": "Music visualizer with thousands of unique 3D scenes"
+  },
+  {
+    "tags": "audio, editor, freeware",
+    "url": "https://mp3tag.de/en/",
+    "name": "Mp3tag",
+    "description": "Powerful tool to edit metadata of audio files"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://mremoteng.org/",
+    "name": "mRemoteNG",
+    "description": "Open source, tabbed, multi-protocol, remote connections manager for Windows"
+  },
+  {
+    "tags": "audio, freeware, music, player",
+    "url": "https://getmusicbee.com/downloads/",
+    "name": "MusicBee",
+    "description": "Organize, find, and play music files on your PC"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://ninite.com/",
+    "name": "Ninite",
+    "description": "Install and update all your programs at once"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://notepad-plus-plus.org/downloads/",
+    "name": "Notepad++",
+    "description": "Free and fast text and source code editor"
+  },
+  {
+    "tags": "utility, misc, freemium",
+    "url": "https://notion.so/",
+    "name": "Notion",
+    "description": "The all-in-one workspace for your notes, tasks, wikis, and databases"
+  },
+  {
+    "tags": "programming, freeware",
+    "url": "https://nodejs.org/en/",
+    "name": "npm/nodejs",
+    "description": "NodeJS package manager"
+  },
+  {
+    "tags": "utility, screen, freeware",
+    "url": "https://obsproject.com/",
+    "name": "OBS Studio",
+    "description": "Video recording and live streaming"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://virtualbox.org/wiki/Downloads",
+    "name": "Oracle VIrtualBox",
+    "description": "General-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use"
+  },
+  {
+    "tags": "gaming, freeware",
+    "url": "https://origin.com/en-us/store/download",
+    "name": "Origin",
+    "description": "Desktop client for Origin store"
+  },
+  {
+    "tags": "audio, video, player, freeware",
+    "url": "https://asdfg.me/osci/",
+    "name": "Oscilloscope",
+    "description": "A software oscilloscope made for looking at music"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://patchmypc.com/home-updater",
+    "name": "PatchMyPC Home Updater",
+    "description": "Simplify third-party patching on your PC"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://pencil.evolus.vn/",
+    "name": "Pencil",
+    "description": "Prototyping tool to create mockups"
+  },
+  {
+    "tags": "utility, screen, freeware",
+    "url": "https://picpick.app/en/",
+    "name": "Pic Pick",
+    "description": "A full-featured screen capture tool"
+  },
+  {
+    "tags": "programming, misc, freeware",
+    "url": "https://postman.com/downloads/",
+    "name": "Postman",
+    "description": "The collaboration platform for API development"
+  },
+  {
+    "tags": "app, music, freemium",
+    "url": "https://powerampapp.com/",
+    "name": "PowerAMP",
+    "description": "Music player for Android"
+  },
+  {
+    "tags": "utility, misc, freemium",
+    "url": "https://flow.microsoft.com/",
+    "name": "Power Automate",
+    "description": "Automate various tasks"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://nirsoft.net/utils/product_cd_key_viewer.html#DownloadLinks",
+    "name": "ProduKey",
+    "description": "Recover lost Windows and Office 2003/2007 product keys"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://psiphon3.com/en/download.html",
+    "name": "Psiphon",
+    "description": "Circumvention software that provides uncensored access to Internet content"
+  },
+  {
+    "tags": "utility, fef, freeware",
+    "url": "http://puransoftware.com/Data-Recovery.html",
+    "name": "Puran Data Recover",
+    "description": "Recover data from damaged media (scratched CDs, DVDs, damaged pen drives etc)"
+  },
+  {
+    "tags": "utility, fef, freeware",
+    "url": "http://puransoftware.com/File-Recovery.html",
+    "name": "Puran File Recover",
+    "description": "Recover deleted/lost files/partitions"
+  },
+  {
+    "tags": "downloader, torrent, freeware",
+    "url": "https://qbittorrent.org/download.php",
+    "name": "qBittorrent",
+    "description": "BitTorrent client"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://rainmeter.net/",
+    "name": "Rainmeter",
+    "description": "Free desktop costumization tool"
+  },
+  {
+    "tags": "audio, music, shareware",
+    "url": "https://reaper.fm/",
+    "name": "Reaper",
+    "description": "Complete and very cheap digital audio production application"
+  },
+  {
+    "tags": "utility, hw, freeware",
+    "url": "https://guru3d.com/content-page/rivatuner.html",
+    "name": "RivaTuner",
+    "description": "Complete powerful tweaking environment to tune NVIDIA GPU based display adapters"
+  },
+  {
+    "tags": "audio, freeware",
+    "url": "https://tobias-erichsen.de/software/rtpmidi.html",
+    "name": "rtpMIDI",
+    "description": "Virtual MIDI-driver which allows DAW-applications to communicate via network with other computers"
+  },
+  {
+    "tags": "db, freemium, programming",
+    "url": "https://microsoft.com/en-us/sql-server/sql-server-downloads",
+    "name": "SQL Server",
+    "description": "Ideal for development and production for desktop, web, and small server applications"
+  },
+  {
+    "tags": "db, freeware, programming",
+    "url": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
+    "name": "SQL Server Management Studio",
+    "description": "Integrated environment for managing any SQL infrastructure"
+  },
+  {
+    "tags": "utility, disk, freeware",
+    "url": "https://samsung.com/semiconductor/minisite/ssd/download/tools/",
+    "name": "Samsung Magician",
+    "description": "Management utility for Samsung SSDs"
+  },
+  {
+    "tags": "utility, screen, freeware",
+    "url": "https://screentogif.com/",
+    "name": "Screen to GIF",
+    "description": "Screen, webcam and sketchboard recorder with an integrated editor"
+  },
+  {
+    "tags": "utility, misc",
+    "url": "https://github.com/randyrants/sharpkeys/releases",
+    "name": "SharpKeys",
+    "description": "Make certain keys on a keyboard act like other ones"
+  },
+  {
+    "tags": "voip, freeware",
+    "url": "https://skype.com/get-skype/",
+    "name": "Skype",
+    "description": "One of the most famous software for voice calls, video chats and instant messaging"
+  },
+  {
+    "tags": "downloader, freeware",
+    "url": "http://slsknet.org/news/node/1",
+    "name": "Soulseek",
+    "description": "P2P file sharing software"
+  },
+  {
+    "tags": "utility, screen, freeware",
+    "url": "https://spacedesk.net/",
+    "name": "Spacedesk",
+    "description": "Windows network display monitor software"
+  },
+  {
+    "tags": "utility, hw, freemium",
+    "url": "https://ccleaner.com/speccy",
+    "name": "Speccy",
+    "description": "Fast, lightweight, advanced system information tool for your PC"
+  },
+  {
+    "tags": "audio, freeware",
+    "url": "http://spek.cc/",
+    "name": "Spek",
+    "description": "Analyse your audio files by showing their spectrogram"
+  },
+  {
+    "tags": "audio, freeware",
+    "url": "https://www.reddit.com/6fre3q/",
+    "name": "Spek Guide",
+    "description": "Guide on how to read Spek's results"
+  },
+  {
+    "tags": "gaming, freeware",
+    "url": "https://store.steampowered.com/",
+    "name": "Steam",
+    "description": "Desktop client for Steam store"
+  },
+  {
+    "tags": "audio, music, shareware",
+    "url": "https://presonus.com/products/Studio-One/downloads",
+    "name": "Studio One",
+    "description": "The drag and drop DAW"
+  },
+  {
+    "tags": "utility, editor, misc, subs, freeware",
+    "url": "https://nikse.dk/subtitleedit",
+    "name": "Subtitle Edit",
+    "description": "Create, adjust or translate any subtitle"
+  },
+  {
+    "tags": "security, shareware",
+    "url": "https://surfshark.com/",
+    "name": "Surfshark VPN",
+    "description": "Protect your digical life with this VPN"
+  },
+  {
+    "tags": "utility, fef, freeware",
+    "url": "https://syncthing.net/",
+    "name": "Syncthing",
+    "description": "Synchronize files between two or more computers in real time, safely protected from prying eyes"
+  },
+  {
+    "tags": "db, programming, freemium",
+    "url": "https://tableplus.com/",
+    "name": "TablePlus",
+    "description": "Modern, native, and friendly GUI tool for relational databases"
+  },
+  {
+    "tags": "voip, freeware",
+    "url": "https://teamspeak.com/en/downloads/",
+    "name": "TeamSpeak",
+    "description": "VoIP communication system for online gaming"
+  },
+  {
+    "tags": "utility, misc, freemium",
+    "url": "https://teamviewer.com/download/",
+    "name": "TeamViewer",
+    "description": "Establish connections between devices to real-time remote access and support"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://desktop.telegram.org/",
+    "name": "Telegram Desktop",
+    "description": "Client for Telegram app"
+  },
+  {
+    "tags": "utility, fef, freemium",
+    "url": "https://codesector.com/teracopy",
+    "name": "Teracopy",
+    "description": "Copy your files faster and more securely"
+  },
+  {
+    "tags": "app, music, freemium",
+    "url": "https://xmmc.de/touchdaw/",
+    "name": "TouchDAW",
+    "description": "Full-featured DAW/MIDI controller for Android devices"
+  },
+  {
+    "tags": "utility, misc, freemium",
+    "url": "https://touch-portal.com/",
+    "name": "TouchPortal",
+    "description": "The macro remote control for PC and Mac software"
+  },
+  {
+    "tags": "browser, freeware",
+    "url": "https://torproject.org/download/",
+    "name": "Tor",
+    "description": "Web browser to protect yourself against tracking, surveillance, and censorship"
+  },
+  {
+    "tags": "utility, fef, freemium",
+    "url": "https://jam-software.com/treesize_free",
+    "name": "TreeSize",
+    "description": "Quickly scan directory sizes and find space hogs"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://microsoft.com/en-us/p/unigram-a-telegram-universal-experience/9n97zckpd60q",
+    "name": "Unigram",
+    "description": "Another client for Telegram app"
+  },
+  {
+    "tags": "gaming, freeware",
+    "url": "https://uplay.ubisoft.com/",
+    "name": "Uplay",
+    "description": "Desktop client for Ubisoft store"
+  },
+  {
+    "tags": "disk, tool, freeware",
+    "url": "https://www.elby.ch/en/products/vcd.html",
+    "name": "VirtualCloneDrive",
+    "description": "Create a virtual unit where you can load CDs and DVDs as if you were putting them in the tray"
+  },
+  {
+    "tags": "video, player, freeware",
+    "url": "https://videolan.org/vlc/",
+    "name": "VLC",
+    "description": "Video editor designed for simple cutting, filtering and encoding tasks"
+  },
+  {
+    "tags": "video, misc, freeware",
+    "url": "https://vlcmobileremote.com/download/",
+    "name": "VLCMobileRemote",
+    "description": "Remotely control VLC player from your smartphone"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ClearMEFComponentCache",
+    "name": "VS - Clear MEF Cache",
+    "description": "Clears the MEF cache on disk and lets Visual Studio rebuild it"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=thomaswelen.SelectNextOccurrence",
+    "name": "VS - Select Next Occurence",
+    "description": "Selects the next occurrence of the current selection and adds multiple cursors for editing"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017",
+    "name": "VS - Web Essentials",
+    "description": "The easiest way to set up Visual Studio for the ultimate Web Development experience"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments",
+    "name": "VSC - Better Comments",
+    "description": "Improve your code commenting by annotating with alert, informational, TODOs, and more!"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek",
+    "name": "VSC - CSS Peak",
+    "description": "Compute complexity in JS/TS files"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner",
+    "name": "VSC - Code runner",
+    "description": "Compute complexity in JS/TS files"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics",
+    "name": "VSC - Codemetrics",
+    "description": "Run code snippet or code file for multiple languages"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=mwilski.CollapseLevel",
+    "name": "VSC - Collapse Level",
+    "description": "Collapse your structures using simple commands"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CommentRemover",
+    "name": "VSC - Comment Remover",
+    "description": "Remove all comments in any file with a click of a button"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome",
+    "name": "VSC - Debugger for Chrome",
+    "description": "Debug your JS code in Chrome browser"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode",
+    "name": "VSC - Discord Presence",
+    "description": "Update your discord status with the newly added rich presence"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint",
+    "name": "VSC - ESLint",
+    "description": "Integrates ESLint JavaScript into VS Code"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=samundrak.esdoc-mdn",
+    "name": "VSC - ESdoc MDN",
+    "description": "Quickly see docs from MDN"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=vikyd.vscode-fold-level",
+    "name": "VSC - Fold Level",
+    "description": "Collapse your structures using simple commands (requires adding custom keyboard shortcuts)"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens",
+    "name": "VSC - GitLens",
+    "description": "Supercharge the Git capabilities built into VS Code"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=RionWilliams.Glyphfriend2019",
+    "name": "VSC - Glyphfriend2019",
+    "description": "Display preview glyphs for many of the common glyph-based font libraries"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css",
+    "name": "VSC - HTML-CSS",
+    "description": "Missing CSS support for HTML documents"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag",
+    "name": "VSC - Highlight Matching Tag",
+    "description": "Missing CSS support for HTML documents"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost",
+    "name": "VSC - Import Cost",
+    "description": "Display inline import/require package size in the editor"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-instant-markdown",
+    "name": "VSC - Instand Markdown",
+    "description": "Instant previews of your markdown files as you type"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=visualstudioexptteam.vscodeintellicode",
+    "name": "VSC - IntelliCode",
+    "description": "AI-assisted development"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion",
+    "name": "VSC - Intellisense for CSS in HTML",
+    "description": "CSS class name completion for the HTML class attribute based on the definitions found in your workspace"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.liveserver",
+    "name": "VSC - Live Server",
+    "description": "Launch a development local Server with live reload feature for static and dynamic pages"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare",
+    "name": "VSC - LiveShare",
+    "description": "Real-time collaborative development"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-pack",
+    "name": "VSC - PHP exstension pack",
+    "description": "pack containing the most important extensions to get started with PHP development"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=henoc.svgeditor",
+    "name": "VSC - SVG Editor",
+    "description": "Visual and literal SVG editor"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync",
+    "name": "VSC - Settings Synch",
+    "description": "Synchronize all your stuff using GitHub Gist"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=spikespaz.vscode-smoothtype",
+    "name": "VSC - Smoothtype",
+    "description": "Smooth typing anymation"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=ryu1kn.text-marker",
+    "name": "VSC - Text Marker",
+    "description": "Highlight multiple text patterns with different colors at the same time"
+  },
+  {
+    "tags": "vs, freeware",
+    "url": "https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets",
+    "name": "VSC - jQuery code snippets",
+    "description": "Useful snippets for jQuery"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://ventoy.net/en/download.html",
+    "name": "Ventoy",
+    "description": "Open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files"
+  },
+  {
+    "tags": "music, freeware",
+    "url": "https://valhalladsp.com/shop/reverb/valhalla-supermassive/",
+    "name": "Valhalla Supermassive",
+    "description": "Free delay and reverb plugin for your DAW"
+  },
+  {
+    "tags": "gaming, freeware",
+    "url": "https://wemod.com/download",
+    "name": "WeMod",
+    "description": "Find cheats, trainers, mods and more, all in one app"
+  },
+  {
+    "tags": "downloader, torrent, freeware",
+    "url": "https://webtorrent.io/",
+    "name": "WebTorrent Desktop",
+    "description": "BitTorrent client to stream your torrent while you download it in order"
+  },
+  {
+    "tags": "utility, fef, shareware",
+    "url": "https://win-rar.com/download.html?",
+    "name": "WinRAR",
+    "description": "Data compression, encryption and archiving tool"
+  },
+  {
+    "tags": "utility, misc, freemium",
+    "url": "https://windowtop.info/",
+    "name": "WindowTop",
+    "description": "Manage your windows practically and efficiently"
+  },
+  {
+    "tags": "utility, misc, freeware",
+    "url": "https://github.com/Sycnex/Windows10Debloater",
+    "name": "Windows 10 Debloater",
+    "description": "Remove useless stuff from Windows 10"
+  },
+  {
+    "tags": "video, editor, shareware",
+    "url": "https://filmora.wondershare.com/video-editor/",
+    "name": "Wondershare Filmora",
+    "description": "Powerful video editor"
+  },
+  {
+    "tags": "video, shareware",
+    "url": "https://videoconverter.wondershare.com/",
+    "name": "Wondershare UniConverter",
+    "description": "Powerful video converter"
+  },
+  {
+    "tags": "downloader, freeware",
+    "url": "https://xtremedownloadmanager.com/#downloads",
+    "name": "Xtreme Download Manager",
+    "description": "A free alternative to IDM"
+  },
+  {
+    "tags": "programming, misc, freeware",
+    "url": "https://zealdocs.org/download.html",
+    "name": "ZealDocs",
+    "description": "Offline documentation browser for software developers"
+  },
+  {
+    "tags": "downloader, torrent, freemium",
+    "url": "https://utorrent.com/downloads/win",
+    "name": "µTorrent",
+    "description": "BitTorrent client"
+  }
+]

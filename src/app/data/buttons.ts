@@ -1,6 +1,6 @@
 import { ButtonInfo } from "../interfaces/interfaces"
 
-const l4d: ButtonInfo[] = [
+export const l4d: ButtonInfo[] = [
   {
     category: "topic",
     value: "ag",
@@ -139,7 +139,7 @@ const l4d: ButtonInfo[] = [
   {
     category: "resource type",
     value: "thisthat",
-    description: "This &amp; that",
+    description: "This & That",
   },
   {
     category: "resource type",
@@ -173,7 +173,7 @@ const l4d: ButtonInfo[] = [
   },
 ]
 
-const websites: ButtonInfo[] = [
+export const websites: ButtonInfo[] = [
   {
     value: "animanga",
     description: "Anime & Manga"
@@ -272,7 +272,7 @@ const websites: ButtonInfo[] = [
   }
 ]
 
-const software: ButtonInfo[] = [
+export const software: ButtonInfo[] = [
   {
     category: "main category",
     value: "app",
@@ -289,12 +289,12 @@ const software: ButtonInfo[] = [
     description: "Browser",
   },
   {
-    category: "sub category",
+    category: "subcategory",
     value: "db",
     description: "Database",
   },
   {
-    category: "sub category",
+    category: "subcategory",
     value: "disk",
     description: "Disk",
   },
@@ -304,17 +304,17 @@ const software: ButtonInfo[] = [
     description: "Downloader",
   },
   {
-    category: "sub category",
+    category: "subcategory",
     value: "driver",
     description: "Driver",
   },
   {
-    category: "sub category",
+    category: "subcategory",
     value: "editor",
     description: "Editor",
   },
   {
-    category: "sub category",
+    category: "subcategory",
     value: "fef",
     description: "Files & Folders",
   },
@@ -334,12 +334,12 @@ const software: ButtonInfo[] = [
     description: "Gaming",
   },
   {
-    category: "extension/plugin",
+    category: "ext/plugin",
     value: "gc",
     description: "Google Chrome",
   },
   {
-    category: "sub category",
+    category: "subcategory",
     value: "hw",
     description: "Hardware",
   },
@@ -349,22 +349,22 @@ const software: ButtonInfo[] = [
     description: "Image",
   },
   {
-    category: "sub category",
+    category: "subcategory",
     value: "misc",
     description: "Miscellaneous",
   },
   {
-    category: "sub category",
+    category: "subcategory",
     value: "music",
     description: "Music",
   },
   {
-    category: "extension/plugin",
+    category: "ext/plugin",
     value: "mb",
     description: "MusicBee",
   },
   {
-    category: "sub category",
+    category: "subcategory",
     value: "player",
     description: "Player",
   },
@@ -374,7 +374,7 @@ const software: ButtonInfo[] = [
     description: "Programming",
   },
   {
-    category: "sub category",
+    category: "subcategory",
     value: "screen",
     description: "Screen",
   },
@@ -389,17 +389,17 @@ const software: ButtonInfo[] = [
     description: "Shareware",
   },
   {
-    category: "sub category",
+    category: "subcategory",
     value: "subs",
     description: "Subtitle",
   },
   {
-    category: "sub category",
+    category: "subcategory",
     value: "torrent",
     description: "Torrent",
   },
   {
-    category: "sub category",
+    category: "subcategory",
     value: "uninstaller",
     description: "Uninstaller",
   },
@@ -414,7 +414,7 @@ const software: ButtonInfo[] = [
     description: "Video",
   },
   {
-    category: "extension/plugin",
+    category: "ext/plugin",
     value: "vs",
     description: "VS/VSC",
   },
