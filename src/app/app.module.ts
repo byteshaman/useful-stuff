@@ -17,6 +17,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 //#endregion material modules
 
 import { ContentComponent } from './shared/content/content.component';
+import { MatSortModule } from '@angular/material/sort';
 
 const MaterialModules = [
   MatButtonModule,
@@ -25,6 +26,7 @@ const MaterialModules = [
   MatFormFieldModule,
   MatInputModule,
   MatSelectModule,
+  MatSortModule,
   MatTableModule,
   MatTabsModule,
 ]

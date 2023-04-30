@@ -34,8 +34,24 @@ ul {
     color: #6989e2;
     text-decoration: none;
   }
+
+  .no-data {
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: .8rem;
+  }
 }
 
+#search-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  mat-form-field {
+    width: 50%;
+  }
+}
 
 
 //#region button

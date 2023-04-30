@@ -1,18 +1,21 @@
-import { Component, Input } from '@angular/core';
+import { AfterViewInit, Component, Input, OnInit, ViewChild } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { l4d, software, websites } from 'src/app/data/buttons';
 import { ButtonInfo, PageInfo, WebsiteInfo } from 'src/app/interfaces/interfaces';
 import l4dJSON from 'src/app/data/link4devs.json';
 import softwareJSON from 'src/app/data/software.json';
 import websitesJSON from 'src/app/data/websites.json';
+import { MatSort } from '@angular/material/sort';
 
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
   styleUrls: ['./content.component.scss']
 })
-export class ContentComponent {
+export class ContentComponent implements OnInit, AfterViewInit {
   @Input() pageInfo!: PageInfo; 
+  @ViewChild(MatSort, {static:true}) sort!: MatSort;
+  
   buttons: ButtonInfo[] = [];
   categories: string[] = [];
 
@@ -24,6 +27,8 @@ export class ContentComponent {
 
   currentTags: string[] = [];
   selectableTags: Set<string> = new Set<string>();
+
+  devMode: boolean = false;
 
   constructor() { }
 
@@ -42,13 +47,33 @@ export class ContentComponent {
       this.tableData = websitesJSON;
     }
 
-    // this.dataSource.data will be used for filtering
+    // deep copy array
     this.dataSource.data = JSON.parse(JSON.stringify(this.tableData));
 
     // this will select every tag at first
     this.getSelectableTags();
   }
 
+  ngAfterViewInit() {
+    this.dataSource.sort = this.sort;
+    console.log(this.sort)
+  }
+
+  applyFilter(event: Event) {
+    const filterValue = (event.target as HTMLInputElement).value;
+    this.dataSource.filter = filterValue.trim().toLowerCase();
+
+    console.log(this.dataSource.filteredData)
+
+    this.getSelectableTags();
+  }
+
+  
+  /**
+   * Determine if the button must be disabled (when it's not in the list of selectable tags)
+   * @param  {string} tag
+   * @returns boolean
+   */
   buttonDisabled(tag: string): boolean {
     return !this.selectableTags.has(tag);
   }
@@ -71,9 +96,15 @@ export class ContentComponent {
   }
 
   getSelectableTags(): void {
-    this.dataSource.data.filter(el => this.getTagsAsArray(el.tags).forEach(tag => this.selectableTags.add(tag)));
+    this.selectableTags = new Set<string>(); 
+    this.dataSource.filteredData.filter(el => this.getTagsAsArray(el.tags).forEach(tag => this.selectableTags.add(tag)));
   }
 
+  /**
+   * Return the tags of a website as an array of strings
+   * @param  {string} tags
+   * @returns string
+   */
   getTagsAsArray(tags: string): string[] {
     return tags.split(',').map(tag => tag.trim());
   }
@@ -94,12 +125,15 @@ export class ContentComponent {
     })  
 
 
-    this.selectableTags = new Set<string>(); 
     this.getSelectableTags();
   }
 
   getSelectedClass (tag: string): string {
     return this.currentTags.includes(tag) ? 'selected' : '';
   }  
+
+  sortByKey(arr: WebsiteInfo[], key: string): WebsiteInfo[] {
+    return arr.sort((a, b) => (a[key].toLowerCase() > b[key].toLowerCase()) ? 1 : ((b[key].toLowerCase() > a[key].toLowerCase()) ? -1 : 0))
+  }
 
 }
