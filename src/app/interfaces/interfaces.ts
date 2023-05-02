@@ -1,4 +1,4 @@
-export interface ButtonInfo {
+export interface TagInfo {
   category?: string
   description: string;
   value: string;
@@ -15,7 +15,9 @@ export interface PageInfo {
 
 export interface WebsiteInfo {
   description: string;
-  [name: string]: string;
-  tags: string;
+  name: string;
+  tags: string[];
   url: string;
 }
+
+export type operation = 'new' | 'edit';

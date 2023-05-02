@@ -1,1910 +1,2944 @@
 [
   {
-    "tags": "tutorial, webdev",
-    "url": "https://1keydata.com/",
+    "description": "Web Development tutorials",
     "name": "1keydata",
-    "description": "Web Development tutorials"
+    "url": "https://1keydata.com/",
+    "tags": [
+      "tutorial",
+      "webdev"
+    ]
   },
   {
-    "tags": "interactive, php, tool",
-    "url": "https://3v4l.org/",
+    "description": "Online shell that allows you to run PHP code in more than 250 PHP versions at the same time",
     "name": "3v4l.org",
-    "description": "Online shell that allows you to run PHP code in more than 250 PHP versions at the same time"
+    "url": "https://3v4l.org/",
+    "tags": [
+      "interactive",
+      "php",
+      "tool"
+    ]
   },
   {
-    "tags": "interactive, tool, webdev",
-    "url": "https://accessible-colors.com/",
+    "description": "WCAG 2.0 AA and AAA color contrast checker",
     "name": "accessible-colors",
-    "description": "WCAG 2.0 AA and AAA color contrast checker"
+    "url": "https://accessible-colors.com/",
+    "tags": [
+      "interactive",
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "article, tips, webdev",
-    "url": "https://alligator.io/",
+    "description": "Front-end web development articles and examples",
     "name": "alligator.io",
-    "description": "Front-end web development articles and examples"
+    "url": "https://alligator.io/",
+    "tags": [
+      "article",
+      "tips",
+      "webdev"
+    ]
   },
   {
-    "tags": "exercise, hacksec",
-    "url": "https://amazena.it/",
+    "description": "[ITA] Sito web per provare attacchi informatici",
     "name": "Amazena",
-    "description": "[ITA] Sito web per provare attacchi informatici"
+    "url": "https://amazena.it/",
+    "tags": [
+      "exercise",
+      "hacksec"
+    ]
   },
   {
-    "tags": "article, laravel",
-    "url": "https://andy-carter.com/blog/env-gotcha-in-laravel-when-caching-configuration",
+    "description": "env() gotcha in Laravel when caching configuration",
     "name": "andy.carter",
-    "description": "env() gotcha in Laravel when caching configuration"
+    "url": "https://andy-carter.com/blog/env-gotcha-in-laravel-when-caching-configuration",
+    "tags": [
+      "article",
+      "laravel"
+    ]
   },
   {
-    "tags": "ag, libpak",
-    "url": "https://formly.dev/",
+    "description": "Dynamic (JSON powered) form library for Angular that bring unmatched maintainability to your application's forms",
     "name": "Angular Formly",
-    "description": "Dynamic (JSON powered) form library for Angular that bring unmatched maintainability to your application's forms"
+    "url": "https://formly.dev/",
+    "tags": [
+      "ag",
+      "libpak"
+    ]
   },
   {
-    "tags": "ag, thisthat",
-    "url": "https://angular.io/guide/ngmodule-vs-jsmodule",
-    "name": "angular.io",
-    "description": "Angular: ngmodule vs jsmodule"
-  },
-  {
-    "tags": "ag, article",
-    "url": "https://angular.io/guide/template-reference-variables",
-    "name": "angular.io",
-    "description": "Understanding template variables"
-  },
-  {
-    "tags": "ag, article, libpak",
-    "url": "https://blog.angular-university.io/rxjs-error-handling/",
+    "description": "RxJs error handling: the practical guide",
     "name": "Angular University",
-    "description": "RxJs error handling: the practical guide"
+    "url": "https://blog.angular-university.io/rxjs-error-handling/",
+    "tags": [
+      "ag",
+      "article",
+      "libpak"
+    ]
   },
   {
-    "tags": "css",
-    "url": "https://daneden.github.io/animate.css/",
+    "description": "Angular: ngmodule vs jsmodule",
+    "name": "angular.io",
+    "url": "https://angular.io/guide/ngmodule-vs-jsmodule",
+    "tags": [
+      "ag",
+      "thisthat"
+    ]
+  },
+  {
+    "description": "Understanding template variables",
+    "name": "angular.io",
+    "url": "https://angular.io/guide/template-reference-variables",
+    "tags": [
+      "ag",
+      "article"
+    ]
+  },
+  {
+    "description": "CSS animations",
     "name": "animate.css",
-    "description": "CSS animations"
+    "url": "https://daneden.github.io/animate.css/",
+    "tags": [
+      "css"
+    ]
   },
   {
-    "tags": "article, thisthat",
-    "url": "https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/",
+    "description": "How to choose an open source license",
     "name": "arstechnica.com",
-    "description": "How to choose an open source license"
+    "url": "https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/",
+    "tags": [
+      "article",
+      "thisthat"
+    ]
   },
   {
-    "tags": "article, laravel",
-    "url": "https://artisansweb.net/how-to-log-query-in-laravel/",
+    "description": "How to log queries in laravel",
     "name": "ArtisanWeb",
-    "description": "How to log queries in laravel"
+    "url": "https://artisansweb.net/how-to-log-query-in-laravel/",
+    "tags": [
+      "article",
+      "laravel"
+    ]
   },
   {
-    "tags": "git, tutorial",
-    "url": "https://atlassian.com/git/tutorials",
+    "description": "Git tutorials: beginner to advanced",
     "name": "Atlassian",
-    "description": "Git tutorials: beginner to advanced"
+    "url": "https://atlassian.com/git/tutorials",
+    "tags": [
+      "git",
+      "tutorial"
+    ]
   },
   {
-    "tags": "article, webdev",
-    "url": "https://aulab.it/blog",
+    "description": "[ITA] News e aggiornamenti del mondo del coding e della formazione IT",
     "name": "aulab.it",
-    "description": "[ITA] News e aggiornamenti del mondo del coding e della formazione IT"
+    "url": "https://aulab.it/blog",
+    "tags": [
+      "article",
+      "webdev"
+    ]
   },
   {
-    "tags": "re, tool",
-    "url": "https://www.autoregex.xyz/",
+    "description": "English to RegEx",
     "name": "AutoRegex",
-    "description": "English to RegEx"
+    "url": "https://www.autoregex.xyz/",
+    "tags": [
+      "re",
+      "tool"
+    ]
   },
   {
-    "tags": "multi",
-    "url": "https://github.com/sindresorhus/awesome#contents",
+    "description": "Awesome lists about all kinds of interesting topics",
     "name": "Awesome Lists",
-    "description": "Awesome lists about all kinds of interesting topics"
+    "url": "https://github.com/sindresorhus/awesome#contents",
+    "tags": [
+      "multi"
+    ]
   },
   {
-    "tags": "css, tutorial",
-    "url": "http://barelyfitz.com/screencast/html-training/css/positioning/",
+    "description": "CSS Positioning in 10 steps",
     "name": "BarelyFitz Designs",
-    "description": "CSS Positioning in 10 steps"
+    "url": "http://barelyfitz.com/screencast/html-training/css/positioning/",
+    "tags": [
+      "css",
+      "tutorial"
+    ]
   },
   {
-    "tags": "tool, webdev",
-    "url": "https://beautifytools.com/",
+    "description": "Beautifiers, converters, validator and more useful tools!",
     "name": "BeautifyTools",
-    "description": "Beautifiers, converters, validator and more useful tools!"
+    "url": "https://beautifytools.com/",
+    "tags": [
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "article, laravel",
-    "url": "https://blog.quickadminpanel.com/datatables-editdelete-buttons-hide-under-javascript-dropdown/",
+    "description": "Hide laravel datatables buttons under a dropdown button",
     "name": "blog.quickadminpanel",
-    "description": "Hide laravel datatables buttons under a dropdown button"
+    "url": "https://blog.quickadminpanel.com/datatables-editdelete-buttons-hide-under-javascript-dropdown/",
+    "tags": [
+      "article",
+      "laravel"
+    ]
   },
   {
-    "tags": "tutorial, webdev",
-    "url": "https://bobbyhadz.com/",
+    "description": "Blog about web development and cloud computing",
     "name": "Bobby Hadz Blog",
-    "description": "Blog about web development and cloud computing"
+    "url": "https://bobbyhadz.com/",
+    "tags": [
+      "tutorial",
+      "webdev"
+    ]
   },
   {
-    "tags": "css, doc, libpak",
-    "url": "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
+    "description": "Official Bootstrap 5 documentation",
     "name": "Bootstrap",
-    "description": "Official Bootstrap 5 documentation"
+    "url": "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
+    "tags": [
+      "css",
+      "doc",
+      "libpak"
+    ]
   },
   {
-    "tags": "css, cheat, libpak",
+    "description": "Bootstrap 5 class list/cheatsheet",
+    "name": "Bootstrap Creative",
     "url": "https://bootstrapcreative.com/resources/bootstrap-5-cheat-sheet-classes-index/",
-    "name": "Bootstrap Creative",
-    "description": "Bootstrap 5 class list/cheatsheet"
+    "tags": [
+      "cheat",
+      "css",
+      "libpak"
+    ]
   },
   {
-    "tags": "article, html",
+    "description": "What are integrity and crossorigin attributes ?",
+    "name": "Bootstrap Creative",
     "url": "https://bootstrapcreative.com/what-are-the-integrity-and-crossorigin-attributes-and-why-are-they-necessary/",
-    "name": "Bootstrap Creative",
-    "description": "What are integrity and crossorigin attributes ?"
+    "tags": [
+      "article",
+      "html"
+    ]
   },
   {
-    "tags": "css, libpak",
-    "url": "https://bootstrapshuffle.com/classes",
+    "description": "All Bootstrap CSS classes",
     "name": "Bootstrap Shuffle",
-    "description": "All Bootstrap CSS classes"
+    "url": "https://bootstrapshuffle.com/classes",
+    "tags": [
+      "css",
+      "libpak"
+    ]
   },
   {
-    "tags": "tool, webdev",
-    "url": "https://browserling.com/",
+    "description": "Cross browser tester",
     "name": "Browserling",
-    "description": "Cross browser tester"
+    "url": "https://browserling.com/",
+    "tags": [
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "js, tutorial",
-    "url": "http://callbackhell.com/",
+    "description": "A guide to writing asynchronous JS programs",
     "name": "callbackhell",
-    "description": "A guide to writing asynchronous JS programs"
+    "url": "http://callbackhell.com/",
+    "tags": [
+      "js",
+      "tutorial"
+    ]
   },
   {
-    "tags": "tool, webdev",
-    "url": "https://caniuse.com/",
+    "description": "Up-to-date browser support tables",
     "name": "CanIUse",
-    "description": "Up-to-date browser support tables"
+    "url": "https://caniuse.com/",
+    "tags": [
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "tool, webdev",
-    "url": "https://cdnjs.com/",
+    "description": "The best FOSS CDN for web related libraries",
     "name": "cdnjs",
-    "description": "The best FOSS CDN for web related libraries"
+    "url": "https://cdnjs.com/",
+    "tags": [
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "cheat, hacksec, multi",
-    "url": "https://cheatsheetseries.owasp.org/Glossary.html",
+    "description": "Collection of high value information on specific application security topics",
     "name": "cheatsheetseries",
-    "description": "Collection of high value information on specific application security topics"
+    "url": "https://cheatsheetseries.owasp.org/Glossary.html",
+    "tags": [
+      "cheat",
+      "hacksec",
+      "multi"
+    ]
   },
   {
-    "tags": "linux, interactive, tool",
-    "url": "https://chmodcommand.com/",
+    "description": "Quickly generate Linux permissions in numerical and symbolic formats",
     "name": "chmodcommand",
-    "description": "Quickly generate Linux permissions in numerical and symbolic formats"
+    "url": "https://chmodcommand.com/",
+    "tags": [
+      "interactive",
+      "linux",
+      "tool"
+    ]
   },
   {
-    "tags": "cheat, interactive, multi",
-    "url": "https://shortcode.dev/",
+    "description": "A collection of useful snippets and code examples for various languages",
     "name": "Code cheatsheets",
-    "description": "A collection of useful snippets and code examples for various languages"
+    "url": "https://shortcode.dev/",
+    "tags": [
+      "cheat",
+      "interactive",
+      "multi"
+    ]
   },
   {
-    "tags": "article, git",
-    "url": "https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574",
+    "description": "How to work with GitHub and multiple accounts",
     "name": "Code Tutsplus",
-    "description": "How to work with GitHub and multiple accounts"
+    "url": "https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574",
+    "tags": [
+      "article",
+      "git"
+    ]
   },
   {
-    "tags": "interactive, tool, webdev",
+    "description": "Online front-end editor",
+    "name": "Codepen",
     "url": "https://codepen.io/",
-    "name": "Codepen",
-    "description": "Online front-end editor"
+    "tags": [
+      "interactive",
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "css, tool",
+    "description": "CSS filter generator to convert from black to target hex color",
+    "name": "Codepen",
     "url": "https://codepen.io/sosuke/pen/Pjoqqp",
-    "name": "Codepen",
-    "description": "CSS filter generator to convert from black to target hex color"
+    "tags": [
+      "css",
+      "tool"
+    ]
   },
   {
-    "tags": "multi",
-    "url": "https://staging.codesupport.dev/resources",
+    "description": "A collection of programming resources curated by the CodeSupport community",
     "name": "CodeSupport",
-    "description": "A collection of programming resources curated by the CodeSupport community"
+    "url": "https://staging.codesupport.dev/resources",
+    "tags": [
+      "multi"
+    ]
   },
   {
-    "tags": "exercise, interactive, multi",
-    "url": "https://codewars.com/",
+    "description": "Code challenges",
     "name": "Codewars",
-    "description": "Code challenges"
+    "url": "https://codewars.com/",
+    "tags": [
+      "exercise",
+      "interactive",
+      "multi"
+    ]
   },
   {
-    "tags": "tool, webdev",
-    "url": "https://convertingcolors.com/",
+    "description": "Convert colors in 15 different formats",
     "name": "Converting Colors",
-    "description": "Convert colors in 15 different formats"
+    "url": "https://convertingcolors.com/",
+    "tags": [
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "cpp, doc",
+    "description": "Standard C++ Library reference",
+    "name": "cplusplus",
     "url": "http://cplusplus.com/reference/",
-    "name": "cplusplus",
-    "description": "Standard C++ Library reference"
+    "tags": [
+      "cpp",
+      "doc"
+    ]
   },
   {
-    "tags": "cpp, supp",
+    "description": "C++ forum where you can ask for help",
+    "name": "cplusplus",
     "url": "http://cplusplus.com/forum/",
-    "name": "cplusplus",
-    "description": "C++ forum where you can ask for help"
+    "tags": [
+      "cpp",
+      "supp"
+    ]
   },
   {
-    "tags": "cpp, doc",
-    "url": "https://en.cppreference.com/w/cpp",
+    "description": "C++ reference",
     "name": "cppreference",
-    "description": "C++ reference"
+    "url": "https://en.cppreference.com/w/cpp",
+    "tags": [
+      "cpp",
+      "doc"
+    ]
   },
   {
-    "tags": "linux, interactive, tool",
-    "url": "https://crontab.guru/",
+    "description": "The quick and simple editor for cron schedule expressions",
     "name": "crontab.guru",
-    "description": "The quick and simple editor for cron schedule expressions"
+    "url": "https://crontab.guru/",
+    "tags": [
+      "interactive",
+      "linux",
+      "tool"
+    ]
   },
   {
-    "tags": "css, game",
-    "url": "https://cssbattle.dev/",
+    "description": "Use your CSS skills to replicate targets with smallest possible code",
     "name": "CSS Battle",
-    "description": "Use your CSS skills to replicate targets with smallest possible code"
+    "url": "https://cssbattle.dev/",
+    "tags": [
+      "css",
+      "game"
+    ]
   },
   {
-    "tags": "css, game, interactive",
-    "url": "https://flukeout.github.io/",
+    "description": "Learn CSS selectors with this interactive game",
     "name": "CSS Diner",
-    "description": "Learn CSS selectors with this interactive game"
+    "url": "https://flukeout.github.io/",
+    "tags": [
+      "css",
+      "game",
+      "interactive"
+    ]
   },
   {
-    "tags": "css, exercise",
-    "url": "http://csszengarden.com/",
+    "description": "A demonstration of what can be accomplished visually through CSS-based design",
     "name": "CSS Garden",
-    "description": "A demonstration of what can be accomplished visually through CSS-based design"
+    "url": "http://csszengarden.com/",
+    "tags": [
+      "css",
+      "exercise"
+    ]
   },
   {
-    "tags": "css, game, interactive",
-    "url": "https://cssgridgarden.com/",
+    "description": "Learn CSS grid with this interactive game",
     "name": "CSS Grid Garden",
-    "description": "Learn CSS grid with this interactive game"
+    "url": "https://cssgridgarden.com/",
+    "tags": [
+      "css",
+      "game",
+      "interactive"
+    ]
   },
   {
-    "tags": "css",
-    "url": "https://csslayout.io/",
+    "description": "A collection of popular layouts and patterns made with CSS",
     "name": "CSS Layout",
-    "description": "A collection of popular layouts and patterns made with CSS"
+    "url": "https://csslayout.io/",
+    "tags": [
+      "css"
+    ]
   },
   {
-    "tags": "css, tutorial",
-    "url": "https://cssreference.io/",
+    "description": "A visual guide to CSS",
     "name": "CSS Reference",
-    "description": "A visual guide to CSS"
+    "url": "https://cssreference.io/",
+    "tags": [
+      "css",
+      "tutorial"
+    ]
   },
   {
-    "tags": "css, thisthat",
+    "description": "CSS Grid: auto-fill vs auto-fit",
+    "name": "CSS Tricks",
     "url": "https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/",
-    "name": "CSS Tricks",
-    "description": "CSS Grid: auto-fill vs auto-fit"
+    "tags": [
+      "css",
+      "thisthat"
+    ]
   },
   {
-    "tags": "article, php",
+    "description": "Check if a website is available with PHP",
+    "name": "CSS Tricks",
     "url": "https://css-tricks.com/snippets/php/check-if-website-is-available/",
-    "name": "CSS Tricks",
-    "description": "Check if a website is available with PHP"
+    "tags": [
+      "article",
+      "php"
+    ]
   },
   {
-    "tags": "css",
-    "url": "https://css-tricks.com/almanac/",
+    "description": "Alphabetical list of CSS selectors and properties",
     "name": "CSS-tricks",
-    "description": "Alphabetical list of CSS selectors and properties"
+    "url": "https://css-tricks.com/almanac/",
+    "tags": [
+      "css"
+    ]
   },
   {
-    "tags": "css, tutorial",
+    "description": "All about floats",
+    "name": "CSS-Tricks",
     "url": "https://css-tricks.com/all-about-floats/",
-    "name": "CSS-Tricks",
-    "description": "All about floats"
+    "tags": [
+      "css",
+      "tutorial"
+    ]
   },
   {
-    "tags": "css, tutorial",
+    "description": "Complete flexbox guide",
+    "name": "CSS-Tricks",
     "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
-    "name": "CSS-Tricks",
-    "description": "Complete flexbox guide"
+    "tags": [
+      "css",
+      "tutorial"
+    ]
   },
   {
-    "tags": "css, tutorial",
+    "description": "Complete grid guide",
+    "name": "CSS-Tricks",
     "url": "https://css-tricks.com/snippets/css/complete-guide-grid/",
-    "name": "CSS-Tricks",
-    "description": "Complete grid guide"
+    "tags": [
+      "css",
+      "tutorial"
+    ]
   },
   {
-    "tags": "css, thisthat",
+    "description": "CSS: Multiple class vs ID+class selector",
+    "name": "CSS-Tricks",
     "url": "https://css-tricks.com/multiple-class-id-selectors/",
-    "name": "CSS-Tricks",
-    "description": "CSS: Multiple class vs ID+class selector"
+    "tags": [
+      "css",
+      "thisthat"
+    ]
   },
   {
-    "tags": "css, tool",
-    "url": "http://css2sass.herokuapp.com/",
+    "description": "Convert CSS snippets to SASS",
     "name": "CSS2SASS",
-    "description": "Convert CSS snippets to SASS"
+    "url": "http://css2sass.herokuapp.com/",
+    "tags": [
+      "css",
+      "tool"
+    ]
   },
   {
-    "tags": "css",
-    "url": "https://css.gg/",
+    "description": "700 + CSS icons",
     "name": "CSSgg",
-    "description": "700 + CSS icons"
+    "url": "https://css.gg/",
+    "tags": [
+      "css"
+    ]
   },
   {
-    "tags": "css, tool",
-    "url": "https://cssgradient.io/",
+    "description": "CSS gradient generator",
     "name": "CSSGradient",
-    "description": "CSS gradient generator"
+    "url": "https://cssgradient.io/",
+    "tags": [
+      "css",
+      "tool"
+    ]
   },
   {
-    "tags": "article, css, tool",
-    "url": "http://css-grid.coffeecup.com/css-grid-guide.html",
+    "description": "Guide to building layouts with CSS Grid, featuring a CSS Grid Builder tool",
     "name": "cssgrid coffeecup",
-    "description": "Guide to building layouts with CSS Grid, featuring a CSS Grid Builder tool"
+    "url": "http://css-grid.coffeecup.com/css-grid-guide.html",
+    "tags": [
+      "article",
+      "css",
+      "tool"
+    ]
   },
   {
-    "tags": "css, videocourse",
-    "url": "https://cssgrid.io/",
+    "description": "Learn CSS grid for free with these 25 videos",
     "name": "cssgrid.io",
-    "description": "Learn CSS grid for free with these 25 videos"
+    "url": "https://cssgrid.io/",
+    "tags": [
+      "css",
+      "videocourse"
+    ]
   },
   {
-    "tags": "article, php",
-    "url": "https://culttt.com/2013/03/25/what-are-php-lambdas-and-closures/",
+    "description": "What are PHP lambdas and closures ?",
     "name": "culttt.com",
-    "description": "What are PHP lambdas and closures ?"
+    "url": "https://culttt.com/2013/03/25/what-are-php-lambdas-and-closures/",
+    "tags": [
+      "article",
+      "php"
+    ]
   },
   {
-    "tags": "css, tool",
-    "url": "http://danielstern.ca/range.css/#/",
+    "description": "CSS range generator for range inputs",
     "name": "danielstern",
-    "description": "CSS range generator for range inputs"
+    "url": "http://danielstern.ca/range.css/#/",
+    "tags": [
+      "css",
+      "tool"
+    ]
   },
   {
-    "tags": "libpak",
-    "url": "https://datatables.net/reference/option/",
+    "description": "Add advanced interaction controls to your HTML tables",
     "name": "DataTables",
-    "description": "Add advanced interaction controls to your HTML tables"
-  },
-  {
-    "tags": "doc",
     "url": "https://datatables.net/reference/option/",
-    "name": "DataTables",
-    "description": "DataTables options documentation"
+    "tags": [
+      "libpak"
+    ]
   },
   {
-    "tags": "interactive",
-    "url": "http://live.datatables.net/",
+    "description": "DataTables options documentation",
+    "name": "DataTables",
+    "url": "https://datatables.net/reference/option/",
+    "tags": [
+      "doc"
+    ]
+  },
+  {
+    "description": "DataTables plugin playground",
     "name": "DataTables live",
-    "description": "DataTables plugin playground"
+    "url": "http://live.datatables.net/",
+    "tags": [
+      "interactive"
+    ]
   },
   {
-    "tags": "js, libpak",
-    "url": "https://date-fns.org/",
+    "description": "Modern JS date utility library",
     "name": "Date FNS",
-    "description": "Modern JS date utility library"
+    "url": "https://date-fns.org/",
+    "tags": [
+      "js",
+      "libpak"
+    ]
   },
   {
-    "tags": "article, css, js",
-    "url": "https://davidwalsh.name/css-variables-javascript",
+    "description": "How to Get and Set CSS Variable Values with JS",
     "name": "davidwalsh.name",
-    "description": "How to Get and Set CSS Variable Values with JS"
+    "url": "https://davidwalsh.name/css-variables-javascript",
+    "tags": [
+      "article",
+      "css",
+      "js"
+    ]
   },
   {
-    "tags": "article",
+    "description": "Learning the Big O",
+    "name": "dev.to",
     "url": "https://dev.to/nmhummel/learning-the-big-o-1eod?",
-    "name": "dev.to",
-    "description": "Learning the Big O"
+    "tags": [
+      "article"
+    ]
   },
   {
-    "tags": "ag, article",
+    "description": "What is a higher-order Observable?",
+    "name": "dev.to",
     "url": "https://dev.to/angular/what-is-a-higher-order-observable-4k52",
-    "name": "dev.to",
-    "description": "What is a higher-order Observable?"
+    "tags": [
+      "ag",
+      "article"
+    ]
   },
   {
-    "tags": "article, tutorial, webdev",
+    "description": "How to add a pre loader in your website",
+    "name": "dev.to",
     "url": "https://dev.to/amitthakur11/how-to-add-a-pre-loader-in-your-website-140i",
-    "name": "dev.to",
-    "description": "How to add a pre loader in your website"
+    "tags": [
+      "article",
+      "tutorial",
+      "webdev"
+    ]
   },
   {
-    "tags": "article, js",
+    "description": "Introduction to promises in JavaScript",
+    "name": "dev.to",
     "url": "https://dev.to/abhishekjain35/introduction-to-promises-in-javascript-3cd4",
-    "name": "dev.to",
-    "description": "Introduction to promises in JavaScript"
+    "tags": [
+      "article",
+      "js"
+    ]
   },
   {
-    "tags": "doc, multi, tool",
-    "url": "https://devdocs.io/",
+    "description": "Multiple API documentations combined in a fast, organized, and searchable interface",
     "name": "devdocs.io",
-    "description": "Multiple API documentations combined in a fast, organized, and searchable interface"
+    "url": "https://devdocs.io/",
+    "tags": [
+      "doc",
+      "multi",
+      "tool"
+    ]
   },
   {
-    "tags": "tips, webdev",
-    "url": "https://roadmap.sh/roadmaps",
+    "description": "Step by step guides and paths to learn different tools or technologies",
     "name": "Developer Roadmaps",
-    "description": "Step by step guides and paths to learn different tools or technologies"
+    "url": "https://roadmap.sh/roadmaps",
+    "tags": [
+      "tips",
+      "webdev"
+    ]
   },
   {
-    "tags": "css, interactive",
-    "url": "http://devtoolschallenger.com/",
+    "description": "Interactive demo of some of Firefox Developer Edition's newest tools for manipulating CSS animations",
     "name": "DevTools Challenger",
-    "description": "Interactive demo of some of Firefox Developer Edition's newest tools for manipulating CSS animations"
+    "url": "http://devtoolschallenger.com/",
+    "tags": [
+      "css",
+      "interactive"
+    ]
   },
   {
-    "tags": "article",
-    "url": "https://digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols",
+    "description": "An introduction to networking terminology",
     "name": "Digital Ocean",
-    "description": "An introduction to networking terminology"
+    "url": "https://digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols",
+    "tags": [
+      "article"
+    ]
   },
   {
-    "tags": "article, js",
-    "url": "https://digitalocean.com/community/tutorials/understanding-javascript-promises",
+    "description": "Understanding to JS Promises",
     "name": "DigitalOcean",
-    "description": "Understanding to JS Promises"
+    "url": "https://digitalocean.com/community/tutorials/understanding-javascript-promises",
+    "tags": [
+      "article",
+      "js"
+    ]
   },
   {
-    "tags": "discord, multi, supp",
+    "description": "CodeSupport Discord server",
+    "name": "Discord",
     "url": "https://discord.com/invite/XQ9C3sY",
-    "name": "Discord",
-    "description": "CodeSupport Discord server"
+    "tags": [
+      "discord",
+      "multi",
+      "supp"
+    ]
   },
   {
-    "tags": "discord, multi, supp",
+    "description": "FreeCodeCamp official Discord server",
+    "name": "Discord",
     "url": "https://discord.gg/KVUmVXA",
-    "name": "Discord",
-    "description": "FreeCodeCamp official Discord server"
+    "tags": [
+      "discord",
+      "multi",
+      "supp"
+    ]
   },
   {
-    "tags": "discord, supp, webdev",
+    "description": "Frontend Developers Discord server",
+    "name": "Discord",
     "url": "https://discordapp.com/invite/kx7pk6J",
-    "name": "Discord",
-    "description": "Frontend Developers Discord server"
+    "tags": [
+      "discord",
+      "supp",
+      "webdev"
+    ]
   },
   {
-    "tags": "discord, multi, supp",
+    "description": "TheCodingDen Discord server",
+    "name": "Discord",
     "url": "https://discord.gg/code",
-    "name": "Discord",
-    "description": "TheCodingDen Discord server"
+    "tags": [
+      "discord",
+      "multi",
+      "supp"
+    ]
   },
   {
-    "tags": "discord, multi, supp",
+    "description": "Programming Discussions Discord server",
+    "name": "Discord",
     "url": "http://invite.progdisc.club/",
-    "name": "Discord",
-    "description": "Programming Discussions Discord server"
+    "tags": [
+      "discord",
+      "multi",
+      "supp"
+    ]
   },
   {
-    "tags": "discord, multi, supp",
+    "description": "The biggest general programming server on Discord",
+    "name": "Discord",
     "url": "https://discord.gg/programming",
-    "name": "Discord",
-    "description": "The biggest general programming server on Discord"
+    "tags": [
+      "discord",
+      "multi",
+      "supp"
+    ]
   },
   {
-    "tags": "discord, supp, webdev",
+    "description": "Official r/webdev Discord server",
+    "name": "Discord",
     "url": "https://discord.gg/keD8rZp",
-    "name": "Discord",
-    "description": "Official r/webdev Discord server"
+    "tags": [
+      "discord",
+      "supp",
+      "webdev"
+    ]
   },
   {
-    "tags": "article, interactive, sql",
-    "url": "https://www.dofactory.com/sql/union",
+    "description": "SQL UNION",
     "name": "DoFactory",
-    "description": "SQL UNION"
+    "url": "https://www.dofactory.com/sql/union",
+    "tags": [
+      "article",
+      "interactive",
+      "sql"
+    ]
   },
   {
-    "tags": "doc, webdev",
-    "url": "https://dom.spec.whatwg.org/",
+    "description": "DOM standard",
     "name": "DOM.specs",
-    "description": "DOM standard"
+    "url": "https://dom.spec.whatwg.org/",
+    "tags": [
+      "doc",
+      "webdev"
+    ]
   },
   {
-    "tags": "article, js",
-    "url": "https://dummies.com/web-design-development/javascript/what-are-callbacks-in-javascript-coding/",
+    "description": "What are callback functions in JS ?",
     "name": "dummies.com",
-    "description": "What are callback functions in JS ?"
+    "url": "https://dummies.com/web-design-development/javascript/what-are-callbacks-in-javascript-coding/",
+    "tags": [
+      "article",
+      "js"
+    ]
   },
   {
-    "tags": "thisthat, webdev",
-    "url": "https://blog.education-ecosystem.com/angular-js-vs-react-js-vs-node-js-which-is-the-best/",
+    "description": "Angular vs React vs Node",
     "name": "Education Ecosystem Blog",
-    "description": "Angular vs React vs Node"
+    "url": "https://blog.education-ecosystem.com/angular-js-vs-react-js-vs-node-js-which-is-the-best/",
+    "tags": [
+      "thisthat",
+      "webdev"
+    ]
   },
   {
-    "tags": "multi, tutorial",
-    "url": "http://edutecnica.it/informatica.htm",
+    "description": "[ITA] Appunti vari informatica",
     "name": "Edutecnica",
-    "description": "[ITA] Appunti vari informatica"
+    "url": "http://edutecnica.it/informatica.htm",
+    "tags": [
+      "multi",
+      "tutorial"
+    ]
   },
   {
-    "tags": "ag, libpak, tutorial",
-    "url": "https://egghead.io/courses/configuration-based-reactive-angular-forms-with-ngx-formly-465f",
+    "description": "Formly library video-tutorial",
     "name": "EggHead",
-    "description": "Formly library video-tutorial"
+    "url": "https://egghead.io/courses/configuration-based-reactive-angular-forms-with-ngx-formly-465f",
+    "tags": [
+      "ag",
+      "libpak",
+      "tutorial"
+    ]
   },
   {
-    "tags": "libpak, js",
-    "url": "https://emailjs.com/",
+    "description": "Send email directly from JS",
     "name": "EmailJS",
-    "description": "Send email directly from JS"
+    "url": "https://emailjs.com/",
+    "tags": [
+      "js",
+      "libpak"
+    ]
   },
   {
-    "tags": "js, tutorial",
-    "url": "http://es6-features.org/",
+    "description": "JS ES6 new features and comparison with ES5",
     "name": "es6-features",
-    "description": "JS ES6 new features and comparison with ES5"
+    "url": "http://es6-features.org/",
+    "tags": [
+      "js",
+      "tutorial"
+    ]
   },
   {
-    "tags": "js, tool",
-    "url": "https://esprima.org/demo/validate.html",
+    "description": "JS syntax validator",
     "name": "Esprima",
-    "description": "JS syntax validator"
+    "url": "https://esprima.org/demo/validate.html",
+    "tags": [
+      "js",
+      "tool"
+    ]
   },
   {
-    "tags": "interactive",
-    "url": "http://evolutionoftheweb.com/",
+    "description": "Ever wondered how it all started ?",
     "name": "Evolution of the Web",
-    "description": "Ever wondered how it all started ?"
+    "url": "http://evolutionoftheweb.com/",
+    "tags": [
+      "interactive"
+    ]
   },
   {
-    "tags": "exercise, interactive, multi",
-    "url": "https://exercism.io/",
+    "description": "Code practice and mentorship for everyone",
     "name": "Exercism",
-    "description": "Code practice and mentorship for everyone"
+    "url": "https://exercism.io/",
+    "tags": [
+      "exercise",
+      "interactive",
+      "multi"
+    ]
   },
   {
-    "tags": "article, js",
+    "description": "How to add an event listener to multiple elements in JS",
+    "name": "flavioscopes.com",
     "url": "https://flaviocopes.com/how-to-add-event-listener-multiple-elements-javascript/",
-    "name": "flavioscopes.com",
-    "description": "How to add an event listener to multiple elements in JS"
+    "tags": [
+      "article",
+      "js"
+    ]
   },
   {
-    "tags": "article, js",
+    "description": "The Web Storage API: local storage and session storage",
+    "name": "flavioscopes.com",
     "url": "https://flaviocopes.com/web-storage-api/",
-    "name": "flavioscopes.com",
-    "description": "The Web Storage API: local storage and session storage"
+    "tags": [
+      "article",
+      "js"
+    ]
   },
   {
-    "tags": "article, js",
+    "description": "How to sort an array of objects by a property value in JavaScript",
+    "name": "flavioscopes.com",
     "url": "https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/",
-    "name": "flavioscopes.com",
-    "description": "How to sort an array of objects by a property value in JavaScript"
+    "tags": [
+      "article",
+      "js"
+    ]
   },
   {
-    "tags": "article, webdev",
+    "description": "The Document Object Model",
+    "name": "flavioscopes.com",
     "url": "https://flaviocopes.com/dom/",
-    "name": "flavioscopes.com",
-    "description": "The Document Object Model"
+    "tags": [
+      "article",
+      "webdev"
+    ]
   },
   {
-    "tags": "article, js, thisthat",
+    "description": "Efficiently load JS with defer and async",
+    "name": "flavioscopes.com",
     "url": "https://flaviocopes.com/javascript-async-defer/",
-    "name": "flavioscopes.com",
-    "description": "Efficiently load JS with defer and async"
+    "tags": [
+      "article",
+      "js",
+      "thisthat"
+    ]
   },
   {
-    "tags": "css, game, interactive",
-    "url": "http://flexboxdefense.com/",
+    "description": "Learn flexbox with this interactive game",
     "name": "Flexbox Defense",
-    "description": "Learn flexbox with this interactive game"
+    "url": "http://flexboxdefense.com/",
+    "tags": [
+      "css",
+      "game",
+      "interactive"
+    ]
   },
   {
-    "tags": "css, game, interactive",
-    "url": "https://flexboxfroggy.com/",
+    "description": "Learn flexbox with this interactive game",
     "name": "Flexbox Froggy",
-    "description": "Learn flexbox with this interactive game"
+    "url": "https://flexboxfroggy.com/",
+    "tags": [
+      "css",
+      "game",
+      "interactive"
+    ]
   },
   {
-    "tags": "css, videocourse",
-    "url": "https://flexbox.io/",
+    "description": "Learn flexbox for free with these 20 videos",
     "name": "Flexbox.io",
-    "description": "Learn flexbox for free with these 20 videos"
+    "url": "https://flexbox.io/",
+    "tags": [
+      "css",
+      "videocourse"
+    ]
   },
   {
-    "tags": "css, libpak",
-    "url": "https://fontawesome.com/icons?d=gallery&m=free",
+    "description": "Free FontAwesome icons",
     "name": "FontAwesome",
-    "description": "Free FontAwesome icons"
+    "url": "https://fontawesome.com/icons?d=gallery&m=free",
+    "tags": [
+      "css",
+      "libpak"
+    ]
   },
   {
-    "tags": "exercise, interactive, multi, supp, tutorial",
-    "url": "https://freecodecamp.org/",
+    "description": "Learn to code online and get certifications or ask for help in the official FCC forum",
     "name": "FreeCodeCamp",
-    "description": "Learn to code online and get certifications or ask for help in the official FCC forum"
+    "url": "https://freecodecamp.org/",
+    "tags": [
+      "exercise",
+      "interactive",
+      "multi",
+      "supp",
+      "tutorial"
+    ]
   },
   {
-    "tags": "article, js",
+    "description": "JS promise tutorial",
+    "name": "FreeCodeCamp",
     "url": "https://www.freecodecamp.org/news/javascript-promise-tutorial-how-to-resolve-or-reject-promises-in-js/",
-    "name": "FreeCodeCamp",
-    "description": "JS promise tutorial"
+    "tags": [
+      "article",
+      "js"
+    ]
   },
   {
-    "tags": "article, js",
+    "description": "Various console() functions in JS",
+    "name": "FreeCodeCamp",
     "url": "https://freecodecamp.org/news/javascript-console-log-example-how-to-print-to-the-console-in-js/",
-    "name": "FreeCodeCamp",
-    "description": "Various console() functions in JS"
+    "tags": [
+      "article",
+      "js"
+    ]
   },
   {
-    "tags": "article, css",
+    "description": "CSS selectors",
+    "name": "FreeCodeCamp",
     "url": "https://guide.freecodecamp.org/css/tutorials/css-selectors-cheat-sheet/",
-    "name": "FreeCodeCamp",
-    "description": "CSS selectors"
+    "tags": [
+      "article",
+      "css"
+    ]
   },
   {
-    "tags": "article, thisthat",
+    "description": "Framework vs Library",
+    "name": "FreeCodeCamp",
     "url": "https://freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/",
-    "name": "FreeCodeCamp",
-    "description": "Framework vs Library"
+    "tags": [
+      "article",
+      "thisthat"
+    ]
   },
   {
-    "tags": "article, html, webdev",
+    "description": "How to store data in web browser storage",
+    "name": "FreeCodeCamp",
     "url": "https://freecodecamp.org/",
-    "name": "FreeCodeCamp",
-    "description": "How to store data in web browser storage"
+    "tags": [
+      "article",
+      "html",
+      "webdev"
+    ]
   },
   {
-    "tags": "article, net",
+    "description": "How to use the Wireshark packet analyzer",
+    "name": "FreeCodeCamp",
     "url": "https://freecodecamp.org/news/how-to-use-wireshark-packet-analyzer",
-    "name": "FreeCodeCamp",
-    "description": "How to use the Wireshark packet analyzer"
+    "tags": [
+      "article",
+      "net"
+    ]
   },
   {
-    "tags": "html",
+    "description": "List of HTML entities",
+    "name": "FreeFormatter",
     "url": "https://freeformatter.com/html-entities.html",
-    "name": "FreeFormatter",
-    "description": "List of HTML entities"
+    "tags": [
+      "html"
+    ]
   },
   {
-    "tags": "tool, webdev",
+    "description": "Lorem ipsum generator",
+    "name": "FreeFormatter",
     "url": "https://freeformatter.com/lorem-ipsum-generator.html",
-    "name": "FreeFormatter",
-    "description": "Lorem ipsum generator"
+    "tags": [
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "article, tutorial, webdev",
-    "url": "https://freefrontend.com/",
+    "description": "Free HTML, CSS and JS code examples, tutorials and articles",
     "name": "FreeFrontend",
-    "description": "Free HTML, CSS and JS code examples, tutorials and articles"
+    "url": "https://freefrontend.com/",
+    "tags": [
+      "article",
+      "tutorial",
+      "webdev"
+    ]
   },
   {
-    "tags": "exercise, webdev",
-    "url": "https://frontendpractice.com/",
+    "description": "Take your frontend skills to the next level by recreating real websites",
     "name": "Frontend Practice",
-    "description": "Take your frontend skills to the next level by recreating real websites"
+    "url": "https://frontendpractice.com/",
+    "tags": [
+      "exercise",
+      "webdev"
+    ]
   },
   {
-    "tags": "article, css",
-    "url": "https://blog.froont.com/positioning-in-web-design/",
+    "description": "Positioning explained with GIFs",
     "name": "Froont blog",
-    "description": "Positioning explained with GIFs"
+    "url": "https://blog.froont.com/positioning-in-web-design/",
+    "tags": [
+      "article",
+      "css"
+    ]
   },
   {
-    "tags": "article, ag, thisthat",
+    "description": "Difference between, declarations, providers and import in ngmodule",
+    "name": "Geeks for Geeks",
     "url": "https://geeksforgeeks.org/what-is-the-difference-between-declarations-providers-and-import-in-ngmodule/",
-    "name": "Geeks for Geeks",
-    "description": "Difference between, declarations, providers and import in ngmodule"
+    "tags": [
+      "ag",
+      "article",
+      "thisthat"
+    ]
   },
   {
-    "tags": "article, ag, tutorial",
+    "description": "How to use Mat-Dialog in Angular",
+    "name": "Geeks for Geeks",
     "url": "https://geeksforgeeks.org/how-to-use-mat-dialog-in-angular/",
-    "name": "Geeks for Geeks",
-    "description": "How to use Mat-Dialog in Angular"
+    "tags": [
+      "ag",
+      "article",
+      "tutorial"
+    ]
   },
   {
-    "tags": "article, cpp",
+    "description": "Type conversion in C++",
+    "name": "Geeks for Geeks",
     "url": "https://geeksforgeeks.org/type-conversion-in-c/",
-    "name": "Geeks for Geeks",
-    "description": "Type conversion in C++"
+    "tags": [
+      "article",
+      "cpp"
+    ]
   },
   {
-    "tags": "interactive, multi, tutorial",
+    "description": "A computer science portal for geeks",
+    "name": "Geeks for Geeks",
     "url": "https://geeksforgeeks.org/",
-    "name": "Geeks for Geeks",
-    "description": "A computer science portal for geeks"
+    "tags": [
+      "interactive",
+      "multi",
+      "tutorial"
+    ]
   },
   {
-    "tags": "git, interactive",
-    "url": "https://gitexercises.fracz.com/",
+    "description": "Learn and practice Git and discover its features",
     "name": "Git Exercises",
-    "description": "Learn and practice Git and discover its features"
+    "url": "https://gitexercises.fracz.com/",
+    "tags": [
+      "git",
+      "interactive"
+    ]
   },
   {
-    "tags": "git, tutorial",
-    "url": "https://github.com/k88hudson/git-flight-rules#conventions-for-this-document",
+    "description": "How-tos list for Git",
     "name": "Git flight rules",
-    "description": "How-tos list for Git"
+    "url": "https://github.com/k88hudson/git-flight-rules#conventions-for-this-document",
+    "tags": [
+      "git",
+      "tutorial"
+    ]
   },
   {
-    "tags": "cheat, git",
-    "url": "https://git-hint.netlify.app/",
+    "description": "Git cheat sheet of common oprations",
     "name": "Git-Hint",
-    "description": "Git cheat sheet of common oprations"
+    "url": "https://git-hint.netlify.app/",
+    "tags": [
+      "cheat",
+      "git"
+    ]
   },
   {
-    "tags": "tool, git",
-    "url": "https://github.com/jlord/git-it-electron/releases",
+    "description": "Learn Git and GitHub basics",
     "name": "Git-It",
-    "description": "Learn Git and GitHub basics"
+    "url": "https://github.com/jlord/git-it-electron/releases",
+    "tags": [
+      "git",
+      "tool"
+    ]
   },
   {
-    "tags": "git, interactive",
-    "url": "http://git-school.github.io/visualizing-git/",
+    "description": "See what's going on underneath the hood when you use common Git operations",
     "name": "Git-School",
-    "description": "See what's going on underneath the hood when you use common Git operations"
+    "url": "http://git-school.github.io/visualizing-git/",
+    "tags": [
+      "git",
+      "interactive"
+    ]
   },
   {
-    "tags": "multi",
+    "description": "Free programming books",
+    "name": "GitHub",
     "url": "https://github.com/EbookFoundation/free-programming-books#list-of-free-learning-resources-in-many-languages-",
-    "name": "GitHub",
-    "description": "Free programming books"
+    "tags": [
+      "multi"
+    ]
   },
   {
-    "tags": "ag, doc, libpak",
+    "description": "Angular Flex-Layout module documentation",
+    "name": "GitHub",
     "url": "https://github.com/angular/flex-layout/wiki",
-    "name": "GitHub",
-    "description": "Angular Flex-Layout module documentation"
+    "tags": [
+      "ag",
+      "doc",
+      "libpak"
+    ]
   },
   {
-    "tags": "tool",
+    "description": "GitHub Student Developer Pack",
+    "name": "GitHub",
     "url": "https://education.github.com/pack",
-    "name": "GitHub",
-    "description": "GitHub Student Developer Pack"
+    "tags": [
+      "tool"
+    ]
   },
   {
-    "tags": "cheat, js, thisthat",
+    "description": "JS script inclusion cheatsheet",
+    "name": "GitHub",
     "url": "https://gist.github.com/jakub-g/385ee6b41085303a53ad92c7c8afd7a6",
-    "name": "GitHub",
-    "description": "JS script inclusion cheatsheet"
+    "tags": [
+      "cheat",
+      "js",
+      "thisthat"
+    ]
   },
   {
-    "tags": "git, thisthat",
-    "url": "https://github.community/t5/Support-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372",
+    "description": "Clone vs Fork",
     "name": "Github Community",
-    "description": "Clone vs Fork"
+    "url": "https://github.community/t5/Support-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372",
+    "tags": [
+      "git",
+      "thisthat"
+    ]
   },
   {
-    "tags": "multi",
-    "url": "https://goalkicker.com/",
+    "description": "Free programming books",
     "name": "goalkicker",
-    "description": "Free programming books"
+    "url": "https://goalkicker.com/",
+    "tags": [
+      "multi"
+    ]
   },
   {
-    "tags": "css",
-    "url": "https://gridbyexample.com/examples/",
+    "description": "Collection of examplesto help you learn CSS Grid Layout",
     "name": "gridbyexample",
-    "description": "Collection of examplesto help you learn CSS Grid Layout"
+    "url": "https://gridbyexample.com/examples/",
+    "tags": [
+      "css"
+    ]
   },
   {
-    "tags": "html, tool",
-    "url": "https://gsnedders.html5.org/outliner/",
+    "description": "HTML5 outliner",
     "name": "gsnedders",
-    "description": "HTML5 outliner"
+    "url": "https://gsnedders.html5.org/outliner/",
+    "tags": [
+      "html",
+      "tool"
+    ]
   },
   {
-    "tags": "doc, php",
-    "url": "https://docs.guzzlephp.org/en/stable/",
+    "description": "Guzzle PHP library documentation",
     "name": "GuzzlePHP",
-    "description": "Guzzle PHP library documentation"
+    "url": "https://docs.guzzlephp.org/en/stable/",
+    "tags": [
+      "doc",
+      "php"
+    ]
   },
   {
-    "tags": "exercise, hacksec, interactive",
-    "url": "https://hackthissite.org/pages/index/index.php",
+    "description": "Free training ground for users to test and expand their hacking skills",
     "name": "Hack This Site!",
-    "description": "Free training ground for users to test and expand their hacking skills"
+    "url": "https://hackthissite.org/pages/index/index.php",
+    "tags": [
+      "exercise",
+      "hacksec",
+      "interactive"
+    ]
   },
   {
-    "tags": "exercise, hacksec, interactive",
-    "url": "https://hacker101.com/",
+    "description": "Free class for web security",
     "name": "Hacker101",
-    "description": "Free class for web security"
+    "url": "https://hacker101.com/",
+    "tags": [
+      "exercise",
+      "hacksec",
+      "interactive"
+    ]
   },
   {
-    "tags": "css, libpak, tool",
-    "url": "https://hackerthemes.com/bootstrap-tools/",
+    "description": "Bootstrap 4 tools",
     "name": "hackerthemes",
-    "description": "Bootstrap 4 tools"
+    "url": "https://hackerthemes.com/bootstrap-tools/",
+    "tags": [
+      "css",
+      "libpak",
+      "tool"
+    ]
   },
   {
-    "tags": "exercise, hacksec, interactive",
-    "url": "https://hackthebox.eu/",
+    "description": "Learn and improve your pen-testing skills",
     "name": "HackTheBox",
-    "description": "Learn and improve your pen-testing skills"
+    "url": "https://hackthebox.eu/",
+    "tags": [
+      "exercise",
+      "hacksec",
+      "interactive"
+    ]
   },
   {
-    "tags": "js, libpak",
-    "url": "https://highcharts.com/",
+    "description": "Rock-solid and incredibly flexible charting library made for developers",
     "name": "HighCharts",
-    "description": "Rock-solid and incredibly flexible charting library made for developers"
+    "url": "https://highcharts.com/",
+    "tags": [
+      "js",
+      "libpak"
+    ]
   },
   {
-    "tags": "css, interactive",
-    "url": "http://howtocenterincss.com/",
+    "description": "Complete guide to CSS centering",
     "name": "howtocenterinCSS",
-    "description": "Complete guide to CSS centering"
+    "url": "http://howtocenterincss.com/",
+    "tags": [
+      "css",
+      "interactive"
+    ]
   },
   {
-    "tags": "article, html",
-    "url": "https://html.com/document/",
+    "description": "HTML document structure before and after HTML5",
     "name": "HTML.com",
-    "description": "HTML document structure before and after HTML5"
+    "url": "https://html.com/document/",
+    "tags": [
+      "article",
+      "html"
+    ]
   },
   {
-    "tags": "html, tutorial",
+    "description": "[ITA] Guida al DOM",
+    "name": "HTML.it",
     "url": "https://html.it/guide/guida-dom/",
-    "name": "HTML.it",
-    "description": "[ITA] Guida al DOM"
+    "tags": [
+      "html",
+      "tutorial"
+    ]
   },
   {
-    "tags": "html, tutorial",
+    "description": "[ITA] Guida ai Web Components",
+    "name": "HTML.it",
     "url": "https://html.it/guide/guida-ai-web-components/",
-    "name": "HTML.it",
-    "description": "[ITA] Guida ai Web Components"
+    "tags": [
+      "html",
+      "tutorial"
+    ]
   },
   {
-    "tags": "interactive, re, tool",
-    "url": "http://html5pattern.com/",
+    "description": "List of regularly used input-patterns",
     "name": "HTML5 Pattern",
-    "description": "List of regularly used input-patterns"
+    "url": "http://html5pattern.com/",
+    "tags": [
+      "interactive",
+      "re",
+      "tool"
+    ]
   },
   {
-    "tags": "tips, webdev",
-    "url": "https://html5please.com/",
+    "description": "Look up HTML5, CSS3, etc features, know if they are ready for use and find out how you should use them",
     "name": "HTML5 Please",
-    "description": "Look up HTML5, CSS3, etc features, know if they are ready for use and find out how you should use them"
+    "url": "https://html5please.com/",
+    "tags": [
+      "tips",
+      "webdev"
+    ]
   },
   {
-    "tags": "js, tutorial",
-    "url": "https://htmldom.dev/",
+    "description": "Manage HTML DOM with vanilla JS",
     "name": "HTMLDOM",
-    "description": "Manage HTML DOM with vanilla JS"
+    "url": "https://htmldom.dev/",
+    "tags": [
+      "js",
+      "tutorial"
+    ]
   },
   {
-    "tags": "html",
+    "description": "HTML tutorial",
+    "name": "HTMLquick",
     "url": "https://htmlquick.com/tutorials.html",
-    "name": "HTMLquick",
-    "description": "HTML tutorial"
+    "tags": [
+      "html"
+    ]
   },
   {
-    "tags": "html",
+    "description": "List of HTML global attributes",
+    "name": "HTMLquick",
     "url": "https://htmlquick.com/reference/attributes.html",
-    "name": "HTMLquick",
-    "description": "List of HTML global attributes"
+    "tags": [
+      "html"
+    ]
   },
   {
-    "tags": "article, thisthat, webdev",
+    "description": "URL vs URI",
+    "name": "HTMLquick",
     "url": "https://htmlquick.com/reference/uri-url.html",
-    "name": "HTMLquick",
-    "description": "URL vs URI"
+    "tags": [
+      "article",
+      "thisthat",
+      "webdev"
+    ]
   },
   {
-    "tags": "doc, html, js",
-    "url": "https://html.spec.whatwg.org/multipage/webstorage.html#the-sessionstorage-attribute",
+    "description": "WebStorage documentation",
     "name": "HTMLSpec",
-    "description": "WebStorage documentation"
+    "url": "https://html.spec.whatwg.org/multipage/webstorage.html#the-sessionstorage-attribute",
+    "tags": [
+      "doc",
+      "html",
+      "js"
+    ]
   },
   {
-    "tags": "py, tutorial",
-    "url": "http://www.ifac.cnr.it/~zoppetti/corsopython/",
+    "description": "[ITA] Corso su Python3",
     "name": "ifac",
-    "description": "[ITA] Corso su Python3"
+    "url": "http://www.ifac.cnr.it/~zoppetti/corsopython/",
+    "tags": [
+      "py",
+      "tutorial"
+    ]
   },
   {
-    "tags": "ag, article, libpak",
+    "description": "RxJS in Angular: when to subscribe?",
+    "name": "indepth.dev",
     "url": "https://indepth.dev/posts/1279/rxjs-in-angular-when-to-subscribe-rarely",
-    "name": "indepth.dev",
-    "description": "RxJS in Angular: when to subscribe?"
+    "tags": [
+      "ag",
+      "article",
+      "libpak"
+    ]
   },
   {
-    "tags": "ag, article, libpak",
+    "description": "RxJS operators list",
+    "name": "indepth.dev",
     "url": "https://indepth.dev/reference/rxjs/operators",
-    "name": "indepth.dev",
-    "description": "RxJS operators list"
+    "tags": [
+      "ag",
+      "article",
+      "libpak"
+    ]
   },
   {
-    "tags": "css, html, tutorial",
-    "url": "https://internetingishard.com/",
+    "description": "HTML/CSS tutorials for beginners",
     "name": "internetingishard",
-    "description": "HTML/CSS tutorials for beginners"
+    "url": "https://internetingishard.com/",
+    "tags": [
+      "css",
+      "html",
+      "tutorial"
+    ]
   },
   {
-    "tags": "net, tool",
-    "url": "https://jodies.de/ipcalc",
+    "description": "ipcalc takes an IP address and netmask and calculates the resulting broadcast, network, Cisco wildcard mask, and host range",
     "name": "ipcalc",
-    "description": "ipcalc takes an IP address and netmask and calculates the resulting broadcast, network, Cisco wildcard mask, and host range"
+    "url": "https://jodies.de/ipcalc",
+    "tags": [
+      "net",
+      "tool"
+    ]
   },
   {
-    "tags": "article, css",
-    "url": "https://ishadeed.com/article/overflow-css/",
+    "description": "Overflow in CSS",
     "name": "ishadeed",
-    "description": "Overflow in CSS"
+    "url": "https://ishadeed.com/article/overflow-css/",
+    "tags": [
+      "article",
+      "css"
+    ]
   },
   {
-    "tags": "cpp, tips",
-    "url": "http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines.html",
+    "description": "C++ core guidelines",
     "name": "ISO cpp",
-    "description": "C++ core guidelines"
+    "url": "http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines.html",
+    "tags": [
+      "cpp",
+      "tips"
+    ]
   },
   {
-    "tags": "article, git, tutorial",
-    "url": "https://itnext.io/git-repository-transfer-keeping-all-history-670fe04cd5e4",
+    "description": "How to replicate your Git repo and keep all previous commits, branches, and tags",
     "name": "ITNext.io",
-    "description": "How to replicate your Git repo and keep all previous commits, branches, and tags"
+    "url": "https://itnext.io/git-repository-transfer-keeping-all-history-670fe04cd5e4",
+    "tags": [
+      "article",
+      "git",
+      "tutorial"
+    ]
   },
   {
-    "tags": "js, thisthat",
-    "url": "https://jakearchibald.com/2017/await-vs-return-vs-return-await/",
+    "description": "await vs return vs return await",
     "name": "JakeArchibald.com",
-    "description": "await vs return vs return await"
+    "url": "https://jakearchibald.com/2017/await-vs-return-vs-return-await/",
+    "tags": [
+      "js",
+      "thisthat"
+    ]
   },
   {
-    "tags": "js, tutorial",
-    "url": "https://bonsaiden.github.io/JavaScript-Garden/",
+    "description": "A growing collection of documentation about the most quirky parts of the JS programming language",
     "name": "JavaScript Garden",
-    "description": "A growing collection of documentation about the most quirky parts of the JS programming language"
+    "url": "https://bonsaiden.github.io/JavaScript-Garden/",
+    "tags": [
+      "js",
+      "tutorial"
+    ]
   },
   {
-    "tags": "js, tutorial",
+    "description": "A guide to modern JS",
+    "name": "JavaScript info",
     "url": "http://javascript.info",
-    "name": "JavaScript info",
-    "description": "A guide to modern JS"
+    "tags": [
+      "js",
+      "tutorial"
+    ]
   },
   {
-    "tags": "article, js",
+    "description": "Mutation observer",
+    "name": "JavaScript info",
     "url": "https://javascript.info/mutation-observer",
-    "name": "JavaScript info",
-    "description": "Mutation observer"
+    "tags": [
+      "article",
+      "js"
+    ]
   },
   {
-    "tags": "article",
-    "url": "https://javascript.plainenglish.io/deploying-any-app-to-github-pages-1e8e946bf890",
+    "description": "How to deploy any app to GitHub Pages",
     "name": "javascript.plainenglish",
-    "description": "How to deploy any app to GitHub Pages"
+    "url": "https://javascript.plainenglish.io/deploying-any-app-to-github-pages-1e8e946bf890",
+    "tags": [
+      "article"
+    ]
   },
   {
-    "tags": "exercise, js",
-    "url": "https://javascript30.com/",
+    "description": "Learn vanilla JS by building 30 things",
     "name": "JavaScript30",
-    "description": "Learn vanilla JS by building 30 things"
+    "url": "https://javascript30.com/",
+    "tags": [
+      "exercise",
+      "js"
+    ]
   },
   {
-    "tags": "article, js",
-    "url": "https://jenniferbland.com/time-complexity-analysis-in-javascript/",
+    "description": "Time complexity in JS",
     "name": "JenniferBland.com",
-    "description": "Time complexity in JS"
+    "url": "https://jenniferbland.com/time-complexity-analysis-in-javascript/",
+    "tags": [
+      "article",
+      "js"
+    ]
   },
   {
-    "tags": "article, tutorial, webdev",
-    "url": "http://jmcglone.com/guides/github-pages/",
+    "description": "A guide to creating and hosting GitHub pages",
     "name": "jmcglone",
-    "description": "A guide to creating and hosting GitHub pages"
+    "url": "http://jmcglone.com/guides/github-pages/",
+    "tags": [
+      "article",
+      "tutorial",
+      "webdev"
+    ]
   },
   {
-    "tags": "net, tool",
-    "url": "http://jodies.de/ipcalc",
+    "description": "IP calculator, subnetting and supernetting",
     "name": "Jodies",
-    "description": "IP calculator, subnetting and supernetting"
+    "url": "http://jodies.de/ipcalc",
+    "tags": [
+      "net",
+      "tool"
+    ]
   },
   {
-    "tags": "js, tutorial",
-    "url": "https://js.evie.dev/",
+    "description": "Evie's accelerated JS tutorial",
     "name": "js.evie.dev",
-    "description": "Evie's accelerated JS tutorial"
+    "url": "https://js.evie.dev/",
+    "tags": [
+      "js",
+      "tutorial"
+    ]
   },
   {
-    "tags": "libpak, js",
-    "url": "https://jscolor.com/",
+    "description": "JS library featuring a color picker with opacity channel",
     "name": "jscolor",
-    "description": "JS library featuring a color picker with opacity channel"
+    "url": "https://jscolor.com/",
+    "tags": [
+      "js",
+      "libpak"
+    ]
   },
   {
-    "tags": "js, tool",
-    "url": "https://jsdoc.app/",
+    "description": "API documentation generator for JavaScript",
     "name": "jsdoc.app",
-    "description": "API documentation generator for JavaScript"
+    "url": "https://jsdoc.app/",
+    "tags": [
+      "js",
+      "tool"
+    ]
   },
   {
-    "tags": "interactive, tool, webdev",
-    "url": "https://jsfiddle.net/",
+    "description": "Online front-end editor",
     "name": "JSFiddle",
-    "description": "Online front-end editor"
+    "url": "https://jsfiddle.net/",
+    "tags": [
+      "interactive",
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "js, tool",
-    "url": "http://jsnice.org/",
+    "description": "Statistical renaming, type inference and obfuscator for JavaScript",
     "name": "JSNice",
-    "description": "Statistical renaming, type inference and obfuscator for JavaScript"
+    "url": "http://jsnice.org/",
+    "tags": [
+      "js",
+      "tool"
+    ]
   },
   {
-    "tags": "doc, oth",
-    "url": "https://json.org/json-en.html",
+    "description": "JSON documentation",
     "name": "JSON",
-    "description": "JSON documentation"
+    "url": "https://json.org/json-en.html",
+    "tags": [
+      "doc",
+      "oth"
+    ]
   },
   {
-    "tags": "oth, tool",
-    "url": "https://jsoneditoronline.org/",
+    "description": "JSON online editor",
     "name": "JSON editor online",
-    "description": "JSON online editor"
+    "url": "https://jsoneditoronline.org/",
+    "tags": [
+      "oth",
+      "tool"
+    ]
   },
   {
-    "tags": "oth, tool",
-    "url": "https://jwt.io/",
+    "description": "Decode, verify and generate JSON Web Tokens",
     "name": "JWT",
-    "description": "Decode, verify and generate JSON Web Tokens"
+    "url": "https://jwt.io/",
+    "tags": [
+      "oth",
+      "tool"
+    ]
   },
   {
-    "tags": "oth, tool",
-    "url": "https://kaffeine.herokuapp.com/",
+    "description": "Ping your Heroku app every 30 minutes so it will never go to sleep",
     "name": "Kaffeine",
-    "description": "Ping your Heroku app every 30 minutes so it will never go to sleep"
+    "url": "https://kaffeine.herokuapp.com/",
+    "tags": [
+      "oth",
+      "tool"
+    ]
   },
   {
-    "tags": "interactive, js",
-    "url": "https://kangax.github.io/compat-table/es6/",
+    "description": "ECMAScript compatibiliy table",
     "name": "kangax.github.io",
-    "description": "ECMAScript compatibiliy table"
+    "url": "https://kangax.github.io/compat-table/es6/",
+    "tags": [
+      "interactive",
+      "js"
+    ]
   },
   {
-    "tags": "interactive, js, tool",
-    "url": "http://keycode.info/",
+    "description": "Press any key to get the JS event keycode",
     "name": "Keycode.info",
-    "description": "Press any key to get the JS event keycode"
+    "url": "http://keycode.info/",
+    "tags": [
+      "interactive",
+      "js",
+      "tool"
+    ]
   },
   {
-    "tags": "article, thisthat",
-    "url": "https://lambdatest.com/blog/bug-severity-vs-priority-in-testing-with-examples/",
+    "description": "Difference between severity and priority in testing",
     "name": "lambdatest",
-    "description": "Difference between severity and priority in testing"
+    "url": "https://lambdatest.com/blog/bug-severity-vs-priority-in-testing-with-examples/",
+    "tags": [
+      "article",
+      "thisthat"
+    ]
   },
   {
-    "tags": "multi, videocourse, webdev",
-    "url": "https://laracasts.com/",
+    "description": "Videocourses about everything related to web development",
     "name": "Laracasts",
-    "description": "Videocourses about everything related to web development"
+    "url": "https://laracasts.com/",
+    "tags": [
+      "multi",
+      "videocourse",
+      "webdev"
+    ]
   },
   {
-    "tags": "cpp, tutorial",
-    "url": "https://learncpp.com//",
+    "description": "Learn how to program in C++ for free",
     "name": "Learn C++",
-    "description": "Learn how to program in C++ for free"
+    "url": "https://learncpp.com//",
+    "tags": [
+      "cpp",
+      "tutorial"
+    ]
   },
   {
-    "tags": "git, interactive",
-    "url": "https://learngitbranching.js.org/",
+    "description": "The most visual and interactive way to learn Git on the web",
     "name": "Learn Git Branching",
-    "description": "The most visual and interactive way to learn Git on the web"
+    "url": "https://learngitbranching.js.org/",
+    "tags": [
+      "git",
+      "interactive"
+    ]
   },
   {
-    "tags": "multi, tutorial",
-    "url": "https://learnxinyminutes.com/",
+    "description": "Scenic programming language tours",
     "name": "Learn X in Y minutes",
-    "description": "Scenic programming language tours"
+    "url": "https://learnxinyminutes.com/",
+    "tags": [
+      "multi",
+      "tutorial"
+    ]
   },
   {
-    "tags": "ag, libpak, tutorial",
-    "url": "https://www.learnrxjs.io/",
+    "description": "Clear examples, explanations, and resources for RxJS",
     "name": "LearnRxJS",
-    "description": "Clear examples, explanations, and resources for RxJS"
+    "url": "https://www.learnrxjs.io/",
+    "tags": [
+      "ag",
+      "libpak",
+      "tutorial"
+    ]
   },
   {
-    "tags": "article, sql",
-    "url": "https://learnsql.com/blog/illustrated-guide-multiple-join/",
+    "description": "An illustrated guide to multiple join",
     "name": "LearnSQL",
-    "description": "An illustrated guide to multiple join"
+    "url": "https://learnsql.com/blog/illustrated-guide-multiple-join/",
+    "tags": [
+      "article",
+      "sql"
+    ]
   },
   {
-    "tags": "exercise, interactive, multi",
-    "url": "https://leetcode.com/problemset/",
+    "description": "Solve code challenges in various languages",
     "name": "Leetcode",
-    "description": "Solve code challenges in various languages"
+    "url": "https://leetcode.com/problemset/",
+    "tags": [
+      "exercise",
+      "interactive",
+      "multi"
+    ]
   },
   {
-    "tags": "article, linux",
-    "url": "https://linuxize.com/post/how-to-exclude-files-and-directories-with-rsync/",
+    "description": "How to exclude files and directories with Rsync",
     "name": "Linuxsize",
-    "description": "How to exclude files and directories with Rsync"
+    "url": "https://linuxize.com/post/how-to-exclude-files-and-directories-with-rsync/",
+    "tags": [
+      "article",
+      "linux"
+    ]
   },
   {
-    "tags": "js, libpak",
-    "url": "https://listjs.com/",
+    "description": "Tiny, simple and powerful library to enhance HTML tables and lists",
     "name": "ListJS",
-    "description": "Tiny, simple and powerful library to enhance HTML tables and lists"
+    "url": "https://listjs.com/",
+    "tags": [
+      "js",
+      "libpak"
+    ]
   },
   {
-    "tags": "js, libpak",
-    "url": "https://lodash.com/",
+    "description": "A modern JavaScript utility library delivering modularity, performance and extras",
     "name": "Lodash",
-    "description": "A modern JavaScript utility library delivering modularity, performance and extras"
+    "url": "https://lodash.com/",
+    "tags": [
+      "js",
+      "libpak"
+    ]
   },
   {
-    "tags": "game",
-    "url": "https://github.com/dargaCode/LogicAndCodingGames/",
+    "description": "A great list of coding and logic games",
     "name": "LogicAndCodingGames",
-    "description": "A great list of coding and logic games"
+    "url": "https://github.com/dargaCode/LogicAndCodingGames/",
+    "tags": [
+      "game"
+    ]
   },
   {
-    "tags": "ag, article",
-    "url": "https://blog.logrocket.com/reactive-form-controls-form-groups-angular/",
+    "description": "FormGroup and FormControl in Angular",
     "name": "Logrocket Blog",
-    "description": "FormGroup and FormControl in Angular"
+    "url": "https://blog.logrocket.com/reactive-form-controls-form-groups-angular/",
+    "tags": [
+      "ag",
+      "article"
+    ]
   },
   {
-    "tags": "tool, webdev",
-    "url": "https://picsum.photos/",
+    "description": "The Lorem Ipsum for photos",
     "name": "Lorem Picsum",
-    "description": "The Lorem Ipsum for photos"
+    "url": "https://picsum.photos/",
+    "tags": [
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "tool, webdev",
-    "url": "https://mailtrap.io/",
+    "description": "Fake SMTP testing server",
     "name": "Mailtrap.io",
-    "description": "Fake SMTP testing server"
+    "url": "https://mailtrap.io/",
+    "tags": [
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "git, tool",
-    "url": "http://marklodato.github.io/visual-git-guide/index-en.html",
+    "description": "Git visual guide",
     "name": "Mark Lodato",
-    "description": "Git visual guide"
+    "url": "http://marklodato.github.io/visual-git-guide/index-en.html",
+    "tags": [
+      "git",
+      "tool"
+    ]
   },
   {
-    "tags": "tool, webdev",
-    "url": "https://material.io/resources/color/#!/",
+    "description": "Create color palettes for your UI and measure color accessibility",
     "name": "Material.io",
-    "description": "Create color palettes for your UI and measure color accessibility"
+    "url": "https://material.io/resources/color/#!/",
+    "tags": [
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "ag, tool",
-    "url": "http://mcg.mbitson.com/",
+    "description": "Material Design them and palette color generator",
     "name": "mbitson",
-    "description": "Material Design them and palette color generator"
+    "url": "http://mcg.mbitson.com/",
+    "tags": [
+      "ag",
+      "tool"
+    ]
   },
   {
-    "tags": "mdn, tutorial, webdev",
+    "description": "Various web development tutorials",
+    "name": "MDN",
     "url": "https://developer.mozilla.org/en-US/docs/Web/Tutorials",
-    "name": "MDN",
-    "description": "Various web development tutorials"
+    "tags": [
+      "mdn",
+      "tutorial",
+      "webdev"
+    ]
   },
   {
-    "tags": "mdn, html",
+    "description": "List of HTML tags",
+    "name": "MDN",
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element",
-    "name": "MDN",
-    "description": "List of HTML tags"
+    "tags": [
+      "html",
+      "mdn"
+    ]
   },
   {
-    "tags": "css",
+    "description": "Guide to flexible box layout",
+    "name": "MDN",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout",
-    "name": "MDN",
-    "description": "Guide to flexible box layout"
+    "tags": [
+      "css"
+    ]
   },
   {
-    "tags": "doc, js",
+    "description": "JS arrow functions",
+    "name": "MDN",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
-    "name": "MDN",
-    "description": "JS arrow functions"
+    "tags": [
+      "doc",
+      "js"
+    ]
   },
   {
-    "tags": "linux, tutorial",
-    "url": "https://mediatemple.net/blog/web-development-tech/complete-beginners-guide-cron-part-1/",
+    "description": "The complete beginners guide to Cron",
     "name": "MediaTemple",
-    "description": "The complete beginners guide to Cron"
+    "url": "https://mediatemple.net/blog/web-development-tech/complete-beginners-guide-cron-part-1/",
+    "tags": [
+      "linux",
+      "tutorial"
+    ]
   },
   {
-    "tags": "article, css, thisthat",
+    "description": "PX vs REM vs EM",
+    "name": "Medium",
     "url": "https://medium.com/code-better/css-units-for-font-size-px-em-rem-79f7e592bb97",
-    "name": "Medium",
-    "description": "PX vs REM vs EM"
+    "tags": [
+      "article",
+      "css",
+      "thisthat"
+    ]
   },
   {
-    "tags": "ag, article",
+    "description": "Simple explanation of the 'Banana in a Box' concept",
+    "name": "Medium",
     "url": "https://ofirrifo.medium.com/custom-angular-component-using-two-way-data-binding-aka-banana-in-a-box-syntax-9eb06b8cfb09",
-    "name": "Medium",
-    "description": "Simple explanation of the 'Banana in a Box' concept"
+    "tags": [
+      "ag",
+      "article"
+    ]
   },
   {
-    "tags": "article, laravel",
+    "description": "How to host a Laravel application for free on Heroku",
+    "name": "Medium",
     "url": "https://just1and0.medium.com/how-to-host-your-laravel-application-for-free-on-heroku-4789688d444b",
-    "name": "Medium",
-    "description": "How to host a Laravel application for free on Heroku"
+    "tags": [
+      "article",
+      "laravel"
+    ]
   },
   {
-    "tags": "ag, article",
+    "description": "Understanding Angular modules(NgModule) and their scopes",
+    "name": "Medium",
     "url": "https://medium.com/@cyrilletuzi/understanding-angular-modules-ngmodule-and-their-scopes-81e4ed6f7407",
-    "name": "Medium",
-    "description": "Understanding Angular modules(NgModule) and their scopes"
+    "tags": [
+      "ag",
+      "article"
+    ]
   },
   {
-    "tags": "ag, article, tips, ts",
+    "description": "Simplifying Typescript import paths in Angular",
+    "name": "Medium",
     "url": "https://medium.com/rpdstartup/simplifying-typescript-import-paths-in-angular-c3249a4edbb3",
-    "name": "Medium",
-    "description": "Simplifying Typescript import paths in Angular"
+    "tags": [
+      "ag",
+      "article",
+      "tips",
+      "ts"
+    ]
   },
   {
-    "tags": "sql, tool",
-    "url": "https://www.metabase.com/",
+    "description": "Business intelligence for everyone",
     "name": "Metabase",
-    "description": "Business intelligence for everyone"
+    "url": "https://www.metabase.com/",
+    "tags": [
+      "sql",
+      "tool"
+    ]
   },
   {
-    "tags": "hacksec, fw",
-    "url": "https://metasploit.com/",
+    "description": "Most used framework for pentesting",
     "name": "Metasploit",
-    "description": "Most used framework for pentesting"
+    "url": "https://metasploit.com/",
+    "tags": [
+      "fw",
+      "hacksec"
+    ]
   },
   {
-    "tags": "webdev, tool",
-    "url": "https://metatags.io/",
+    "description": "Experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!",
     "name": "MetaTags",
-    "description": "Experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!"
+    "url": "https://metatags.io/",
+    "tags": [
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "article, js, tips",
-    "url": "https://michaeluloth.com/filter-boolean",
+    "description": "The filter(Boolean) trick",
     "name": "michaeluloth.com",
-    "description": "The filter(Boolean) trick"
+    "url": "https://michaeluloth.com/filter-boolean",
+    "tags": [
+      "article",
+      "js",
+      "tips"
+    ]
   },
   {
-    "tags": "oth, fw",
-    "url": "https://monogame.net/downloads/",
+    "description": "Implementation of XNA framework for cross-platform game development (C#)",
     "name": "Monogame",
-    "description": "Implementation of XNA framework for cross-platform game development (C#)"
+    "url": "https://monogame.net/downloads/",
+    "tags": [
+      "fw",
+      "oth"
+    ]
   },
   {
-    "tags": "ag, libpak",
-    "url": "https://cuppalabs.github.io/components/multiselectDropdown/",
+    "description": "A multiselect dropdown component for Angular applications",
     "name": "Multiselect Dropdown",
-    "description": "A multiselect dropdown component for Angular applications"
+    "url": "https://cuppalabs.github.io/components/multiselectDropdown/",
+    "tags": [
+      "ag",
+      "libpak"
+    ]
   },
   {
-    "tags": "doc, sql",
-    "url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "description": "MySQL 8.0 reference manual",
     "name": "MySQL",
-    "description": "MySQL 8.0 reference manual"
+    "url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "tags": [
+      "doc",
+      "sql"
+    ]
   },
   {
-    "tags": "cheat, hacksec, sql",
-    "url": "https://netsparker.com/blog/web-security/sql-injection-cheat-sheet/",
+    "description": "SQL injection cheat sheet",
     "name": "Net Sparker",
-    "description": "SQL injection cheat sheet"
+    "url": "https://netsparker.com/blog/web-security/sql-injection-cheat-sheet/",
+    "tags": [
+      "cheat",
+      "hacksec",
+      "sql"
+    ]
   },
   {
-    "tags": "article",
-    "url": "https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/",
+    "description": "An absolute beginners guide to using npm",
     "name": "NodeSource",
-    "description": "An absolute beginners guide to using npm"
+    "url": "https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/",
+    "tags": [
+      "article"
+    ]
   },
   {
-    "tags": "css, libpak",
-    "url": "https://github.com/necolas/normalize.css/blob/master/normalize.css",
+    "description": "Make browsers render all elements more consistently and in line with modern standards",
     "name": "Normalize.css",
-    "description": "Make browsers render all elements more consistently and in line with modern standards"
+    "url": "https://github.com/necolas/normalize.css/blob/master/normalize.css",
+    "tags": [
+      "css",
+      "libpak"
+    ]
   },
   {
-    "tags": "js, libpak",
-    "url": "https://npmjs.com/package/music-metadata",
+    "description": "Stream and file based music metadata parser for Node.js",
     "name": "npmjs",
-    "description": "Stream and file based music metadata parser for Node.js"
+    "url": "https://npmjs.com/package/music-metadata",
+    "tags": [
+      "js",
+      "libpak"
+    ]
   },
   {
-    "tags": "git, tips",
-    "url": "https://ohshitgit.com/",
+    "description": "Useful commands to get out of hard situations that happen while using Git",
     "name": "Oh shit, Git!?!",
-    "description": "Useful commands to get out of hard situations that happen while using Git"
+    "url": "https://ohshitgit.com/",
+    "tags": [
+      "git",
+      "tips"
+    ]
   },
   {
-    "tags": "game, hacksec, interactive",
-    "url": "https://overthewire.org/wargames/",
+    "description": "Learn and practice security concepts in the form of fun-filled games",
     "name": "OverTheWire Wargames",
-    "description": "Learn and practice security concepts in the form of fun-filled games"
+    "url": "https://overthewire.org/wargames/",
+    "tags": [
+      "game",
+      "hacksec",
+      "interactive"
+    ]
   },
   {
-    "tags": "js, tool",
-    "url": "https://perf.link/",
+    "description": "JS performance benchmarks you can share via URL",
     "name": "perf.link",
-    "description": "JS performance benchmarks you can share via URL"
+    "url": "https://perf.link/",
+    "tags": [
+      "js",
+      "tool"
+    ]
   },
   {
-    "tags": "php",
-    "url": "https://odan.github.io/learn-php/",
+    "description": "A curated list of resources for PHP",
     "name": "PHP is cool",
-    "description": "A curated list of resources for PHP"
+    "url": "https://odan.github.io/learn-php/",
+    "tags": [
+      "php"
+    ]
   },
   {
-    "tags": "php, tutorial",
-    "url": "https://github.com/DerZanael/PHP-Registration-Login",
+    "description": "A tutorial for PHP registration/login",
     "name": "PHP Registration Login",
-    "description": "A tutorial for PHP registration/login"
+    "url": "https://github.com/DerZanael/PHP-Registration-Login",
+    "tags": [
+      "php",
+      "tutorial"
+    ]
   },
   {
-    "tags": "article, php, sql",
-    "url": "https://phpdelusions.net/mysqli_examples/prepared_select",
+    "description": "Mysqli SELECT query with prepared statements",
     "name": "phpdelusions",
-    "description": "Mysqli SELECT query with prepared statements"
+    "url": "https://phpdelusions.net/mysqli_examples/prepared_select",
+    "tags": [
+      "article",
+      "php",
+      "sql"
+    ]
   },
   {
-    "tags": "php, tutorial",
-    "url": "http://it.phptherightway.com/",
+    "description": "[ITA] PHP: la retta via",
     "name": "phptherightway",
-    "description": "[ITA] PHP: la retta via"
+    "url": "http://it.phptherightway.com/",
+    "tags": [
+      "php",
+      "tutorial"
+    ]
   },
   {
-    "tags": "js, libpak, tips",
-    "url": "https://plainjs.com/",
+    "description": "The Vanilla JavaScript repository",
     "name": "PlainJS",
-    "description": "The Vanilla JavaScript repository"
+    "url": "https://plainjs.com/",
+    "tags": [
+      "js",
+      "libpak",
+      "tips"
+    ]
   },
   {
-    "tags": "interactive, tool, webdev",
-    "url": "https://playcode.io/new/",
+    "description": "JS playground",
     "name": "PlayCode",
-    "description": "JS playground"
+    "url": "https://playcode.io/new/",
+    "tags": [
+      "interactive",
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "tool, webdev",
-    "url": "https://polyfill.io/v3/",
+    "description": "Support differing browsers by attempting to recreate the missing features with polyfills",
     "name": "Polyfill",
-    "description": "Support differing browsers by attempting to recreate the missing features with polyfills"
+    "url": "https://polyfill.io/v3/",
+    "tags": [
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "exercise, interactive, py",
-    "url": "http://practicepython.org/",
+    "description": "Learn Python by solving code challenges",
     "name": "Practice Python",
-    "description": "Learn Python by solving code challenges"
+    "url": "http://practicepython.org/",
+    "tags": [
+      "exercise",
+      "interactive",
+      "py"
+    ]
   },
   {
-    "tags": "py, tutorial",
-    "url": "http://python.it/doc/Howtothink/Howtothink-html-it/index.htm",
+    "description": "[ITA] Corso in italiano su Python",
     "name": "Python.it",
-    "description": "[ITA] Corso in italiano su Python"
+    "url": "http://python.it/doc/Howtothink/Howtothink-html-it/index.htm",
+    "tags": [
+      "py",
+      "tutorial"
+    ]
   },
   {
-    "tags": "doc, py, tutorial",
-    "url": "https://docs.python.org/3/tutorial/",
+    "description": "Official Python documentation/tutorial",
     "name": "Python.org",
-    "description": "Official Python documentation/tutorial"
+    "url": "https://docs.python.org/3/tutorial/",
+    "tags": [
+      "doc",
+      "py",
+      "tutorial"
+    ]
   },
   {
-    "tags": "multi, reddit, supp",
-    "url": "https://reddit.com/r/ItalyInformatica/",
+    "description": "Il panorama informatico italiano su Reddit",
     "name": "r/ItalyInformatica",
-    "description": "Il panorama informatico italiano su Reddit"
+    "url": "https://reddit.com/r/ItalyInformatica/",
+    "tags": [
+      "multi",
+      "reddit",
+      "supp"
+    ]
   },
   {
-    "tags": "multi, reddit, supp",
-    "url": "https://reddit.com/r/learnprogramming/",
+    "description": "Ask for help for various programming languages",
     "name": "r/learnprogramming",
-    "description": "Ask for help for various programming languages"
+    "url": "https://reddit.com/r/learnprogramming/",
+    "tags": [
+      "multi",
+      "reddit",
+      "supp"
+    ]
   },
   {
-    "tags": "reddit, supp, webdev",
-    "url": "https://reddit.com/r/webdev/",
+    "description": "A community dedicated to all things web development",
     "name": "r/webdev",
-    "description": "A community dedicated to all things web development"
+    "url": "https://reddit.com/r/webdev/",
+    "tags": [
+      "reddit",
+      "supp",
+      "webdev"
+    ]
   },
   {
-    "tags": "oth, tutorial",
-    "url": "http://rbwhitaker.wikidot.com/xna-tutorials",
+    "description": "Various tutorials for XNA Framwork(C#)",
     "name": "rbwhitaker.wikidot",
-    "description": "Various tutorials for XNA Framwork(C#)"
+    "url": "http://rbwhitaker.wikidot.com/xna-tutorials",
+    "tags": [
+      "oth",
+      "tutorial"
+    ]
   },
   {
-    "tags": "tool, webdev",
-    "url": "https://realfavicongenerator.net/",
+    "description": "Easily generates favicons for every browser",
     "name": "realfavicongenerator",
-    "description": "Easily generates favicons for every browser"
+    "url": "https://realfavicongenerator.net/",
+    "tags": [
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "py, tutorial",
+    "description": "Python f-strings",
+    "name": "RealPython",
     "url": "https://realpython.com/python-f-strings/",
-    "name": "RealPython",
-    "description": "Python f-strings"
+    "tags": [
+      "py",
+      "tutorial"
+    ]
   },
   {
-    "tags": "py, tutorial",
+    "description": "Socket programming in Python",
+    "name": "RealPython",
     "url": "https://realpython.com/python-sockets/",
-    "name": "RealPython",
-    "description": "Socket programming in Python"
+    "tags": [
+      "py",
+      "tutorial"
+    ]
   },
   {
-    "tags": "interactive, re",
-    "url": "https://regex101.com/",
+    "description": "Build, test and debug regular expressions",
     "name": "Regex101",
-    "description": "Build, test and debug regular expressions"
+    "url": "https://regex101.com/",
+    "tags": [
+      "interactive",
+      "re"
+    ]
   },
   {
-    "tags": "cheat, interactive, re",
-    "url": "https://projects.lukehaas.me/regexhub/",
+    "description": "Useful regex patterns",
     "name": "RegexHUB",
-    "description": "Useful regex patterns"
+    "url": "https://projects.lukehaas.me/regexhub/",
+    "tags": [
+      "cheat",
+      "interactive",
+      "re"
+    ]
   },
   {
-    "tags": "exercise, interactive, re, tutorial",
-    "url": "https://regexone.com/",
+    "description": "Learn regular expressions with simple and interactive exercises",
     "name": "RegexOne",
-    "description": "Learn regular expressions with simple and interactive exercises"
+    "url": "https://regexone.com/",
+    "tags": [
+      "exercise",
+      "interactive",
+      "re",
+      "tutorial"
+    ]
   },
   {
-    "tags": "cheat, doc, interactive, re, tool",
-    "url": "https://regexr.com/",
+    "description": "Online tool to learn, build and test regular expressions",
     "name": "Regexr",
-    "description": "Online tool to learn, build and test regular expressions"
+    "url": "https://regexr.com/",
+    "tags": [
+      "cheat",
+      "doc",
+      "interactive",
+      "re",
+      "tool"
+    ]
   },
   {
-    "tags": "interactive, multi, tool",
-    "url": "https://replit.com/",
+    "description": "simple yet powerful online IDE, editor, compiler, interpreter, and REPL",
     "name": "Replit",
-    "description": "simple yet powerful online IDE, editor, compiler, interpreter, and REPL"
+    "url": "https://replit.com/",
+    "tags": [
+      "interactive",
+      "multi",
+      "tool"
+    ]
   },
   {
-    "tags": "article, js",
-    "url": "https://rowanmanning.com/posts/javascript-for-beginners-async/",
+    "description": "JS for beginners: Async",
     "name": "rowanmanning",
-    "description": "JS for beginners: Async"
+    "url": "https://rowanmanning.com/posts/javascript-for-beginners-async/",
+    "tags": [
+      "article",
+      "js"
+    ]
   },
   {
-    "tags": "thisthat, tutorial, webdev",
-    "url": "https://samanthaming.com/",
+    "description": "Awesome website with a lot of intuitive tidbits on various topics(CSS, HTML, JS)",
     "name": "SamanthaMing.com",
-    "description": "Awesome website with a lot of intuitive tidbits on various topics(CSS, HTML, JS)"
+    "url": "https://samanthaming.com/",
+    "tags": [
+      "thisthat",
+      "tutorial",
+      "webdev"
+    ]
   },
   {
-    "tags": "css, interactive, tool",
-    "url": "https://www.sassmeister.com/",
+    "description": "SASS playground",
     "name": "SassMeister",
-    "description": "SASS playground"
+    "url": "https://www.sassmeister.com/",
+    "tags": [
+      "css",
+      "interactive",
+      "tool"
+    ]
   },
   {
-    "tags": "tool, webdev",
-    "url": "https://screensizemap.com/",
+    "description": "A screen size comparison for responsive design",
     "name": "screensizemap",
-    "description": "A screen size comparison for responsive design"
+    "url": "https://screensizemap.com/",
+    "tags": [
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "interactive, tutorial",
-    "url": "https://scrimba.com/",
+    "description": "Learn to code with interactive tutorials",
     "name": "Scrimba",
-    "description": "Learn to code with interactive tutorials"
+    "url": "https://scrimba.com/",
+    "tags": [
+      "interactive",
+      "tutorial"
+    ]
   },
   {
-    "tags": "css, html, tutorial",
-    "url": "https://learn.shayhowe.com/",
+    "description": "Beginners and advanced HTML/CSS tutorials",
     "name": "ShayHowe",
-    "description": "Beginners and advanced HTML/CSS tutorials"
+    "url": "https://learn.shayhowe.com/",
+    "tags": [
+      "css",
+      "html",
+      "tutorial"
+    ]
   },
   {
-    "tags": "hacksec",
-    "url": "https://shodan.io/",
+    "description": "The search engine for finding vulnerable servers",
     "name": "Shodan",
-    "description": "The search engine for finding vulnerable servers"
+    "url": "https://shodan.io/",
+    "tags": [
+      "hacksec"
+    ]
   },
   {
-    "tags": "article, tips, webdev",
-    "url": "https://skovy.dev/blog/measuring-frontend-performance-in-modern-browsers",
+    "description": "Measuring frontend performance",
     "name": "skovy.dev",
-    "description": "Measuring frontend performance"
+    "url": "https://skovy.dev/blog/measuring-frontend-performance-in-modern-browsers",
+    "tags": [
+      "article",
+      "tips",
+      "webdev"
+    ]
   },
   {
-    "tags": "interactive, tool",
-    "url": "https://snippet-generator.app/",
+    "description": "Easily create Visual Studio Code, Sublime Text and Atom snippets",
     "name": "snippet generator",
-    "description": "Easily create Visual Studio Code, Sublime Text and Atom snippets"
+    "url": "https://snippet-generator.app/",
+    "tags": [
+      "interactive",
+      "tool"
+    ]
   },
   {
-    "tags": "multi, interactive, supp, tutorial",
-    "url": "https://sololearn.com/",
+    "description": "Learn to code for free",
     "name": "SoloLearn",
-    "description": "Learn to code for free"
+    "url": "https://sololearn.com/",
+    "tags": [
+      "interactive",
+      "multi",
+      "supp",
+      "tutorial"
+    ]
   },
   {
-    "tags": "css, tips",
-    "url": "https://philipwalton.github.io/solved-by-flexbox/",
+    "description": "Showcase of problems once hard to solve that are now easily solved thanks to Flexbox",
     "name": "Solved by Flexbox",
-    "description": "Showcase of problems once hard to solve that are now easily solved thanks to Flexbox"
+    "url": "https://philipwalton.github.io/solved-by-flexbox/",
+    "tags": [
+      "css",
+      "tips"
+    ]
   },
   {
-    "tags": "article, git",
-    "url": "https://sparkbox.com/foundry/semantic_commit_messages",
+    "description": "Semantic commit messages",
     "name": "SparkBox",
-    "description": "Semantic commit messages"
+    "url": "https://sparkbox.com/foundry/semantic_commit_messages",
+    "tags": [
+      "article",
+      "git"
+    ]
   },
   {
-    "tags": "css, interactive",
-    "url": "https://specificity.keegan.st/",
+    "description": "A visual way to understand CSS specificity",
     "name": "Specificity Calculator",
-    "description": "A visual way to understand CSS specificity"
+    "url": "https://specificity.keegan.st/",
+    "tags": [
+      "css",
+      "interactive"
+    ]
   },
   {
-    "tags": "exercise, interactive, sql, tutorial",
-    "url": "https://sqlbolt.com/",
+    "description": "Learn SQL with simple, interactive exercises",
     "name": "SQLBolt",
-    "description": "Learn SQL with simple, interactive exercises"
+    "url": "https://sqlbolt.com/",
+    "tags": [
+      "exercise",
+      "interactive",
+      "sql",
+      "tutorial"
+    ]
   },
   {
-    "tags": "exercise, interactive, sql, tutorial",
-    "url": "https://sqlzoo.net/wiki/SQL_Tutorial",
+    "description": "Learn SQL with simple, interactive exercises",
     "name": "SQLZoo",
-    "description": "Learn SQL with simple, interactive exercises"
+    "url": "https://sqlzoo.net/wiki/SQL_Tutorial",
+    "tags": [
+      "exercise",
+      "interactive",
+      "sql",
+      "tutorial"
+    ]
   },
   {
-    "tags": "multi, supp",
+    "description": "The largest and most trusted community for developers",
+    "name": "Stack Overflow",
     "url": "https://stackoverflow.com/",
-    "name": "Stack Overflow",
-    "description": "The largest and most trusted community for developers"
+    "tags": [
+      "multi",
+      "supp"
+    ]
   },
   {
-    "tags": "laravel",
+    "description": "Logging out via a link in Laravel",
+    "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/43087648/",
-    "name": "Stack Overflow",
-    "description": "Logging out via a link in Laravel"
+    "tags": [
+      "laravel"
+    ]
   },
   {
-    "tags": "ts",
+    "description": "What does the \" as const\" mean in TypeScript and what is its use case?",
+    "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/66993264/",
-    "name": "Stack Overflow",
-    "description": "What does the \" as const\" mean in TypeScript and what is its use case?"
+    "tags": [
+      "ts"
+    ]
   },
   {
-    "tags": "js, thisthat",
+    "description": "JS: var vs let",
+    "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/762011/",
-    "name": "Stack Overflow",
-    "description": "JS: var vs let"
+    "tags": [
+      "js",
+      "thisthat"
+    ]
   },
   {
-    "tags": "php, thisthat",
+    "description": "PHP: die() vs trigger_error() vs throw Exception",
+    "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/7063053/",
-    "name": "Stack Overflow",
-    "description": "PHP: die() vs trigger_error() vs throw Exception"
+    "tags": [
+      "php",
+      "thisthat"
+    ]
   },
   {
-    "tags": "js, thisthat",
+    "description": "JS: null vs undefined",
+    "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/5076944/",
-    "name": "Stack Overflow",
-    "description": "JS: null vs undefined"
+    "tags": [
+      "js",
+      "thisthat"
+    ]
   },
   {
-    "tags": "js, thisthat",
+    "description": "JS: polyfill vs transpiler",
+    "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/31205640/",
-    "name": "Stack Overflow",
-    "description": "JS: polyfill vs transpiler"
+    "tags": [
+      "js",
+      "thisthat"
+    ]
   },
   {
-    "tags": "css, thisthat",
+    "description": "CSS: difference between align-items and align-content",
+    "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/27539262/",
-    "name": "Stack Overflow",
-    "description": "CSS: difference between align-items and align-content"
+    "tags": [
+      "css",
+      "thisthat"
+    ]
   },
   {
-    "tags": "html, thisthat",
+    "description": "HTML: difference between src and href",
+    "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/3395359/",
-    "name": "Stack Overflow",
-    "description": "HTML: difference between src and href"
+    "tags": [
+      "html",
+      "thisthat"
+    ]
   },
   {
-    "tags": "html, thisthat",
+    "description": "HTML: difference between &lt;b&gt; and &lt;strong&gt;, &lt;i&gt; and &lt;em&gt;",
+    "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/271743/",
-    "name": "Stack Overflow",
-    "description": "HTML: difference between &lt;b&gt; and &lt;strong&gt;, &lt;i&gt; and &lt;em&gt;"
+    "tags": [
+      "html",
+      "thisthat"
+    ]
   },
   {
-    "tags": "html, thisthat",
+    "description": "HTML: difference between property and attribute",
+    "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/6003819/",
-    "name": "Stack Overflow",
-    "description": "HTML: difference between property and attribute"
+    "tags": [
+      "html",
+      "thisthat"
+    ]
   },
   {
-    "tags": "html, thisthat",
+    "description": "HTML: disabled vs readonly attribute",
+    "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/7730695/",
-    "name": "Stack Overflow",
-    "description": "HTML: disabled vs readonly attribute"
+    "tags": [
+      "html",
+      "thisthat"
+    ]
   },
   {
-    "tags": "py",
+    "description": "Python: how to add new keys to a dictionary?",
+    "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/1024847/how-can-i-add-new-keys-to-a-dictionary/8381589#8381589",
-    "name": "Stack Overflow",
-    "description": "Python: how to add new keys to a dictionary?"
+    "tags": [
+      "py"
+    ]
   },
   {
-    "tags": "js",
+    "description": "Convert float to int in JS",
+    "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/596467/",
-    "name": "Stack Overflow",
-    "description": "Convert float to int in JS"
+    "tags": [
+      "js"
+    ]
   },
   {
-    "tags": "html, tips",
+    "description": "Linking to arbitrary content on a webpage without anchor tags",
+    "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/16338602/",
-    "name": "Stack Overflow",
-    "description": "Linking to arbitrary content on a webpage without anchor tags"
+    "tags": [
+      "html",
+      "tips"
+    ]
   },
   {
-    "tags": "interactive, tool, webdev",
-    "url": "https://stackblitz.com/",
+    "description": "Create, edit and deploy fullstack apps",
     "name": "Stackblitz",
-    "description": "Create, edit and deploy fullstack apps"
+    "url": "https://stackblitz.com/",
+    "tags": [
+      "interactive",
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "js, thisthat",
-    "url": "https://stackoverflow.com/questions/14220321/",
+    "description": "JS: sync va async",
     "name": "StackOverflow",
-    "description": "JS: sync va async"
+    "url": "https://stackoverflow.com/questions/14220321/",
+    "tags": [
+      "js",
+      "thisthat"
+    ]
   },
   {
-    "tags": "ag, libpak, js",
-    "url": "https://sweetalert2.github.io/",
+    "description": "Responsive, curstomizable and accessible replacement for JavaScript popup boxes",
     "name": "SweetAlert",
-    "description": "Responsive, curstomizable and accessible replacement for JavaScript popup boxes"
+    "url": "https://sweetalert2.github.io/",
+    "tags": [
+      "ag",
+      "js",
+      "libpak"
+    ]
   },
   {
-    "tags": "interactive, php, tool",
-    "url": "https://tehplayground.com/",
+    "description": "Fast and easy to use PHP testbed",
     "name": "tehokayground",
-    "description": "Fast and easy to use PHP testbed"
+    "url": "https://tehplayground.com/",
+    "tags": [
+      "interactive",
+      "php",
+      "tool"
+    ]
   },
   {
-    "tags": "ag, article",
-    "url": "https://tektutorialshub.com/angular/meta-service-in-angular-add-update-meta-tags-example/",
+    "description": "Meta service in Angular: add and update Meta tags",
     "name": "tektutorialshub",
-    "description": "Meta service in Angular: add and update Meta tags"
+    "url": "https://tektutorialshub.com/angular/meta-service-in-angular-add-update-meta-tags-example/",
+    "tags": [
+      "ag",
+      "article"
+    ]
   },
   {
-    "tags": "tutorial, webdev",
-    "url": "https://theodinproject.com/home",
+    "description": "Learn everything you need to know to become a web developer",
     "name": "The Odin Project",
-    "description": "Learn everything you need to know to become a web developer"
+    "url": "https://theodinproject.com/home",
+    "tags": [
+      "tutorial",
+      "webdev"
+    ]
   },
   {
-    "tags": "ag, libpak, tool",
-    "url": "https://thinkrx.io/",
+    "description": "Instant marble diagrams for reactive programming libraries (RxJS,Bacon.js,Kefir.js)",
     "name": "ThinkRX",
-    "description": "Instant marble diagrams for reactive programming libraries (RxJS,Bacon.js,Kefir.js)"
+    "url": "https://thinkrx.io/",
+    "tags": [
+      "ag",
+      "libpak",
+      "tool"
+    ]
   },
   {
-    "tags": "thisthat, webdev",
-    "url": "https://thisthat.dev/",
+    "description": "What is the difference between X and Y in the front-end development?",
     "name": "ThisThat",
-    "description": "What is the difference between X and Y in the front-end development?"
+    "url": "https://thisthat.dev/",
+    "tags": [
+      "thisthat",
+      "webdev"
+    ]
   },
   {
-    "tags": "tool, webdev",
-    "url": "https://tinypng.com/",
+    "description": "Compress PNG images and increase loading time for your website",
     "name": "TinyPNG",
-    "description": "Compress PNG images and increase loading time for your website"
+    "url": "https://tinypng.com/",
+    "tags": [
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "article, cheat, js",
+    "description": "Cheat sheet for moving from jQuery to vanilla JS",
+    "name": "TobiashLin.com",
     "url": "https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/",
-    "name": "TobiashLin.com",
-    "description": "Cheat sheet for moving from jQuery to vanilla JS"
+    "tags": [
+      "article",
+      "cheat",
+      "js"
+    ]
   },
   {
-    "tags": "article, css",
+    "description": "Breaking to a new row with flexbox",
+    "name": "TobiashLin.com",
     "url": "https://tobiasahlin.com/blog/flexbox-break-to-new-row/",
-    "name": "TobiashLin.com",
-    "description": "Breaking to a new row with flexbox"
+    "tags": [
+      "article",
+      "css"
+    ]
   },
   {
-    "tags": "interactive, tool, webdev",
-    "url": "https://tomhodgins.com/demo/dom/",
+    "description": "Live DOM viewer tool",
     "name": "TomHodgins.com",
-    "description": "Live DOM viewer tool"
+    "url": "https://tomhodgins.com/demo/dom/",
+    "tags": [
+      "interactive",
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "tool, multi",
-    "url": "https://transform.tools/",
+    "description": "A polyglot web converter",
     "name": "Transform",
-    "description": "A polyglot web converter"
+    "url": "https://transform.tools/",
+    "tags": [
+      "multi",
+      "tool"
+    ]
   },
   {
-    "tags": "article, js, tips",
-    "url": "https://blog.teamtreehouse.com/unobtrusive-javascript-important",
+    "description": "How to write unobtrusive JS code",
     "name": "treehouse blog",
-    "description": "How to write unobtrusive JS code"
+    "url": "https://blog.teamtreehouse.com/unobtrusive-javascript-important",
+    "tags": [
+      "article",
+      "js",
+      "tips"
+    ]
   },
   {
-    "tags": "hacksec, interactive",
-    "url": "https://tryhackme.com/",
+    "description": "Learn cybersecurity with these guides/challenges",
     "name": "TryHackMe",
-    "description": "Learn cybersecurity with these guides/challenges"
+    "url": "https://tryhackme.com/",
+    "tags": [
+      "hacksec",
+      "interactive"
+    ]
   },
   {
-    "tags": "tool, ts",
-    "url": "https://tsplay-dev.vercel.app/",
+    "description": "Short-links for the TypeScript playground",
     "name": "tsplay-dev",
-    "description": "Short-links for the TypeScript playground"
+    "url": "https://tsplay-dev.vercel.app/",
+    "tags": [
+      "tool",
+      "ts"
+    ]
   },
   {
-    "tags": "tutorial, webdev",
-    "url": "https://tutorialrepublic.com/",
+    "description": "Web Developement tutorials",
     "name": "TutorialRepublic",
-    "description": "Web Developement tutorials"
+    "url": "https://tutorialrepublic.com/",
+    "tags": [
+      "tutorial",
+      "webdev"
+    ]
   },
   {
-    "tags": "article, cpp",
-    "url": "https://tutorialspoint.com/cplusplus/cpp_operators.htm",
+    "description": "C++ operators",
     "name": "Tutorialspoint",
-    "description": "C++ operators"
+    "url": "https://tutorialspoint.com/cplusplus/cpp_operators.htm",
+    "tags": [
+      "article",
+      "cpp"
+    ]
   },
   {
-    "tags": "doc, ts",
-    "url": "https://typescriptlang.org/docs",
+    "description": "TypesScript official documentation and handbook",
     "name": "TypeScript lang",
-    "description": "TypesScript official documentation and handbook"
+    "url": "https://typescriptlang.org/docs",
+    "tags": [
+      "doc",
+      "ts"
+    ]
   },
   {
-    "tags": "js, tool, ts",
-    "url": "https://typescriptlang.org/play/",
+    "description": "An online editor for exploring TypeScript and JavaScript",
     "name": "TypeScript playground",
-    "description": "An online editor for exploring TypeScript and JavaScript"
+    "url": "https://typescriptlang.org/play/",
+    "tags": [
+      "js",
+      "tool",
+      "ts"
+    ]
   },
   {
-    "tags": "css, tips",
-    "url": "http://vanseodesign.com/css/vertical-centering/",
+    "description": "Six methods for vertical centering with CSS",
     "name": "vanseodesign",
-    "description": "Six methods for vertical centering with CSS"
+    "url": "http://vanseodesign.com/css/vertical-centering/",
+    "tags": [
+      "css",
+      "tips"
+    ]
   },
   {
-    "tags": "tips, tutorial",
-    "url": "https://vscodecandothat.com/",
+    "description": "All the best things about VS Code that nobody ever bothered to tell you",
     "name": "VS Code can do that?",
-    "description": "All the best things about VS Code that nobody ever bothered to tell you"
+    "url": "https://vscodecandothat.com/",
+    "tags": [
+      "tips",
+      "tutorial"
+    ]
   },
   {
-    "tags": "html, tool, webdev",
+    "description": "HTML validator",
+    "name": "W3.org",
     "url": "https://validator.w3.org/",
-    "name": "W3.org",
-    "description": "HTML validator"
+    "tags": [
+      "html",
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "css, doc",
+    "description": "CSS selectors",
+    "name": "W3.org",
     "url": "https://w3.org/TR/selectors-3/#selectors",
-    "name": "W3.org",
-    "description": "CSS selectors"
+    "tags": [
+      "css",
+      "doc"
+    ]
   },
   {
-    "tags": "interactive, tutorial, webdev",
+    "description": "Learn web technologies online",
+    "name": "W3Schools",
     "url": "https://w3schools.com/",
-    "name": "W3Schools",
-    "description": "Learn web technologies online"
+    "tags": [
+      "interactive",
+      "tutorial",
+      "webdev"
+    ]
   },
   {
-    "tags": "html, tool",
+    "description": "Color picker",
+    "name": "W3Schools",
     "url": "https://w3schools.com/colors/colors_picker.asp",
-    "name": "W3Schools",
-    "description": "Color picker"
+    "tags": [
+      "html",
+      "tool"
+    ]
   },
   {
-    "tags": "tool, webdev",
-    "url": "hhttps://webformatter.com/",
+    "description": "Code formatter for webdev languages",
     "name": "Web Formatter",
-    "description": "Code formatter for webdev languages"
+    "url": "hhttps://webformatter.com/",
+    "tags": [
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "tips, webdev",
-    "url": "https://andreasbm.github.io/web-skills/",
+    "description": "Visual overview of useful skills to learn as a web developer",
     "name": "Web Skils",
-    "description": "Visual overview of useful skills to learn as a web developer"
+    "url": "https://andreasbm.github.io/web-skills/",
+    "tags": [
+      "tips",
+      "webdev"
+    ]
   },
   {
-    "tags": "article, tips, webdev",
+    "description": "Various articles/tips for the modern web",
+    "name": "web.dev",
     "url": "https://web.dev/learn/",
-    "name": "web.dev",
-    "description": "Various articles/tips for the modern web"
+    "tags": [
+      "article",
+      "tips",
+      "webdev"
+    ]
   },
   {
-    "tags": "css",
+    "description": "10 modern layouts in one line of CSS",
+    "name": "web.dev",
     "url": "https://web.dev/one-line-layouts/",
-    "name": "web.dev",
-    "description": "10 modern layouts in one line of CSS"
+    "tags": [
+      "css"
+    ]
   },
   {
-    "tags": "article, html, tips",
+    "description": "External links and rel noopener/noreferrer",
+    "name": "web.dev",
     "url": "https://web.dev/external-anchors-use-rel-noopener/",
-    "name": "web.dev",
-    "description": "External links and rel noopener/noreferrer"
+    "tags": [
+      "article",
+      "html",
+      "tips"
+    ]
   },
   {
-    "tags": "tool, webdev",
+    "description": "Contrast validator",
+    "name": "Webaim",
     "url": "https://webaim.org/resources/contrastchecker/",
-    "name": "Webaim",
-    "description": "Contrast validator"
+    "tags": [
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "tool, webdev",
+    "description": "Web Accessibility Evaluation Tool",
+    "name": "Webaim",
     "url": "https://wave.webaim.org/",
-    "name": "Webaim",
-    "description": "Web Accessibility Evaluation Tool"
+    "tags": [
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "webdev",
-    "url": "https://github.com/dargaCode/WebDevStudyResources/",
+    "description": "A great list of useful resources, specific for web development",
     "name": "WebDevStudyResources",
-    "description": "A great list of useful resources, specific for web development"
+    "url": "https://github.com/dargaCode/WebDevStudyResources/",
+    "tags": [
+      "webdev"
+    ]
   },
   {
-    "tags": "article, css",
-    "url": "https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/",
+    "description": "How to add a gradient overlay to a background image using just CSS and HTML",
     "name": "webdevtc",
-    "description": "How to add a gradient overlay to a background image using just CSS and HTML"
+    "url": "https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/",
+    "tags": [
+      "article",
+      "css"
+    ]
   },
   {
-    "tags": "tool, webdev",
-    "url": "https://webpagetest.org/",
+    "description": "Website performance and optimization tool",
     "name": "WebPageTest",
-    "description": "Website performance and optimization tool"
+    "url": "https://webpagetest.org/",
+    "tags": [
+      "tool",
+      "webdev"
+    ]
   },
   {
-    "tags": "net",
-    "url": "https://en.wikipedia.org/wiki/List_of_HTTP_status_codes",
+    "description": "List of HTTP status codes",
     "name": "Wikipedia",
-    "description": "List of HTTP status codes"
+    "url": "https://en.wikipedia.org/wiki/List_of_HTTP_status_codes",
+    "tags": [
+      "net"
+    ]
   },
   {
-    "tags": "oth, fw",
-    "url": "https://microsoft.com/en-us/download/details.aspx?id=20914",
+    "description": "A C# framework for game development",
     "name": "XNA Framework",
-    "description": "A C# framework for game development"
+    "url": "https://microsoft.com/en-us/download/details.aspx?id=20914",
+    "tags": [
+      "fw",
+      "oth"
+    ]
   },
   {
-    "tags": "cheat, css, tutorial",
+    "description": "CSS Grid Cheatsheet",
+    "name": "yoksel.github.io",
     "url": "https://yoksel.github.io/grid-cheatsheet/",
-    "name": "yoksel.github.io",
-    "description": "CSS Grid Cheatsheet"
+    "tags": [
+      "cheat",
+      "css",
+      "tutorial"
+    ]
   },
   {
-    "tags": "cheat, css, tutorial",
+    "description": "CSS Flexbox Cheatsheet",
+    "name": "yoksel.github.io",
     "url": "https://yoksel.github.io/flex-cheatsheet/",
-    "name": "yoksel.github.io",
-    "description": "CSS Flexbox Cheatsheet"
+    "tags": [
+      "cheat",
+      "css",
+      "tutorial"
+    ]
   },
   {
-    "tags": "js",
-    "url": "http://youmightnotneedjquery.com/",
+    "description": "Alternatives to common jQuery functions",
     "name": "You might not need jQuery",
-    "description": "Alternatives to common jQuery functions"
+    "url": "http://youmightnotneedjquery.com/",
+    "tags": [
+      "js"
+    ]
   },
   {
-    "tags": "laravel, tutorial, yt",
+    "description": "LaravelDaily YouTube channel",
+    "name": "YouTube",
     "url": "https://youtube.com/channel/UCTuplgOBi6tJIlesIboymGA",
-    "name": "YouTube",
-    "description": "LaravelDaily YouTube channel"
+    "tags": [
+      "laravel",
+      "tutorial",
+      "yt"
+    ]
   },
   {
-    "tags": "git, tutorial, yt",
+    "description": "[ITA] Guida completa a Git",
+    "name": "YouTube",
     "url": "https://www.youtube.com/playlist?list=PL9MslR9MhrJbO7u34sgR3J6iMqkFmVenG",
-    "name": "YouTube",
-    "description": "[ITA] Guida completa a Git"
+    "tags": [
+      "git",
+      "tutorial",
+      "yt"
+    ]
   },
   {
-    "tags": "css, tips, tutorial, yt",
+    "description": "Kevin Powell YouTube channel",
+    "name": "YouTube",
     "url": "https://youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw",
-    "name": "YouTube",
-    "description": "Kevin Powell YouTube channel"
+    "tags": [
+      "css",
+      "tips",
+      "tutorial",
+      "yt"
+    ]
   },
   {
-    "tags": "multi, tutorial, videocourse, yt",
+    "description": "[ITA] Canale YT fcamuso",
+    "name": "YouTube",
     "url": "https://youtube.com/user/fcamuso/playlists",
-    "name": "YouTube",
-    "description": "[ITA] Canale YT fcamuso"
+    "tags": [
+      "multi",
+      "tutorial",
+      "videocourse",
+      "yt"
+    ]
   },
   {
-    "tags": "hacksec, net, videocourse, yt",
+    "description": "Professor Messer's CompTIA Network+ N10-007 training course",
+    "name": "YouTube",
     "url": "https://youtube.com/playlist?list=PLG49S3nxzAnmpdmX7RoTOyuNJQAb-r-gd",
-    "name": "YouTube",
-    "description": "Professor Messer's CompTIA Network+ N10-007 training course"
+    "tags": [
+      "hacksec",
+      "net",
+      "videocourse",
+      "yt"
+    ]
   },
   {
-    "tags": "git, tutorial, yt",
-    "url": "https://youtube.com/watch?v=RGOj5yH7evk",
+    "description": "freeCodeCamp's Git and GitHub crash course",
     "name": "YouTube",
-    "description": "freeCodeCamp's Git and GitHub crash course"
+    "url": "https://youtube.com/watch?v=RGOj5yH7evk",
+    "tags": [
+      "git",
+      "tutorial",
+      "yt"
+    ]
   }
 ]

@@ -1,1190 +1,1731 @@
 [
   {
-    "tags": "mail, privacy",
-    "url": "https://10minutemail.com/",
+    "description": "Beat SPAM with the best disposable email service",
     "name": "10minutemail",
-    "description": "Beat SPAM with the best disposable email service"
+    "url": "https://10minutemail.com/",
+    "tags": [
+      "mail",
+      "privacy"
+    ]
   },
   {
-    "tags": "music",
-    "url": "http://120years.net/",
+    "description": "120 years of electronic music",
     "name": "120 Years",
-    "description": "120 years of electronic music"
+    "url": "http://120years.net/",
+    "tags": [
+      "music"
+    ]
   },
   {
-    "tags": "audio, misc, tool, video",
-    "url": "https://123apps.com/",
+    "description": "Edit, convert, and create audio, video and more",
     "name": "123Apps",
-    "description": "Edit, convert, and create audio, video and more"
+    "url": "https://123apps.com/",
+    "tags": [
+      "audio",
+      "misc",
+      "tool",
+      "video"
+    ]
   },
   {
-    "tags": "game",
-    "url": "https://365chess.com/",
+    "description": "Chess games database",
     "name": "365chess",
-    "description": "Chess games database"
+    "url": "https://365chess.com/",
+    "tags": [
+      "game"
+    ]
   },
   {
-    "tags": "edu",
-    "url": "https://academia.edu/",
+    "description": "Share and follow research",
     "name": "Academia",
-    "description": "Share and follow research"
+    "url": "https://academia.edu/",
+    "tags": [
+      "edu"
+    ]
   },
   {
-    "tags": "edu",
-    "url": "https://alison.com/",
+    "description": "Free online courses with certificates",
     "name": "Alison",
-    "description": "Free online courses with certificates"
+    "url": "https://alison.com/",
+    "tags": [
+      "edu"
+    ]
   },
   {
-    "tags": "comp, shop, game",
-    "url": "https://allkeyshop.com/",
+    "description": "Compare prices for videogames and software keys",
     "name": "AllKeyShop",
-    "description": "Compare prices for videogames and software keys"
+    "url": "https://allkeyshop.com/",
+    "tags": [
+      "comp",
+      "game",
+      "shop"
+    ]
   },
   {
-    "tags": "misc",
-    "url": "https://alternativeto.net/",
+    "description": "Find software/websites alternatives to what you're using",
     "name": "AlternativeTo",
-    "description": "Find software/websites alternatives to what you're using"
+    "url": "https://alternativeto.net/",
+    "tags": [
+      "misc"
+    ]
   },
   {
-    "tags": "misc, comp",
-    "url": "https://altroconsumo.it/",
+    "description": "[ITA] Test, approfondimenti ed inchieste su prodotti e servizi",
     "name": "Altroconsumo",
-    "description": "[ITA] Test, approfondimenti ed inchieste su prodotti e servizi"
+    "url": "https://altroconsumo.it/",
+    "tags": [
+      "comp",
+      "misc"
+    ]
   },
   {
-    "tags": "comp, tech",
-    "url": "https://anandtech.com/bench/",
+    "description": "Hardware news and benchmark",
     "name": "AnandTech",
-    "description": "Hardware news and benchmark"
+    "url": "https://anandtech.com/bench/",
+    "tags": [
+      "comp",
+      "tech"
+    ]
   },
   {
-    "tags": "animanga",
-    "url": "http://animefillerlist.com/",
+    "description": "The ultimate anime filler list",
     "name": "Anime filler list",
-    "description": "The ultimate anime filler list"
+    "url": "http://animefillerlist.com/",
+    "tags": [
+      "animanga"
+    ]
   },
   {
-    "tags": "animanga, catalog",
-    "url": "https://animeclick.it/",
+    "description": "[ITA] Portale per anime e manga",
     "name": "AnimeClick",
-    "description": "[ITA] Portale per anime e manga"
+    "url": "https://animeclick.it/",
+    "tags": [
+      "animanga",
+      "catalog"
+    ]
   },
   {
-    "tags": "share",
-    "url": "https://anonymousfiles.io/",
+    "description": "Share up to 500MB big files privately",
     "name": "Anonymouse Files",
-    "description": "Share up to 500MB big files privately"
+    "url": "https://anonymousfiles.io/",
+    "tags": [
+      "share"
+    ]
   },
   {
-    "tags": "music, useless",
-    "url": "https://aquarium.ru/en",
+    "description": "Trippy website of aquarium Russian band",
     "name": "aquarium.ru",
-    "description": "Trippy website of aquarium Russian band"
+    "url": "https://aquarium.ru/en",
+    "tags": [
+      "music",
+      "useless"
+    ]
   },
   {
-    "tags": "disc, movies, subs, tvs",
-    "url": "http://asianworld.it/",
+    "description": "[ITA] Il portale del cinema asiatico",
     "name": "Asian World",
-    "description": "[ITA] Il portale del cinema asiatico"
+    "url": "http://asianworld.it/",
+    "tags": [
+      "disc",
+      "movies",
+      "subs",
+      "tvs"
+    ]
   },
   {
-    "tags": "catalog, game",
-    "url": "https://backloggd.com/",
+    "description": "Log, rate and review your games",
     "name": "Backloggd",
-    "description": "Log, rate and review your games"
+    "url": "https://backloggd.com/",
+    "tags": [
+      "catalog",
+      "game"
+    ]
   },
   {
-    "tags": "shop, music",
-    "url": "https://bandcamp.com/",
+    "description": "Discover amazing new music and directly support the artists who make it",
     "name": "Bandcamp",
-    "description": "Discover amazing new music and directly support the artists who make it"
+    "url": "https://bandcamp.com/",
+    "tags": [
+      "music",
+      "shop"
+    ]
   },
   {
-    "tags": "useless",
-    "url": "http://iacopoapps.appspot.com/hopalongwebgl/",
+    "description": "Trippy visualizer",
     "name": "Barry Martin's Hopalong Orbits Visualizer",
-    "description": "Trippy visualizer"
+    "url": "http://iacopoapps.appspot.com/hopalongwebgl/",
+    "tags": [
+      "useless"
+    ]
   },
   {
-    "tags": "music",
-    "url": "http://bestalbumsever.net/",
+    "description": "Discover great albums at random",
     "name": "BestAlbumsEver",
-    "description": "Discover great albums at random"
+    "url": "http://bestalbumsever.net/",
+    "tags": [
+      "music"
+    ]
   },
   {
-    "tags": "misc, tool",
-    "url": "https://boxentriq.com/code-breaking",
+    "description": "Code-Breaking, cipher and logic puzzles solving tools",
     "name": "BOXENTRIQ",
-    "description": "Code-Breaking, cipher and logic puzzles solving tools"
+    "url": "https://boxentriq.com/code-breaking",
+    "tags": [
+      "misc",
+      "tool"
+    ]
   },
   {
-    "tags": "misc, music, stream",
-    "url": "https://sounds.bl.uk/",
+    "description": "Listen to a selection from the British Library’s extensive collections of unique sound recordings",
     "name": "British Library Sounds",
-    "description": "Listen to a selection from the British Library’s extensive collections of unique sound recordings"
+    "url": "https://sounds.bl.uk/",
+    "tags": [
+      "misc",
+      "music",
+      "stream"
+    ]
   },
   {
-    "tags": "misc, privacy",
-    "url": "http://bugmenot.com/",
+    "description": "Find and share logins",
     "name": "BugMeNot",
-    "description": "Find and share logins"
+    "url": "http://bugmenot.com/",
+    "tags": [
+      "misc",
+      "privacy"
+    ]
   },
   {
-    "tags": "misc, tool",
-    "url": "https://buybuy.app/",
+    "description": "Amazon IT offers aggregator",
     "name": "BuyBuyApp",
-    "description": "Amazon IT offers aggregator"
+    "url": "https://buybuy.app/",
+    "tags": [
+      "misc",
+      "tool"
+    ]
   },
   {
-    "tags": "useless",
-    "url": "http://cachemonet.com/",
+    "description": "Website that generates random stuff",
     "name": "cachemonet",
-    "description": "Website that generates random stuff"
+    "url": "http://cachemonet.com/",
+    "tags": [
+      "useless"
+    ]
   },
   {
-    "tags": "sec",
-    "url": "https://stationx.net/canarytokens/",
-    "name": "Canary Tokens",
-    "description": "Hidden hacker traps"
-  },
-  {
-    "tags": "game, tool",
-    "url": "https://systemrequirementslab.com/cyri",
+    "description": "Scan your PC to know if you can run a game",
     "name": "Can You Run It?",
-    "description": "Scan your PC to know if you can run a game"
+    "url": "https://systemrequirementslab.com/cyri",
+    "tags": [
+      "game",
+      "tool"
+    ]
   },
   {
-    "tags": "game",
-    "url": "https://chess.com/",
+    "description": "Hidden hacker traps",
+    "name": "Canary Tokens",
+    "url": "https://stationx.net/canarytokens/",
+    "tags": [
+      "sec"
+    ]
+  },
+  {
+    "description": "Play chess online against AI or other",
     "name": "Chess.com",
-    "description": "Play chess online against AI or other"
+    "url": "https://chess.com/",
+    "tags": [
+      "game"
+    ]
   },
   {
-    "tags": "game",
-    "url": "https://chesstempo.com/",
+    "description": "Train your chess skills and play online",
     "name": "ChessTempo",
-    "description": "Train your chess skills and play online"
+    "url": "https://chesstempo.com/",
+    "tags": [
+      "game"
+    ]
   },
   {
-    "tags": "misc, tool",
-    "url": "https://chilipepper.io/",
+    "description": "Create beautiful forms connected to your Notion pages",
     "name": "Chillpepper.io",
-    "description": "Create beautiful forms connected to your Notion pages"
+    "url": "https://chilipepper.io/",
+    "tags": [
+      "misc",
+      "tool"
+    ]
   },
   {
-    "tags": "misc, tool",
-    "url": "https://cloudconvert.com/",
+    "description": "Free online file converter for audio, video and much more!",
     "name": "Cloud Converter",
-    "description": "Free online file converter for audio, video and much more!"
+    "url": "https://cloudconvert.com/",
+    "tags": [
+      "misc",
+      "tool"
+    ]
   },
   {
-    "tags": "useless",
-    "url": "https://cmd.to/",
+    "description": "Internet operating system based on command-line interface",
     "name": "cmd.to",
-    "description": "Internet operating system based on command-line interface"
+    "url": "https://cmd.to/",
+    "tags": [
+      "useless"
+    ]
   },
   {
-    "tags": "misc",
-    "url": "https://coffitivity.com/",
+    "description": "Coffitivity recreates the ambient sounds of a cafe to boost your creativity and help you work better",
     "name": "Coffitivity",
-    "description": "Coffitivity recreates the ambient sounds of a cafe to boost your creativity and help you work better"
+    "url": "https://coffitivity.com/",
+    "tags": [
+      "misc"
+    ]
   },
   {
-    "tags": "misc, tool",
+    "description": "Corrupt your files to get extra time on assignments",
+    "name": "Corrupt my files",
     "url": "http://corruptmyfile.com/",
-    "name": "Corrupt my files",
-    "description": "Corrupt your files to get extra time on assignments"
+    "tags": [
+      "misc",
+      "tool"
+    ]
   },
   {
-    "tags": "catalog, movies, tvs",
+    "description": "Database of movies and TV series with the best suggestion algorithm and filtering options",
+    "name": "Corrupt my files",
     "url": "https://www.criticker.com/",
-    "name": "Corrupt my files",
-    "description": "Database of movies and TV series with the best suggestion algorithm and filtering options"
+    "tags": [
+      "catalog",
+      "movies",
+      "tvs"
+    ]
   },
   {
-    "tags": "animanga, stream",
-    "url": "http://crunchyroll.com/",
+    "description": "Streaming platform for anime",
     "name": "Crunchyroll",
-    "description": "Streaming platform for anime"
+    "url": "http://crunchyroll.com/",
+    "tags": [
+      "animanga",
+      "stream"
+    ]
   },
   {
-    "tags": "misc",
-    "url": "https://deadlinkchecker.com/",
+    "description": "Check for dead links on a website",
     "name": "Dead Link Checker",
-    "description": "Check for dead links on a website"
+    "url": "https://deadlinkchecker.com/",
+    "tags": [
+      "misc"
+    ]
   },
   {
-    "tags": "misc, tool",
-    "url": "https://deepl.com/translator",
+    "description": "Translator powered by DeepL's world-leading neural network technology",
     "name": "DeepL",
-    "description": "Translator powered by DeepL's world-leading neural network technology"
+    "url": "https://deepl.com/translator",
+    "tags": [
+      "misc",
+      "tool"
+    ]
   },
   {
-    "tags": "music, stream",
-    "url": "https://deezer.com/",
+    "description": "Digital music service that gives you access to millions of songs",
     "name": "Deezer",
-    "description": "Digital music service that gives you access to millions of songs"
+    "url": "https://deezer.com/",
+    "tags": [
+      "music",
+      "stream"
+    ]
   },
   {
-    "tags": "game, misc",
-    "url": "https://crimson-ceremony.net/demopals/ops2meur/index.php",
-    "name": "Demo pals",
-    "description": "List of old PS2 demo disks"
-  },
-  {
-    "tags": "misc, tool",
-    "url": "https://app.diagrams.net/",
-    "name": "diagrams.net",
-    "description": "Flowchart maker and online diagram software"
-  },
-  {
-    "tags": "catalog, music, shop",
-    "url": "https://discogs.com/",
-    "name": "Discogs",
-    "description": "Music database and marketplace"
-  },
-  {
-    "tags": "game",
-    "url": "https://armorgames.com/play/3486/game-of-disorientation",
-    "name": "Disorientation",
-    "description": "Trippy web browser game"
-  },
-  {
-    "tags": "shop",
-    "url": "https://displate.com/",
-    "name": "Displate",
-    "description": "Style your house with cool metal plates"
-  },
-  {
-    "tags": "comp, tech, tool",
-    "url": "https://dontkillmyapp.com/",
-    "name": "DontKillMyApp",
-    "description": "See how badly your Android phone vendor handles apps running in the background"
-  },
-  {
-    "tags": "misc",
-    "url": "https://doodle.com/",
-    "name": "Doodle",
-    "description": "The simplest way to schedule meetings with clients, colleagues, or friends"
-  },
-  {
-    "tags": "article, subs",
-    "url": "http://doom9.it/index.html?/sub.htm",
-    "name": "Doom9",
-    "description": "Italian guide to subtitles synchronization"
-  },
-  {
-    "tags": "game",
-    "url": "https://kongregate.com/games/lorenzgames/dynamic-systems",
-    "name": "Dynamic Systems",
-    "description": "Logic web browser game"
-  },
-  {
-    "tags": "info",
-    "url": "https://earth.nullschool.net/",
-    "name": "earth",
-    "description": "A global map of weather, wind and oceans condition"
-  },
-  {
-    "tags": "image, useless",
-    "url": "https://emojidb.org/",
-    "name": "emojidb",
-    "description": "Emoji database"
-  },
-  {
-    "tags": "text, useless",
-    "url": "http://eeemo.net/",
-    "name": "eemo",
-    "description": "Generate Zalgo text"
-  },
-  {
-    "tags": "edu",
-    "url": "https://englisch-hilfen.de/en/grammar/tenses_table.pdf",
-    "name": "englisch-hilfen",
-    "description": "English tenses in a table"
-  },
-  {
-    "tags": "music",
-    "url": "http://everynoise.com/",
-    "name": "Every Noise At Once",
-    "description": "Algorithmically-generated, readability-adjusted scatter-plot of the musical genre-space"
-  },
-  {
-    "tags": "useless",
-    "url": "https://explainthisimage.com/",
-    "name": "Explain This Image",
-    "description": "Try to explain random images"
-  },
-  {
-    "tags": "image, tool",
-    "url": "https://ezgif.com/",
-    "name": "EzGIF",
-    "description": "Various tools to manage GIFs"
-  },
-  {
-    "tags": "audio, tool, video",
-    "url": "https://filesmerge.com/",
-    "name": "FilesMerge",
-    "description": "Merge audio, video, PDFs and other types of files!"
-  },
-  {
-    "tags": "mail, useless",
-    "url": "https://futureme.org/",
-    "name": "FutureMe",
-    "description": "Write an email to your future self"
-  },
-  {
-    "tags": "comp, tech, tool",
-    "url": "https://gsmarena.com/tools.php3",
-    "name": "GSM Arena",
-    "description": "Compare mobile phones, tablets specs, photo quality and battery stats"
-  },
-  {
-    "tags": "video",
-    "url": "https://getfvid.com/",
-    "name": "GetFVid",
-    "description": "Download videos from Facebook"
-  },
-  {
-    "tags": "image, tool",
-    "url": "https://giphy.com/create/gifmaker",
-    "name": "Giphy Gif Maker",
-    "description": "Create GIFs easily and quickly"
-  },
-  {
-    "tags": "music",
-    "url": "http://gnoosic.com/faves.php",
-    "name": "Gnoosic",
-    "description": "Discover new music based on artists you already like"
-  },
-  {
-    "tags": "shop, game",
-    "url": "https://gog.com/games",
-    "name": "gog",
-    "description": "DRM free videogame keys"
-  },
-  {
-    "tags": "misc, tech",
-    "url": "https://greasyfork.org/",
-    "name": "GreasyFork",
-    "description": "Online repository of user scripts and user styles"
-  },
-  {
-    "tags": "catalog, game",
-    "url": "https://grouvee.com/",
-    "name": "Grouvee",
-    "description": "Log, rate and review your games"
-  },
-  {
-    "tags": "edu",
-    "url": "http://histography.io/",
-    "name": "Historygrapy",
-    "description": "4000 years of human history in one interactive page"
-  },
-  {
-    "tags": "info",
-    "url": "https://homelessworldcup.org/homelessness-statistics/",
-    "name": "Homeless World Cup",
-    "description": "Global homeless statistics"
-  },
-  {
-    "tags": "info",
-    "url": "https://homicide.igarape.org.br/",
-    "name": "Homicide Monitor",
-    "description": "Explore the distribution, dimensions and dynamics of international homicised around the world"
-  },
-  {
-    "tags": "article, music, tool",
-    "url": "https://hotonehundo.com/2018/01/11/last-fm-visualization-tools/",
-    "name": "HotoneHundo",
-    "description": "Last.fm visualization tools"
-  },
-  {
-    "tags": "tool, sec",
-    "url": "https://howsecureismypassword.net/",
-    "name": "howsecureismypassword",
-    "description": "Check passwords strenght"
-  },
-  {
-    "tags": "article",
-    "url": "https://www.howtogeek.com/797147/turn-off-google-lens-chrome/",
-    "name": "HowToGeek",
-    "description": "How to turn off Lens search in Google Chrome"
-  },
-  {
-    "tags": "shop, game",
-    "url": "https://humblebundle.com/store",
-    "name": "HumbleBundle",
-    "description": "Videogames, books and software bundles"
-  },
-  {
-    "tags": "disc, tech",
-    "url": "https://hwupgrade.it/",
-    "name": "hwupgrade",
-    "description": "Italian technology website"
-  },
-  {
-    "tags": "misc, tech",
-    "url": "https://ifixit.com/",
-    "name": "iFixit",
-    "description": "Repair guides for every thing, written by everyone"
-  },
-  {
-    "tags": "comp",
-    "url": "https://idealo.it/",
-    "name": "Idealo.it",
-    "description": "Italian page of Idealo price comparison website"
-  },
-  {
-    "tags": "image, tool",
-    "url": "https://imageonline.co/",
-    "name": "ImageOnline",
-    "description": "Free image editor and 100+ image tools"
-  },
-  {
-    "tags": "catalog, movies, tvs",
-    "url": "https://imdb.com/",
-    "name": "IMDb",
-    "description": "Database of movies and TV series with rating and review features"
-  },
-  {
-    "tags": "image, share, tool",
-    "url": "https://imgur.com/",
-    "name": "imgur",
-    "description": "Upload and share your images with the world"
-  },
-  {
-    "tags": "edu",
-    "url": "http://impariamoitaliano.com/",
-    "name": "Impariamo l'italiano",
-    "description": "Website to learn Italian language with exercises"
-  },
-  {
-    "tags": "misc, tool",
-    "url": "https://indify.co/",
-    "name": "indify.co",
-    "description": "Level up your Notion docs with widgets"
-  },
-  {
-    "tags": "misc, tool",
-    "url": "https://instantstreetview.com/",
-    "name": "Instant Street View",
-    "description": "Search for an address and immediately see it on Google Street View"
-  },
-  {
-    "tags": "tech, tool",
-    "url": "https://ipaddress.com/",
-    "name": "Ip Address",
-    "description": "Various IP address tools"
-  },
-  {
-    "tags": "misc",
-    "url": "https://isitdownrightnow.com/",
-    "name": "Is it down right now?",
-    "description": "Check the status of a website"
-  },
-  {
-    "tags": "comp, game",
-    "url": "https://isthereanydeal.com/",
-    "name": "IsThereAnyDeal?",
-    "description": "Find the best game deals across several digital distributors"
-  },
-  {
-    "tags": "music",
-    "url": "http://music.ishkur.com/",
-    "name": "Ishkur's guide to Electronic Music",
-    "description": "A comprehensive guide to electronic music"
-  },
-  {
-    "tags": "info",
-    "url": "https://italiaora.org/",
-    "name": "ItaliaOra",
-    "description": "Real time information about Italy"
-  },
-  {
-    "tags": "movies, stream, tvs",
-    "url": "https://justwatch.com/",
-    "name": "JustWatch",
-    "description": "Streaming search engine"
-  },
-  {
-    "tags": "tool, sec",
-    "url": "https://password.kaspersky.com/",
-    "name": "Kaspersky Password Check",
-    "description": "Check passwords strenght"
-  },
-  {
-    "tags": "game",
-    "url": "https://kuku-kube.com/",
-    "name": "KukuKube",
-    "description": "Find the different tile and TAP"
-  },
-  {
-    "tags": "edu, misc",
-    "url": "https://laleggepertutti.it/",
-    "name": "laleggepertutti",
-    "description": "[ITA] Consulenza sulle leggi italiane"
-  },
-  {
-    "tags": "music, stream",
-    "url": "http://last.fm/",
-    "name": "Last.fm",
-    "description": "Play music, find songs, and discover artists"
-  },
-  {
-    "tags": "tool, sec",
-    "url": "https://lesspass.com/#/",
-    "name": "LessPass",
-    "description": "Stateless password manager"
-  },
-  {
-    "tags": "catalog, movies",
-    "url": "https://letterboxd.com//",
-    "name": "Letterboxd",
-    "description": "Log, rate and review your movies"
-  },
-  {
-    "tags": "game",
-    "url": "https://lichess.org/",
-    "name": "lichess",
-    "description": "Free online chess server"
-  },
-  {
-    "tags": "article, comp, tech",
-    "url": "https://linustechtips.com/topic/1116640-psucultists-psu-tier-list/",
-    "name": "Linustechtips",
-    "description": "PSU tier list"
-  },
-  {
-    "tags": "article, comp, tech",
-    "url": "https://www.logicalincrements.com/articles/graphicscardcomparison",
-    "name": "LogicalIncrements",
-    "description": "Compare AMD and Nvidia graphic cards"
-  },
-  {
-    "tags": "article, tech",
-    "url": "https://luce-gas.it/guida/glossario/prese-elettriche",
-    "name": "luce-gas.it",
-    "description": "[ITA] Guida alle prese e spine elettriche"
-  },
-  {
-    "tags": "image, tool",
-    "url": "https://lunapic.com/editor/",
-    "name": "LunaPic",
-    "description": "Free online photo editor"
-  },
-  {
-    "tags": "share, privacy",
-    "url": "https://mega.nz/login",
-    "name": "MEGA.nz",
-    "description": "Free cloud storage with convenient and powerful always-on privacy"
-  },
-  {
-    "tags": "animanga",
-    "url": "https://mangadex.org/",
-    "name": "Mangadex",
-    "description": "Read manga for free"
-  },
-  {
-    "tags": "animanga",
-    "url": "https://mangaupdates.com/index.html",
-    "name": "Manga Updates",
-    "description": "Read latest manga news, see how much of a manga has been adapte into an anime"
-  },
-  {
-    "tags": "misc, movies",
-    "url": "http://movieday.it/",
-    "name": "MovieDay",
-    "description": "[ITA] Scegli quale film vorresti vedere al cinema"
-  },
-  {
-    "tags": "movies, tool",
-    "url": "https://movielens.org/home",
-    "name": "MovieLens",
-    "description": "Get movies recommendations based on your tastes"
-  },
-  {
-    "tags": "music, tool",
-    "url": "https://music-map.com/",
-    "name": "Music Map",
-    "description": "Discover new music based on artists you already like"
-  },
-  {
-    "tags": "animanga, catalog",
-    "url": "https://myanimelist.net/",
-    "name": "MyAnimeList",
-    "description": "Anime and manga database and community"
-  },
-  {
-    "tags": "game",
-    "url": "https://nationstates.net/",
-    "name": "NationStates",
-    "description": "Nation simulation web browser game"
-  },
-  {
-    "tags": "movies, tool, tvs",
-    "url": "https://app.nanocrowd.com/start",
-    "name": "NanoCrowd",
-    "description": "Find new movies/TV series to watch based on provided tags"
-  },
-  {
-    "tags": "movies, tvs",
-    "url": "https://top10.netflix.com/",
-    "name": "Netflix TOP10",
-    "description": "Weekly Top 10 lists of the most-watched TV and films"
-  },
-  {
-    "tags": "music",
-    "url": "http://nonsoloprogrock.blogspot.com/2010/09/il-progressive-italiano-negli-anni-70.html",
-    "name": "Non solo prog",
-    "description": "[ITA] Guida al Progressive Rock italiano"
-  },
-  {
-    "tags": "shop, tool",
-    "url": "https://nowinstock.net/",
-    "name": "NowInStock",
-    "description": "Product availability tracker"
-  },
-  {
-    "tags": "useless",
-    "url": "http://onemillionpats.com/",
-    "name": "onemillionpats",
-    "description": "Pet Tofu-chan"
-  },
-  {
-    "tags": "misc",
-    "url": "http://ogres-crypt.com/public/NetFlix-Streaming-Genres2.html",
-    "name": "Ogres Crypt",
-    "description": "Netflix streaming by alternate genres"
-  },
-  {
-    "tags": "misc",
-    "url": "http://oldversion.com/",
-    "name": "OldVersion",
-    "description": "Old version of Windows, Mac and Linux software"
-  },
-  {
-    "tags": "music, tool",
-    "url": "https://onlinesequencer.net/",
-    "name": "OnlineSequencer",
-    "description": "Make music online"
-  },
-  {
-    "tags": "text, tool",
-    "url": "https://onlinetexttools.com/",
-    "name": "OnlineTextTools",
-    "description": "Powerful suite of browser-based text manipulation tools"
-  },
-  {
-    "tags": "movies, subs, tvs",
-    "url": "https://opensubtitles.org/it/search/sublanguageid-ita,eng",
-    "name": "OpenSubtitles",
-    "description": "The best subtitle search engine"
-  },
-  {
-    "tags": "mail",
-    "url": "https://outlook.live.com/owa/",
-    "name": "Outlook Live",
-    "description": "Free personal email and calendar from Microsoft"
-  },
-  {
-    "tags": "comp, tech, tool",
-    "url": "https://passmark.com/",
-    "name": "PassMark",
-    "description": "Industry standard PC benchmarking and diagnostic solutions"
-  },
-  {
-    "tags": "comp, tech, tool",
-    "url": "https://pcpartpicker.com/",
-    "name": "PCPartPicker",
-    "description": "Pick and compare different components to build your PC"
-  },
-  {
-    "tags": "game",
-    "url": "https://pcosta.net//ipdcs/",
-    "name": "PCosta",
-    "description": "[ITA} Diventa Presidente della Repubblica!"
-  },
-  {
-    "tags": "share, text",
-    "url": "https://pastebin.com/",
-    "name": "Pastebin",
-    "description": "Most famous pastebin"
-  },
-  {
-    "tags": "misc",
-    "url": "https://salecalc.com/paypal",
-    "name": "Paypal Fee Calculator",
-    "description": "Calculate PayPal fees"
-  },
-  {
-    "tags": "music",
-    "url": "https://scaruffi.com/index.html",
-    "name": "Piero Scaruffi",
-    "description": "Album reviews, music database, history of music and so on"
-  },
-  {
-    "tags": "useless",
-    "url": "https://pointerpointer.com/",
-    "name": "Pointer Pointer",
-    "description": "Find random images based on the cursor's position"
-  },
-  {
-    "tags": "privacy, sec",
-    "url": "https://privacyguides.org/",
-    "name": "Privacy Guides",
-    "description": "Central privacy and security resource to protect yourself online"
-  },
-  {
-    "tags": "privacy, text",
-    "url": "https://privatebin.net/",
-    "name": "Privatebin",
-    "description": "Minimalist, open source online pastebin"
-  },
-  {
-    "tags": "comp, tech",
-    "url": "https://producthunt.com/",
-    "name": "ProductHunt",
-    "description": "Discover the latest mobile apps, websites, and technology products that everyone's talking about"
-  },
-  {
-    "tags": "mail, privacy",
-    "url": "https://protonmail.com/",
-    "name": "Protonmail",
-    "description": "Free encrypted personal email"
-  },
-  {
-    "tags": "animanga",
-    "url": "https://reddit.com/r/anime/wiki/watch_order",
-    "name": "r/watchorder",
-    "description": "Chronological order of anime"
-  },
-  {
-    "tags": "music",
-    "url": "https://radiooooo.com/",
-    "name": "Radiooooo",
-    "description": "Musical time machine"
-  },
-  {
-    "tags": "shop",
-    "url": "https://rageon.com/",
-    "name": "RageOn",
-    "description": "Printed allover t-shirt and hoodies"
-  },
-  {
-    "tags": "useless",
-    "url": "https://rainymood.com/",
-    "name": "RainyMood",
-    "description": "Rain sound for sleep or study"
-  },
-  {
-    "tags": "misc, tool",
-    "url": "https://random.org/",
-    "name": "Random",
-    "description": "Generate true random numbers"
-  },
-  {
-    "tags": "music, tool",
-    "url": "https://random-album.com/",
-    "name": "Random Album",
-    "description": "Listen to a random album from Bandcamp"
-  },
-  {
-    "tags": "catalog, disc, movies, music",
-    "url": "https://rateyourmusic.com/",
-    "name": "Rate Your Music",
-    "description": "Log, rate and review your music and movies"
-  },
-  {
-    "tags": "shop",
-    "url": "https://redbubble.com/",
-    "name": "RedBubble",
-    "description": "Awesome products designed by independent artists"
-  },
-  {
-    "tags": "movies, stream, tvs",
-    "url": "https://reelgood.com/",
-    "name": "Reelgood",
-    "description": "Streaming services search engine"
-  },
-  {
-    "tags": "image, tool",
-    "url": "https://remove.bg/",
-    "name": "Remove BG",
-    "description": "Remove background from pictures"
-  },
-  {
-    "tags": "music",
-    "url": "website-link",
-    "name": "SampleSwap",
-    "description": "Download loops and audio samples for free"
-  },
-  {
-    "tags": "sec",
-    "url": "https://scamadviser.com/",
-    "name": "Scamadvsider",
-    "description": "Check a website for resky/fraudulent content"
-  },
-  {
-    "tags": "share",
-    "url": "https://sharedrop.io/",
-    "name": "ShareDrop",
-    "description": "P2P file transfer"
-  },
-  {
-    "tags": "article, tech",
-    "url": "https://shareus.com/computer/how-to-check-if-ssd-is-compatible-with-laptop-or-desktop-motherboard.html",
-    "name": "ShareUS",
-    "description": "How to check if SSD is compatible with your PC"
-  },
-  {
-    "tags": "game",
-    "url": "https://skribbl.io/",
-    "name": "Skribbl",
-    "description": "Draw and guess web browser game"
-  },
-  {
-    "tags": "music, stream",
-    "url": "https://soulsafari.wordpress.com/",
-    "name": "Soul Safari",
-    "description": "Music treasures from Africa"
-  },
-  {
-    "tags": "music, stream",
-    "url": "https://soundcloud.com/",
-    "name": "Soundcloud",
-    "description": "Community of artists, bands, podcasters and creators of music & audio"
-  },
-  {
-    "tags": "shop",
-    "url": "https://spartoo.it/",
-    "name": "Spartoo",
-    "description": "Italian clothing/shoes shop"
-  },
-  {
-    "tags": "misc, tool",
-    "url": "https://spokeo.com/",
-    "name": "Spokeo",
-    "description": "Search by name, phone, address or email to confidentially lookup information about people you know"
-  },
-  {
-    "tags": "music, stream",
-    "url": "https://spotify.com/",
-    "name": "Spotify",
-    "description": "Digital music service that gives you access to millions of songs"
-  },
-  {
-    "tags": "music, tool",
-    "url": "https://spotify-dedup.com/",
-    "name": "Spotify Dedup",
-    "description": "Remove duplicate songs from your playlists and saved songs"
-  },
-  {
-    "tags": "useless",
-    "url": "http://staggeringbeauty.com/",
-    "name": "Staggering Beauty",
-    "description": "Web toy where a figure wiggles in sync with the mouse cursor's movements"
-  },
-  {
-    "tags": "tool, game",
-    "url": "https://lorenzostanco.com/lab/steam/",
-    "name": "Steam Library Filters",
-    "description": "Search your Steam games by tags and features, sort by playtime, metascore, user reviews and more"
-  },
-  {
-    "tags": "tool, game",
-    "url": "https://steam.tools/",
-    "name": "Steam Tools",
-    "description": "A set of Steam related WebApps built around trading cards, emoticons and backgrounds"
-  },
-  {
-    "tags": "game",
-    "url": "https://steamdb.info/upcoming/free/",
-    "name": "SteamDB",
-    "description": "Current and upcoming free games on Steam"
-  },
-  {
-    "tags": "game, tool",
-    "url": "https://steamdb.info/calculator/",
-    "name": "SteamDB",
-    "description": "Calculate your Steam account value"
-  },
-  {
-    "tags": "shop, music",
-    "url": "https://strumentimusicali.net/",
-    "name": "StrumentiMusicali",
-    "description": "[ITA] Negozio di strumenti musicali"
-  },
-  {
-    "tags": "movies, subs, tvs",
-    "url": "https://subscene.com/",
-    "name": "SubScene",
-    "description": "Subtitle search engine"
-  },
-  {
-    "tags": "article, privacy",
-    "url": "https://ssd.eff.org/",
-    "name": "Surveillance Self-Defense",
-    "description": "Tips, tools and how-tos for safer online communications"
-  },
-  {
-    "tags": "comp, misc",
-    "url": "https://www.switcho.it/ref/marco_zTp",
-    "name": "Switcho",
-    "description": "[ITA] Cambia fornitore utenze, evitando burocrazie e mal di testa"
-  },
-  {
-    "tags": "misc, tool",
-    "url": "https://sync.me/",
-    "name": "Synch.ME",
-    "description": "Find out who called you"
-  },
-  {
-    "tags": "music",
-    "url": "http://syrphe.com/african&asian_database.htm",
-    "name": "Syrphe",
-    "description": "Electronic and experimental music database with a focus on Africa and Asia"
-  },
-  {
-    "tags": "comp, tech",
-    "url": "https://technical.city/",
-    "name": "Technical",
-    "description": "PC hardware comparisons, specifications and ratings"
-  },
-  {
-    "tags": "comp, tech",
-    "url": "https://techpowerup.com/gpu-specs/",
-    "name": "TechPowerUp",
-    "description": "Video card reference list"
-  },
-  {
-    "tags": "shop",
-    "url": "https://teetee.eu/",
-    "name": "TeeTee",
-    "description": "Cool shirts at reasonable prices"
-  },
-  {
-    "tags": "article, info",
-    "url": "https://theatlantic.com/health/archive/2013/10/a-real-time-map-of-births-and-deaths/280609/",
-    "name": "The Atlantic",
-    "description": "A real time map of births and deaths"
-  },
-  {
-    "tags": "game",
-    "url": "https://archive.org/details/internetarcade",
-    "name": "The Internet Arcade",
-    "description": "Web-based library of arcade coin-operated video games from the 1970s through to the 1990s"
-  },
-  {
-    "tags": "edu",
-    "url": "http://htwins.net/scale2/",
-    "name": "The Scale Of Universe",
-    "description": "Zoom from the edge of the universe to the quantum foam of spacetime and learn about everything in between"
-  },
-  {
-    "tags": "edu",
-    "url": "https://thetruesize.com/",
-    "name": "The True Size Of",
-    "description": "Drag and drop countries around the map to compare their relative size"
-  },
-  {
-    "tags": "useless",
-    "url": "https://theuselessweb.com/",
-    "name": "The Useless Web",
-    "description": "Visit useless websites"
-  },
-  {
-    "tags": "useless",
-    "url": "https://thispersondoesnotexist.com/",
-    "name": "This person doesn't exist",
-    "description": "Faces generated by IA"
-  },
-  {
-    "tags": "misc",
-    "url": "https://tiny.cc/",
-    "name": "tiny.cc",
-    "description": "Free URL shortener"
-  },
-  {
-    "tags": "animanga, article, movies",
-    "url": "https://tofugu.com/japan/best-anime-movies/",
-    "name": "Tofugu",
-    "description": "20 anime movies not made by Studio Ghibli"
-  },
-  {
-    "tags": "misc",
-    "url": "https://togetherprice.com/",
-    "name": "TogetherPrice",
-    "description": "Online subscriptions cost sharing service"
-  },
-  {
-    "tags": "disc, tech",
-    "url": "https://tomshw.com/",
-    "name": "Tom's Hardware",
-    "description": "Read the latest computer hardware news, analysis and opinions"
-  },
-  {
-    "tags": "movies, music",
-    "url": "https://neverendingchartrendering.org/",
-    "name": "Topsters",
-    "description": "Make movie and music charts"
-  },
-  {
-    "tags": "comp",
-    "url": "https://trovaprezzi.it/",
-    "name": "Trovaprezzi",
-    "description": "[ITA] Trova il prezzo migliore dell'articolo che cerchi"
-  },
-  {
-    "tags": "comp, misc",
-    "url": "https://trustpilot.com/",
-    "name": "TrustPilot",
-    "description": "Read, write and share reviews of shops"
-  },
-  {
-    "tags": "music, stream",
-    "url": "https://tunein.com/",
-    "name": "TuneIn",
-    "description": "Free online music radio"
-  },
-  {
-    "tags": "music, tool",
-    "url": "https://tunemymusic.com/",
-    "name": "TuneMyMusic",
-    "description": "Transfer playlists between music streaming services"
-  },
-  {
-    "tags": "music, movies, stream",
-    "url": "http://ubu.com/",
-    "name": "ubu",
-    "description": "All avant-garde website (dance, movies, music)"
-  },
-  {
-    "tags": "music, stream",
-    "url": "https://ursss.com/",
-    "name": "URSSS",
-    "description": "Live music concerts to watch for free"
-  },
-  {
-    "tags": "edu",
-    "url": "https://udemyfreebies.com/",
-    "name": "Udemy Freebies",
-    "description": "Udemy coupons to get courses for free"
-  },
-  {
-    "tags": "article, tech",
-    "url": "https://wiki.unraid.net/Understanding_SMART_Reports",
-    "name": "Unraid.net",
-    "description": "Guide to understand S.M.A.R.T. test results"
-  },
-  {
-    "tags": "comp, tech",
-    "url": "https://userbenchmark.com/",
-    "name": "Userbenchmark",
-    "description": "Benchmark website"
-  },
-  {
-    "tags": "animanga, stream",
-    "url": "https://vvvvid.it/",
-    "name": "VVVVID",
-    "description": "Italian anime streaming website"
-  },
-  {
-    "tags": "article, tech",
-    "url": "https://velocitymicro.com/blog/nvme-vs-m-2-vs-sata-whats-the-difference/",
-    "name": "VelocityMicro",
-    "description": "NVMe vs. M.2 vs. SATA-What's the difference?"
-  },
-  {
-    "tags": "comp, tech, tool",
-    "url": "https://versus.com/en",
-    "name": "Versus",
-    "description": "Compare mobile phones, tablets, headphones and cameras specs"
-  },
-  {
-    "tags": "misc, tool",
-    "url": "https://victornpb.github.io/deleteDiscordMessages/help/copyPaste.html",
+    "description": "Delete all messages in a Discord channel or DM",
     "name": "Delete Discord Messages",
-    "description": "Delete all messages in a Discord channel or DM"
+    "url": "https://victornpb.github.io/deleteDiscordMessages/help/copyPaste.html",
+    "tags": [
+      "misc",
+      "tool"
+    ]
   },
   {
-    "tags": "misc, sec",
-    "url": "https://virustotal.com/gui/home/upload",
+    "description": "List of old PS2 demo disks",
+    "name": "Demo pals",
+    "url": "https://crimson-ceremony.net/demopals/ops2meur/index.php",
+    "tags": [
+      "game",
+      "misc"
+    ]
+  },
+  {
+    "description": "Flowchart maker and online diagram software",
+    "name": "diagrams.net",
+    "url": "https://app.diagrams.net/",
+    "tags": [
+      "misc",
+      "tool"
+    ]
+  },
+  {
+    "description": "Music database and marketplace",
+    "name": "Discogs",
+    "url": "https://discogs.com/",
+    "tags": [
+      "catalog",
+      "music",
+      "shop"
+    ]
+  },
+  {
+    "description": "Trippy web browser game",
+    "name": "Disorientation",
+    "url": "https://armorgames.com/play/3486/game-of-disorientation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "description": "Style your house with cool metal plates",
+    "name": "Displate",
+    "url": "https://displate.com/",
+    "tags": [
+      "shop"
+    ]
+  },
+  {
+    "description": "See how badly your Android phone vendor handles apps running in the background",
+    "name": "DontKillMyApp",
+    "url": "https://dontkillmyapp.com/",
+    "tags": [
+      "comp",
+      "tech",
+      "tool"
+    ]
+  },
+  {
+    "description": "The simplest way to schedule meetings with clients, colleagues, or friends",
+    "name": "Doodle",
+    "url": "https://doodle.com/",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "description": "Italian guide to subtitles synchronization",
+    "name": "Doom9",
+    "url": "http://doom9.it/index.html?/sub.htm",
+    "tags": [
+      "article",
+      "subs"
+    ]
+  },
+  {
+    "description": "Logic web browser game",
+    "name": "Dynamic Systems",
+    "url": "https://kongregate.com/games/lorenzgames/dynamic-systems",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "description": "A global map of weather, wind and oceans condition",
+    "name": "earth",
+    "url": "https://earth.nullschool.net/",
+    "tags": [
+      "info"
+    ]
+  },
+  {
+    "description": "Generate Zalgo text",
+    "name": "eemo",
+    "url": "http://eeemo.net/",
+    "tags": [
+      "text",
+      "useless"
+    ]
+  },
+  {
+    "description": "Emoji database",
+    "name": "emojidb",
+    "url": "https://emojidb.org/",
+    "tags": [
+      "image",
+      "useless"
+    ]
+  },
+  {
+    "description": "English tenses in a table",
+    "name": "englisch-hilfen",
+    "url": "https://englisch-hilfen.de/en/grammar/tenses_table.pdf",
+    "tags": [
+      "edu"
+    ]
+  },
+  {
+    "description": "Algorithmically-generated, readability-adjusted scatter-plot of the musical genre-space",
+    "name": "Every Noise At Once",
+    "url": "http://everynoise.com/",
+    "tags": [
+      "music"
+    ]
+  },
+  {
+    "description": "Try to explain random images",
+    "name": "Explain This Image",
+    "url": "https://explainthisimage.com/",
+    "tags": [
+      "useless"
+    ]
+  },
+  {
+    "description": "Various tools to manage GIFs",
+    "name": "EzGIF",
+    "url": "https://ezgif.com/",
+    "tags": [
+      "image",
+      "tool"
+    ]
+  },
+  {
+    "description": "Merge audio, video, PDFs and other types of files!",
+    "name": "FilesMerge",
+    "url": "https://filesmerge.com/",
+    "tags": [
+      "audio",
+      "tool",
+      "video"
+    ]
+  },
+  {
+    "description": "Write an email to your future self",
+    "name": "FutureMe",
+    "url": "https://futureme.org/",
+    "tags": [
+      "mail",
+      "useless"
+    ]
+  },
+  {
+    "description": "Download videos from Facebook",
+    "name": "GetFVid",
+    "url": "https://getfvid.com/",
+    "tags": [
+      "video"
+    ]
+  },
+  {
+    "description": "Create GIFs easily and quickly",
+    "name": "Giphy Gif Maker",
+    "url": "https://giphy.com/create/gifmaker",
+    "tags": [
+      "image",
+      "tool"
+    ]
+  },
+  {
+    "description": "Discover new music based on artists you already like",
+    "name": "Gnoosic",
+    "url": "http://gnoosic.com/faves.php",
+    "tags": [
+      "music"
+    ]
+  },
+  {
+    "description": "DRM free videogame keys",
+    "name": "gog",
+    "url": "https://gog.com/games",
+    "tags": [
+      "game",
+      "shop"
+    ]
+  },
+  {
+    "description": "Online repository of user scripts and user styles",
+    "name": "GreasyFork",
+    "url": "https://greasyfork.org/",
+    "tags": [
+      "misc",
+      "tech"
+    ]
+  },
+  {
+    "description": "Log, rate and review your games",
+    "name": "Grouvee",
+    "url": "https://grouvee.com/",
+    "tags": [
+      "catalog",
+      "game"
+    ]
+  },
+  {
+    "description": "Compare mobile phones, tablets specs, photo quality and battery stats",
+    "name": "GSM Arena",
+    "url": "https://gsmarena.com/tools.php3",
+    "tags": [
+      "comp",
+      "tech",
+      "tool"
+    ]
+  },
+  {
+    "description": "4000 years of human history in one interactive page",
+    "name": "Historygrapy",
+    "url": "http://histography.io/",
+    "tags": [
+      "edu"
+    ]
+  },
+  {
+    "description": "Global homeless statistics",
+    "name": "Homeless World Cup",
+    "url": "https://homelessworldcup.org/homelessness-statistics/",
+    "tags": [
+      "info"
+    ]
+  },
+  {
+    "description": "Explore the distribution, dimensions and dynamics of international homicised around the world",
+    "name": "Homicide Monitor",
+    "url": "https://homicide.igarape.org.br/",
+    "tags": [
+      "info"
+    ]
+  },
+  {
+    "description": "Last.fm visualization tools",
+    "name": "HotoneHundo",
+    "url": "https://hotonehundo.com/2018/01/11/last-fm-visualization-tools/",
+    "tags": [
+      "article",
+      "music",
+      "tool"
+    ]
+  },
+  {
+    "description": "Check passwords strenght",
+    "name": "howsecureismypassword",
+    "url": "https://howsecureismypassword.net/",
+    "tags": [
+      "sec",
+      "tool"
+    ]
+  },
+  {
+    "description": "How to turn off Lens search in Google Chrome",
+    "name": "HowToGeek",
+    "url": "https://www.howtogeek.com/797147/turn-off-google-lens-chrome/",
+    "tags": [
+      "article"
+    ]
+  },
+  {
+    "description": "Videogames, books and software bundles",
+    "name": "HumbleBundle",
+    "url": "https://humblebundle.com/store",
+    "tags": [
+      "game",
+      "shop"
+    ]
+  },
+  {
+    "description": "Italian technology website",
+    "name": "hwupgrade",
+    "url": "https://hwupgrade.it/",
+    "tags": [
+      "disc",
+      "tech"
+    ]
+  },
+  {
+    "description": "Italian page of Idealo price comparison website",
+    "name": "Idealo.it",
+    "url": "https://idealo.it/",
+    "tags": [
+      "comp"
+    ]
+  },
+  {
+    "description": "Repair guides for every thing, written by everyone",
+    "name": "iFixit",
+    "url": "https://ifixit.com/",
+    "tags": [
+      "misc",
+      "tech"
+    ]
+  },
+  {
+    "description": "Free image editor and 100+ image tools",
+    "name": "ImageOnline",
+    "url": "https://imageonline.co/",
+    "tags": [
+      "image",
+      "tool"
+    ]
+  },
+  {
+    "description": "Database of movies and TV series with rating and review features",
+    "name": "IMDb",
+    "url": "https://imdb.com/",
+    "tags": [
+      "catalog",
+      "movies",
+      "tvs"
+    ]
+  },
+  {
+    "description": "Upload and share your images with the world",
+    "name": "imgur",
+    "url": "https://imgur.com/",
+    "tags": [
+      "image",
+      "share",
+      "tool"
+    ]
+  },
+  {
+    "description": "Website to learn Italian language with exercises",
+    "name": "Impariamo l'italiano",
+    "url": "http://impariamoitaliano.com/",
+    "tags": [
+      "edu"
+    ]
+  },
+  {
+    "description": "Level up your Notion docs with widgets",
+    "name": "indify.co",
+    "url": "https://indify.co/",
+    "tags": [
+      "misc",
+      "tool"
+    ]
+  },
+  {
+    "description": "Search for an address and immediately see it on Google Street View",
+    "name": "Instant Street View",
+    "url": "https://instantstreetview.com/",
+    "tags": [
+      "misc",
+      "tool"
+    ]
+  },
+  {
+    "description": "Various IP address tools",
+    "name": "Ip Address",
+    "url": "https://ipaddress.com/",
+    "tags": [
+      "tech",
+      "tool"
+    ]
+  },
+  {
+    "description": "Check the status of a website",
+    "name": "Is it down right now?",
+    "url": "https://isitdownrightnow.com/",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "description": "A comprehensive guide to electronic music",
+    "name": "Ishkur's guide to Electronic Music",
+    "url": "http://music.ishkur.com/",
+    "tags": [
+      "music"
+    ]
+  },
+  {
+    "description": "Find the best game deals across several digital distributors",
+    "name": "IsThereAnyDeal?",
+    "url": "https://isthereanydeal.com/",
+    "tags": [
+      "comp",
+      "game"
+    ]
+  },
+  {
+    "description": "Real time information about Italy",
+    "name": "ItaliaOra",
+    "url": "https://italiaora.org/",
+    "tags": [
+      "info"
+    ]
+  },
+  {
+    "description": "Streaming search engine",
+    "name": "JustWatch",
+    "url": "https://justwatch.com/",
+    "tags": [
+      "movies",
+      "stream",
+      "tvs"
+    ]
+  },
+  {
+    "description": "Check passwords strenght",
+    "name": "Kaspersky Password Check",
+    "url": "https://password.kaspersky.com/",
+    "tags": [
+      "sec",
+      "tool"
+    ]
+  },
+  {
+    "description": "Find the different tile and TAP",
+    "name": "KukuKube",
+    "url": "https://kuku-kube.com/",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "description": "[ITA] Consulenza sulle leggi italiane",
+    "name": "laleggepertutti",
+    "url": "https://laleggepertutti.it/",
+    "tags": [
+      "edu",
+      "misc"
+    ]
+  },
+  {
+    "description": "Play music, find songs, and discover artists",
+    "name": "Last.fm",
+    "url": "http://last.fm/",
+    "tags": [
+      "music",
+      "stream"
+    ]
+  },
+  {
+    "description": "Stateless password manager",
+    "name": "LessPass",
+    "url": "https://lesspass.com/#/",
+    "tags": [
+      "sec",
+      "tool"
+    ]
+  },
+  {
+    "description": "Log, rate and review your movies",
+    "name": "Letterboxd",
+    "url": "https://letterboxd.com//",
+    "tags": [
+      "catalog",
+      "movies"
+    ]
+  },
+  {
+    "description": "Free online chess server",
+    "name": "lichess",
+    "url": "https://lichess.org/",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "description": "PSU tier list",
+    "name": "Linustechtips",
+    "url": "https://linustechtips.com/topic/1116640-psucultists-psu-tier-list/",
+    "tags": [
+      "article",
+      "comp",
+      "tech"
+    ]
+  },
+  {
+    "description": "Compare AMD and Nvidia graphic cards",
+    "name": "LogicalIncrements",
+    "url": "https://www.logicalincrements.com/articles/graphicscardcomparison",
+    "tags": [
+      "article",
+      "comp",
+      "tech"
+    ]
+  },
+  {
+    "description": "[ITA] Guida alle prese e spine elettriche",
+    "name": "luce-gas.it",
+    "url": "https://luce-gas.it/guida/glossario/prese-elettriche",
+    "tags": [
+      "article",
+      "tech"
+    ]
+  },
+  {
+    "description": "Free online photo editor",
+    "name": "LunaPic",
+    "url": "https://lunapic.com/editor/",
+    "tags": [
+      "image",
+      "tool"
+    ]
+  },
+  {
+    "description": "Read latest manga news, see how much of a manga has been adapte into an anime",
+    "name": "Manga Updates",
+    "url": "https://mangaupdates.com/index.html",
+    "tags": [
+      "animanga"
+    ]
+  },
+  {
+    "description": "Read manga for free",
+    "name": "Mangadex",
+    "url": "https://mangadex.org/",
+    "tags": [
+      "animanga"
+    ]
+  },
+  {
+    "description": "Free cloud storage with convenient and powerful always-on privacy",
+    "name": "MEGA.nz",
+    "url": "https://mega.nz/login",
+    "tags": [
+      "privacy",
+      "share"
+    ]
+  },
+  {
+    "description": "[ITA] Scegli quale film vorresti vedere al cinema",
+    "name": "MovieDay",
+    "url": "http://movieday.it/",
+    "tags": [
+      "misc",
+      "movies"
+    ]
+  },
+  {
+    "description": "Get movies recommendations based on your tastes",
+    "name": "MovieLens",
+    "url": "https://movielens.org/home",
+    "tags": [
+      "movies",
+      "tool"
+    ]
+  },
+  {
+    "description": "Discover new music based on artists you already like",
+    "name": "Music Map",
+    "url": "https://music-map.com/",
+    "tags": [
+      "music",
+      "tool"
+    ]
+  },
+  {
+    "description": "Anime and manga database and community",
+    "name": "MyAnimeList",
+    "url": "https://myanimelist.net/",
+    "tags": [
+      "animanga",
+      "catalog"
+    ]
+  },
+  {
+    "description": "Find new movies/TV series to watch based on provided tags",
+    "name": "NanoCrowd",
+    "url": "https://app.nanocrowd.com/start",
+    "tags": [
+      "movies",
+      "tool",
+      "tvs"
+    ]
+  },
+  {
+    "description": "Nation simulation web browser game",
+    "name": "NationStates",
+    "url": "https://nationstates.net/",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "description": "Weekly Top 10 lists of the most-watched TV and films",
+    "name": "Netflix TOP10",
+    "url": "https://top10.netflix.com/",
+    "tags": [
+      "movies",
+      "tvs"
+    ]
+  },
+  {
+    "description": "[ITA] Guida al Progressive Rock italiano",
+    "name": "Non solo prog",
+    "url": "http://nonsoloprogrock.blogspot.com/2010/09/il-progressive-italiano-negli-anni-70.html",
+    "tags": [
+      "music"
+    ]
+  },
+  {
+    "description": "Product availability tracker",
+    "name": "NowInStock",
+    "url": "https://nowinstock.net/",
+    "tags": [
+      "shop",
+      "tool"
+    ]
+  },
+  {
+    "description": "Netflix streaming by alternate genres",
+    "name": "Ogres Crypt",
+    "url": "http://ogres-crypt.com/public/NetFlix-Streaming-Genres2.html",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "description": "Old version of Windows, Mac and Linux software",
+    "name": "OldVersion",
+    "url": "http://oldversion.com/",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "description": "Pet Tofu-chan",
+    "name": "onemillionpats",
+    "url": "http://onemillionpats.com/",
+    "tags": [
+      "useless"
+    ]
+  },
+  {
+    "description": "Make music online",
+    "name": "OnlineSequencer",
+    "url": "https://onlinesequencer.net/",
+    "tags": [
+      "music",
+      "tool"
+    ]
+  },
+  {
+    "description": "Powerful suite of browser-based text manipulation tools",
+    "name": "OnlineTextTools",
+    "url": "https://onlinetexttools.com/",
+    "tags": [
+      "text",
+      "tool"
+    ]
+  },
+  {
+    "description": "The best subtitle search engine",
+    "name": "OpenSubtitles",
+    "url": "https://opensubtitles.org/it/search/sublanguageid-ita,eng",
+    "tags": [
+      "movies",
+      "subs",
+      "tvs"
+    ]
+  },
+  {
+    "description": "Free personal email and calendar from Microsoft",
+    "name": "Outlook Live",
+    "url": "https://outlook.live.com/owa/",
+    "tags": [
+      "mail"
+    ]
+  },
+  {
+    "description": "Industry standard PC benchmarking and diagnostic solutions",
+    "name": "PassMark",
+    "url": "https://passmark.com/",
+    "tags": [
+      "comp",
+      "tech",
+      "tool"
+    ]
+  },
+  {
+    "description": "Most famous pastebin",
+    "name": "Pastebin",
+    "url": "https://pastebin.com/",
+    "tags": [
+      "share",
+      "text"
+    ]
+  },
+  {
+    "description": "Calculate PayPal fees",
+    "name": "Paypal Fee Calculator",
+    "url": "https://salecalc.com/paypal",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "description": "[ITA} Diventa Presidente della Repubblica!",
+    "name": "PCosta",
+    "url": "https://pcosta.net//ipdcs/",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "description": "Pick and compare different components to build your PC",
+    "name": "PCPartPicker",
+    "url": "https://pcpartpicker.com/",
+    "tags": [
+      "comp",
+      "tech",
+      "tool"
+    ]
+  },
+  {
+    "description": "Album reviews, music database, history of music and so on",
+    "name": "Piero Scaruffi",
+    "url": "https://scaruffi.com/index.html",
+    "tags": [
+      "music"
+    ]
+  },
+  {
+    "description": "Find random images based on the cursor's position",
+    "name": "Pointer Pointer",
+    "url": "https://pointerpointer.com/",
+    "tags": [
+      "useless"
+    ]
+  },
+  {
+    "description": "Central privacy and security resource to protect yourself online",
+    "name": "Privacy Guides",
+    "url": "https://privacyguides.org/",
+    "tags": [
+      "privacy",
+      "sec"
+    ]
+  },
+  {
+    "description": "Minimalist, open source online pastebin",
+    "name": "Privatebin",
+    "url": "https://privatebin.net/",
+    "tags": [
+      "privacy",
+      "text"
+    ]
+  },
+  {
+    "description": "Discover the latest mobile apps, websites, and technology products that everyone's talking about",
+    "name": "ProductHunt",
+    "url": "https://producthunt.com/",
+    "tags": [
+      "comp",
+      "tech"
+    ]
+  },
+  {
+    "description": "Free encrypted personal email",
+    "name": "Protonmail",
+    "url": "https://protonmail.com/",
+    "tags": [
+      "mail",
+      "privacy"
+    ]
+  },
+  {
+    "description": "Chronological order of anime",
+    "name": "r/watchorder",
+    "url": "https://reddit.com/r/anime/wiki/watch_order",
+    "tags": [
+      "animanga"
+    ]
+  },
+  {
+    "description": "Musical time machine",
+    "name": "Radiooooo",
+    "url": "https://radiooooo.com/",
+    "tags": [
+      "music"
+    ]
+  },
+  {
+    "description": "Printed allover t-shirt and hoodies",
+    "name": "RageOn",
+    "url": "https://rageon.com/",
+    "tags": [
+      "shop"
+    ]
+  },
+  {
+    "description": "Rain sound for sleep or study",
+    "name": "RainyMood",
+    "url": "https://rainymood.com/",
+    "tags": [
+      "useless"
+    ]
+  },
+  {
+    "description": "Generate true random numbers",
+    "name": "Random",
+    "url": "https://random.org/",
+    "tags": [
+      "misc",
+      "tool"
+    ]
+  },
+  {
+    "description": "Listen to a random album from Bandcamp",
+    "name": "Random Album",
+    "url": "https://random-album.com/",
+    "tags": [
+      "music",
+      "tool"
+    ]
+  },
+  {
+    "description": "Log, rate and review your music and movies",
+    "name": "Rate Your Music",
+    "url": "https://rateyourmusic.com/",
+    "tags": [
+      "catalog",
+      "disc",
+      "movies",
+      "music"
+    ]
+  },
+  {
+    "description": "Awesome products designed by independent artists",
+    "name": "RedBubble",
+    "url": "https://redbubble.com/",
+    "tags": [
+      "shop"
+    ]
+  },
+  {
+    "description": "Streaming services search engine",
+    "name": "Reelgood",
+    "url": "https://reelgood.com/",
+    "tags": [
+      "movies",
+      "stream",
+      "tvs"
+    ]
+  },
+  {
+    "description": "Remove background from pictures",
+    "name": "Remove BG",
+    "url": "https://remove.bg/",
+    "tags": [
+      "image",
+      "tool"
+    ]
+  },
+  {
+    "description": "Download loops and audio samples for free",
+    "name": "SampleSwap",
+    "url": "website-link",
+    "tags": [
+      "music"
+    ]
+  },
+  {
+    "description": "Check a website for resky/fraudulent content",
+    "name": "Scamadvsider",
+    "url": "https://scamadviser.com/",
+    "tags": [
+      "sec"
+    ]
+  },
+  {
+    "description": "P2P file transfer",
+    "name": "ShareDrop",
+    "url": "https://sharedrop.io/",
+    "tags": [
+      "share"
+    ]
+  },
+  {
+    "description": "How to check if SSD is compatible with your PC",
+    "name": "ShareUS",
+    "url": "https://shareus.com/computer/how-to-check-if-ssd-is-compatible-with-laptop-or-desktop-motherboard.html",
+    "tags": [
+      "article",
+      "tech"
+    ]
+  },
+  {
+    "description": "Draw and guess web browser game",
+    "name": "Skribbl",
+    "url": "https://skribbl.io/",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "description": "Music treasures from Africa",
+    "name": "Soul Safari",
+    "url": "https://soulsafari.wordpress.com/",
+    "tags": [
+      "music",
+      "stream"
+    ]
+  },
+  {
+    "description": "Community of artists, bands, podcasters and creators of music & audio",
+    "name": "Soundcloud",
+    "url": "https://soundcloud.com/",
+    "tags": [
+      "music",
+      "stream"
+    ]
+  },
+  {
+    "description": "Italian clothing/shoes shop",
+    "name": "Spartoo",
+    "url": "https://spartoo.it/",
+    "tags": [
+      "shop"
+    ]
+  },
+  {
+    "description": "Search by name, phone, address or email to confidentially lookup information about people you know",
+    "name": "Spokeo",
+    "url": "https://spokeo.com/",
+    "tags": [
+      "misc",
+      "tool"
+    ]
+  },
+  {
+    "description": "Digital music service that gives you access to millions of songs",
+    "name": "Spotify",
+    "url": "https://spotify.com/",
+    "tags": [
+      "music",
+      "stream"
+    ]
+  },
+  {
+    "description": "Remove duplicate songs from your playlists and saved songs",
+    "name": "Spotify Dedup",
+    "url": "https://spotify-dedup.com/",
+    "tags": [
+      "music",
+      "tool"
+    ]
+  },
+  {
+    "description": "Web toy where a figure wiggles in sync with the mouse cursor's movements",
+    "name": "Staggering Beauty",
+    "url": "http://staggeringbeauty.com/",
+    "tags": [
+      "useless"
+    ]
+  },
+  {
+    "description": "Search your Steam games by tags and features, sort by playtime, metascore, user reviews and more",
+    "name": "Steam Library Filters",
+    "url": "https://lorenzostanco.com/lab/steam/",
+    "tags": [
+      "game",
+      "tool"
+    ]
+  },
+  {
+    "description": "A set of Steam related WebApps built around trading cards, emoticons and backgrounds",
+    "name": "Steam Tools",
+    "url": "https://steam.tools/",
+    "tags": [
+      "game",
+      "tool"
+    ]
+  },
+  {
+    "description": "Current and upcoming free games on Steam",
+    "name": "SteamDB",
+    "url": "https://steamdb.info/upcoming/free/",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "description": "Calculate your Steam account value",
+    "name": "SteamDB",
+    "url": "https://steamdb.info/calculator/",
+    "tags": [
+      "game",
+      "tool"
+    ]
+  },
+  {
+    "description": "[ITA] Negozio di strumenti musicali",
+    "name": "StrumentiMusicali",
+    "url": "https://strumentimusicali.net/",
+    "tags": [
+      "music",
+      "shop"
+    ]
+  },
+  {
+    "description": "Subtitle search engine",
+    "name": "SubScene",
+    "url": "https://subscene.com/",
+    "tags": [
+      "movies",
+      "subs",
+      "tvs"
+    ]
+  },
+  {
+    "description": "Tips, tools and how-tos for safer online communications",
+    "name": "Surveillance Self-Defense",
+    "url": "https://ssd.eff.org/",
+    "tags": [
+      "article",
+      "privacy"
+    ]
+  },
+  {
+    "description": "[ITA] Cambia fornitore utenze, evitando burocrazie e mal di testa",
+    "name": "Switcho",
+    "url": "https://www.switcho.it/ref/marco_zTp",
+    "tags": [
+      "comp",
+      "misc"
+    ]
+  },
+  {
+    "description": "Find out who called you",
+    "name": "Synch.ME",
+    "url": "https://sync.me/",
+    "tags": [
+      "misc",
+      "tool"
+    ]
+  },
+  {
+    "description": "Electronic and experimental music database with a focus on Africa and Asia",
+    "name": "Syrphe",
+    "url": "http://syrphe.com/african&asian_database.htm",
+    "tags": [
+      "music"
+    ]
+  },
+  {
+    "description": "PC hardware comparisons, specifications and ratings",
+    "name": "Technical",
+    "url": "https://technical.city/",
+    "tags": [
+      "comp",
+      "tech"
+    ]
+  },
+  {
+    "description": "Video card reference list",
+    "name": "TechPowerUp",
+    "url": "https://techpowerup.com/gpu-specs/",
+    "tags": [
+      "comp",
+      "tech"
+    ]
+  },
+  {
+    "description": "Cool shirts at reasonable prices",
+    "name": "TeeTee",
+    "url": "https://teetee.eu/",
+    "tags": [
+      "shop"
+    ]
+  },
+  {
+    "description": "A real time map of births and deaths",
+    "name": "The Atlantic",
+    "url": "https://theatlantic.com/health/archive/2013/10/a-real-time-map-of-births-and-deaths/280609/",
+    "tags": [
+      "article",
+      "info"
+    ]
+  },
+  {
+    "description": "Web-based library of arcade coin-operated video games from the 1970s through to the 1990s",
+    "name": "The Internet Arcade",
+    "url": "https://archive.org/details/internetarcade",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "description": "Zoom from the edge of the universe to the quantum foam of spacetime and learn about everything in between",
+    "name": "The Scale Of Universe",
+    "url": "http://htwins.net/scale2/",
+    "tags": [
+      "edu"
+    ]
+  },
+  {
+    "description": "Drag and drop countries around the map to compare their relative size",
+    "name": "The True Size Of",
+    "url": "https://thetruesize.com/",
+    "tags": [
+      "edu"
+    ]
+  },
+  {
+    "description": "Visit useless websites",
+    "name": "The Useless Web",
+    "url": "https://theuselessweb.com/",
+    "tags": [
+      "useless"
+    ]
+  },
+  {
+    "description": "Faces generated by IA",
+    "name": "This person doesn't exist",
+    "url": "https://thispersondoesnotexist.com/",
+    "tags": [
+      "useless"
+    ]
+  },
+  {
+    "description": "Free URL shortener",
+    "name": "tiny.cc",
+    "url": "https://tiny.cc/",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "description": "20 anime movies not made by Studio Ghibli",
+    "name": "Tofugu",
+    "url": "https://tofugu.com/japan/best-anime-movies/",
+    "tags": [
+      "animanga",
+      "article",
+      "movies"
+    ]
+  },
+  {
+    "description": "Online subscriptions cost sharing service",
+    "name": "TogetherPrice",
+    "url": "https://togetherprice.com/",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "description": "Read the latest computer hardware news, analysis and opinions",
+    "name": "Tom's Hardware",
+    "url": "https://tomshw.com/",
+    "tags": [
+      "disc",
+      "tech"
+    ]
+  },
+  {
+    "description": "Make movie and music charts",
+    "name": "Topsters",
+    "url": "https://neverendingchartrendering.org/",
+    "tags": [
+      "movies",
+      "music"
+    ]
+  },
+  {
+    "description": "[ITA] Trova il prezzo migliore dell'articolo che cerchi",
+    "name": "Trovaprezzi",
+    "url": "https://trovaprezzi.it/",
+    "tags": [
+      "comp"
+    ]
+  },
+  {
+    "description": "Read, write and share reviews of shops",
+    "name": "TrustPilot",
+    "url": "https://trustpilot.com/",
+    "tags": [
+      "comp",
+      "misc"
+    ]
+  },
+  {
+    "description": "Free online music radio",
+    "name": "TuneIn",
+    "url": "https://tunein.com/",
+    "tags": [
+      "music",
+      "stream"
+    ]
+  },
+  {
+    "description": "Transfer playlists between music streaming services",
+    "name": "TuneMyMusic",
+    "url": "https://tunemymusic.com/",
+    "tags": [
+      "music",
+      "tool"
+    ]
+  },
+  {
+    "description": "All avant-garde website (dance, movies, music)",
+    "name": "ubu",
+    "url": "http://ubu.com/",
+    "tags": [
+      "movies",
+      "music",
+      "stream"
+    ]
+  },
+  {
+    "description": "Udemy coupons to get courses for free",
+    "name": "Udemy Freebies",
+    "url": "https://udemyfreebies.com/",
+    "tags": [
+      "edu"
+    ]
+  },
+  {
+    "description": "Guide to understand S.M.A.R.T. test results",
+    "name": "Unraid.net",
+    "url": "https://wiki.unraid.net/Understanding_SMART_Reports",
+    "tags": [
+      "article",
+      "tech"
+    ]
+  },
+  {
+    "description": "Live music concerts to watch for free",
+    "name": "URSSS",
+    "url": "https://ursss.com/",
+    "tags": [
+      "music",
+      "stream"
+    ]
+  },
+  {
+    "description": "Benchmark website",
+    "name": "Userbenchmark",
+    "url": "https://userbenchmark.com/",
+    "tags": [
+      "comp",
+      "tech"
+    ]
+  },
+  {
+    "description": "NVMe vs. M.2 vs. SATA-What's the difference?",
+    "name": "VelocityMicro",
+    "url": "https://velocitymicro.com/blog/nvme-vs-m-2-vs-sata-whats-the-difference/",
+    "tags": [
+      "article",
+      "tech"
+    ]
+  },
+  {
+    "description": "Compare mobile phones, tablets, headphones and cameras specs",
+    "name": "Versus",
+    "url": "https://versus.com/en",
+    "tags": [
+      "comp",
+      "tech",
+      "tool"
+    ]
+  },
+  {
+    "description": "Analyze suspicious files and URLs to detect types of malware, automatically share them with the security community",
     "name": "VirusTotal",
-    "description": "Analyze suspicious files and URLs to detect types of malware, automatically share them with the security community"
+    "url": "https://virustotal.com/gui/home/upload",
+    "tags": [
+      "misc",
+      "sec"
+    ]
   },
   {
-    "tags": "edu",
-    "url": "https://voltimum.it/articolo/notizie-tecnico-normative/guida-spine-prese",
+    "description": "[ITA] Guida pratica a prese elettriche, spine e adattatori",
     "name": "voltimum",
-    "description": "[ITA] Guida pratica a prese elettriche, spine e adattatori"
+    "url": "https://voltimum.it/articolo/notizie-tecnico-normative/guida-spine-prese",
+    "tags": [
+      "edu"
+    ]
   },
   {
-    "tags": "share",
-    "url": "https://wetransfer.com/",
+    "description": "Italian anime streaming website",
+    "name": "VVVVID",
+    "url": "https://vvvvid.it/",
+    "tags": [
+      "animanga",
+      "stream"
+    ]
+  },
+  {
+    "description": "Share large files (up to 2GB) with the world for free",
     "name": "WeTransfer",
-    "description": "Share large files (up to 2GB) with the world for free"
+    "url": "https://wetransfer.com/",
+    "tags": [
+      "share"
+    ]
   },
   {
-    "tags": "useless",
-    "url": "http://whatcolorisit.sumbioun.com/",
+    "description": "See which hex color it is based on current time",
     "name": "What color is it?",
-    "description": "See which hex color it is based on current time"
+    "url": "http://whatcolorisit.sumbioun.com/",
+    "tags": [
+      "useless"
+    ]
   },
   {
-    "tags": "useless",
-    "url": "http://whathappenedinmybirthyear.com/",
+    "description": "Discover what happened in your birth year",
     "name": "What happened in my birth year?",
-    "description": "Discover what happened in your birth year"
+    "url": "http://whathappenedinmybirthyear.com/",
+    "tags": [
+      "useless"
+    ]
   },
   {
-    "tags": "useless",
-    "url": "https://What3Words.com/",
+    "description": "Divide the world into a grid of 3m x 3m squares each of which is univocally identified by a 3 word address",
     "name": "What3Words",
-    "description": "Divide the world into a grid of 3m x 3m squares each of which is univocally identified by a 3 word address"
+    "url": "https://What3Words.com/",
+    "tags": [
+      "useless"
+    ]
   },
   {
-    "tags": "useless",
-    "url": "http://whichfaceisreal.com/index.php",
+    "description": "Guess which face is not generated by an IA",
     "name": "Which face is real?",
-    "description": "Guess which face is not generated by an IA"
+    "url": "http://whichfaceisreal.com/index.php",
+    "tags": [
+      "useless"
+    ]
   },
   {
-    "tags": "tool, sec",
-    "url": "https://whois.domaintools.com/",
-    "name": "WhoIs",
-    "description": "Research domain ownership with Whois Lookup"
-  },
-  {
-    "tags": "music",
-    "url": "https://whosampled.com/",
+    "description": "Discover music through samples",
     "name": "Who Sampled?",
-    "description": "Discover music through samples"
+    "url": "https://whosampled.com/",
+    "tags": [
+      "music"
+    ]
   },
   {
-    "tags": "useless",
-    "url": "http://willyoupressthebutton.com/",
+    "description": "Research domain ownership with Whois Lookup",
+    "name": "WhoIs",
+    "url": "https://whois.domaintools.com/",
+    "tags": [
+      "sec",
+      "tool"
+    ]
+  },
+  {
+    "description": "Decide if pressing a button based on questions",
     "name": "Will you press the button?",
-    "description": "Decide if pressing a button based on questions"
+    "url": "http://willyoupressthebutton.com/",
+    "tags": [
+      "useless"
+    ]
   },
   {
-    "tags": "comp, tech",
-    "url": "https://nytimes.com/wirecutter/",
+    "description": "Product reviews, deals and buying advice",
     "name": "Wirecutter",
-    "description": "Product reviews, deals and buying advice"
+    "url": "https://nytimes.com/wirecutter/",
+    "tags": [
+      "comp",
+      "tech"
+    ]
   },
   {
-    "tags": "misc,tool",
-    "url": "https://worldtimebuddy.com/",
+    "description": "Time zone converter",
     "name": "worldtimebuddy",
-    "description": "Time zone converter"
+    "url": "https://worldtimebuddy.com/",
+    "tags": [
+      "misc",
+      "tool"
+    ]
   },
   {
-    "tags": "shop",
-    "url": "https://zalando.it/",
+    "description": "Italian clothing/shoes shop",
     "name": "Zalando",
-    "description": "Italian clothing/shoes shop"
+    "url": "https://zalando.it/",
+    "tags": [
+      "shop"
+    ]
   }
 ]

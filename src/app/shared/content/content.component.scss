@@ -41,15 +41,41 @@ ul {
     text-align: center;
     font-size: .8rem;
   }
+
+  .icon-cell {
+    width: 100px;
+    
+    // Fix button size and adjust ripple
+    button {
+      padding: 0;
+      width: 30px;
+      height: 30px;
+
+      // Prevent hover
+      --mat-mdc-button-persistent-ripple-color: none;
+
+    }
+  }
 }
 
 #search-container {
   width: 100%;
   display: flex;
   justify-content: center;
+  gap: 5px;
 
   mat-form-field {
     width: 50%;
+  }
+
+  button {
+    min-width: 36px;
+    padding: 0;
+    margin-top: 8px; //alisng with search
+
+    mat-icon {
+      margin: 0 auto;
+    }
   }
 }
 

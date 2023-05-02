@@ -1,6 +1,6 @@
-import { ButtonInfo } from "../interfaces/interfaces"
+import { TagInfo } from "../interfaces/interfaces"
 
-export const l4d: ButtonInfo[] = [
+export const l4dTags: TagInfo[] = [
   {
     category: "topic",
     value: "ag",
@@ -173,7 +173,7 @@ export const l4d: ButtonInfo[] = [
   },
 ]
 
-export const websites: ButtonInfo[] = [
+export const websitesTags: TagInfo[] = [
   {
     value: "animanga",
     description: "Anime & Manga"
@@ -272,7 +272,7 @@ export const websites: ButtonInfo[] = [
   }
 ]
 
-export const software: ButtonInfo[] = [
+export const softwareTags: TagInfo[] = [
   {
     category: "main category",
     value: "app",

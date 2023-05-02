@@ -12,7 +12,7 @@ $darker-background-color: #222;
 
 //defining primary and accent palettes, https://m1.material.io/style/color.html#color-color-palette with an optional warn palette (defaults to red)
 $angular-primary: mat.define-palette(mat.$gray-palette, 300, 200, 400);
-$angular-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+$angular-accent: mat.define-palette(mat.$indigo-palette, 500, 300, 700);
 
 //define the theme, accepts define-dark-theme and define-light-theme
 $my-theme: mat.define-dark-theme(

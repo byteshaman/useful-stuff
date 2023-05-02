@@ -9,7 +9,9 @@ import { NgxMatSelectSearchModule } from 'ngx-mat-select-search';
 //#region material modules
 import { MatButtonModule } from '@angular/material/button';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatDialogModule } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatTableModule } from '@angular/material/table';
@@ -18,12 +20,15 @@ import { MatTabsModule } from '@angular/material/tabs';
 
 import { ContentComponent } from './shared/content/content.component';
 import { MatSortModule } from '@angular/material/sort';
+import { FormDialogComponent } from './shared/form-dialog/form-dialog.component';
 
 const MaterialModules = [
   MatButtonModule,
   MatButtonToggleModule,
+  MatDialogModule,
   MatFormFieldModule,
   MatFormFieldModule,
+  MatIconModule,
   MatInputModule,
   MatSelectModule,
   MatSortModule,
@@ -31,10 +36,12 @@ const MaterialModules = [
   MatTabsModule,
 ]
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    ContentComponent
+    ContentComponent,
+    FormDialogComponent
   ],
   imports: [
     BrowserModule,
