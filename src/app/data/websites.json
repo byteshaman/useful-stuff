@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "description": "Beat SPAM with the best disposable email service",
     "name": "10minutemail",
     "url": "https://10minutemail.com/",
@@ -9,6 +10,7 @@
     ]
   },
   {
+    "id": 1,
     "description": "120 years of electronic music",
     "name": "120 Years",
     "url": "http://120years.net/",
@@ -17,6 +19,7 @@
     ]
   },
   {
+    "id": 2,
     "description": "Edit, convert, and create audio, video and more",
     "name": "123Apps",
     "url": "https://123apps.com/",
@@ -28,6 +31,7 @@
     ]
   },
   {
+    "id": 3,
     "description": "Chess games database",
     "name": "365chess",
     "url": "https://365chess.com/",
@@ -36,6 +40,7 @@
     ]
   },
   {
+    "id": 4,
     "description": "Share and follow research",
     "name": "Academia",
     "url": "https://academia.edu/",
@@ -44,6 +49,7 @@
     ]
   },
   {
+    "id": 5,
     "description": "Free online courses with certificates",
     "name": "Alison",
     "url": "https://alison.com/",
@@ -52,6 +58,7 @@
     ]
   },
   {
+    "id": 6,
     "description": "Compare prices for videogames and software keys",
     "name": "AllKeyShop",
     "url": "https://allkeyshop.com/",
@@ -62,6 +69,7 @@
     ]
   },
   {
+    "id": 7,
     "description": "Find software/websites alternatives to what you're using",
     "name": "AlternativeTo",
     "url": "https://alternativeto.net/",
@@ -70,6 +78,7 @@
     ]
   },
   {
+    "id": 8,
     "description": "[ITA] Test, approfondimenti ed inchieste su prodotti e servizi",
     "name": "Altroconsumo",
     "url": "https://altroconsumo.it/",
@@ -79,6 +88,7 @@
     ]
   },
   {
+    "id": 9,
     "description": "Hardware news and benchmark",
     "name": "AnandTech",
     "url": "https://anandtech.com/bench/",
@@ -88,6 +98,7 @@
     ]
   },
   {
+    "id": 10,
     "description": "The ultimate anime filler list",
     "name": "Anime filler list",
     "url": "http://animefillerlist.com/",
@@ -96,6 +107,7 @@
     ]
   },
   {
+    "id": 11,
     "description": "[ITA] Portale per anime e manga",
     "name": "AnimeClick",
     "url": "https://animeclick.it/",
@@ -105,6 +117,7 @@
     ]
   },
   {
+    "id": 12,
     "description": "Share up to 500MB big files privately",
     "name": "Anonymouse Files",
     "url": "https://anonymousfiles.io/",
@@ -113,6 +126,7 @@
     ]
   },
   {
+    "id": 13,
     "description": "Trippy website of aquarium Russian band",
     "name": "aquarium.ru",
     "url": "https://aquarium.ru/en",
@@ -122,6 +136,7 @@
     ]
   },
   {
+    "id": 14,
     "description": "[ITA] Il portale del cinema asiatico",
     "name": "Asian World",
     "url": "http://asianworld.it/",
@@ -133,6 +148,7 @@
     ]
   },
   {
+    "id": 15,
     "description": "Log, rate and review your games",
     "name": "Backloggd",
     "url": "https://backloggd.com/",
@@ -142,6 +158,7 @@
     ]
   },
   {
+    "id": 16,
     "description": "Discover amazing new music and directly support the artists who make it",
     "name": "Bandcamp",
     "url": "https://bandcamp.com/",
@@ -151,6 +168,7 @@
     ]
   },
   {
+    "id": 17,
     "description": "Trippy visualizer",
     "name": "Barry Martin's Hopalong Orbits Visualizer",
     "url": "http://iacopoapps.appspot.com/hopalongwebgl/",
@@ -159,6 +177,7 @@
     ]
   },
   {
+    "id": 18,
     "description": "Discover great albums at random",
     "name": "BestAlbumsEver",
     "url": "http://bestalbumsever.net/",
@@ -167,6 +186,7 @@
     ]
   },
   {
+    "id": 19,
     "description": "Code-Breaking, cipher and logic puzzles solving tools",
     "name": "BOXENTRIQ",
     "url": "https://boxentriq.com/code-breaking",
@@ -176,6 +196,7 @@
     ]
   },
   {
+    "id": 20,
     "description": "Listen to a selection from the British Library’s extensive collections of unique sound recordings",
     "name": "British Library Sounds",
     "url": "https://sounds.bl.uk/",
@@ -186,6 +207,7 @@
     ]
   },
   {
+    "id": 21,
     "description": "Find and share logins",
     "name": "BugMeNot",
     "url": "http://bugmenot.com/",
@@ -195,6 +217,7 @@
     ]
   },
   {
+    "id": 22,
     "description": "Amazon IT offers aggregator",
     "name": "BuyBuyApp",
     "url": "https://buybuy.app/",
@@ -204,6 +227,7 @@
     ]
   },
   {
+    "id": 23,
     "description": "Website that generates random stuff",
     "name": "cachemonet",
     "url": "http://cachemonet.com/",
@@ -212,6 +236,7 @@
     ]
   },
   {
+    "id": 24,
     "description": "Scan your PC to know if you can run a game",
     "name": "Can You Run It?",
     "url": "https://systemrequirementslab.com/cyri",
@@ -221,6 +246,7 @@
     ]
   },
   {
+    "id": 25,
     "description": "Hidden hacker traps",
     "name": "Canary Tokens",
     "url": "https://stationx.net/canarytokens/",
@@ -229,6 +255,7 @@
     ]
   },
   {
+    "id": 26,
     "description": "Play chess online against AI or other",
     "name": "Chess.com",
     "url": "https://chess.com/",
@@ -237,6 +264,7 @@
     ]
   },
   {
+    "id": 27,
     "description": "Train your chess skills and play online",
     "name": "ChessTempo",
     "url": "https://chesstempo.com/",
@@ -245,6 +273,7 @@
     ]
   },
   {
+    "id": 28,
     "description": "Create beautiful forms connected to your Notion pages",
     "name": "Chillpepper.io",
     "url": "https://chilipepper.io/",
@@ -254,6 +283,7 @@
     ]
   },
   {
+    "id": 29,
     "description": "Free online file converter for audio, video and much more!",
     "name": "Cloud Converter",
     "url": "https://cloudconvert.com/",
@@ -263,6 +293,7 @@
     ]
   },
   {
+    "id": 30,
     "description": "Internet operating system based on command-line interface",
     "name": "cmd.to",
     "url": "https://cmd.to/",
@@ -271,6 +302,7 @@
     ]
   },
   {
+    "id": 31,
     "description": "Coffitivity recreates the ambient sounds of a cafe to boost your creativity and help you work better",
     "name": "Coffitivity",
     "url": "https://coffitivity.com/",
@@ -279,6 +311,7 @@
     ]
   },
   {
+    "id": 32,
     "description": "Corrupt your files to get extra time on assignments",
     "name": "Corrupt my files",
     "url": "http://corruptmyfile.com/",
@@ -288,6 +321,7 @@
     ]
   },
   {
+    "id": 33,
     "description": "Database of movies and TV series with the best suggestion algorithm and filtering options",
     "name": "Corrupt my files",
     "url": "https://www.criticker.com/",
@@ -298,6 +332,7 @@
     ]
   },
   {
+    "id": 34,
     "description": "Streaming platform for anime",
     "name": "Crunchyroll",
     "url": "http://crunchyroll.com/",
@@ -307,6 +342,7 @@
     ]
   },
   {
+    "id": 35,
     "description": "Check for dead links on a website",
     "name": "Dead Link Checker",
     "url": "https://deadlinkchecker.com/",
@@ -315,6 +351,7 @@
     ]
   },
   {
+    "id": 36,
     "description": "Translator powered by DeepL's world-leading neural network technology",
     "name": "DeepL",
     "url": "https://deepl.com/translator",
@@ -324,6 +361,7 @@
     ]
   },
   {
+    "id": 37,
     "description": "Digital music service that gives you access to millions of songs",
     "name": "Deezer",
     "url": "https://deezer.com/",
@@ -333,6 +371,7 @@
     ]
   },
   {
+    "id": 38,
     "description": "Delete all messages in a Discord channel or DM",
     "name": "Delete Discord Messages",
     "url": "https://victornpb.github.io/deleteDiscordMessages/help/copyPaste.html",
@@ -342,6 +381,7 @@
     ]
   },
   {
+    "id": 39,
     "description": "List of old PS2 demo disks",
     "name": "Demo pals",
     "url": "https://crimson-ceremony.net/demopals/ops2meur/index.php",
@@ -351,6 +391,7 @@
     ]
   },
   {
+    "id": 40,
     "description": "Flowchart maker and online diagram software",
     "name": "diagrams.net",
     "url": "https://app.diagrams.net/",
@@ -360,6 +401,7 @@
     ]
   },
   {
+    "id": 41,
     "description": "Music database and marketplace",
     "name": "Discogs",
     "url": "https://discogs.com/",
@@ -370,6 +412,7 @@
     ]
   },
   {
+    "id": 42,
     "description": "Trippy web browser game",
     "name": "Disorientation",
     "url": "https://armorgames.com/play/3486/game-of-disorientation",
@@ -378,6 +421,7 @@
     ]
   },
   {
+    "id": 43,
     "description": "Style your house with cool metal plates",
     "name": "Displate",
     "url": "https://displate.com/",
@@ -386,6 +430,7 @@
     ]
   },
   {
+    "id": 44,
     "description": "See how badly your Android phone vendor handles apps running in the background",
     "name": "DontKillMyApp",
     "url": "https://dontkillmyapp.com/",
@@ -396,6 +441,7 @@
     ]
   },
   {
+    "id": 45,
     "description": "The simplest way to schedule meetings with clients, colleagues, or friends",
     "name": "Doodle",
     "url": "https://doodle.com/",
@@ -404,6 +450,7 @@
     ]
   },
   {
+    "id": 46,
     "description": "Italian guide to subtitles synchronization",
     "name": "Doom9",
     "url": "http://doom9.it/index.html?/sub.htm",
@@ -413,6 +460,7 @@
     ]
   },
   {
+    "id": 47,
     "description": "Logic web browser game",
     "name": "Dynamic Systems",
     "url": "https://kongregate.com/games/lorenzgames/dynamic-systems",
@@ -421,6 +469,7 @@
     ]
   },
   {
+    "id": 48,
     "description": "A global map of weather, wind and oceans condition",
     "name": "earth",
     "url": "https://earth.nullschool.net/",
@@ -429,6 +478,7 @@
     ]
   },
   {
+    "id": 49,
     "description": "Generate Zalgo text",
     "name": "eemo",
     "url": "http://eeemo.net/",
@@ -438,6 +488,7 @@
     ]
   },
   {
+    "id": 50,
     "description": "Emoji database",
     "name": "emojidb",
     "url": "https://emojidb.org/",
@@ -447,6 +498,7 @@
     ]
   },
   {
+    "id": 51,
     "description": "English tenses in a table",
     "name": "englisch-hilfen",
     "url": "https://englisch-hilfen.de/en/grammar/tenses_table.pdf",
@@ -455,6 +507,7 @@
     ]
   },
   {
+    "id": 52,
     "description": "Algorithmically-generated, readability-adjusted scatter-plot of the musical genre-space",
     "name": "Every Noise At Once",
     "url": "http://everynoise.com/",
@@ -463,6 +516,7 @@
     ]
   },
   {
+    "id": 53,
     "description": "Try to explain random images",
     "name": "Explain This Image",
     "url": "https://explainthisimage.com/",
@@ -471,6 +525,7 @@
     ]
   },
   {
+    "id": 54,
     "description": "Various tools to manage GIFs",
     "name": "EzGIF",
     "url": "https://ezgif.com/",
@@ -480,6 +535,7 @@
     ]
   },
   {
+    "id": 55,
     "description": "Merge audio, video, PDFs and other types of files!",
     "name": "FilesMerge",
     "url": "https://filesmerge.com/",
@@ -490,6 +546,7 @@
     ]
   },
   {
+    "id": 56,
     "description": "Write an email to your future self",
     "name": "FutureMe",
     "url": "https://futureme.org/",
@@ -499,6 +556,7 @@
     ]
   },
   {
+    "id": 57,
     "description": "Download videos from Facebook",
     "name": "GetFVid",
     "url": "https://getfvid.com/",
@@ -507,6 +565,7 @@
     ]
   },
   {
+    "id": 58,
     "description": "Create GIFs easily and quickly",
     "name": "Giphy Gif Maker",
     "url": "https://giphy.com/create/gifmaker",
@@ -516,6 +575,7 @@
     ]
   },
   {
+    "id": 59,
     "description": "Discover new music based on artists you already like",
     "name": "Gnoosic",
     "url": "http://gnoosic.com/faves.php",
@@ -524,6 +584,7 @@
     ]
   },
   {
+    "id": 60,
     "description": "DRM free videogame keys",
     "name": "gog",
     "url": "https://gog.com/games",
@@ -533,6 +594,7 @@
     ]
   },
   {
+    "id": 61,
     "description": "Online repository of user scripts and user styles",
     "name": "GreasyFork",
     "url": "https://greasyfork.org/",
@@ -542,6 +604,7 @@
     ]
   },
   {
+    "id": 62,
     "description": "Log, rate and review your games",
     "name": "Grouvee",
     "url": "https://grouvee.com/",
@@ -551,6 +614,7 @@
     ]
   },
   {
+    "id": 63,
     "description": "Compare mobile phones, tablets specs, photo quality and battery stats",
     "name": "GSM Arena",
     "url": "https://gsmarena.com/tools.php3",
@@ -561,6 +625,7 @@
     ]
   },
   {
+    "id": 64,
     "description": "4000 years of human history in one interactive page",
     "name": "Historygrapy",
     "url": "http://histography.io/",
@@ -569,6 +634,7 @@
     ]
   },
   {
+    "id": 65,
     "description": "Global homeless statistics",
     "name": "Homeless World Cup",
     "url": "https://homelessworldcup.org/homelessness-statistics/",
@@ -577,6 +643,7 @@
     ]
   },
   {
+    "id": 66,
     "description": "Explore the distribution, dimensions and dynamics of international homicised around the world",
     "name": "Homicide Monitor",
     "url": "https://homicide.igarape.org.br/",
@@ -585,6 +652,7 @@
     ]
   },
   {
+    "id": 67,
     "description": "Last.fm visualization tools",
     "name": "HotoneHundo",
     "url": "https://hotonehundo.com/2018/01/11/last-fm-visualization-tools/",
@@ -595,6 +663,7 @@
     ]
   },
   {
+    "id": 68,
     "description": "Check passwords strenght",
     "name": "howsecureismypassword",
     "url": "https://howsecureismypassword.net/",
@@ -604,6 +673,7 @@
     ]
   },
   {
+    "id": 69,
     "description": "How to turn off Lens search in Google Chrome",
     "name": "HowToGeek",
     "url": "https://www.howtogeek.com/797147/turn-off-google-lens-chrome/",
@@ -612,6 +682,7 @@
     ]
   },
   {
+    "id": 70,
     "description": "Videogames, books and software bundles",
     "name": "HumbleBundle",
     "url": "https://humblebundle.com/store",
@@ -621,6 +692,7 @@
     ]
   },
   {
+    "id": 71,
     "description": "Italian technology website",
     "name": "hwupgrade",
     "url": "https://hwupgrade.it/",
@@ -630,6 +702,7 @@
     ]
   },
   {
+    "id": 72,
     "description": "Italian page of Idealo price comparison website",
     "name": "Idealo.it",
     "url": "https://idealo.it/",
@@ -638,6 +711,7 @@
     ]
   },
   {
+    "id": 73,
     "description": "Repair guides for every thing, written by everyone",
     "name": "iFixit",
     "url": "https://ifixit.com/",
@@ -647,6 +721,7 @@
     ]
   },
   {
+    "id": 74,
     "description": "Free image editor and 100+ image tools",
     "name": "ImageOnline",
     "url": "https://imageonline.co/",
@@ -656,6 +731,7 @@
     ]
   },
   {
+    "id": 75,
     "description": "Database of movies and TV series with rating and review features",
     "name": "IMDb",
     "url": "https://imdb.com/",
@@ -666,6 +742,7 @@
     ]
   },
   {
+    "id": 76,
     "description": "Upload and share your images with the world",
     "name": "imgur",
     "url": "https://imgur.com/",
@@ -676,6 +753,7 @@
     ]
   },
   {
+    "id": 77,
     "description": "Website to learn Italian language with exercises",
     "name": "Impariamo l'italiano",
     "url": "http://impariamoitaliano.com/",
@@ -684,6 +762,7 @@
     ]
   },
   {
+    "id": 78,
     "description": "Level up your Notion docs with widgets",
     "name": "indify.co",
     "url": "https://indify.co/",
@@ -693,6 +772,7 @@
     ]
   },
   {
+    "id": 79,
     "description": "Search for an address and immediately see it on Google Street View",
     "name": "Instant Street View",
     "url": "https://instantstreetview.com/",
@@ -702,6 +782,7 @@
     ]
   },
   {
+    "id": 80,
     "description": "Various IP address tools",
     "name": "Ip Address",
     "url": "https://ipaddress.com/",
@@ -711,6 +792,7 @@
     ]
   },
   {
+    "id": 81,
     "description": "Check the status of a website",
     "name": "Is it down right now?",
     "url": "https://isitdownrightnow.com/",
@@ -719,6 +801,7 @@
     ]
   },
   {
+    "id": 82,
     "description": "A comprehensive guide to electronic music",
     "name": "Ishkur's guide to Electronic Music",
     "url": "http://music.ishkur.com/",
@@ -727,6 +810,7 @@
     ]
   },
   {
+    "id": 83,
     "description": "Find the best game deals across several digital distributors",
     "name": "IsThereAnyDeal?",
     "url": "https://isthereanydeal.com/",
@@ -736,6 +820,7 @@
     ]
   },
   {
+    "id": 84,
     "description": "Real time information about Italy",
     "name": "ItaliaOra",
     "url": "https://italiaora.org/",
@@ -744,6 +829,7 @@
     ]
   },
   {
+    "id": 85,
     "description": "Streaming search engine",
     "name": "JustWatch",
     "url": "https://justwatch.com/",
@@ -754,6 +840,7 @@
     ]
   },
   {
+    "id": 86,
     "description": "Check passwords strenght",
     "name": "Kaspersky Password Check",
     "url": "https://password.kaspersky.com/",
@@ -763,6 +850,7 @@
     ]
   },
   {
+    "id": 87,
     "description": "Find the different tile and TAP",
     "name": "KukuKube",
     "url": "https://kuku-kube.com/",
@@ -771,6 +859,7 @@
     ]
   },
   {
+    "id": 88,
     "description": "[ITA] Consulenza sulle leggi italiane",
     "name": "laleggepertutti",
     "url": "https://laleggepertutti.it/",
@@ -780,6 +869,7 @@
     ]
   },
   {
+    "id": 89,
     "description": "Play music, find songs, and discover artists",
     "name": "Last.fm",
     "url": "http://last.fm/",
@@ -789,6 +879,7 @@
     ]
   },
   {
+    "id": 90,
     "description": "Stateless password manager",
     "name": "LessPass",
     "url": "https://lesspass.com/#/",
@@ -798,6 +889,7 @@
     ]
   },
   {
+    "id": 91,
     "description": "Log, rate and review your movies",
     "name": "Letterboxd",
     "url": "https://letterboxd.com//",
@@ -807,6 +899,7 @@
     ]
   },
   {
+    "id": 92,
     "description": "Free online chess server",
     "name": "lichess",
     "url": "https://lichess.org/",
@@ -815,6 +908,7 @@
     ]
   },
   {
+    "id": 93,
     "description": "PSU tier list",
     "name": "Linustechtips",
     "url": "https://linustechtips.com/topic/1116640-psucultists-psu-tier-list/",
@@ -825,6 +919,7 @@
     ]
   },
   {
+    "id": 94,
     "description": "Compare AMD and Nvidia graphic cards",
     "name": "LogicalIncrements",
     "url": "https://www.logicalincrements.com/articles/graphicscardcomparison",
@@ -835,6 +930,7 @@
     ]
   },
   {
+    "id": 95,
     "description": "[ITA] Guida alle prese e spine elettriche",
     "name": "luce-gas.it",
     "url": "https://luce-gas.it/guida/glossario/prese-elettriche",
@@ -844,6 +940,7 @@
     ]
   },
   {
+    "id": 96,
     "description": "Free online photo editor",
     "name": "LunaPic",
     "url": "https://lunapic.com/editor/",
@@ -853,6 +950,7 @@
     ]
   },
   {
+    "id": 97,
     "description": "Read latest manga news, see how much of a manga has been adapte into an anime",
     "name": "Manga Updates",
     "url": "https://mangaupdates.com/index.html",
@@ -861,6 +959,7 @@
     ]
   },
   {
+    "id": 98,
     "description": "Read manga for free",
     "name": "Mangadex",
     "url": "https://mangadex.org/",
@@ -869,6 +968,7 @@
     ]
   },
   {
+    "id": 99,
     "description": "Free cloud storage with convenient and powerful always-on privacy",
     "name": "MEGA.nz",
     "url": "https://mega.nz/login",
@@ -878,6 +978,7 @@
     ]
   },
   {
+    "id": 100,
     "description": "[ITA] Scegli quale film vorresti vedere al cinema",
     "name": "MovieDay",
     "url": "http://movieday.it/",
@@ -887,6 +988,7 @@
     ]
   },
   {
+    "id": 101,
     "description": "Get movies recommendations based on your tastes",
     "name": "MovieLens",
     "url": "https://movielens.org/home",
@@ -896,6 +998,7 @@
     ]
   },
   {
+    "id": 102,
     "description": "Discover new music based on artists you already like",
     "name": "Music Map",
     "url": "https://music-map.com/",
@@ -905,6 +1008,7 @@
     ]
   },
   {
+    "id": 103,
     "description": "Anime and manga database and community",
     "name": "MyAnimeList",
     "url": "https://myanimelist.net/",
@@ -914,6 +1018,7 @@
     ]
   },
   {
+    "id": 104,
     "description": "Find new movies/TV series to watch based on provided tags",
     "name": "NanoCrowd",
     "url": "https://app.nanocrowd.com/start",
@@ -924,6 +1029,7 @@
     ]
   },
   {
+    "id": 105,
     "description": "Nation simulation web browser game",
     "name": "NationStates",
     "url": "https://nationstates.net/",
@@ -932,6 +1038,7 @@
     ]
   },
   {
+    "id": 106,
     "description": "Weekly Top 10 lists of the most-watched TV and films",
     "name": "Netflix TOP10",
     "url": "https://top10.netflix.com/",
@@ -941,6 +1048,7 @@
     ]
   },
   {
+    "id": 107,
     "description": "[ITA] Guida al Progressive Rock italiano",
     "name": "Non solo prog",
     "url": "http://nonsoloprogrock.blogspot.com/2010/09/il-progressive-italiano-negli-anni-70.html",
@@ -949,6 +1057,7 @@
     ]
   },
   {
+    "id": 108,
     "description": "Product availability tracker",
     "name": "NowInStock",
     "url": "https://nowinstock.net/",
@@ -958,6 +1067,7 @@
     ]
   },
   {
+    "id": 109,
     "description": "Netflix streaming by alternate genres",
     "name": "Ogres Crypt",
     "url": "http://ogres-crypt.com/public/NetFlix-Streaming-Genres2.html",
@@ -966,6 +1076,7 @@
     ]
   },
   {
+    "id": 110,
     "description": "Old version of Windows, Mac and Linux software",
     "name": "OldVersion",
     "url": "http://oldversion.com/",
@@ -974,6 +1085,7 @@
     ]
   },
   {
+    "id": 111,
     "description": "Pet Tofu-chan",
     "name": "onemillionpats",
     "url": "http://onemillionpats.com/",
@@ -982,6 +1094,7 @@
     ]
   },
   {
+    "id": 112,
     "description": "Make music online",
     "name": "OnlineSequencer",
     "url": "https://onlinesequencer.net/",
@@ -991,6 +1104,7 @@
     ]
   },
   {
+    "id": 113,
     "description": "Powerful suite of browser-based text manipulation tools",
     "name": "OnlineTextTools",
     "url": "https://onlinetexttools.com/",
@@ -1000,6 +1114,7 @@
     ]
   },
   {
+    "id": 114,
     "description": "The best subtitle search engine",
     "name": "OpenSubtitles",
     "url": "https://opensubtitles.org/it/search/sublanguageid-ita,eng",
@@ -1010,6 +1125,7 @@
     ]
   },
   {
+    "id": 115,
     "description": "Free personal email and calendar from Microsoft",
     "name": "Outlook Live",
     "url": "https://outlook.live.com/owa/",
@@ -1018,6 +1134,7 @@
     ]
   },
   {
+    "id": 116,
     "description": "Industry standard PC benchmarking and diagnostic solutions",
     "name": "PassMark",
     "url": "https://passmark.com/",
@@ -1028,6 +1145,7 @@
     ]
   },
   {
+    "id": 117,
     "description": "Most famous pastebin",
     "name": "Pastebin",
     "url": "https://pastebin.com/",
@@ -1037,6 +1155,7 @@
     ]
   },
   {
+    "id": 118,
     "description": "Calculate PayPal fees",
     "name": "Paypal Fee Calculator",
     "url": "https://salecalc.com/paypal",
@@ -1045,6 +1164,7 @@
     ]
   },
   {
+    "id": 119,
     "description": "[ITA} Diventa Presidente della Repubblica!",
     "name": "PCosta",
     "url": "https://pcosta.net//ipdcs/",
@@ -1053,6 +1173,7 @@
     ]
   },
   {
+    "id": 120,
     "description": "Pick and compare different components to build your PC",
     "name": "PCPartPicker",
     "url": "https://pcpartpicker.com/",
@@ -1063,6 +1184,7 @@
     ]
   },
   {
+    "id": 121,
     "description": "Album reviews, music database, history of music and so on",
     "name": "Piero Scaruffi",
     "url": "https://scaruffi.com/index.html",
@@ -1071,6 +1193,7 @@
     ]
   },
   {
+    "id": 122,
     "description": "Find random images based on the cursor's position",
     "name": "Pointer Pointer",
     "url": "https://pointerpointer.com/",
@@ -1079,6 +1202,7 @@
     ]
   },
   {
+    "id": 123,
     "description": "Central privacy and security resource to protect yourself online",
     "name": "Privacy Guides",
     "url": "https://privacyguides.org/",
@@ -1088,6 +1212,7 @@
     ]
   },
   {
+    "id": 124,
     "description": "Minimalist, open source online pastebin",
     "name": "Privatebin",
     "url": "https://privatebin.net/",
@@ -1097,6 +1222,7 @@
     ]
   },
   {
+    "id": 125,
     "description": "Discover the latest mobile apps, websites, and technology products that everyone's talking about",
     "name": "ProductHunt",
     "url": "https://producthunt.com/",
@@ -1106,6 +1232,7 @@
     ]
   },
   {
+    "id": 126,
     "description": "Free encrypted personal email",
     "name": "Protonmail",
     "url": "https://protonmail.com/",
@@ -1115,6 +1242,7 @@
     ]
   },
   {
+    "id": 127,
     "description": "Chronological order of anime",
     "name": "r/watchorder",
     "url": "https://reddit.com/r/anime/wiki/watch_order",
@@ -1123,6 +1251,7 @@
     ]
   },
   {
+    "id": 128,
     "description": "Musical time machine",
     "name": "Radiooooo",
     "url": "https://radiooooo.com/",
@@ -1131,6 +1260,7 @@
     ]
   },
   {
+    "id": 129,
     "description": "Printed allover t-shirt and hoodies",
     "name": "RageOn",
     "url": "https://rageon.com/",
@@ -1139,6 +1269,7 @@
     ]
   },
   {
+    "id": 130,
     "description": "Rain sound for sleep or study",
     "name": "RainyMood",
     "url": "https://rainymood.com/",
@@ -1147,6 +1278,7 @@
     ]
   },
   {
+    "id": 131,
     "description": "Generate true random numbers",
     "name": "Random",
     "url": "https://random.org/",
@@ -1156,6 +1288,7 @@
     ]
   },
   {
+    "id": 132,
     "description": "Listen to a random album from Bandcamp",
     "name": "Random Album",
     "url": "https://random-album.com/",
@@ -1165,6 +1298,7 @@
     ]
   },
   {
+    "id": 133,
     "description": "Log, rate and review your music and movies",
     "name": "Rate Your Music",
     "url": "https://rateyourmusic.com/",
@@ -1176,6 +1310,7 @@
     ]
   },
   {
+    "id": 134,
     "description": "Awesome products designed by independent artists",
     "name": "RedBubble",
     "url": "https://redbubble.com/",
@@ -1184,6 +1319,7 @@
     ]
   },
   {
+    "id": 135,
     "description": "Streaming services search engine",
     "name": "Reelgood",
     "url": "https://reelgood.com/",
@@ -1194,6 +1330,7 @@
     ]
   },
   {
+    "id": 136,
     "description": "Remove background from pictures",
     "name": "Remove BG",
     "url": "https://remove.bg/",
@@ -1203,6 +1340,7 @@
     ]
   },
   {
+    "id": 137,
     "description": "Download loops and audio samples for free",
     "name": "SampleSwap",
     "url": "website-link",
@@ -1211,6 +1349,7 @@
     ]
   },
   {
+    "id": 138,
     "description": "Check a website for resky/fraudulent content",
     "name": "Scamadvsider",
     "url": "https://scamadviser.com/",
@@ -1219,6 +1358,7 @@
     ]
   },
   {
+    "id": 139,
     "description": "P2P file transfer",
     "name": "ShareDrop",
     "url": "https://sharedrop.io/",
@@ -1227,6 +1367,7 @@
     ]
   },
   {
+    "id": 140,
     "description": "How to check if SSD is compatible with your PC",
     "name": "ShareUS",
     "url": "https://shareus.com/computer/how-to-check-if-ssd-is-compatible-with-laptop-or-desktop-motherboard.html",
@@ -1236,6 +1377,7 @@
     ]
   },
   {
+    "id": 141,
     "description": "Draw and guess web browser game",
     "name": "Skribbl",
     "url": "https://skribbl.io/",
@@ -1244,6 +1386,7 @@
     ]
   },
   {
+    "id": 142,
     "description": "Music treasures from Africa",
     "name": "Soul Safari",
     "url": "https://soulsafari.wordpress.com/",
@@ -1253,6 +1396,7 @@
     ]
   },
   {
+    "id": 143,
     "description": "Community of artists, bands, podcasters and creators of music & audio",
     "name": "Soundcloud",
     "url": "https://soundcloud.com/",
@@ -1262,6 +1406,7 @@
     ]
   },
   {
+    "id": 144,
     "description": "Italian clothing/shoes shop",
     "name": "Spartoo",
     "url": "https://spartoo.it/",
@@ -1270,6 +1415,7 @@
     ]
   },
   {
+    "id": 145,
     "description": "Search by name, phone, address or email to confidentially lookup information about people you know",
     "name": "Spokeo",
     "url": "https://spokeo.com/",
@@ -1279,6 +1425,7 @@
     ]
   },
   {
+    "id": 146,
     "description": "Digital music service that gives you access to millions of songs",
     "name": "Spotify",
     "url": "https://spotify.com/",
@@ -1288,6 +1435,7 @@
     ]
   },
   {
+    "id": 147,
     "description": "Remove duplicate songs from your playlists and saved songs",
     "name": "Spotify Dedup",
     "url": "https://spotify-dedup.com/",
@@ -1297,6 +1445,7 @@
     ]
   },
   {
+    "id": 148,
     "description": "Web toy where a figure wiggles in sync with the mouse cursor's movements",
     "name": "Staggering Beauty",
     "url": "http://staggeringbeauty.com/",
@@ -1305,6 +1454,7 @@
     ]
   },
   {
+    "id": 149,
     "description": "Search your Steam games by tags and features, sort by playtime, metascore, user reviews and more",
     "name": "Steam Library Filters",
     "url": "https://lorenzostanco.com/lab/steam/",
@@ -1314,6 +1464,7 @@
     ]
   },
   {
+    "id": 150,
     "description": "A set of Steam related WebApps built around trading cards, emoticons and backgrounds",
     "name": "Steam Tools",
     "url": "https://steam.tools/",
@@ -1323,6 +1474,7 @@
     ]
   },
   {
+    "id": 151,
     "description": "Current and upcoming free games on Steam",
     "name": "SteamDB",
     "url": "https://steamdb.info/upcoming/free/",
@@ -1331,6 +1483,7 @@
     ]
   },
   {
+    "id": 152,
     "description": "Calculate your Steam account value",
     "name": "SteamDB",
     "url": "https://steamdb.info/calculator/",
@@ -1340,6 +1493,7 @@
     ]
   },
   {
+    "id": 153,
     "description": "[ITA] Negozio di strumenti musicali",
     "name": "StrumentiMusicali",
     "url": "https://strumentimusicali.net/",
@@ -1349,6 +1503,7 @@
     ]
   },
   {
+    "id": 154,
     "description": "Subtitle search engine",
     "name": "SubScene",
     "url": "https://subscene.com/",
@@ -1359,6 +1514,7 @@
     ]
   },
   {
+    "id": 155,
     "description": "Tips, tools and how-tos for safer online communications",
     "name": "Surveillance Self-Defense",
     "url": "https://ssd.eff.org/",
@@ -1368,6 +1524,7 @@
     ]
   },
   {
+    "id": 156,
     "description": "[ITA] Cambia fornitore utenze, evitando burocrazie e mal di testa",
     "name": "Switcho",
     "url": "https://www.switcho.it/ref/marco_zTp",
@@ -1377,6 +1534,7 @@
     ]
   },
   {
+    "id": 157,
     "description": "Find out who called you",
     "name": "Synch.ME",
     "url": "https://sync.me/",
@@ -1386,6 +1544,7 @@
     ]
   },
   {
+    "id": 158,
     "description": "Electronic and experimental music database with a focus on Africa and Asia",
     "name": "Syrphe",
     "url": "http://syrphe.com/african&asian_database.htm",
@@ -1394,6 +1553,7 @@
     ]
   },
   {
+    "id": 159,
     "description": "PC hardware comparisons, specifications and ratings",
     "name": "Technical",
     "url": "https://technical.city/",
@@ -1403,6 +1563,7 @@
     ]
   },
   {
+    "id": 160,
     "description": "Video card reference list",
     "name": "TechPowerUp",
     "url": "https://techpowerup.com/gpu-specs/",
@@ -1412,6 +1573,7 @@
     ]
   },
   {
+    "id": 161,
     "description": "Cool shirts at reasonable prices",
     "name": "TeeTee",
     "url": "https://teetee.eu/",
@@ -1420,6 +1582,7 @@
     ]
   },
   {
+    "id": 162,
     "description": "A real time map of births and deaths",
     "name": "The Atlantic",
     "url": "https://theatlantic.com/health/archive/2013/10/a-real-time-map-of-births-and-deaths/280609/",
@@ -1429,6 +1592,7 @@
     ]
   },
   {
+    "id": 163,
     "description": "Web-based library of arcade coin-operated video games from the 1970s through to the 1990s",
     "name": "The Internet Arcade",
     "url": "https://archive.org/details/internetarcade",
@@ -1437,6 +1601,7 @@
     ]
   },
   {
+    "id": 164,
     "description": "Zoom from the edge of the universe to the quantum foam of spacetime and learn about everything in between",
     "name": "The Scale Of Universe",
     "url": "http://htwins.net/scale2/",
@@ -1445,6 +1610,7 @@
     ]
   },
   {
+    "id": 165,
     "description": "Drag and drop countries around the map to compare their relative size",
     "name": "The True Size Of",
     "url": "https://thetruesize.com/",
@@ -1453,6 +1619,7 @@
     ]
   },
   {
+    "id": 166,
     "description": "Visit useless websites",
     "name": "The Useless Web",
     "url": "https://theuselessweb.com/",
@@ -1461,6 +1628,7 @@
     ]
   },
   {
+    "id": 167,
     "description": "Faces generated by IA",
     "name": "This person doesn't exist",
     "url": "https://thispersondoesnotexist.com/",
@@ -1469,6 +1637,7 @@
     ]
   },
   {
+    "id": 168,
     "description": "Free URL shortener",
     "name": "tiny.cc",
     "url": "https://tiny.cc/",
@@ -1477,6 +1646,7 @@
     ]
   },
   {
+    "id": 169,
     "description": "20 anime movies not made by Studio Ghibli",
     "name": "Tofugu",
     "url": "https://tofugu.com/japan/best-anime-movies/",
@@ -1487,6 +1657,7 @@
     ]
   },
   {
+    "id": 170,
     "description": "Online subscriptions cost sharing service",
     "name": "TogetherPrice",
     "url": "https://togetherprice.com/",
@@ -1495,6 +1666,7 @@
     ]
   },
   {
+    "id": 171,
     "description": "Read the latest computer hardware news, analysis and opinions",
     "name": "Tom's Hardware",
     "url": "https://tomshw.com/",
@@ -1504,6 +1676,7 @@
     ]
   },
   {
+    "id": 172,
     "description": "Make movie and music charts",
     "name": "Topsters",
     "url": "https://neverendingchartrendering.org/",
@@ -1513,6 +1686,7 @@
     ]
   },
   {
+    "id": 173,
     "description": "[ITA] Trova il prezzo migliore dell'articolo che cerchi",
     "name": "Trovaprezzi",
     "url": "https://trovaprezzi.it/",
@@ -1521,6 +1695,7 @@
     ]
   },
   {
+    "id": 174,
     "description": "Read, write and share reviews of shops",
     "name": "TrustPilot",
     "url": "https://trustpilot.com/",
@@ -1530,6 +1705,7 @@
     ]
   },
   {
+    "id": 175,
     "description": "Free online music radio",
     "name": "TuneIn",
     "url": "https://tunein.com/",
@@ -1539,6 +1715,7 @@
     ]
   },
   {
+    "id": 176,
     "description": "Transfer playlists between music streaming services",
     "name": "TuneMyMusic",
     "url": "https://tunemymusic.com/",
@@ -1548,6 +1725,7 @@
     ]
   },
   {
+    "id": 177,
     "description": "All avant-garde website (dance, movies, music)",
     "name": "ubu",
     "url": "http://ubu.com/",
@@ -1558,6 +1736,7 @@
     ]
   },
   {
+    "id": 178,
     "description": "Udemy coupons to get courses for free",
     "name": "Udemy Freebies",
     "url": "https://udemyfreebies.com/",
@@ -1566,6 +1745,7 @@
     ]
   },
   {
+    "id": 179,
     "description": "Guide to understand S.M.A.R.T. test results",
     "name": "Unraid.net",
     "url": "https://wiki.unraid.net/Understanding_SMART_Reports",
@@ -1575,6 +1755,7 @@
     ]
   },
   {
+    "id": 180,
     "description": "Live music concerts to watch for free",
     "name": "URSSS",
     "url": "https://ursss.com/",
@@ -1584,6 +1765,7 @@
     ]
   },
   {
+    "id": 181,
     "description": "Benchmark website",
     "name": "Userbenchmark",
     "url": "https://userbenchmark.com/",
@@ -1593,6 +1775,7 @@
     ]
   },
   {
+    "id": 182,
     "description": "NVMe vs. M.2 vs. SATA-What's the difference?",
     "name": "VelocityMicro",
     "url": "https://velocitymicro.com/blog/nvme-vs-m-2-vs-sata-whats-the-difference/",
@@ -1602,6 +1785,7 @@
     ]
   },
   {
+    "id": 183,
     "description": "Compare mobile phones, tablets, headphones and cameras specs",
     "name": "Versus",
     "url": "https://versus.com/en",
@@ -1612,6 +1796,7 @@
     ]
   },
   {
+    "id": 184,
     "description": "Analyze suspicious files and URLs to detect types of malware, automatically share them with the security community",
     "name": "VirusTotal",
     "url": "https://virustotal.com/gui/home/upload",
@@ -1621,6 +1806,7 @@
     ]
   },
   {
+    "id": 185,
     "description": "[ITA] Guida pratica a prese elettriche, spine e adattatori",
     "name": "voltimum",
     "url": "https://voltimum.it/articolo/notizie-tecnico-normative/guida-spine-prese",
@@ -1629,6 +1815,7 @@
     ]
   },
   {
+    "id": 186,
     "description": "Italian anime streaming website",
     "name": "VVVVID",
     "url": "https://vvvvid.it/",
@@ -1638,6 +1825,7 @@
     ]
   },
   {
+    "id": 187,
     "description": "Share large files (up to 2GB) with the world for free",
     "name": "WeTransfer",
     "url": "https://wetransfer.com/",
@@ -1646,6 +1834,7 @@
     ]
   },
   {
+    "id": 188,
     "description": "See which hex color it is based on current time",
     "name": "What color is it?",
     "url": "http://whatcolorisit.sumbioun.com/",
@@ -1654,6 +1843,7 @@
     ]
   },
   {
+    "id": 189,
     "description": "Discover what happened in your birth year",
     "name": "What happened in my birth year?",
     "url": "http://whathappenedinmybirthyear.com/",
@@ -1662,6 +1852,7 @@
     ]
   },
   {
+    "id": 190,
     "description": "Divide the world into a grid of 3m x 3m squares each of which is univocally identified by a 3 word address",
     "name": "What3Words",
     "url": "https://What3Words.com/",
@@ -1670,6 +1861,7 @@
     ]
   },
   {
+    "id": 191,
     "description": "Guess which face is not generated by an IA",
     "name": "Which face is real?",
     "url": "http://whichfaceisreal.com/index.php",
@@ -1678,6 +1870,7 @@
     ]
   },
   {
+    "id": 192,
     "description": "Discover music through samples",
     "name": "Who Sampled?",
     "url": "https://whosampled.com/",
@@ -1686,6 +1879,7 @@
     ]
   },
   {
+    "id": 193,
     "description": "Research domain ownership with Whois Lookup",
     "name": "WhoIs",
     "url": "https://whois.domaintools.com/",
@@ -1695,6 +1889,7 @@
     ]
   },
   {
+    "id": 194,
     "description": "Decide if pressing a button based on questions",
     "name": "Will you press the button?",
     "url": "http://willyoupressthebutton.com/",
@@ -1703,6 +1898,7 @@
     ]
   },
   {
+    "id": 195,
     "description": "Product reviews, deals and buying advice",
     "name": "Wirecutter",
     "url": "https://nytimes.com/wirecutter/",
@@ -1712,6 +1908,7 @@
     ]
   },
   {
+    "id": 196,
     "description": "Time zone converter",
     "name": "worldtimebuddy",
     "url": "https://worldtimebuddy.com/",
@@ -1721,6 +1918,7 @@
     ]
   },
   {
+    "id": 197,
     "description": "Italian clothing/shoes shop",
     "name": "Zalando",
     "url": "https://zalando.it/",

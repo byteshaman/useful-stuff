@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "description": "32-bit to 64-bit Audio Units and VST plug-ins adapter",
     "name": "32 Lives",
     "url": "https://soundradix.com/products/32-lives/",
@@ -11,6 +12,7 @@
     ]
   },
   {
+    "id": 1,
     "description": "File archiver with a high compression ratio",
     "name": "7-Zip",
     "url": "https://7-zip.org/download.html",
@@ -21,6 +23,7 @@
     ]
   },
   {
+    "id": 2,
     "description": "Fast, fluid and flexible DAW for music creation and performance",
     "name": "Ableton Live",
     "url": "https://ableton.com/en/live/",
@@ -31,6 +34,7 @@
     ]
   },
   {
+    "id": 3,
     "description": "View, print, and comment on PDF documents",
     "name": "Adobe Acrobat Reader",
     "url": "https://get.adobe.com/reader/",
@@ -41,6 +45,7 @@
     ]
   },
   {
+    "id": 4,
     "description": "Get rid of your file duplicates",
     "name": "AllDup",
     "url": "https://alldup.de/en_download_alldup.php",
@@ -51,6 +56,7 @@
     ]
   },
   {
+    "id": 5,
     "description": "A fast remote desktop application",
     "name": "AnyDesk",
     "url": "https://anydesk.com/en",
@@ -61,6 +67,7 @@
     ]
   },
   {
+    "id": 6,
     "description": "Free DAW that lets you record, edit and mix",
     "name": "Ardour",
     "url": "https://community.ardour.org/download",
@@ -71,6 +78,7 @@
     ]
   },
   {
+    "id": 7,
     "description": "Universal ASIO driver for WDM audio",
     "name": "ASIO4ALL",
     "url": "http://asio4all.org/",
@@ -81,6 +89,7 @@
     ]
   },
   {
+    "id": 8,
     "description": "Mask noise, promote relaxation with an entire collection of natural sounds",
     "name": "Atmosphere Deluxe",
     "url": "https://vectormediasoftware.com/atmdeluxehome.htm",
@@ -90,6 +99,7 @@
     ]
   },
   {
+    "id": 9,
     "description": "Change file and folder properties with ease",
     "name": "Attribute Changer",
     "url": "https://petges.lu/download/",
@@ -100,6 +110,7 @@
     ]
   },
   {
+    "id": 10,
     "description": "Multi-track audio editor and recorder",
     "name": "Audacity",
     "url": "https://audacityteam.org/download/",
@@ -110,6 +121,7 @@
     ]
   },
   {
+    "id": 11,
     "description": "A scripting language for desktop automation",
     "name": "AutoHotkey",
     "url": "https://autohotkey.com/",
@@ -120,6 +132,7 @@
     ]
   },
   {
+    "id": 12,
     "description": "Batch movie screencap creator",
     "name": "AutoMovieThumbnailer",
     "url": "https://funk.eu/amt/",
@@ -130,6 +143,7 @@
     ]
   },
   {
+    "id": 13,
     "description": "Video editor designed for simple cutting, filtering and encoding tasks",
     "name": "Avidemux",
     "url": "https://www.fosshub.com/Avidemux.html",
@@ -140,6 +154,7 @@
     ]
   },
   {
+    "id": 14,
     "description": "Eliminate the barrier between your machines",
     "name": "Barrier",
     "url": "https://github.com/debauchee/barrier/releases",
@@ -150,6 +165,7 @@
     ]
   },
   {
+    "id": 15,
     "description": "Free and powerful antivirus",
     "name": "BitDefender",
     "url": "https://bitdefender.co.uk/solutions/free.html",
@@ -159,6 +175,7 @@
     ]
   },
   {
+    "id": 16,
     "description": "Emulate an Android environment on your PC",
     "name": "BlueStacks",
     "url": "https://bluestacks.com/download.html",
@@ -169,6 +186,7 @@
     ]
   },
   {
+    "id": 17,
     "description": "The one stop solution for all your e-book needs",
     "name": "Calibre",
     "url": "https://calibre-ebook.com/download",
@@ -179,6 +197,7 @@
     ]
   },
   {
+    "id": 18,
     "description": "Search and download subtitles quickly",
     "name": "Caption",
     "url": "https://getcaption.co/",
@@ -189,6 +208,7 @@
     ]
   },
   {
+    "id": 19,
     "description": "Clean, optimize & tune up your PC",
     "name": "CCleaner",
     "url": "https://www.ccleaner.com/ccleaner/download/standard",
@@ -199,6 +219,7 @@
     ]
   },
   {
+    "id": 20,
     "description": "Modify single player games' memory values to make them harder/easier",
     "name": "Cheat Engine",
     "url": "https://cheatengine.org/downloads.php",
@@ -208,6 +229,7 @@
     ]
   },
   {
+    "id": 21,
     "description": "Wraps installers, executables, zips, and scripts into compiled packages",
     "name": "Chocolatey",
     "url": "https://chocolatey.org/install",
@@ -217,6 +239,7 @@
     ]
   },
   {
+    "id": 22,
     "description": "Modify the brightness and contrast of your DDC-compatible monitor easily",
     "name": "ClickMonitorDDC",
     "url": "https://web.archive.org/web/20200803212815/https://clickmonitorddc.bplaced.net/",
@@ -227,6 +250,7 @@
     ]
   },
   {
+    "id": 23,
     "description": "Advanced clipboard manager with editing and scripting features",
     "name": "CopyQ",
     "url": "https://hluk.github.io/CopyQ/",
@@ -237,6 +261,7 @@
     ]
   },
   {
+    "id": 24,
     "description": "Full-featured NoSQL database",
     "name": "Couchbase Server",
     "url": "https://couchbase.com/downloads?family=server",
@@ -247,6 +272,7 @@
     ]
   },
   {
+    "id": 25,
     "description": "Management utility for Crucial SSDs",
     "name": "Crucial Storage Executive Tool",
     "url": "https://www.crucial.com/support/storage-executive",
@@ -257,6 +283,7 @@
     ]
   },
   {
+    "id": 26,
     "description": "HDD/SSD utility software which supports a part of USB, Intel/AMD RAID and NVMe",
     "name": "CrystalDiskInfo",
     "url": "https://crystalmark.info/en/download/",
@@ -267,6 +294,7 @@
     ]
   },
   {
+    "id": 27,
     "description": "Rsync packaging for Windows",
     "name": "cwRsync",
     "url": "https://itefix.net/cwrsync",
@@ -277,6 +305,7 @@
     ]
   },
   {
+    "id": 28,
     "description": "Free multi-platform database tool for developers",
     "name": "dbeaver",
     "url": "https://dbeaver.io/download/",
@@ -287,6 +316,7 @@
     ]
   },
   {
+    "id": 29,
     "description": "Deezer downloader",
     "name": "Deemix",
     "url": "https://archive.org/details/deemix",
@@ -297,6 +327,7 @@
     ]
   },
   {
+    "id": 30,
     "description": "BitTorrent client",
     "name": "Deluge",
     "url": "https://dev.deluge-torrent.org/wiki/Download",
@@ -307,6 +338,7 @@
     ]
   },
   {
+    "id": 31,
     "description": "Easily list and print the content of any directory",
     "name": "Directory List & Print",
     "url": "http://tucows.com/preview/607345/Directory-List--Print",
@@ -317,6 +349,7 @@
     ]
   },
   {
+    "id": 32,
     "description": "All-in-one voice and text chat",
     "name": "Discord",
     "url": "https://discordapp.com/",
@@ -326,6 +359,7 @@
     ]
   },
   {
+    "id": 33,
     "description": "Completely uninstall AMD/NVIDIA graphics card drivers without leaving traces behind",
     "name": "Display Driver Uninstaller",
     "url": "https://guru3d.com/files_details/display_driver_uninstaller_download.html",
@@ -336,6 +370,7 @@
     ]
   },
   {
+    "id": 34,
     "description": "Client to manage synchronized data on Google Drive",
     "name": "Drive",
     "url": "https://www.google.com/drive/download/",
@@ -346,6 +381,7 @@
     ]
   },
   {
+    "id": 35,
     "description": "Client to manage synchronized data on Dropbox",
     "name": "Dropbox",
     "url": "https://dropbox.com/downloading",
@@ -356,6 +392,7 @@
     ]
   },
   {
+    "id": 36,
     "description": "Complete data recovery software for Windows PC, laptops, hard drives, USB and more",
     "name": "EaseUS data recovery Wizard",
     "url": "https://easeus.com/data-recovery-software/",
@@ -366,6 +403,7 @@
     ]
   },
   {
+    "id": 37,
     "description": "Add any program, app or webpage into your Windows context menu",
     "name": "Easy Context Menu",
     "url": "https://sordum.org/7615/easy-context-menu-v1-6/",
@@ -376,6 +414,7 @@
     ]
   },
   {
+    "id": 38,
     "description": "Desktop client for Epic Games store",
     "name": "Epic Games Launcher",
     "url": "https://epicgames.com/store/",
@@ -385,6 +424,7 @@
     ]
   },
   {
+    "id": 39,
     "description": "Locate files and folders by name instantly",
     "name": "Everything",
     "url": "https://voidtools.com/",
@@ -395,6 +435,7 @@
     ]
   },
   {
+    "id": 40,
     "description": "A complete, cross-platform solution to record, convert and stream audio and video",
     "name": "FFmpeg",
     "url": "http://ffmpeg.org/download.html",
@@ -407,6 +448,7 @@
     ]
   },
   {
+    "id": 41,
     "description": "Easily and quickly rename multiple files at once",
     "name": "File Renamer",
     "url": "https://sherrodcomputers.com/products_filerenamer.cfm",
@@ -417,6 +459,7 @@
     ]
   },
   {
+    "id": 42,
     "description": "Remove metadata from your digital photos",
     "name": "FileMind QuickFix",
     "url": "https://softpedia.com/get/Multimedia/Graphic/Graphic-Others/FileMind-QuickFix.shtml",
@@ -427,6 +470,7 @@
     ]
   },
   {
+    "id": 43,
     "description": "Fast and reliable cross-platform FTP, FTPS and SFTP client",
     "name": "FileZilla Client",
     "url": "https://filezilla-project.org/download.php",
@@ -437,6 +481,7 @@
     ]
   },
   {
+    "id": 44,
     "description": "Mozilla web browser",
     "name": "Firefox",
     "url": "https://mozilla.org/firefox/new/",
@@ -446,6 +491,7 @@
     ]
   },
   {
+    "id": 45,
     "description": "P2P file sharing software",
     "name": "Fopnu",
     "url": "https://fopnu.com/download/",
@@ -455,6 +501,7 @@
     ]
   },
   {
+    "id": 46,
     "description": "A fast and friendly git client",
     "name": "Fork",
     "url": "https://git-fork.com/",
@@ -465,6 +512,7 @@
     ]
   },
   {
+    "id": 47,
     "description": "Folder comparison and synchronization",
     "name": "FreeFileSync",
     "url": "https://freefilesync.org/download.php",
@@ -475,6 +523,7 @@
     ]
   },
   {
+    "id": 48,
     "description": "Block internet Ads",
     "name": "GC - AdBlock",
     "url": "https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom",
@@ -484,6 +533,7 @@
     ]
   },
   {
+    "id": 49,
     "description": "Block YouTube Ads",
     "name": "GC - AdBlock for YouTube",
     "url": "https://chrome.google.com/webstore/detail/cmedhionkhpnakcndndgjdbohmhepckk",
@@ -493,6 +543,7 @@
     ]
   },
   {
+    "id": 50,
     "description": "Adds a volume slider to most pages on Bandcamp website",
     "name": "GC - Bandcamp Volume",
     "url": "https://chrome.google.com/webstore/detail/bandcamp-volume/nlikaonifbagdlcjoepofomefchkahab",
@@ -502,6 +553,7 @@
     ]
   },
   {
+    "id": 51,
     "description": "Free password manager",
     "name": "GC - BitWarden",
     "url": "https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb",
@@ -512,6 +564,7 @@
     ]
   },
   {
+    "id": 52,
     "description": "Easily set dark themes for every web page you want",
     "name": "GC - Dark Reader",
     "url": "https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh",
@@ -521,6 +574,7 @@
     ]
   },
   {
+    "id": 53,
     "description": "Dark themes for various websites",
     "name": "GC - Darkness",
     "url": "https://chrome.google.com/webstore/detail/imilbobhamcfahccagbncamhpnbkaenm",
@@ -530,6 +584,7 @@
     ]
   },
   {
+    "id": 54,
     "description": "Enhance Discogs website",
     "name": "GC - Discogs Enhancer",
     "url": "https://chrome.google.com/webstore/detail/fljfmblajgejeicncojogelbkhbobejn",
@@ -539,6 +594,7 @@
     ]
   },
   {
+    "id": 55,
     "description": "Easily download single files from GitHub",
     "name": "GC - GitHub Downloader",
     "url": "https://chrome.google.com/webstore/detail/github-downloader/jplmabjbdhggnlhndkdfciacklbjcfel",
@@ -549,6 +605,7 @@
     ]
   },
   {
+    "id": 56,
     "description": "Writing assistant",
     "name": "GC - Grammarly",
     "url": "https://chrome.google.com/webstore/detail/kbfnbcaeplbcioakkpcpgfkobkghlhen",
@@ -558,6 +615,7 @@
     ]
   },
   {
+    "id": 57,
     "description": "Automatically find and apply coupon codes when you shop online",
     "name": "GC - Honey",
     "url": "https://chrome.google.com/webstore/detail/bmnlcjabgnpnenekpadlanbbkooimhnj",
@@ -567,6 +625,7 @@
     ]
   },
   {
+    "id": 58,
     "description": "Hover over elements to inspect CSS and HTML",
     "name": "GC - Hoverify",
     "url": "https://chrome.google.com/webstore/detail/bbpokcagpggnekcmamgdieebhpkjmljm",
@@ -577,6 +636,7 @@
     ]
   },
   {
+    "id": 59,
     "description": "Various enhancements for YouTube website",
     "name": "GC - Improve YouTube",
     "url": "https://chrome.google.com/webstore/detail/bnomihfieiccainjcjblhegjgglakjdd",
@@ -586,6 +646,7 @@
     ]
   },
   {
+    "id": 60,
     "description": "Validate and view JSON documents",
     "name": "GC - JSONView",
     "url": "https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc",
@@ -596,6 +657,7 @@
     ]
   },
   {
+    "id": 61,
     "description": "Amazon price tracker",
     "name": "GC - Keepa",
     "url": "https://chrome.google.com/webstore/detail/neebplgakaahbhdphmkckjjcegoiijjo",
@@ -605,6 +667,7 @@
     ]
   },
   {
+    "id": 62,
     "description": "Allows you to open URLs inside Steam Client to save the hasle of logging in normal browser",
     "name": "GC - Steam URL Opener",
     "url": "https://chrome.google.com/webstore/detail/steam-url-opener/oiboilmeofgpoiopgjdllegafaaeblon",
@@ -614,6 +677,7 @@
     ]
   },
   {
+    "id": 63,
     "description": "A simple, powerful tab manager",
     "name": "GC - Tabli",
     "url": "https://chrome.google.com/webstore/detail/tabli/igeehkedfibbnhbfponhjjplpkeomghi",
@@ -623,6 +687,7 @@
     ]
   },
   {
+    "id": 64,
     "description": "The world's most popular userscript manager",
     "name": "GC - Tamper Monkey",
     "url": "https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo",
@@ -632,6 +697,7 @@
     ]
   },
   {
+    "id": 65,
     "description": "Another Ad blocker for Chrome",
     "name": "GC - Ublock Origin",
     "url": "https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm",
@@ -641,6 +707,7 @@
     ]
   },
   {
+    "id": 66,
     "description": "Get properties of the image your cursor is pointing to via context menu",
     "name": "GC - View Image Info",
     "url": "https://chrome.google.com/webstore/detail/jldjjifbpipdmligefcogandjojpdagn",
@@ -650,6 +717,7 @@
     ]
   },
   {
+    "id": 67,
     "description": "Adds a toolbar button with various web developer tools",
     "name": "GC - Web Developer",
     "url": "https://chrome.google.com/webstore/detail/bmnlcjabgnpnenekpadlanbbkooimhnj",
@@ -660,6 +728,7 @@
     ]
   },
   {
+    "id": 68,
     "description": "Resize the browser window to emulate various screen resolutions",
     "name": "GC - Window Resizer",
     "url": "https://chrome.google.com/webstore/detail/kkelicaakdanhinjdeammmilcgefonfh",
@@ -669,6 +738,7 @@
     ]
   },
   {
+    "id": 69,
     "description": "Install user-made themes & skins for many sites or create your own",
     "name": "GC - xStyle",
     "url": "https://chrome.google.com/webstore/detail/hncgkmhphmncjohllpoleelnibpmccpj",
@@ -678,6 +748,7 @@
     ]
   },
   {
+    "id": 70,
     "description": "Download driver for your Nvidia card, optimize owned games",
     "name": "GeForce Experience",
     "url": "https://nvidia.com/en-us/geforce/geforce-experience/",
@@ -688,6 +759,7 @@
     ]
   },
   {
+    "id": 71,
     "description": "Photo retouching, image composition and image authoring",
     "name": "GIMP",
     "url": "https://gimp.org/downloads/",
@@ -698,6 +770,7 @@
     ]
   },
   {
+    "id": 72,
     "description": "GUI for extracting stuff from MKV files",
     "name": "gMKVExtractGUI",
     "url": "https://sourceforge.net/projects/gmkvextractgui/",
@@ -708,6 +781,7 @@
     ]
   },
   {
+    "id": 73,
     "description": "Connect multiple ganming platforms and unite all your games and friends scattered across them in one powerful app",
     "name": "GOG Galaxy",
     "url": "https://gog.com/galaxy",
@@ -717,6 +791,7 @@
     ]
   },
   {
+    "id": 74,
     "description": "Google web browser",
     "name": "Google Chrome",
     "url": "https://google.com/chrome/",
@@ -727,6 +802,7 @@
     ]
   },
   {
+    "id": 75,
     "description": "Lightweight system utility designed to provide vital information about your video card and graphics processor",
     "name": "GPU-Z",
     "url": "https://techpowerup.com/gpuz/",
@@ -737,6 +813,7 @@
     ]
   },
   {
+    "id": 76,
     "description": "A free screenshot tool optimized for productivity",
     "name": "Greenshot",
     "url": "https://getgreenshot.org/downloads/",
@@ -747,6 +824,7 @@
     ]
   },
   {
+    "id": 77,
     "description": "Send keyboard macros activated from different USB devices",
     "name": "HID macros",
     "url": "http://hidmacros.eu/download.php",
@@ -757,6 +835,7 @@
     ]
   },
   {
+    "id": 78,
     "description": "Comprehensive hardware analysis, monitoring and reporting",
     "name": "HWiNFO",
     "url": "https://hwinfo.com/",
@@ -767,6 +846,7 @@
     ]
   },
   {
+    "id": 79,
     "description": "Remove unwanted object from photos",
     "name": "InPaint",
     "url": "https://theinpaint.com/download.html",
@@ -777,6 +857,7 @@
     ]
   },
   {
+    "id": 80,
     "description": "Increase download speeds by up to 5 times, resume and schedule downloads",
     "name": "Internet Download Manager",
     "url": "https://internetdownloadmanager.com/download.html",
@@ -786,6 +867,7 @@
     ]
   },
   {
+    "id": 81,
     "description": "Completely uninstall unwanted software, Windows apps & browser plug-ins",
     "name": "IObit Uninstaller",
     "url": "https://www.iobit.com/en/advanceduninstaller.php",
@@ -796,6 +878,7 @@
     ]
   },
   {
+    "id": 82,
     "description": "Fast and compact image viewer",
     "name": "IrfanView",
     "url": "https://irfanview.com/",
@@ -806,6 +889,7 @@
     ]
   },
   {
+    "id": 83,
     "description": "Automatically download groups of files from one-click hosting sites",
     "name": "JDownloader 2",
     "url": "https://jdownloader.org/download/index",
@@ -815,6 +899,7 @@
     ]
   },
   {
+    "id": 84,
     "description": "Secure and reliable remote desktop app",
     "name": "Jump Desktop",
     "url": "https://jumpdesktop.com/free-remote-desktop.html",
@@ -825,6 +910,7 @@
     ]
   },
   {
+    "id": 85,
     "description": "Different antivirus for the protection of your PC",
     "name": "Kaspersky",
     "url": "https://kaspersky.com/downloads",
@@ -834,6 +920,7 @@
     ]
   },
   {
+    "id": 86,
     "description": "Customize functions on Logitech products",
     "name": "Logitech SetPoint",
     "url": "https://support.logi.com/hc/en-gb/articles/360025298053-Logitech-Gaming-Software",
@@ -843,6 +930,7 @@
     ]
   },
   {
+    "id": 87,
     "description": "Customize your mouse, keyboard, touchpad and number pad settings in Windows",
     "name": "Logitech SetPoint",
     "url": "https://support.logi.com/hc/en-nz/articles/360025141274",
@@ -852,6 +940,7 @@
     ]
   },
   {
+    "id": 88,
     "description": "Backup your private emails from different sources",
     "name": "MailStore Home",
     "url": "https://mailstore.com/en/products/mailstore-home/",
@@ -862,6 +951,7 @@
     ]
   },
   {
+    "id": 89,
     "description": "Make MKV files from DVD/Bluray",
     "name": "MakeMKV",
     "url": "https://makemkv.com/download/",
@@ -872,6 +962,7 @@
     ]
   },
   {
+    "id": 90,
     "description": "Protects your PC from advanced malware and ransomware",
     "name": "MalwareBytes",
     "url": "https://malwarebytes.com/mwb-download/",
@@ -881,6 +972,7 @@
     ]
   },
   {
+    "id": 91,
     "description": "Remove adware, bloatware, unwanted toolbars, and other potentially unwanted programs",
     "name": "MalwareBytes Adwcleaner",
     "url": "https://malwarebytes.com/adwcleaner/",
@@ -890,6 +982,7 @@
     ]
   },
   {
+    "id": 92,
     "description": "Milkdrop visualizer plugin for MusicBee",
     "name": "MB - Milkdrop",
     "url": "https://getmusicbee.com/addons/visualizer/52/milkdrop-visualizer/",
@@ -899,6 +992,7 @@
     ]
   },
   {
+    "id": 93,
     "description": "Morphyre visualizer plugin for MusicBee",
     "name": "MB - Morphyre",
     "url": "https://getmusicbee.com/addons/visualizer/179/morphyre/",
@@ -908,6 +1002,7 @@
     ]
   },
   {
+    "id": 94,
     "description": "Convert your music to many audio formats",
     "name": "MediaHuman Audio Converter",
     "url": "https://mediahuman.com/audio-converter/",
@@ -917,6 +1012,7 @@
     ]
   },
   {
+    "id": 95,
     "description": "Download and convert YouTube videos",
     "name": "MediaHuman YouTube Downloader",
     "url": "https://mediahuman.com/youtube-downloader/",
@@ -926,6 +1022,7 @@
     ]
   },
   {
+    "id": 96,
     "description": "Display the most relevant technical and tag data for video and audio files",
     "name": "MediaInfo",
     "url": "https://mediaarea.net/en/MediaInfo/Download/Windows",
@@ -937,6 +1034,7 @@
     ]
   },
   {
+    "id": 97,
     "description": "Client to manage synchronized data on Mega",
     "name": "Megasync",
     "url": "https://mega.nz/sync",
@@ -947,6 +1045,7 @@
     ]
   },
   {
+    "id": 98,
     "description": "Stand-alone memory testing software for x86 and ARM computers",
     "name": "MemTest86",
     "url": "https://www.memtest86.com/download.htm",
@@ -957,6 +1056,7 @@
     ]
   },
   {
+    "id": 99,
     "description": "Add new features to the system menu of applications",
     "name": "MenuTools",
     "url": "https://github.com/navossoc/MenuTools/releases",
@@ -967,6 +1067,7 @@
     ]
   },
   {
+    "id": 100,
     "description": "Merge multiple sound files into one recording",
     "name": "Merge MP3",
     "url": "https://shchuka.com/software/mergemp3/#download",
@@ -977,6 +1078,7 @@
     ]
   },
   {
+    "id": 101,
     "description": "Microsoft web browser based on Chromium",
     "name": "Microsoft Edge",
     "url": "https://microsoft.com/en-us/edge",
@@ -986,6 +1088,7 @@
     ]
   },
   {
+    "id": 102,
     "description": "Free-form information gathering and multi-user collaboration",
     "name": "Microsoft OneNote",
     "url": "https://onenote.com/download",
@@ -996,6 +1099,7 @@
     ]
   },
   {
+    "id": 103,
     "description": "Code editor redefined and optimized for building and debugging modern web and cloud applications",
     "name": "Microsoft VS Code",
     "url": "https://code.visualstudio.com/download",
@@ -1007,6 +1111,7 @@
     ]
   },
   {
+    "id": 104,
     "description": "A fully-featured, extensible, free IDE",
     "name": "Microsoft VS Community",
     "url": "https://visualstudio.microsoft.com/vs/community/",
@@ -1017,6 +1122,7 @@
     ]
   },
   {
+    "id": 105,
     "description": "Set of tools to create, alter and inspect MKV files",
     "name": "MKVToolNix",
     "url": "https://mkvtoolnix.download/",
@@ -1027,6 +1133,7 @@
     ]
   },
   {
+    "id": 106,
     "description": "Music visualizer with thousands of unique 3D scenes",
     "name": "Morphyre",
     "url": "https://morphyre.com/",
@@ -1037,6 +1144,7 @@
     ]
   },
   {
+    "id": 107,
     "description": "Cut, crop, split, join your tracks, change the level and fade MP3 without re-encoding",
     "name": "MP3DirectCut",
     "url": "http://mpesch3.de/index.html",
@@ -1047,6 +1155,7 @@
     ]
   },
   {
+    "id": 108,
     "description": "Powerful tool to edit metadata of audio files",
     "name": "Mp3tag",
     "url": "https://mp3tag.de/en/",
@@ -1057,6 +1166,7 @@
     ]
   },
   {
+    "id": 109,
     "description": "Open source, tabbed, multi-protocol, remote connections manager for Windows",
     "name": "mRemoteNG",
     "url": "https://mremoteng.org/",
@@ -1067,6 +1177,7 @@
     ]
   },
   {
+    "id": 110,
     "description": "The world’s most recognized and widely used graphics card overclocking utility",
     "name": "MSI Afterburner",
     "url": "https://msi.com/page/afterburner",
@@ -1077,6 +1188,7 @@
     ]
   },
   {
+    "id": 111,
     "description": "Organize, find, and play music files on your PC",
     "name": "MusicBee",
     "url": "https://getmusicbee.com/downloads/",
@@ -1088,6 +1200,7 @@
     ]
   },
   {
+    "id": 112,
     "description": "Install and update all your programs at once",
     "name": "Ninite",
     "url": "https://ninite.com/",
@@ -1098,6 +1211,7 @@
     ]
   },
   {
+    "id": 113,
     "description": "Free and fast text and source code editor",
     "name": "Notepad++",
     "url": "https://notepad-plus-plus.org/downloads/",
@@ -1108,6 +1222,7 @@
     ]
   },
   {
+    "id": 114,
     "description": "The all-in-one workspace for your notes, tasks, wikis, and databases",
     "name": "Notion",
     "url": "https://notion.so/",
@@ -1118,6 +1233,7 @@
     ]
   },
   {
+    "id": 115,
     "description": "NodeJS package manager",
     "name": "npm/nodejs",
     "url": "https://nodejs.org/en/",
@@ -1127,6 +1243,7 @@
     ]
   },
   {
+    "id": 116,
     "description": "Video recording and live streaming",
     "name": "OBS Studio",
     "url": "https://obsproject.com/",
@@ -1137,6 +1254,7 @@
     ]
   },
   {
+    "id": 117,
     "description": "General-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use",
     "name": "Oracle VIrtualBox",
     "url": "https://virtualbox.org/wiki/Downloads",
@@ -1147,6 +1265,7 @@
     ]
   },
   {
+    "id": 118,
     "description": "Desktop client for Origin store",
     "name": "Origin",
     "url": "https://origin.com/en-us/store/download",
@@ -1156,6 +1275,7 @@
     ]
   },
   {
+    "id": 119,
     "description": "A software oscilloscope made for looking at music",
     "name": "Oscilloscope",
     "url": "https://asdfg.me/osci/",
@@ -1167,6 +1287,7 @@
     ]
   },
   {
+    "id": 120,
     "description": "Simplify third-party patching on your PC",
     "name": "PatchMyPC Home Updater",
     "url": "https://patchmypc.com/home-updater",
@@ -1177,6 +1298,7 @@
     ]
   },
   {
+    "id": 121,
     "description": "Prototyping tool to create mockups",
     "name": "Pencil",
     "url": "https://pencil.evolus.vn/",
@@ -1187,6 +1309,7 @@
     ]
   },
   {
+    "id": 122,
     "description": "A full-featured screen capture tool",
     "name": "Pic Pick",
     "url": "https://picpick.app/en/",
@@ -1197,6 +1320,7 @@
     ]
   },
   {
+    "id": 123,
     "description": "The collaboration platform for API development",
     "name": "Postman",
     "url": "https://postman.com/downloads/",
@@ -1207,6 +1331,7 @@
     ]
   },
   {
+    "id": 124,
     "description": "Automate various tasks",
     "name": "Power Automate",
     "url": "https://flow.microsoft.com/",
@@ -1217,6 +1342,7 @@
     ]
   },
   {
+    "id": 125,
     "description": "Music player for Android",
     "name": "PowerAMP",
     "url": "https://powerampapp.com/",
@@ -1227,6 +1353,7 @@
     ]
   },
   {
+    "id": 126,
     "description": "Recover lost Windows and Office 2003/2007 product keys",
     "name": "ProduKey",
     "url": "https://nirsoft.net/utils/product_cd_key_viewer.html#DownloadLinks",
@@ -1237,6 +1364,7 @@
     ]
   },
   {
+    "id": 127,
     "description": "Circumvention software that provides uncensored access to Internet content",
     "name": "Psiphon",
     "url": "https://psiphon3.com/en/download.html",
@@ -1247,6 +1375,7 @@
     ]
   },
   {
+    "id": 128,
     "description": "Recover data from damaged media (scratched CDs, DVDs, damaged pen drives etc)",
     "name": "Puran Data Recover",
     "url": "http://puransoftware.com/Data-Recovery.html",
@@ -1257,6 +1386,7 @@
     ]
   },
   {
+    "id": 129,
     "description": "Recover deleted/lost files/partitions",
     "name": "Puran File Recover",
     "url": "http://puransoftware.com/File-Recovery.html",
@@ -1267,6 +1397,7 @@
     ]
   },
   {
+    "id": 130,
     "description": "BitTorrent client",
     "name": "qBittorrent",
     "url": "https://qbittorrent.org/download.php",
@@ -1277,6 +1408,7 @@
     ]
   },
   {
+    "id": 131,
     "description": "Free desktop costumization tool",
     "name": "Rainmeter",
     "url": "https://rainmeter.net/",
@@ -1287,6 +1419,7 @@
     ]
   },
   {
+    "id": 132,
     "description": "Complete and very cheap digital audio production application",
     "name": "Reaper",
     "url": "https://reaper.fm/",
@@ -1297,6 +1430,7 @@
     ]
   },
   {
+    "id": 133,
     "description": "Complete powerful tweaking environment to tune NVIDIA GPU based display adapters",
     "name": "RivaTuner",
     "url": "https://guru3d.com/content-page/rivatuner.html",
@@ -1307,6 +1441,7 @@
     ]
   },
   {
+    "id": 134,
     "description": "Virtual MIDI-driver which allows DAW-applications to communicate via network with other computers",
     "name": "rtpMIDI",
     "url": "https://tobias-erichsen.de/software/rtpmidi.html",
@@ -1316,6 +1451,7 @@
     ]
   },
   {
+    "id": 135,
     "description": "Management utility for Samsung SSDs",
     "name": "Samsung Magician",
     "url": "https://samsung.com/semiconductor/minisite/ssd/download/tools/",
@@ -1326,6 +1462,7 @@
     ]
   },
   {
+    "id": 136,
     "description": "Screen, webcam and sketchboard recorder with an integrated editor",
     "name": "Screen to GIF",
     "url": "https://screentogif.com/",
@@ -1336,6 +1473,7 @@
     ]
   },
   {
+    "id": 137,
     "description": "Make certain keys on a keyboard act like other ones",
     "name": "SharpKeys",
     "url": "https://github.com/randyrants/sharpkeys/releases",
@@ -1345,6 +1483,7 @@
     ]
   },
   {
+    "id": 138,
     "description": "Delete information stored on HDDs in PC laptops, desktops, or servers",
     "name": "ShredOS",
     "url": "https://github.com/PartialVolume/shredos.x86_64",
@@ -1355,6 +1494,7 @@
     ]
   },
   {
+    "id": 139,
     "description": "One of the most famous software for voice calls, video chats and instant messaging",
     "name": "Skype",
     "url": "https://skype.com/get-skype/",
@@ -1364,6 +1504,7 @@
     ]
   },
   {
+    "id": 140,
     "description": "P2P file sharing software",
     "name": "Soulseek",
     "url": "http://slsknet.org/news/node/1",
@@ -1373,6 +1514,7 @@
     ]
   },
   {
+    "id": 141,
     "description": "Windows network display monitor software",
     "name": "Spacedesk",
     "url": "https://spacedesk.net/",
@@ -1383,6 +1525,7 @@
     ]
   },
   {
+    "id": 142,
     "description": "Fast, lightweight, advanced system information tool for your PC",
     "name": "Speccy",
     "url": "https://ccleaner.com/speccy",
@@ -1393,6 +1536,7 @@
     ]
   },
   {
+    "id": 143,
     "description": "Analyse your audio files by showing their spectrogram",
     "name": "Spek",
     "url": "http://spek.cc/",
@@ -1402,6 +1546,7 @@
     ]
   },
   {
+    "id": 144,
     "description": "Guide on how to read Spek's results",
     "name": "Spek Guide",
     "url": "https://www.reddit.com/6fre3q/",
@@ -1411,6 +1556,7 @@
     ]
   },
   {
+    "id": 145,
     "description": "Ideal for development and production for desktop, web, and small server applications",
     "name": "SQL Server",
     "url": "https://microsoft.com/en-us/sql-server/sql-server-downloads",
@@ -1421,6 +1567,7 @@
     ]
   },
   {
+    "id": 146,
     "description": "Integrated environment for managing any SQL infrastructure",
     "name": "SQL Server Management Studio",
     "url": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
@@ -1431,6 +1578,7 @@
     ]
   },
   {
+    "id": 147,
     "description": "Desktop client for Steam store",
     "name": "Steam",
     "url": "https://store.steampowered.com/",
@@ -1440,6 +1588,7 @@
     ]
   },
   {
+    "id": 148,
     "description": "The drag and drop DAW",
     "name": "Studio One",
     "url": "https://presonus.com/products/Studio-One/downloads",
@@ -1450,6 +1599,7 @@
     ]
   },
   {
+    "id": 149,
     "description": "Create, adjust or translate any subtitle",
     "name": "Subtitle Edit",
     "url": "https://nikse.dk/subtitleedit",
@@ -1462,6 +1612,7 @@
     ]
   },
   {
+    "id": 150,
     "description": "Protect your digical life with this VPN",
     "name": "Surfshark VPN",
     "url": "https://surfshark.com/",
@@ -1471,6 +1622,7 @@
     ]
   },
   {
+    "id": 151,
     "description": "Synchronize files between two or more computers in real time, safely protected from prying eyes",
     "name": "Syncthing",
     "url": "https://syncthing.net/",
@@ -1481,6 +1633,7 @@
     ]
   },
   {
+    "id": 152,
     "description": "Modern, native, and friendly GUI tool for relational databases",
     "name": "TablePlus",
     "url": "https://tableplus.com/",
@@ -1491,6 +1644,7 @@
     ]
   },
   {
+    "id": 153,
     "description": "VoIP communication system for online gaming",
     "name": "TeamSpeak",
     "url": "https://teamspeak.com/en/downloads/",
@@ -1500,6 +1654,7 @@
     ]
   },
   {
+    "id": 154,
     "description": "Establish connections between devices to real-time remote access and support",
     "name": "TeamViewer",
     "url": "https://teamviewer.com/download/",
@@ -1510,6 +1665,7 @@
     ]
   },
   {
+    "id": 155,
     "description": "Client for Telegram app",
     "name": "Telegram Desktop",
     "url": "https://desktop.telegram.org/",
@@ -1520,6 +1676,7 @@
     ]
   },
   {
+    "id": 156,
     "description": "Copy your files faster and more securely",
     "name": "Teracopy",
     "url": "https://codesector.com/teracopy",
@@ -1530,6 +1687,7 @@
     ]
   },
   {
+    "id": 157,
     "description": "Web browser to protect yourself against tracking, surveillance, and censorship",
     "name": "Tor",
     "url": "https://torproject.org/download/",
@@ -1539,6 +1697,7 @@
     ]
   },
   {
+    "id": 158,
     "description": "Full-featured DAW/MIDI controller for Android devices",
     "name": "TouchDAW",
     "url": "https://xmmc.de/touchdaw/",
@@ -1549,6 +1708,7 @@
     ]
   },
   {
+    "id": 159,
     "description": "The macro remote control for PC and Mac software",
     "name": "TouchPortal",
     "url": "https://touch-portal.com/",
@@ -1559,6 +1719,7 @@
     ]
   },
   {
+    "id": 160,
     "description": "Quickly scan directory sizes and find space hogs",
     "name": "TreeSize",
     "url": "https://jam-software.com/treesize_free",
@@ -1569,6 +1730,7 @@
     ]
   },
   {
+    "id": 161,
     "description": "Another client for Telegram app",
     "name": "Unigram",
     "url": "https://microsoft.com/en-us/p/unigram-a-telegram-universal-experience/9n97zckpd60q",
@@ -1579,6 +1741,7 @@
     ]
   },
   {
+    "id": 162,
     "description": "Desktop client for Ubisoft store",
     "name": "Uplay",
     "url": "https://uplay.ubisoft.com/",
@@ -1588,6 +1751,7 @@
     ]
   },
   {
+    "id": 163,
     "description": "Free delay and reverb plugin for your DAW",
     "name": "Valhalla Supermassive",
     "url": "https://valhalladsp.com/shop/reverb/valhalla-supermassive/",
@@ -1597,6 +1761,7 @@
     ]
   },
   {
+    "id": 164,
     "description": "Open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files",
     "name": "Ventoy",
     "url": "https://ventoy.net/en/download.html",
@@ -1607,6 +1772,7 @@
     ]
   },
   {
+    "id": 165,
     "description": "Create a virtual unit where you can load CDs and DVDs as if you were putting them in the tray",
     "name": "VirtualCloneDrive",
     "url": "https://www.elby.ch/en/products/vcd.html",
@@ -1617,6 +1783,7 @@
     ]
   },
   {
+    "id": 166,
     "description": "Video editor designed for simple cutting, filtering and encoding tasks",
     "name": "VLC",
     "url": "https://videolan.org/vlc/",
@@ -1627,6 +1794,7 @@
     ]
   },
   {
+    "id": 167,
     "description": "Remotely control VLC player from your smartphone",
     "name": "VLCMobileRemote",
     "url": "https://vlcmobileremote.com/download/",
@@ -1637,6 +1805,7 @@
     ]
   },
   {
+    "id": 168,
     "description": "Clears the MEF cache on disk and lets Visual Studio rebuild it",
     "name": "VS - Clear MEF Cache",
     "url": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ClearMEFComponentCache",
@@ -1646,6 +1815,7 @@
     ]
   },
   {
+    "id": 169,
     "description": "Selects the next occurrence of the current selection and adds multiple cursors for editing",
     "name": "VS - Select Next Occurence",
     "url": "https://marketplace.visualstudio.com/items?itemName=thomaswelen.SelectNextOccurrence",
@@ -1655,6 +1825,7 @@
     ]
   },
   {
+    "id": 170,
     "description": "The easiest way to set up Visual Studio for the ultimate Web Development experience",
     "name": "VS - Web Essentials",
     "url": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017",
@@ -1664,6 +1835,7 @@
     ]
   },
   {
+    "id": 171,
     "description": "Improve your code commenting by annotating with alert, informational, TODOs, and more!",
     "name": "VSC - Better Comments",
     "url": "https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments",
@@ -1673,6 +1845,7 @@
     ]
   },
   {
+    "id": 172,
     "description": "Compute complexity in JS/TS files",
     "name": "VSC - Code runner",
     "url": "https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner",
@@ -1682,6 +1855,7 @@
     ]
   },
   {
+    "id": 173,
     "description": "Run code snippet or code file for multiple languages",
     "name": "VSC - Codemetrics",
     "url": "https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics",
@@ -1691,6 +1865,7 @@
     ]
   },
   {
+    "id": 174,
     "description": "Collapse your structures using simple commands",
     "name": "VSC - Collapse Level",
     "url": "https://marketplace.visualstudio.com/items?itemName=mwilski.CollapseLevel",
@@ -1700,6 +1875,7 @@
     ]
   },
   {
+    "id": 175,
     "description": "Remove all comments in any file with a click of a button",
     "name": "VSC - Comment Remover",
     "url": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CommentRemover",
@@ -1709,6 +1885,7 @@
     ]
   },
   {
+    "id": 176,
     "description": "Compute complexity in JS/TS files",
     "name": "VSC - CSS Peak",
     "url": "https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek",
@@ -1718,6 +1895,7 @@
     ]
   },
   {
+    "id": 177,
     "description": "Debug your JS code in Chrome browser",
     "name": "VSC - Debugger for Chrome",
     "url": "https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome",
@@ -1727,6 +1905,7 @@
     ]
   },
   {
+    "id": 178,
     "description": "Update your discord status with the newly added rich presence",
     "name": "VSC - Discord Presence",
     "url": "https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode",
@@ -1736,6 +1915,7 @@
     ]
   },
   {
+    "id": 179,
     "description": "Quickly see docs from MDN",
     "name": "VSC - ESdoc MDN",
     "url": "https://marketplace.visualstudio.com/items?itemName=samundrak.esdoc-mdn",
@@ -1745,6 +1925,7 @@
     ]
   },
   {
+    "id": 180,
     "description": "Integrates ESLint JavaScript into VS Code",
     "name": "VSC - ESLint",
     "url": "https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint",
@@ -1754,6 +1935,7 @@
     ]
   },
   {
+    "id": 181,
     "description": "Collapse your structures using simple commands (requires adding custom keyboard shortcuts)",
     "name": "VSC - Fold Level",
     "url": "https://marketplace.visualstudio.com/items?itemName=vikyd.vscode-fold-level",
@@ -1763,6 +1945,7 @@
     ]
   },
   {
+    "id": 182,
     "description": "Supercharge the Git capabilities built into VS Code",
     "name": "VSC - GitLens",
     "url": "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens",
@@ -1772,6 +1955,7 @@
     ]
   },
   {
+    "id": 183,
     "description": "Display preview glyphs for many of the common glyph-based font libraries",
     "name": "VSC - Glyphfriend2019",
     "url": "https://marketplace.visualstudio.com/items?itemName=RionWilliams.Glyphfriend2019",
@@ -1781,6 +1965,7 @@
     ]
   },
   {
+    "id": 184,
     "description": "Missing CSS support for HTML documents",
     "name": "VSC - Highlight Matching Tag",
     "url": "https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag",
@@ -1790,6 +1975,7 @@
     ]
   },
   {
+    "id": 185,
     "description": "Missing CSS support for HTML documents",
     "name": "VSC - HTML-CSS",
     "url": "https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css",
@@ -1799,6 +1985,7 @@
     ]
   },
   {
+    "id": 186,
     "description": "Display inline import/require package size in the editor",
     "name": "VSC - Import Cost",
     "url": "https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost",
@@ -1808,6 +1995,7 @@
     ]
   },
   {
+    "id": 187,
     "description": "Instant previews of your markdown files as you type",
     "name": "VSC - Instand Markdown",
     "url": "https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-instant-markdown",
@@ -1817,6 +2005,7 @@
     ]
   },
   {
+    "id": 188,
     "description": "AI-assisted development",
     "name": "VSC - IntelliCode",
     "url": "https://marketplace.visualstudio.com/items?itemName=visualstudioexptteam.vscodeintellicode",
@@ -1826,6 +2015,7 @@
     ]
   },
   {
+    "id": 189,
     "description": "CSS class name completion for the HTML class attribute based on the definitions found in your workspace",
     "name": "VSC - Intellisense for CSS in HTML",
     "url": "https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion",
@@ -1835,6 +2025,7 @@
     ]
   },
   {
+    "id": 190,
     "description": "Useful snippets for jQuery",
     "name": "VSC - jQuery code snippets",
     "url": "https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets",
@@ -1844,6 +2035,7 @@
     ]
   },
   {
+    "id": 191,
     "description": "Launch a development local Server with live reload feature for static and dynamic pages",
     "name": "VSC - Live Server",
     "url": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.liveserver",
@@ -1853,6 +2045,7 @@
     ]
   },
   {
+    "id": 192,
     "description": "Real-time collaborative development",
     "name": "VSC - LiveShare",
     "url": "https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare",
@@ -1862,6 +2055,7 @@
     ]
   },
   {
+    "id": 193,
     "description": "pack containing the most important extensions to get started with PHP development",
     "name": "VSC - PHP exstension pack",
     "url": "https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-pack",
@@ -1871,6 +2065,7 @@
     ]
   },
   {
+    "id": 194,
     "description": "Synchronize all your stuff using GitHub Gist",
     "name": "VSC - Settings Synch",
     "url": "https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync",
@@ -1880,6 +2075,7 @@
     ]
   },
   {
+    "id": 195,
     "description": "Smooth typing anymation",
     "name": "VSC - Smoothtype",
     "url": "https://marketplace.visualstudio.com/items?itemName=spikespaz.vscode-smoothtype",
@@ -1889,6 +2085,7 @@
     ]
   },
   {
+    "id": 196,
     "description": "Visual and literal SVG editor",
     "name": "VSC - SVG Editor",
     "url": "https://marketplace.visualstudio.com/items?itemName=henoc.svgeditor",
@@ -1898,6 +2095,7 @@
     ]
   },
   {
+    "id": 197,
     "description": "Highlight multiple text patterns with different colors at the same time",
     "name": "VSC - Text Marker",
     "url": "https://marketplace.visualstudio.com/items?itemName=ryu1kn.text-marker",
@@ -1907,6 +2105,7 @@
     ]
   },
   {
+    "id": 198,
     "description": "BitTorrent client to stream your torrent while you download it in order",
     "name": "WebTorrent Desktop",
     "url": "https://webtorrent.io/",
@@ -1917,6 +2116,7 @@
     ]
   },
   {
+    "id": 199,
     "description": "Find cheats, trainers, mods and more, all in one app",
     "name": "WeMod",
     "url": "https://wemod.com/download",
@@ -1926,6 +2126,7 @@
     ]
   },
   {
+    "id": 200,
     "description": "Remove useless stuff from Windows 10",
     "name": "Windows 10 Debloater",
     "url": "https://github.com/Sycnex/Windows10Debloater",
@@ -1936,6 +2137,7 @@
     ]
   },
   {
+    "id": 201,
     "description": "Manage your windows practically and efficiently",
     "name": "WindowTop",
     "url": "https://windowtop.info/",
@@ -1946,6 +2148,7 @@
     ]
   },
   {
+    "id": 202,
     "description": "Data compression, encryption and archiving tool",
     "name": "WinRAR",
     "url": "https://win-rar.com/download.html?",
@@ -1956,6 +2159,7 @@
     ]
   },
   {
+    "id": 203,
     "description": "Powerful video editor",
     "name": "Wondershare Filmora",
     "url": "https://filmora.wondershare.com/video-editor/",
@@ -1966,6 +2170,7 @@
     ]
   },
   {
+    "id": 204,
     "description": "Powerful video converter",
     "name": "Wondershare UniConverter",
     "url": "https://videoconverter.wondershare.com/",
@@ -1975,6 +2180,7 @@
     ]
   },
   {
+    "id": 205,
     "description": "A free alternative to IDM",
     "name": "Xtreme Download Manager",
     "url": "https://xtremedownloadmanager.com/#downloads",
@@ -1984,6 +2190,7 @@
     ]
   },
   {
+    "id": 206,
     "description": "Offline documentation browser for software developers",
     "name": "ZealDocs",
     "url": "https://zealdocs.org/download.html",
@@ -1994,6 +2201,7 @@
     ]
   },
   {
+    "id": 207,
     "description": "BitTorrent client",
     "name": "µTorrent",
     "url": "https://utorrent.com/downloads/win",
