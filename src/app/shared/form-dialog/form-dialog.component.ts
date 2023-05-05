@@ -24,6 +24,7 @@ export class FormDialogComponent implements OnInit, OnDestroy {
 
 
   form = this.fb.group({
+    id: [this.data.websiteInfo ? this.data.websiteInfo['id'] : -1, Validators.required],
     name: [this.data.websiteInfo ? this.data.websiteInfo['name'] : '', Validators.required],
     url: [this.data.websiteInfo ? this.data.websiteInfo.url : '', Validators.required],
     description: [this.data.websiteInfo ? this.data.websiteInfo.description : '', Validators.required],
@@ -36,7 +37,6 @@ export class FormDialogComponent implements OnInit, OnDestroy {
     @Inject(MAT_DIALOG_DATA) private readonly data: {websiteInfo: WebsiteInfo | null, tags: TagInfo[]} ) {}
 
   ngOnInit(): void {
-    console.log(this.form.get('tags')?.value)
     this.filteredTags.next(this.tagList.slice());
 
     this.tagSearch.valueChanges
@@ -49,6 +49,10 @@ export class FormDialogComponent implements OnInit, OnDestroy {
   ngOnDestroy() {
     this.onDestroy.next();
     this.onDestroy.complete();
+  }
+
+  getFCValue(key: string): any { 
+    return this.form.get(key)?.value;
   }
 
   filterTags() {
@@ -73,7 +77,12 @@ export class FormDialogComponent implements OnInit, OnDestroy {
   }
   
   handleConfirmClick() {
-    //todo
-    console.log('User confirmed');
+    this.dialogRef.close({
+      id: this.getFCValue('id') as number,
+      name: this.getFCValue('name') as string,
+      url: this.getFCValue('url') as string,
+      description: this.getFCValue('description') as string,
+      tags: this.getFCValue('tags').sort() as string[] //sort tags alphabetically (value)
+    });
   }
 }

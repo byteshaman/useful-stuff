@@ -14,6 +14,7 @@ export interface PageInfo {
 }
 
 export interface WebsiteInfo {
+  id: number;
   description: string;
   name: string;
   tags: string[];
