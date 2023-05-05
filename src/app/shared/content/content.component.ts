@@ -40,13 +40,13 @@ export class ContentComponent implements OnInit, AfterViewInit {
   constructor(public dialog: MatDialog, private changeDetectorRefs: ChangeDetectorRef) { }
 
   ngOnInit(): void {
-    console.log('Elements at start: ', this.tableData.length);
 
     this.displayedColumns = [... this.columns];
 
     // Show buttons when in dev mode
     if (this.devMode) {
       this.displayedColumns.push('actions');
+    // console.log('Elements at start: ', this.tableData.length);
     }
 
 
@@ -95,29 +95,27 @@ export class ContentComponent implements OnInit, AfterViewInit {
   }
 
   /**
-   * Remove element from the array
+   * Remove element and update the data
    * @param  {WebsiteInfo} website
    * @returns void
    */
   deleteElem(website: WebsiteInfo): void {
-    console.log(website.name)
-    const idx: number = this.tableData.findIndex(site => site.id === website.id);
-    console.log('0', this.tableData[0].name)
+    const idx: number = this.tableData.findIndex(site => site.id === website.id); //it'll always find stuff
     this.tableData.splice(idx, 1);
-    console.log('0 after', this.tableData[0].name)
-    this.filterDataByTags();
+    this.filterDataByTags(); //update data
   }
 
   /**
-   * Sort array and download it as JSON
+   * Sort the array and download it as JSON
    * @returns void
    */
   downloadJSON(): void {
     this.sortByKey(this.tableData, 'name');
 
+    if (this.devMode) {
+      console.log('Elements to download: ', this.tableData.length);
+    }
 
-    console.log('Elements to download: ', this.tableData.length);
-    
     return saveAs(
       new Blob([JSON.stringify(this.tableData, null, 2)], { type: 'JSON' }), `${this.filename}.json`
     );
@@ -245,7 +243,8 @@ export class ContentComponent implements OnInit, AfterViewInit {
    * @returns void
    */
   setSelectableTags(): void {
-    console.log(this.selectedTags.length)
+    // console.log(this.selectedTags.length)
+
     if (this.selectedTags.length > 0) {
       this.selectableTags = new Set<string>(this.dataSource.filteredData.flatMap(el => el.tags));
     } else {
