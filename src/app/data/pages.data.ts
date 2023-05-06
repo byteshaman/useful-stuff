@@ -3,12 +3,12 @@ import { PageInfo } from "../interfaces/interfaces";
 export const pages: PageInfo[] = [
   {
     code: 'l4d',
-    description: 'Link 4 Devs',
+    description: 'Links4Devs',
     categories: ['topic', 'resource type']
   },
   {
     code: 'web',
-    description: 'Websites'
+    description: 'Cool Websites'
   },
   {
     code: 'sw',

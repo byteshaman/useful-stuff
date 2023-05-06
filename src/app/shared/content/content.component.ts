@@ -32,7 +32,7 @@ export class ContentComponent implements OnInit, AfterViewInit {
   dataSource: MatTableDataSource<WebsiteInfo> = new MatTableDataSource();
 
   // flags
-  devMode: boolean = true;
+  devMode: boolean = false;
 
   // export
   filename: string = ''; 
@@ -42,12 +42,6 @@ export class ContentComponent implements OnInit, AfterViewInit {
   ngOnInit(): void {
 
     this.displayedColumns = [... this.columns];
-
-    // Show buttons when in dev mode
-    if (this.devMode) {
-      this.displayedColumns.push('actions');
-    // console.log('Elements at start: ', this.tableData.length);
-    }
 
 
     // console.log('this.pageInfo', this.pageInfo)
@@ -69,6 +63,14 @@ export class ContentComponent implements OnInit, AfterViewInit {
 
     // Deep copy
     this.dataSource.data = JSON.parse(JSON.stringify(this.tableData));
+
+
+    // Show buttons when in dev mode
+    if (this.devMode) {
+      this.displayedColumns.push('actions');
+      console.log('Elements at start: ', this.tableData.length);
+    }
+
 
     // Select every tag at first
     this.setSelectableTags();
@@ -220,18 +222,16 @@ export class ContentComponent implements OnInit, AfterViewInit {
           // console.log('Edited element:', res)
 
           // Update main array (for export and filter operations)
-          const mainIdx = this.tableData.find(site => site.id === res.id)!.id;
+          const mainIdx = this.tableData.findIndex(site => site.id === res.id);
           this.tableData[mainIdx] = res;
 
 
-        } else { // Operation can only be new: determine id and 
-          const newId = ++this.tableData.slice(-1)[0].id;
-          res.id = newId;
+        } else { // Operation can only be new
+          res.id = (Math.max(... this.tableData.map(el => el.id)))+1; //find max id and increase it
           this.tableData.unshift(res);
-          this.dataSource.data.unshift(res);
         }
 
-        this.dataSource.data = this.dataSource.data.slice(); //needed for the detectChanges to work
+        this.filterDataByTags(); //needed for the detectChanges to work
         this.changeDetectorRefs.detectChanges();
       }
     })

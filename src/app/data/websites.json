@@ -1,5 +1,14 @@
 [
   {
+    "id": 222,
+    "name": "/r/Roms Megathread",
+    "url": "https://r-roms.github.io/",
+    "description": "Find emulators for various consoles",
+    "tags": [
+      "game"
+    ]
+  },
+  {
     "id": 0,
     "description": "Beat SPAM with the best disposable email service",
     "name": "10minutemail",
@@ -107,6 +116,16 @@
     ]
   },
   {
+    "id": 221,
+    "name": "anime.plus",
+    "url": "https://anime.plus/",
+    "description": "Enhanced stats for your MAL profile",
+    "tags": [
+      "animanga",
+      "tool"
+    ]
+  },
+  {
     "id": 11,
     "description": "[ITA] Portale per anime e manga",
     "name": "AnimeClick",
@@ -145,6 +164,16 @@
       "movies",
       "subs",
       "tvs"
+    ]
+  },
+  {
+    "id": 214,
+    "name": "Aspire Budgeting",
+    "url": "https://aspirebudget.com/",
+    "description": "Spreadsheets for budgeting",
+    "tags": [
+      "fin",
+      "tool"
     ]
   },
   {
@@ -196,6 +225,16 @@
     ]
   },
   {
+    "id": 207,
+    "name": "Brilliant",
+    "url": "https://brilliant.org/",
+    "description": "Learn math and computer science",
+    "tags": [
+      "edu",
+      "tool"
+    ]
+  },
+  {
     "id": 20,
     "description": "Listen to a selection from the British Library’s extensive collections of unique sound recordings",
     "name": "British Library Sounds",
@@ -218,11 +257,11 @@
   },
   {
     "id": 22,
-    "description": "Amazon IT offers aggregator",
+    "description": "[ITA] Aggregatore di offerte Amazon",
     "name": "BuyBuyApp",
     "url": "https://buybuy.app/",
     "tags": [
-      "misc",
+      "fin",
       "tool"
     ]
   },
@@ -339,6 +378,26 @@
     "tags": [
       "animanga",
       "stream"
+    ]
+  },
+  {
+    "id": 210,
+    "name": "Dangerzone",
+    "url": "https://dangerzone.rocks/",
+    "description": "Take potentially dangerous documents and convert them to safe PDFs",
+    "tags": [
+      "sec",
+      "tool"
+    ]
+  },
+  {
+    "id": 223,
+    "name": "DCA Pal",
+    "url": "https://dcapal.com/",
+    "description": "Keep your portfolio under control",
+    "tags": [
+      "fin",
+      "tool"
     ]
   },
   {
@@ -546,6 +605,16 @@
     ]
   },
   {
+    "id": 209,
+    "name": "FrameData",
+    "url": "https://framadate.org/abc/en/",
+    "description": "Schedule a meeting or create an opinion poll",
+    "tags": [
+      "prod",
+      "tool"
+    ]
+  },
+  {
     "id": 56,
     "description": "Write an email to your future self",
     "name": "FutureMe",
@@ -625,6 +694,36 @@
     ]
   },
   {
+    "id": 213,
+    "name": "Gun Violence Archive",
+    "url": "https://www.gunviolencearchive.org/",
+    "description": "Gun violence and crime incidents",
+    "tags": [
+      "catalog",
+      "misc"
+    ]
+  },
+  {
+    "id": 199,
+    "name": "HammerTime",
+    "url": "https://hammertime.cyou/",
+    "description": "Generate timestamp for Discord",
+    "tags": [
+      "misc",
+      "tool"
+    ]
+  },
+  {
+    "id": 220,
+    "name": "HardReset",
+    "url": "https://www.hardreset.info/",
+    "description": "Find the best way to make a hard reset for a device",
+    "tags": [
+      "article",
+      "privacy"
+    ]
+  },
+  {
     "id": 64,
     "description": "4000 years of human history in one interactive page",
     "name": "Historygrapy",
@@ -659,6 +758,16 @@
     "tags": [
       "article",
       "music",
+      "tool"
+    ]
+  },
+  {
+    "id": 198,
+    "name": "HowLongToBeat",
+    "url": "https://howlongtobeat.com/",
+    "description": "Find out how much time it takes to beat a game",
+    "tags": [
+      "game",
       "tool"
     ]
   },
@@ -718,6 +827,16 @@
     "tags": [
       "misc",
       "tech"
+    ]
+  },
+  {
+    "id": 212,
+    "name": "ImageMeasurement",
+    "url": "https://imagemeasurement.online/image/select",
+    "description": "Measure objects online",
+    "tags": [
+      "image",
+      "tool"
     ]
   },
   {
@@ -978,6 +1097,25 @@
     ]
   },
   {
+    "id": 205,
+    "name": "MobyGames",
+    "url": "https://www.mobygames.com/",
+    "description": "Videogame DB",
+    "tags": [
+      "catalog",
+      "game"
+    ]
+  },
+  {
+    "id": 215,
+    "name": "MoneyViz",
+    "url": "https://www.moneyviz.it/",
+    "description": "[ITA] Monitoraggio investimenti e rendicontazione fiscale",
+    "tags": [
+      "fin"
+    ]
+  },
+  {
     "id": 100,
     "description": "[ITA] Scegli quale film vorresti vedere al cinema",
     "name": "MovieDay",
@@ -1015,6 +1153,16 @@
     "tags": [
       "animanga",
       "catalog"
+    ]
+  },
+  {
+    "id": 204,
+    "name": "myNoise",
+    "url": "https://mynoise.net/",
+    "description": "Discover soundscapes that can enhance focus, relaxation, and sleep ",
+    "tags": [
+      "prod",
+      "tool"
     ]
   },
   {
@@ -1063,6 +1211,16 @@
     "url": "https://nowinstock.net/",
     "tags": [
       "shop",
+      "tool"
+    ]
+  },
+  {
+    "id": 203,
+    "name": "odesli",
+    "url": "https://odesli.co/",
+    "description": "Share a music link on various platforms",
+    "tags": [
+      "music",
       "tool"
     ]
   },
@@ -1193,11 +1351,31 @@
     ]
   },
   {
+    "id": 211,
+    "name": "pixelconverter",
+    "url": "https://www.pixelconverter.com/pixels-to-cm-for-printing/",
+    "description": "Convert pixels to cm for printing",
+    "tags": [
+      "image",
+      "tool"
+    ]
+  },
+  {
     "id": 122,
     "description": "Find random images based on the cursor's position",
     "name": "Pointer Pointer",
     "url": "https://pointerpointer.com/",
     "tags": [
+      "useless"
+    ]
+  },
+  {
+    "id": 201,
+    "name": "PostSecret",
+    "url": "https://postsecret.com/",
+    "description": "Share a secret anonymously",
+    "tags": [
+      "misc",
       "useless"
     ]
   },
@@ -1340,6 +1518,16 @@
     ]
   },
   {
+    "id": 218,
+    "name": "removeBG",
+    "url": "https://www.remove.bg/",
+    "description": "Remove the background from pics",
+    "tags": [
+      "image",
+      "tool"
+    ]
+  },
+  {
     "id": 137,
     "description": "Download loops and audio samples for free",
     "name": "SampleSwap",
@@ -1374,6 +1562,16 @@
     "tags": [
       "article",
       "tech"
+    ]
+  },
+  {
+    "id": 202,
+    "name": "sieve.tv",
+    "url": "https://sieve.tv/",
+    "description": "Find TV shows",
+    "tags": [
+      "tool",
+      "tvs"
     ]
   },
   {
@@ -1646,6 +1844,20 @@
     ]
   },
   {
+    "id": 219,
+    "name": "TinyWOW",
+    "url": "https://tinywow.com/tools",
+    "description": "Useful tools",
+    "tags": [
+      "image",
+      "music",
+      "prod",
+      "text",
+      "tool",
+      "video"
+    ]
+  },
+  {
     "id": 169,
     "description": "20 anime movies not made by Studio Ghibli",
     "name": "Tofugu",
@@ -1725,6 +1937,26 @@
     ]
   },
   {
+    "id": 216,
+    "name": "tuttodinternet",
+    "url": "https://tuttodinternet.com/riconoscere-i-file-audio-di-qualita/",
+    "description": "[ITA] Riconoscere i file audio di qualità",
+    "tags": [
+      "article",
+      "music"
+    ]
+  },
+  {
+    "id": 200,
+    "name": "TV Series Finale",
+    "url": "https://tvseriesfinale.com/tv-shows-status/",
+    "description": "Canceled and renewed TV shows",
+    "tags": [
+      "tool",
+      "tvs"
+    ]
+  },
+  {
     "id": 177,
     "description": "All avant-garde website (dance, movies, music)",
     "name": "ubu",
@@ -1785,6 +2017,16 @@
     ]
   },
   {
+    "id": 208,
+    "name": "vendutoespeditoda",
+    "url": "https://www.vendutoespeditoda.it/",
+    "description": "[ITA] Cerca prodotti venduti  espediti da Amazon",
+    "tags": [
+      "misc",
+      "tool"
+    ]
+  },
+  {
     "id": 183,
     "description": "Compare mobile phones, tablets, headphones and cameras specs",
     "name": "Versus",
@@ -1793,6 +2035,16 @@
       "comp",
       "tech",
       "tool"
+    ]
+  },
+  {
+    "id": 206,
+    "name": "vimm",
+    "url": "https://vimm.net/",
+    "description": "Site dedicated to nostalgia for many of the greatest game consoles ever made",
+    "tags": [
+      "catalog",
+      "game"
     ]
   },
   {
@@ -1861,6 +2113,16 @@
     ]
   },
   {
+    "id": 217,
+    "name": "When2Meet",
+    "url": "https://www.when2meet.com/",
+    "description": "Find the best time for a group to meet",
+    "tags": [
+      "prod",
+      "tool"
+    ]
+  },
+  {
     "id": 191,
     "description": "Guess which face is not generated by an IA",
     "name": "Which face is real?",
@@ -1880,7 +2142,7 @@
   },
   {
     "id": 193,
-    "description": "Research domain ownership with Whois Lookup",
+    "description": "Research domain ownership with WhoIs Lookup",
     "name": "WhoIs",
     "url": "https://whois.domaintools.com/",
     "tags": [
