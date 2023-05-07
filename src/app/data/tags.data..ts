@@ -8,8 +8,8 @@ export const l4dTags: TagInfo[] = [
   },
   {
     category: "resource type",
-    value: "article",
-    description: "Article",
+    value: "artut",
+    description: "Article/Tutorial",
   },
   {
     category: "topic",
@@ -103,8 +103,8 @@ export const l4dTags: TagInfo[] = [
   },
   {
     category: "topic",
-    value: "oth",
-    description: "Other",
+    value: "misc",
+    description: "Miscellaneous",
   },
   {
     category: "topic",
@@ -144,7 +144,7 @@ export const l4dTags: TagInfo[] = [
   {
     category: "resource type",
     value: "tips",
-    description: "Tips & tricks",
+    description: "Tips & Tricks",
   },
   {
     category: "resource type",
@@ -155,11 +155,6 @@ export const l4dTags: TagInfo[] = [
     category: "resource type",
     value: "ts",
     description: "TypeScript",
-  },
-  {
-    category: "resource type",
-    value: "tutorial",
-    description: "Tutorial",
   },
   {
     category: "resource type",

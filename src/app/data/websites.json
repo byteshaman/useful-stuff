@@ -136,6 +136,16 @@
     ]
   },
   {
+    "id": 228,
+    "name": "anirishinvestorsguide",
+    "url": "https://anirishinvestorsguide.com/2020/04/25/etf_guide_part_1/",
+    "description": "Guide to ETFs",
+    "tags": [
+      "article",
+      "fin"
+    ]
+  },
+  {
     "id": 12,
     "description": "Share up to 500MB big files privately",
     "name": "Anonymouse Files",
@@ -391,6 +401,16 @@
     ]
   },
   {
+    "id": 227,
+    "name": "davidevolpe",
+    "url": "https://davidvolpe.it/ribilanciamento-portafoglio-quando-momento-giusto/",
+    "description": "[ITA] Guida al ribilanciamento del portafoglio",
+    "tags": [
+      "article",
+      "fin"
+    ]
+  },
+  {
     "id": 223,
     "name": "DCA Pal",
     "url": "https://dcapal.com/",
@@ -602,6 +622,16 @@
       "audio",
       "tool",
       "video"
+    ]
+  },
+  {
+    "id": 224,
+    "name": "Forum FinanzaOnline",
+    "url": "https://forum.finanzaonline.com/",
+    "description": "[ITA] Il forum di finanza più grande d'Italia",
+    "tags": [
+      "disc",
+      "fin"
     ]
   },
   {
@@ -945,6 +975,17 @@
     "url": "https://italiaora.org/",
     "tags": [
       "info"
+    ]
+  },
+  {
+    "id": 225,
+    "name": "JustETF",
+    "url": "https://www.justetf.com/",
+    "description": "Find ETFs and compare them",
+    "tags": [
+      "comp",
+      "edu",
+      "fin"
     ]
   },
   {
@@ -1420,6 +1461,17 @@
     ]
   },
   {
+    "id": 226,
+    "name": "QuelloCheConta",
+    "url": "https://www.quellocheconta.gov.it/it/",
+    "description": "[ITA] Informazioni utili su investimenti e finanza",
+    "tags": [
+      "article",
+      "edu",
+      "fin"
+    ]
+  },
+  {
     "id": 127,
     "description": "Chronological order of anime",
     "name": "r/watchorder",
@@ -1505,16 +1557,6 @@
       "movies",
       "stream",
       "tvs"
-    ]
-  },
-  {
-    "id": 136,
-    "description": "Remove background from pictures",
-    "name": "Remove BG",
-    "url": "https://remove.bg/",
-    "tags": [
-      "image",
-      "tool"
     ]
   },
   {

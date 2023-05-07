@@ -5,7 +5,7 @@
     "name": "1keydata",
     "url": "https://1keydata.com/",
     "tags": [
-      "tutorial",
+      "artut",
       "webdev"
     ]
   },
@@ -37,7 +37,7 @@
     "name": "alligator.io",
     "url": "https://alligator.io/",
     "tags": [
-      "article",
+      "artut",
       "tips",
       "webdev"
     ]
@@ -58,7 +58,7 @@
     "name": "andy.carter",
     "url": "https://andy-carter.com/blog/env-gotcha-in-laravel-when-caching-configuration",
     "tags": [
-      "article",
+      "artut",
       "laravel"
     ]
   },
@@ -79,7 +79,7 @@
     "url": "https://blog.angular-university.io/rxjs-error-handling/",
     "tags": [
       "ag",
-      "article",
+      "artut",
       "libpak"
     ]
   },
@@ -100,7 +100,7 @@
     "url": "https://angular.io/guide/template-reference-variables",
     "tags": [
       "ag",
-      "article"
+      "artut"
     ]
   },
   {
@@ -118,7 +118,7 @@
     "name": "arstechnica.com",
     "url": "https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/",
     "tags": [
-      "article",
+      "artut",
       "thisthat"
     ]
   },
@@ -128,7 +128,7 @@
     "name": "ArtisanWeb",
     "url": "https://artisansweb.net/how-to-log-query-in-laravel/",
     "tags": [
-      "article",
+      "artut",
       "laravel"
     ]
   },
@@ -138,8 +138,8 @@
     "name": "Atlassian",
     "url": "https://atlassian.com/git/tutorials",
     "tags": [
-      "git",
-      "tutorial"
+      "artut",
+      "git"
     ]
   },
   {
@@ -148,7 +148,7 @@
     "name": "aulab.it",
     "url": "https://aulab.it/blog",
     "tags": [
-      "article",
+      "artut",
       "webdev"
     ]
   },
@@ -177,8 +177,8 @@
     "name": "BarelyFitz Designs",
     "url": "http://barelyfitz.com/screencast/html-training/css/positioning/",
     "tags": [
-      "css",
-      "tutorial"
+      "artut",
+      "css"
     ]
   },
   {
@@ -197,7 +197,7 @@
     "name": "blog.quickadminpanel",
     "url": "https://blog.quickadminpanel.com/datatables-editdelete-buttons-hide-under-javascript-dropdown/",
     "tags": [
-      "article",
+      "artut",
       "laravel"
     ]
   },
@@ -207,7 +207,7 @@
     "name": "Bobby Hadz Blog",
     "url": "https://bobbyhadz.com/",
     "tags": [
-      "tutorial",
+      "artut",
       "webdev"
     ]
   },
@@ -239,7 +239,7 @@
     "name": "Bootstrap Creative",
     "url": "https://bootstrapcreative.com/what-are-the-integrity-and-crossorigin-attributes-and-why-are-they-necessary/",
     "tags": [
-      "article",
+      "artut",
       "html"
     ]
   },
@@ -269,8 +269,8 @@
     "name": "callbackhell",
     "url": "http://callbackhell.com/",
     "tags": [
-      "js",
-      "tutorial"
+      "artut",
+      "js"
     ]
   },
   {
@@ -332,7 +332,7 @@
     "name": "Code Tutsplus",
     "url": "https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574",
     "tags": [
-      "article",
+      "artut",
       "git"
     ]
   },
@@ -375,6 +375,16 @@
       "exercise",
       "interactive",
       "multi"
+    ]
+  },
+  {
+    "id": 322,
+    "name": "CodinGame",
+    "url": "https://www.codingame.com/playgrounds/347/javascript-promises-mastering-the-asynchronous/what-is-asynchronous-in-javascript",
+    "description": "What is asynchronous in JavaScript?",
+    "tags": [
+      "artut",
+      "js"
     ]
   },
   {
@@ -485,8 +495,8 @@
     "name": "CSS Reference",
     "url": "https://cssreference.io/",
     "tags": [
-      "css",
-      "tutorial"
+      "artut",
+      "css"
     ]
   },
   {
@@ -505,8 +515,18 @@
     "name": "CSS Tricks",
     "url": "https://css-tricks.com/snippets/php/check-if-website-is-available/",
     "tags": [
-      "article",
+      "artut",
       "php"
+    ]
+  },
+  {
+    "id": 324,
+    "name": "CSS Zen Garden",
+    "url": "http://www.csszengarden.com/",
+    "description": "A demonstration of what can be accomplished through CSS-based design",
+    "tags": [
+      "css",
+      "exercise"
     ]
   },
   {
@@ -524,8 +544,8 @@
     "name": "CSS-Tricks",
     "url": "https://css-tricks.com/all-about-floats/",
     "tags": [
-      "css",
-      "tutorial"
+      "artut",
+      "css"
     ]
   },
   {
@@ -534,8 +554,8 @@
     "name": "CSS-Tricks",
     "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
     "tags": [
-      "css",
-      "tutorial"
+      "artut",
+      "css"
     ]
   },
   {
@@ -544,8 +564,8 @@
     "name": "CSS-Tricks",
     "url": "https://css-tricks.com/snippets/css/complete-guide-grid/",
     "tags": [
-      "css",
-      "tutorial"
+      "artut",
+      "css"
     ]
   },
   {
@@ -593,7 +613,7 @@
     "name": "cssgrid coffeecup",
     "url": "http://css-grid.coffeecup.com/css-grid-guide.html",
     "tags": [
-      "article",
+      "artut",
       "css",
       "tool"
     ]
@@ -614,7 +634,7 @@
     "name": "culttt.com",
     "url": "https://culttt.com/2013/03/25/what-are-php-lambdas-and-closures/",
     "tags": [
-      "article",
+      "artut",
       "php"
     ]
   },
@@ -671,8 +691,18 @@
     "name": "davidwalsh.name",
     "url": "https://davidwalsh.name/css-variables-javascript",
     "tags": [
-      "article",
+      "artut",
       "css",
+      "js"
+    ]
+  },
+  {
+    "id": 327,
+    "name": "dev.to",
+    "url": "https://dev.to/josiasaurel/11-javascript-console-commands-explained-4pi5",
+    "description": "11 JavaScript Console Commands",
+    "tags": [
+      "artut",
       "js"
     ]
   },
@@ -682,7 +712,7 @@
     "name": "dev.to",
     "url": "https://dev.to/nmhummel/learning-the-big-o-1eod?",
     "tags": [
-      "article"
+      "artut"
     ]
   },
   {
@@ -692,7 +722,7 @@
     "url": "https://dev.to/angular/what-is-a-higher-order-observable-4k52",
     "tags": [
       "ag",
-      "article"
+      "artut"
     ]
   },
   {
@@ -701,8 +731,7 @@
     "name": "dev.to",
     "url": "https://dev.to/amitthakur11/how-to-add-a-pre-loader-in-your-website-140i",
     "tags": [
-      "article",
-      "tutorial",
+      "artut",
       "webdev"
     ]
   },
@@ -712,7 +741,7 @@
     "name": "dev.to",
     "url": "https://dev.to/abhishekjain35/introduction-to-promises-in-javascript-3cd4",
     "tags": [
-      "article",
+      "artut",
       "js"
     ]
   },
@@ -753,7 +782,7 @@
     "name": "Digital Ocean",
     "url": "https://digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols",
     "tags": [
-      "article"
+      "artut"
     ]
   },
   {
@@ -762,7 +791,7 @@
     "name": "DigitalOcean",
     "url": "https://digitalocean.com/community/tutorials/understanding-javascript-promises",
     "tags": [
-      "article",
+      "artut",
       "js"
     ]
   },
@@ -849,7 +878,7 @@
     "name": "DoFactory",
     "url": "https://www.dofactory.com/sql/union",
     "tags": [
-      "article",
+      "artut",
       "interactive",
       "sql"
     ]
@@ -870,7 +899,7 @@
     "name": "dummies.com",
     "url": "https://dummies.com/web-design-development/javascript/what-are-callbacks-in-javascript-coding/",
     "tags": [
-      "article",
+      "artut",
       "js"
     ]
   },
@@ -885,13 +914,23 @@
     ]
   },
   {
+    "id": 323,
+    "name": "educative.io",
+    "url": "https://www.educative.io/answers/how-to-change-a-git-commit-message-after-a-push",
+    "description": "How to change a Git commit message after a push",
+    "tags": [
+      "artut",
+      "git"
+    ]
+  },
+  {
     "id": 87,
     "description": "[ITA] Appunti vari informatica",
     "name": "Edutecnica",
     "url": "http://edutecnica.it/informatica.htm",
     "tags": [
-      "multi",
-      "tutorial"
+      "artut",
+      "multi"
     ]
   },
   {
@@ -901,8 +940,8 @@
     "url": "https://egghead.io/courses/configuration-based-reactive-angular-forms-with-ngx-formly-465f",
     "tags": [
       "ag",
-      "libpak",
-      "tutorial"
+      "artut",
+      "libpak"
     ]
   },
   {
@@ -921,8 +960,8 @@
     "name": "es6-features",
     "url": "http://es6-features.org/",
     "tags": [
-      "js",
-      "tutorial"
+      "artut",
+      "js"
     ]
   },
   {
@@ -961,7 +1000,7 @@
     "name": "flavioscopes.com",
     "url": "https://flaviocopes.com/how-to-add-event-listener-multiple-elements-javascript/",
     "tags": [
-      "article",
+      "artut",
       "js"
     ]
   },
@@ -971,7 +1010,7 @@
     "name": "flavioscopes.com",
     "url": "https://flaviocopes.com/web-storage-api/",
     "tags": [
-      "article",
+      "artut",
       "js"
     ]
   },
@@ -981,7 +1020,7 @@
     "name": "flavioscopes.com",
     "url": "https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/",
     "tags": [
-      "article",
+      "artut",
       "js"
     ]
   },
@@ -991,7 +1030,7 @@
     "name": "flavioscopes.com",
     "url": "https://flaviocopes.com/dom/",
     "tags": [
-      "article",
+      "artut",
       "webdev"
     ]
   },
@@ -1001,7 +1040,7 @@
     "name": "flavioscopes.com",
     "url": "https://flaviocopes.com/javascript-async-defer/",
     "tags": [
-      "article",
+      "artut",
       "js",
       "thisthat"
     ]
@@ -1049,16 +1088,26 @@
     ]
   },
   {
+    "id": 334,
+    "name": "FormSubmit.co",
+    "url": "https://formsubmit.co/",
+    "description": "Easy form endpoints for your HTML forms",
+    "tags": [
+      "html",
+      "tool"
+    ]
+  },
+  {
     "id": 103,
     "description": "Learn to code online and get certifications or ask for help in the official FCC forum",
     "name": "FreeCodeCamp",
     "url": "https://freecodecamp.org/",
     "tags": [
+      "artut",
       "exercise",
       "interactive",
       "multi",
-      "supp",
-      "tutorial"
+      "supp"
     ]
   },
   {
@@ -1067,7 +1116,7 @@
     "name": "FreeCodeCamp",
     "url": "https://www.freecodecamp.org/news/javascript-promise-tutorial-how-to-resolve-or-reject-promises-in-js/",
     "tags": [
-      "article",
+      "artut",
       "js"
     ]
   },
@@ -1077,7 +1126,7 @@
     "name": "FreeCodeCamp",
     "url": "https://freecodecamp.org/news/javascript-console-log-example-how-to-print-to-the-console-in-js/",
     "tags": [
-      "article",
+      "artut",
       "js"
     ]
   },
@@ -1087,7 +1136,7 @@
     "name": "FreeCodeCamp",
     "url": "https://guide.freecodecamp.org/css/tutorials/css-selectors-cheat-sheet/",
     "tags": [
-      "article",
+      "artut",
       "css"
     ]
   },
@@ -1097,7 +1146,7 @@
     "name": "FreeCodeCamp",
     "url": "https://freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/",
     "tags": [
-      "article",
+      "artut",
       "thisthat"
     ]
   },
@@ -1107,7 +1156,7 @@
     "name": "FreeCodeCamp",
     "url": "https://freecodecamp.org/",
     "tags": [
-      "article",
+      "artut",
       "html",
       "webdev"
     ]
@@ -1118,7 +1167,7 @@
     "name": "FreeCodeCamp",
     "url": "https://freecodecamp.org/news/how-to-use-wireshark-packet-analyzer",
     "tags": [
-      "article",
+      "artut",
       "net"
     ]
   },
@@ -1147,8 +1196,7 @@
     "name": "FreeFrontend",
     "url": "https://freefrontend.com/",
     "tags": [
-      "article",
-      "tutorial",
+      "artut",
       "webdev"
     ]
   },
@@ -1168,7 +1216,7 @@
     "name": "Froont blog",
     "url": "https://blog.froont.com/positioning-in-web-design/",
     "tags": [
-      "article",
+      "artut",
       "css"
     ]
   },
@@ -1179,7 +1227,7 @@
     "url": "https://geeksforgeeks.org/what-is-the-difference-between-declarations-providers-and-import-in-ngmodule/",
     "tags": [
       "ag",
-      "article",
+      "artut",
       "thisthat"
     ]
   },
@@ -1190,8 +1238,7 @@
     "url": "https://geeksforgeeks.org/how-to-use-mat-dialog-in-angular/",
     "tags": [
       "ag",
-      "article",
-      "tutorial"
+      "artut"
     ]
   },
   {
@@ -1200,7 +1247,7 @@
     "name": "Geeks for Geeks",
     "url": "https://geeksforgeeks.org/type-conversion-in-c/",
     "tags": [
-      "article",
+      "artut",
       "cpp"
     ]
   },
@@ -1210,9 +1257,9 @@
     "name": "Geeks for Geeks",
     "url": "https://geeksforgeeks.org/",
     "tags": [
+      "artut",
       "interactive",
-      "multi",
-      "tutorial"
+      "multi"
     ]
   },
   {
@@ -1231,8 +1278,8 @@
     "name": "Git flight rules",
     "url": "https://github.com/k88hudson/git-flight-rules#conventions-for-this-document",
     "tags": [
-      "git",
-      "tutorial"
+      "artut",
+      "git"
     ]
   },
   {
@@ -1263,6 +1310,16 @@
     "tags": [
       "git",
       "interactive"
+    ]
+  },
+  {
+    "id": 318,
+    "name": "GitHub",
+    "url": "https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes",
+    "description": "Linkedin skill assessments quizzes",
+    "tags": [
+      "multi",
+      "misc"
     ]
   },
   {
@@ -1313,6 +1370,17 @@
     "tags": [
       "git",
       "thisthat"
+    ]
+  },
+  {
+    "id": 325,
+    "name": "Github gist",
+    "url": "https://gist.github.com/LayZeeDK/c822cc812f75bb07b7c55d07ba2719b3",
+    "description": "Angular CLI, Angular, Node.js, TypeScript, and RxJS version compatibility matrix",
+    "tags": [
+      "ag",
+      "artut",
+      "ts"
     ]
   },
   {
@@ -1398,6 +1466,16 @@
     ]
   },
   {
+    "id": 319,
+    "name": "hashes.com",
+    "url": "https://hashes.com/en/tools/hash_identifier",
+    "description": "Identify and detect unknown hashes",
+    "tags": [
+      "misc",
+      "tool"
+    ]
+  },
+  {
     "id": 137,
     "description": "Rock-solid and incredibly flexible charting library made for developers",
     "name": "HighCharts",
@@ -1423,7 +1501,7 @@
     "name": "HTML.com",
     "url": "https://html.com/document/",
     "tags": [
-      "article",
+      "artut",
       "html"
     ]
   },
@@ -1433,8 +1511,8 @@
     "name": "HTML.it",
     "url": "https://html.it/guide/guida-dom/",
     "tags": [
-      "html",
-      "tutorial"
+      "artut",
+      "html"
     ]
   },
   {
@@ -1443,8 +1521,8 @@
     "name": "HTML.it",
     "url": "https://html.it/guide/guida-ai-web-components/",
     "tags": [
-      "html",
-      "tutorial"
+      "artut",
+      "html"
     ]
   },
   {
@@ -1474,8 +1552,8 @@
     "name": "HTMLDOM",
     "url": "https://htmldom.dev/",
     "tags": [
-      "js",
-      "tutorial"
+      "artut",
+      "js"
     ]
   },
   {
@@ -1502,7 +1580,7 @@
     "name": "HTMLquick",
     "url": "https://htmlquick.com/reference/uri-url.html",
     "tags": [
-      "article",
+      "artut",
       "thisthat",
       "webdev"
     ]
@@ -1524,8 +1602,8 @@
     "name": "ifac",
     "url": "http://www.ifac.cnr.it/~zoppetti/corsopython/",
     "tags": [
-      "py",
-      "tutorial"
+      "artut",
+      "py"
     ]
   },
   {
@@ -1535,7 +1613,7 @@
     "url": "https://indepth.dev/posts/1279/rxjs-in-angular-when-to-subscribe-rarely",
     "tags": [
       "ag",
-      "article",
+      "artut",
       "libpak"
     ]
   },
@@ -1546,7 +1624,7 @@
     "url": "https://indepth.dev/reference/rxjs/operators",
     "tags": [
       "ag",
-      "article",
+      "artut",
       "libpak"
     ]
   },
@@ -1556,9 +1634,9 @@
     "name": "internetingishard",
     "url": "https://internetingishard.com/",
     "tags": [
+      "artut",
       "css",
-      "html",
-      "tutorial"
+      "html"
     ]
   },
   {
@@ -1577,7 +1655,7 @@
     "name": "ishadeed",
     "url": "https://ishadeed.com/article/overflow-css/",
     "tags": [
-      "article",
+      "artut",
       "css"
     ]
   },
@@ -1592,14 +1670,24 @@
     ]
   },
   {
+    "id": 335,
+    "name": "ItalianCoders",
+    "url": "https://italiancoders.it/",
+    "description": "[ITA] Vari articoli sulla programmazione",
+    "tags": [
+      "artut",
+      "multi"
+    ]
+  },
+  {
     "id": 156,
     "description": "How to replicate your Git repo and keep all previous commits, branches, and tags",
     "name": "ITNext.io",
     "url": "https://itnext.io/git-repository-transfer-keeping-all-history-670fe04cd5e4",
     "tags": [
-      "article",
-      "git",
-      "tutorial"
+      "artut",
+      "artut",
+      "git"
     ]
   },
   {
@@ -1618,8 +1706,8 @@
     "name": "JavaScript Garden",
     "url": "https://bonsaiden.github.io/JavaScript-Garden/",
     "tags": [
-      "js",
-      "tutorial"
+      "artut",
+      "js"
     ]
   },
   {
@@ -1628,8 +1716,8 @@
     "name": "JavaScript info",
     "url": "http://javascript.info",
     "tags": [
-      "js",
-      "tutorial"
+      "artut",
+      "js"
     ]
   },
   {
@@ -1638,7 +1726,7 @@
     "name": "JavaScript info",
     "url": "https://javascript.info/mutation-observer",
     "tags": [
-      "article",
+      "artut",
       "js"
     ]
   },
@@ -1648,7 +1736,7 @@
     "name": "javascript.plainenglish",
     "url": "https://javascript.plainenglish.io/deploying-any-app-to-github-pages-1e8e946bf890",
     "tags": [
-      "article"
+      "artut"
     ]
   },
   {
@@ -1667,7 +1755,7 @@
     "name": "JenniferBland.com",
     "url": "https://jenniferbland.com/time-complexity-analysis-in-javascript/",
     "tags": [
-      "article",
+      "artut",
       "js"
     ]
   },
@@ -1677,8 +1765,7 @@
     "name": "jmcglone",
     "url": "http://jmcglone.com/guides/github-pages/",
     "tags": [
-      "article",
-      "tutorial",
+      "artut",
       "webdev"
     ]
   },
@@ -1698,8 +1785,8 @@
     "name": "js.evie.dev",
     "url": "https://js.evie.dev/",
     "tags": [
-      "js",
-      "tutorial"
+      "artut",
+      "js"
     ]
   },
   {
@@ -1750,7 +1837,7 @@
     "url": "https://json.org/json-en.html",
     "tags": [
       "doc",
-      "oth"
+      "misc"
     ]
   },
   {
@@ -1759,7 +1846,7 @@
     "name": "JSON editor online",
     "url": "https://jsoneditoronline.org/",
     "tags": [
-      "oth",
+      "misc",
       "tool"
     ]
   },
@@ -1769,7 +1856,7 @@
     "name": "JWT",
     "url": "https://jwt.io/",
     "tags": [
-      "oth",
+      "misc",
       "tool"
     ]
   },
@@ -1779,7 +1866,7 @@
     "name": "Kaffeine",
     "url": "https://kaffeine.herokuapp.com/",
     "tags": [
-      "oth",
+      "misc",
       "tool"
     ]
   },
@@ -1810,7 +1897,7 @@
     "name": "lambdatest",
     "url": "https://lambdatest.com/blog/bug-severity-vs-priority-in-testing-with-examples/",
     "tags": [
-      "article",
+      "artut",
       "thisthat"
     ]
   },
@@ -1820,7 +1907,7 @@
     "name": "Laracasts",
     "url": "https://laracasts.com/",
     "tags": [
-      "multi",
+      "sql",
       "videocourse",
       "webdev"
     ]
@@ -1831,8 +1918,8 @@
     "name": "Learn C++",
     "url": "https://learncpp.com//",
     "tags": [
-      "cpp",
-      "tutorial"
+      "artut",
+      "cpp"
     ]
   },
   {
@@ -1851,8 +1938,8 @@
     "name": "Learn X in Y minutes",
     "url": "https://learnxinyminutes.com/",
     "tags": [
-      "multi",
-      "tutorial"
+      "artut",
+      "multi"
     ]
   },
   {
@@ -1862,8 +1949,8 @@
     "url": "https://www.learnrxjs.io/",
     "tags": [
       "ag",
-      "libpak",
-      "tutorial"
+      "artut",
+      "libpak"
     ]
   },
   {
@@ -1872,7 +1959,7 @@
     "name": "LearnSQL",
     "url": "https://learnsql.com/blog/illustrated-guide-multiple-join/",
     "tags": [
-      "article",
+      "artut",
       "sql"
     ]
   },
@@ -1893,7 +1980,7 @@
     "name": "Linuxsize",
     "url": "https://linuxize.com/post/how-to-exclude-files-and-directories-with-rsync/",
     "tags": [
-      "article",
+      "artut",
       "linux"
     ]
   },
@@ -1927,13 +2014,23 @@
     ]
   },
   {
+    "id": 321,
+    "name": "LogRocket Blog",
+    "url": "https://blog.logrocket.com/angular-lifecycle-hooks/",
+    "description": "Angular lifecycle hooks explained",
+    "tags": [
+      "ag",
+      "artut"
+    ]
+  },
+  {
     "id": 189,
     "description": "FormGroup and FormControl in Angular",
     "name": "Logrocket Blog",
     "url": "https://blog.logrocket.com/reactive-form-controls-form-groups-angular/",
     "tags": [
       "ag",
-      "article"
+      "artut"
     ]
   },
   {
@@ -1957,6 +2054,16 @@
     ]
   },
   {
+    "id": 332,
+    "name": "makeuseof",
+    "url": "https://www.makeuseof.com/angular-app-github-deploy-using-angular-cli/",
+    "description": "Deploy an Angular app to GitHub Pages with Angular CLI",
+    "tags": [
+      "ag",
+      "artut"
+    ]
+  },
+  {
     "id": 192,
     "description": "Git visual guide",
     "name": "Mark Lodato",
@@ -1964,6 +2071,16 @@
     "tags": [
       "git",
       "tool"
+    ]
+  },
+  {
+    "id": 329,
+    "name": "material.io",
+    "url": "https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors",
+    "description": "Material color palettes",
+    "tags": [
+      "doc",
+      "misc"
     ]
   },
   {
@@ -1992,8 +2109,8 @@
     "name": "MDN",
     "url": "https://developer.mozilla.org/en-US/docs/Web/Tutorials",
     "tags": [
+      "artut",
       "mdn",
-      "tutorial",
       "webdev"
     ]
   },
@@ -2032,8 +2149,8 @@
     "name": "MediaTemple",
     "url": "https://mediatemple.net/blog/web-development-tech/complete-beginners-guide-cron-part-1/",
     "tags": [
-      "linux",
-      "tutorial"
+      "artut",
+      "linux"
     ]
   },
   {
@@ -2042,7 +2159,7 @@
     "name": "Medium",
     "url": "https://medium.com/code-better/css-units-for-font-size-px-em-rem-79f7e592bb97",
     "tags": [
-      "article",
+      "artut",
       "css",
       "thisthat"
     ]
@@ -2054,7 +2171,7 @@
     "url": "https://ofirrifo.medium.com/custom-angular-component-using-two-way-data-binding-aka-banana-in-a-box-syntax-9eb06b8cfb09",
     "tags": [
       "ag",
-      "article"
+      "artut"
     ]
   },
   {
@@ -2063,7 +2180,7 @@
     "name": "Medium",
     "url": "https://just1and0.medium.com/how-to-host-your-laravel-application-for-free-on-heroku-4789688d444b",
     "tags": [
-      "article",
+      "artut",
       "laravel"
     ]
   },
@@ -2074,7 +2191,7 @@
     "url": "https://medium.com/@cyrilletuzi/understanding-angular-modules-ngmodule-and-their-scopes-81e4ed6f7407",
     "tags": [
       "ag",
-      "article"
+      "artut"
     ]
   },
   {
@@ -2084,7 +2201,7 @@
     "url": "https://medium.com/rpdstartup/simplifying-typescript-import-paths-in-angular-c3249a4edbb3",
     "tags": [
       "ag",
-      "article",
+      "artut",
       "tips",
       "ts"
     ]
@@ -2125,9 +2242,19 @@
     "name": "michaeluloth.com",
     "url": "https://michaeluloth.com/filter-boolean",
     "tags": [
-      "article",
+      "artut",
       "js",
       "tips"
+    ]
+  },
+  {
+    "id": 333,
+    "name": "mocky.io",
+    "url": "https://designer.mocky.io/",
+    "description": "The world easiest & fastest tool belts to mock your APIs",
+    "tags": [
+      "multi",
+      "tool"
     ]
   },
   {
@@ -2136,8 +2263,7 @@
     "name": "Monogame",
     "url": "https://monogame.net/downloads/",
     "tags": [
-      "fw",
-      "oth"
+      "fw"
     ]
   },
   {
@@ -2177,7 +2303,7 @@
     "name": "NodeSource",
     "url": "https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/",
     "tags": [
-      "article"
+      "artut"
     ]
   },
   {
@@ -2246,8 +2372,8 @@
     "name": "PHP Registration Login",
     "url": "https://github.com/DerZanael/PHP-Registration-Login",
     "tags": [
-      "php",
-      "tutorial"
+      "artut",
+      "php"
     ]
   },
   {
@@ -2256,7 +2382,7 @@
     "name": "phpdelusions",
     "url": "https://phpdelusions.net/mysqli_examples/prepared_select",
     "tags": [
-      "article",
+      "artut",
       "php",
       "sql"
     ]
@@ -2267,8 +2393,8 @@
     "name": "phptherightway",
     "url": "http://it.phptherightway.com/",
     "tags": [
-      "php",
-      "tutorial"
+      "artut",
+      "php"
     ]
   },
   {
@@ -2320,8 +2446,8 @@
     "name": "Python.it",
     "url": "http://python.it/doc/Howtothink/Howtothink-html-it/index.htm",
     "tags": [
-      "py",
-      "tutorial"
+      "artut",
+      "py"
     ]
   },
   {
@@ -2330,9 +2456,9 @@
     "name": "Python.org",
     "url": "https://docs.python.org/3/tutorial/",
     "tags": [
+      "artut",
       "doc",
-      "py",
-      "tutorial"
+      "py"
     ]
   },
   {
@@ -2374,8 +2500,7 @@
     "name": "rbwhitaker.wikidot",
     "url": "http://rbwhitaker.wikidot.com/xna-tutorials",
     "tags": [
-      "oth",
-      "tutorial"
+      "artut"
     ]
   },
   {
@@ -2394,8 +2519,8 @@
     "name": "RealPython",
     "url": "https://realpython.com/python-f-strings/",
     "tags": [
-      "py",
-      "tutorial"
+      "artut",
+      "py"
     ]
   },
   {
@@ -2404,8 +2529,8 @@
     "name": "RealPython",
     "url": "https://realpython.com/python-sockets/",
     "tags": [
-      "py",
-      "tutorial"
+      "artut",
+      "py"
     ]
   },
   {
@@ -2430,15 +2555,26 @@
     ]
   },
   {
+    "id": 331,
+    "name": "regexlearn",
+    "url": "https://regexlearn.com/learn/regex101",
+    "description": "Learn regex with interactive exercises",
+    "tags": [
+      "exercise",
+      "interactive",
+      "re"
+    ]
+  },
+  {
     "id": 238,
     "description": "Learn regular expressions with simple and interactive exercises",
     "name": "RegexOne",
     "url": "https://regexone.com/",
     "tags": [
+      "artut",
       "exercise",
       "interactive",
-      "re",
-      "tutorial"
+      "re"
     ]
   },
   {
@@ -2471,7 +2607,7 @@
     "name": "rowanmanning",
     "url": "https://rowanmanning.com/posts/javascript-for-beginners-async/",
     "tags": [
-      "article",
+      "artut",
       "js"
     ]
   },
@@ -2481,8 +2617,8 @@
     "name": "SamanthaMing.com",
     "url": "https://samanthaming.com/",
     "tags": [
+      "artut",
       "thisthat",
-      "tutorial",
       "webdev"
     ]
   },
@@ -2513,8 +2649,8 @@
     "name": "Scrimba",
     "url": "https://scrimba.com/",
     "tags": [
-      "interactive",
-      "tutorial"
+      "artut",
+      "interactive"
     ]
   },
   {
@@ -2523,9 +2659,9 @@
     "name": "ShayHowe",
     "url": "https://learn.shayhowe.com/",
     "tags": [
+      "artut",
       "css",
-      "html",
-      "tutorial"
+      "html"
     ]
   },
   {
@@ -2543,7 +2679,7 @@
     "name": "skovy.dev",
     "url": "https://skovy.dev/blog/measuring-frontend-performance-in-modern-browsers",
     "tags": [
-      "article",
+      "artut",
       "tips",
       "webdev"
     ]
@@ -2564,10 +2700,10 @@
     "name": "SoloLearn",
     "url": "https://sololearn.com/",
     "tags": [
+      "artut",
       "interactive",
       "multi",
-      "supp",
-      "tutorial"
+      "supp"
     ]
   },
   {
@@ -2586,7 +2722,7 @@
     "name": "SparkBox",
     "url": "https://sparkbox.com/foundry/semantic_commit_messages",
     "tags": [
-      "article",
+      "artut",
       "git"
     ]
   },
@@ -2606,10 +2742,10 @@
     "name": "SQLBolt",
     "url": "https://sqlbolt.com/",
     "tags": [
+      "artut",
       "exercise",
       "interactive",
-      "sql",
-      "tutorial"
+      "sql"
     ]
   },
   {
@@ -2618,10 +2754,10 @@
     "name": "SQLZoo",
     "url": "https://sqlzoo.net/wiki/SQL_Tutorial",
     "tags": [
+      "artut",
       "exercise",
       "interactive",
-      "sql",
-      "tutorial"
+      "sql"
     ]
   },
   {
@@ -2803,6 +2939,16 @@
     ]
   },
   {
+    "id": 330,
+    "name": "techincent",
+    "url": "https://techincent.com/code-syntax-highlighter-angular-with-prism-js/",
+    "description": "Code syntax highlighter in Angular with Prism.js",
+    "tags": [
+      "ag",
+      "libpak"
+    ]
+  },
+  {
     "id": 274,
     "description": "Fast and easy to use PHP testbed",
     "name": "tehokayground",
@@ -2820,7 +2966,17 @@
     "url": "https://tektutorialshub.com/angular/meta-service-in-angular-add-update-meta-tags-example/",
     "tags": [
       "ag",
-      "article"
+      "artut"
+    ]
+  },
+  {
+    "id": 320,
+    "name": "Telerik",
+    "url": "https://www.telerik.com/blogs/angular-basics-introduction-observables-rxjs-part-1",
+    "description": "Introduction to Observables (RxJS)",
+    "tags": [
+      "ag",
+      "artut"
     ]
   },
   {
@@ -2829,7 +2985,7 @@
     "name": "The Odin Project",
     "url": "https://theodinproject.com/home",
     "tags": [
-      "tutorial",
+      "artut",
       "webdev"
     ]
   },
@@ -2870,7 +3026,7 @@
     "name": "TobiashLin.com",
     "url": "https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/",
     "tags": [
-      "article",
+      "artut",
       "cheat",
       "js"
     ]
@@ -2881,7 +3037,7 @@
     "name": "TobiashLin.com",
     "url": "https://tobiasahlin.com/blog/flexbox-break-to-new-row/",
     "tags": [
-      "article",
+      "artut",
       "css"
     ]
   },
@@ -2894,6 +3050,16 @@
       "interactive",
       "tool",
       "webdev"
+    ]
+  },
+  {
+    "id": 326,
+    "name": "Total TypeScript",
+    "url": "https://www.totaltypescript.com/tutorials/beginners-typescript",
+    "description": "Beginner's TypeScript tutorial",
+    "tags": [
+      "artut",
+      "ts"
     ]
   },
   {
@@ -2912,7 +3078,7 @@
     "name": "treehouse blog",
     "url": "https://blog.teamtreehouse.com/unobtrusive-javascript-important",
     "tags": [
-      "article",
+      "artut",
       "js",
       "tips"
     ]
@@ -2943,7 +3109,7 @@
     "name": "TutorialRepublic",
     "url": "https://tutorialrepublic.com/",
     "tags": [
-      "tutorial",
+      "artut",
       "webdev"
     ]
   },
@@ -2953,7 +3119,7 @@
     "name": "Tutorialspoint",
     "url": "https://tutorialspoint.com/cplusplus/cpp_operators.htm",
     "tags": [
-      "article",
+      "artut",
       "cpp"
     ]
   },
@@ -2994,8 +3160,8 @@
     "name": "VS Code can do that?",
     "url": "https://vscodecandothat.com/",
     "tags": [
-      "tips",
-      "tutorial"
+      "artut",
+      "tips"
     ]
   },
   {
@@ -3025,8 +3191,8 @@
     "name": "W3Schools",
     "url": "https://w3schools.com/",
     "tags": [
+      "artut",
       "interactive",
-      "tutorial",
       "webdev"
     ]
   },
@@ -3066,7 +3232,7 @@
     "name": "web.dev",
     "url": "https://web.dev/learn/",
     "tags": [
-      "article",
+      "artut",
       "tips",
       "webdev"
     ]
@@ -3086,7 +3252,7 @@
     "name": "web.dev",
     "url": "https://web.dev/external-anchors-use-rel-noopener/",
     "tags": [
-      "article",
+      "artut",
       "html",
       "tips"
     ]
@@ -3126,7 +3292,7 @@
     "name": "webdevtc",
     "url": "https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/",
     "tags": [
-      "article",
+      "artut",
       "css"
     ]
   },
@@ -3150,24 +3316,14 @@
     ]
   },
   {
-    "id": 308,
-    "description": "A C# framework for game development",
-    "name": "XNA Framework",
-    "url": "https://microsoft.com/en-us/download/details.aspx?id=20914",
-    "tags": [
-      "fw",
-      "oth"
-    ]
-  },
-  {
     "id": 309,
     "description": "CSS Grid Cheatsheet",
     "name": "yoksel.github.io",
     "url": "https://yoksel.github.io/grid-cheatsheet/",
     "tags": [
+      "artut",
       "cheat",
-      "css",
-      "tutorial"
+      "css"
     ]
   },
   {
@@ -3176,9 +3332,9 @@
     "name": "yoksel.github.io",
     "url": "https://yoksel.github.io/flex-cheatsheet/",
     "tags": [
+      "artut",
       "cheat",
-      "css",
-      "tutorial"
+      "css"
     ]
   },
   {
@@ -3196,8 +3352,8 @@
     "name": "YouTube",
     "url": "https://youtube.com/channel/UCTuplgOBi6tJIlesIboymGA",
     "tags": [
+      "artut",
       "laravel",
-      "tutorial",
       "yt"
     ]
   },
@@ -3207,8 +3363,8 @@
     "name": "YouTube",
     "url": "https://www.youtube.com/playlist?list=PL9MslR9MhrJbO7u34sgR3J6iMqkFmVenG",
     "tags": [
+      "artut",
       "git",
-      "tutorial",
       "yt"
     ]
   },
@@ -3218,9 +3374,9 @@
     "name": "YouTube",
     "url": "https://youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw",
     "tags": [
+      "artut",
       "css",
       "tips",
-      "tutorial",
       "yt"
     ]
   },
@@ -3230,8 +3386,8 @@
     "name": "YouTube",
     "url": "https://youtube.com/user/fcamuso/playlists",
     "tags": [
+      "artut",
       "multi",
-      "tutorial",
       "videocourse",
       "yt"
     ]
@@ -3254,9 +3410,19 @@
     "name": "YouTube",
     "url": "https://youtube.com/watch?v=RGOj5yH7evk",
     "tags": [
+      "artut",
       "git",
-      "tutorial",
       "yt"
+    ]
+  },
+  {
+    "id": 328,
+    "name": "Zoaib Khan",
+    "url": "https://www.zoaibkhan.com/blog/angular-material-dark-mode-in-3-steps/",
+    "description": "Angular Material dark mode",
+    "tags": [
+      "ag",
+      "artut"
     ]
   }
 ]

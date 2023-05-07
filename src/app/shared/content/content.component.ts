@@ -32,7 +32,7 @@ export class ContentComponent implements OnInit, AfterViewInit {
   dataSource: MatTableDataSource<WebsiteInfo> = new MatTableDataSource();
 
   // flags
-  devMode: boolean = false;
+  devMode: boolean = true;
 
   // export
   filename: string = ''; 

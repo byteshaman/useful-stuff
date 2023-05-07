@@ -36,8 +36,8 @@
       <th mat-header-cell *matHeaderCellDef mat-sort-header [disabled]="col == 'tags'"> {{ col | uppercase }} </th>
 
       <!-- If column is name, add URL -->
-      <td mat-cell *matCellDef="let element"> 
-        <a *ngIf="col === 'name'; else elseBlock" [href]="element.url"> {{ element[col] }} </a>
+      <td mat-cell *matCellDef="let element">  
+        <a *ngIf="col === 'name'; else elseBlock" [href]="element.url" target=”_blank”> {{ element[col] }} </a>
         <ng-template #elseBlock>{{ element[col] }}</ng-template>
       </td>
     </ng-container>

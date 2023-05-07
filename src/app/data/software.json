@@ -1430,6 +1430,16 @@
     ]
   },
   {
+    "id": 208,
+    "name": "Responsively",
+    "url": "https://responsively.app/download",
+    "description": "Test your website responsiveness",
+    "tags": [
+      "freeware",
+      "programming"
+    ]
+  },
+  {
     "id": 133,
     "description": "Complete powerful tweaking environment to tune NVIDIA GPU based display adapters",
     "name": "RivaTuner",
