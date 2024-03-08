@@ -43,16 +43,6 @@
     ]
   },
   {
-    "id": 4,
-    "description": "[ITA] Sito web per provare attacchi informatici",
-    "name": "Amazena",
-    "url": "https://amazena.it/",
-    "tags": [
-      "exercise",
-      "hacksec"
-    ]
-  },
-  {
     "id": 5,
     "description": "env() gotcha in Laravel when caching configuration",
     "name": "andy.carter",
@@ -1152,13 +1142,12 @@
   },
   {
     "id": 108,
-    "description": "How to store data in web browser storage",
     "name": "FreeCodeCamp",
-    "url": "https://freecodecamp.org/",
+    "url": "https://www.freecodecamp.org/news/how-to-store-data-in-web-browser-storage-localstorage-and-session-storage-explained/",
+    "description": "How to store data in web browser storage",
     "tags": [
       "artut",
-      "html",
-      "webdev"
+      "js"
     ]
   },
   {
@@ -1455,6 +1444,16 @@
     ]
   },
   {
+    "id": 339,
+    "name": "Hacksplaining",
+    "url": "https://www.hacksplaining.com/",
+    "description": "Security Training for Web Developers",
+    "tags": [
+      "hacksec",
+      "interactive"
+    ]
+  },
+  {
     "id": 136,
     "description": "Learn and improve your pen-testing skills",
     "name": "HackTheBox",
@@ -1594,6 +1593,17 @@
       "doc",
       "html",
       "js"
+    ]
+  },
+  {
+    "id": 338,
+    "name": "ICodeThis",
+    "url": "https://icodethis.com/",
+    "description": "Daily projects you can build to improve your coding skills",
+    "tags": [
+      "exercise",
+      "interactive",
+      "webdev"
     ]
   },
   {
@@ -2151,6 +2161,27 @@
     "tags": [
       "artut",
       "linux"
+    ]
+  },
+  {
+    "id": 337,
+    "name": "Medium",
+    "url": "https://medium.com/compendium/loading-status-in-angular-done-right-aeed09cfbea6",
+    "description": "Loading status in Angular done right",
+    "tags": [
+      "ag",
+      "artut"
+    ]
+  },
+  {
+    "id": 336,
+    "name": "Medium",
+    "url": "https://eatmorecarrots.medium.com/changing-the-background-color-in-an-angular-material-theme-90d29f864759",
+    "description": "Change background color in an Angular Material theme",
+    "tags": [
+      "ag",
+      "artut",
+      "css"
     ]
   },
   {
@@ -3166,13 +3197,12 @@
   },
   {
     "id": 293,
-    "description": "HTML validator",
     "name": "W3.org",
     "url": "https://validator.w3.org/",
+    "description": "HTML validator",
     "tags": [
       "html",
-      "tool",
-      "webdev"
+      "tool"
     ]
   },
   {

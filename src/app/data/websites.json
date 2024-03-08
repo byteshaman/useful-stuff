@@ -40,6 +40,16 @@
     ]
   },
   {
+    "id": 242,
+    "name": "17track",
+    "url": "https://www.17track.net/",
+    "description": "All-in-one package tracking",
+    "tags": [
+      "misc",
+      "tool"
+    ]
+  },
+  {
     "id": 3,
     "description": "Chess games database",
     "name": "365chess",
@@ -55,6 +65,17 @@
     "url": "https://academia.edu/",
     "tags": [
       "edu"
+    ]
+  },
+  {
+    "id": 239,
+    "name": "AlbumArtExchange",
+    "url": "https://www.albumartexchange.com/",
+    "description": "Search album art",
+    "tags": [
+      "image",
+      "music",
+      "tool"
     ]
   },
   {
@@ -94,6 +115,16 @@
     "tags": [
       "comp",
       "misc"
+    ]
+  },
+  {
+    "id": 236,
+    "name": "Amazon Referral Remover",
+    "url": "https://anerdev.net/AmazonReferralRemover/",
+    "description": "Clear Amazon URLs from referrals",
+    "tags": [
+      "misc",
+      "tool"
     ]
   },
   {
@@ -225,6 +256,26 @@
     ]
   },
   {
+    "id": 240,
+    "name": "BorsaItaliana",
+    "url": "https://www.borsaitaliana.it/notizie/sotto-la-lente/capitalgain.htm",
+    "description": "[ITA] Capital Gain: significato, tassazione e calcolo della plusvalenza",
+    "tags": [
+      "article",
+      "edu",
+      "fin"
+    ]
+  },
+  {
+    "id": 230,
+    "name": "BorsaItaliana",
+    "url": "https://www.borsaitaliana.it/homepage/homepage.htm",
+    "description": "[ITA] Sito ufficiale della Borsa Italiana",
+    "tags": [
+      "fin"
+    ]
+  },
+  {
     "id": 19,
     "description": "Code-Breaking, cipher and logic puzzles solving tools",
     "name": "BOXENTRIQ",
@@ -263,16 +314,6 @@
     "tags": [
       "misc",
       "privacy"
-    ]
-  },
-  {
-    "id": 22,
-    "description": "[ITA] Aggregatore di offerte Amazon",
-    "name": "BuyBuyApp",
-    "url": "https://buybuy.app/",
-    "tags": [
-      "fin",
-      "tool"
     ]
   },
   {
@@ -332,6 +373,16 @@
     ]
   },
   {
+    "id": 246,
+    "name": "Chosic",
+    "url": "https://www.chosic.com/",
+    "description": "Discover new music",
+    "tags": [
+      "music",
+      "tool"
+    ]
+  },
+  {
     "id": 29,
     "description": "Free online file converter for audio, video and much more!",
     "name": "Cloud Converter",
@@ -371,13 +422,12 @@
   },
   {
     "id": 33,
-    "description": "Database of movies and TV series with the best suggestion algorithm and filtering options",
-    "name": "Corrupt my files",
+    "description": "Database of movies with the best suggestion algorithm and filtering options",
+    "name": "Criticker",
     "url": "https://www.criticker.com/",
     "tags": [
       "catalog",
-      "movies",
-      "tvs"
+      "movies"
     ]
   },
   {
@@ -557,6 +607,26 @@
     ]
   },
   {
+    "id": 231,
+    "name": "Economia per tutti",
+    "url": "https://economiapertutti.bancaditalia.it/",
+    "description": "[ITA] Portale di educazione finanziaria",
+    "tags": [
+      "edu",
+      "fin"
+    ]
+  },
+  {
+    "id": 233,
+    "name": "Educati e Finanziati",
+    "url": "https://www.youtube.com/playlist?list=PLfuzpc-H8qcdyEb5rpgYhN2P7cJGR1i9h",
+    "description": "[ITA] Corso base di finanza personale su YouTube",
+    "tags": [
+      "edu",
+      "fin"
+    ]
+  },
+  {
     "id": 49,
     "description": "Generate Zalgo text",
     "name": "eemo",
@@ -651,6 +721,15 @@
     "url": "https://futureme.org/",
     "tags": [
       "mail",
+      "useless"
+    ]
+  },
+  {
+    "id": 237,
+    "name": "GetEmoji",
+    "url": "https://getemoji.com/",
+    "description": "Copy and paste emoji",
+    "tags": [
       "useless"
     ]
   },
@@ -984,8 +1063,8 @@
     "description": "Find ETFs and compare them",
     "tags": [
       "comp",
-      "edu",
-      "fin"
+      "fin",
+      "tool"
     ]
   },
   {
@@ -1036,6 +1115,18 @@
     "tags": [
       "music",
       "stream"
+    ]
+  },
+  {
+    "id": 234,
+    "name": "LeAlternative",
+    "url": "https://lista.lealternative.net/",
+    "description": "[ITA] Una lista delle alternative etiche ai colossi del web ",
+    "tags": [
+      "comp",
+      "privacy",
+      "tech",
+      "tool"
     ]
   },
   {
@@ -1125,6 +1216,26 @@
     "url": "https://mangadex.org/",
     "tags": [
       "animanga"
+    ]
+  },
+  {
+    "id": 244,
+    "name": "Map of Metal",
+    "url": "https://mapofmetal.com/",
+    "description": "An interactive map of Metal history",
+    "tags": [
+      "music",
+      "tool"
+    ]
+  },
+  {
+    "id": 241,
+    "name": "MapDevelopers",
+    "url": "https://www.mapdevelopers.com/draw-circle-tool.php",
+    "description": "Create a circle with a radius on a Google map",
+    "tags": [
+      "misc",
+      "tool"
     ]
   },
   {
@@ -1234,6 +1345,16 @@
     "tags": [
       "movies",
       "tvs"
+    ]
+  },
+  {
+    "id": 243,
+    "name": "nodegoat",
+    "url": "https://battles.nodegoat.net/viewer.p/23/385/scenario/1/geo/fullscreen",
+    "description": "An interactive map of battles",
+    "tags": [
+      "edu",
+      "tool"
     ]
   },
   {
@@ -1461,6 +1582,27 @@
     ]
   },
   {
+    "id": 229,
+    "name": "QualeBTP",
+    "url": "https://www.qualebtp.it/",
+    "description": "[ITA] Rendimenti netti dei BTP",
+    "tags": [
+      "comp",
+      "fin",
+      "tool"
+    ]
+  },
+  {
+    "id": 238,
+    "name": "QUANfunding",
+    "url": "https://www.quanfunding.com/it",
+    "description": "[ITA] La prima piattaforma di socialwishing al mondo",
+    "tags": [
+      "prod",
+      "shop"
+    ]
+  },
+  {
     "id": 226,
     "name": "QuelloCheConta",
     "url": "https://www.quellocheconta.gov.it/it/",
@@ -1478,6 +1620,16 @@
     "url": "https://reddit.com/r/anime/wiki/watch_order",
     "tags": [
       "animanga"
+    ]
+  },
+  {
+    "id": 245,
+    "name": "Radio Garden",
+    "url": "https://radio.garden/",
+    "description": "Explore live radio by rotating the globe",
+    "tags": [
+      "music",
+      "tool"
     ]
   },
   {
@@ -1546,17 +1698,6 @@
     "url": "https://redbubble.com/",
     "tags": [
       "shop"
-    ]
-  },
-  {
-    "id": 135,
-    "description": "Streaming services search engine",
-    "name": "Reelgood",
-    "url": "https://reelgood.com/",
-    "tags": [
-      "movies",
-      "stream",
-      "tvs"
     ]
   },
   {
@@ -1900,6 +2041,16 @@
     ]
   },
   {
+    "id": 235,
+    "name": "ToffeeShare",
+    "url": "https://toffeeshare.com/",
+    "description": "Share files directly from your device to anywhere",
+    "tags": [
+      "privacy",
+      "share"
+    ]
+  },
+  {
     "id": 169,
     "description": "20 anime movies not made by Studio Ghibli",
     "name": "Tofugu",
@@ -2026,6 +2177,16 @@
     "tags": [
       "article",
       "tech"
+    ]
+  },
+  {
+    "id": 247,
+    "name": "UpscalePics",
+    "url": "https://upscalepics.com/",
+    "description": "Enlarge images using AI image processing",
+    "tags": [
+      "image",
+      "tool"
     ]
   },
   {
@@ -2190,6 +2351,16 @@
     "tags": [
       "sec",
       "tool"
+    ]
+  },
+  {
+    "id": 232,
+    "name": "Wiki r/italypersonalfinance",
+    "url": "https://www.reddit.com/r/ItaliaPersonalFinance/wiki/index/",
+    "description": "[ITA] Wiki sulla finanza personale",
+    "tags": [
+      "edu",
+      "fin"
     ]
   },
   {

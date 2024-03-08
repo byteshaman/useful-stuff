@@ -61,7 +61,7 @@
     "name": "AnyDesk",
     "url": "https://anydesk.com/en",
     "tags": [
-      "freemium",
+      "freeware",
       "misc",
       "utility"
     ]
@@ -214,7 +214,7 @@
     "url": "https://www.ccleaner.com/ccleaner/download/standard",
     "tags": [
       "disk",
-      "freemium",
+      "freeware",
       "utility"
     ]
   },
@@ -295,12 +295,11 @@
   },
   {
     "id": 27,
-    "description": "Rsync packaging for Windows",
     "name": "cwRsync",
     "url": "https://itefix.net/cwrsync",
+    "description": "Rsync packaging for Windows",
     "tags": [
       "freeware",
-      "misc",
       "programming"
     ]
   },
@@ -344,7 +343,7 @@
     "url": "http://tucows.com/preview/607345/Directory-List--Print",
     "tags": [
       "fef",
-      "freemium",
+      "freeware",
       "utility"
     ]
   },
@@ -392,13 +391,24 @@
     ]
   },
   {
+    "id": 224,
+    "name": "EarTrumpet",
+    "url": "https://eartrumpet.app/",
+    "description": "Volume control for Windows",
+    "tags": [
+      "audio",
+      "freeware",
+      "utility"
+    ]
+  },
+  {
     "id": 36,
     "description": "Complete data recovery software for Windows PC, laptops, hard drives, USB and more",
     "name": "EaseUS data recovery Wizard",
     "url": "https://easeus.com/data-recovery-software/",
     "tags": [
       "fef",
-      "freemium",
+      "freeware",
       "utility"
     ]
   },
@@ -435,6 +445,17 @@
     ]
   },
   {
+    "id": 211,
+    "name": "Fences",
+    "url": "https://www.stardock.com/products/fences/",
+    "description": "Keep your desktop effortlessly organized",
+    "tags": [
+      "misc",
+      "shareware",
+      "utility"
+    ]
+  },
+  {
     "id": 40,
     "description": "A complete, cross-platform solution to record, convert and stream audio and video",
     "name": "FFmpeg",
@@ -454,7 +475,7 @@
     "url": "https://sherrodcomputers.com/products_filerenamer.cfm",
     "tags": [
       "fef",
-      "freemium",
+      "freeware",
       "utility"
     ]
   },
@@ -471,12 +492,11 @@
   },
   {
     "id": 43,
-    "description": "Fast and reliable cross-platform FTP, FTPS and SFTP client",
     "name": "FileZilla Client",
     "url": "https://filezilla-project.org/download.php",
+    "description": "Fast and reliable cross-platform FTP, FTPS and SFTP client",
     "tags": [
       "freeware",
-      "misc",
       "programming"
     ]
   },
@@ -502,13 +522,23 @@
   },
   {
     "id": 46,
-    "description": "A fast and friendly git client",
     "name": "Fork",
     "url": "https://git-fork.com/",
+    "description": "A fast and friendly git client",
     "tags": [
       "freeware",
-      "misc",
       "programming"
+    ]
+  },
+  {
+    "id": 215,
+    "name": "fre:ac",
+    "url": "https://www.freac.org/",
+    "description": "Powerful audio converter",
+    "tags": [
+      "audio",
+      "freeware",
+      "utility"
     ]
   },
   {
@@ -528,7 +558,7 @@
     "name": "GC - AdBlock",
     "url": "https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom",
     "tags": [
-      "freemium",
+      "freeware",
       "gc"
     ]
   },
@@ -579,7 +609,7 @@
     "name": "GC - Darkness",
     "url": "https://chrome.google.com/webstore/detail/imilbobhamcfahccagbncamhpnbkaenm",
     "tags": [
-      "freemium",
+      "freeware",
       "gc"
     ]
   },
@@ -610,7 +640,7 @@
     "name": "GC - Grammarly",
     "url": "https://chrome.google.com/webstore/detail/kbfnbcaeplbcioakkpcpgfkobkghlhen",
     "tags": [
-      "freemium",
+      "freeware",
       "gc"
     ]
   },
@@ -662,7 +692,7 @@
     "name": "GC - Keepa",
     "url": "https://chrome.google.com/webstore/detail/neebplgakaahbhdphmkckjjcegoiijjo",
     "tags": [
-      "freemium",
+      "freeware",
       "gc"
     ]
   },
@@ -711,6 +741,16 @@
     "description": "Get properties of the image your cursor is pointing to via context menu",
     "name": "GC - View Image Info",
     "url": "https://chrome.google.com/webstore/detail/jldjjifbpipdmligefcogandjojpdagn",
+    "tags": [
+      "freeware",
+      "gc"
+    ]
+  },
+  {
+    "id": 220,
+    "name": "GC - Wappalyzer",
+    "url": "https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=it",
+    "description": "Identify web technologies",
     "tags": [
       "freeware",
       "gc"
@@ -872,7 +912,7 @@
     "name": "IObit Uninstaller",
     "url": "https://www.iobit.com/en/advanceduninstaller.php",
     "tags": [
-      "freemium",
+      "freeware",
       "uninstaller",
       "utility"
     ]
@@ -916,6 +956,28 @@
     "url": "https://kaspersky.com/downloads",
     "tags": [
       "security",
+      "shareware"
+    ]
+  },
+  {
+    "id": 214,
+    "name": "KeyFreeze",
+    "url": "https://keyfreeze.com/",
+    "description": "Block keyboard and mouse",
+    "tags": [
+      "freeware",
+      "misc",
+      "utility"
+    ]
+  },
+  {
+    "id": 223,
+    "name": "Light Image Resizer",
+    "url": "https://www.obviousidea.com/windows-software/light-image-resizer/",
+    "description": "Powerful images resizer and converter",
+    "tags": [
+      "editor",
+      "image",
       "shareware"
     ]
   },
@@ -967,7 +1029,7 @@
     "name": "MalwareBytes",
     "url": "https://malwarebytes.com/mwb-download/",
     "tags": [
-      "freemium",
+      "freeware",
       "security"
     ]
   },
@@ -979,6 +1041,16 @@
     "tags": [
       "freeware",
       "security"
+    ]
+  },
+  {
+    "id": 216,
+    "name": "MB - DiscordBee",
+    "url": "https://getmusicbee.com/addons/plugins/156/discordbee/",
+    "description": "Discord plugin for Musicbee",
+    "tags": [
+      "freeware",
+      "mb"
     ]
   },
   {
@@ -1099,15 +1171,47 @@
     ]
   },
   {
+    "id": 218,
+    "name": "Microsoft PC Manager",
+    "url": "https://pcmanager.microsoft.com/",
+    "description": "Safeguard your PC in a quiet and reliable way",
+    "tags": [
+      "freeware",
+      "misc",
+      "utility"
+    ]
+  },
+  {
+    "id": 212,
+    "name": "Microsoft PowerToys",
+    "url": "https://github.com/microsoft/PowerToys",
+    "description": "Set of utilities to enhance Windows experience",
+    "tags": [
+      "freeware",
+      "misc",
+      "utility"
+    ]
+  },
+  {
+    "id": 225,
+    "name": "Microsoft To Do",
+    "url": "https://to-do.office.com/",
+    "description": "Lists and task manager",
+    "tags": [
+      "freeware",
+      "misc",
+      "utility"
+    ]
+  },
+  {
     "id": 103,
-    "description": "Code editor redefined and optimized for building and debugging modern web and cloud applications",
     "name": "Microsoft VS Code",
     "url": "https://code.visualstudio.com/download",
+    "description": "Code editor redefined and optimized for building and debugging modern web and cloud applications",
     "tags": [
       "editor",
       "freeware",
-      "programming",
-      "vs"
+      "programming"
     ]
   },
   {
@@ -1141,6 +1245,17 @@
       "freeware",
       "misc",
       "video"
+    ]
+  },
+  {
+    "id": 217,
+    "name": "MouseMux",
+    "url": "https://www.mousemux.com/",
+    "description": "Use multiple mice on one desktop",
+    "tags": [
+      "misc",
+      "shareware",
+      "utility"
     ]
   },
   {
@@ -1227,7 +1342,7 @@
     "name": "Notion",
     "url": "https://notion.so/",
     "tags": [
-      "freemium",
+      "freeware",
       "misc",
       "utility"
     ]
@@ -1243,6 +1358,16 @@
     ]
   },
   {
+    "id": 222,
+    "name": "nvm",
+    "url": "https://github.com/nvm-sh/nvm",
+    "description": "node.js version manager",
+    "tags": [
+      "freeware",
+      "programming"
+    ]
+  },
+  {
     "id": 116,
     "description": "Video recording and live streaming",
     "name": "OBS Studio",
@@ -1250,6 +1375,17 @@
     "tags": [
       "freeware",
       "screen",
+      "utility"
+    ]
+  },
+  {
+    "id": 219,
+    "name": "OP AutoClicker",
+    "url": "https://www.opautoclicker.com/",
+    "description": "Automate mouse clicks",
+    "tags": [
+      "freeware",
+      "misc",
       "utility"
     ]
   },
@@ -1321,12 +1457,11 @@
   },
   {
     "id": 123,
-    "description": "The collaboration platform for API development",
     "name": "Postman",
     "url": "https://postman.com/downloads/",
+    "description": "The collaboration platform for API development",
     "tags": [
       "freeware",
-      "misc",
       "programming"
     ]
   },
@@ -1336,7 +1471,7 @@
     "name": "Power Automate",
     "url": "https://flow.microsoft.com/",
     "tags": [
-      "freemium",
+      "freeware",
       "misc",
       "utility"
     ]
@@ -1348,7 +1483,7 @@
     "url": "https://powerampapp.com/",
     "tags": [
       "app",
-      "freemium",
+      "freeware",
       "music"
     ]
   },
@@ -1408,6 +1543,17 @@
     ]
   },
   {
+    "id": 221,
+    "name": "QuickPic",
+    "url": "https://github.com/WSTxda/QP-Gallery-Releases",
+    "description": "The best gallery for Android",
+    "tags": [
+      "app",
+      "freeware",
+      "image"
+    ]
+  },
+  {
     "id": 131,
     "description": "Free desktop costumization tool",
     "name": "Rainmeter",
@@ -1437,6 +1583,17 @@
     "tags": [
       "freeware",
       "programming"
+    ]
+  },
+  {
+    "id": 213,
+    "name": "reWASD",
+    "url": "https://www.rewasd.com/",
+    "description": "Powerful gamepad mapper",
+    "tags": [
+      "gaming",
+      "misc",
+      "shareware"
     ]
   },
   {
@@ -1540,7 +1697,7 @@
     "name": "Speccy",
     "url": "https://ccleaner.com/speccy",
     "tags": [
-      "freemium",
+      "freeware",
       "hw",
       "utility"
     ]
@@ -1556,23 +1713,13 @@
     ]
   },
   {
-    "id": 144,
-    "description": "Guide on how to read Spek's results",
-    "name": "Spek Guide",
-    "url": "https://www.reddit.com/6fre3q/",
-    "tags": [
-      "audio",
-      "freeware"
-    ]
-  },
-  {
     "id": 145,
     "description": "Ideal for development and production for desktop, web, and small server applications",
     "name": "SQL Server",
     "url": "https://microsoft.com/en-us/sql-server/sql-server-downloads",
     "tags": [
       "db",
-      "freemium",
+      "freeware",
       "programming"
     ]
   },
@@ -1649,7 +1796,7 @@
     "url": "https://tableplus.com/",
     "tags": [
       "db",
-      "freemium",
+      "freeware",
       "programming"
     ]
   },
@@ -1669,7 +1816,7 @@
     "name": "TeamViewer",
     "url": "https://teamviewer.com/download/",
     "tags": [
-      "freemium",
+      "freeware",
       "misc",
       "utility"
     ]
@@ -1692,7 +1839,7 @@
     "url": "https://codesector.com/teracopy",
     "tags": [
       "fef",
-      "freemium",
+      "freeware",
       "utility"
     ]
   },
@@ -1713,7 +1860,7 @@
     "url": "https://xmmc.de/touchdaw/",
     "tags": [
       "app",
-      "freemium",
+      "freeware",
       "music"
     ]
   },
@@ -1723,7 +1870,7 @@
     "name": "TouchPortal",
     "url": "https://touch-portal.com/",
     "tags": [
-      "freemium",
+      "freeware",
       "misc",
       "utility"
     ]
@@ -1735,7 +1882,7 @@
     "url": "https://jam-software.com/treesize_free",
     "tags": [
       "fef",
-      "freemium",
+      "freeware",
       "utility"
     ]
   },
@@ -2152,7 +2299,7 @@
     "name": "WindowTop",
     "url": "https://windowtop.info/",
     "tags": [
-      "freemium",
+      "freeware",
       "misc",
       "utility"
     ]
@@ -2201,12 +2348,11 @@
   },
   {
     "id": 206,
-    "description": "Offline documentation browser for software developers",
     "name": "ZealDocs",
     "url": "https://zealdocs.org/download.html",
+    "description": "Offline documentation browser for software developers",
     "tags": [
       "freeware",
-      "misc",
       "programming"
     ]
   },
@@ -2217,7 +2363,7 @@
     "url": "https://utorrent.com/downloads/win",
     "tags": [
       "downloader",
-      "freemium",
+      "freeware",
       "torrent"
     ]
   }

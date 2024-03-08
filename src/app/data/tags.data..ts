@@ -323,11 +323,6 @@ export const softwareTags: TagInfo[] = [
   },
   {
     category: "license",
-    value: "freemium",
-    description: "Freemium",
-  },
-  {
-    category: "license",
     value: "freeware",
     description: "Freeware",
   },
@@ -420,11 +415,6 @@ export const softwareTags: TagInfo[] = [
     category: "ext/plugin",
     value: "vs",
     description: "VS/VSC",
-  },
-  {
-    category: "main category",
-    value: "voip",
-    description: "VoIP",
   },
   {
     category: "main category",
