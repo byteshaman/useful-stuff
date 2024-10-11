@@ -3,6 +3,11 @@ import { TagInfo } from "../interfaces/interfaces"
 export const l4dTags: TagInfo[] = [
   {
     category: "topic",
+    value: "ai",
+    description: "AI",
+  },
+  {
+    category: "topic",
     value: "ag",
     description: "Angular",
   },

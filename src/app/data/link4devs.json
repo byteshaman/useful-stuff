@@ -133,6 +133,16 @@
     ]
   },
   {
+    "id": 343,
+    "name": "AttackDefense",
+    "url": "https://attackdefense.com/",
+    "description": "Practice on offensive and defensive labs to enhance cybersecurity skills",
+    "tags": [
+      "hacksec",
+      "interactive"
+    ]
+  },
+  {
     "id": 14,
     "description": "[ITA] News e aggiornamenti del mondo del coding e della formazione IT",
     "name": "aulab.it",
@@ -687,6 +697,17 @@
     ]
   },
   {
+    "id": 342,
+    "name": "dev.to",
+    "url": "https://dev.to/saulodias/ternary-operator-better-alternatives-2ind",
+    "description": "Ternary Operator: Better Alternatives",
+    "tags": [
+      "artut",
+      "js",
+      "tips"
+    ]
+  },
+  {
     "id": 327,
     "name": "dev.to",
     "url": "https://dev.to/josiasaurel/11-javascript-console-commands-explained-4pi5",
@@ -1088,6 +1109,17 @@
     ]
   },
   {
+    "id": 345,
+    "name": "Fragments",
+    "url": "https://fragments.e2b.dev/",
+    "description": "Open-source version of Anthropic's Artifacts",
+    "tags": [
+      "ai",
+      "interactive",
+      "tool"
+    ]
+  },
+  {
     "id": 103,
     "description": "Learn to code online and get certifications or ask for help in the official FCC forum",
     "name": "FreeCodeCamp",
@@ -1207,6 +1239,16 @@
     "tags": [
       "artut",
       "css"
+    ]
+  },
+  {
+    "id": 340,
+    "name": "gabrieleromanato.com",
+    "url": "https://gabrieleromanato.com/2024/01/angular-organizzare-file-e-directory-di-un-applicazione",
+    "description": "[ITA] Angular: organizzare file e directory di un'applicazione",
+    "tags": [
+      "ag",
+      "artut"
     ]
   },
   {
@@ -1441,6 +1483,16 @@
       "css",
       "libpak",
       "tool"
+    ]
+  },
+  {
+    "id": 341,
+    "name": "Hacksplaining",
+    "url": "https://www.hacksplaining.com/lessons",
+    "description": "Security training for Web Developers",
+    "tags": [
+      "hacksec",
+      "interactive"
     ]
   },
   {
@@ -1982,6 +2034,16 @@
       "exercise",
       "interactive",
       "multi"
+    ]
+  },
+  {
+    "id": 344,
+    "name": "Let's Encrypt",
+    "url": "https://letsencrypt.org/",
+    "description": "A nonprofit Certificate Authority providing TLS certificates to 450 million websites",
+    "tags": [
+      "hacksec",
+      "webdev"
     ]
   },
   {

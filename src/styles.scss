@@ -34,3 +34,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .mat-raised-button.mat-warn, .mat-fab.mat-warn, .mat-mini-fab.mat-warn, .mat-flat-button, .mat-raised-button, .mat-fab, .mat-mini-fab {
   background-color: $darker-background-color;
 }
+
+button {
+  height: 30px !important;
+  padding: 0 6px !important;
+}
