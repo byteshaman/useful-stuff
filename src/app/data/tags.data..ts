@@ -191,6 +191,10 @@ export const websitesTags: TagInfo[] = [
     description: "Comparison"
   },
   {
+    value: "cybersec",
+    description: "Cyber-Security"
+  },
+  {
     value: "disc",
     description: "Discussion"
   },
@@ -227,10 +231,6 @@ export const websitesTags: TagInfo[] = [
     description: "Music"
   },
   {
-    value: "privacy",
-    description: "Privacy"
-  },
-  {
     value: "prod",
     description: "Productivity"
   },
@@ -249,10 +249,6 @@ export const websitesTags: TagInfo[] = [
   {
     value: "tvs",
     description: "TV Series"
-  },
-  {
-    value: "sec",
-    description: "Security"
   },
   {
     value: "share",

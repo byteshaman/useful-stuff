@@ -337,6 +337,16 @@
     ]
   },
   {
+    "id": 226,
+    "name": "Dimensions2Folder",
+    "url": "https://www.dcmembers.com/skwire/download/dimensions-2-folders/",
+    "description": "Sort images into folders based on their resolutions",
+    "tags": [
+      "freeware",
+      "image"
+    ]
+  },
+  {
     "id": 31,
     "description": "Easily list and print the content of any directory",
     "name": "Directory List & Print",
@@ -2305,6 +2315,17 @@
     ]
   },
   {
+    "id": 227,
+    "name": "WinMerge",
+    "url": "https://winmerge.org/downloads/",
+    "description": "Open Source differencing and merging tool for Windows",
+    "tags": [
+      "freeware",
+      "misc",
+      "utility"
+    ]
+  },
+  {
     "id": 202,
     "description": "Data compression, encryption and archiving tool",
     "name": "WinRAR",
@@ -2337,6 +2358,17 @@
     ]
   },
   {
+    "id": 228,
+    "name": "XMedia Recode",
+    "url": "https://www.xmedia-recode.de/en/index.php",
+    "description": "All-in-One video and audio converter",
+    "tags": [
+      "audio",
+      "freeware",
+      "video"
+    ]
+  },
+  {
     "id": 205,
     "description": "A free alternative to IDM",
     "name": "Xtreme Download Manager",
@@ -2354,6 +2386,16 @@
     "tags": [
       "freeware",
       "programming"
+    ]
+  },
+  {
+    "id": 229,
+    "name": "ZenBrowser",
+    "url": "https://zen-browser.app/",
+    "description": "Experience tranquillity while browsing the web without people tracking you",
+    "tags": [
+      "browser",
+      "freeware"
     ]
   },
   {

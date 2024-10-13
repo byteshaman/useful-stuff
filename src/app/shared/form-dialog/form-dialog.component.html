@@ -25,19 +25,12 @@
       </mat-error>
     </mat-form-field>
 
-    <mat-form-field appearance="outline" class="form-control">
-      <mat-select formControlName="tags" placeholder="Tags" [multiple]="true" #multiSelect>
-        <mat-option>
-          <ngx-mat-select-search [formControl]="tagSearch" placeholderLabel="Search" noEntriesFoundLabel="No result found"></ngx-mat-select-search>
-        </mat-option>
-        <mat-option *ngFor="let tag of filteredTags | async" [value]="tag.value">
-          {{tag.description}}
-        </mat-option>
-      </mat-select>
-      <mat-error *ngIf="form.get('tags')?.hasError('required')">
-        {{ mandatoryFieldError }}
-      </mat-error>
-    </mat-form-field>
+
+    <div class="tag-container">
+      <mat-checkbox  *ngFor="let tag of tagList" [checked]="isTagSelected(tag.value)" (change)="onTagChange(tag.value, $event.checked)">
+        {{ tag.description }}
+      </mat-checkbox>
+    </div>
 
   </form>
 

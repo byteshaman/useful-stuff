@@ -15,7 +15,7 @@
     "url": "https://10minutemail.com/",
     "tags": [
       "mail",
-      "privacy"
+      "cybersec"
     ]
   },
   {
@@ -313,7 +313,7 @@
     "url": "http://bugmenot.com/",
     "tags": [
       "misc",
-      "privacy"
+      "cybersec"
     ]
   },
   {
@@ -341,7 +341,7 @@
     "name": "Canary Tokens",
     "url": "https://stationx.net/canarytokens/",
     "tags": [
-      "sec"
+      "cybersec"
     ]
   },
   {
@@ -446,7 +446,7 @@
     "url": "https://dangerzone.rocks/",
     "description": "Take potentially dangerous documents and convert them to safe PDFs",
     "tags": [
-      "sec",
+      "cybersec",
       "tool"
     ]
   },
@@ -829,7 +829,7 @@
     "description": "Find the best way to make a hard reset for a device",
     "tags": [
       "article",
-      "privacy"
+      "cybersec"
     ]
   },
   {
@@ -886,7 +886,7 @@
     "name": "howsecureismypassword",
     "url": "https://howsecureismypassword.net/",
     "tags": [
-      "sec",
+      "cybersec",
       "tool"
     ]
   },
@@ -1084,8 +1084,17 @@
     "name": "Kaspersky Password Check",
     "url": "https://password.kaspersky.com/",
     "tags": [
-      "sec",
+      "cybersec",
       "tool"
+    ]
+  },
+  {
+    "id": 248,
+    "name": "kPaste",
+    "url": "https://kpaste.infomaniak.com/new",
+    "description": "Secure solution for transferring your encrypted messages to all your contacts",
+    "tags": [
+      "cybersec"
     ]
   },
   {
@@ -1124,7 +1133,7 @@
     "description": "[ITA] Una lista delle alternative etiche ai colossi del web ",
     "tags": [
       "comp",
-      "privacy",
+      "cybersec",
       "tech",
       "tool"
     ]
@@ -1135,7 +1144,7 @@
     "name": "LessPass",
     "url": "https://lesspass.com/#/",
     "tags": [
-      "sec",
+      "cybersec",
       "tool"
     ]
   },
@@ -1244,7 +1253,7 @@
     "name": "MEGA.nz",
     "url": "https://mega.nz/login",
     "tags": [
-      "privacy",
+      "cybersec",
       "share"
     ]
   },
@@ -1547,8 +1556,7 @@
     "name": "Privacy Guides",
     "url": "https://privacyguides.org/",
     "tags": [
-      "privacy",
-      "sec"
+      "cybersec"
     ]
   },
   {
@@ -1557,7 +1565,7 @@
     "name": "Privatebin",
     "url": "https://privatebin.net/",
     "tags": [
-      "privacy",
+      "cybersec",
       "text"
     ]
   },
@@ -1578,7 +1586,7 @@
     "url": "https://protonmail.com/",
     "tags": [
       "mail",
-      "privacy"
+      "cybersec"
     ]
   },
   {
@@ -1725,7 +1733,7 @@
     "name": "Scamadvsider",
     "url": "https://scamadviser.com/",
     "tags": [
-      "sec"
+      "cybersec"
     ]
   },
   {
@@ -1901,7 +1909,7 @@
     "url": "https://ssd.eff.org/",
     "tags": [
       "article",
-      "privacy"
+      "cybersec"
     ]
   },
   {
@@ -2038,16 +2046,6 @@
       "text",
       "tool",
       "video"
-    ]
-  },
-  {
-    "id": 235,
-    "name": "ToffeeShare",
-    "url": "https://toffeeshare.com/",
-    "description": "Share files directly from your device to anywhere",
-    "tags": [
-      "privacy",
-      "share"
     ]
   },
   {
@@ -2257,7 +2255,7 @@
     "url": "https://virustotal.com/gui/home/upload",
     "tags": [
       "misc",
-      "sec"
+      "cybersec"
     ]
   },
   {
@@ -2349,7 +2347,7 @@
     "name": "WhoIs",
     "url": "https://whois.domaintools.com/",
     "tags": [
-      "sec",
+      "cybersec",
       "tool"
     ]
   },

@@ -21,10 +21,12 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { ContentComponent } from './shared/content/content.component';
 import { MatSortModule } from '@angular/material/sort';
 import { FormDialogComponent } from './shared/form-dialog/form-dialog.component';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 const MaterialModules = [
   MatButtonModule,
   MatButtonToggleModule,
+  MatCheckboxModule,
   MatDialogModule,
   MatFormFieldModule,
   MatFormFieldModule,

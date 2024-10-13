@@ -8,7 +8,7 @@ export const pages: PageInfo[] = [
   },
   {
     code: 'web',
-    description: 'Cool Websites'
+    description: 'Websites'
   },
   {
     code: 'sw',

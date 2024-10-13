@@ -19,6 +19,14 @@
 
   }
 
+  .tag-container {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
   // space buttons
   button {
     margin: 5px;

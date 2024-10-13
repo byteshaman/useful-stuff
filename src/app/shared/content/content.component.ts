@@ -207,7 +207,7 @@ export class ContentComponent implements OnInit, AfterViewInit {
     }
 
     const dialogConfig: MatDialogConfig = {
-      height: '400px',
+      height: '90vh',
       width: '600px',
       disableClose: true,
       data: {websiteInfo: dialogData, tags: this.tags}
