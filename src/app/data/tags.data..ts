@@ -3,11 +3,6 @@ import { TagInfo } from "../interfaces/interfaces"
 export const l4dTags: TagInfo[] = [
   {
     category: "topic",
-    value: "ai",
-    description: "AI",
-  },
-  {
-    category: "topic",
     value: "ag",
     description: "Angular",
   },
@@ -63,8 +58,8 @@ export const l4dTags: TagInfo[] = [
   },
   {
     category: "topic",
-    value: "hacksec",
-    description: "Hacking/Security",
+    value: "cybersec",
+    description: "Cyber Security",
   },
   {
     category: "topic",
@@ -137,11 +132,6 @@ export const l4dTags: TagInfo[] = [
     description: "SQL",
   },
   {
-    category: "topic",
-    value: "supp",
-    description: "Support",
-  },
-  {
     category: "resource type",
     value: "thisthat",
     description: "This & That",
@@ -175,6 +165,10 @@ export const l4dTags: TagInfo[] = [
 
 export const websitesTags: TagInfo[] = [
   {
+    value: "ai",
+    description: "AI",
+  },
+  {
     value: "animanga",
     description: "Anime & Manga"
   },
@@ -192,7 +186,7 @@ export const websitesTags: TagInfo[] = [
   },
   {
     value: "cybersec",
-    description: "Cyber-Security"
+    description: "Cyber Security"
   },
   {
     value: "disc",

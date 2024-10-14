@@ -1,4 +1,5 @@
-<mat-tab-group color="primary" animationDuration="0ms" mat-stretch-tabs="false" mat-align-tabs="center">
+<mat-tab-group color="primary" animationDuration="0ms" mat-stretch-tabs="false" mat-align-tabs="center"
+  [(selectedIndex)]="selectedTabIndex" (selectedIndexChange)="onTabChange($event)">
   <mat-tab *ngFor="let page of pages" [label]="page.description">
     <!-- lazy load component -->
     <ng-template matTabContent>

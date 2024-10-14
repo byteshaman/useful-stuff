@@ -25,14 +25,17 @@ export class ContentComponent implements OnInit, AfterViewInit {
   tags: TagInfo[] = [];
   selectedTags: string[] = [];
   selectableTags!: Set<string>;
-  
-  // mat-table
-  columns: string[] = ['name', 'description', 'tags'];
-  displayedColumns: string[] = [];
-  dataSource: MatTableDataSource<WebsiteInfo> = new MatTableDataSource();
 
   // flags
   devMode: boolean = false;
+
+  // mat-table
+  columns: string[] = this.devMode ? ['name', 'description', 'tags'] : ['name', 'description'];
+  displayedColumns: string[] = [];
+  dataSource: MatTableDataSource<WebsiteInfo> = new MatTableDataSource();
+
+
+  tagOccurrences: { [key: string]: number } = {};
 
   // export
   filename: string = ''; 
@@ -74,6 +77,7 @@ export class ContentComponent implements OnInit, AfterViewInit {
 
     // Select every tag at first
     this.setSelectableTags();
+    this.updateTagOccurrences();
   }
 
   /**
@@ -82,6 +86,25 @@ export class ContentComponent implements OnInit, AfterViewInit {
    */
   ngAfterViewInit(): void {
     this.dataSource.sort = this.sort;
+  }
+
+  updateTagOccurrences(): void {
+    this.tagOccurrences = {};
+    this.dataSource.filteredData.forEach(item => {
+      item.tags.forEach(tag => {
+        if (this.selectableTags.has(tag)) {
+          this.tagOccurrences[tag] = (this.tagOccurrences[tag] || 0) + 1;
+        }
+      });
+    });
+  }
+
+  /**
+   * @param  {string} tag
+   * @returns number
+   */
+  getTagOccurrences(tag: string): number {
+    return this.tagOccurrences[tag] || 0;
   }
 
   /**
@@ -94,6 +117,7 @@ export class ContentComponent implements OnInit, AfterViewInit {
     this.dataSource.filter = filterValue.trim().toLowerCase();
 
     this.setSelectableTags();
+    this.updateTagOccurrences();
   }
 
   /**
@@ -133,6 +157,9 @@ export class ContentComponent implements OnInit, AfterViewInit {
     } else {
       this.dataSource.data = this.tableData;
     }
+
+
+    this.updateTagOccurrences();
   }
 
   /**
@@ -250,6 +277,8 @@ export class ContentComponent implements OnInit, AfterViewInit {
     } else {
       this.selectableTags = new Set<string>(this.tags.flatMap(t => t.value));
     }
+
+    this.updateTagOccurrences();
   }
 
   /**

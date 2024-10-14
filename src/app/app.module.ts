@@ -22,8 +22,10 @@ import { ContentComponent } from './shared/content/content.component';
 import { MatSortModule } from '@angular/material/sort';
 import { FormDialogComponent } from './shared/form-dialog/form-dialog.component';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 const MaterialModules = [
+  MatButtonModule,
   MatButtonModule,
   MatButtonToggleModule,
   MatCheckboxModule,
@@ -36,6 +38,7 @@ const MaterialModules = [
   MatSortModule,
   MatTableModule,
   MatTabsModule,
+  MatTooltipModule
 ]
 
 

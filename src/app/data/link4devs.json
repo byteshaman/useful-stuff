@@ -138,7 +138,7 @@
     "url": "https://attackdefense.com/",
     "description": "Practice on offensive and defensive labs to enhance cybersecurity skills",
     "tags": [
-      "hacksec",
+      "cybersec",
       "interactive"
     ]
   },
@@ -300,7 +300,7 @@
     "url": "https://cheatsheetseries.owasp.org/Glossary.html",
     "tags": [
       "cheat",
-      "hacksec",
+      "cybersec",
       "multi"
     ]
   },
@@ -413,8 +413,7 @@
     "name": "cplusplus",
     "url": "http://cplusplus.com/forum/",
     "tags": [
-      "cpp",
-      "supp"
+      "cpp"
     ]
   },
   {
@@ -813,8 +812,7 @@
     "url": "https://discord.com/invite/XQ9C3sY",
     "tags": [
       "discord",
-      "multi",
-      "supp"
+      "multi"
     ]
   },
   {
@@ -824,8 +822,7 @@
     "url": "https://discord.gg/KVUmVXA",
     "tags": [
       "discord",
-      "multi",
-      "supp"
+      "multi"
     ]
   },
   {
@@ -835,7 +832,6 @@
     "url": "https://discordapp.com/invite/kx7pk6J",
     "tags": [
       "discord",
-      "supp",
       "webdev"
     ]
   },
@@ -846,8 +842,7 @@
     "url": "https://discord.gg/code",
     "tags": [
       "discord",
-      "multi",
-      "supp"
+      "multi"
     ]
   },
   {
@@ -857,8 +852,7 @@
     "url": "http://invite.progdisc.club/",
     "tags": [
       "discord",
-      "multi",
-      "supp"
+      "multi"
     ]
   },
   {
@@ -868,8 +862,7 @@
     "url": "https://discord.gg/programming",
     "tags": [
       "discord",
-      "multi",
-      "supp"
+      "multi"
     ]
   },
   {
@@ -879,7 +872,6 @@
     "url": "https://discord.gg/keD8rZp",
     "tags": [
       "discord",
-      "supp",
       "webdev"
     ]
   },
@@ -1109,17 +1101,6 @@
     ]
   },
   {
-    "id": 345,
-    "name": "Fragments",
-    "url": "https://fragments.e2b.dev/",
-    "description": "Open-source version of Anthropic's Artifacts",
-    "tags": [
-      "ai",
-      "interactive",
-      "tool"
-    ]
-  },
-  {
     "id": 103,
     "description": "Learn to code online and get certifications or ask for help in the official FCC forum",
     "name": "FreeCodeCamp",
@@ -1128,8 +1109,8 @@
       "artut",
       "exercise",
       "interactive",
-      "multi",
-      "supp"
+      "multi"
+      
     ]
   },
   {
@@ -1459,7 +1440,7 @@
     "url": "https://hackthissite.org/pages/index/index.php",
     "tags": [
       "exercise",
-      "hacksec",
+      "cybersec",
       "interactive"
     ]
   },
@@ -1470,7 +1451,7 @@
     "url": "https://hacker101.com/",
     "tags": [
       "exercise",
-      "hacksec",
+      "cybersec",
       "interactive"
     ]
   },
@@ -1491,7 +1472,7 @@
     "url": "https://www.hacksplaining.com/lessons",
     "description": "Security training for Web Developers",
     "tags": [
-      "hacksec",
+      "cybersec",
       "interactive"
     ]
   },
@@ -1501,7 +1482,7 @@
     "url": "https://www.hacksplaining.com/",
     "description": "Security Training for Web Developers",
     "tags": [
-      "hacksec",
+      "cybersec",
       "interactive"
     ]
   },
@@ -1512,7 +1493,7 @@
     "url": "https://hackthebox.eu/",
     "tags": [
       "exercise",
-      "hacksec",
+      "cybersec",
       "interactive"
     ]
   },
@@ -1978,7 +1959,7 @@
     "id": 179,
     "description": "Learn how to program in C++ for free",
     "name": "Learn C++",
-    "url": "https://learncpp.com//",
+    "url": "https://learncpp.com/",
     "tags": [
       "artut",
       "cpp"
@@ -2042,7 +2023,7 @@
     "url": "https://letsencrypt.org/",
     "description": "A nonprofit Certificate Authority providing TLS certificates to 450 million websites",
     "tags": [
-      "hacksec",
+      "cybersec",
       "webdev"
     ]
   },
@@ -2316,7 +2297,7 @@
     "url": "https://metasploit.com/",
     "tags": [
       "fw",
-      "hacksec"
+      "cybersec"
     ]
   },
   {
@@ -2386,7 +2367,7 @@
     "url": "https://netsparker.com/blog/web-security/sql-injection-cheat-sheet/",
     "tags": [
       "cheat",
-      "hacksec",
+      "cybersec",
       "sql"
     ]
   },
@@ -2436,7 +2417,7 @@
     "url": "https://overthewire.org/wargames/",
     "tags": [
       "game",
-      "hacksec",
+      "cybersec",
       "interactive"
     ]
   },
@@ -2556,13 +2537,12 @@
   },
   {
     "id": 229,
-    "description": "Il panorama informatico italiano su Reddit",
+    "description": "[ITA] Il panorama informatico italiano su Reddit",
     "name": "r/ItalyInformatica",
     "url": "https://reddit.com/r/ItalyInformatica/",
     "tags": [
       "multi",
-      "reddit",
-      "supp"
+      "reddit"
     ]
   },
   {
@@ -2572,8 +2552,7 @@
     "url": "https://reddit.com/r/learnprogramming/",
     "tags": [
       "multi",
-      "reddit",
-      "supp"
+      "reddit"
     ]
   },
   {
@@ -2583,7 +2562,6 @@
     "url": "https://reddit.com/r/webdev/",
     "tags": [
       "reddit",
-      "supp",
       "webdev"
     ]
   },
@@ -2763,7 +2741,7 @@
     "name": "Shodan",
     "url": "https://shodan.io/",
     "tags": [
-      "hacksec"
+      "cybersec"
     ]
   },
   {
@@ -2795,8 +2773,8 @@
     "tags": [
       "artut",
       "interactive",
-      "multi",
-      "supp"
+      "multi"
+      
     ]
   },
   {
@@ -2859,8 +2837,8 @@
     "name": "Stack Overflow",
     "url": "https://stackoverflow.com/",
     "tags": [
-      "multi",
-      "supp"
+      "multi"
+      
     ]
   },
   {
@@ -3182,7 +3160,7 @@
     "name": "TryHackMe",
     "url": "https://tryhackme.com/",
     "tags": [
-      "hacksec",
+      "cybersec",
       "interactive"
     ]
   },
@@ -3490,7 +3468,7 @@
     "name": "YouTube",
     "url": "https://youtube.com/playlist?list=PLG49S3nxzAnmpdmX7RoTOyuNJQAb-r-gd",
     "tags": [
-      "hacksec",
+      "cybersec",
       "net",
       "videocourse",
       "yt"

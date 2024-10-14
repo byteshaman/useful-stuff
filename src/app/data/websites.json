@@ -50,6 +50,16 @@
     ]
   },
   {
+    "id": 263,
+    "name": "2FA Directory",
+    "url": "https://2fa.directory/",
+    "description": "Independent source of information on which services support MFA/2FA",
+    "tags": [
+      "catalog",
+      "cybersec"
+    ]
+  },
+  {
     "id": 3,
     "description": "Chess games database",
     "name": "365chess",
@@ -183,6 +193,16 @@
     "url": "https://anonymousfiles.io/",
     "tags": [
       "share"
+    ]
+  },
+  {
+    "id": 258,
+    "name": "AppSumo",
+    "url": "https://appsumo.com/",
+    "description": "Top software deals for entrepreneurs at incredible prices",
+    "tags": [
+      "prod",
+      "shop"
     ]
   },
   {
@@ -559,6 +579,17 @@
     ]
   },
   {
+    "id": 256,
+    "name": "Display Specifications",
+    "url": "https://www.displayspecifications.com/",
+    "description": "Get detailed features and specifications of various desktop monitors, TV sets and other types of displays",
+    "tags": [
+      "catalog",
+      "comp",
+      "tech"
+    ]
+  },
+  {
     "id": 44,
     "description": "See how badly your Android phone vendor handles apps running in the background",
     "name": "DontKillMyApp",
@@ -637,13 +668,23 @@
     ]
   },
   {
+    "id": 300,
+    "description": "Beat SPAM with the best disposable email service using gmail domain",
+    "name": "emailnator",
+    "url": "https://www.emailnator.com/",
+    "tags": [
+      "mail",
+      "cybersec"
+    ]
+  },
+  {
     "id": 50,
     "description": "Emoji database",
     "name": "emojidb",
     "url": "https://emojidb.org/",
     "tags": [
       "image",
-      "useless"
+      "catalog"
     ]
   },
   {
@@ -695,6 +736,16 @@
     ]
   },
   {
+    "id": 260,
+    "name": "FlatIcon",
+    "url": "https://www.flaticon.com/",
+    "description": "Download Free Icons and Stickers for your projects",
+    "tags": [
+      "image",
+      "prod"
+    ]
+  },
+  {
     "id": 224,
     "name": "Forum FinanzaOnline",
     "url": "https://forum.finanzaonline.com/",
@@ -702,6 +753,15 @@
     "tags": [
       "disc",
       "fin"
+    ]
+  },
+  {
+    "id": 249,
+    "name": "Fragments",
+    "url": "https://fragments.e2b.dev/",
+    "description": "Open-source version of Anthropic's Artifacts",
+    "tags": [
+      "ai"
     ]
   },
   {
@@ -830,6 +890,15 @@
     "tags": [
       "article",
       "cybersec"
+    ]
+  },
+  {
+    "id": 261,
+    "name": "Harvard University",
+    "url": "https://pll.harvard.edu/catalog?price%5B1%5D=1&max_price=&start_date=&keywords=",
+    "description": "Free courses from Harvard University",
+    "tags": [
+      "edu"
     ]
   },
   {
@@ -1010,12 +1079,33 @@
     ]
   },
   {
+    "id": 259,
+    "name": "Instructables",
+    "url": "https://www.instructables.com/projects/",
+    "description": "Community for people who like to make things",
+    "tags": [
+      "edu",
+      "misc",
+      "prod"
+    ]
+  },
+  {
     "id": 80,
     "description": "Various IP address tools",
     "name": "Ip Address",
     "url": "https://ipaddress.com/",
     "tags": [
       "tech",
+      "tool"
+    ]
+  },
+  {
+    "id": 254,
+    "name": "Ip Logger",
+    "url": "https://iplogger.org/",
+    "description": "Track IP address and track locations",
+    "tags": [
+      "cybersec",
       "tool"
     ]
   },
@@ -1127,6 +1217,17 @@
     ]
   },
   {
+    "id": 251,
+    "name": "LCD monitor test images",
+    "url": "http://www.lagom.nl/lcd-test/",
+    "description": "Easily adjust the settings of your monitor to get the best possible picture quality",
+    "tags": [
+      "tech",
+      "tool",
+      "video"
+    ]
+  },
+  {
     "id": 234,
     "name": "LeAlternative",
     "url": "https://lista.lealternative.net/",
@@ -1234,6 +1335,16 @@
     "description": "An interactive map of Metal history",
     "tags": [
       "music",
+      "tool"
+    ]
+  },
+  {
+    "id": 262,
+    "name": "MapDevelopers",
+    "url": "https://www.mapdevelopers.com/index.php",
+    "description": "Get prebuilt Google Maps functionality",
+    "tags": [
+      "misc",
       "tool"
     ]
   },
@@ -1460,6 +1571,26 @@
     "url": "https://outlook.live.com/owa/",
     "tags": [
       "mail"
+    ]
+  },
+  {
+    "id": 255,
+    "name": "Passkeys directory",
+    "url": "https://passkeys.directory/",
+    "description": "Community-driven index of websites, apps, and services that offer signing in with passkeys",
+    "tags": [
+      "catalog",
+      "cybersec"
+    ]
+  },
+  {
+    "id": 264,
+    "name": "PasskeysIndex",
+    "url": "https://passkeyindex.io/",
+    "description": "Your Resource for Platforms, Apps, and Websites Supporting Passkey Login",
+    "tags": [
+      "catalog",
+      "cybersec"
     ]
   },
   {
@@ -1913,6 +2044,16 @@
     ]
   },
   {
+    "id": 250,
+    "name": "SwissTransfer",
+    "url": "https://www.swisstransfer.com/",
+    "description": "Send up to 50 GB of data at once, free of charge and without registration",
+    "tags": [
+      "cybersec",
+      "share"
+    ]
+  },
+  {
     "id": 156,
     "description": "[ITA] Cambia fornitore utenze, evitando burocrazie e mal di testa",
     "name": "Switcho",
@@ -2014,6 +2155,17 @@
     "url": "https://theuselessweb.com/",
     "tags": [
       "useless"
+    ]
+  },
+  {
+    "id": 252,
+    "name": "There's An AI For That",
+    "url": "https://theresanaiforthat.com/",
+    "description": "Discover The Newest And Best AI Tools",
+    "tags": [
+      "ai",
+      "catalog",
+      "tool"
     ]
   },
   {
@@ -2333,6 +2485,16 @@
     ]
   },
   {
+    "id": 257,
+    "name": "WhiteScreen",
+    "url": "https://www.whitescreen.online/",
+    "description": "Online tool to show various fullscreen pages",
+    "tags": [
+      "misc",
+      "tool"
+    ]
+  },
+  {
     "id": 192,
     "description": "Discover music through samples",
     "name": "Who Sampled?",
@@ -2388,6 +2550,16 @@
     "tags": [
       "misc",
       "tool"
+    ]
+  },
+  {
+    "id": 253,
+    "name": "Wormhole",
+    "url": "https://wormhole.app/",
+    "description": "Share files with end-to-end encryption and a link that automatically expires",
+    "tags": [
+      "cybersec",
+      "share"
     ]
   },
   {

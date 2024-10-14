@@ -5,8 +5,8 @@
 
 <!-- Buttons -->
 <div id="button-container">
-  <button mat-raised-button *ngFor="let tag of tags" [ngClass]="[getColorClass(tag.category!), getSelectedClass(tag.value)]" (click)="handleButtonClick(tag.value)" [disabled]="isButtonDisabled(tag.value)">
-    {{tag.description}}
+  <button mat-raised-button *ngFor="let tag of tags"  [ngClass]="[getColorClass(tag.category!), getSelectedClass(tag.value)]" (click)="handleButtonClick(tag.value)" [disabled]="isButtonDisabled(tag.value)">
+    {{ tag.description }}
   </button>
 </div>
 
@@ -16,7 +16,8 @@
     <mat-icon>add</mat-icon>
   </button>
 
-  <mat-form-field appearance="outline">
+  <!-- MARK: search -->
+  <mat-form-field appearance="outline" [floatLabel]="'always'">
     <mat-label>Search</mat-label>
     <input matInput #input (keyup)="applyFilter($event)">
   </mat-form-field>
