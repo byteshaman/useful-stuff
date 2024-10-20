@@ -1110,7 +1110,6 @@
       "exercise",
       "interactive",
       "multi"
-      
     ]
   },
   {
@@ -1209,6 +1208,16 @@
     "url": "https://frontendpractice.com/",
     "tags": [
       "exercise",
+      "webdev"
+    ]
+  },
+  {
+    "id": 346,
+    "name": "FrontFlipper",
+    "url": "https://fontflipper.com/upload",
+    "description": "Find free fonts",
+    "tags": [
+      "tool",
       "webdev"
     ]
   },
@@ -1402,6 +1411,16 @@
     "url": "https://goalkicker.com/",
     "tags": [
       "multi"
+    ]
+  },
+  {
+    "id": 345,
+    "name": "Gogh",
+    "url": "https://gogh-co.github.io/Gogh/",
+    "description": "Colorschemes for terminals",
+    "tags": [
+      "linux",
+      "tool"
     ]
   },
   {
@@ -2774,7 +2793,6 @@
       "artut",
       "interactive",
       "multi"
-      
     ]
   },
   {
@@ -2795,6 +2813,16 @@
     "tags": [
       "artut",
       "git"
+    ]
+  },
+  {
+    "id": 347,
+    "name": "spartan",
+    "url": "https://www.spartan.ng/",
+    "description": "Cutting-edge tools powering Angular full-stack development",
+    "tags": [
+      "ag",
+      "libpak"
     ]
   },
   {
@@ -2838,7 +2866,6 @@
     "url": "https://stackoverflow.com/",
     "tags": [
       "multi"
-      
     ]
   },
   {

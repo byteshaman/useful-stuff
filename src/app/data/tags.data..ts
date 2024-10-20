@@ -288,6 +288,11 @@ export const softwareTags: TagInfo[] = [
   },
   {
     category: "subcategory",
+    value: "conv",
+    description: "Converter",
+  },
+  {
+    category: "subcategory",
     value: "db",
     description: "Database",
   },

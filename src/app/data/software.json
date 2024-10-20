@@ -490,6 +490,17 @@
     ]
   },
   {
+    "id": 232,
+    "name": "FileConverter",
+    "url": "https://file-converter.org/",
+    "description": "Convert your files in just 2 clicks",
+    "tags": [
+      "fef",
+      "freeware",
+      "utility"
+    ]
+  },
+  {
     "id": 42,
     "description": "Remove metadata from your digital photos",
     "name": "FileMind QuickFix",
@@ -1389,6 +1400,16 @@
     ]
   },
   {
+    "id": 230,
+    "name": "Ollama",
+    "url": "https://ollama.com/",
+    "description": "Run AI models locally",
+    "tags": [
+      "freeware",
+      "utility"
+    ]
+  },
+  {
     "id": 219,
     "name": "OP AutoClicker",
     "url": "https://www.opautoclicker.com/",
@@ -2062,16 +2083,6 @@
     ]
   },
   {
-    "id": 177,
-    "description": "Debug your JS code in Chrome browser",
-    "name": "VSC - Debugger for Chrome",
-    "url": "https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome",
-    "tags": [
-      "freeware",
-      "vs"
-    ]
-  },
-  {
     "id": 178,
     "description": "Update your discord status with the newly added rich presence",
     "name": "VSC - Discord Presence",
@@ -2333,6 +2344,16 @@
     "tags": [
       "fef",
       "shareware",
+      "utility"
+    ]
+  },
+  {
+    "id": 231,
+    "name": "WinUtil",
+    "url": "https://christitus.com/tags/winutil/",
+    "description": "The Most Popular Windows Utility",
+    "tags": [
+      "freeware",
       "utility"
     ]
   },

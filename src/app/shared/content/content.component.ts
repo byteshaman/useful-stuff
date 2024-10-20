@@ -27,7 +27,7 @@ export class ContentComponent implements OnInit, AfterViewInit {
   selectableTags!: Set<string>;
 
   // flags
-  devMode: boolean = false;
+  devMode: boolean = true;
 
   // mat-table
   columns: string[] = this.devMode ? ['name', 'description', 'tags'] : ['name', 'description'];

@@ -365,6 +365,15 @@
     ]
   },
   {
+    "id": 302,
+    "name": "Chat GPT",
+    "url": "https://chatgpt.com/",
+    "description": "AI assistant from OpenAI",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
     "id": 26,
     "description": "Play chess online against AI or other",
     "name": "Chess.com",
@@ -400,6 +409,15 @@
     "tags": [
       "music",
       "tool"
+    ]
+  },
+  {
+    "id": 301,
+    "name": "Claude",
+    "url": "https://claude.ai/",
+    "description": "AI assistant from Anthropic",
+    "tags": [
+      "ai"
     ]
   },
   {
@@ -697,6 +715,16 @@
     ]
   },
   {
+    "id": 306,
+    "name": "EvalPlus",
+    "url": "https://evalplus.github.io/leaderboard.html",
+    "description": "EvalPlus evaluates AI Coders with rigorous tests",
+    "tags": [
+      "ai",
+      "comp"
+    ]
+  },
+  {
     "id": 52,
     "description": "Algorithmically-generated, readability-adjusted scatter-plot of the musical genre-space",
     "name": "Every Noise At Once",
@@ -966,6 +994,18 @@
     "url": "https://www.howtogeek.com/797147/turn-off-google-lens-chrome/",
     "tags": [
       "article"
+    ]
+  },
+  {
+    "id": 307,
+    "name": "HuggingFace",
+    "url": "https://huggingface.co/",
+    "description": "AI community",
+    "tags": [
+      "ai",
+      "catalog",
+      "comp",
+      "disc"
     ]
   },
   {
@@ -1487,6 +1527,15 @@
     ]
   },
   {
+    "id": 304,
+    "name": "NotDiamond",
+    "url": "https://chat.notdiamond.ai/",
+    "description": "https://chat.notdiamond.ai/",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
     "id": 108,
     "description": "Product availability tracker",
     "name": "NowInStock",
@@ -1522,6 +1571,15 @@
     "url": "http://oldversion.com/",
     "tags": [
       "misc"
+    ]
+  },
+  {
+    "id": 305,
+    "name": "Ollama models",
+    "url": "https://ollama.com/library?sort=popular",
+    "description": "Models that you can use with Ollama",
+    "tags": [
+      "ai"
     ]
   },
   {
@@ -1641,6 +1699,15 @@
       "comp",
       "tech",
       "tool"
+    ]
+  },
+  {
+    "id": 303,
+    "name": "Perplexity",
+    "url": "https://www.perplexity.ai/",
+    "description": "AI-powered answer engine",
+    "tags": [
+      "ai"
     ]
   },
   {
