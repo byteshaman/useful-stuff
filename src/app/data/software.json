@@ -7,8 +7,7 @@
     "tags": [
       "audio",
       "misc",
-      "music",
-      "shareware"
+      "music"
     ]
   },
   {
@@ -18,7 +17,6 @@
     "url": "https://7-zip.org/download.html",
     "tags": [
       "fef",
-      "freeware",
       "utility"
     ]
   },
@@ -29,8 +27,7 @@
     "url": "https://ableton.com/en/live/",
     "tags": [
       "audio",
-      "music",
-      "shareware"
+      "music"
     ]
   },
   {
@@ -39,7 +36,6 @@
     "name": "Adobe Acrobat Reader",
     "url": "https://get.adobe.com/reader/",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -51,7 +47,6 @@
     "url": "https://alldup.de/en_download_alldup.php",
     "tags": [
       "fef",
-      "freeware",
       "utility"
     ]
   },
@@ -61,7 +56,6 @@
     "name": "AnyDesk",
     "url": "https://anydesk.com/en",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -73,7 +67,6 @@
     "url": "https://community.ardour.org/download",
     "tags": [
       "audio",
-      "freeware",
       "music"
     ]
   },
@@ -84,8 +77,7 @@
     "url": "http://asio4all.org/",
     "tags": [
       "audio",
-      "driver",
-      "freeware"
+      "driver"
     ]
   },
   {
@@ -94,8 +86,7 @@
     "name": "Atmosphere Deluxe",
     "url": "https://vectormediasoftware.com/atmdeluxehome.htm",
     "tags": [
-      "audio",
-      "shareware"
+      "audio"
     ]
   },
   {
@@ -105,7 +96,6 @@
     "url": "https://petges.lu/download/",
     "tags": [
       "fef",
-      "freeware",
       "utility"
     ]
   },
@@ -116,8 +106,7 @@
     "url": "https://audacityteam.org/download/",
     "tags": [
       "audio",
-      "editor",
-      "freeware"
+      "editor"
     ]
   },
   {
@@ -126,7 +115,6 @@
     "name": "AutoHotkey",
     "url": "https://autohotkey.com/",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -137,7 +125,6 @@
     "name": "AutoMovieThumbnailer",
     "url": "https://funk.eu/amt/",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -149,7 +136,6 @@
     "url": "https://www.fosshub.com/Avidemux.html",
     "tags": [
       "editor",
-      "freeware",
       "video"
     ]
   },
@@ -159,7 +145,6 @@
     "name": "Barrier",
     "url": "https://github.com/debauchee/barrier/releases",
     "tags": [
-      "freeware",
       "screen",
       "utility"
     ]
@@ -170,7 +155,6 @@
     "name": "BitDefender",
     "url": "https://bitdefender.co.uk/solutions/free.html",
     "tags": [
-      "freeware",
       "security"
     ]
   },
@@ -180,7 +164,6 @@
     "name": "BlueStacks",
     "url": "https://bluestacks.com/download.html",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -191,7 +174,6 @@
     "name": "Calibre",
     "url": "https://calibre-ebook.com/download",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -203,7 +185,6 @@
     "url": "https://getcaption.co/",
     "tags": [
       "downloader",
-      "freeware",
       "subs"
     ]
   },
@@ -214,7 +195,6 @@
     "url": "https://www.ccleaner.com/ccleaner/download/standard",
     "tags": [
       "disk",
-      "freeware",
       "utility"
     ]
   },
@@ -224,7 +204,6 @@
     "name": "Cheat Engine",
     "url": "https://cheatengine.org/downloads.php",
     "tags": [
-      "freeware",
       "gaming"
     ]
   },
@@ -234,7 +213,6 @@
     "name": "Chocolatey",
     "url": "https://chocolatey.org/install",
     "tags": [
-      "freeware",
       "programming"
     ]
   },
@@ -244,7 +222,6 @@
     "name": "ClickMonitorDDC",
     "url": "https://web.archive.org/web/20200803212815/https://clickmonitorddc.bplaced.net/",
     "tags": [
-      "freeware",
       "screen",
       "utility"
     ]
@@ -255,7 +232,6 @@
     "name": "CopyQ",
     "url": "https://hluk.github.io/CopyQ/",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -267,7 +243,6 @@
     "url": "https://couchbase.com/downloads?family=server",
     "tags": [
       "db",
-      "freeware",
       "programming"
     ]
   },
@@ -278,7 +253,6 @@
     "url": "https://www.crucial.com/support/storage-executive",
     "tags": [
       "disk",
-      "freeware",
       "utility"
     ]
   },
@@ -289,7 +263,6 @@
     "url": "https://crystalmark.info/en/download/",
     "tags": [
       "disk",
-      "freeware",
       "utility"
     ]
   },
@@ -299,7 +272,6 @@
     "url": "https://itefix.net/cwrsync",
     "description": "Rsync packaging for Windows",
     "tags": [
-      "freeware",
       "programming"
     ]
   },
@@ -310,7 +282,6 @@
     "url": "https://dbeaver.io/download/",
     "tags": [
       "db",
-      "freeware",
       "programming"
     ]
   },
@@ -321,7 +292,6 @@
     "url": "https://archive.org/details/deemix",
     "tags": [
       "downloader",
-      "freeware",
       "music"
     ]
   },
@@ -332,7 +302,6 @@
     "url": "https://dev.deluge-torrent.org/wiki/Download",
     "tags": [
       "downloader",
-      "freeware",
       "torrent"
     ]
   },
@@ -342,7 +311,6 @@
     "url": "https://www.dcmembers.com/skwire/download/dimensions-2-folders/",
     "description": "Sort images into folders based on their resolutions",
     "tags": [
-      "freeware",
       "image"
     ]
   },
@@ -353,7 +321,6 @@
     "url": "http://tucows.com/preview/607345/Directory-List--Print",
     "tags": [
       "fef",
-      "freeware",
       "utility"
     ]
   },
@@ -363,7 +330,6 @@
     "name": "Discord",
     "url": "https://discordapp.com/",
     "tags": [
-      "freeware",
       "voip"
     ]
   },
@@ -373,7 +339,6 @@
     "name": "Display Driver Uninstaller",
     "url": "https://guru3d.com/files_details/display_driver_uninstaller_download.html",
     "tags": [
-      "freeware",
       "uninstaller",
       "utility"
     ]
@@ -385,7 +350,6 @@
     "url": "https://www.google.com/drive/download/",
     "tags": [
       "fef",
-      "freeware",
       "utility"
     ]
   },
@@ -396,7 +360,6 @@
     "url": "https://dropbox.com/downloading",
     "tags": [
       "fef",
-      "freeware",
       "utility"
     ]
   },
@@ -407,7 +370,6 @@
     "description": "Volume control for Windows",
     "tags": [
       "audio",
-      "freeware",
       "utility"
     ]
   },
@@ -418,7 +380,6 @@
     "url": "https://easeus.com/data-recovery-software/",
     "tags": [
       "fef",
-      "freeware",
       "utility"
     ]
   },
@@ -428,7 +389,6 @@
     "name": "Easy Context Menu",
     "url": "https://sordum.org/7615/easy-context-menu-v1-6/",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -439,7 +399,6 @@
     "name": "Epic Games Launcher",
     "url": "https://epicgames.com/store/",
     "tags": [
-      "freeware",
       "gaming"
     ]
   },
@@ -450,7 +409,6 @@
     "url": "https://voidtools.com/",
     "tags": [
       "fef",
-      "freeware",
       "utility"
     ]
   },
@@ -461,7 +419,6 @@
     "description": "Keep your desktop effortlessly organized",
     "tags": [
       "misc",
-      "shareware",
       "utility"
     ]
   },
@@ -473,7 +430,6 @@
     "tags": [
       "audio",
       "editor",
-      "freeware",
       "player",
       "video"
     ]
@@ -485,7 +441,6 @@
     "url": "https://sherrodcomputers.com/products_filerenamer.cfm",
     "tags": [
       "fef",
-      "freeware",
       "utility"
     ]
   },
@@ -496,7 +451,6 @@
     "description": "Convert your files in just 2 clicks",
     "tags": [
       "fef",
-      "freeware",
       "utility"
     ]
   },
@@ -507,7 +461,6 @@
     "url": "https://softpedia.com/get/Multimedia/Graphic/Graphic-Others/FileMind-QuickFix.shtml",
     "tags": [
       "editor",
-      "freeware",
       "image"
     ]
   },
@@ -517,7 +470,6 @@
     "url": "https://filezilla-project.org/download.php",
     "description": "Fast and reliable cross-platform FTP, FTPS and SFTP client",
     "tags": [
-      "freeware",
       "programming"
     ]
   },
@@ -527,8 +479,17 @@
     "name": "Firefox",
     "url": "https://mozilla.org/firefox/new/",
     "tags": [
-      "browser",
-      "freeware"
+      "browser"
+    ]
+  },
+  {
+    "id": 236,
+    "name": "Flow Launcher",
+    "url": "https://www.flowlauncher.com/",
+    "description": "File search and app launcher for Windows",
+    "tags": [
+      "os",
+      "utility"
     ]
   },
   {
@@ -537,8 +498,7 @@
     "name": "Fopnu",
     "url": "https://fopnu.com/download/",
     "tags": [
-      "downloader",
-      "freeware"
+      "downloader"
     ]
   },
   {
@@ -547,7 +507,6 @@
     "url": "https://git-fork.com/",
     "description": "A fast and friendly git client",
     "tags": [
-      "freeware",
       "programming"
     ]
   },
@@ -558,7 +517,6 @@
     "description": "Powerful audio converter",
     "tags": [
       "audio",
-      "freeware",
       "utility"
     ]
   },
@@ -569,7 +527,6 @@
     "url": "https://freefilesync.org/download.php",
     "tags": [
       "fef",
-      "freeware",
       "utility"
     ]
   },
@@ -579,7 +536,6 @@
     "name": "GC - AdBlock",
     "url": "https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom",
     "tags": [
-      "freeware",
       "gc"
     ]
   },
@@ -589,7 +545,6 @@
     "name": "GC - AdBlock for YouTube",
     "url": "https://chrome.google.com/webstore/detail/cmedhionkhpnakcndndgjdbohmhepckk",
     "tags": [
-      "freeware",
       "gc"
     ]
   },
@@ -599,7 +554,6 @@
     "name": "GC - Bandcamp Volume",
     "url": "https://chrome.google.com/webstore/detail/bandcamp-volume/nlikaonifbagdlcjoepofomefchkahab",
     "tags": [
-      "freeware",
       "gc"
     ]
   },
@@ -609,7 +563,6 @@
     "name": "GC - BitWarden",
     "url": "https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb",
     "tags": [
-      "freeware",
       "gc",
       "security"
     ]
@@ -620,7 +573,6 @@
     "name": "GC - Dark Reader",
     "url": "https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh",
     "tags": [
-      "freeware",
       "gc"
     ]
   },
@@ -630,7 +582,6 @@
     "name": "GC - Darkness",
     "url": "https://chrome.google.com/webstore/detail/imilbobhamcfahccagbncamhpnbkaenm",
     "tags": [
-      "freeware",
       "gc"
     ]
   },
@@ -640,7 +591,6 @@
     "name": "GC - Discogs Enhancer",
     "url": "https://chrome.google.com/webstore/detail/fljfmblajgejeicncojogelbkhbobejn",
     "tags": [
-      "freeware",
       "gc"
     ]
   },
@@ -651,7 +601,6 @@
     "url": "https://chrome.google.com/webstore/detail/github-downloader/jplmabjbdhggnlhndkdfciacklbjcfel",
     "tags": [
       "downloader",
-      "freeware",
       "gc"
     ]
   },
@@ -661,7 +610,6 @@
     "name": "GC - Grammarly",
     "url": "https://chrome.google.com/webstore/detail/kbfnbcaeplbcioakkpcpgfkobkghlhen",
     "tags": [
-      "freeware",
       "gc"
     ]
   },
@@ -671,7 +619,6 @@
     "name": "GC - Honey",
     "url": "https://chrome.google.com/webstore/detail/bmnlcjabgnpnenekpadlanbbkooimhnj",
     "tags": [
-      "freeware",
       "gc"
     ]
   },
@@ -682,8 +629,7 @@
     "url": "https://chrome.google.com/webstore/detail/bbpokcagpggnekcmamgdieebhpkjmljm",
     "tags": [
       "gc",
-      "programming",
-      "shareware"
+      "programming"
     ]
   },
   {
@@ -692,7 +638,6 @@
     "name": "GC - Improve YouTube",
     "url": "https://chrome.google.com/webstore/detail/bnomihfieiccainjcjblhegjgglakjdd",
     "tags": [
-      "freeware",
       "gc"
     ]
   },
@@ -702,7 +647,6 @@
     "name": "GC - JSONView",
     "url": "https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc",
     "tags": [
-      "freeware",
       "gc",
       "programming"
     ]
@@ -713,7 +657,6 @@
     "name": "GC - Keepa",
     "url": "https://chrome.google.com/webstore/detail/neebplgakaahbhdphmkckjjcegoiijjo",
     "tags": [
-      "freeware",
       "gc"
     ]
   },
@@ -723,7 +666,6 @@
     "name": "GC - Steam URL Opener",
     "url": "https://chrome.google.com/webstore/detail/steam-url-opener/oiboilmeofgpoiopgjdllegafaaeblon",
     "tags": [
-      "freeware",
       "gc"
     ]
   },
@@ -733,7 +675,6 @@
     "name": "GC - Tabli",
     "url": "https://chrome.google.com/webstore/detail/tabli/igeehkedfibbnhbfponhjjplpkeomghi",
     "tags": [
-      "freeware",
       "gc"
     ]
   },
@@ -743,7 +684,6 @@
     "name": "GC - Tamper Monkey",
     "url": "https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo",
     "tags": [
-      "freeware",
       "gc"
     ]
   },
@@ -753,7 +693,6 @@
     "name": "GC - Ublock Origin",
     "url": "https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm",
     "tags": [
-      "freeware",
       "gc"
     ]
   },
@@ -763,7 +702,6 @@
     "name": "GC - View Image Info",
     "url": "https://chrome.google.com/webstore/detail/jldjjifbpipdmligefcogandjojpdagn",
     "tags": [
-      "freeware",
       "gc"
     ]
   },
@@ -773,7 +711,6 @@
     "url": "https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=it",
     "description": "Identify web technologies",
     "tags": [
-      "freeware",
       "gc"
     ]
   },
@@ -783,7 +720,6 @@
     "name": "GC - Web Developer",
     "url": "https://chrome.google.com/webstore/detail/bmnlcjabgnpnenekpadlanbbkooimhnj",
     "tags": [
-      "freeware",
       "gc",
       "programming"
     ]
@@ -794,7 +730,6 @@
     "name": "GC - Window Resizer",
     "url": "https://chrome.google.com/webstore/detail/kkelicaakdanhinjdeammmilcgefonfh",
     "tags": [
-      "freeware",
       "gc"
     ]
   },
@@ -804,7 +739,6 @@
     "name": "GC - xStyle",
     "url": "https://chrome.google.com/webstore/detail/hncgkmhphmncjohllpoleelnibpmccpj",
     "tags": [
-      "freeware",
       "gc"
     ]
   },
@@ -815,7 +749,6 @@
     "url": "https://nvidia.com/en-us/geforce/geforce-experience/",
     "tags": [
       "driver",
-      "freeware",
       "video"
     ]
   },
@@ -826,7 +759,6 @@
     "url": "https://gimp.org/downloads/",
     "tags": [
       "editor",
-      "freeware",
       "image"
     ]
   },
@@ -837,7 +769,6 @@
     "url": "https://sourceforge.net/projects/gmkvextractgui/",
     "tags": [
       "editor",
-      "freeware",
       "video"
     ]
   },
@@ -847,7 +778,6 @@
     "name": "GOG Galaxy",
     "url": "https://gog.com/galaxy",
     "tags": [
-      "freeware",
       "gaming"
     ]
   },
@@ -858,7 +788,6 @@
     "url": "https://google.com/chrome/",
     "tags": [
       "browser",
-      "freeware",
       "gc"
     ]
   },
@@ -868,7 +797,6 @@
     "name": "GPU-Z",
     "url": "https://techpowerup.com/gpuz/",
     "tags": [
-      "freeware",
       "hw",
       "utility"
     ]
@@ -879,7 +807,6 @@
     "name": "Greenshot",
     "url": "https://getgreenshot.org/downloads/",
     "tags": [
-      "freeware",
       "screen",
       "utility"
     ]
@@ -890,7 +817,6 @@
     "name": "HID macros",
     "url": "http://hidmacros.eu/download.php",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -901,7 +827,6 @@
     "name": "HWiNFO",
     "url": "https://hwinfo.com/",
     "tags": [
-      "freeware",
       "hw",
       "utility"
     ]
@@ -913,8 +838,7 @@
     "url": "https://theinpaint.com/download.html",
     "tags": [
       "editor",
-      "image",
-      "shareware"
+      "image"
     ]
   },
   {
@@ -923,8 +847,7 @@
     "name": "Internet Download Manager",
     "url": "https://internetdownloadmanager.com/download.html",
     "tags": [
-      "downloader",
-      "shareware"
+      "downloader"
     ]
   },
   {
@@ -933,7 +856,6 @@
     "name": "IObit Uninstaller",
     "url": "https://www.iobit.com/en/advanceduninstaller.php",
     "tags": [
-      "freeware",
       "uninstaller",
       "utility"
     ]
@@ -944,7 +866,6 @@
     "name": "IrfanView",
     "url": "https://irfanview.com/",
     "tags": [
-      "freeware",
       "image",
       "misc"
     ]
@@ -955,8 +876,7 @@
     "name": "JDownloader 2",
     "url": "https://jdownloader.org/download/index",
     "tags": [
-      "downloader",
-      "freeware"
+      "downloader"
     ]
   },
   {
@@ -965,7 +885,6 @@
     "name": "Jump Desktop",
     "url": "https://jumpdesktop.com/free-remote-desktop.html",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -976,8 +895,7 @@
     "name": "Kaspersky",
     "url": "https://kaspersky.com/downloads",
     "tags": [
-      "security",
-      "shareware"
+      "security"
     ]
   },
   {
@@ -986,7 +904,6 @@
     "url": "https://keyfreeze.com/",
     "description": "Block keyboard and mouse",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -998,8 +915,17 @@
     "description": "Powerful images resizer and converter",
     "tags": [
       "editor",
-      "image",
-      "shareware"
+      "image"
+    ]
+  },
+  {
+    "id": 233,
+    "name": "Linkwarden",
+    "url": "https://linkwarden.app/",
+    "description": "Collaborative bookmark manager",
+    "tags": [
+      "db",
+      "utility"
     ]
   },
   {
@@ -1028,7 +954,6 @@
     "name": "MailStore Home",
     "url": "https://mailstore.com/en/products/mailstore-home/",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1040,7 +965,6 @@
     "url": "https://makemkv.com/download/",
     "tags": [
       "editor",
-      "freeware",
       "video"
     ]
   },
@@ -1050,7 +974,6 @@
     "name": "MalwareBytes",
     "url": "https://malwarebytes.com/mwb-download/",
     "tags": [
-      "freeware",
       "security"
     ]
   },
@@ -1060,7 +983,6 @@
     "name": "MalwareBytes Adwcleaner",
     "url": "https://malwarebytes.com/adwcleaner/",
     "tags": [
-      "freeware",
       "security"
     ]
   },
@@ -1070,7 +992,6 @@
     "url": "https://getmusicbee.com/addons/plugins/156/discordbee/",
     "description": "Discord plugin for Musicbee",
     "tags": [
-      "freeware",
       "mb"
     ]
   },
@@ -1080,7 +1001,6 @@
     "name": "MB - Milkdrop",
     "url": "https://getmusicbee.com/addons/visualizer/52/milkdrop-visualizer/",
     "tags": [
-      "freeware",
       "mb"
     ]
   },
@@ -1090,7 +1010,6 @@
     "name": "MB - Morphyre",
     "url": "https://getmusicbee.com/addons/visualizer/179/morphyre/",
     "tags": [
-      "freeware",
       "mb"
     ]
   },
@@ -1100,8 +1019,7 @@
     "name": "MediaHuman Audio Converter",
     "url": "https://mediahuman.com/audio-converter/",
     "tags": [
-      "audio",
-      "freeware"
+      "audio"
     ]
   },
   {
@@ -1110,8 +1028,7 @@
     "name": "MediaHuman YouTube Downloader",
     "url": "https://mediahuman.com/youtube-downloader/",
     "tags": [
-      "downloader",
-      "freeware"
+      "downloader"
     ]
   },
   {
@@ -1121,7 +1038,6 @@
     "url": "https://mediaarea.net/en/MediaInfo/Download/Windows",
     "tags": [
       "audio",
-      "freeware",
       "utility",
       "video"
     ]
@@ -1133,7 +1049,6 @@
     "url": "https://mega.nz/sync",
     "tags": [
       "fef",
-      "freeware",
       "utility"
     ]
   },
@@ -1143,7 +1058,6 @@
     "name": "MemTest86",
     "url": "https://www.memtest86.com/download.htm",
     "tags": [
-      "freeware",
       "hw",
       "misc"
     ]
@@ -1154,7 +1068,6 @@
     "name": "MenuTools",
     "url": "https://github.com/navossoc/MenuTools/releases",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1166,8 +1079,7 @@
     "url": "https://shchuka.com/software/mergemp3/#download",
     "tags": [
       "audio",
-      "editor",
-      "freeware"
+      "editor"
     ]
   },
   {
@@ -1176,8 +1088,7 @@
     "name": "Microsoft Edge",
     "url": "https://microsoft.com/en-us/edge",
     "tags": [
-      "browser",
-      "freeware"
+      "browser"
     ]
   },
   {
@@ -1186,7 +1097,6 @@
     "name": "Microsoft OneNote",
     "url": "https://onenote.com/download",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1197,7 +1107,6 @@
     "url": "https://pcmanager.microsoft.com/",
     "description": "Safeguard your PC in a quiet and reliable way",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1208,7 +1117,6 @@
     "url": "https://github.com/microsoft/PowerToys",
     "description": "Set of utilities to enhance Windows experience",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1219,7 +1127,6 @@
     "url": "https://to-do.office.com/",
     "description": "Lists and task manager",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1231,7 +1138,6 @@
     "description": "Code editor redefined and optimized for building and debugging modern web and cloud applications",
     "tags": [
       "editor",
-      "freeware",
       "programming"
     ]
   },
@@ -1242,7 +1148,6 @@
     "url": "https://visualstudio.microsoft.com/vs/community/",
     "tags": [
       "editor",
-      "freeware",
       "programming"
     ]
   },
@@ -1253,7 +1158,6 @@
     "url": "https://mkvtoolnix.download/",
     "tags": [
       "editor",
-      "freeware",
       "video"
     ]
   },
@@ -1263,7 +1167,6 @@
     "name": "Morphyre",
     "url": "https://morphyre.com/",
     "tags": [
-      "freeware",
       "misc",
       "video"
     ]
@@ -1275,7 +1178,6 @@
     "description": "Use multiple mice on one desktop",
     "tags": [
       "misc",
-      "shareware",
       "utility"
     ]
   },
@@ -1286,8 +1188,7 @@
     "url": "http://mpesch3.de/index.html",
     "tags": [
       "audio",
-      "editor",
-      "freeware"
+      "editor"
     ]
   },
   {
@@ -1297,8 +1198,7 @@
     "url": "https://mp3tag.de/en/",
     "tags": [
       "audio",
-      "editor",
-      "freeware"
+      "editor"
     ]
   },
   {
@@ -1307,7 +1207,6 @@
     "name": "mRemoteNG",
     "url": "https://mremoteng.org/",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1318,7 +1217,6 @@
     "name": "MSI Afterburner",
     "url": "https://msi.com/page/afterburner",
     "tags": [
-      "freeware",
       "hw",
       "utility"
     ]
@@ -1330,7 +1228,6 @@
     "url": "https://getmusicbee.com/downloads/",
     "tags": [
       "audio",
-      "freeware",
       "music",
       "player"
     ]
@@ -1341,7 +1238,6 @@
     "name": "Ninite",
     "url": "https://ninite.com/",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1352,7 +1248,6 @@
     "name": "Notepad++",
     "url": "https://notepad-plus-plus.org/downloads/",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1363,7 +1258,6 @@
     "name": "Notion",
     "url": "https://notion.so/",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1374,7 +1268,6 @@
     "name": "npm/nodejs",
     "url": "https://nodejs.org/en/",
     "tags": [
-      "freeware",
       "programming"
     ]
   },
@@ -1384,7 +1277,6 @@
     "url": "https://github.com/nvm-sh/nvm",
     "description": "node.js version manager",
     "tags": [
-      "freeware",
       "programming"
     ]
   },
@@ -1394,7 +1286,6 @@
     "name": "OBS Studio",
     "url": "https://obsproject.com/",
     "tags": [
-      "freeware",
       "screen",
       "utility"
     ]
@@ -1405,7 +1296,6 @@
     "url": "https://ollama.com/",
     "description": "Run AI models locally",
     "tags": [
-      "freeware",
       "utility"
     ]
   },
@@ -1415,7 +1305,6 @@
     "url": "https://www.opautoclicker.com/",
     "description": "Automate mouse clicks",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1426,7 +1315,6 @@
     "name": "Oracle VIrtualBox",
     "url": "https://virtualbox.org/wiki/Downloads",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1437,7 +1325,6 @@
     "name": "Origin",
     "url": "https://origin.com/en-us/store/download",
     "tags": [
-      "freeware",
       "gaming"
     ]
   },
@@ -1448,7 +1335,6 @@
     "url": "https://asdfg.me/osci/",
     "tags": [
       "audio",
-      "freeware",
       "player",
       "video"
     ]
@@ -1459,7 +1345,6 @@
     "name": "PatchMyPC Home Updater",
     "url": "https://patchmypc.com/home-updater",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1470,7 +1355,6 @@
     "name": "Pencil",
     "url": "https://pencil.evolus.vn/",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1481,7 +1365,6 @@
     "name": "Pic Pick",
     "url": "https://picpick.app/en/",
     "tags": [
-      "freeware",
       "screen",
       "utility"
     ]
@@ -1492,7 +1375,6 @@
     "url": "https://postman.com/downloads/",
     "description": "The collaboration platform for API development",
     "tags": [
-      "freeware",
       "programming"
     ]
   },
@@ -1502,7 +1384,6 @@
     "name": "Power Automate",
     "url": "https://flow.microsoft.com/",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1514,7 +1395,6 @@
     "url": "https://powerampapp.com/",
     "tags": [
       "app",
-      "freeware",
       "music"
     ]
   },
@@ -1524,7 +1404,6 @@
     "name": "ProduKey",
     "url": "https://nirsoft.net/utils/product_cd_key_viewer.html#DownloadLinks",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1535,7 +1414,6 @@
     "name": "Psiphon",
     "url": "https://psiphon3.com/en/download.html",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1547,7 +1425,6 @@
     "url": "http://puransoftware.com/Data-Recovery.html",
     "tags": [
       "fef",
-      "freeware",
       "utility"
     ]
   },
@@ -1558,7 +1435,6 @@
     "url": "http://puransoftware.com/File-Recovery.html",
     "tags": [
       "fef",
-      "freeware",
       "utility"
     ]
   },
@@ -1569,7 +1445,6 @@
     "url": "https://qbittorrent.org/download.php",
     "tags": [
       "downloader",
-      "freeware",
       "torrent"
     ]
   },
@@ -1580,8 +1455,17 @@
     "description": "The best gallery for Android",
     "tags": [
       "app",
-      "freeware",
       "image"
+    ]
+  },
+  {
+    "id": 234,
+    "name": "Raindrop",
+    "url": "https://raindrop.io/",
+    "description": "All-in-one bookmark manager",
+    "tags": [
+      "db",
+      "utility"
     ]
   },
   {
@@ -1590,7 +1474,6 @@
     "name": "Rainmeter",
     "url": "https://rainmeter.net/",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1602,8 +1485,7 @@
     "url": "https://reaper.fm/",
     "tags": [
       "audio",
-      "music",
-      "shareware"
+      "music"
     ]
   },
   {
@@ -1612,7 +1494,6 @@
     "url": "https://responsively.app/download",
     "description": "Test your website responsiveness",
     "tags": [
-      "freeware",
       "programming"
     ]
   },
@@ -1623,8 +1504,7 @@
     "description": "Powerful gamepad mapper",
     "tags": [
       "gaming",
-      "misc",
-      "shareware"
+      "misc"
     ]
   },
   {
@@ -1633,7 +1513,6 @@
     "name": "RivaTuner",
     "url": "https://guru3d.com/content-page/rivatuner.html",
     "tags": [
-      "freeware",
       "hw",
       "utility"
     ]
@@ -1644,8 +1523,7 @@
     "name": "rtpMIDI",
     "url": "https://tobias-erichsen.de/software/rtpmidi.html",
     "tags": [
-      "audio",
-      "freeware"
+      "audio"
     ]
   },
   {
@@ -1655,7 +1533,6 @@
     "url": "https://samsung.com/semiconductor/minisite/ssd/download/tools/",
     "tags": [
       "disk",
-      "freeware",
       "utility"
     ]
   },
@@ -1665,7 +1542,6 @@
     "name": "Screen to GIF",
     "url": "https://screentogif.com/",
     "tags": [
-      "freeware",
       "screen",
       "utility"
     ]
@@ -1687,7 +1563,6 @@
     "url": "https://github.com/PartialVolume/shredos.x86_64",
     "tags": [
       "disk",
-      "freeware",
       "security"
     ]
   },
@@ -1697,7 +1572,6 @@
     "name": "Skype",
     "url": "https://skype.com/get-skype/",
     "tags": [
-      "freeware",
       "voip"
     ]
   },
@@ -1707,8 +1581,7 @@
     "name": "Soulseek",
     "url": "http://slsknet.org/news/node/1",
     "tags": [
-      "downloader",
-      "freeware"
+      "downloader"
     ]
   },
   {
@@ -1717,7 +1590,6 @@
     "name": "Spacedesk",
     "url": "https://spacedesk.net/",
     "tags": [
-      "freeware",
       "screen",
       "utility"
     ]
@@ -1728,7 +1600,6 @@
     "name": "Speccy",
     "url": "https://ccleaner.com/speccy",
     "tags": [
-      "freeware",
       "hw",
       "utility"
     ]
@@ -1739,8 +1610,7 @@
     "name": "Spek",
     "url": "http://spek.cc/",
     "tags": [
-      "audio",
-      "freeware"
+      "audio"
     ]
   },
   {
@@ -1750,7 +1620,6 @@
     "url": "https://microsoft.com/en-us/sql-server/sql-server-downloads",
     "tags": [
       "db",
-      "freeware",
       "programming"
     ]
   },
@@ -1761,7 +1630,6 @@
     "url": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
     "tags": [
       "db",
-      "freeware",
       "programming"
     ]
   },
@@ -1771,7 +1639,6 @@
     "name": "Steam",
     "url": "https://store.steampowered.com/",
     "tags": [
-      "freeware",
       "gaming"
     ]
   },
@@ -1782,8 +1649,7 @@
     "url": "https://presonus.com/products/Studio-One/downloads",
     "tags": [
       "audio",
-      "music",
-      "shareware"
+      "music"
     ]
   },
   {
@@ -1793,7 +1659,6 @@
     "url": "https://nikse.dk/subtitleedit",
     "tags": [
       "editor",
-      "freeware",
       "misc",
       "subs",
       "utility"
@@ -1805,8 +1670,7 @@
     "name": "Surfshark VPN",
     "url": "https://surfshark.com/",
     "tags": [
-      "security",
-      "shareware"
+      "security"
     ]
   },
   {
@@ -1816,7 +1680,6 @@
     "url": "https://syncthing.net/",
     "tags": [
       "fef",
-      "freeware",
       "utility"
     ]
   },
@@ -1827,7 +1690,6 @@
     "url": "https://tableplus.com/",
     "tags": [
       "db",
-      "freeware",
       "programming"
     ]
   },
@@ -1837,7 +1699,6 @@
     "name": "TeamSpeak",
     "url": "https://teamspeak.com/en/downloads/",
     "tags": [
-      "freeware",
       "voip"
     ]
   },
@@ -1847,7 +1708,6 @@
     "name": "TeamViewer",
     "url": "https://teamviewer.com/download/",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1858,7 +1718,6 @@
     "name": "Telegram Desktop",
     "url": "https://desktop.telegram.org/",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1870,7 +1729,6 @@
     "url": "https://codesector.com/teracopy",
     "tags": [
       "fef",
-      "freeware",
       "utility"
     ]
   },
@@ -1880,8 +1738,7 @@
     "name": "Tor",
     "url": "https://torproject.org/download/",
     "tags": [
-      "browser",
-      "freeware"
+      "browser"
     ]
   },
   {
@@ -1891,7 +1748,6 @@
     "url": "https://xmmc.de/touchdaw/",
     "tags": [
       "app",
-      "freeware",
       "music"
     ]
   },
@@ -1901,7 +1757,6 @@
     "name": "TouchPortal",
     "url": "https://touch-portal.com/",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1913,7 +1768,6 @@
     "url": "https://jam-software.com/treesize_free",
     "tags": [
       "fef",
-      "freeware",
       "utility"
     ]
   },
@@ -1923,7 +1777,6 @@
     "name": "Unigram",
     "url": "https://microsoft.com/en-us/p/unigram-a-telegram-universal-experience/9n97zckpd60q",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1934,7 +1787,6 @@
     "name": "Uplay",
     "url": "https://uplay.ubisoft.com/",
     "tags": [
-      "freeware",
       "gaming"
     ]
   },
@@ -1944,7 +1796,6 @@
     "name": "Valhalla Supermassive",
     "url": "https://valhalladsp.com/shop/reverb/valhalla-supermassive/",
     "tags": [
-      "freeware",
       "music"
     ]
   },
@@ -1954,7 +1805,6 @@
     "name": "Ventoy",
     "url": "https://ventoy.net/en/download.html",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -1966,7 +1816,6 @@
     "url": "https://www.elby.ch/en/products/vcd.html",
     "tags": [
       "disk",
-      "freeware",
       "tool"
     ]
   },
@@ -1976,7 +1825,6 @@
     "name": "VLC",
     "url": "https://videolan.org/vlc/",
     "tags": [
-      "freeware",
       "player",
       "video"
     ]
@@ -1987,7 +1835,6 @@
     "name": "VLCMobileRemote",
     "url": "https://vlcmobileremote.com/download/",
     "tags": [
-      "freeware",
       "misc",
       "video"
     ]
@@ -1998,7 +1845,6 @@
     "name": "VS - Clear MEF Cache",
     "url": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ClearMEFComponentCache",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2008,7 +1854,6 @@
     "name": "VS - Select Next Occurence",
     "url": "https://marketplace.visualstudio.com/items?itemName=thomaswelen.SelectNextOccurrence",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2018,7 +1863,6 @@
     "name": "VS - Web Essentials",
     "url": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2028,7 +1872,6 @@
     "name": "VSC - Better Comments",
     "url": "https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2038,7 +1881,6 @@
     "name": "VSC - Code runner",
     "url": "https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2048,7 +1890,6 @@
     "name": "VSC - Codemetrics",
     "url": "https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2058,7 +1899,6 @@
     "name": "VSC - Collapse Level",
     "url": "https://marketplace.visualstudio.com/items?itemName=mwilski.CollapseLevel",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2068,7 +1908,6 @@
     "name": "VSC - Comment Remover",
     "url": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CommentRemover",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2078,7 +1917,6 @@
     "name": "VSC - CSS Peak",
     "url": "https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2088,7 +1926,6 @@
     "name": "VSC - Discord Presence",
     "url": "https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2098,7 +1935,6 @@
     "name": "VSC - ESdoc MDN",
     "url": "https://marketplace.visualstudio.com/items?itemName=samundrak.esdoc-mdn",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2108,7 +1944,6 @@
     "name": "VSC - ESLint",
     "url": "https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2118,7 +1953,6 @@
     "name": "VSC - Fold Level",
     "url": "https://marketplace.visualstudio.com/items?itemName=vikyd.vscode-fold-level",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2128,7 +1962,6 @@
     "name": "VSC - GitLens",
     "url": "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2138,7 +1971,6 @@
     "name": "VSC - Glyphfriend2019",
     "url": "https://marketplace.visualstudio.com/items?itemName=RionWilliams.Glyphfriend2019",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2148,7 +1980,6 @@
     "name": "VSC - Highlight Matching Tag",
     "url": "https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2158,7 +1989,6 @@
     "name": "VSC - HTML-CSS",
     "url": "https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2168,7 +1998,6 @@
     "name": "VSC - Import Cost",
     "url": "https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2178,7 +2007,6 @@
     "name": "VSC - Instand Markdown",
     "url": "https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-instant-markdown",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2188,7 +2016,6 @@
     "name": "VSC - IntelliCode",
     "url": "https://marketplace.visualstudio.com/items?itemName=visualstudioexptteam.vscodeintellicode",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2198,7 +2025,6 @@
     "name": "VSC - Intellisense for CSS in HTML",
     "url": "https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2208,7 +2034,6 @@
     "name": "VSC - jQuery code snippets",
     "url": "https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2218,7 +2043,6 @@
     "name": "VSC - Live Server",
     "url": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.liveserver",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2228,7 +2052,6 @@
     "name": "VSC - LiveShare",
     "url": "https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2238,7 +2061,6 @@
     "name": "VSC - PHP exstension pack",
     "url": "https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-pack",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2248,7 +2070,6 @@
     "name": "VSC - Settings Synch",
     "url": "https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2258,7 +2079,6 @@
     "name": "VSC - Smoothtype",
     "url": "https://marketplace.visualstudio.com/items?itemName=spikespaz.vscode-smoothtype",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2268,7 +2088,6 @@
     "name": "VSC - SVG Editor",
     "url": "https://marketplace.visualstudio.com/items?itemName=henoc.svgeditor",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2278,7 +2097,6 @@
     "name": "VSC - Text Marker",
     "url": "https://marketplace.visualstudio.com/items?itemName=ryu1kn.text-marker",
     "tags": [
-      "freeware",
       "vs"
     ]
   },
@@ -2289,7 +2107,6 @@
     "url": "https://webtorrent.io/",
     "tags": [
       "downloader",
-      "freeware",
       "torrent"
     ]
   },
@@ -2299,8 +2116,17 @@
     "name": "WeMod",
     "url": "https://wemod.com/download",
     "tags": [
-      "freeware",
       "gaming"
+    ]
+  },
+  {
+    "id": 237,
+    "name": "WinDirStat",
+    "url": "https://windirstat.net/download.html",
+    "description": "Disk usage statistics viewer and cleanup assistant",
+    "tags": [
+      "fef",
+      "utility"
     ]
   },
   {
@@ -2309,7 +2135,6 @@
     "name": "Windows 10 Debloater",
     "url": "https://github.com/Sycnex/Windows10Debloater",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -2320,7 +2145,6 @@
     "name": "WindowTop",
     "url": "https://windowtop.info/",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -2331,7 +2155,6 @@
     "url": "https://winmerge.org/downloads/",
     "description": "Open Source differencing and merging tool for Windows",
     "tags": [
-      "freeware",
       "misc",
       "utility"
     ]
@@ -2343,7 +2166,16 @@
     "url": "https://win-rar.com/download.html?",
     "tags": [
       "fef",
-      "shareware",
+      "utility"
+    ]
+  },
+  {
+    "id": 235,
+    "name": "Wintoys",
+    "url": "https://apps.microsoft.com/detail/9p8ltpgcbzxd",
+    "description": "Experience Windows in your way and keep it fresh every day",
+    "tags": [
+      "os",
       "utility"
     ]
   },
@@ -2353,7 +2185,6 @@
     "url": "https://christitus.com/tags/winutil/",
     "description": "The Most Popular Windows Utility",
     "tags": [
-      "freeware",
       "utility"
     ]
   },
@@ -2364,7 +2195,6 @@
     "url": "https://filmora.wondershare.com/video-editor/",
     "tags": [
       "editor",
-      "shareware",
       "video"
     ]
   },
@@ -2374,18 +2204,16 @@
     "name": "Wondershare UniConverter",
     "url": "https://videoconverter.wondershare.com/",
     "tags": [
-      "shareware",
       "video"
     ]
   },
   {
     "id": 228,
     "name": "XMedia Recode",
-    "url": "https://www.xmedia-recode.de/en/index.php",
+    "url": "https://www.xmedia-recode.de/en/download.php",
     "description": "All-in-One video and audio converter",
     "tags": [
       "audio",
-      "freeware",
       "video"
     ]
   },
@@ -2395,8 +2223,7 @@
     "name": "Xtreme Download Manager",
     "url": "https://xtremedownloadmanager.com/#downloads",
     "tags": [
-      "downloader",
-      "freeware"
+      "downloader"
     ]
   },
   {
@@ -2405,7 +2232,6 @@
     "url": "https://zealdocs.org/download.html",
     "description": "Offline documentation browser for software developers",
     "tags": [
-      "freeware",
       "programming"
     ]
   },
@@ -2415,8 +2241,7 @@
     "url": "https://zen-browser.app/",
     "description": "Experience tranquillity while browsing the web without people tracking you",
     "tags": [
-      "browser",
-      "freeware"
+      "browser"
     ]
   },
   {
@@ -2426,7 +2251,6 @@
     "url": "https://utorrent.com/downloads/win",
     "tags": [
       "downloader",
-      "freeware",
       "torrent"
     ]
   }

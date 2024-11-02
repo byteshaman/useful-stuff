@@ -2,6 +2,11 @@ import { TagInfo } from "../interfaces/interfaces"
 
 export const l4dTags: TagInfo[] = [
   {
+    category: "resource type",
+    value: "ai",
+    description: "AI",
+  },
+  {
     category: "topic",
     value: "ag",
     description: "Angular",
@@ -322,11 +327,6 @@ export const softwareTags: TagInfo[] = [
     description: "Files & Folders",
   },
   {
-    category: "license",
-    value: "freeware",
-    description: "Freeware",
-  },
-  {
     category: "main category",
     value: "gaming",
     description: "Gaming",
@@ -382,14 +382,14 @@ export const softwareTags: TagInfo[] = [
     description: "Security",
   },
   {
-    category: "license",
-    value: "shareware",
-    description: "Shareware",
-  },
-  {
     category: "subcategory",
     value: "subs",
     description: "Subtitle",
+  },
+  {
+    category: "subcategory",
+    value: "os",
+    description: "System",
   },
   {
     category: "subcategory",

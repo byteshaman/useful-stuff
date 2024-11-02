@@ -1,4 +1,4 @@
-import { AfterViewInit, ChangeDetectorRef, Component, Input, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, ChangeDetectorRef, Component, HostListener, Input, OnInit, ViewChild } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { l4dTags, softwareTags, websitesTags } from 'src/app/data/tags.data.';
 import { TagInfo, PageInfo, WebsiteInfo, operation } from 'src/app/interfaces/interfaces';
@@ -17,25 +17,25 @@ import { saveAs } from "file-saver";
 })
 export class ContentComponent implements OnInit, AfterViewInit {
   @Input() pageInfo!: PageInfo; 
-  @ViewChild(MatSort, {static:true}) sort!: MatSort;
+  @ViewChild(MatSort, { static: true }) sort!: MatSort;
 
-  // arrays
+  // data structures
   tableData: WebsiteInfo[] = []; // contains every possible entry for the table
   categories: string[] = [];
   tags: TagInfo[] = [];
   selectedTags: string[] = [];
   selectableTags!: Set<string>;
+  tagOccurrences: { [key: string]: number } = {};
 
-  // flags
-  devMode: boolean = true;
+  // devmode
+  devMode: boolean = false;
+  sequence: string = '';
+  devModeKeyword: string = 'devmode';
 
   // mat-table
   columns: string[] = this.devMode ? ['name', 'description', 'tags'] : ['name', 'description'];
   displayedColumns: string[] = [];
   dataSource: MatTableDataSource<WebsiteInfo> = new MatTableDataSource();
-
-
-  tagOccurrences: { [key: string]: number } = {};
 
   // export
   filename: string = ''; 
@@ -43,13 +43,13 @@ export class ContentComponent implements OnInit, AfterViewInit {
   constructor(public dialog: MatDialog, private changeDetectorRefs: ChangeDetectorRef) { }
 
   ngOnInit(): void {
-
+    
     this.displayedColumns = [... this.columns];
-
-
+    
+    
     // console.log('this.pageInfo', this.pageInfo)
     this.categories = this.pageInfo.categories || [];
-
+    
     if (this.pageInfo.code === 'l4d') {
       this.tags = l4dTags;
       this.tableData = l4d;
@@ -63,48 +63,21 @@ export class ContentComponent implements OnInit, AfterViewInit {
       this.tableData = websites;
       this.filename = 'websites';
     }
-
+    
     // Deep copy
     this.dataSource.data = JSON.parse(JSON.stringify(this.tableData));
-
-
-    // Show buttons when in dev mode
-    if (this.devMode) {
-      this.displayedColumns.push('actions');
-      console.log('Elements at start: ', this.tableData.length);
-    }
-
-
+    
     // Select every tag at first
     this.setSelectableTags();
     this.updateTagOccurrences();
   }
-
+  
   /**
    * Initialise sort
    * @returns void
-   */
+  */
   ngAfterViewInit(): void {
-    this.dataSource.sort = this.sort;
-  }
-
-  updateTagOccurrences(): void {
-    this.tagOccurrences = {};
-    this.dataSource.filteredData.forEach(item => {
-      item.tags.forEach(tag => {
-        if (this.selectableTags.has(tag)) {
-          this.tagOccurrences[tag] = (this.tagOccurrences[tag] || 0) + 1;
-        }
-      });
-    });
-  }
-
-  /**
-   * @param  {string} tag
-   * @returns number
-   */
-  getTagOccurrences(tag: string): number {
-    return this.tagOccurrences[tag] || 0;
+   this.dataSource.sort = this.sort;
   }
 
   /**
@@ -175,10 +148,8 @@ export class ContentComponent implements OnInit, AfterViewInit {
       case 'subcategory':
       case 'resource type':
         return 'orange';
-      case 'license':
-        return 'yellow';
       case 'ext/plugin':
-        return 'brown';
+        return 'yellow';
       default:
         return '';
     }
@@ -192,6 +163,14 @@ export class ContentComponent implements OnInit, AfterViewInit {
   getSelectedClass(tag: string): string {
     return this.selectedTags.includes(tag) ? 'selected' : '';
   }  
+
+  /**
+   * @param  {string} tag
+   * @returns number
+   */
+  getTagOccurrences(tag: string): number {
+    return this.tagOccurrences[tag] || 0;
+  }
 
   /**
    * Update selected and selectable tags, filter data
@@ -208,6 +187,30 @@ export class ContentComponent implements OnInit, AfterViewInit {
 
     this.filterDataByTags();
     this.setSelectableTags();
+  }
+
+  @HostListener('window:keydown', ['$event'])
+  handleKeyboardEvent(event: KeyboardEvent) {
+    this.sequence += event.key.toLowerCase();
+
+    // Keep only last n characters
+    if (this.sequence.length > this.devModeKeyword.length) {
+      this.sequence = this.sequence.slice(-this.devModeKeyword.length);
+    }
+
+    // Toggle devmode
+    if (this.sequence === this.devModeKeyword) {
+      this.devMode = !this.devMode;
+      this.sequence = '';
+
+
+      // Show buttons when in dev mode
+      if (this.devMode) {
+        this.displayedColumns.push('actions');
+      } else {
+        this.displayedColumns.pop();
+      }
+    }
   }
 
   /**
@@ -289,5 +292,16 @@ export class ContentComponent implements OnInit, AfterViewInit {
    */
   sortByKey(arr: WebsiteInfo[], key: keyof WebsiteInfo): WebsiteInfo[] {
     return arr.sort((a, b) => ((a[key] as string).toLowerCase() > (b[key] as string).toLowerCase()) ? 1 : ((b[key] as string).toLowerCase() > (a[key] as string).toLowerCase()) ? -1 : 0)
+  }
+
+  updateTagOccurrences(): void {
+    this.tagOccurrences = {};
+    this.dataSource.filteredData.forEach(item => {
+      item.tags.forEach(tag => {
+        if (this.selectableTags.has(tag)) {
+          this.tagOccurrences[tag] = (this.tagOccurrences[tag] || 0) + 1;
+        }
+      });
+    });
   }
 }
