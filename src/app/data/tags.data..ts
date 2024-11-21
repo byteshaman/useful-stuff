@@ -362,9 +362,19 @@ export const softwareTags: TagInfo[] = [
     description: "MusicBee",
   },
   {
+    category: "extra",
+    value: "os",
+    description: "Open Source",
+  },
+  {
     category: "subcategory",
     value: "player",
     description: "Player",
+  },
+  {
+    category: "extra",
+    value: "port",
+    description: "Portable",
   },
   {
     category: "main category",

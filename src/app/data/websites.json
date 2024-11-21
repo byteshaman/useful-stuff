@@ -187,15 +187,6 @@
     ]
   },
   {
-    "id": 12,
-    "description": "Share up to 500MB big files privately",
-    "name": "Anonymouse Files",
-    "url": "https://anonymousfiles.io/",
-    "tags": [
-      "share"
-    ]
-  },
-  {
     "id": 258,
     "name": "AppSumo",
     "url": "https://appsumo.com/",
@@ -1280,6 +1271,15 @@
     ]
   },
   {
+    "id": 311,
+    "name": "LeChat",
+    "url": "https://chat.mistral.ai/chat",
+    "description": "AI assistant from Mistral",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
     "id": 90,
     "description": "Stateless password manager",
     "name": "LessPass",
@@ -1317,6 +1317,17 @@
       "article",
       "comp",
       "tech"
+    ]
+  },
+  {
+    "id": 312,
+    "name": "LinuxLinks",
+    "url": "https://www.linuxlinks.com/",
+    "description": "The Linux portal website",
+    "tags": [
+      "catalog",
+      "comp",
+      "prod"
     ]
   },
   {
@@ -1406,6 +1417,15 @@
     "tags": [
       "cybersec",
       "share"
+    ]
+  },
+  {
+    "id": 310,
+    "name": "Mindtrip",
+    "url": "https://mindtrip.ai/",
+    "description": "AI-powered travel assistant",
+    "tags": [
+      "ai"
     ]
   },
   {
@@ -1530,7 +1550,16 @@
     "id": 304,
     "name": "NotDiamond",
     "url": "https://chat.notdiamond.ai/",
-    "description": "https://chat.notdiamond.ai/",
+    "description": "Multi-chatbot",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "id": 308,
+    "name": "NotebookLM",
+    "url": "https://notebooklm.google.com/",
+    "description": "Note taking and research assistant powered by AI",
     "tags": [
       "ai"
     ]
@@ -1699,6 +1728,15 @@
       "comp",
       "tech",
       "tool"
+    ]
+  },
+  {
+    "id": 309,
+    "name": "Perplexity",
+    "url": "https://www.perplexity.ai/",
+    "description": "AI-powered answer engine",
+    "tags": [
+      "ai"
     ]
   },
   {
@@ -2265,6 +2303,16 @@
       "text",
       "tool",
       "video"
+    ]
+  },
+  {
+    "id": 313,
+    "name": "ToffeeShare",
+    "url": "https://toffeeshare.com/",
+    "description": "Send files of any size directly from your device without ever storing anything online",
+    "tags": [
+      "cybersec",
+      "share"
     ]
   },
   {
