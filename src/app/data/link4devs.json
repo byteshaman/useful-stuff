@@ -182,6 +182,16 @@
     ]
   },
   {
+    "id": 355,
+    "name": "Baseline.js",
+    "url": "https://baseline.is/tools/type-scale-generator/",
+    "description": "Easy to use type scale generator for consistent typography",
+    "tags": [
+      "tool",
+      "webdev"
+    ]
+  },
+  {
     "id": 18,
     "description": "Beautifiers, converters, validator and more useful tools!",
     "name": "BeautifyTools",
@@ -305,6 +315,17 @@
     ]
   },
   {
+    "id": 353,
+    "name": "Checklist.Design",
+    "url": "https://www.checklist.design/",
+    "description": "A collection of the best design practices",
+    "tags": [
+      "tips",
+      "tool",
+      "webdev"
+    ]
+  },
+  {
     "id": 30,
     "description": "Quickly generate Linux permissions in numerical and symbolic formats",
     "name": "chmodcommand",
@@ -395,6 +416,16 @@
     "tags": [
       "tool",
       "webdev"
+    ]
+  },
+  {
+    "id": 354,
+    "name": "Coolors",
+    "url": "https://coolors.co/",
+    "description": "The super fast color palettes generator",
+    "tags": [
+      "css",
+      "tool"
     ]
   },
   {
@@ -774,6 +805,16 @@
     "tags": [
       "tips",
       "webdev"
+    ]
+  },
+  {
+    "id": 349,
+    "name": "DevIcon",
+    "url": "https://devicon.dev/",
+    "description": "A set of icons representing programming languages, designing, and development tools",
+    "tags": [
+      "libpak",
+      "multi"
     ]
   },
   {
@@ -2420,6 +2461,16 @@
     ]
   },
   {
+    "id": 348,
+    "name": "Oh My Git!",
+    "url": "https://ohmygit.org/",
+    "description": "An open source game about learning Git",
+    "tags": [
+      "game",
+      "git"
+    ]
+  },
+  {
     "id": 216,
     "description": "Useful commands to get out of hard situations that happen while using Git",
     "name": "Oh shit, Git!?!",
@@ -2438,6 +2489,16 @@
       "game",
       "cybersec",
       "interactive"
+    ]
+  },
+  {
+    "id": 350,
+    "name": "PageSpeed Insights",
+    "url": "https://pagespeed.web.dev/",
+    "description": "Get reports on web pages and provides suggestions on how to improve them",
+    "tags": [
+      "tool",
+      "webdev"
     ]
   },
   {
@@ -2764,6 +2825,16 @@
     ]
   },
   {
+    "id": 356,
+    "name": "SitePoint",
+    "url": "https://www.sitepoint.com/fluid-typography-css-clamp-function/",
+    "description": "Creating fluid typography with CSS clamp()",
+    "tags": [
+      "artut",
+      "css"
+    ]
+  },
+  {
     "id": 248,
     "description": "Measuring frontend performance",
     "name": "skovy.dev",
@@ -2781,6 +2852,16 @@
     "url": "https://snippet-generator.app/",
     "tags": [
       "interactive",
+      "tool"
+    ]
+  },
+  {
+    "id": 357,
+    "name": "SnipSave",
+    "url": "https://snipsave.com/",
+    "description": "Web based code snippet manager for developers",
+    "tags": [
+      "multi",
       "tool"
     ]
   },
@@ -3037,6 +3118,16 @@
     ]
   },
   {
+    "id": 352,
+    "name": "TaniaRascia",
+    "url": "https://www.taniarascia.com/overview-of-css-concepts/",
+    "description": "A complete guide to CSS concepts and fundamentals",
+    "tags": [
+      "artut",
+      "css"
+    ]
+  },
+  {
     "id": 330,
     "name": "techincent",
     "url": "https://techincent.com/code-syntax-highlighter-angular-with-prism-js/",
@@ -3240,6 +3331,16 @@
       "js",
       "tool",
       "ts"
+    ]
+  },
+  {
+    "id": 351,
+    "name": "Utopia",
+    "url": "https://utopia.fyi/",
+    "description": "Elegantly scale type and space without breakpoints",
+    "tags": [
+      "artut",
+      "css"
     ]
   },
   {

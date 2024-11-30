@@ -257,6 +257,18 @@
     ]
   },
   {
+    "id": 241,
+    "name": "Cryptomator",
+    "url": "https://cryptomator.org/",
+    "description": "Encryption tool for secure cloud storage",
+    "tags": [
+      "os",
+      "port",
+      "security",
+      "utility"
+    ]
+  },
+  {
     "id": 26,
     "description": "HDD/SSD utility software which supports a part of USB, Intel/AMD RAID and NVMe",
     "name": "CrystalDiskInfo",
@@ -488,7 +500,7 @@
     "url": "https://www.flowlauncher.com/",
     "description": "File search and app launcher for Windows",
     "tags": [
-      "os",
+      "sys",
       "utility"
     ]
   },
@@ -929,6 +941,17 @@
     ]
   },
   {
+    "id": 239,
+    "name": "LocalSend",
+    "url": "https://localsend.org/",
+    "description": "Share files to nearby devices.",
+    "tags": [
+      "os",
+      "port",
+      "utility"
+    ]
+  },
+  {
     "id": 86,
     "description": "Customize functions on Logitech products",
     "name": "Logitech SetPoint",
@@ -1350,6 +1373,17 @@
     ]
   },
   {
+    "id": 240,
+    "name": "PDF arranger",
+    "url": "https://github.com/pdfarranger/pdfarranger/releases",
+    "description": "Merge or split PDF documents and rotate, crop and rearrange their pages",
+    "tags": [
+      "os",
+      "port",
+      "utility"
+    ]
+  },
+  {
     "id": 121,
     "description": "Prototyping tool to create mockups",
     "name": "Pencil",
@@ -1671,6 +1705,16 @@
     "url": "https://surfshark.com/",
     "tags": [
       "security"
+    ]
+  },
+  {
+    "id": 238,
+    "name": "Sweet Home 3D",
+    "url": "https://www.sweethome3d.com/",
+    "description": "Free interior design application",
+    "tags": [
+      "misc",
+      "utility"
     ]
   },
   {
@@ -2175,7 +2219,7 @@
     "url": "https://apps.microsoft.com/detail/9p8ltpgcbzxd",
     "description": "Experience Windows in your way and keep it fresh every day",
     "tags": [
-      "os",
+      "sys",
       "utility"
     ]
   },

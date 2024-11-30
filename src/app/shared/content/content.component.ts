@@ -206,9 +206,11 @@ export class ContentComponent implements OnInit, AfterViewInit {
 
       // Show buttons when in dev mode
       if (this.devMode) {
+        this.displayedColumns.push('tags');
         this.displayedColumns.push('actions');
       } else {
         this.displayedColumns.pop();
+        this.displayedColumns.pop();  
       }
     }
   }

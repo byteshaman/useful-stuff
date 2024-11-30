@@ -118,6 +118,16 @@
     ]
   },
   {
+    "id": 316,
+    "name": "Altrasoluzione",
+    "url": "https://www.altrasoluzione.com/blog/volt-ampere-watt-cosa-sono-e-come-calcolarli",
+    "description": "[ITA] Guida alle unità di misura elettriche",
+    "tags": [
+      "article",
+      "edu"
+    ]
+  },
+  {
     "id": 8,
     "description": "[ITA] Test, approfondimenti ed inchieste su prodotti e servizi",
     "name": "Altroconsumo",
@@ -236,6 +246,16 @@
     "tags": [
       "catalog",
       "game"
+    ]
+  },
+  {
+    "id": 314,
+    "name": "Banca d'Italia",
+    "url": "https://www.bancaditalia.it/pubblicazioni/guide-bi/index.html",
+    "description": "[ITA] Le guide della Banca d'Italia",
+    "tags": [
+      "edu",
+      "fin"
     ]
   },
   {
@@ -762,6 +782,27 @@
     "tags": [
       "image",
       "prod"
+    ]
+  },
+  {
+    "id": 315,
+    "name": "FloorPlanner",
+    "url": "https://floorplanner.com/",
+    "description": "Create 2D & 3D floor plans",
+    "tags": [
+      "misc",
+      "tool"
+    ]
+  },
+  {
+    "id": 319,
+    "name": "fmhy",
+    "url": "https://fmhy.net/",
+    "description": "The largest collection of free stuff on the internet",
+    "tags": [
+      "catalog",
+      "misc",
+      "tool"
     ]
   },
   {
@@ -2118,6 +2159,16 @@
     ]
   },
   {
+    "id": 320,
+    "name": "StirlingPDF",
+    "url": "https://stirlingpdf.io/",
+    "description": "Web based PDF Multi Tool",
+    "tags": [
+      "misc",
+      "tool"
+    ]
+  },
+  {
     "id": 153,
     "description": "[ITA] Negozio di strumenti musicali",
     "name": "StrumentiMusicali",
@@ -2185,6 +2236,18 @@
     "url": "http://syrphe.com/african&asian_database.htm",
     "tags": [
       "music"
+    ]
+  },
+  {
+    "id": 317,
+    "name": "Techlore",
+    "url": "https://www.techlore.tech/vpn",
+    "description": "VPN toolkit",
+    "tags": [
+      "catalog",
+      "comp",
+      "cybersec",
+      "tool"
     ]
   },
   {
@@ -2532,6 +2595,17 @@
     "url": "https://voltimum.it/articolo/notizie-tecnico-normative/guida-spine-prese",
     "tags": [
       "edu"
+    ]
+  },
+  {
+    "id": 318,
+    "name": "VRDB",
+    "url": "https://vrdb.app/",
+    "description": "Browse Meta Quest games and deals",
+    "tags": [
+      "catalog",
+      "game",
+      "tool"
     ]
   },
   {

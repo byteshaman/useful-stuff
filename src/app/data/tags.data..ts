@@ -398,7 +398,7 @@ export const softwareTags: TagInfo[] = [
   },
   {
     category: "subcategory",
-    value: "os",
+    value: "sys",
     description: "System",
   },
   {
