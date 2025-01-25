@@ -189,16 +189,6 @@
     ]
   },
   {
-    "id": 19,
-    "description": "Clean, optimize & tune up your PC",
-    "name": "CCleaner",
-    "url": "https://www.ccleaner.com/ccleaner/download/standard",
-    "tags": [
-      "disk",
-      "utility"
-    ]
-  },
-  {
     "id": 20,
     "description": "Modify single player games' memory values to make them harder/easier",
     "name": "Cheat Engine",
@@ -1777,6 +1767,16 @@
     ]
   },
   {
+    "id": 244,
+    "name": "Tixati",
+    "url": "https://tixati.com/windows",
+    "description": "Free and easy to use BitTorrent Client",
+    "tags": [
+      "port",
+      "torrent"
+    ]
+  },
+  {
     "id": 157,
     "description": "Web browser to protect yourself against tracking, surveillance, and censorship",
     "name": "Tor",
@@ -1832,6 +1832,16 @@
     "url": "https://uplay.ubisoft.com/",
     "tags": [
       "gaming"
+    ]
+  },
+  {
+    "id": 242,
+    "name": "Upscayl",
+    "url": "https://upscayl.org/download ",
+    "description": "A powerful image upscaling tool",
+    "tags": [
+      "image",
+      "utility"
     ]
   },
   {
@@ -2145,6 +2155,16 @@
     ]
   },
   {
+    "id": 243,
+    "name": "WD Dashboard",
+    "url": "https://support-en.wd.com/app/answers/detailweb/a_id/31759/",
+    "description": "The software helps check on Western Digital drives in Windows",
+    "tags": [
+      "disk",
+      "utility"
+    ]
+  },
+  {
     "id": 198,
     "description": "BitTorrent client to stream your torrent while you download it in order",
     "name": "WebTorrent Desktop",
@@ -2229,6 +2249,7 @@
     "url": "https://christitus.com/tags/winutil/",
     "description": "The Most Popular Windows Utility",
     "tags": [
+      "sys",
       "utility"
     ]
   },

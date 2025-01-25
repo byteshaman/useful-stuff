@@ -1,114 +1,124 @@
-ul {
-  text-align: center;
-  list-style-type: none;
+#grid-container {
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: 300px 1fr;
 
-  li {
-    font-size: 1rem;
-    display: inline;
+  #container-left {
+    align-self: center;
 
-    &:not(:first-child)::before {
-      content: '🞄';
-      font-size: 1.5rem;
-      color: white;
-      position: relative;
-      top: 3px;
-      margin-inline: 3px;
+    //# LABELS
+    ul {
+      text-align: center;
+      list-style-type: none;
+
+      li {
+        font-size: 1rem;
+        display: inline;
+
+        &:not(:first-child)::before {
+          content: "🞄";
+          font-size: 1.5rem;
+          color: white;
+          position: relative;
+          top: 3px;
+          margin-inline: 3px;
+        }
+      }
+    }
+
+    //# BUTTONS
+    #button-container {
+      width: 90%;
+      margin: 20px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 5px;
+      overflow-y: hidden;
+
+      button.selected {
+        background-color: #7e7e7e;
+      }
+      
+      button:disabled, button:disabled:hover {
+        pointer-events: none;
+        opacity: 0.45;
+      }
+
+      .orange, :hover.orange {
+        color: orange !important;
+      }
+
+      .yellowgreen, :hover.yellowgreen {
+        color: yellowgreen !important;
+      }
+
+      .yellow, :hover.yellow {
+        color: yellow !important;
+      }
     }
   }
-}
 
-#table-container {
-  width: 80%;
-  max-height: 60vh;
-  overflow-y: auto;
-  margin: 0 auto;
-
-   th, td {
-    &:not(:last-child){
-      border-right: 1px solid #575757;
-    }
-   }
-
-  
-  a, a:hover {
-    color: #6989e2;
-    text-decoration: none;
-  }
-
-  .no-data {
-    height: 50px;
-    color: white;
-    text-align: center;
-    font-size: .8rem;
-  }
-
-  .icon-cell {
-    width: 100px;
-    
-    // Fix button size and adjust ripple
-    button {
-      padding: 0;
-      width: 30px;
-      height: 30px;
-
-      // Prevent hover
-      --mat-mdc-button-persistent-ripple-color: none;
-
-    }
-  }
-}
-
-#search-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 5px;
-
-  mat-form-field {
-    width: 50%;
-  }
-
-  button {
-    min-width: 36px;
-    padding: 0;
-    margin-top: 8px; //alisng with search
-
-    mat-icon {
+  #container-right {
+    #table-container {
+      width: calc(100% - 50px);
+      height: 80vh;
+      // max-height: 80vh;
+      overflow-y: auto;
       margin: 0 auto;
+
+      th, td {
+        &:not(:last-child) {
+          border-right: 1px solid #575757;
+        }
+      }
+
+      a, a:hover {
+        color: #6989e2;
+        text-decoration: none;
+      }
+
+      .no-data {
+        height: 50px;
+        color: white;
+        text-align: center;
+        font-size: 0.8rem;
+      }
+
+      .icon-cell {
+        width: 100px;
+
+        // Fix button size and adjust ripple
+        button {
+          padding: 0;
+          width: 30px;
+          height: 30px;
+
+          // Prevent hover
+          --mat-mdc-button-persistent-ripple-color: none;
+        }
+      }
+    }
+
+    #search-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+
+      mat-form-field {
+        width: 50%;
+      }
+
+      button {
+        min-width: 36px;
+        padding: 0;
+        margin-top: 8px; //alisng with search
+
+        mat-icon {
+          margin: 0 auto;
+        }
+      }
     }
   }
 }
-
-
-//#region button
-#button-container {
-  width: 90%;
-  margin: 20px auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap:5px;
-  overflow-y: hidden;
-  
-  button.selected {
-    background-color: #7E7E7E;
-  }
-}
-
-button:disabled, button:disabled:hover {
-  pointer-events: none;
-  opacity: .45;
-}
-
-.orange, :hover.orange {
-  color: orange !important;
-}
-
-.yellowgreen, :hover.yellowgreen {
-  color: yellowgreen !important;
-}
-
-.yellow, :hover.yellow {
-  color: yellow !important;
-}
-//#endregion button
