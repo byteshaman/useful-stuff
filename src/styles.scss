@@ -7,7 +7,6 @@ $darker-background-color: #222;
   background-color: $darker-background-color;
 }
 
-@import '@angular/material/theming';
 @include mat.core(); //includes prerequisite styles for common features used by multiple components, must be included exactly once for the application
 
 //defining primary and accent palettes, https://m1.material.io/style/color.html#color-color-palette with an optional warn palette (defaults to red)

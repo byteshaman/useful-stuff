@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
-import { NgxMatSelectSearchModule } from 'ngx-mat-select-search';
 
 //#region material modules
 import { MatButtonModule } from '@angular/material/button';
@@ -52,7 +51,6 @@ const MaterialModules = [
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModules,
-    NgxMatSelectSearchModule,
     ReactiveFormsModule,
   ],
   providers: [],
