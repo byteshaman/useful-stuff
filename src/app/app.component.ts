@@ -10,7 +10,6 @@ import { MatTabGroup, MatTab, MatTabContent } from '@angular/material/tabs';
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
     encapsulation: ViewEncapsulation.None,
-    standalone: true,
     imports: [MatTabGroup, NgFor, MatTab, MatTabContent, ContentComponent]
 })
 export class AppComponent {

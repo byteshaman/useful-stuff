@@ -19,7 +19,6 @@ import { NgFor, NgClass, NgIf, UpperCasePipe } from '@angular/common';
     selector: 'app-content',
     templateUrl: './content.component.html',
     styleUrls: ['./content.component.scss'],
-    standalone: true,
     imports: [NgFor, NgClass, MatButton, NgIf, MatIcon, MatFormField, MatLabel, MatInput, MatTable, MatSort, MatColumnDef, MatHeaderCellDef, MatHeaderCell, MatSortHeader, MatCellDef, MatCell, MatIconButton, MatNoDataRow, MatHeaderRowDef, MatHeaderRow, MatRowDef, MatRow, UpperCasePipe]
 })
 export class ContentComponent implements OnInit, AfterViewInit {

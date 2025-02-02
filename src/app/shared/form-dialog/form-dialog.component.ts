@@ -15,7 +15,6 @@ import { MatFormField, MatLabel, MatError } from '@angular/material/form-field';
     selector: 'app-form-dialog',
     templateUrl: './form-dialog.component.html',
     styleUrls: ['./form-dialog.component.scss'],
-    standalone: true,
     imports: [ReactiveFormsModule, MatFormField, MatLabel, MatInput, NgIf, MatError, NgFor, MatCheckbox, MatButton, MatDialogClose]
 })
 export class FormDialogComponent implements OnInit {
