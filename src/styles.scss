@@ -8,7 +8,8 @@ $darker-background-color: #222;
   background-color: $darker-background-color;
 }
 
-@include mat.core(); //includes prerequisite styles for common features used by multiple components, must be included exactly once for the application
+@include mat.elevation-classes();
+@include mat.app-background(); //includes prerequisite styles for common features used by multiple components, must be included exactly once for the application
 
 //defining primary and accent palettes, https://m1.material.io/style/color.html#color-color-palette with an optional warn palette (defaults to red)
 $angular-primary: mat.m2-define-palette(mat.$m2-gray-palette, 300, 200, 400);
