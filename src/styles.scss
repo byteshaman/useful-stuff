@@ -1,5 +1,6 @@
 @use "@angular/material" as mat;
 @use './app/palette-helper.scss'; //for custom background Material color
+// @import '@angular/material/theming'; // removed after updating material to v17
 
 $darker-background-color: #222;
 
@@ -10,11 +11,11 @@ $darker-background-color: #222;
 @include mat.core(); //includes prerequisite styles for common features used by multiple components, must be included exactly once for the application
 
 //defining primary and accent palettes, https://m1.material.io/style/color.html#color-color-palette with an optional warn palette (defaults to red)
-$angular-primary: mat.define-palette(mat.$gray-palette, 300, 200, 400);
-$angular-accent: mat.define-palette(mat.$indigo-palette, 500, 300, 700);
+$angular-primary: mat.m2-define-palette(mat.$m2-gray-palette, 300, 200, 400);
+$angular-accent: mat.m2-define-palette(mat.$m2-indigo-palette, 500, 300, 700);
 
 //define the theme, accepts define-dark-theme and define-light-theme
-$my-theme: mat.define-dark-theme(
+$my-theme: mat.m2-define-dark-theme(
   (
     color: (
       primary: $angular-primary,
