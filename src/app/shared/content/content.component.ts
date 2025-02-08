@@ -13,13 +13,13 @@ import { MatInput } from '@angular/material/input';
 import { MatFormField, MatLabel } from '@angular/material/form-field';
 import { MatIcon } from '@angular/material/icon';
 import { MatButton, MatIconButton } from '@angular/material/button';
-import { NgFor, NgClass, NgIf, UpperCasePipe } from '@angular/common';
+import { NgClass, UpperCasePipe } from '@angular/common';
 
 @Component({
     selector: 'app-content',
     templateUrl: './content.component.html',
     styleUrls: ['./content.component.scss'],
-    imports: [NgFor, NgClass, MatButton, NgIf, MatIcon, MatFormField, MatLabel, MatInput, MatTable, MatSort, MatColumnDef, MatHeaderCellDef, MatHeaderCell, MatSortHeader, MatCellDef, MatCell, MatIconButton, MatNoDataRow, MatHeaderRowDef, MatHeaderRow, MatRowDef, MatRow, UpperCasePipe]
+    imports: [NgClass, MatButton, MatIcon, MatFormField, MatLabel, MatInput, MatTable, MatSort, MatColumnDef, MatHeaderCellDef, MatHeaderCell, MatSortHeader, MatCellDef, MatCell, MatIconButton, MatNoDataRow, MatHeaderRowDef, MatHeaderRow, MatRowDef, MatRow, UpperCasePipe]
 })
 export class ContentComponent implements OnInit, AfterViewInit {
   @Input() pageInfo!: PageInfo; 

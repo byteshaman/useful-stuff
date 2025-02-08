@@ -2,25 +2,31 @@
   <div id="container-left">
     <!-- Categories title -->
     <ul>
-      <li *ngFor="let category of categories" [ngClass]="getColorClass(category!)">{{ category | uppercase }}</li>
+      @for (category of categories; track category) {
+        <li [ngClass]="getColorClass(category!)">{{ category | uppercase }}</li>
+      }
     </ul>
 
     <!-- Buttons -->
     <div id="button-container">
-      <button mat-raised-button *ngFor="let tag of tags"
-        [ngClass]="[getColorClass(tag.category!), getSelectedClass(tag.value)]" (click)="handleButtonClick(tag.value)"
-        [disabled]="isButtonDisabled(tag.value)">
-        {{ tag.description }}
-      </button>
+      @for (tag of tags; track tag) {
+        <button mat-raised-button
+          [ngClass]="[getColorClass(tag.category!), getSelectedClass(tag.value)]" (click)="handleButtonClick(tag.value)"
+          [disabled]="isButtonDisabled(tag.value)">
+          {{ tag.description }}
+        </button>
+      }
     </div>
   </div>
 
   <div id="container-right">
     <div id="search-container">
       <!-- Show only in dev mode -->
-      <button *ngIf="devMode" mat-raised-button color="accent" (click)="openDialog()">
-        <mat-icon>add</mat-icon>
-      </button>
+      @if (devMode) {
+        <button mat-raised-button color="accent" (click)="openDialog()">
+          <mat-icon>add</mat-icon>
+        </button>
+      }
 
       <!-- MARK: search -->
       <mat-form-field appearance="outline" [floatLabel]="'always'">
@@ -29,44 +35,52 @@
       </mat-form-field>
 
       <!-- Show only in dev mode -->
-      <button *ngIf="devMode" mat-raised-button color="accent" (click)="downloadJSON()">
-        <mat-icon>download</mat-icon>
-      </button>
+      @if (devMode) {
+        <button mat-raised-button color="accent" (click)="downloadJSON()">
+          <mat-icon>download</mat-icon>
+        </button>
+      }
     </div>
 
     <div id="table-container">
       <table mat-table matSort [dataSource]="dataSource">
-        <ng-container *ngFor="let col of columns" [matColumnDef]="col">
-          <!-- Disable ordering by tag -->
-          <th mat-header-cell *matHeaderCellDef mat-sort-header [disabled]="col == 'tags'"> {{ col | uppercase }} </th>
-
-          <!-- If column is name, add URL -->
-          <td mat-cell *matCellDef="let element">
-            <a *ngIf="col === 'name'; else elseBlock" [href]="element.url" target=”_blank”> {{ element[col] }} </a>
-            <ng-template #elseBlock>{{ element[col] }}</ng-template>
-          </td>
-        </ng-container>
+        @for (col of columns; track col) {
+          <ng-container [matColumnDef]="col">
+            <!-- Disable ordering by tag -->
+            <th mat-header-cell *matHeaderCellDef mat-sort-header [disabled]="col == 'tags'"> {{ col | uppercase }} </th>
+            <!-- If column is name, add URL -->
+            <td mat-cell *matCellDef="let element">
+              @if (col === 'name') {
+                <a [href]="element.url" target=”_blank”> {{ element[col] }} </a>
+              } @else {
+                {{ element[col] }}
+              }
+            </td>
+          </ng-container>
+        }
 
         <!-- Show only in dev mode -->
-        <ng-container *ngIf="devMode" [matColumnDef]="'tags'">
-          <th mat-header-cell *matHeaderCellDef> TAGS </th>
-
-          <td mat-cell *matCellDef="let element; let i = index;">
-            {{ [element.tags.join(', ')] }}
-          </td>
-        </ng-container>
-        <ng-container *ngIf="devMode" [matColumnDef]="'actions'">
-          <th mat-header-cell *matHeaderCellDef> ACTIONS </th>
-
-          <td mat-cell *matCellDef="let element; let i = index;" class="icon-cell">
-            <button mat-icon-button (click)="openDialog('edit', element, i)">
-              <mat-icon>edit</mat-icon>
-            </button>
-            <button mat-icon-button (click)="deleteElem(element)">
-              <mat-icon>delete</mat-icon>
-            </button>
-          </td>
-        </ng-container>
+        @if (devMode) {
+          <ng-container [matColumnDef]="'tags'">
+            <th mat-header-cell *matHeaderCellDef> TAGS </th>
+            <td mat-cell *matCellDef="let element; let i = index;">
+              {{ [element.tags.join(', ')] }}
+            </td>
+          </ng-container>
+        }
+        @if (devMode) {
+          <ng-container [matColumnDef]="'actions'">
+            <th mat-header-cell *matHeaderCellDef> ACTIONS </th>
+            <td mat-cell *matCellDef="let element; let i = index;" class="icon-cell">
+              <button mat-icon-button (click)="openDialog('edit', element, i)">
+                <mat-icon>edit</mat-icon>
+              </button>
+              <button mat-icon-button (click)="deleteElem(element)">
+                <mat-icon>delete</mat-icon>
+              </button>
+            </td>
+          </ng-container>
+        }
 
         <!-- No data -->
         <tr *matNoDataRow>

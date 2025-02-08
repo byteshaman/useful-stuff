@@ -4,32 +4,40 @@
     <mat-form-field appearance="outline" class="form-control">
       <mat-label>Name</mat-label>
       <input matInput formControlName="name">
-      <mat-error *ngIf="form.get('name')?.hasError('required')">
-        {{ mandatoryFieldError }}
-      </mat-error>
+      @if (form.get('name')?.hasError('required')) {
+        <mat-error>
+          {{ mandatoryFieldError }}
+        </mat-error>
+      }
     </mat-form-field>
 
     <mat-form-field appearance="outline" class="form-control">
       <mat-label>URL</mat-label>
       <input matInput formControlName="url">
-      <mat-error *ngIf="form.get('url')?.hasError('required')">
-        {{ mandatoryFieldError }}
-      </mat-error>
+      @if (form.get('url')?.hasError('required')) {
+        <mat-error>
+          {{ mandatoryFieldError }}
+        </mat-error>
+      }
     </mat-form-field>
 
     <mat-form-field appearance="outline" class="form-control">
       <mat-label>Description</mat-label>
       <input matInput formControlName="description">
-      <mat-error *ngIf="form.get('description')?.hasError('required')">
-        {{ mandatoryFieldError }}
-      </mat-error>
+      @if (form.get('description')?.hasError('required')) {
+        <mat-error>
+          {{ mandatoryFieldError }}
+        </mat-error>
+      }
     </mat-form-field>
 
 
     <div class="tag-container">
-      <mat-checkbox  *ngFor="let tag of tagList" [checked]="isTagSelected(tag.value)" (change)="onTagChange(tag.value, $event.checked)">
-        {{ tag.description }}
-      </mat-checkbox>
+      @for (tag of tagList; track tag) {
+        <mat-checkbox  [checked]="isTagSelected(tag.value)" (change)="onTagChange(tag.value, $event.checked)">
+          {{ tag.description }}
+        </mat-checkbox>
+      }
     </div>
 
   </form>

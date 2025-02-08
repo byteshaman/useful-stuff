@@ -5,7 +5,7 @@ import { ReplaySubject, Subject, takeUntil } from 'rxjs';
 import { TagInfo, WebsiteInfo } from 'src/app/interfaces/interfaces';
 import { MatButton } from '@angular/material/button';
 import { MatCheckbox } from '@angular/material/checkbox';
-import { NgIf, NgFor } from '@angular/common';
+
 import { MatInput } from '@angular/material/input';
 import { MatFormField, MatLabel, MatError } from '@angular/material/form-field';
 
@@ -15,7 +15,7 @@ import { MatFormField, MatLabel, MatError } from '@angular/material/form-field';
     selector: 'app-form-dialog',
     templateUrl: './form-dialog.component.html',
     styleUrls: ['./form-dialog.component.scss'],
-    imports: [ReactiveFormsModule, MatFormField, MatLabel, MatInput, NgIf, MatError, NgFor, MatCheckbox, MatButton, MatDialogClose]
+    imports: [ReactiveFormsModule, MatFormField, MatLabel, MatInput, MatError, MatCheckbox, MatButton, MatDialogClose]
 })
 export class FormDialogComponent implements OnInit {
 
