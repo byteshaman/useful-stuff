@@ -156,7 +156,7 @@
     "id": 15,
     "description": "English to RegEx",
     "name": "AutoRegex",
-    "url": "https://www.autoregex.xyz/",
+    "url": "https://autoregex.xyz/",
     "tags": [
       "re",
       "tool"
@@ -317,7 +317,7 @@
   {
     "id": 353,
     "name": "Checklist.Design",
-    "url": "https://www.checklist.design/",
+    "url": "https://checklist.design/",
     "description": "A collection of the best design practices",
     "tags": [
       "tips",
@@ -382,7 +382,7 @@
     "id": 35,
     "description": "A collection of programming resources curated by the CodeSupport community",
     "name": "CodeSupport",
-    "url": "https://staging.codesupport.dev/resources",
+    "url": "https://codesupport.dev/resources",
     "tags": [
       "multi"
     ]
@@ -401,7 +401,7 @@
   {
     "id": 322,
     "name": "CodinGame",
-    "url": "https://www.codingame.com/playgrounds/347/javascript-promises-mastering-the-asynchronous/what-is-asynchronous-in-javascript",
+    "url": "https://codingame.com/playgrounds/347/javascript-promises-mastering-the-asynchronous/what-is-asynchronous-in-javascript",
     "description": "What is asynchronous in JavaScript?",
     "tags": [
       "artut",
@@ -552,7 +552,7 @@
   {
     "id": 324,
     "name": "CSS Zen Garden",
-    "url": "http://www.csszengarden.com/",
+    "url": "http://csszengarden.com/",
     "description": "A demonstration of what can be accomplished through CSS-based design",
     "tags": [
       "css",
@@ -920,7 +920,7 @@
     "id": 83,
     "description": "SQL UNION",
     "name": "DoFactory",
-    "url": "https://www.dofactory.com/sql/union",
+    "url": "https://dofactory.com/sql/union",
     "tags": [
       "artut",
       "interactive",
@@ -960,7 +960,7 @@
   {
     "id": 323,
     "name": "educative.io",
-    "url": "https://www.educative.io/answers/how-to-change-a-git-commit-message-after-a-push",
+    "url": "https://educative.io/answers/how-to-change-a-git-commit-message-after-a-push",
     "description": "How to change a Git commit message after a push",
     "tags": [
       "artut",
@@ -1000,9 +1000,9 @@
   },
   {
     "id": 90,
-    "description": "JS ES6 new features and comparison with ES5",
+    "description": "Overview of JS ES6 new features",
     "name": "es6-features",
-    "url": "http://es6-features.org/",
+    "url": "https://github.com/lukehoban/es6features",
     "tags": [
       "artut",
       "js"
@@ -1157,7 +1157,7 @@
     "id": 104,
     "description": "JS promise tutorial",
     "name": "FreeCodeCamp",
-    "url": "https://www.freecodecamp.org/news/javascript-promise-tutorial-how-to-resolve-or-reject-promises-in-js/",
+    "url": "https://freecodecamp.org/news/javascript-promise-tutorial-how-to-resolve-or-reject-promises-in-js/",
     "tags": [
       "artut",
       "js"
@@ -1196,7 +1196,7 @@
   {
     "id": 108,
     "name": "FreeCodeCamp",
-    "url": "https://www.freecodecamp.org/news/how-to-store-data-in-web-browser-storage-localstorage-and-session-storage-explained/",
+    "url": "https://freecodecamp.org/news/how-to-store-data-in-web-browser-storage-localstorage-and-session-storage-explained/",
     "description": "How to store data in web browser storage",
     "tags": [
       "artut",
@@ -1529,7 +1529,7 @@
   {
     "id": 341,
     "name": "Hacksplaining",
-    "url": "https://www.hacksplaining.com/lessons",
+    "url": "https://hacksplaining.com/lessons",
     "description": "Security training for Web Developers",
     "tags": [
       "cybersec",
@@ -1539,7 +1539,7 @@
   {
     "id": 339,
     "name": "Hacksplaining",
-    "url": "https://www.hacksplaining.com/",
+    "url": "https://hacksplaining.com/",
     "description": "Security Training for Web Developers",
     "tags": [
       "cybersec",
@@ -1618,17 +1618,6 @@
     ]
   },
   {
-    "id": 142,
-    "description": "List of regularly used input-patterns",
-    "name": "HTML5 Pattern",
-    "url": "http://html5pattern.com/",
-    "tags": [
-      "interactive",
-      "re",
-      "tool"
-    ]
-  },
-  {
     "id": 143,
     "description": "Look up HTML5, CSS3, etc features, know if they are ready for use and find out how you should use them",
     "name": "HTML5 Please",
@@ -1649,19 +1638,10 @@
     ]
   },
   {
-    "id": 145,
-    "description": "HTML tutorial",
-    "name": "HTMLquick",
-    "url": "https://htmlquick.com/tutorials.html",
-    "tags": [
-      "html"
-    ]
-  },
-  {
     "id": 146,
     "description": "List of HTML global attributes",
-    "name": "HTMLquick",
-    "url": "https://htmlquick.com/reference/attributes.html",
+    "name": "MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
     "tags": [
       "html"
     ]
@@ -1669,8 +1649,8 @@
   {
     "id": 147,
     "description": "URL vs URI",
-    "name": "HTMLquick",
-    "url": "https://htmlquick.com/reference/uri-url.html",
+    "name": "guru99",
+    "url": "https://guru99.com/url-vs-uri-difference.html",
     "tags": [
       "artut",
       "thisthat",
@@ -1703,7 +1683,7 @@
     "id": 149,
     "description": "[ITA] Corso su Python3",
     "name": "ifac",
-    "url": "http://www.ifac.cnr.it/~zoppetti/corsopython/",
+    "url": "http://ifac.cnr.it/~zoppetti/corsopython/",
     "tags": [
       "artut",
       "py"
@@ -2049,7 +2029,7 @@
     "id": 182,
     "description": "Clear examples, explanations, and resources for RxJS",
     "name": "LearnRxJS",
-    "url": "https://www.learnrxjs.io/",
+    "url": "https://learnrxjs.io/",
     "tags": [
       "ag",
       "artut",
@@ -2169,7 +2149,7 @@
   {
     "id": 332,
     "name": "makeuseof",
-    "url": "https://www.makeuseof.com/angular-app-github-deploy-using-angular-cli/",
+    "url": "https://makeuseof.com/angular-app-github-deploy-using-angular-cli/",
     "description": "Deploy an Angular app to GitHub Pages with Angular CLI",
     "tags": [
       "ag",
@@ -2344,7 +2324,7 @@
     "id": 205,
     "description": "Business intelligence for everyone",
     "name": "Metabase",
-    "url": "https://www.metabase.com/",
+    "url": "https://metabase.com/",
     "tags": [
       "sql",
       "tool"
@@ -2574,16 +2554,6 @@
     ]
   },
   {
-    "id": 225,
-    "description": "Support differing browsers by attempting to recreate the missing features with polyfills",
-    "name": "Polyfill",
-    "url": "https://polyfill.io/v3/",
-    "tags": [
-      "tool",
-      "webdev"
-    ]
-  },
-  {
     "id": 226,
     "description": "Learn Python by solving code challenges",
     "name": "Practice Python",
@@ -2777,7 +2747,7 @@
     "id": 243,
     "description": "SASS playground",
     "name": "SassMeister",
-    "url": "https://www.sassmeister.com/",
+    "url": "https://sass-lang.com/playground/",
     "tags": [
       "css",
       "interactive",
@@ -2827,7 +2797,7 @@
   {
     "id": 356,
     "name": "SitePoint",
-    "url": "https://www.sitepoint.com/fluid-typography-css-clamp-function/",
+    "url": "https://sitepoint.com/fluid-typography-css-clamp-function/",
     "description": "Creating fluid typography with CSS clamp()",
     "tags": [
       "artut",
@@ -2899,7 +2869,7 @@
   {
     "id": 347,
     "name": "spartan",
-    "url": "https://www.spartan.ng/",
+    "url": "https://spartan.ng/",
     "description": "Cutting-edge tools powering Angular full-stack development",
     "tags": [
       "ag",
@@ -3120,7 +3090,7 @@
   {
     "id": 352,
     "name": "TaniaRascia",
-    "url": "https://www.taniarascia.com/overview-of-css-concepts/",
+    "url": "https://taniarascia.com/overview-of-css-concepts/",
     "description": "A complete guide to CSS concepts and fundamentals",
     "tags": [
       "artut",
@@ -3161,7 +3131,7 @@
   {
     "id": 320,
     "name": "Telerik",
-    "url": "https://www.telerik.com/blogs/angular-basics-introduction-observables-rxjs-part-1",
+    "url": "https://telerik.com/blogs/angular-basics-introduction-observables-rxjs-part-1",
     "description": "Introduction to Observables (RxJS)",
     "tags": [
       "ag",
@@ -3244,7 +3214,7 @@
   {
     "id": 326,
     "name": "Total TypeScript",
-    "url": "https://www.totaltypescript.com/tutorials/beginners-typescript",
+    "url": "https://totaltypescript.com/tutorials/beginners-typescript",
     "description": "Beginner's TypeScript tutorial",
     "tags": [
       "artut",
@@ -3408,7 +3378,7 @@
     "id": 297,
     "description": "Code formatter for webdev languages",
     "name": "Web Formatter",
-    "url": "hhttps://webformatter.com/",
+    "url": "https://webformatter.com/",
     "tags": [
       "tool",
       "webdev"
@@ -3559,7 +3529,7 @@
     "id": 313,
     "description": "[ITA] Guida completa a Git",
     "name": "YouTube",
-    "url": "https://www.youtube.com/playlist?list=PL9MslR9MhrJbO7u34sgR3J6iMqkFmVenG",
+    "url": "https://youtube.com/playlist?list=PL9MslR9MhrJbO7u34sgR3J6iMqkFmVenG",
     "tags": [
       "artut",
       "git",
@@ -3616,7 +3586,7 @@
   {
     "id": 328,
     "name": "Zoaib Khan",
-    "url": "https://www.zoaibkhan.com/blog/angular-material-dark-mode-in-3-steps/",
+    "url": "https://zoaibkhan.com/blog/angular-material-dark-mode-in-3-steps/",
     "description": "Angular Material dark mode",
     "tags": [
       "ag",

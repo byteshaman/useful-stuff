@@ -42,7 +42,7 @@
   {
     "id": 242,
     "name": "17track",
-    "url": "https://www.17track.net/",
+    "url": "https://17track.net/",
     "description": "All-in-one package tracking",
     "tags": [
       "misc",
@@ -80,7 +80,7 @@
   {
     "id": 239,
     "name": "AlbumArtExchange",
-    "url": "https://www.albumartexchange.com/",
+    "url": "https://albumartexchange.com/",
     "description": "Search album art",
     "tags": [
       "image",
@@ -120,7 +120,7 @@
   {
     "id": 316,
     "name": "Altrasoluzione",
-    "url": "https://www.altrasoluzione.com/blog/volt-ampere-watt-cosa-sono-e-come-calcolarli",
+    "url": "https://altrasoluzione.com/blog/volt-ampere-watt-cosa-sono-e-come-calcolarli",
     "description": "[ITA] Guida alle unità di misura elettriche",
     "tags": [
       "article",
@@ -184,16 +184,6 @@
     "tags": [
       "animanga",
       "catalog"
-    ]
-  },
-  {
-    "id": 228,
-    "name": "anirishinvestorsguide",
-    "url": "https://anirishinvestorsguide.com/2020/04/25/etf_guide_part_1/",
-    "description": "Guide to ETFs",
-    "tags": [
-      "article",
-      "fin"
     ]
   },
   {
@@ -278,18 +268,9 @@
     ]
   },
   {
-    "id": 18,
-    "description": "Discover great albums at random",
-    "name": "BestAlbumsEver",
-    "url": "http://bestalbumsever.net/",
-    "tags": [
-      "music"
-    ]
-  },
-  {
     "id": 240,
     "name": "BorsaItaliana",
-    "url": "https://www.borsaitaliana.it/notizie/sotto-la-lente/capitalgain.htm",
+    "url": "https://borsaitaliana.it/notizie/sotto-la-lente/capitalgain.htm",
     "description": "[ITA] Capital Gain: significato, tassazione e calcolo della plusvalenza",
     "tags": [
       "article",
@@ -300,7 +281,7 @@
   {
     "id": 230,
     "name": "BorsaItaliana",
-    "url": "https://www.borsaitaliana.it/homepage/homepage.htm",
+    "url": "https://borsaitaliana.it/homepage/homepage.htm",
     "description": "[ITA] Sito ufficiale della Borsa Italiana",
     "tags": [
       "fin"
@@ -415,7 +396,7 @@
   {
     "id": 246,
     "name": "Chosic",
-    "url": "https://www.chosic.com/",
+    "url": "https://chosic.com/",
     "description": "Discover new music",
     "tags": [
       "music",
@@ -473,7 +454,7 @@
     "id": 33,
     "description": "Database of movies with the best suggestion algorithm and filtering options",
     "name": "Criticker",
-    "url": "https://www.criticker.com/",
+    "url": "https://criticker.com/",
     "tags": [
       "catalog",
       "movies"
@@ -610,7 +591,7 @@
   {
     "id": 256,
     "name": "Display Specifications",
-    "url": "https://www.displayspecifications.com/",
+    "url": "https://displayspecifications.com/",
     "description": "Get detailed features and specifications of various desktop monitors, TV sets and other types of displays",
     "tags": [
       "catalog",
@@ -642,7 +623,7 @@
     "id": 46,
     "description": "Italian guide to subtitles synchronization",
     "name": "Doom9",
-    "url": "http://doom9.it/index.html?/sub.htm",
+    "url": "http://www.doom9.it/index.html?/sub.htm",
     "tags": [
       "article",
       "subs"
@@ -669,7 +650,7 @@
   {
     "id": 231,
     "name": "Economia per tutti",
-    "url": "https://economiapertutti.bancaditalia.it/",
+    "url": "https://www.economiapertutti.bancaditalia.it/",
     "description": "[ITA] Portale di educazione finanziaria",
     "tags": [
       "edu",
@@ -679,7 +660,7 @@
   {
     "id": 233,
     "name": "Educati e Finanziati",
-    "url": "https://www.youtube.com/playlist?list=PLfuzpc-H8qcdyEb5rpgYhN2P7cJGR1i9h",
+    "url": "https://youtube.com/playlist?list=PLfuzpc-H8qcdyEb5rpgYhN2P7cJGR1i9h",
     "description": "[ITA] Corso base di finanza personale su YouTube",
     "tags": [
       "edu",
@@ -700,7 +681,7 @@
     "id": 300,
     "description": "Beat SPAM with the best disposable email service using gmail domain",
     "name": "emailnator",
-    "url": "https://www.emailnator.com/",
+    "url": "https://emailnator.com/",
     "tags": [
       "mail",
       "cybersec"
@@ -748,7 +729,7 @@
     "id": 53,
     "description": "Try to explain random images",
     "name": "Explain This Image",
-    "url": "https://explainthisimage.com/",
+    "url": "https://www.explainthisimage.com/",
     "tags": [
       "useless"
     ]
@@ -777,7 +758,7 @@
   {
     "id": 260,
     "name": "FlatIcon",
-    "url": "https://www.flaticon.com/",
+    "url": "https://flaticon.com/",
     "description": "Download Free Icons and Stickers for your projects",
     "tags": [
       "image",
@@ -925,7 +906,7 @@
   {
     "id": 213,
     "name": "Gun Violence Archive",
-    "url": "https://www.gunviolencearchive.org/",
+    "url": "https://gunviolencearchive.org/",
     "description": "Gun violence and crime incidents",
     "tags": [
       "catalog",
@@ -945,7 +926,7 @@
   {
     "id": 220,
     "name": "HardReset",
-    "url": "https://www.hardreset.info/",
+    "url": "https://hardreset.info/",
     "description": "Find the best way to make a hard reset for a device",
     "tags": [
       "article",
@@ -1023,7 +1004,7 @@
     "id": 69,
     "description": "How to turn off Lens search in Google Chrome",
     "name": "HowToGeek",
-    "url": "https://www.howtogeek.com/797147/turn-off-google-lens-chrome/",
+    "url": "https://howtogeek.com/797147/turn-off-google-lens-chrome/",
     "tags": [
       "article"
     ]
@@ -1153,7 +1134,7 @@
   {
     "id": 259,
     "name": "Instructables",
-    "url": "https://www.instructables.com/projects/",
+    "url": "https://instructables.com/projects/",
     "description": "Community for people who like to make things",
     "tags": [
       "edu",
@@ -1185,7 +1166,7 @@
     "id": 81,
     "description": "Check the status of a website",
     "name": "Is it down right now?",
-    "url": "https://isitdownrightnow.com/",
+    "url": "https://www.isitdownrightnow.com/",
     "tags": [
       "misc"
     ]
@@ -1221,7 +1202,7 @@
   {
     "id": 225,
     "name": "JustETF",
-    "url": "https://www.justetf.com/",
+    "url": "https://justetf.com/",
     "description": "Find ETFs and compare them",
     "tags": [
       "comp",
@@ -1291,7 +1272,7 @@
   {
     "id": 251,
     "name": "LCD monitor test images",
-    "url": "http://www.lagom.nl/lcd-test/",
+    "url": "http://lagom.nl/lcd-test/",
     "description": "Easily adjust the settings of your monitor to get the best possible picture quality",
     "tags": [
       "tech",
@@ -1363,7 +1344,7 @@
   {
     "id": 312,
     "name": "LinuxLinks",
-    "url": "https://www.linuxlinks.com/",
+    "url": "https://linuxlinks.com/",
     "description": "The Linux portal website",
     "tags": [
       "catalog",
@@ -1375,7 +1356,7 @@
     "id": 94,
     "description": "Compare AMD and Nvidia graphic cards",
     "name": "LogicalIncrements",
-    "url": "https://www.logicalincrements.com/articles/graphicscardcomparison",
+    "url": "https://logicalincrements.com/articles/graphicscardcomparison",
     "tags": [
       "article",
       "comp",
@@ -1433,7 +1414,7 @@
   {
     "id": 262,
     "name": "MapDevelopers",
-    "url": "https://www.mapdevelopers.com/index.php",
+    "url": "https://mapdevelopers.com/index.php",
     "description": "Get prebuilt Google Maps functionality",
     "tags": [
       "misc",
@@ -1443,7 +1424,7 @@
   {
     "id": 241,
     "name": "MapDevelopers",
-    "url": "https://www.mapdevelopers.com/draw-circle-tool.php",
+    "url": "https://mapdevelopers.com/draw-circle-tool.php",
     "description": "Create a circle with a radius on a Google map",
     "tags": [
       "misc",
@@ -1454,7 +1435,7 @@
     "id": 99,
     "description": "Free cloud storage with convenient and powerful always-on privacy",
     "name": "MEGA.nz",
-    "url": "https://mega.nz/login",
+    "url": "https://mega.nz/",
     "tags": [
       "cybersec",
       "share"
@@ -1472,7 +1453,7 @@
   {
     "id": 205,
     "name": "MobyGames",
-    "url": "https://www.mobygames.com/",
+    "url": "https://mobygames.com/",
     "description": "Videogame DB",
     "tags": [
       "catalog",
@@ -1482,7 +1463,7 @@
   {
     "id": 215,
     "name": "MoneyViz",
-    "url": "https://www.moneyviz.it/",
+    "url": "https://moneyviz.it/",
     "description": "[ITA] Monitoraggio investimenti e rendicontazione fiscale",
     "tags": [
       "fin"
@@ -1774,7 +1755,7 @@
   {
     "id": 309,
     "name": "Perplexity",
-    "url": "https://www.perplexity.ai/",
+    "url": "https://perplexity.ai/",
     "description": "AI-powered answer engine",
     "tags": [
       "ai"
@@ -1783,7 +1764,7 @@
   {
     "id": 303,
     "name": "Perplexity",
-    "url": "https://www.perplexity.ai/",
+    "url": "https://perplexity.ai/",
     "description": "AI-powered answer engine",
     "tags": [
       "ai"
@@ -1801,7 +1782,7 @@
   {
     "id": 211,
     "name": "pixelconverter",
-    "url": "https://www.pixelconverter.com/pixels-to-cm-for-printing/",
+    "url": "https://pixelconverter.com/pixels-to-cm-for-printing/",
     "description": "Convert pixels to cm for printing",
     "tags": [
       "image",
@@ -1869,7 +1850,7 @@
   {
     "id": 229,
     "name": "QualeBTP",
-    "url": "https://www.qualebtp.it/",
+    "url": "https://qualebtp.it/",
     "description": "[ITA] Rendimenti netti dei BTP",
     "tags": [
       "comp",
@@ -1880,7 +1861,7 @@
   {
     "id": 238,
     "name": "QUANfunding",
-    "url": "https://www.quanfunding.com/it",
+    "url": "https://quanfunding.com/it",
     "description": "[ITA] La prima piattaforma di socialwishing al mondo",
     "tags": [
       "prod",
@@ -1988,7 +1969,7 @@
   {
     "id": 218,
     "name": "removeBG",
-    "url": "https://www.remove.bg/",
+    "url": "https://remove.bg/",
     "description": "Remove the background from pics",
     "tags": [
       "image",
@@ -1999,7 +1980,7 @@
     "id": 137,
     "description": "Download loops and audio samples for free",
     "name": "SampleSwap",
-    "url": "website-link",
+    "url": "https://sampleswap.org/",
     "tags": [
       "music"
     ]
@@ -2030,16 +2011,6 @@
     "tags": [
       "article",
       "tech"
-    ]
-  },
-  {
-    "id": 202,
-    "name": "sieve.tv",
-    "url": "https://sieve.tv/",
-    "description": "Find TV shows",
-    "tags": [
-      "tool",
-      "tvs"
     ]
   },
   {
@@ -2202,7 +2173,7 @@
   {
     "id": 250,
     "name": "SwissTransfer",
-    "url": "https://www.swisstransfer.com/",
+    "url": "https://swisstransfer.com/",
     "description": "Send up to 50 GB of data at once, free of charge and without registration",
     "tags": [
       "cybersec",
@@ -2213,7 +2184,7 @@
     "id": 156,
     "description": "[ITA] Cambia fornitore utenze, evitando burocrazie e mal di testa",
     "name": "Switcho",
-    "url": "https://www.switcho.it/ref/marco_zTp",
+    "url": "https://switcho.it/ref/marco_zTp",
     "tags": [
       "comp",
       "misc"
@@ -2241,7 +2212,7 @@
   {
     "id": 317,
     "name": "Techlore",
-    "url": "https://www.techlore.tech/vpn",
+    "url": "https://techlore.tech/vpn",
     "description": "VPN toolkit",
     "tags": [
       "catalog",
@@ -2412,7 +2383,7 @@
     "id": 172,
     "description": "Make movie and music charts",
     "name": "Topsters",
-    "url": "https://neverendingchartrendering.org/",
+    "url": "https://topsters.org/",
     "tags": [
       "movies",
       "music"
@@ -2550,7 +2521,7 @@
   {
     "id": 208,
     "name": "vendutoespeditoda",
-    "url": "https://www.vendutoespeditoda.it/",
+    "url": "https://vendutoespeditoda.it/",
     "description": "[ITA] Cerca prodotti venduti  espediti da Amazon",
     "tags": [
       "misc",
@@ -2609,16 +2580,6 @@
     ]
   },
   {
-    "id": 186,
-    "description": "Italian anime streaming website",
-    "name": "VVVVID",
-    "url": "https://vvvvid.it/",
-    "tags": [
-      "animanga",
-      "stream"
-    ]
-  },
-  {
     "id": 187,
     "description": "Share large files (up to 2GB) with the world for free",
     "name": "WeTransfer",
@@ -2657,7 +2618,7 @@
   {
     "id": 217,
     "name": "When2Meet",
-    "url": "https://www.when2meet.com/",
+    "url": "https://when2meet.com/",
     "description": "Find the best time for a group to meet",
     "tags": [
       "prod",
@@ -2676,7 +2637,7 @@
   {
     "id": 257,
     "name": "WhiteScreen",
-    "url": "https://www.whitescreen.online/",
+    "url": "https://whitescreen.online/",
     "description": "Online tool to show various fullscreen pages",
     "tags": [
       "misc",
@@ -2705,7 +2666,7 @@
   {
     "id": 232,
     "name": "Wiki r/italypersonalfinance",
-    "url": "https://www.reddit.com/r/ItaliaPersonalFinance/wiki/index/",
+    "url": "https://reddit.com/r/ItaliaPersonalFinance/wiki/index/",
     "description": "[ITA] Wiki sulla finanza personale",
     "tags": [
       "edu",

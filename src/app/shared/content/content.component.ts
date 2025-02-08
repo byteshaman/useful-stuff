@@ -72,7 +72,9 @@ export class ContentComponent implements OnInit, AfterViewInit {
     
     // Deep copy
     this.dataSource.data = JSON.parse(JSON.stringify(this.tableData));
-    
+
+    let urls = [websites, software, l4d].flatMap(array => array.map(item => item.url));
+    console.log(urls)
     // Select every tag at first
     this.setSelectableTags();
     this.updateTagOccurrences();
@@ -178,23 +180,6 @@ export class ContentComponent implements OnInit, AfterViewInit {
     return this.tagOccurrences[tag] || 0;
   }
 
-  /**
-   * Update selected and selectable tags, filter data
-   * @param  {string} tag
-   * @returns void
-   */
-  handleButtonClick(tag: string): void {
-    if (!this.selectedTags.includes(tag)) {
-      this.selectedTags.push(tag);
-    } else {
-      const idx = this.selectedTags.findIndex(t => t === tag);
-      this.selectedTags.splice(idx,1);
-    }
-
-    this.filterDataByTags();
-    this.setSelectableTags();
-  }
-
   @HostListener('window:keydown', ['$event'])
   handleKeyboardEvent(event: KeyboardEvent) {
     this.sequence += event.key.toLowerCase();
@@ -208,7 +193,6 @@ export class ContentComponent implements OnInit, AfterViewInit {
     if (this.sequence === this.devModeKeyword) {
       this.devMode = !this.devMode;
       this.sequence = '';
-
 
       // Show buttons when in dev mode
       if (this.devMode) {
@@ -226,8 +210,25 @@ export class ContentComponent implements OnInit, AfterViewInit {
    * @param  {string} tag
    * @returns boolean
    */
-  isButtonDisabled(tag: string): boolean {
+  isBtnDisabled(tag: string): boolean {
     return !this.selectableTags.has(tag);
+  }
+
+  /**
+   * Update selected and selectable tags, filter data
+   * @param  {string} tag
+   * @returns void
+   */
+  onTagBtnClick(tag: string): void {
+    if (!this.selectedTags.includes(tag)) {
+      this.selectedTags.push(tag);
+    } else {
+      const idx = this.selectedTags.findIndex(t => t === tag);
+      this.selectedTags.splice(idx, 1);
+    }
+
+    this.filterDataByTags();
+    this.setSelectableTags();
   }
 
   /**

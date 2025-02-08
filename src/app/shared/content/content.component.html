@@ -1,5 +1,5 @@
-<div id="grid-container">
-  <div id="container-left">
+<div class="grid-layout">
+  <div class="left">
     <!-- Categories title -->
     <ul>
       @for (category of categories; track category) {
@@ -8,19 +8,19 @@
     </ul>
 
     <!-- Buttons -->
-    <div id="button-container">
+    <div class="button-container">
       @for (tag of tags; track tag) {
         <button mat-raised-button
-          [ngClass]="[getColorClass(tag.category!), getSelectedClass(tag.value)]" (click)="handleButtonClick(tag.value)"
-          [disabled]="isButtonDisabled(tag.value)">
+          [ngClass]="[getColorClass(tag.category!), getSelectedClass(tag.value)]" (click)="onTagBtnClick(tag.value)"
+          [disabled]="isBtnDisabled(tag.value)">
           {{ tag.description }}
         </button>
       }
     </div>
   </div>
 
-  <div id="container-right">
-    <div id="search-container">
+  <div>
+    <div class="search">
       <!-- Show only in dev mode -->
       @if (devMode) {
         <button mat-raised-button color="accent" (click)="openDialog()">
@@ -29,7 +29,7 @@
       }
 
       <!-- MARK: search -->
-      <mat-form-field appearance="outline" [floatLabel]="'always'">
+      <mat-form-field appearance="outline" floatLabel="always">
         <mat-label>Search</mat-label>
         <input matInput #input (keyup)="applyFilter($event)">
       </mat-form-field>
@@ -42,7 +42,7 @@
       }
     </div>
 
-    <div id="table-container">
+    <div class="table">
       <table mat-table matSort [dataSource]="dataSource">
         @for (col of columns; track col) {
           <ng-container [matColumnDef]="col">

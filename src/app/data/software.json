@@ -133,7 +133,7 @@
     "id": 13,
     "description": "Video editor designed for simple cutting, filtering and encoding tasks",
     "name": "Avidemux",
-    "url": "https://www.fosshub.com/Avidemux.html",
+    "url": "https://fosshub.com/Avidemux.html",
     "tags": [
       "editor",
       "video"
@@ -176,16 +176,6 @@
     "tags": [
       "misc",
       "utility"
-    ]
-  },
-  {
-    "id": 18,
-    "description": "Search and download subtitles quickly",
-    "name": "Caption",
-    "url": "https://getcaption.co/",
-    "tags": [
-      "downloader",
-      "subs"
     ]
   },
   {
@@ -240,7 +230,7 @@
     "id": 25,
     "description": "Management utility for Crucial SSDs",
     "name": "Crucial Storage Executive Tool",
-    "url": "https://www.crucial.com/support/storage-executive",
+    "url": "https://crucial.com/support/storage-executive",
     "tags": [
       "disk",
       "utility"
@@ -310,7 +300,7 @@
   {
     "id": 226,
     "name": "Dimensions2Folder",
-    "url": "https://www.dcmembers.com/skwire/download/dimensions-2-folders/",
+    "url": "https://dcmembers.com/skwire/download/dimensions-2-folders/",
     "description": "Sort images into folders based on their resolutions",
     "tags": [
       "image"
@@ -339,7 +329,7 @@
     "id": 33,
     "description": "Completely uninstall AMD/NVIDIA graphics card drivers without leaving traces behind",
     "name": "Display Driver Uninstaller",
-    "url": "https://guru3d.com/files_details/display_driver_uninstaller_download.html",
+    "url": "https://guru3d.com/download/display-driver-uninstaller-download/",
     "tags": [
       "uninstaller",
       "utility"
@@ -349,7 +339,7 @@
     "id": 34,
     "description": "Client to manage synchronized data on Google Drive",
     "name": "Drive",
-    "url": "https://www.google.com/drive/download/",
+    "url": "https://google.com/drive/download/",
     "tags": [
       "fef",
       "utility"
@@ -417,7 +407,7 @@
   {
     "id": 211,
     "name": "Fences",
-    "url": "https://www.stardock.com/products/fences/",
+    "url": "https://stardock.com/products/fences/",
     "description": "Keep your desktop effortlessly organized",
     "tags": [
       "misc",
@@ -434,16 +424,6 @@
       "editor",
       "player",
       "video"
-    ]
-  },
-  {
-    "id": 41,
-    "description": "Easily and quickly rename multiple files at once",
-    "name": "File Renamer",
-    "url": "https://sherrodcomputers.com/products_filerenamer.cfm",
-    "tags": [
-      "fef",
-      "utility"
     ]
   },
   {
@@ -487,7 +467,7 @@
   {
     "id": 236,
     "name": "Flow Launcher",
-    "url": "https://www.flowlauncher.com/",
+    "url": "https://flowlauncher.com/",
     "description": "File search and app launcher for Windows",
     "tags": [
       "sys",
@@ -515,7 +495,7 @@
   {
     "id": 215,
     "name": "fre:ac",
-    "url": "https://www.freac.org/",
+    "url": "https://freac.org/",
     "description": "Powerful audio converter",
     "tags": [
       "audio",
@@ -817,7 +797,7 @@
     "id": 77,
     "description": "Send keyboard macros activated from different USB devices",
     "name": "HID macros",
-    "url": "http://hidmacros.eu/download.php",
+    "url": "https://hidmacros.eu/download.php",
     "tags": [
       "misc",
       "utility"
@@ -913,7 +893,7 @@
   {
     "id": 223,
     "name": "Light Image Resizer",
-    "url": "https://www.obviousidea.com/windows-software/light-image-resizer/",
+    "url": "https://obviousidea.com/windows-software/light-image-resizer/",
     "description": "Powerful images resizer and converter",
     "tags": [
       "editor",
@@ -1069,7 +1049,7 @@
     "id": 98,
     "description": "Stand-alone memory testing software for x86 and ARM computers",
     "name": "MemTest86",
-    "url": "https://www.memtest86.com/download.htm",
+    "url": "https://memtest86.com/download.htm",
     "tags": [
       "hw",
       "misc"
@@ -1187,7 +1167,7 @@
   {
     "id": 217,
     "name": "MouseMux",
-    "url": "https://www.mousemux.com/",
+    "url": "https://mousemux.com/",
     "description": "Use multiple mice on one desktop",
     "tags": [
       "misc",
@@ -1315,7 +1295,7 @@
   {
     "id": 219,
     "name": "OP AutoClicker",
-    "url": "https://www.opautoclicker.com/",
+    "url": "https://opautoclicker.com/",
     "description": "Automate mouse clicks",
     "tags": [
       "misc",
@@ -1524,7 +1504,7 @@
   {
     "id": 213,
     "name": "reWASD",
-    "url": "https://www.rewasd.com/",
+    "url": "https://rewasd.com/",
     "description": "Powerful gamepad mapper",
     "tags": [
       "gaming",
@@ -1535,7 +1515,7 @@
     "id": 133,
     "description": "Complete powerful tweaking environment to tune NVIDIA GPU based display adapters",
     "name": "RivaTuner",
-    "url": "https://guru3d.com/content-page/rivatuner.html",
+    "url": "https://guru3d.com/download/rtss-rivatuner-statistics-server-download/",
     "tags": [
       "hw",
       "utility"
@@ -1700,7 +1680,7 @@
   {
     "id": 238,
     "name": "Sweet Home 3D",
-    "url": "https://www.sweethome3d.com/",
+    "url": "https://sweethome3d.com/",
     "description": "Free interior design application",
     "tags": [
       "misc",
@@ -1867,7 +1847,7 @@
     "id": 165,
     "description": "Create a virtual unit where you can load CDs and DVDs as if you were putting them in the tray",
     "name": "VirtualCloneDrive",
-    "url": "https://www.elby.ch/en/products/vcd.html",
+    "url": "https://elby.ch/en/products/vcd.html",
     "tags": [
       "disk",
       "tool"
@@ -2275,7 +2255,7 @@
   {
     "id": 228,
     "name": "XMedia Recode",
-    "url": "https://www.xmedia-recode.de/en/download.php",
+    "url": "https://xmedia-recode.de/en/download.php",
     "description": "All-in-One video and audio converter",
     "tags": [
       "audio",
