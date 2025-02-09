@@ -1,5 +1,5 @@
-<div class="grid-layout">
-  <div class="left">
+<div class="grid-layout" [class.mobile]="showSidenav">
+  <aside id="sidenav">
     <!-- Categories title -->
      <div class="categories">
        @for (category of categories; track category) {
@@ -17,9 +17,10 @@
         </button>
       }
     </div>
-  </div>
+  </aside>
 
-  <div>
+  <main id="content">
+    <!-- SEARCH -->
     <div class="search">
       <!-- Show only in dev mode -->
       @if (devMode) {
@@ -42,6 +43,7 @@
       }
     </div>
 
+    <!-- TABLE -->
     <div class="table">
       <table mat-table matSort [dataSource]="dataSource">
         @for (col of columns; track col) {
@@ -89,5 +91,5 @@
         <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
       </table>
     </div>
-  </div>
+  </main>
 </div>

@@ -1,10 +1,10 @@
 .grid-layout {
   display: grid;
   margin-top: 10px;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: auto 1fr;
 }
 
-.left {
+aside {
   align-self: center; 
 
   .categories {
@@ -16,7 +16,7 @@
 
   // BUTTONS
   .button-container {
-    margin: 20px auto;
+    margin-top: 5px;
     display: grid;
     grid-template-columns: repeat(2,130px);
     justify-content: center;
@@ -37,13 +37,28 @@
   }
 }
 
+.grid-layout.mobile {
+  grid-template-columns: 150px 1fr;
+
+  aside{
+    align-self: unset; 
+    height: calc(100vh - 75px);
+    overflow-y: auto;
+
+    // BUTTONS
+    .button-container {
+      display: grid;
+      grid-template-columns: 130px;
+    }
+  }
+}
+
 // RIGHT
 
 .table {
-  width: calc(100% - 50px);
+  margin: 0 5px;
   height: 80vh;
   overflow-y: auto;
-  margin: 0 auto;
 
   th, td {
     &:not(:last-child) {

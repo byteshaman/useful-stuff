@@ -15,6 +15,11 @@ import { MatIcon } from '@angular/material/icon';
 import { MatButton, MatIconButton } from '@angular/material/button';
 import { NgClass, UpperCasePipe } from '@angular/common';
 
+import { OnDestroy, inject } from '@angular/core';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
+import { Subject } from 'rxjs';
+import { takeUntil } from 'rxjs/operators';
+
 @Component({
     selector: 'app-content',
     templateUrl: './content.component.html',
@@ -33,19 +38,33 @@ export class ContentComponent implements OnInit, AfterViewInit {
   selectableTags!: Set<string>;
 
   // devmode
-  devMode: boolean = false;
-  sequence: string = '';
-  devModeKeyword: string = 'devmode';
+  devMode = false;
+  sequence = '';
+  devModeKeyword = 'devmode';
+
+  //sidenav
+  destroyed = new Subject<void>();
+  showSidenav!: boolean;
+  isSidenavOpen = false;
 
   // mat-table
   columns: string[] = this.devMode ? ['name', 'description', 'tags'] : ['name', 'description'];
   displayedColumns: string[] = [];
   dataSource: MatTableDataSource<WebsiteInfo> = new MatTableDataSource();
-
+  
   // export
   filename: string = ''; 
 
-  constructor(public dialog: MatDialog, private changeDetectorRefs: ChangeDetectorRef) { }
+  constructor(public dialog: MatDialog, private changeDetectorRefs: ChangeDetectorRef) { 
+    inject(BreakpointObserver).observe([Breakpoints.XSmall, Breakpoints.Small])
+      .pipe(
+        takeUntil(this.destroyed) // Unsubscribe when the component is destroyed
+      )
+      .subscribe(result => {
+        this.showSidenav = result.matches;
+      });
+
+  }
 
   ngOnInit(): void {
     

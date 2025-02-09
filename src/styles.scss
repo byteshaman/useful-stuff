@@ -25,12 +25,12 @@ $my-theme: mat.m2-define-dark-theme(
   )
 );
 
-//apply the theme to every component, call modify-background to update the
+//apply the theme to every component
 @include mat.all-component-themes(palette-helper.modify-background($my-theme, $darker-background-color));
 
-// background-color: #1a1c1d;
+// background-color: #1a1c1d; 
 html, body { height: 100%;  }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; padding: 0 5px; }
 
 .mat-raised-button.mat-warn, .mat-fab.mat-warn, .mat-mini-fab.mat-warn, .mat-flat-button, .mat-raised-button, .mat-fab, .mat-mini-fab {
   background-color: $darker-background-color;
@@ -40,3 +40,24 @@ button {
   height: 30px !important;
   padding: 0 6px !important;
 }
+
+// Scrollbar
+
+$sb-track-color: #202324;
+$sb-thumb-color: #666666;
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: $sb-track-color;
+  margin-left: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $sb-thumb-color;
+  border-radius: 5px;
+  height: 50px;
+}
+
