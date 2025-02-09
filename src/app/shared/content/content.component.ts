@@ -31,7 +31,6 @@ export class ContentComponent implements OnInit, AfterViewInit {
   tags: TagInfo[] = [];
   selectedTags: string[] = [];
   selectableTags!: Set<string>;
-  tagOccurrences: { [key: string]: number } = {};
 
   // devmode
   devMode: boolean = false;
@@ -73,11 +72,11 @@ export class ContentComponent implements OnInit, AfterViewInit {
     // Deep copy
     this.dataSource.data = JSON.parse(JSON.stringify(this.tableData));
 
-    let urls = [websites, software, l4d].flatMap(array => array.map(item => item.url));
-    console.log(urls)
+    // let urls = [websites, software, l4d].flatMap(array => array.map(item => item.url));
+    // console.log(urls)
+
     // Select every tag at first
     this.setSelectableTags();
-    this.updateTagOccurrences();
   }
   
   /**
@@ -98,7 +97,6 @@ export class ContentComponent implements OnInit, AfterViewInit {
     this.dataSource.filter = filterValue.trim().toLowerCase();
 
     this.setSelectableTags();
-    this.updateTagOccurrences();
   }
 
   /**
@@ -138,11 +136,8 @@ export class ContentComponent implements OnInit, AfterViewInit {
     } else {
       this.dataSource.data = this.tableData;
     }
-
-
-    this.updateTagOccurrences();
   }
-
+  
   /**
    * Get color class based on name
    * @param  {string} categoryName
@@ -171,14 +166,6 @@ export class ContentComponent implements OnInit, AfterViewInit {
   getSelectedClass(tag: string): string {
     return this.selectedTags.includes(tag) ? 'selected' : '';
   }  
-
-  /**
-   * @param  {string} tag
-   * @returns number
-   */
-  getTagOccurrences(tag: string): number {
-    return this.tagOccurrences[tag] || 0;
-  }
 
   @HostListener('window:keydown', ['$event'])
   handleKeyboardEvent(event: KeyboardEvent) {
@@ -289,8 +276,6 @@ export class ContentComponent implements OnInit, AfterViewInit {
     } else {
       this.selectableTags = new Set<string>(this.tags.flatMap(t => t.value));
     }
-
-    this.updateTagOccurrences();
   }
 
   /**
@@ -301,16 +286,5 @@ export class ContentComponent implements OnInit, AfterViewInit {
    */
   sortByKey(arr: WebsiteInfo[], key: keyof WebsiteInfo): WebsiteInfo[] {
     return arr.sort((a, b) => ((a[key] as string).toLowerCase() > (b[key] as string).toLowerCase()) ? 1 : ((b[key] as string).toLowerCase() > (a[key] as string).toLowerCase()) ? -1 : 0)
-  }
-
-  updateTagOccurrences(): void {
-    this.tagOccurrences = {};
-    this.dataSource.filteredData.forEach(item => {
-      item.tags.forEach(tag => {
-        if (this.selectableTags.has(tag)) {
-          this.tagOccurrences[tag] = (this.tagOccurrences[tag] || 0) + 1;
-        }
-      });
-    });
   }
 }

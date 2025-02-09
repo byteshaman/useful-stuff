@@ -142,8 +142,8 @@
   {
     "id": 14,
     "description": "Eliminate the barrier between your machines",
-    "name": "Barrier",
-    "url": "https://github.com/debauchee/barrier/releases",
+    "name": "InputLeap",
+    "url": "https://github.com/input-leap/input-leap",
     "tags": [
       "screen",
       "utility"
@@ -2255,7 +2255,7 @@
   {
     "id": 228,
     "name": "XMedia Recode",
-    "url": "https://xmedia-recode.de/en/download.php",
+    "url": "https://www.xmedia-recode.de/en/download.php",
     "description": "All-in-One video and audio converter",
     "tags": [
       "audio",

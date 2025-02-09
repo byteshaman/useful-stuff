@@ -1,11 +1,11 @@
 <div class="grid-layout">
   <div class="left">
     <!-- Categories title -->
-    <ul>
-      @for (category of categories; track category) {
-        <li [ngClass]="getColorClass(category!)">{{ category | uppercase }}</li>
-      }
-    </ul>
+     <div class="categories">
+       @for (category of categories; track category) {
+         <span [ngClass]="getColorClass(category!)">{{ category | uppercase }}</span>
+       }
+     </div>
 
     <!-- Buttons -->
     <div class="button-container">
@@ -67,8 +67,6 @@
               {{ [element.tags.join(', ')] }}
             </td>
           </ng-container>
-        }
-        @if (devMode) {
           <ng-container [matColumnDef]="'actions'">
             <th mat-header-cell *matHeaderCellDef> ACTIONS </th>
             <td mat-cell *matCellDef="let element; let i = index;" class="icon-cell">
