@@ -13,22 +13,28 @@ import { MatInput } from '@angular/material/input';
 import { MatFormField, MatLabel } from '@angular/material/form-field';
 import { MatIcon } from '@angular/material/icon';
 import { MatButton, MatIconButton } from '@angular/material/button';
-import { NgClass, UpperCasePipe } from '@angular/common';
+import { NgClass, NgTemplateOutlet, UpperCasePipe } from '@angular/common';
 
 import { OnDestroy, inject } from '@angular/core';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
+const CUSTOM_BREAKPOINTS = {
+  small: '(max-width: 1199.98px)'
+};
+
 @Component({
     selector: 'app-content',
     templateUrl: './content.component.html',
     styleUrls: ['./content.component.scss'],
-    imports: [NgClass, MatButton, MatIcon, MatFormField, MatLabel, MatInput, MatTable, MatSort, MatColumnDef, MatHeaderCellDef, MatHeaderCell, MatSortHeader, MatCellDef, MatCell, MatIconButton, MatNoDataRow, MatHeaderRowDef, MatHeaderRow, MatRowDef, MatRow, UpperCasePipe]
+    imports: [NgClass, MatButton, MatIcon, MatFormField, MatLabel, MatInput, MatTable, MatSort, MatColumnDef, MatHeaderCellDef, MatHeaderCell, MatSortHeader, MatCellDef, MatCell, MatIconButton, MatNoDataRow, MatHeaderRowDef, MatHeaderRow, MatRowDef, MatRow, UpperCasePipe, NgTemplateOutlet]
 })
-export class ContentComponent implements OnInit, AfterViewInit {
+export class ContentComponent implements OnInit, AfterViewInit, OnDestroy {
   @Input() pageInfo!: PageInfo; 
   @ViewChild(MatSort, { static: true }) sort!: MatSort;
+
+
 
   // data structures
   tableData: WebsiteInfo[] = []; // contains every possible entry for the table
@@ -43,9 +49,8 @@ export class ContentComponent implements OnInit, AfterViewInit {
   devModeKeyword = 'devmode';
 
   //sidenav
-  destroyed = new Subject<void>();
-  showSidenav!: boolean;
-  isSidenavOpen = false;
+  private destroy$ = new Subject<void>();
+  isMobile!: boolean;
 
   // mat-table
   columns: string[] = this.devMode ? ['name', 'description', 'tags'] : ['name', 'description'];
@@ -56,12 +61,12 @@ export class ContentComponent implements OnInit, AfterViewInit {
   filename: string = ''; 
 
   constructor(public dialog: MatDialog, private changeDetectorRefs: ChangeDetectorRef) { 
-    inject(BreakpointObserver).observe([Breakpoints.XSmall, Breakpoints.Small])
+    inject(BreakpointObserver).observe([CUSTOM_BREAKPOINTS.small])
       .pipe(
-        takeUntil(this.destroyed) // Unsubscribe when the component is destroyed
+        takeUntil(this.destroy$) // Unsubscribe when the component is destroyed
       )
       .subscribe(result => {
-        this.showSidenav = result.matches;
+        this.isMobile = result.matches;
       });
 
   }
@@ -104,6 +109,11 @@ export class ContentComponent implements OnInit, AfterViewInit {
   */
   ngAfterViewInit(): void {
    this.dataSource.sort = this.sort;
+  }
+
+  ngOnDestroy() {
+    this.destroy$.next();
+    this.destroy$.complete();
   }
 
   /**

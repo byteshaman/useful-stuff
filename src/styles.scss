@@ -42,10 +42,10 @@ button {
 }
 
 // Scrollbar
-
 $sb-track-color: #202324;
 $sb-thumb-color: #666666;
 
+// Custom scrollbar styles for WebKit browsers
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -58,6 +58,44 @@ $sb-thumb-color: #666666;
 ::-webkit-scrollbar-thumb {
   background: $sb-thumb-color;
   border-radius: 5px;
-  height: 50px;
+  height: 50px; 
 }
 
+html {
+  --mdc-protected-button-label-text-size: 12px;
+}
+
+// UTILITY
+
+$gaps: (
+  sm: 3px, 
+  md: 5px, 
+  lg: 8px
+);
+
+@each $name, $size in $gaps { // Create classes: .gap-xs, .gap-sm, etc
+  .gap--#{$name} {
+    gap: $size;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+
+  &--nowrap {
+    flex-wrap: nowrap;
+  }
+
+  &--col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  // justify content (main axis)
+  &--jc {
+    &-center {
+      justify-content: center;
+    }
+  }
+}

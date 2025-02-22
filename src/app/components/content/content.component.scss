@@ -1,0 +1,103 @@
+$search--width: 200px;
+$search--width--mobile: 50%;
+$taglist--cols: 9;
+$taglist-search--height: 160px;
+
+.taglist-search {
+  display: grid;
+  height: $taglist-search--height;
+  grid-template-columns: 200px 1fr; // SEARCH-200PX | TAGLIST-1F
+
+
+  .search {
+    align-self: end;
+
+    button {
+      min-width: 36px;
+      padding: 0;
+      margin-top: 8px; //alisng with search
+
+      mat-icon {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  // DESKTOP TAGLIST
+  .taglist {
+    align-self: center;
+    &__content { 
+      display: grid;
+      grid-template-columns: repeat($taglist--cols, auto);;
+
+      .tag {
+        &.selected {
+          background-color: #7e7e7e;
+        }
+
+        &:disabled,
+        &:disabled:hover {
+          pointer-events: none;
+          opacity: 0.45;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+.table-wrapper {
+  margin: 0 5px;
+  height: 80vh;
+  overflow-y: auto;
+
+  th, td {
+    &:not(:last-child) {
+      border-right: 1px solid #575757;
+    }
+  }
+
+  a, a:hover {
+    color: #6989e2;
+    text-decoration: none;
+  }
+
+  .no-data {
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .icon-cell {
+    width: 100px;
+
+    // Fix button size and adjust ripple
+    button {
+      padding: 0;
+      width: 30px;
+      height: 30px;
+
+      // Prevent hover
+      --mat-mdc-button-persistent-ripple-color: none;
+    }
+  }
+}
+
+
+.orange,
+:hover.orange {
+  color: orange !important;
+}
+
+.yellowgreen,
+:hover.yellowgreen {
+  color: yellowgreen !important;
+}
+
+.yellow,
+:hover.yellow {
+  color: yellow !important;
+}

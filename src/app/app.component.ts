@@ -1,16 +1,18 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { PageInfo } from './interfaces/interfaces';
 import { pages } from './data/pages.data';
-import { ContentComponent } from './shared/content/content.component';
+import { ContentComponent } from './components/content/content.component';
 
 import { MatTabGroup, MatTab, MatTabContent } from '@angular/material/tabs';
+import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
     encapsulation: ViewEncapsulation.None,
-    imports: [MatTabGroup, MatTab, MatTabContent, ContentComponent]
+  imports: [MatTabGroup, MatTab, MatTabContent, ContentComponent, CommonModule]
 })
 export class AppComponent {
   pages: PageInfo[] = pages;
