@@ -96,8 +96,8 @@
   {
     "id": 10,
     "description": "CSS animations",
-    "name": "animate.css",
-    "url": "https://daneden.github.io/animate.css/",
+    "name": "animate.style",
+    "url": "https://animate.style/",
     "tags": [
       "css"
     ]
@@ -219,17 +219,6 @@
     "tags": [
       "artut",
       "webdev"
-    ]
-  },
-  {
-    "id": 21,
-    "description": "Official Bootstrap 5 documentation",
-    "name": "Bootstrap",
-    "url": "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
-    "tags": [
-      "css",
-      "doc",
-      "libpak"
     ]
   },
   {
@@ -514,7 +503,7 @@
     "id": 46,
     "description": "A collection of popular layouts and patterns made with CSS",
     "name": "CSS Layout",
-    "url": "https://csslayout.io/",
+    "url": "https://phuoc.ng/collection/css-layout/",
     "tags": [
       "css"
     ]
@@ -1519,7 +1508,7 @@
     "id": 135,
     "description": "Bootstrap 4 tools",
     "name": "hackerthemes",
-    "url": "https://hackerthemes.com/bootstrap-tools/",
+    "url": "https://hackerthemes.com/bootstrap-cheatsheet/",
     "tags": [
       "css",
       "libpak",
@@ -3347,7 +3336,7 @@
     "id": 294,
     "description": "CSS selectors",
     "name": "W3.org",
-    "url": "https://w3.org/TR/selectors-3/#selectors",
+    "url": "https://w3.org/TR/selectors-4/#selectors",
     "tags": [
       "css",
       "doc"

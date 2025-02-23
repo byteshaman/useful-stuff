@@ -1,56 +1,47 @@
 $search--width: 200px;
 $search--width--mobile: 50%;
-$taglist--cols: 9;
+$taglist--cols: 10;
 $taglist-search--height: 160px;
 
-.taglist-search {
-  display: grid;
-  height: $taglist-search--height;
-  grid-template-columns: 200px 1fr; // SEARCH-200PX | TAGLIST-1F
 
+//#region desktop
 
-  .search {
-    align-self: end;
+.search-wrapper {
+  align-self: center;
 
-    button {
-      min-width: 36px;
-      padding: 0;
-      margin-top: 8px; //alisng with search
+  button {
+    color: darkgray;
+  }
+}
 
-      mat-icon {
-        margin: 0 auto;
-      }
-    }
+#categories {
+    min-height: 20px; // Avoid LCP layout shift
   }
 
-  // DESKTOP TAGLIST
-  .taglist {
-    align-self: center;
-    &__content { 
-      display: grid;
-      grid-template-columns: repeat($taglist--cols, auto);;
+#tags { 
+  display: flex;
+  flex-wrap: wrap;
 
-      .tag {
-        &.selected {
-          background-color: #7e7e7e;
-        }
+  .tag {
+    flex: 1 1 auto; // Occupy the needed space 
+    min-width: 0; // Override flex-basis to occupy it by using as little space as possible 
 
-        &:disabled,
-        &:disabled:hover {
-          pointer-events: none;
-          opacity: 0.45;
-        }
-      }
+
+    &.selected {
+      background-color: #7e7e7e;
+    }
+
+    &:disabled,
+    &:disabled:hover {
+      pointer-events: none;
+      opacity: 0.45;
     }
   }
 }
 
-
-
-
 .table-wrapper {
   margin: 0 5px;
-  height: 80vh;
+  max-height: calc(100vh - 200px);
   overflow-y: auto;
 
   th, td {
@@ -83,6 +74,23 @@ $taglist-search--height: 160px;
       // Prevent hover
       --mat-mdc-button-persistent-ripple-color: none;
     }
+  }
+}
+//#endregion
+
+// MOBILE
+.mobile { 
+  .table-wrapper {  
+    max-height: calc(100vh - 120px); // Maximize table height on mobile
+  }
+
+  #categories {
+    min-height: 0;
+  }
+
+  #tags {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); // Adjust grid columns for mobile
   }
 }
 

@@ -1,4 +1,4 @@
-import { AfterViewInit, ChangeDetectorRef, Component, HostListener, Input, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, ChangeDetectorRef, Component, HostListener, Input, OnInit, TemplateRef, ViewChild, Inject, inject, ElementRef } from '@angular/core';
 import { MatTableDataSource, MatTable, MatColumnDef, MatHeaderCellDef, MatHeaderCell, MatCellDef, MatCell, MatNoDataRow, MatHeaderRowDef, MatHeaderRow, MatRowDef, MatRow } from '@angular/material/table';
 import { l4dTags, softwareTags, websitesTags } from 'src/app/data/tags.data.';
 import { TagInfo, PageInfo, WebsiteInfo, operation } from 'src/app/interfaces/interfaces';
@@ -13,28 +13,28 @@ import { MatInput } from '@angular/material/input';
 import { MatFormField, MatLabel } from '@angular/material/form-field';
 import { MatIcon } from '@angular/material/icon';
 import { MatButton, MatIconButton } from '@angular/material/button';
-import { NgClass, NgTemplateOutlet, UpperCasePipe } from '@angular/common';
+import { CommonModule, NgTemplateOutlet, UpperCasePipe } from '@angular/common';
+import { MobileClassDirective } from 'src/app/directives/responsive.directive';
 
-import { OnDestroy, inject } from '@angular/core';
-import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { Subject } from 'rxjs';
-import { takeUntil } from 'rxjs/operators';
-
-const CUSTOM_BREAKPOINTS = {
-  small: '(max-width: 1199.98px)'
-};
+import {
+  MatBottomSheet,
+  MatBottomSheetRef,
+} from '@angular/material/bottom-sheet';
 
 @Component({
-    selector: 'app-content',
-    templateUrl: './content.component.html',
-    styleUrls: ['./content.component.scss'],
-    imports: [NgClass, MatButton, MatIcon, MatFormField, MatLabel, MatInput, MatTable, MatSort, MatColumnDef, MatHeaderCellDef, MatHeaderCell, MatSortHeader, MatCellDef, MatCell, MatIconButton, MatNoDataRow, MatHeaderRowDef, MatHeaderRow, MatRowDef, MatRow, UpperCasePipe, NgTemplateOutlet]
+  selector: 'app-content',
+  templateUrl: './content.component.html',
+  styleUrls: ['./content.component.scss'],
+  imports: [CommonModule, MatButton, MatIcon, MatFormField, MatInput, MatTable, MatSort, MatColumnDef, MatHeaderCellDef, MatHeaderCell, MatSortHeader, MatCellDef, MatCell, MatIconButton, MatNoDataRow, MatHeaderRowDef, MatHeaderRow, MatRowDef, MatRow, UpperCasePipe, NgTemplateOutlet, MobileClassDirective],
+  host: {
+    '(window:keydown)': 'onKeyDown($event)'
+  }
 })
-export class ContentComponent implements OnInit, AfterViewInit, OnDestroy {
+export class ContentComponent implements OnInit, AfterViewInit {
   @Input() pageInfo!: PageInfo; 
   @ViewChild(MatSort, { static: true }) sort!: MatSort;
-
-
+  @ViewChild("mobileDialog") mobileDialog!: TemplateRef<MatBottomSheetRef>;
+  @ViewChild("searchInput") searchInput!: ElementRef<HTMLInputElement>;
 
   // data structures
   tableData: WebsiteInfo[] = []; // contains every possible entry for the table
@@ -48,10 +48,6 @@ export class ContentComponent implements OnInit, AfterViewInit, OnDestroy {
   sequence = '';
   devModeKeyword = 'devmode';
 
-  //sidenav
-  private destroy$ = new Subject<void>();
-  isMobile!: boolean;
-
   // mat-table
   columns: string[] = this.devMode ? ['name', 'description', 'tags'] : ['name', 'description'];
   displayedColumns: string[] = [];
@@ -60,16 +56,28 @@ export class ContentComponent implements OnInit, AfterViewInit, OnDestroy {
   // export
   filename: string = ''; 
 
-  constructor(public dialog: MatDialog, private changeDetectorRefs: ChangeDetectorRef) { 
-    inject(BreakpointObserver).observe([CUSTOM_BREAKPOINTS.small])
-      .pipe(
-        takeUntil(this.destroy$) // Unsubscribe when the component is destroyed
-      )
-      .subscribe(result => {
-        this.isMobile = result.matches;
-      });
+  // Services
+  private readonly dialog = inject(MatDialog);
+  private readonly bottomDialog = inject(MatBottomSheet); // needed to open the mobile dialog
 
+  openMobileDialog(): void {
+    const mobileDialogRef = this.bottomDialog.open(this.mobileDialog, {
+      panelClass: 'mobile', // Add a class to the bottom sheet wrapper element
+      restoreFocus: false, // Disable restoring focus to the previously focused element
+    });
+
+    mobileDialogRef.afterDismissed().subscribe(() => {
+      this.focusSearch()
+    });
   }
+
+  focusSearch(): void {
+    setTimeout(() => {
+      this.searchInput.nativeElement.focus();
+    }, 50);
+  }
+
+  constructor(private changeDetectorRefs: ChangeDetectorRef) { }
 
   ngOnInit(): void {
     
@@ -108,12 +116,8 @@ export class ContentComponent implements OnInit, AfterViewInit, OnDestroy {
    * @returns void
   */
   ngAfterViewInit(): void {
-   this.dataSource.sort = this.sort;
-  }
-
-  ngOnDestroy() {
-    this.destroy$.next();
-    this.destroy$.complete();
+    this.dataSource.sort = this.sort;
+    this.focusSearch();
   }
 
   /**
@@ -196,8 +200,13 @@ export class ContentComponent implements OnInit, AfterViewInit, OnDestroy {
     return this.selectedTags.includes(tag) ? 'selected' : '';
   }  
 
-  @HostListener('window:keydown', ['$event'])
-  handleKeyboardEvent(event: KeyboardEvent) {
+  onKeyDown(event: KeyboardEvent) {
+    debugger;
+    // If s button is pressed, focus on search bar
+    if (event.key === 's') {
+      this.focusSearch();
+    }
+
     this.sequence += event.key.toLowerCase();
 
     // Keep only last n characters
@@ -268,9 +277,9 @@ export class ContentComponent implements OnInit, AfterViewInit, OnDestroy {
       data: {websiteInfo: dialogData, tags: this.tags}
     }
 
-    let dialogRef = this.dialog.open(FormDialogComponent, dialogConfig);
+    let formDialogRef = this.dialog.open(FormDialogComponent, dialogConfig);
 
-    dialogRef.afterClosed().subscribe((res: WebsiteInfo | undefined) => {
+    formDialogRef.afterClosed().subscribe((res: WebsiteInfo | undefined) => {
       if (res !== undefined) {
         // Replace existing element
         if (operation === 'edit') {

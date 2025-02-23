@@ -1,6 +1,6 @@
 <mat-tab-group color="primary" animationDuration="0ms" mat-stretch-tabs="false" mat-align-tabs="center"
   [(selectedIndex)]="selectedTabIndex" (selectedIndexChange)="onTabChange($event)">
-  @for (page of pages; track page) {
+  @for (page of pages; track page.code) {
     <mat-tab [label]="page.description">
       <!-- lazy load component -->
       <ng-template matTabContent>

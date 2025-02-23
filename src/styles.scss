@@ -2,6 +2,25 @@
 @use './app/palette-helper.scss'; //for custom background Material color
 // @import '@angular/material/theming'; // removed after updating material to v17
 
+// Override material tokens
+:root {
+  @include mat.table-overrides((
+    header-container-height: 40px, // Height of the table header row
+    row-item-container-height: 32px, // Height of the table data row
+  ));
+  
+  @include mat.form-field-overrides((
+    container-height: 32px, // Height of the form field container
+    container-vertical-padding: 6px, // Vertical padding of the form field container
+  ));
+
+  @include mat.button-overrides((
+    container-height: 28px
+  ));
+  --mat-protected-button-horizontal-padding: 4px
+
+}
+
 $darker-background-color: #222;
 
 .custom-app-background {
@@ -30,15 +49,10 @@ $my-theme: mat.m2-define-dark-theme(
 
 // background-color: #1a1c1d; 
 html, body { height: 100%;  }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; padding: 0 5px; }
+body { margin: 0 auto; font-family: Roboto, "Helvetica Neue", sans-serif; padding: 0 5px; max-width: 1400px; }
 
 .mat-raised-button.mat-warn, .mat-fab.mat-warn, .mat-mini-fab.mat-warn, .mat-flat-button, .mat-raised-button, .mat-fab, .mat-mini-fab {
   background-color: $darker-background-color;
-}
-
-button {
-  height: 30px !important;
-  padding: 0 6px !important;
 }
 
 // Scrollbar
@@ -98,4 +112,15 @@ $gaps: (
       justify-content: center;
     }
   }
+
+  // align items (cross axis)
+  &--ai {
+    &-center {
+      align-items: center;
+    }
+  }
+}
+
+.mt-5 {
+  margin-top: 5px;
 }

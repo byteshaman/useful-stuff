@@ -292,17 +292,17 @@ export const softwareTags: TagInfo[] = [
     description: "Browser",
   },
   {
-    category: "subcategory",
+    category: "main category",
     value: "conv",
     description: "Converter",
   },
   {
-    category: "subcategory",
+    category: "main category",
     value: "db",
     description: "Database",
   },
   {
-    category: "subcategory",
+    category: "main category",
     value: "disk",
     description: "Disk",
   },
@@ -312,17 +312,17 @@ export const softwareTags: TagInfo[] = [
     description: "Downloader",
   },
   {
-    category: "subcategory",
+    category: "main category",
     value: "driver",
     description: "Driver",
   },
   {
-    category: "subcategory",
+    category: "main category",
     value: "editor",
     description: "Editor",
   },
   {
-    category: "subcategory",
+    category: "main category",
     value: "fef",
     description: "Files & Folders",
   },
@@ -337,7 +337,7 @@ export const softwareTags: TagInfo[] = [
     description: "Google Chrome",
   },
   {
-    category: "subcategory",
+    category: "main category",
     value: "hw",
     description: "Hardware",
   },
@@ -347,12 +347,12 @@ export const softwareTags: TagInfo[] = [
     description: "Image",
   },
   {
-    category: "subcategory",
+    category: "main category",
     value: "misc",
     description: "Miscellaneous",
   },
   {
-    category: "subcategory",
+    category: "main category",
     value: "music",
     description: "Music",
   },
@@ -367,7 +367,7 @@ export const softwareTags: TagInfo[] = [
     description: "Open Source",
   },
   {
-    category: "subcategory",
+    category: "main category",
     value: "player",
     description: "Player",
   },
@@ -382,7 +382,7 @@ export const softwareTags: TagInfo[] = [
     description: "Programming",
   },
   {
-    category: "subcategory",
+    category: "main category",
     value: "screen",
     description: "Screen",
   },
@@ -392,22 +392,22 @@ export const softwareTags: TagInfo[] = [
     description: "Security",
   },
   {
-    category: "subcategory",
+    category: "main category",
     value: "subs",
     description: "Subtitle",
   },
   {
-    category: "subcategory",
+    category: "main category",
     value: "sys",
     description: "System",
   },
   {
-    category: "subcategory",
+    category: "main category",
     value: "torrent",
     description: "Torrent",
   },
   {
-    category: "subcategory",
+    category: "main category",
     value: "uninstaller",
     description: "Uninstaller",
   },
