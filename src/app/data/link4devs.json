@@ -1272,6 +1272,16 @@
     ]
   },
   {
+    "id": 409,
+    "name": "GC - Angular DevTools",
+    "url": "https://chromewebstore.google.com/detail/angular-devtools/ienfalfjdbdpebioblfackkekamfmbnh",
+    "description": "Extends Chrome DevTools adding Angular specific debugging and profiling capabilities",
+    "tags": [
+      "ag",
+      "ext/plugin"
+    ]
+  },
+  {
     "id": 381,
     "description": "Easily download single files from GitHub",
     "name": "GC - GitHub Downloader",
@@ -1292,18 +1302,9 @@
   },
   {
     "id": 383,
-    "description": "Validate and view JSON documents",
-    "name": "GC - JSONView",
+    "name": "GC - JSONVue",
     "url": "https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc",
-    "tags": [
-      "ext/plugin"
-    ]
-  },
-  {
-    "id": 384,
-    "description": "The world's most popular userscript manager",
-    "name": "GC - Tamper Monkey",
-    "url": "https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo",
+    "description": "Validate and view JSON documents",
     "tags": [
       "ext/plugin"
     ]

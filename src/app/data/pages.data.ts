@@ -13,6 +13,6 @@ export const pages: PageInfo[] = [
   {
     code: 'sw',
     description: 'Software',
-    categories: ['main category', 'subcategory', 'ext/plugin']
+    categories: ['category', 'extra', 'ext/plugin']
   },
 ]

@@ -140,16 +140,6 @@
     ]
   },
   {
-    "id": 14,
-    "description": "Eliminate the barrier between your machines",
-    "name": "InputLeap",
-    "url": "https://github.com/input-leap/input-leap",
-    "tags": [
-      "screen",
-      "utility"
-    ]
-  },
-  {
     "id": 15,
     "description": "Free and powerful antivirus",
     "name": "BitDefender",
@@ -531,6 +521,15 @@
     ]
   },
   {
+    "id": 245,
+    "name": "GC - AliHelper",
+    "url": "https://chromewebstore.google.com/detail/alihelper-shopping-assist/ojclfkinnapkabameogjppmeedlicean",
+    "description": "Assists you in purchasing high-quality items at low prices on AliExpress",
+    "tags": [
+      "gc"
+    ]
+  },
+  {
     "id": 50,
     "description": "Adds a volume slider to most pages on Bandcamp website",
     "name": "GC - Bandcamp Volume",
@@ -550,19 +549,19 @@
     ]
   },
   {
-    "id": 52,
-    "description": "Easily set dark themes for every web page you want",
-    "name": "GC - Dark Reader",
-    "url": "https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh",
+    "id": 186,
+    "description": "Adds a toggleable sidebar with all your bookmarks at the edge of your browser window",
+    "name": "GC - Bookmark Sidebar",
+    "url": "https://chrome.google.com/webstore/detail/dark-reader/jdbnofccmhefkmjbkkdkfiicjkgofkdh",
     "tags": [
       "gc"
     ]
   },
   {
-    "id": 186,
-    "description": "Adds a toggleable sidebar with all your bookmarks at the edge of your browser window",
-    "name": "GC - Bookmark Sidebar",
-    "url": "https://chrome.google.com/webstore/detail/dark-reader/jdbnofccmhefkmjbkkdkfiicjkgofkdh",
+    "id": 52,
+    "description": "Easily set dark themes for every web page you want",
+    "name": "GC - Dark Reader",
+    "url": "https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh",
     "tags": [
       "gc"
     ]
@@ -608,6 +607,42 @@
     "description": "Amazon price tracker",
     "name": "GC - Keepa",
     "url": "https://chrome.google.com/webstore/detail/neebplgakaahbhdphmkckjjcegoiijjo",
+    "tags": [
+      "gc"
+    ]
+  },
+  {
+    "id": 248,
+    "name": "GC - Letterboxd autocomplete",
+    "url": "https://chromewebstore.google.com/detail/letterboxd-search-autocom/dklhllepnaoaanbkmjmimceipbgblkjb",
+    "description": "Adds autocomplete to Letterboxd search",
+    "tags": [
+      "gc"
+    ]
+  },
+  {
+    "id": 249,
+    "name": "GC - Looper for YouTube",
+    "url": "https://chromewebstore.google.com/detail/looper-for-youtube/iggpfpnahkgpnindfkdncknoldgnccdg",
+    "description": "Auto replay videos with one click",
+    "tags": [
+      "gc"
+    ]
+  },
+  {
+    "id": 247,
+    "name": "GC - Reddit untranslate",
+    "url": "https://chromewebstore.google.com/detail/reddit-untranslate/eninkmbmgkpkcelmohdlgldafpkfpnaf",
+    "description": "Untranslate Reddit URLs",
+    "tags": [
+      "gc"
+    ]
+  },
+  {
+    "id": 246,
+    "name": "GC - SponsorBlock for YouTube",
+    "url": "https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone",
+    "description": "Skip sponsorships, subscription begging and more on YouTube videos",
     "tags": [
       "gc"
     ]
@@ -698,12 +733,11 @@
   },
   {
     "id": 74,
-    "description": "Google web browser",
     "name": "Google Chrome",
     "url": "https://google.com/chrome/",
+    "description": "Google web browser",
     "tags": [
-      "browser",
-      "gc"
+      "browser"
     ]
   },
   {
@@ -754,6 +788,16 @@
     "tags": [
       "editor",
       "image"
+    ]
+  },
+  {
+    "id": 14,
+    "description": "Eliminate the barrier between your machines",
+    "name": "InputLeap",
+    "url": "https://github.com/input-leap/input-leap",
+    "tags": [
+      "screen",
+      "utility"
     ]
   },
   {

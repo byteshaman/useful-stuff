@@ -178,10 +178,10 @@ export class ContentComponent implements OnInit, AfterViewInit {
    */
   getColorClass(categoryName: string): string {
     switch (categoryName) {
-      case 'main category':
+      case 'category':
       case 'topic':
         return 'yellowgreen';
-      case 'subcategory':
+      case 'extra':
       case 'resource type':
         return 'orange';
       case 'ext/plugin':
