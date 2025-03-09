@@ -43,7 +43,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 4,
     "description": "env() gotcha in Laravel when caching configuration",
     "name": "andy.carter",
     "url": "https://andy-carter.com/blog/env-gotcha-in-laravel-when-caching-configuration",
@@ -53,7 +53,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 5,
     "description": "Dynamic (JSON powered) form library for Angular that bring unmatched maintainability to your application's forms",
     "name": "Angular Formly",
     "url": "https://formly.dev/",
@@ -63,7 +63,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 6,
     "description": "RxJs error handling: the practical guide",
     "name": "Angular University",
     "url": "https://blog.angular-university.io/rxjs-error-handling/",
@@ -74,7 +74,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 7,
     "description": "Angular: ngmodule vs jsmodule",
     "name": "angular.io",
     "url": "https://angular.io/guide/ngmodule-vs-jsmodule",
@@ -84,7 +84,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 8,
     "description": "Understanding template variables",
     "name": "angular.io",
     "url": "https://angular.io/guide/template-reference-variables",
@@ -94,7 +94,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 9,
     "description": "CSS animations",
     "name": "animate.style",
     "url": "https://animate.style/",
@@ -103,7 +103,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 10,
     "description": "How to choose an open source license",
     "name": "arstechnica.com",
     "url": "https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/",
@@ -113,7 +113,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 11,
     "description": "How to log queries in laravel",
     "name": "ArtisanWeb",
     "url": "https://artisansweb.net/how-to-log-query-in-laravel/",
@@ -123,7 +123,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 12,
     "description": "Git tutorials: beginner to advanced",
     "name": "Atlassian",
     "url": "https://atlassian.com/git/tutorials",
@@ -133,7 +133,7 @@
     ]
   },
   {
-    "id": 343,
+    "id": 13,
     "name": "AttackDefense",
     "url": "https://attackdefense.com/",
     "description": "Practice on offensive and defensive labs to enhance cybersecurity skills",
@@ -182,7 +182,7 @@
     ]
   },
   {
-    "id": 355,
+    "id": 18,
     "name": "Baseline.js",
     "url": "https://baseline.is/tools/type-scale-generator/",
     "description": "Easy to use type scale generator for consistent typography",
@@ -192,7 +192,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "description": "Beautifiers, converters, validator and more useful tools!",
     "name": "BeautifyTools",
     "url": "https://beautifytools.com/",
@@ -202,7 +202,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "description": "Hide laravel datatables buttons under a dropdown button",
     "name": "blog.quickadminpanel",
     "url": "https://blog.quickadminpanel.com/datatables-editdelete-buttons-hide-under-javascript-dropdown/",
@@ -212,7 +212,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "description": "Blog about web development and cloud computing",
     "name": "Bobby Hadz Blog",
     "url": "https://bobbyhadz.com/",
@@ -304,7 +304,7 @@
     ]
   },
   {
-    "id": 353,
+    "id": 30,
     "name": "Checklist.Design",
     "url": "https://checklist.design/",
     "description": "A collection of the best design practices",
@@ -315,7 +315,7 @@
     ]
   },
   {
-    "id": 30,
+    "id": 31,
     "description": "Quickly generate Linux permissions in numerical and symbolic formats",
     "name": "chmodcommand",
     "url": "https://chmodcommand.com/",
@@ -326,7 +326,7 @@
     ]
   },
   {
-    "id": 31,
+    "id": 32,
     "description": "A collection of useful snippets and code examples for various languages",
     "name": "Code cheatsheets",
     "url": "https://shortcode.dev/",
@@ -337,7 +337,7 @@
     ]
   },
   {
-    "id": 32,
+    "id": 33,
     "description": "How to work with GitHub and multiple accounts",
     "name": "Code Tutsplus",
     "url": "https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574",
@@ -347,7 +347,7 @@
     ]
   },
   {
-    "id": 33,
+    "id": 34,
     "description": "Online front-end editor",
     "name": "Codepen",
     "url": "https://codepen.io/",
@@ -358,7 +358,7 @@
     ]
   },
   {
-    "id": 34,
+    "id": 35,
     "description": "CSS filter generator to convert from black to target hex color",
     "name": "Codepen",
     "url": "https://codepen.io/sosuke/pen/Pjoqqp",
@@ -368,7 +368,7 @@
     ]
   },
   {
-    "id": 35,
+    "id": 36,
     "description": "A collection of programming resources curated by the CodeSupport community",
     "name": "CodeSupport",
     "url": "https://codesupport.dev/resources",
@@ -377,7 +377,7 @@
     ]
   },
   {
-    "id": 36,
+    "id": 37,
     "description": "Code challenges",
     "name": "Codewars",
     "url": "https://codewars.com/",
@@ -388,7 +388,7 @@
     ]
   },
   {
-    "id": 322,
+    "id": 38,
     "name": "CodinGame",
     "url": "https://codingame.com/playgrounds/347/javascript-promises-mastering-the-asynchronous/what-is-asynchronous-in-javascript",
     "description": "What is asynchronous in JavaScript?",
@@ -398,7 +398,7 @@
     ]
   },
   {
-    "id": 37,
+    "id": 39,
     "description": "Convert colors in 15 different formats",
     "name": "Converting Colors",
     "url": "https://convertingcolors.com/",
@@ -408,7 +408,7 @@
     ]
   },
   {
-    "id": 354,
+    "id": 40,
     "name": "Coolors",
     "url": "https://coolors.co/",
     "description": "The super fast color palettes generator",
@@ -418,7 +418,7 @@
     ]
   },
   {
-    "id": 38,
+    "id": 41,
     "description": "Standard C++ Library reference",
     "name": "cplusplus",
     "url": "http://cplusplus.com/reference/",
@@ -428,7 +428,7 @@
     ]
   },
   {
-    "id": 39,
+    "id": 42,
     "description": "C++ forum where you can ask for help",
     "name": "cplusplus",
     "url": "http://cplusplus.com/forum/",
@@ -437,7 +437,7 @@
     ]
   },
   {
-    "id": 40,
+    "id": 43,
     "description": "C++ reference",
     "name": "cppreference",
     "url": "https://en.cppreference.com/w/cpp",
@@ -447,7 +447,7 @@
     ]
   },
   {
-    "id": 41,
+    "id": 44,
     "description": "The quick and simple editor for cron schedule expressions",
     "name": "crontab.guru",
     "url": "https://crontab.guru/",
@@ -458,7 +458,7 @@
     ]
   },
   {
-    "id": 42,
+    "id": 45,
     "description": "Use your CSS skills to replicate targets with smallest possible code",
     "name": "CSS Battle",
     "url": "https://cssbattle.dev/",
@@ -468,7 +468,7 @@
     ]
   },
   {
-    "id": 43,
+    "id": 46,
     "description": "Learn CSS selectors with this interactive game",
     "name": "CSS Diner",
     "url": "https://flukeout.github.io/",
@@ -479,7 +479,7 @@
     ]
   },
   {
-    "id": 44,
+    "id": 47,
     "description": "A demonstration of what can be accomplished visually through CSS-based design",
     "name": "CSS Garden",
     "url": "http://csszengarden.com/",
@@ -489,7 +489,7 @@
     ]
   },
   {
-    "id": 45,
+    "id": 48,
     "description": "Learn CSS grid with this interactive game",
     "name": "CSS Grid Garden",
     "url": "https://cssgridgarden.com/",
@@ -500,7 +500,7 @@
     ]
   },
   {
-    "id": 46,
+    "id": 49,
     "description": "A collection of popular layouts and patterns made with CSS",
     "name": "CSS Layout",
     "url": "https://phuoc.ng/collection/css-layout/",
@@ -509,7 +509,7 @@
     ]
   },
   {
-    "id": 47,
+    "id": 50,
     "description": "A visual guide to CSS",
     "name": "CSS Reference",
     "url": "https://cssreference.io/",
@@ -519,7 +519,7 @@
     ]
   },
   {
-    "id": 48,
+    "id": 51,
     "description": "CSS Grid: auto-fill vs auto-fit",
     "name": "CSS Tricks",
     "url": "https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/",
@@ -529,7 +529,7 @@
     ]
   },
   {
-    "id": 49,
+    "id": 52,
     "description": "Check if a website is available with PHP",
     "name": "CSS Tricks",
     "url": "https://css-tricks.com/snippets/php/check-if-website-is-available/",
@@ -539,7 +539,7 @@
     ]
   },
   {
-    "id": 324,
+    "id": 53,
     "name": "CSS Zen Garden",
     "url": "http://csszengarden.com/",
     "description": "A demonstration of what can be accomplished through CSS-based design",
@@ -549,7 +549,7 @@
     ]
   },
   {
-    "id": 50,
+    "id": 54,
     "description": "Alphabetical list of CSS selectors and properties",
     "name": "CSS-tricks",
     "url": "https://css-tricks.com/almanac/",
@@ -558,7 +558,7 @@
     ]
   },
   {
-    "id": 51,
+    "id": 55,
     "description": "All about floats",
     "name": "CSS-Tricks",
     "url": "https://css-tricks.com/all-about-floats/",
@@ -568,7 +568,7 @@
     ]
   },
   {
-    "id": 52,
+    "id": 56,
     "description": "Complete flexbox guide",
     "name": "CSS-Tricks",
     "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
@@ -578,7 +578,7 @@
     ]
   },
   {
-    "id": 53,
+    "id": 57,
     "description": "Complete grid guide",
     "name": "CSS-Tricks",
     "url": "https://css-tricks.com/snippets/css/complete-guide-grid/",
@@ -588,7 +588,7 @@
     ]
   },
   {
-    "id": 54,
+    "id": 58,
     "description": "CSS: Multiple class vs ID+class selector",
     "name": "CSS-Tricks",
     "url": "https://css-tricks.com/multiple-class-id-selectors/",
@@ -598,7 +598,7 @@
     ]
   },
   {
-    "id": 55,
+    "id": 59,
     "description": "Convert CSS snippets to SASS",
     "name": "CSS2SASS",
     "url": "http://css2sass.herokuapp.com/",
@@ -608,7 +608,7 @@
     ]
   },
   {
-    "id": 56,
+    "id": 60,
     "description": "700 + CSS icons",
     "name": "CSSgg",
     "url": "https://css.gg/",
@@ -617,7 +617,7 @@
     ]
   },
   {
-    "id": 57,
+    "id": 61,
     "description": "CSS gradient generator",
     "name": "CSSGradient",
     "url": "https://cssgradient.io/",
@@ -627,7 +627,7 @@
     ]
   },
   {
-    "id": 58,
+    "id": 62,
     "description": "Guide to building layouts with CSS Grid, featuring a CSS Grid Builder tool",
     "name": "cssgrid coffeecup",
     "url": "http://css-grid.coffeecup.com/css-grid-guide.html",
@@ -638,7 +638,7 @@
     ]
   },
   {
-    "id": 59,
+    "id": 63,
     "description": "Learn CSS grid for free with these 25 videos",
     "name": "cssgrid.io",
     "url": "https://cssgrid.io/",
@@ -648,7 +648,7 @@
     ]
   },
   {
-    "id": 60,
+    "id": 64,
     "description": "What are PHP lambdas and closures ?",
     "name": "culttt.com",
     "url": "https://culttt.com/2013/03/25/what-are-php-lambdas-and-closures/",
@@ -658,7 +658,7 @@
     ]
   },
   {
-    "id": 61,
+    "id": 65,
     "description": "CSS range generator for range inputs",
     "name": "danielstern",
     "url": "http://danielstern.ca/range.css/#/",
@@ -668,7 +668,7 @@
     ]
   },
   {
-    "id": 62,
+    "id": 66,
     "description": "Add advanced interaction controls to your HTML tables",
     "name": "DataTables",
     "url": "https://datatables.net/reference/option/",
@@ -677,7 +677,7 @@
     ]
   },
   {
-    "id": 63,
+    "id": 67,
     "description": "DataTables options documentation",
     "name": "DataTables",
     "url": "https://datatables.net/reference/option/",
@@ -686,7 +686,7 @@
     ]
   },
   {
-    "id": 64,
+    "id": 68,
     "description": "DataTables plugin playground",
     "name": "DataTables live",
     "url": "http://live.datatables.net/",
@@ -695,7 +695,7 @@
     ]
   },
   {
-    "id": 65,
+    "id": 69,
     "description": "Modern JS date utility library",
     "name": "Date FNS",
     "url": "https://date-fns.org/",
@@ -705,7 +705,7 @@
     ]
   },
   {
-    "id": 66,
+    "id": 70,
     "description": "How to Get and Set CSS Variable Values with JS",
     "name": "davidwalsh.name",
     "url": "https://davidwalsh.name/css-variables-javascript",
@@ -716,7 +716,7 @@
     ]
   },
   {
-    "id": 342,
+    "id": 71,
     "name": "dev.to",
     "url": "https://dev.to/saulodias/ternary-operator-better-alternatives-2ind",
     "description": "Ternary Operator: Better Alternatives",
@@ -727,7 +727,7 @@
     ]
   },
   {
-    "id": 327,
+    "id": 72,
     "name": "dev.to",
     "url": "https://dev.to/josiasaurel/11-javascript-console-commands-explained-4pi5",
     "description": "11 JavaScript Console Commands",
@@ -737,7 +737,7 @@
     ]
   },
   {
-    "id": 67,
+    "id": 73,
     "description": "Learning the Big O",
     "name": "dev.to",
     "url": "https://dev.to/nmhummel/learning-the-big-o-1eod?",
@@ -746,7 +746,7 @@
     ]
   },
   {
-    "id": 68,
+    "id": 74,
     "description": "What is a higher-order Observable?",
     "name": "dev.to",
     "url": "https://dev.to/angular/what-is-a-higher-order-observable-4k52",
@@ -756,7 +756,7 @@
     ]
   },
   {
-    "id": 69,
+    "id": 75,
     "description": "How to add a pre loader in your website",
     "name": "dev.to",
     "url": "https://dev.to/amitthakur11/how-to-add-a-pre-loader-in-your-website-140i",
@@ -766,7 +766,7 @@
     ]
   },
   {
-    "id": 70,
+    "id": 76,
     "description": "Introduction to promises in JavaScript",
     "name": "dev.to",
     "url": "https://dev.to/abhishekjain35/introduction-to-promises-in-javascript-3cd4",
@@ -776,7 +776,7 @@
     ]
   },
   {
-    "id": 71,
+    "id": 77,
     "description": "Multiple API documentations combined in a fast, organized, and searchable interface",
     "name": "devdocs.io",
     "url": "https://devdocs.io/",
@@ -787,7 +787,7 @@
     ]
   },
   {
-    "id": 72,
+    "id": 78,
     "description": "Step by step guides and paths to learn different tools or technologies",
     "name": "Developer Roadmaps",
     "url": "https://roadmap.sh/roadmaps",
@@ -797,7 +797,7 @@
     ]
   },
   {
-    "id": 349,
+    "id": 79,
     "name": "DevIcon",
     "url": "https://devicon.dev/",
     "description": "A set of icons representing programming languages, designing, and development tools",
@@ -807,7 +807,7 @@
     ]
   },
   {
-    "id": 73,
+    "id": 80,
     "description": "Interactive demo of some of Firefox Developer Edition's newest tools for manipulating CSS animations",
     "name": "DevTools Challenger",
     "url": "http://devtoolschallenger.com/",
@@ -817,7 +817,7 @@
     ]
   },
   {
-    "id": 74,
+    "id": 81,
     "description": "An introduction to networking terminology",
     "name": "Digital Ocean",
     "url": "https://digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols",
@@ -826,7 +826,7 @@
     ]
   },
   {
-    "id": 75,
+    "id": 82,
     "description": "Understanding to JS Promises",
     "name": "DigitalOcean",
     "url": "https://digitalocean.com/community/tutorials/understanding-javascript-promises",
@@ -836,7 +836,7 @@
     ]
   },
   {
-    "id": 76,
+    "id": 83,
     "description": "CodeSupport Discord server",
     "name": "Discord",
     "url": "https://discord.com/invite/XQ9C3sY",
@@ -846,7 +846,7 @@
     ]
   },
   {
-    "id": 77,
+    "id": 84,
     "description": "FreeCodeCamp official Discord server",
     "name": "Discord",
     "url": "https://discord.gg/KVUmVXA",
@@ -856,7 +856,7 @@
     ]
   },
   {
-    "id": 78,
+    "id": 85,
     "description": "Frontend Developers Discord server",
     "name": "Discord",
     "url": "https://discordapp.com/invite/kx7pk6J",
@@ -866,7 +866,7 @@
     ]
   },
   {
-    "id": 79,
+    "id": 86,
     "description": "TheCodingDen Discord server",
     "name": "Discord",
     "url": "https://discord.gg/code",
@@ -876,7 +876,7 @@
     ]
   },
   {
-    "id": 80,
+    "id": 87,
     "description": "Programming Discussions Discord server",
     "name": "Discord",
     "url": "http://invite.progdisc.club/",
@@ -886,7 +886,7 @@
     ]
   },
   {
-    "id": 81,
+    "id": 88,
     "description": "The biggest general programming server on Discord",
     "name": "Discord",
     "url": "https://discord.gg/programming",
@@ -896,7 +896,7 @@
     ]
   },
   {
-    "id": 82,
+    "id": 89,
     "description": "Official r/webdev Discord server",
     "name": "Discord",
     "url": "https://discord.gg/keD8rZp",
@@ -906,7 +906,7 @@
     ]
   },
   {
-    "id": 83,
+    "id": 90,
     "description": "SQL UNION",
     "name": "DoFactory",
     "url": "https://dofactory.com/sql/union",
@@ -917,7 +917,7 @@
     ]
   },
   {
-    "id": 84,
+    "id": 91,
     "description": "DOM standard",
     "name": "DOM.specs",
     "url": "https://dom.spec.whatwg.org/",
@@ -927,7 +927,7 @@
     ]
   },
   {
-    "id": 85,
+    "id": 92,
     "description": "What are callback functions in JS ?",
     "name": "dummies.com",
     "url": "https://dummies.com/web-design-development/javascript/what-are-callbacks-in-javascript-coding/",
@@ -937,7 +937,7 @@
     ]
   },
   {
-    "id": 86,
+    "id": 93,
     "description": "Angular vs React vs Node",
     "name": "Education Ecosystem Blog",
     "url": "https://blog.education-ecosystem.com/angular-js-vs-react-js-vs-node-js-which-is-the-best/",
@@ -947,7 +947,7 @@
     ]
   },
   {
-    "id": 323,
+    "id": 94,
     "name": "educative.io",
     "url": "https://educative.io/answers/how-to-change-a-git-commit-message-after-a-push",
     "description": "How to change a Git commit message after a push",
@@ -957,7 +957,7 @@
     ]
   },
   {
-    "id": 87,
+    "id": 95,
     "description": "[ITA] Appunti vari informatica",
     "name": "Edutecnica",
     "url": "http://edutecnica.it/informatica.htm",
@@ -967,7 +967,7 @@
     ]
   },
   {
-    "id": 88,
+    "id": 96,
     "description": "Formly library video-tutorial",
     "name": "EggHead",
     "url": "https://egghead.io/courses/configuration-based-reactive-angular-forms-with-ngx-formly-465f",
@@ -978,7 +978,7 @@
     ]
   },
   {
-    "id": 89,
+    "id": 97,
     "description": "Send email directly from JS",
     "name": "EmailJS",
     "url": "https://emailjs.com/",
@@ -988,7 +988,7 @@
     ]
   },
   {
-    "id": 90,
+    "id": 98,
     "description": "Overview of JS ES6 new features",
     "name": "es6-features",
     "url": "https://github.com/lukehoban/es6features",
@@ -998,7 +998,7 @@
     ]
   },
   {
-    "id": 91,
+    "id": 99,
     "description": "JS syntax validator",
     "name": "Esprima",
     "url": "https://esprima.org/demo/validate.html",
@@ -1008,7 +1008,7 @@
     ]
   },
   {
-    "id": 92,
+    "id": 100,
     "description": "Ever wondered how it all started ?",
     "name": "Evolution of the Web",
     "url": "http://evolutionoftheweb.com/",
@@ -1017,7 +1017,7 @@
     ]
   },
   {
-    "id": 93,
+    "id": 101,
     "description": "Code practice and mentorship for everyone",
     "name": "Exercism",
     "url": "https://exercism.io/",
@@ -1028,7 +1028,7 @@
     ]
   },
   {
-    "id": 94,
+    "id": 102,
     "description": "How to add an event listener to multiple elements in JS",
     "name": "flavioscopes.com",
     "url": "https://flaviocopes.com/how-to-add-event-listener-multiple-elements-javascript/",
@@ -1038,7 +1038,7 @@
     ]
   },
   {
-    "id": 95,
+    "id": 103,
     "description": "The Web Storage API: local storage and session storage",
     "name": "flavioscopes.com",
     "url": "https://flaviocopes.com/web-storage-api/",
@@ -1048,7 +1048,7 @@
     ]
   },
   {
-    "id": 96,
+    "id": 104,
     "description": "How to sort an array of objects by a property value in JavaScript",
     "name": "flavioscopes.com",
     "url": "https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/",
@@ -1058,7 +1058,7 @@
     ]
   },
   {
-    "id": 97,
+    "id": 105,
     "description": "The Document Object Model",
     "name": "flavioscopes.com",
     "url": "https://flaviocopes.com/dom/",
@@ -1068,7 +1068,7 @@
     ]
   },
   {
-    "id": 98,
+    "id": 106,
     "description": "Efficiently load JS with defer and async",
     "name": "flavioscopes.com",
     "url": "https://flaviocopes.com/javascript-async-defer/",
@@ -1079,7 +1079,7 @@
     ]
   },
   {
-    "id": 99,
+    "id": 107,
     "description": "Learn flexbox with this interactive game",
     "name": "Flexbox Defense",
     "url": "http://flexboxdefense.com/",
@@ -1090,7 +1090,7 @@
     ]
   },
   {
-    "id": 100,
+    "id": 108,
     "description": "Learn flexbox with this interactive game",
     "name": "Flexbox Froggy",
     "url": "https://flexboxfroggy.com/",
@@ -1101,7 +1101,7 @@
     ]
   },
   {
-    "id": 101,
+    "id": 109,
     "description": "Learn flexbox for free with these 20 videos",
     "name": "Flexbox.io",
     "url": "https://flexbox.io/",
@@ -1111,7 +1111,7 @@
     ]
   },
   {
-    "id": 102,
+    "id": 110,
     "description": "Free FontAwesome icons",
     "name": "FontAwesome",
     "url": "https://fontawesome.com/icons?d=gallery&m=free",
@@ -1121,7 +1121,7 @@
     ]
   },
   {
-    "id": 334,
+    "id": 111,
     "name": "FormSubmit.co",
     "url": "https://formsubmit.co/",
     "description": "Easy form endpoints for your HTML forms",
@@ -1131,7 +1131,7 @@
     ]
   },
   {
-    "id": 103,
+    "id": 112,
     "description": "Learn to code online and get certifications or ask for help in the official FCC forum",
     "name": "FreeCodeCamp",
     "url": "https://freecodecamp.org/",
@@ -1143,7 +1143,7 @@
     ]
   },
   {
-    "id": 104,
+    "id": 113,
     "description": "JS promise tutorial",
     "name": "FreeCodeCamp",
     "url": "https://freecodecamp.org/news/javascript-promise-tutorial-how-to-resolve-or-reject-promises-in-js/",
@@ -1153,7 +1153,7 @@
     ]
   },
   {
-    "id": 105,
+    "id": 114,
     "description": "Various console() functions in JS",
     "name": "FreeCodeCamp",
     "url": "https://freecodecamp.org/news/javascript-console-log-example-how-to-print-to-the-console-in-js/",
@@ -1163,7 +1163,7 @@
     ]
   },
   {
-    "id": 106,
+    "id": 115,
     "description": "CSS selectors",
     "name": "FreeCodeCamp",
     "url": "https://guide.freecodecamp.org/css/tutorials/css-selectors-cheat-sheet/",
@@ -1173,7 +1173,7 @@
     ]
   },
   {
-    "id": 107,
+    "id": 116,
     "description": "Framework vs Library",
     "name": "FreeCodeCamp",
     "url": "https://freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/",
@@ -1183,7 +1183,7 @@
     ]
   },
   {
-    "id": 108,
+    "id": 117,
     "name": "FreeCodeCamp",
     "url": "https://freecodecamp.org/news/how-to-store-data-in-web-browser-storage-localstorage-and-session-storage-explained/",
     "description": "How to store data in web browser storage",
@@ -1193,7 +1193,7 @@
     ]
   },
   {
-    "id": 109,
+    "id": 118,
     "description": "How to use the Wireshark packet analyzer",
     "name": "FreeCodeCamp",
     "url": "https://freecodecamp.org/news/how-to-use-wireshark-packet-analyzer",
@@ -1203,7 +1203,7 @@
     ]
   },
   {
-    "id": 110,
+    "id": 119,
     "description": "List of HTML entities",
     "name": "FreeFormatter",
     "url": "https://freeformatter.com/html-entities.html",
@@ -1212,7 +1212,7 @@
     ]
   },
   {
-    "id": 111,
+    "id": 120,
     "description": "Lorem ipsum generator",
     "name": "FreeFormatter",
     "url": "https://freeformatter.com/lorem-ipsum-generator.html",
@@ -1222,7 +1222,7 @@
     ]
   },
   {
-    "id": 112,
+    "id": 121,
     "description": "Free HTML, CSS and JS code examples, tutorials and articles",
     "name": "FreeFrontend",
     "url": "https://freefrontend.com/",
@@ -1232,7 +1232,7 @@
     ]
   },
   {
-    "id": 113,
+    "id": 122,
     "description": "Take your frontend skills to the next level by recreating real websites",
     "name": "Frontend Practice",
     "url": "https://frontendpractice.com/",
@@ -1242,7 +1242,7 @@
     ]
   },
   {
-    "id": 346,
+    "id": 123,
     "name": "FrontFlipper",
     "url": "https://fontflipper.com/upload",
     "description": "Find free fonts",
@@ -1252,7 +1252,7 @@
     ]
   },
   {
-    "id": 114,
+    "id": 124,
     "description": "Positioning explained with GIFs",
     "name": "Froont blog",
     "url": "https://blog.froont.com/positioning-in-web-design/",
@@ -1262,7 +1262,7 @@
     ]
   },
   {
-    "id": 340,
+    "id": 125,
     "name": "gabrieleromanato.com",
     "url": "https://gabrieleromanato.com/2024/01/angular-organizzare-file-e-directory-di-un-applicazione",
     "description": "[ITA] Angular: organizzare file e directory di un'applicazione",
@@ -1272,7 +1272,71 @@
     ]
   },
   {
-    "id": 115,
+    "id": 381,
+    "description": "Easily download single files from GitHub",
+    "name": "GC - GitHub Downloader",
+    "url": "https://chrome.google.com/webstore/detail/github-downloader/jplmabjbdhggnlhndkdfciacklbjcfel",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 382,
+    "description": "All-in-one extension for web developers",
+    "name": "GC - Hoverify",
+    "url": "https://chrome.google.com/webstore/detail/bbpokcagpggnekcmamgdieebhpkjmljm",
+    "tags": [
+      "ext/plugin",
+      "webdev"
+    ]
+  },
+  {
+    "id": 383,
+    "description": "Validate and view JSON documents",
+    "name": "GC - JSONView",
+    "url": "https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 384,
+    "description": "The world's most popular userscript manager",
+    "name": "GC - Tamper Monkey",
+    "url": "https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 385,
+    "name": "GC - Wappalyzer",
+    "url": "https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=it",
+    "description": "Identify web technologies",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 387,
+    "description": "Adds a toolbar button with various web developer tools",
+    "name": "GC - Web Developer",
+    "url": "https://chromewebstore.google.com/detail/web-developer-tool-for-ch/ghenifimhcdihapkceohjpgiabidpgji",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 386,
+    "description": "Resize the browser window to emulate various screen resolutions",
+    "name": "GC - Window Resizer",
+    "url": "https://chrome.google.com/webstore/detail/kkelicaakdanhinjdeammmilcgefonfh",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 126,
     "description": "Difference between, declarations, providers and import in ngmodule",
     "name": "Geeks for Geeks",
     "url": "https://geeksforgeeks.org/what-is-the-difference-between-declarations-providers-and-import-in-ngmodule/",
@@ -1283,7 +1347,7 @@
     ]
   },
   {
-    "id": 116,
+    "id": 127,
     "description": "How to use Mat-Dialog in Angular",
     "name": "Geeks for Geeks",
     "url": "https://geeksforgeeks.org/how-to-use-mat-dialog-in-angular/",
@@ -1293,7 +1357,7 @@
     ]
   },
   {
-    "id": 117,
+    "id": 128,
     "description": "Type conversion in C++",
     "name": "Geeks for Geeks",
     "url": "https://geeksforgeeks.org/type-conversion-in-c/",
@@ -1303,7 +1367,7 @@
     ]
   },
   {
-    "id": 118,
+    "id": 129,
     "description": "A computer science portal for geeks",
     "name": "Geeks for Geeks",
     "url": "https://geeksforgeeks.org/",
@@ -1314,7 +1378,7 @@
     ]
   },
   {
-    "id": 119,
+    "id": 130,
     "description": "Learn and practice Git and discover its features",
     "name": "Git Exercises",
     "url": "https://gitexercises.fracz.com/",
@@ -1324,7 +1388,7 @@
     ]
   },
   {
-    "id": 120,
+    "id": 131,
     "description": "How-tos list for Git",
     "name": "Git flight rules",
     "url": "https://github.com/k88hudson/git-flight-rules#conventions-for-this-document",
@@ -1334,7 +1398,7 @@
     ]
   },
   {
-    "id": 121,
+    "id": 132,
     "description": "Git cheat sheet of common oprations",
     "name": "Git-Hint",
     "url": "https://git-hint.netlify.app/",
@@ -1344,7 +1408,7 @@
     ]
   },
   {
-    "id": 122,
+    "id": 133,
     "description": "Learn Git and GitHub basics",
     "name": "Git-It",
     "url": "https://github.com/jlord/git-it-electron/releases",
@@ -1354,7 +1418,7 @@
     ]
   },
   {
-    "id": 123,
+    "id": 134,
     "description": "See what's going on underneath the hood when you use common Git operations",
     "name": "Git-School",
     "url": "http://git-school.github.io/visualizing-git/",
@@ -1364,7 +1428,7 @@
     ]
   },
   {
-    "id": 318,
+    "id": 135,
     "name": "GitHub",
     "url": "https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes",
     "description": "Linkedin skill assessments quizzes",
@@ -1374,7 +1438,7 @@
     ]
   },
   {
-    "id": 124,
+    "id": 136,
     "description": "Free programming books",
     "name": "GitHub",
     "url": "https://github.com/EbookFoundation/free-programming-books#list-of-free-learning-resources-in-many-languages-",
@@ -1383,7 +1447,7 @@
     ]
   },
   {
-    "id": 125,
+    "id": 137,
     "description": "Angular Flex-Layout module documentation",
     "name": "GitHub",
     "url": "https://github.com/angular/flex-layout/wiki",
@@ -1394,7 +1458,7 @@
     ]
   },
   {
-    "id": 126,
+    "id": 138,
     "description": "GitHub Student Developer Pack",
     "name": "GitHub",
     "url": "https://education.github.com/pack",
@@ -1403,7 +1467,7 @@
     ]
   },
   {
-    "id": 127,
+    "id": 139,
     "description": "JS script inclusion cheatsheet",
     "name": "GitHub",
     "url": "https://gist.github.com/jakub-g/385ee6b41085303a53ad92c7c8afd7a6",
@@ -1414,7 +1478,7 @@
     ]
   },
   {
-    "id": 128,
+    "id": 140,
     "description": "Clone vs Fork",
     "name": "Github Community",
     "url": "https://github.community/t5/Support-Protips/The-difference-between-forking-and-cloning-a-repository/ba-p/1372",
@@ -1424,7 +1488,7 @@
     ]
   },
   {
-    "id": 325,
+    "id": 141,
     "name": "Github gist",
     "url": "https://gist.github.com/LayZeeDK/c822cc812f75bb07b7c55d07ba2719b3",
     "description": "Angular CLI, Angular, Node.js, TypeScript, and RxJS version compatibility matrix",
@@ -1435,7 +1499,7 @@
     ]
   },
   {
-    "id": 129,
+    "id": 142,
     "description": "Free programming books",
     "name": "goalkicker",
     "url": "https://goalkicker.com/",
@@ -1444,7 +1508,7 @@
     ]
   },
   {
-    "id": 345,
+    "id": 143,
     "name": "Gogh",
     "url": "https://gogh-co.github.io/Gogh/",
     "description": "Colorschemes for terminals",
@@ -1454,7 +1518,7 @@
     ]
   },
   {
-    "id": 130,
+    "id": 144,
     "description": "Collection of examplesto help you learn CSS Grid Layout",
     "name": "gridbyexample",
     "url": "https://gridbyexample.com/examples/",
@@ -1463,7 +1527,7 @@
     ]
   },
   {
-    "id": 131,
+    "id": 145,
     "description": "HTML5 outliner",
     "name": "gsnedders",
     "url": "https://gsnedders.html5.org/outliner/",
@@ -1473,170 +1537,7 @@
     ]
   },
   {
-    "id": 132,
-    "description": "Guzzle PHP library documentation",
-    "name": "GuzzlePHP",
-    "url": "https://docs.guzzlephp.org/en/stable/",
-    "tags": [
-      "doc",
-      "php"
-    ]
-  },
-  {
-    "id": 133,
-    "description": "Free training ground for users to test and expand their hacking skills",
-    "name": "Hack This Site!",
-    "url": "https://hackthissite.org/pages/index/index.php",
-    "tags": [
-      "exercise",
-      "cybersec",
-      "interactive"
-    ]
-  },
-  {
-    "id": 134,
-    "description": "Free class for web security",
-    "name": "Hacker101",
-    "url": "https://hacker101.com/",
-    "tags": [
-      "exercise",
-      "cybersec",
-      "interactive"
-    ]
-  },
-  {
-    "id": 135,
-    "description": "Bootstrap 4 tools",
-    "name": "hackerthemes",
-    "url": "https://hackerthemes.com/bootstrap-cheatsheet/",
-    "tags": [
-      "css",
-      "libpak",
-      "tool"
-    ]
-  },
-  {
-    "id": 341,
-    "name": "Hacksplaining",
-    "url": "https://hacksplaining.com/lessons",
-    "description": "Security training for Web Developers",
-    "tags": [
-      "cybersec",
-      "interactive"
-    ]
-  },
-  {
-    "id": 339,
-    "name": "Hacksplaining",
-    "url": "https://hacksplaining.com/",
-    "description": "Security Training for Web Developers",
-    "tags": [
-      "cybersec",
-      "interactive"
-    ]
-  },
-  {
-    "id": 136,
-    "description": "Learn and improve your pen-testing skills",
-    "name": "HackTheBox",
-    "url": "https://hackthebox.eu/",
-    "tags": [
-      "exercise",
-      "cybersec",
-      "interactive"
-    ]
-  },
-  {
-    "id": 319,
-    "name": "hashes.com",
-    "url": "https://hashes.com/en/tools/hash_identifier",
-    "description": "Identify and detect unknown hashes",
-    "tags": [
-      "misc",
-      "tool"
-    ]
-  },
-  {
-    "id": 137,
-    "description": "Rock-solid and incredibly flexible charting library made for developers",
-    "name": "HighCharts",
-    "url": "https://highcharts.com/",
-    "tags": [
-      "js",
-      "libpak"
-    ]
-  },
-  {
-    "id": 138,
-    "description": "Complete guide to CSS centering",
-    "name": "howtocenterinCSS",
-    "url": "http://howtocenterincss.com/",
-    "tags": [
-      "css",
-      "interactive"
-    ]
-  },
-  {
-    "id": 139,
-    "description": "HTML document structure before and after HTML5",
-    "name": "HTML.com",
-    "url": "https://html.com/document/",
-    "tags": [
-      "artut",
-      "html"
-    ]
-  },
-  {
-    "id": 140,
-    "description": "[ITA] Guida al DOM",
-    "name": "HTML.it",
-    "url": "https://html.it/guide/guida-dom/",
-    "tags": [
-      "artut",
-      "html"
-    ]
-  },
-  {
-    "id": 141,
-    "description": "[ITA] Guida ai Web Components",
-    "name": "HTML.it",
-    "url": "https://html.it/guide/guida-ai-web-components/",
-    "tags": [
-      "artut",
-      "html"
-    ]
-  },
-  {
-    "id": 143,
-    "description": "Look up HTML5, CSS3, etc features, know if they are ready for use and find out how you should use them",
-    "name": "HTML5 Please",
-    "url": "https://html5please.com/",
-    "tags": [
-      "tips",
-      "webdev"
-    ]
-  },
-  {
-    "id": 144,
-    "description": "Manage HTML DOM with vanilla JS",
-    "name": "HTMLDOM",
-    "url": "https://htmldom.dev/",
-    "tags": [
-      "artut",
-      "js"
-    ]
-  },
-  {
-    "id": 146,
-    "description": "List of HTML global attributes",
-    "name": "MDN",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
-    "tags": [
-      "html"
-    ]
-  },
-  {
-    "id": 147,
+    "id": 162,
     "description": "URL vs URI",
     "name": "guru99",
     "url": "https://guru99.com/url-vs-uri-difference.html",
@@ -1647,7 +1548,161 @@
     ]
   },
   {
+    "id": 146,
+    "description": "Guzzle PHP library documentation",
+    "name": "GuzzlePHP",
+    "url": "https://docs.guzzlephp.org/en/stable/",
+    "tags": [
+      "doc",
+      "php"
+    ]
+  },
+  {
+    "id": 147,
+    "description": "Free training ground for users to test and expand their hacking skills",
+    "name": "Hack This Site!",
+    "url": "https://hackthissite.org/pages/index/index.php",
+    "tags": [
+      "exercise",
+      "cybersec",
+      "interactive"
+    ]
+  },
+  {
     "id": 148,
+    "description": "Free class for web security",
+    "name": "Hacker101",
+    "url": "https://hacker101.com/",
+    "tags": [
+      "exercise",
+      "cybersec",
+      "interactive"
+    ]
+  },
+  {
+    "id": 149,
+    "description": "Bootstrap 4 tools",
+    "name": "hackerthemes",
+    "url": "https://hackerthemes.com/bootstrap-cheatsheet/",
+    "tags": [
+      "css",
+      "libpak",
+      "tool"
+    ]
+  },
+  {
+    "id": 150,
+    "name": "Hacksplaining",
+    "url": "https://hacksplaining.com/lessons",
+    "description": "Security training for Web Developers",
+    "tags": [
+      "cybersec",
+      "interactive"
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Hacksplaining",
+    "url": "https://hacksplaining.com/",
+    "description": "Security Training for Web Developers",
+    "tags": [
+      "cybersec",
+      "interactive"
+    ]
+  },
+  {
+    "id": 152,
+    "description": "Learn and improve your pen-testing skills",
+    "name": "HackTheBox",
+    "url": "https://hackthebox.eu/",
+    "tags": [
+      "exercise",
+      "cybersec",
+      "interactive"
+    ]
+  },
+  {
+    "id": 153,
+    "name": "hashes.com",
+    "url": "https://hashes.com/en/tools/hash_identifier",
+    "description": "Identify and detect unknown hashes",
+    "tags": [
+      "misc",
+      "tool"
+    ]
+  },
+  {
+    "id": 154,
+    "description": "Rock-solid and incredibly flexible charting library made for developers",
+    "name": "HighCharts",
+    "url": "https://highcharts.com/",
+    "tags": [
+      "js",
+      "libpak"
+    ]
+  },
+  {
+    "id": 155,
+    "description": "Complete guide to CSS centering",
+    "name": "howtocenterinCSS",
+    "url": "http://howtocenterincss.com/",
+    "tags": [
+      "css",
+      "interactive"
+    ]
+  },
+  {
+    "id": 156,
+    "description": "HTML document structure before and after HTML5",
+    "name": "HTML.com",
+    "url": "https://html.com/document/",
+    "tags": [
+      "artut",
+      "html"
+    ]
+  },
+  {
+    "id": 157,
+    "description": "[ITA] Guida al DOM",
+    "name": "HTML.it",
+    "url": "https://html.it/guide/guida-dom/",
+    "tags": [
+      "artut",
+      "html"
+    ]
+  },
+  {
+    "id": 158,
+    "description": "[ITA] Guida ai Web Components",
+    "name": "HTML.it",
+    "url": "https://html.it/guide/guida-ai-web-components/",
+    "tags": [
+      "artut",
+      "html"
+    ]
+  },
+  {
+    "id": 159,
+    "description": "Look up HTML5, CSS3, etc features, know if they are ready for use and find out how you should use them",
+    "name": "HTML5 Please",
+    "url": "https://html5please.com/",
+    "tags": [
+      "tips",
+      "webdev"
+    ]
+  },
+  {
+    "id": 160,
+    "description": "Manage HTML DOM with vanilla JS",
+    "name": "HTMLDOM",
+    "url": "https://htmldom.dev/",
+    "tags": [
+      "artut",
+      "js"
+    ]
+  },
+  {
+    "id": 163,
     "description": "WebStorage documentation",
     "name": "HTMLSpec",
     "url": "https://html.spec.whatwg.org/multipage/webstorage.html#the-sessionstorage-attribute",
@@ -1658,7 +1713,7 @@
     ]
   },
   {
-    "id": 338,
+    "id": 164,
     "name": "ICodeThis",
     "url": "https://icodethis.com/",
     "description": "Daily projects you can build to improve your coding skills",
@@ -1669,7 +1724,7 @@
     ]
   },
   {
-    "id": 149,
+    "id": 165,
     "description": "[ITA] Corso su Python3",
     "name": "ifac",
     "url": "http://ifac.cnr.it/~zoppetti/corsopython/",
@@ -1679,7 +1734,7 @@
     ]
   },
   {
-    "id": 150,
+    "id": 166,
     "description": "RxJS in Angular: when to subscribe?",
     "name": "indepth.dev",
     "url": "https://indepth.dev/posts/1279/rxjs-in-angular-when-to-subscribe-rarely",
@@ -1690,7 +1745,7 @@
     ]
   },
   {
-    "id": 151,
+    "id": 167,
     "description": "RxJS operators list",
     "name": "indepth.dev",
     "url": "https://indepth.dev/reference/rxjs/operators",
@@ -1701,7 +1756,7 @@
     ]
   },
   {
-    "id": 152,
+    "id": 168,
     "description": "HTML/CSS tutorials for beginners",
     "name": "internetingishard",
     "url": "https://internetingishard.com/",
@@ -1712,7 +1767,7 @@
     ]
   },
   {
-    "id": 153,
+    "id": 169,
     "description": "ipcalc takes an IP address and netmask and calculates the resulting broadcast, network, Cisco wildcard mask, and host range",
     "name": "ipcalc",
     "url": "https://jodies.de/ipcalc",
@@ -1722,7 +1777,7 @@
     ]
   },
   {
-    "id": 154,
+    "id": 170,
     "description": "Overflow in CSS",
     "name": "ishadeed",
     "url": "https://ishadeed.com/article/overflow-css/",
@@ -1732,7 +1787,7 @@
     ]
   },
   {
-    "id": 155,
+    "id": 171,
     "description": "C++ core guidelines",
     "name": "ISO cpp",
     "url": "http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines.html",
@@ -1742,7 +1797,7 @@
     ]
   },
   {
-    "id": 335,
+    "id": 172,
     "name": "ItalianCoders",
     "url": "https://italiancoders.it/",
     "description": "[ITA] Vari articoli sulla programmazione",
@@ -1752,7 +1807,7 @@
     ]
   },
   {
-    "id": 156,
+    "id": 173,
     "description": "How to replicate your Git repo and keep all previous commits, branches, and tags",
     "name": "ITNext.io",
     "url": "https://itnext.io/git-repository-transfer-keeping-all-history-670fe04cd5e4",
@@ -1763,7 +1818,7 @@
     ]
   },
   {
-    "id": 157,
+    "id": 174,
     "description": "await vs return vs return await",
     "name": "JakeArchibald.com",
     "url": "https://jakearchibald.com/2017/await-vs-return-vs-return-await/",
@@ -1773,7 +1828,7 @@
     ]
   },
   {
-    "id": 158,
+    "id": 175,
     "description": "A growing collection of documentation about the most quirky parts of the JS programming language",
     "name": "JavaScript Garden",
     "url": "https://bonsaiden.github.io/JavaScript-Garden/",
@@ -1783,7 +1838,7 @@
     ]
   },
   {
-    "id": 159,
+    "id": 176,
     "description": "A guide to modern JS",
     "name": "JavaScript info",
     "url": "http://javascript.info",
@@ -1793,7 +1848,7 @@
     ]
   },
   {
-    "id": 160,
+    "id": 177,
     "description": "Mutation observer",
     "name": "JavaScript info",
     "url": "https://javascript.info/mutation-observer",
@@ -1803,7 +1858,7 @@
     ]
   },
   {
-    "id": 161,
+    "id": 178,
     "description": "How to deploy any app to GitHub Pages",
     "name": "javascript.plainenglish",
     "url": "https://javascript.plainenglish.io/deploying-any-app-to-github-pages-1e8e946bf890",
@@ -1812,7 +1867,7 @@
     ]
   },
   {
-    "id": 162,
+    "id": 179,
     "description": "Learn vanilla JS by building 30 things",
     "name": "JavaScript30",
     "url": "https://javascript30.com/",
@@ -1822,7 +1877,7 @@
     ]
   },
   {
-    "id": 163,
+    "id": 180,
     "description": "Time complexity in JS",
     "name": "JenniferBland.com",
     "url": "https://jenniferbland.com/time-complexity-analysis-in-javascript/",
@@ -1832,7 +1887,7 @@
     ]
   },
   {
-    "id": 164,
+    "id": 181,
     "description": "A guide to creating and hosting GitHub pages",
     "name": "jmcglone",
     "url": "http://jmcglone.com/guides/github-pages/",
@@ -1842,7 +1897,7 @@
     ]
   },
   {
-    "id": 165,
+    "id": 182,
     "description": "IP calculator, subnetting and supernetting",
     "name": "Jodies",
     "url": "http://jodies.de/ipcalc",
@@ -1852,7 +1907,7 @@
     ]
   },
   {
-    "id": 166,
+    "id": 183,
     "description": "Evie's accelerated JS tutorial",
     "name": "js.evie.dev",
     "url": "https://js.evie.dev/",
@@ -1862,7 +1917,7 @@
     ]
   },
   {
-    "id": 167,
+    "id": 184,
     "description": "JS library featuring a color picker with opacity channel",
     "name": "jscolor",
     "url": "https://jscolor.com/",
@@ -1872,7 +1927,17 @@
     ]
   },
   {
-    "id": 168,
+    "id": 398,
+    "name": "JSDoc Generator",
+    "url": "https://marketplace.visualstudio.com/items?itemName=crystal-spider.jsdoc-generator",
+    "description": "Automatic JSDoc generator",
+    "tags": [
+      "doc",
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 185,
     "description": "API documentation generator for JavaScript",
     "name": "jsdoc.app",
     "url": "https://jsdoc.app/",
@@ -1882,7 +1947,7 @@
     ]
   },
   {
-    "id": 169,
+    "id": 186,
     "description": "Online front-end editor",
     "name": "JSFiddle",
     "url": "https://jsfiddle.net/",
@@ -1893,7 +1958,7 @@
     ]
   },
   {
-    "id": 170,
+    "id": 187,
     "description": "Statistical renaming, type inference and obfuscator for JavaScript",
     "name": "JSNice",
     "url": "http://jsnice.org/",
@@ -1903,7 +1968,7 @@
     ]
   },
   {
-    "id": 171,
+    "id": 188,
     "description": "JSON documentation",
     "name": "JSON",
     "url": "https://json.org/json-en.html",
@@ -1913,7 +1978,7 @@
     ]
   },
   {
-    "id": 172,
+    "id": 189,
     "description": "JSON online editor",
     "name": "JSON editor online",
     "url": "https://jsoneditoronline.org/",
@@ -1923,7 +1988,7 @@
     ]
   },
   {
-    "id": 173,
+    "id": 190,
     "description": "Decode, verify and generate JSON Web Tokens",
     "name": "JWT",
     "url": "https://jwt.io/",
@@ -1933,7 +1998,7 @@
     ]
   },
   {
-    "id": 174,
+    "id": 191,
     "description": "Ping your Heroku app every 30 minutes so it will never go to sleep",
     "name": "Kaffeine",
     "url": "https://kaffeine.herokuapp.com/",
@@ -1943,7 +2008,7 @@
     ]
   },
   {
-    "id": 175,
+    "id": 192,
     "description": "ECMAScript compatibiliy table",
     "name": "kangax.github.io",
     "url": "https://kangax.github.io/compat-table/es6/",
@@ -1953,7 +2018,7 @@
     ]
   },
   {
-    "id": 176,
+    "id": 193,
     "description": "Press any key to get the JS event keycode",
     "name": "Keycode.info",
     "url": "http://keycode.info/",
@@ -1964,7 +2029,7 @@
     ]
   },
   {
-    "id": 177,
+    "id": 194,
     "description": "Difference between severity and priority in testing",
     "name": "lambdatest",
     "url": "https://lambdatest.com/blog/bug-severity-vs-priority-in-testing-with-examples/",
@@ -1974,7 +2039,7 @@
     ]
   },
   {
-    "id": 178,
+    "id": 195,
     "description": "Videocourses about everything related to web development",
     "name": "Laracasts",
     "url": "https://laracasts.com/",
@@ -1985,7 +2050,7 @@
     ]
   },
   {
-    "id": 179,
+    "id": 196,
     "description": "Learn how to program in C++ for free",
     "name": "Learn C++",
     "url": "https://learncpp.com/",
@@ -1995,7 +2060,7 @@
     ]
   },
   {
-    "id": 180,
+    "id": 197,
     "description": "The most visual and interactive way to learn Git on the web",
     "name": "Learn Git Branching",
     "url": "https://learngitbranching.js.org/",
@@ -2005,7 +2070,7 @@
     ]
   },
   {
-    "id": 181,
+    "id": 198,
     "description": "Scenic programming language tours",
     "name": "Learn X in Y minutes",
     "url": "https://learnxinyminutes.com/",
@@ -2015,7 +2080,7 @@
     ]
   },
   {
-    "id": 182,
+    "id": 199,
     "description": "Clear examples, explanations, and resources for RxJS",
     "name": "LearnRxJS",
     "url": "https://learnrxjs.io/",
@@ -2026,7 +2091,7 @@
     ]
   },
   {
-    "id": 183,
+    "id": 200,
     "description": "An illustrated guide to multiple join",
     "name": "LearnSQL",
     "url": "https://learnsql.com/blog/illustrated-guide-multiple-join/",
@@ -2036,7 +2101,7 @@
     ]
   },
   {
-    "id": 184,
+    "id": 201,
     "description": "Solve code challenges in various languages",
     "name": "Leetcode",
     "url": "https://leetcode.com/problemset/",
@@ -2047,7 +2112,7 @@
     ]
   },
   {
-    "id": 344,
+    "id": 202,
     "name": "Let's Encrypt",
     "url": "https://letsencrypt.org/",
     "description": "A nonprofit Certificate Authority providing TLS certificates to 450 million websites",
@@ -2057,7 +2122,7 @@
     ]
   },
   {
-    "id": 185,
+    "id": 203,
     "description": "How to exclude files and directories with Rsync",
     "name": "Linuxsize",
     "url": "https://linuxize.com/post/how-to-exclude-files-and-directories-with-rsync/",
@@ -2067,7 +2132,7 @@
     ]
   },
   {
-    "id": 186,
+    "id": 204,
     "description": "Tiny, simple and powerful library to enhance HTML tables and lists",
     "name": "ListJS",
     "url": "https://listjs.com/",
@@ -2077,7 +2142,7 @@
     ]
   },
   {
-    "id": 187,
+    "id": 205,
     "description": "A modern JavaScript utility library delivering modularity, performance and extras",
     "name": "Lodash",
     "url": "https://lodash.com/",
@@ -2087,7 +2152,7 @@
     ]
   },
   {
-    "id": 188,
+    "id": 206,
     "description": "A great list of coding and logic games",
     "name": "LogicAndCodingGames",
     "url": "https://github.com/dargaCode/LogicAndCodingGames/",
@@ -2096,7 +2161,7 @@
     ]
   },
   {
-    "id": 321,
+    "id": 207,
     "name": "LogRocket Blog",
     "url": "https://blog.logrocket.com/angular-lifecycle-hooks/",
     "description": "Angular lifecycle hooks explained",
@@ -2106,7 +2171,7 @@
     ]
   },
   {
-    "id": 189,
+    "id": 208,
     "description": "FormGroup and FormControl in Angular",
     "name": "Logrocket Blog",
     "url": "https://blog.logrocket.com/reactive-form-controls-form-groups-angular/",
@@ -2116,7 +2181,7 @@
     ]
   },
   {
-    "id": 190,
+    "id": 209,
     "description": "The Lorem Ipsum for photos",
     "name": "Lorem Picsum",
     "url": "https://picsum.photos/",
@@ -2126,7 +2191,7 @@
     ]
   },
   {
-    "id": 191,
+    "id": 210,
     "description": "Fake SMTP testing server",
     "name": "Mailtrap.io",
     "url": "https://mailtrap.io/",
@@ -2136,7 +2201,7 @@
     ]
   },
   {
-    "id": 332,
+    "id": 211,
     "name": "makeuseof",
     "url": "https://makeuseof.com/angular-app-github-deploy-using-angular-cli/",
     "description": "Deploy an Angular app to GitHub Pages with Angular CLI",
@@ -2146,7 +2211,7 @@
     ]
   },
   {
-    "id": 192,
+    "id": 212,
     "description": "Git visual guide",
     "name": "Mark Lodato",
     "url": "http://marklodato.github.io/visual-git-guide/index-en.html",
@@ -2156,7 +2221,7 @@
     ]
   },
   {
-    "id": 329,
+    "id": 213,
     "name": "material.io",
     "url": "https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors",
     "description": "Material color palettes",
@@ -2166,7 +2231,7 @@
     ]
   },
   {
-    "id": 193,
+    "id": 214,
     "description": "Create color palettes for your UI and measure color accessibility",
     "name": "Material.io",
     "url": "https://material.io/resources/color/#!/",
@@ -2176,7 +2241,7 @@
     ]
   },
   {
-    "id": 194,
+    "id": 215,
     "description": "Material Design them and palette color generator",
     "name": "mbitson",
     "url": "http://mcg.mbitson.com/",
@@ -2186,7 +2251,16 @@
     ]
   },
   {
-    "id": 195,
+    "id": 161,
+    "description": "List of HTML global attributes",
+    "name": "MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
+    "tags": [
+      "html"
+    ]
+  },
+  {
+    "id": 216,
     "description": "Various web development tutorials",
     "name": "MDN",
     "url": "https://developer.mozilla.org/en-US/docs/Web/Tutorials",
@@ -2197,7 +2271,7 @@
     ]
   },
   {
-    "id": 196,
+    "id": 217,
     "description": "List of HTML tags",
     "name": "MDN",
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element",
@@ -2207,7 +2281,7 @@
     ]
   },
   {
-    "id": 197,
+    "id": 218,
     "description": "Guide to flexible box layout",
     "name": "MDN",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout",
@@ -2216,7 +2290,7 @@
     ]
   },
   {
-    "id": 198,
+    "id": 219,
     "description": "JS arrow functions",
     "name": "MDN",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
@@ -2226,7 +2300,7 @@
     ]
   },
   {
-    "id": 199,
+    "id": 220,
     "description": "The complete beginners guide to Cron",
     "name": "MediaTemple",
     "url": "https://mediatemple.net/blog/web-development-tech/complete-beginners-guide-cron-part-1/",
@@ -2236,7 +2310,7 @@
     ]
   },
   {
-    "id": 337,
+    "id": 221,
     "name": "Medium",
     "url": "https://medium.com/compendium/loading-status-in-angular-done-right-aeed09cfbea6",
     "description": "Loading status in Angular done right",
@@ -2246,7 +2320,7 @@
     ]
   },
   {
-    "id": 336,
+    "id": 222,
     "name": "Medium",
     "url": "https://eatmorecarrots.medium.com/changing-the-background-color-in-an-angular-material-theme-90d29f864759",
     "description": "Change background color in an Angular Material theme",
@@ -2257,7 +2331,7 @@
     ]
   },
   {
-    "id": 200,
+    "id": 223,
     "description": "PX vs REM vs EM",
     "name": "Medium",
     "url": "https://medium.com/code-better/css-units-for-font-size-px-em-rem-79f7e592bb97",
@@ -2268,7 +2342,7 @@
     ]
   },
   {
-    "id": 201,
+    "id": 224,
     "description": "Simple explanation of the 'Banana in a Box' concept",
     "name": "Medium",
     "url": "https://ofirrifo.medium.com/custom-angular-component-using-two-way-data-binding-aka-banana-in-a-box-syntax-9eb06b8cfb09",
@@ -2278,7 +2352,7 @@
     ]
   },
   {
-    "id": 202,
+    "id": 225,
     "description": "How to host a Laravel application for free on Heroku",
     "name": "Medium",
     "url": "https://just1and0.medium.com/how-to-host-your-laravel-application-for-free-on-heroku-4789688d444b",
@@ -2288,7 +2362,7 @@
     ]
   },
   {
-    "id": 203,
+    "id": 226,
     "description": "Understanding Angular modules(NgModule) and their scopes",
     "name": "Medium",
     "url": "https://medium.com/@cyrilletuzi/understanding-angular-modules-ngmodule-and-their-scopes-81e4ed6f7407",
@@ -2298,7 +2372,7 @@
     ]
   },
   {
-    "id": 204,
+    "id": 227,
     "description": "Simplifying Typescript import paths in Angular",
     "name": "Medium",
     "url": "https://medium.com/rpdstartup/simplifying-typescript-import-paths-in-angular-c3249a4edbb3",
@@ -2310,7 +2384,7 @@
     ]
   },
   {
-    "id": 205,
+    "id": 228,
     "description": "Business intelligence for everyone",
     "name": "Metabase",
     "url": "https://metabase.com/",
@@ -2320,7 +2394,7 @@
     ]
   },
   {
-    "id": 206,
+    "id": 229,
     "description": "Most used framework for pentesting",
     "name": "Metasploit",
     "url": "https://metasploit.com/",
@@ -2330,7 +2404,7 @@
     ]
   },
   {
-    "id": 207,
+    "id": 230,
     "description": "Experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!",
     "name": "MetaTags",
     "url": "https://metatags.io/",
@@ -2340,7 +2414,7 @@
     ]
   },
   {
-    "id": 208,
+    "id": 231,
     "description": "The filter(Boolean) trick",
     "name": "michaeluloth.com",
     "url": "https://michaeluloth.com/filter-boolean",
@@ -2351,8 +2425,8 @@
     ]
   },
   {
-    "id": 333,
-    "name": "mocky.io",
+    "id": 232,
+    "name": "Mocky",
     "url": "https://designer.mocky.io/",
     "description": "The world easiest & fastest tool belts to mock your APIs",
     "tags": [
@@ -2361,7 +2435,7 @@
     ]
   },
   {
-    "id": 209,
+    "id": 233,
     "description": "Implementation of XNA framework for cross-platform game development (C#)",
     "name": "Monogame",
     "url": "https://monogame.net/downloads/",
@@ -2370,7 +2444,7 @@
     ]
   },
   {
-    "id": 210,
+    "id": 234,
     "description": "A multiselect dropdown component for Angular applications",
     "name": "Multiselect Dropdown",
     "url": "https://cuppalabs.github.io/components/multiselectDropdown/",
@@ -2380,7 +2454,7 @@
     ]
   },
   {
-    "id": 211,
+    "id": 235,
     "description": "MySQL 8.0 reference manual",
     "name": "MySQL",
     "url": "https://dev.mysql.com/doc/refman/8.0/en/",
@@ -2390,7 +2464,7 @@
     ]
   },
   {
-    "id": 212,
+    "id": 236,
     "description": "SQL injection cheat sheet",
     "name": "Net Sparker",
     "url": "https://netsparker.com/blog/web-security/sql-injection-cheat-sheet/",
@@ -2401,7 +2475,7 @@
     ]
   },
   {
-    "id": 213,
+    "id": 237,
     "description": "An absolute beginners guide to using npm",
     "name": "NodeSource",
     "url": "https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/",
@@ -2410,7 +2484,7 @@
     ]
   },
   {
-    "id": 214,
+    "id": 238,
     "description": "Make browsers render all elements more consistently and in line with modern standards",
     "name": "Normalize.css",
     "url": "https://github.com/necolas/normalize.css/blob/master/normalize.css",
@@ -2420,7 +2494,7 @@
     ]
   },
   {
-    "id": 215,
+    "id": 239,
     "description": "Stream and file based music metadata parser for Node.js",
     "name": "npmjs",
     "url": "https://npmjs.com/package/music-metadata",
@@ -2430,7 +2504,7 @@
     ]
   },
   {
-    "id": 348,
+    "id": 240,
     "name": "Oh My Git!",
     "url": "https://ohmygit.org/",
     "description": "An open source game about learning Git",
@@ -2440,7 +2514,7 @@
     ]
   },
   {
-    "id": 216,
+    "id": 241,
     "description": "Useful commands to get out of hard situations that happen while using Git",
     "name": "Oh shit, Git!?!",
     "url": "https://ohshitgit.com/",
@@ -2450,7 +2524,7 @@
     ]
   },
   {
-    "id": 217,
+    "id": 242,
     "description": "Learn and practice security concepts in the form of fun-filled games",
     "name": "OverTheWire Wargames",
     "url": "https://overthewire.org/wargames/",
@@ -2461,7 +2535,7 @@
     ]
   },
   {
-    "id": 350,
+    "id": 243,
     "name": "PageSpeed Insights",
     "url": "https://pagespeed.web.dev/",
     "description": "Get reports on web pages and provides suggestions on how to improve them",
@@ -2471,7 +2545,7 @@
     ]
   },
   {
-    "id": 218,
+    "id": 244,
     "description": "JS performance benchmarks you can share via URL",
     "name": "perf.link",
     "url": "https://perf.link/",
@@ -2481,7 +2555,7 @@
     ]
   },
   {
-    "id": 219,
+    "id": 245,
     "description": "A curated list of resources for PHP",
     "name": "PHP is cool",
     "url": "https://odan.github.io/learn-php/",
@@ -2490,7 +2564,7 @@
     ]
   },
   {
-    "id": 220,
+    "id": 246,
     "description": "A tutorial for PHP registration/login",
     "name": "PHP Registration Login",
     "url": "https://github.com/DerZanael/PHP-Registration-Login",
@@ -2500,7 +2574,7 @@
     ]
   },
   {
-    "id": 221,
+    "id": 247,
     "description": "Mysqli SELECT query with prepared statements",
     "name": "phpdelusions",
     "url": "https://phpdelusions.net/mysqli_examples/prepared_select",
@@ -2511,7 +2585,7 @@
     ]
   },
   {
-    "id": 222,
+    "id": 248,
     "description": "[ITA] PHP: la retta via",
     "name": "phptherightway",
     "url": "http://it.phptherightway.com/",
@@ -2521,7 +2595,7 @@
     ]
   },
   {
-    "id": 223,
+    "id": 249,
     "description": "The Vanilla JavaScript repository",
     "name": "PlainJS",
     "url": "https://plainjs.com/",
@@ -2532,7 +2606,7 @@
     ]
   },
   {
-    "id": 224,
+    "id": 250,
     "description": "JS playground",
     "name": "PlayCode",
     "url": "https://playcode.io/new/",
@@ -2543,7 +2617,7 @@
     ]
   },
   {
-    "id": 226,
+    "id": 251,
     "description": "Learn Python by solving code challenges",
     "name": "Practice Python",
     "url": "http://practicepython.org/",
@@ -2554,7 +2628,7 @@
     ]
   },
   {
-    "id": 227,
+    "id": 252,
     "description": "[ITA] Corso in italiano su Python",
     "name": "Python.it",
     "url": "http://python.it/doc/Howtothink/Howtothink-html-it/index.htm",
@@ -2564,7 +2638,7 @@
     ]
   },
   {
-    "id": 228,
+    "id": 253,
     "description": "Official Python documentation/tutorial",
     "name": "Python.org",
     "url": "https://docs.python.org/3/tutorial/",
@@ -2575,7 +2649,7 @@
     ]
   },
   {
-    "id": 229,
+    "id": 254,
     "description": "[ITA] Il panorama informatico italiano su Reddit",
     "name": "r/ItalyInformatica",
     "url": "https://reddit.com/r/ItalyInformatica/",
@@ -2585,7 +2659,7 @@
     ]
   },
   {
-    "id": 230,
+    "id": 255,
     "description": "Ask for help for various programming languages",
     "name": "r/learnprogramming",
     "url": "https://reddit.com/r/learnprogramming/",
@@ -2595,7 +2669,7 @@
     ]
   },
   {
-    "id": 231,
+    "id": 256,
     "description": "A community dedicated to all things web development",
     "name": "r/webdev",
     "url": "https://reddit.com/r/webdev/",
@@ -2605,7 +2679,7 @@
     ]
   },
   {
-    "id": 232,
+    "id": 257,
     "description": "Various tutorials for XNA Framwork(C#)",
     "name": "rbwhitaker.wikidot",
     "url": "http://rbwhitaker.wikidot.com/xna-tutorials",
@@ -2614,7 +2688,7 @@
     ]
   },
   {
-    "id": 233,
+    "id": 258,
     "description": "Easily generates favicons for every browser",
     "name": "realfavicongenerator",
     "url": "https://realfavicongenerator.net/",
@@ -2624,7 +2698,7 @@
     ]
   },
   {
-    "id": 234,
+    "id": 259,
     "description": "Python f-strings",
     "name": "RealPython",
     "url": "https://realpython.com/python-f-strings/",
@@ -2634,7 +2708,7 @@
     ]
   },
   {
-    "id": 235,
+    "id": 260,
     "description": "Socket programming in Python",
     "name": "RealPython",
     "url": "https://realpython.com/python-sockets/",
@@ -2644,7 +2718,7 @@
     ]
   },
   {
-    "id": 236,
+    "id": 261,
     "description": "Build, test and debug regular expressions",
     "name": "Regex101",
     "url": "https://regex101.com/",
@@ -2654,7 +2728,7 @@
     ]
   },
   {
-    "id": 237,
+    "id": 262,
     "description": "Useful regex patterns",
     "name": "RegexHUB",
     "url": "https://projects.lukehaas.me/regexhub/",
@@ -2665,7 +2739,7 @@
     ]
   },
   {
-    "id": 331,
+    "id": 263,
     "name": "regexlearn",
     "url": "https://regexlearn.com/learn/regex101",
     "description": "Learn regex with interactive exercises",
@@ -2676,7 +2750,7 @@
     ]
   },
   {
-    "id": 238,
+    "id": 264,
     "description": "Learn regular expressions with simple and interactive exercises",
     "name": "RegexOne",
     "url": "https://regexone.com/",
@@ -2688,7 +2762,7 @@
     ]
   },
   {
-    "id": 239,
+    "id": 265,
     "description": "Online tool to learn, build and test regular expressions",
     "name": "Regexr",
     "url": "https://regexr.com/",
@@ -2701,7 +2775,17 @@
     ]
   },
   {
-    "id": 240,
+    "id": 403,
+    "name": "Rename Angular Component",
+    "url": "https://marketplace.visualstudio.com/items?itemName=tomwhite007.rename-angular-component",
+    "description": "Rename Angular components, directives, and services - including their filenames, class names and selectors all in one go",
+    "tags": [
+      "ag",
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 266,
     "description": "simple yet powerful online IDE, editor, compiler, interpreter, and REPL",
     "name": "Replit",
     "url": "https://replit.com/",
@@ -2712,7 +2796,7 @@
     ]
   },
   {
-    "id": 241,
+    "id": 267,
     "description": "JS for beginners: Async",
     "name": "rowanmanning",
     "url": "https://rowanmanning.com/posts/javascript-for-beginners-async/",
@@ -2722,7 +2806,7 @@
     ]
   },
   {
-    "id": 242,
+    "id": 268,
     "description": "Awesome website with a lot of intuitive tidbits on various topics(CSS, HTML, JS)",
     "name": "SamanthaMing.com",
     "url": "https://samanthaming.com/",
@@ -2733,7 +2817,7 @@
     ]
   },
   {
-    "id": 243,
+    "id": 269,
     "description": "SASS playground",
     "name": "SassMeister",
     "url": "https://sass-lang.com/playground/",
@@ -2744,7 +2828,7 @@
     ]
   },
   {
-    "id": 244,
+    "id": 270,
     "description": "A screen size comparison for responsive design",
     "name": "screensizemap",
     "url": "https://screensizemap.com/",
@@ -2754,7 +2838,7 @@
     ]
   },
   {
-    "id": 245,
+    "id": 271,
     "description": "Learn to code with interactive tutorials",
     "name": "Scrimba",
     "url": "https://scrimba.com/",
@@ -2764,7 +2848,7 @@
     ]
   },
   {
-    "id": 246,
+    "id": 272,
     "description": "Beginners and advanced HTML/CSS tutorials",
     "name": "ShayHowe",
     "url": "https://learn.shayhowe.com/",
@@ -2775,7 +2859,7 @@
     ]
   },
   {
-    "id": 247,
+    "id": 273,
     "description": "The search engine for finding vulnerable servers",
     "name": "Shodan",
     "url": "https://shodan.io/",
@@ -2784,7 +2868,16 @@
     ]
   },
   {
-    "id": 356,
+    "id": 406,
+    "name": "Shortcut Menu Bar",
+    "url": "https://marketplace.visualstudio.com/items?itemName=jerrygoyal.shortcut-menu-bar",
+    "description": "Add handy buttons to editor menu bar",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 274,
     "name": "SitePoint",
     "url": "https://sitepoint.com/fluid-typography-css-clamp-function/",
     "description": "Creating fluid typography with CSS clamp()",
@@ -2794,7 +2887,7 @@
     ]
   },
   {
-    "id": 248,
+    "id": 275,
     "description": "Measuring frontend performance",
     "name": "skovy.dev",
     "url": "https://skovy.dev/blog/measuring-frontend-performance-in-modern-browsers",
@@ -2805,7 +2898,7 @@
     ]
   },
   {
-    "id": 249,
+    "id": 276,
     "description": "Easily create Visual Studio Code, Sublime Text and Atom snippets",
     "name": "snippet generator",
     "url": "https://snippet-generator.app/",
@@ -2815,7 +2908,7 @@
     ]
   },
   {
-    "id": 357,
+    "id": 277,
     "name": "SnipSave",
     "url": "https://snipsave.com/",
     "description": "Web based code snippet manager for developers",
@@ -2825,7 +2918,7 @@
     ]
   },
   {
-    "id": 250,
+    "id": 278,
     "description": "Learn to code for free",
     "name": "SoloLearn",
     "url": "https://sololearn.com/",
@@ -2836,7 +2929,7 @@
     ]
   },
   {
-    "id": 251,
+    "id": 279,
     "description": "Showcase of problems once hard to solve that are now easily solved thanks to Flexbox",
     "name": "Solved by Flexbox",
     "url": "https://philipwalton.github.io/solved-by-flexbox/",
@@ -2846,7 +2939,7 @@
     ]
   },
   {
-    "id": 252,
+    "id": 280,
     "description": "Semantic commit messages",
     "name": "SparkBox",
     "url": "https://sparkbox.com/foundry/semantic_commit_messages",
@@ -2856,7 +2949,7 @@
     ]
   },
   {
-    "id": 347,
+    "id": 281,
     "name": "spartan",
     "url": "https://spartan.ng/",
     "description": "Cutting-edge tools powering Angular full-stack development",
@@ -2866,7 +2959,7 @@
     ]
   },
   {
-    "id": 253,
+    "id": 282,
     "description": "A visual way to understand CSS specificity",
     "name": "Specificity Calculator",
     "url": "https://specificity.keegan.st/",
@@ -2876,7 +2969,7 @@
     ]
   },
   {
-    "id": 254,
+    "id": 283,
     "description": "Learn SQL with simple, interactive exercises",
     "name": "SQLBolt",
     "url": "https://sqlbolt.com/",
@@ -2888,7 +2981,7 @@
     ]
   },
   {
-    "id": 255,
+    "id": 284,
     "description": "Learn SQL with simple, interactive exercises",
     "name": "SQLZoo",
     "url": "https://sqlzoo.net/wiki/SQL_Tutorial",
@@ -2900,7 +2993,7 @@
     ]
   },
   {
-    "id": 256,
+    "id": 285,
     "description": "The largest and most trusted community for developers",
     "name": "Stack Overflow",
     "url": "https://stackoverflow.com/",
@@ -2909,7 +3002,7 @@
     ]
   },
   {
-    "id": 257,
+    "id": 286,
     "description": "Logging out via a link in Laravel",
     "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/43087648/",
@@ -2918,7 +3011,7 @@
     ]
   },
   {
-    "id": 258,
+    "id": 287,
     "description": "What does the \" as const\" mean in TypeScript and what is its use case?",
     "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/66993264/",
@@ -2927,7 +3020,7 @@
     ]
   },
   {
-    "id": 259,
+    "id": 288,
     "description": "JS: var vs let",
     "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/762011/",
@@ -2937,7 +3030,7 @@
     ]
   },
   {
-    "id": 260,
+    "id": 289,
     "description": "PHP: die() vs trigger_error() vs throw Exception",
     "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/7063053/",
@@ -2947,7 +3040,7 @@
     ]
   },
   {
-    "id": 261,
+    "id": 290,
     "description": "JS: null vs undefined",
     "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/5076944/",
@@ -2957,7 +3050,7 @@
     ]
   },
   {
-    "id": 262,
+    "id": 291,
     "description": "JS: polyfill vs transpiler",
     "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/31205640/",
@@ -2967,7 +3060,7 @@
     ]
   },
   {
-    "id": 263,
+    "id": 292,
     "description": "CSS: difference between align-items and align-content",
     "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/27539262/",
@@ -2977,7 +3070,7 @@
     ]
   },
   {
-    "id": 264,
+    "id": 293,
     "description": "HTML: difference between src and href",
     "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/3395359/",
@@ -2987,8 +3080,8 @@
     ]
   },
   {
-    "id": 265,
-    "description": "HTML: difference between &lt;b&gt; and &lt;strong&gt;, &lt;i&gt; and &lt;em&gt;",
+    "id": 294,
+    "description": "HTML: difference between <b> and <strong>, <i> and <em>",
     "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/271743/",
     "tags": [
@@ -2997,7 +3090,7 @@
     ]
   },
   {
-    "id": 266,
+    "id": 295,
     "description": "HTML: difference between property and attribute",
     "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/6003819/",
@@ -3007,7 +3100,7 @@
     ]
   },
   {
-    "id": 267,
+    "id": 296,
     "description": "HTML: disabled vs readonly attribute",
     "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/7730695/",
@@ -3017,7 +3110,7 @@
     ]
   },
   {
-    "id": 268,
+    "id": 297,
     "description": "Python: how to add new keys to a dictionary?",
     "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/1024847/how-can-i-add-new-keys-to-a-dictionary/8381589#8381589",
@@ -3026,7 +3119,7 @@
     ]
   },
   {
-    "id": 269,
+    "id": 298,
     "description": "Convert float to int in JS",
     "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/596467/",
@@ -3035,7 +3128,7 @@
     ]
   },
   {
-    "id": 270,
+    "id": 299,
     "description": "Linking to arbitrary content on a webpage without anchor tags",
     "name": "Stack Overflow",
     "url": "https://stackoverflow.com/questions/16338602/",
@@ -3045,7 +3138,7 @@
     ]
   },
   {
-    "id": 271,
+    "id": 300,
     "description": "Create, edit and deploy fullstack apps",
     "name": "Stackblitz",
     "url": "https://stackblitz.com/",
@@ -3056,7 +3149,7 @@
     ]
   },
   {
-    "id": 272,
+    "id": 301,
     "description": "JS: sync va async",
     "name": "StackOverflow",
     "url": "https://stackoverflow.com/questions/14220321/",
@@ -3066,7 +3159,7 @@
     ]
   },
   {
-    "id": 273,
+    "id": 302,
     "description": "Responsive, curstomizable and accessible replacement for JavaScript popup boxes",
     "name": "SweetAlert",
     "url": "https://sweetalert2.github.io/",
@@ -3077,7 +3170,7 @@
     ]
   },
   {
-    "id": 352,
+    "id": 303,
     "name": "TaniaRascia",
     "url": "https://taniarascia.com/overview-of-css-concepts/",
     "description": "A complete guide to CSS concepts and fundamentals",
@@ -3087,7 +3180,7 @@
     ]
   },
   {
-    "id": 330,
+    "id": 304,
     "name": "techincent",
     "url": "https://techincent.com/code-syntax-highlighter-angular-with-prism-js/",
     "description": "Code syntax highlighter in Angular with Prism.js",
@@ -3097,7 +3190,7 @@
     ]
   },
   {
-    "id": 274,
+    "id": 305,
     "description": "Fast and easy to use PHP testbed",
     "name": "tehokayground",
     "url": "https://tehplayground.com/",
@@ -3108,7 +3201,7 @@
     ]
   },
   {
-    "id": 275,
+    "id": 306,
     "description": "Meta service in Angular: add and update Meta tags",
     "name": "tektutorialshub",
     "url": "https://tektutorialshub.com/angular/meta-service-in-angular-add-update-meta-tags-example/",
@@ -3118,7 +3211,7 @@
     ]
   },
   {
-    "id": 320,
+    "id": 307,
     "name": "Telerik",
     "url": "https://telerik.com/blogs/angular-basics-introduction-observables-rxjs-part-1",
     "description": "Introduction to Observables (RxJS)",
@@ -3128,7 +3221,7 @@
     ]
   },
   {
-    "id": 276,
+    "id": 308,
     "description": "Learn everything you need to know to become a web developer",
     "name": "The Odin Project",
     "url": "https://theodinproject.com/home",
@@ -3138,7 +3231,7 @@
     ]
   },
   {
-    "id": 277,
+    "id": 309,
     "description": "Instant marble diagrams for reactive programming libraries (RxJS,Bacon.js,Kefir.js)",
     "name": "ThinkRX",
     "url": "https://thinkrx.io/",
@@ -3149,7 +3242,7 @@
     ]
   },
   {
-    "id": 278,
+    "id": 310,
     "description": "What is the difference between X and Y in the front-end development?",
     "name": "ThisThat",
     "url": "https://thisthat.dev/",
@@ -3159,7 +3252,7 @@
     ]
   },
   {
-    "id": 279,
+    "id": 311,
     "description": "Compress PNG images and increase loading time for your website",
     "name": "TinyPNG",
     "url": "https://tinypng.com/",
@@ -3169,7 +3262,7 @@
     ]
   },
   {
-    "id": 280,
+    "id": 312,
     "description": "Cheat sheet for moving from jQuery to vanilla JS",
     "name": "TobiashLin.com",
     "url": "https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/",
@@ -3180,7 +3273,7 @@
     ]
   },
   {
-    "id": 281,
+    "id": 313,
     "description": "Breaking to a new row with flexbox",
     "name": "TobiashLin.com",
     "url": "https://tobiasahlin.com/blog/flexbox-break-to-new-row/",
@@ -3190,7 +3283,7 @@
     ]
   },
   {
-    "id": 282,
+    "id": 314,
     "description": "Live DOM viewer tool",
     "name": "TomHodgins.com",
     "url": "https://tomhodgins.com/demo/dom/",
@@ -3201,7 +3294,7 @@
     ]
   },
   {
-    "id": 326,
+    "id": 315,
     "name": "Total TypeScript",
     "url": "https://totaltypescript.com/tutorials/beginners-typescript",
     "description": "Beginner's TypeScript tutorial",
@@ -3211,7 +3304,7 @@
     ]
   },
   {
-    "id": 283,
+    "id": 316,
     "description": "A polyglot web converter",
     "name": "Transform",
     "url": "https://transform.tools/",
@@ -3221,7 +3314,7 @@
     ]
   },
   {
-    "id": 284,
+    "id": 317,
     "description": "How to write unobtrusive JS code",
     "name": "treehouse blog",
     "url": "https://blog.teamtreehouse.com/unobtrusive-javascript-important",
@@ -3232,7 +3325,7 @@
     ]
   },
   {
-    "id": 285,
+    "id": 318,
     "description": "Learn cybersecurity with these guides/challenges",
     "name": "TryHackMe",
     "url": "https://tryhackme.com/",
@@ -3242,7 +3335,7 @@
     ]
   },
   {
-    "id": 286,
+    "id": 319,
     "description": "Short-links for the TypeScript playground",
     "name": "tsplay-dev",
     "url": "https://tsplay-dev.vercel.app/",
@@ -3252,7 +3345,7 @@
     ]
   },
   {
-    "id": 287,
+    "id": 320,
     "description": "Web Developement tutorials",
     "name": "TutorialRepublic",
     "url": "https://tutorialrepublic.com/",
@@ -3262,7 +3355,7 @@
     ]
   },
   {
-    "id": 288,
+    "id": 321,
     "description": "C++ operators",
     "name": "Tutorialspoint",
     "url": "https://tutorialspoint.com/cplusplus/cpp_operators.htm",
@@ -3272,7 +3365,7 @@
     ]
   },
   {
-    "id": 289,
+    "id": 322,
     "description": "TypesScript official documentation and handbook",
     "name": "TypeScript lang",
     "url": "https://typescriptlang.org/docs",
@@ -3282,7 +3375,7 @@
     ]
   },
   {
-    "id": 290,
+    "id": 323,
     "description": "An online editor for exploring TypeScript and JavaScript",
     "name": "TypeScript playground",
     "url": "https://typescriptlang.org/play/",
@@ -3293,7 +3386,17 @@
     ]
   },
   {
-    "id": 351,
+    "id": 408,
+    "name": "TypeScript Toolbox",
+    "url": "https://marketplace.visualstudio.com/items?itemName=DSKWRK.vscode-generate-getter-setter",
+    "description": "Add and optimize Imports, generate Getters/Setters and constructors",
+    "tags": [
+      "ext/plugin",
+      "ts"
+    ]
+  },
+  {
+    "id": 324,
     "name": "Utopia",
     "url": "https://utopia.fyi/",
     "description": "Elegantly scale type and space without breakpoints",
@@ -3303,7 +3406,7 @@
     ]
   },
   {
-    "id": 291,
+    "id": 325,
     "description": "Six methods for vertical centering with CSS",
     "name": "vanseodesign",
     "url": "http://vanseodesign.com/css/vertical-centering/",
@@ -3313,17 +3416,397 @@
     ]
   },
   {
-    "id": 292,
-    "description": "All the best things about VS Code that nobody ever bothered to tell you",
-    "name": "VS Code can do that?",
-    "url": "https://vscodecandothat.com/",
+    "id": 352,
+    "description": "Clears the MEF cache on disk and lets Visual Studio rebuild it",
+    "name": "VS - Clear MEF Cache",
+    "url": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ClearMEFComponentCache",
     "tags": [
-      "artut",
-      "tips"
+      "ext/plugin"
     ]
   },
   {
-    "id": 293,
+    "id": 358,
+    "name": "VS - Collapse Level",
+    "url": "https://marketplace.visualstudio.com/items?itemName=mwilski.CollapseLevel",
+    "description": "Collapse your structures using simple commands",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 359,
+    "name": "VS - Comment Remover",
+    "url": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CommentRemover",
+    "description": "Remove all comments in any file with a click of a button",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 366,
+    "name": "VS - Glyphfriend2019",
+    "url": "https://marketplace.visualstudio.com/items?itemName=RionWilliams.Glyphfriend2019",
+    "description": "Display preview glyphs for many of the common glyph-based font libraries",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 353,
+    "description": "Selects the next occurrence of the current selection and adds multiple cursors for editing",
+    "name": "VS - Select Next Occurence",
+    "url": "https://marketplace.visualstudio.com/items?itemName=thomaswelen.SelectNextOccurrence",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 354,
+    "description": "The easiest way to set up Visual Studio for the ultimate Web Development experience",
+    "name": "VS - Web Essentials",
+    "url": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 388,
+    "name": "VSC - Angular Language Service",
+    "url": "https://marketplace.visualstudio.com/items?itemName=Angular.ng-template",
+    "description": "Provides a rich editing experience for Angular templates",
+    "tags": [
+      "ag",
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 389,
+    "name": "VSC - Auto Close Tag",
+    "url": "https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag",
+    "description": "Automatically add HTML/XML close tag",
+    "tags": [
+      "ext/plugin",
+      "html",
+      "webdev"
+    ]
+  },
+  {
+    "id": 390,
+    "name": "VSC - Auto Import",
+    "url": "https://marketplace.visualstudio.com/items?itemName=steoates.autoimport",
+    "description": "Automatically finds, parses and provides code actions and code completion for all available imports",
+    "tags": [
+      "ext/plugin",
+      "ts"
+    ]
+  },
+  {
+    "id": 355,
+    "description": "Improve your code commenting by annotating with alert, informational, TODOs, and more!",
+    "name": "VSC - Better Comments",
+    "url": "https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 392,
+    "name": "VSC - Bookmarks",
+    "url": "https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks",
+    "description": "Mark lines and jump to them",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 356,
+    "name": "VSC - Code runner",
+    "url": "https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner",
+    "description": "Run code snippet or code file for multiple languages",
+    "tags": [
+      "ext/plugin",
+      "multi"
+    ]
+  },
+  {
+    "id": 357,
+    "name": "VSC - Codemetrics",
+    "url": "https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics",
+    "description": "Computes complexity in TS/JS",
+    "tags": [
+      "ext/plugin",
+      "js",
+      "ts"
+    ]
+  },
+  {
+    "id": 391,
+    "name": "VSC - Continue",
+    "url": "https://marketplace.visualstudio.com/items?itemName=Continue.continue",
+    "description": "Enables to developers create, share, and use custom AI code assistants",
+    "tags": [
+      "ai",
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 393,
+    "name": "VSC - CSS Formatter",
+    "url": "https://marketplace.visualstudio.com/items?itemName=aeschli.vscode-css-formatter",
+    "description": "Add formatting to CSS",
+    "tags": [
+      "css",
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 360,
+    "name": "VSC - CSS Peak",
+    "url": "https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek",
+    "description": "Peek CSS from HTML and other files",
+    "tags": [
+      "ext/plugin",
+      "webdev"
+    ]
+  },
+  {
+    "id": 361,
+    "description": "Update your discord status with the newly added rich presence",
+    "name": "VSC - Discord Presence",
+    "url": "https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 362,
+    "name": "VSC - ESdoc MDN",
+    "url": "https://marketplace.visualstudio.com/items?itemName=samundrak.esdoc-mdn",
+    "description": "Quickly see docs from MDN",
+    "tags": [
+      "doc",
+      "ext/plugin",
+      "webdev"
+    ]
+  },
+  {
+    "id": 363,
+    "description": "Integrates ESLint JavaScript into VS Code",
+    "name": "VSC - ESLint",
+    "url": "https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 394,
+    "name": "VSC - Favorites",
+    "url": "https://marketplace.visualstudio.com/items?itemName=kdcro101.favorites",
+    "description": "Add files and directories to workspace favorites",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 364,
+    "description": "Collapse your structures using simple commands (requires adding custom keyboard shortcuts)",
+    "name": "VSC - Fold Level",
+    "url": "https://marketplace.visualstudio.com/items?itemName=vikyd.vscode-fold-level",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 365,
+    "name": "VSC - GitLens",
+    "url": "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens",
+    "description": "Supercharge the Git capabilities built into VS Code",
+    "tags": [
+      "ext/plugin",
+      "git"
+    ]
+  },
+  {
+    "id": 367,
+    "name": "VSC - Highlight Matching Tag",
+    "url": "https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag",
+    "description": "Highlights matching opening and/or closing tags",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 396,
+    "name": "VSC - HTML Format",
+    "url": "https://marketplace.visualstudio.com/items?itemName=mohd-akram.vscode-html-format",
+    "description": "Formats HTML documents by auto-indenting, wrapping and removing unnecessary whitespace while preserving newlines",
+    "tags": [
+      "ext/plugin",
+      "html"
+    ]
+  },
+  {
+    "id": 395,
+    "name": "VSC - HTML/CSS Support",
+    "url": "https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css",
+    "description": "HTML id and class attribute completion for VSC",
+    "tags": [
+      "ext/plugin",
+      "webdev"
+    ]
+  },
+  {
+    "id": 370,
+    "name": "VSC - Instant Markdown",
+    "url": "https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-instant-markdown",
+    "description": "Instant previews of your markdown files as you type",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 397,
+    "name": "VSC - Intellicde API Examples",
+    "url": "https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.intellicode-api-usage-examples",
+    "description": "Easily access code examples for APIs you work with",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 372,
+    "name": "VSC - Intellisense for CSS in HTML",
+    "url": "https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion",
+    "description": "CSS class name completion for the HTML class attribute based on the definitions found in your workspace",
+    "tags": [
+      "ext/plugin",
+      "webdev"
+    ]
+  },
+  {
+    "id": 399,
+    "name": "VSC - Live Sass Compiler",
+    "url": "https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass",
+    "description": "Help you to compile/transpile your SASS/SCSS files to CSS at real-time",
+    "tags": [
+      "css",
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 374,
+    "description": "Launch a development local Server with live reload feature for static and dynamic pages",
+    "name": "VSC - Live Server",
+    "url": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.liveserver",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 375,
+    "description": "Real-time collaborative development",
+    "name": "VSC - LiveShare",
+    "url": "https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 400,
+    "name": "VSC - Multiple cursor case preserve",
+    "url": "https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve",
+    "description": "This extension preserves selection case with multiple cursors used",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 376,
+    "name": "VSC - PHP exstension pack",
+    "url": "https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-pack",
+    "description": "pack containing the most important extensions to get started with PHP development",
+    "tags": [
+      "ext/plugin",
+      "php"
+    ]
+  },
+  {
+    "id": 401,
+    "name": "VSC - Prettier",
+    "url": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
+    "description": "Code formatter",
+    "tags": [
+      "ext/plugin",
+      "multi"
+    ]
+  },
+  {
+    "id": 402,
+    "name": "VSC - Quokka",
+    "url": "https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode",
+    "description": "Productivity tool for rapid JS/TS prototyping",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 404,
+    "name": "VSC - SCSS Formatter",
+    "url": "https://marketplace.visualstudio.com/items?itemName=sibiraj-s.vscode-scss-formatter",
+    "description": "Code formatter",
+    "tags": [
+      "css",
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 405,
+    "name": "VSC - SCSS Intellisense",
+    "url": "https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss",
+    "description": "Advanced autocompletion and refactoring support for SCSS",
+    "tags": [
+      "css",
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 378,
+    "description": "Smooth typing anymation",
+    "name": "VSC - Smoothtype",
+    "url": "https://marketplace.visualstudio.com/items?itemName=spikespaz.vscode-smoothtype",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 407,
+    "name": "VSC - Surround",
+    "url": "https://marketplace.visualstudio.com/items?itemName=yatki.vscode-surround",
+    "description": "Powerful extension to add wrapper templates around your code blocks",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 379,
+    "description": "Visual and literal SVG editor",
+    "name": "VSC - SVG Editor",
+    "url": "https://marketplace.visualstudio.com/items?itemName=henoc.svgeditor",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 380,
+    "description": "Highlight multiple text patterns with different colors at the same time",
+    "name": "VSC - Text Marker",
+    "url": "https://marketplace.visualstudio.com/items?itemName=ryu1kn.text-marker",
+    "tags": [
+      "ext/plugin"
+    ]
+  },
+  {
+    "id": 327,
     "name": "W3.org",
     "url": "https://validator.w3.org/",
     "description": "HTML validator",
@@ -3333,7 +3816,7 @@
     ]
   },
   {
-    "id": 294,
+    "id": 328,
     "description": "CSS selectors",
     "name": "W3.org",
     "url": "https://w3.org/TR/selectors-4/#selectors",
@@ -3343,7 +3826,7 @@
     ]
   },
   {
-    "id": 295,
+    "id": 329,
     "description": "Learn web technologies online",
     "name": "W3Schools",
     "url": "https://w3schools.com/",
@@ -3354,7 +3837,7 @@
     ]
   },
   {
-    "id": 296,
+    "id": 330,
     "description": "Color picker",
     "name": "W3Schools",
     "url": "https://w3schools.com/colors/colors_picker.asp",
@@ -3364,7 +3847,7 @@
     ]
   },
   {
-    "id": 297,
+    "id": 331,
     "description": "Code formatter for webdev languages",
     "name": "Web Formatter",
     "url": "https://webformatter.com/",
@@ -3374,7 +3857,7 @@
     ]
   },
   {
-    "id": 298,
+    "id": 332,
     "description": "Visual overview of useful skills to learn as a web developer",
     "name": "Web Skils",
     "url": "https://andreasbm.github.io/web-skills/",
@@ -3384,7 +3867,7 @@
     ]
   },
   {
-    "id": 299,
+    "id": 333,
     "description": "Various articles/tips for the modern web",
     "name": "web.dev",
     "url": "https://web.dev/learn/",
@@ -3395,7 +3878,7 @@
     ]
   },
   {
-    "id": 300,
+    "id": 334,
     "description": "10 modern layouts in one line of CSS",
     "name": "web.dev",
     "url": "https://web.dev/one-line-layouts/",
@@ -3404,7 +3887,7 @@
     ]
   },
   {
-    "id": 301,
+    "id": 335,
     "description": "External links and rel noopener/noreferrer",
     "name": "web.dev",
     "url": "https://web.dev/external-anchors-use-rel-noopener/",
@@ -3415,7 +3898,7 @@
     ]
   },
   {
-    "id": 302,
+    "id": 336,
     "description": "Contrast validator",
     "name": "Webaim",
     "url": "https://webaim.org/resources/contrastchecker/",
@@ -3425,7 +3908,7 @@
     ]
   },
   {
-    "id": 303,
+    "id": 337,
     "description": "Web Accessibility Evaluation Tool",
     "name": "Webaim",
     "url": "https://wave.webaim.org/",
@@ -3435,7 +3918,7 @@
     ]
   },
   {
-    "id": 304,
+    "id": 338,
     "description": "A great list of useful resources, specific for web development",
     "name": "WebDevStudyResources",
     "url": "https://github.com/dargaCode/WebDevStudyResources/",
@@ -3444,7 +3927,7 @@
     ]
   },
   {
-    "id": 305,
+    "id": 339,
     "description": "How to add a gradient overlay to a background image using just CSS and HTML",
     "name": "webdevtc",
     "url": "https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/",
@@ -3454,7 +3937,7 @@
     ]
   },
   {
-    "id": 306,
+    "id": 340,
     "description": "Website performance and optimization tool",
     "name": "WebPageTest",
     "url": "https://webpagetest.org/",
@@ -3464,7 +3947,7 @@
     ]
   },
   {
-    "id": 307,
+    "id": 341,
     "description": "List of HTTP status codes",
     "name": "Wikipedia",
     "url": "https://en.wikipedia.org/wiki/List_of_HTTP_status_codes",
@@ -3473,7 +3956,7 @@
     ]
   },
   {
-    "id": 309,
+    "id": 342,
     "description": "CSS Grid Cheatsheet",
     "name": "yoksel.github.io",
     "url": "https://yoksel.github.io/grid-cheatsheet/",
@@ -3484,7 +3967,7 @@
     ]
   },
   {
-    "id": 310,
+    "id": 343,
     "description": "CSS Flexbox Cheatsheet",
     "name": "yoksel.github.io",
     "url": "https://yoksel.github.io/flex-cheatsheet/",
@@ -3495,7 +3978,7 @@
     ]
   },
   {
-    "id": 311,
+    "id": 344,
     "description": "Alternatives to common jQuery functions",
     "name": "You might not need jQuery",
     "url": "http://youmightnotneedjquery.com/",
@@ -3504,7 +3987,7 @@
     ]
   },
   {
-    "id": 312,
+    "id": 345,
     "description": "LaravelDaily YouTube channel",
     "name": "YouTube",
     "url": "https://youtube.com/channel/UCTuplgOBi6tJIlesIboymGA",
@@ -3515,7 +3998,7 @@
     ]
   },
   {
-    "id": 313,
+    "id": 346,
     "description": "[ITA] Guida completa a Git",
     "name": "YouTube",
     "url": "https://youtube.com/playlist?list=PL9MslR9MhrJbO7u34sgR3J6iMqkFmVenG",
@@ -3526,7 +4009,7 @@
     ]
   },
   {
-    "id": 314,
+    "id": 347,
     "description": "Kevin Powell YouTube channel",
     "name": "YouTube",
     "url": "https://youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw",
@@ -3538,7 +4021,7 @@
     ]
   },
   {
-    "id": 315,
+    "id": 348,
     "description": "[ITA] Canale YT fcamuso",
     "name": "YouTube",
     "url": "https://youtube.com/user/fcamuso/playlists",
@@ -3550,7 +4033,7 @@
     ]
   },
   {
-    "id": 316,
+    "id": 349,
     "description": "Professor Messer's CompTIA Network+ N10-007 training course",
     "name": "YouTube",
     "url": "https://youtube.com/playlist?list=PLG49S3nxzAnmpdmX7RoTOyuNJQAb-r-gd",
@@ -3562,7 +4045,7 @@
     ]
   },
   {
-    "id": 317,
+    "id": 350,
     "description": "freeCodeCamp's Git and GitHub crash course",
     "name": "YouTube",
     "url": "https://youtube.com/watch?v=RGOj5yH7evk",
@@ -3573,7 +4056,7 @@
     ]
   },
   {
-    "id": 328,
+    "id": 351,
     "name": "Zoaib Khan",
     "url": "https://zoaibkhan.com/blog/angular-material-dark-mode-in-3-steps/",
     "description": "Angular Material dark mode",

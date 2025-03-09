@@ -32,6 +32,11 @@ export const l4dTags: TagInfo[] = [
     description: "CSS",
   },
   {
+    category: "topic",
+    value: "cybersec",
+    description: "Cyber Security",
+  },
+  {
     category: "resource type",
     value: "discord",
     description: "Discord server",
@@ -48,6 +53,11 @@ export const l4dTags: TagInfo[] = [
   },
   {
     category: "resource type",
+    value: "ext/plugin",
+    description: "Extension/Plugin",
+  },
+  {
+    category: "resource type",
     value: "fw",
     description: "Framework",
   },
@@ -60,11 +70,6 @@ export const l4dTags: TagInfo[] = [
     category: "topic",
     value: "git",
     description: "Git",
-  },
-  {
-    category: "topic",
-    value: "cybersec",
-    description: "Cyber Security",
   },
   {
     category: "topic",
@@ -152,7 +157,7 @@ export const l4dTags: TagInfo[] = [
     description: "Tool",
   },
   {
-    category: "resource type",
+    category: "topic",
     value: "ts",
     description: "TypeScript",
   },
@@ -272,6 +277,10 @@ export const websitesTags: TagInfo[] = [
   {
     value: "video",
     description: "Video"
+  },
+  {
+    value: "VR",
+    description: "VR"
   }
 ]
 
@@ -420,11 +429,6 @@ export const softwareTags: TagInfo[] = [
     category: "main category",
     value: "video",
     description: "Video",
-  },
-  {
-    category: "ext/plugin",
-    value: "vs",
-    description: "VS/VSC",
   },
   {
     category: "main category",

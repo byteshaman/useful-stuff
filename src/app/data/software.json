@@ -559,6 +559,15 @@
     ]
   },
   {
+    "id": 186,
+    "description": "Adds a toggleable sidebar with all your bookmarks at the edge of your browser window",
+    "name": "GC - Bookmark Sidebar",
+    "url": "https://chrome.google.com/webstore/detail/dark-reader/jdbnofccmhefkmjbkkdkfiicjkgofkdh",
+    "tags": [
+      "gc"
+    ]
+  },
+  {
     "id": 53,
     "description": "Dark themes for various websites",
     "name": "GC - Darkness",
@@ -577,25 +586,6 @@
     ]
   },
   {
-    "id": 55,
-    "description": "Easily download single files from GitHub",
-    "name": "GC - GitHub Downloader",
-    "url": "https://chrome.google.com/webstore/detail/github-downloader/jplmabjbdhggnlhndkdfciacklbjcfel",
-    "tags": [
-      "downloader",
-      "gc"
-    ]
-  },
-  {
-    "id": 56,
-    "description": "Writing assistant",
-    "name": "GC - Grammarly",
-    "url": "https://chrome.google.com/webstore/detail/kbfnbcaeplbcioakkpcpgfkobkghlhen",
-    "tags": [
-      "gc"
-    ]
-  },
-  {
     "id": 57,
     "description": "Automatically find and apply coupon codes when you shop online",
     "name": "GC - Honey",
@@ -605,32 +595,12 @@
     ]
   },
   {
-    "id": 58,
-    "description": "Hover over elements to inspect CSS and HTML",
-    "name": "GC - Hoverify",
-    "url": "https://chrome.google.com/webstore/detail/bbpokcagpggnekcmamgdieebhpkjmljm",
-    "tags": [
-      "gc",
-      "programming"
-    ]
-  },
-  {
     "id": 59,
     "description": "Various enhancements for YouTube website",
     "name": "GC - Improve YouTube",
     "url": "https://chrome.google.com/webstore/detail/bnomihfieiccainjcjblhegjgglakjdd",
     "tags": [
       "gc"
-    ]
-  },
-  {
-    "id": 60,
-    "description": "Validate and view JSON documents",
-    "name": "GC - JSONView",
-    "url": "https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc",
-    "tags": [
-      "gc",
-      "programming"
     ]
   },
   {
@@ -653,7 +623,7 @@
   },
   {
     "id": 63,
-    "description": "A simple, powerful tab manager",
+    "description": "A simple and powerful tab manager",
     "name": "GC - Tabli",
     "url": "https://chrome.google.com/webstore/detail/tabli/igeehkedfibbnhbfponhjjplpkeomghi",
     "tags": [
@@ -661,17 +631,8 @@
     ]
   },
   {
-    "id": 64,
-    "description": "The world's most popular userscript manager",
-    "name": "GC - Tamper Monkey",
-    "url": "https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo",
-    "tags": [
-      "gc"
-    ]
-  },
-  {
     "id": 65,
-    "description": "Another Ad blocker for Chrome",
+    "description": "Block internet Ads",
     "name": "GC - Ublock Origin",
     "url": "https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm",
     "tags": [
@@ -683,34 +644,6 @@
     "description": "Get properties of the image your cursor is pointing to via context menu",
     "name": "GC - View Image Info",
     "url": "https://chrome.google.com/webstore/detail/jldjjifbpipdmligefcogandjojpdagn",
-    "tags": [
-      "gc"
-    ]
-  },
-  {
-    "id": 220,
-    "name": "GC - Wappalyzer",
-    "url": "https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=it",
-    "description": "Identify web technologies",
-    "tags": [
-      "gc"
-    ]
-  },
-  {
-    "id": 67,
-    "description": "Adds a toolbar button with various web developer tools",
-    "name": "GC - Web Developer",
-    "url": "https://chrome.google.com/webstore/detail/bmnlcjabgnpnenekpadlanbbkooimhnj",
-    "tags": [
-      "gc",
-      "programming"
-    ]
-  },
-  {
-    "id": 68,
-    "description": "Resize the browser window to emulate various screen resolutions",
-    "name": "GC - Window Resizer",
-    "url": "https://chrome.google.com/webstore/detail/kkelicaakdanhinjdeammmilcgefonfh",
     "tags": [
       "gc"
     ]
@@ -1871,267 +1804,6 @@
     "tags": [
       "misc",
       "video"
-    ]
-  },
-  {
-    "id": 168,
-    "description": "Clears the MEF cache on disk and lets Visual Studio rebuild it",
-    "name": "VS - Clear MEF Cache",
-    "url": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ClearMEFComponentCache",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 169,
-    "description": "Selects the next occurrence of the current selection and adds multiple cursors for editing",
-    "name": "VS - Select Next Occurence",
-    "url": "https://marketplace.visualstudio.com/items?itemName=thomaswelen.SelectNextOccurrence",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 170,
-    "description": "The easiest way to set up Visual Studio for the ultimate Web Development experience",
-    "name": "VS - Web Essentials",
-    "url": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 171,
-    "description": "Improve your code commenting by annotating with alert, informational, TODOs, and more!",
-    "name": "VSC - Better Comments",
-    "url": "https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 172,
-    "description": "Compute complexity in JS/TS files",
-    "name": "VSC - Code runner",
-    "url": "https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 173,
-    "description": "Run code snippet or code file for multiple languages",
-    "name": "VSC - Codemetrics",
-    "url": "https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 174,
-    "description": "Collapse your structures using simple commands",
-    "name": "VSC - Collapse Level",
-    "url": "https://marketplace.visualstudio.com/items?itemName=mwilski.CollapseLevel",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 175,
-    "description": "Remove all comments in any file with a click of a button",
-    "name": "VSC - Comment Remover",
-    "url": "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CommentRemover",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 176,
-    "description": "Compute complexity in JS/TS files",
-    "name": "VSC - CSS Peak",
-    "url": "https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 178,
-    "description": "Update your discord status with the newly added rich presence",
-    "name": "VSC - Discord Presence",
-    "url": "https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 179,
-    "description": "Quickly see docs from MDN",
-    "name": "VSC - ESdoc MDN",
-    "url": "https://marketplace.visualstudio.com/items?itemName=samundrak.esdoc-mdn",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 180,
-    "description": "Integrates ESLint JavaScript into VS Code",
-    "name": "VSC - ESLint",
-    "url": "https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 181,
-    "description": "Collapse your structures using simple commands (requires adding custom keyboard shortcuts)",
-    "name": "VSC - Fold Level",
-    "url": "https://marketplace.visualstudio.com/items?itemName=vikyd.vscode-fold-level",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 182,
-    "description": "Supercharge the Git capabilities built into VS Code",
-    "name": "VSC - GitLens",
-    "url": "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 183,
-    "description": "Display preview glyphs for many of the common glyph-based font libraries",
-    "name": "VSC - Glyphfriend2019",
-    "url": "https://marketplace.visualstudio.com/items?itemName=RionWilliams.Glyphfriend2019",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 184,
-    "description": "Missing CSS support for HTML documents",
-    "name": "VSC - Highlight Matching Tag",
-    "url": "https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 185,
-    "description": "Missing CSS support for HTML documents",
-    "name": "VSC - HTML-CSS",
-    "url": "https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 186,
-    "description": "Display inline import/require package size in the editor",
-    "name": "VSC - Import Cost",
-    "url": "https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 187,
-    "description": "Instant previews of your markdown files as you type",
-    "name": "VSC - Instand Markdown",
-    "url": "https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-instant-markdown",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 188,
-    "description": "AI-assisted development",
-    "name": "VSC - IntelliCode",
-    "url": "https://marketplace.visualstudio.com/items?itemName=visualstudioexptteam.vscodeintellicode",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 189,
-    "description": "CSS class name completion for the HTML class attribute based on the definitions found in your workspace",
-    "name": "VSC - Intellisense for CSS in HTML",
-    "url": "https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 190,
-    "description": "Useful snippets for jQuery",
-    "name": "VSC - jQuery code snippets",
-    "url": "https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 191,
-    "description": "Launch a development local Server with live reload feature for static and dynamic pages",
-    "name": "VSC - Live Server",
-    "url": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.liveserver",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 192,
-    "description": "Real-time collaborative development",
-    "name": "VSC - LiveShare",
-    "url": "https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 193,
-    "description": "pack containing the most important extensions to get started with PHP development",
-    "name": "VSC - PHP exstension pack",
-    "url": "https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-pack",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 194,
-    "description": "Synchronize all your stuff using GitHub Gist",
-    "name": "VSC - Settings Synch",
-    "url": "https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 195,
-    "description": "Smooth typing anymation",
-    "name": "VSC - Smoothtype",
-    "url": "https://marketplace.visualstudio.com/items?itemName=spikespaz.vscode-smoothtype",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 196,
-    "description": "Visual and literal SVG editor",
-    "name": "VSC - SVG Editor",
-    "url": "https://marketplace.visualstudio.com/items?itemName=henoc.svgeditor",
-    "tags": [
-      "vs"
-    ]
-  },
-  {
-    "id": 197,
-    "description": "Highlight multiple text patterns with different colors at the same time",
-    "name": "VSC - Text Marker",
-    "url": "https://marketplace.visualstudio.com/items?itemName=ryu1kn.text-marker",
-    "tags": [
-      "vs"
     ]
   },
   {

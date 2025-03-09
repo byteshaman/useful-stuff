@@ -202,30 +202,32 @@ export class ContentComponent implements OnInit, AfterViewInit {
 
   onKeyDown(event: KeyboardEvent) {
     debugger;
-    // If s button is pressed, focus on search bar
-    if (event.key === 's') {
-      this.focusSearch();
-    }
+    if (!this.devMode) {
+      // If s button is pressed, focus on search bar
+      if (event.key === 's') {
+        this.focusSearch();
+      }
 
-    this.sequence += event.key.toLowerCase();
+      this.sequence += event.key.toLowerCase();
 
-    // Keep only last n characters
-    if (this.sequence.length > this.devModeKeyword.length) {
-      this.sequence = this.sequence.slice(-this.devModeKeyword.length);
-    }
+      // Keep only last n characters
+      if (this.sequence.length > this.devModeKeyword.length) {
+        this.sequence = this.sequence.slice(-this.devModeKeyword.length);
+      }
 
-    // Toggle devmode
-    if (this.sequence === this.devModeKeyword) {
-      this.devMode = !this.devMode;
-      this.sequence = '';
+      // Toggle devmode
+      if (this.sequence === this.devModeKeyword) {
+        this.devMode = !this.devMode;
+        this.sequence = '';
 
-      // Show buttons when in dev mode
-      if (this.devMode) {
-        this.displayedColumns.push('tags');
-        this.displayedColumns.push('actions');
-      } else {
-        this.displayedColumns.pop();
-        this.displayedColumns.pop();  
+        // Show buttons when in dev mode
+        if (this.devMode) {
+          this.displayedColumns.push('tags');
+          this.displayedColumns.push('actions');
+        } else {
+          this.displayedColumns.pop();
+          this.displayedColumns.pop();  
+        }
       }
     }
   }
@@ -272,6 +274,7 @@ export class ContentComponent implements OnInit, AfterViewInit {
 
     const dialogConfig: MatDialogConfig = {
       height: '90vh',
+      maxHeight: '550px',
       width: '600px',
       disableClose: true,
       data: {websiteInfo: dialogData, tags: this.tags}

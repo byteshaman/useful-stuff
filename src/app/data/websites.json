@@ -329,6 +329,15 @@
     ]
   },
   {
+    "id": 322,
+    "name": "CaCareKios",
+    "url": "https://www.carcarekiosk.com/",
+    "description": "The easiest way to fix your car with videos from car repair experts",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
     "id": 23,
     "description": "Website that generates random stuff",
     "name": "cachemonet",
@@ -550,16 +559,6 @@
     ]
   },
   {
-    "id": 40,
-    "description": "Flowchart maker and online diagram software",
-    "name": "draw.io",
-    "url": "https://app.diagrams.net/",
-    "tags": [
-      "misc",
-      "tool"
-    ]
-  },
-  {
     "id": 41,
     "description": "Music database and marketplace",
     "name": "Discogs",
@@ -627,6 +626,16 @@
     "tags": [
       "article",
       "subs"
+    ]
+  },
+  {
+    "id": 40,
+    "description": "Flowchart maker and online diagram software",
+    "name": "draw.io",
+    "url": "https://app.diagrams.net/",
+    "tags": [
+      "misc",
+      "tool"
     ]
   },
   {
@@ -1958,6 +1967,16 @@
     ]
   },
   {
+    "id": 323,
+    "name": "Redact",
+    "url": "https://redact.dev/",
+    "description": "Mass delete messages from various services",
+    "tags": [
+      "tech",
+      "tool"
+    ]
+  },
+  {
     "id": 134,
     "description": "Awesome products designed by independent artists",
     "name": "RedBubble",
@@ -2569,11 +2588,23 @@
     ]
   },
   {
+    "id": 321,
+    "name": "VR Compare",
+    "url": "https://vr-compare.com/",
+    "description": "The internet's largest VR & AR headset database",
+    "tags": [
+      "VR",
+      "catalog",
+      "comp"
+    ]
+  },
+  {
     "id": 318,
     "name": "VRDB",
     "url": "https://vrdb.app/",
     "description": "Browse Meta Quest games and deals",
     "tags": [
+      "VR",
       "catalog",
       "game",
       "tool"
