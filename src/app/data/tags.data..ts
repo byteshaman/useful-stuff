@@ -137,6 +137,11 @@ export const l4dTags: TagInfo[] = [
     description: "Reddit",
   },
   {
+    category: "resource type",
+    value: "sw",
+    description: "Software",
+  },
+  {
     category: "topic",
     value: "sql",
     description: "SQL",
@@ -384,11 +389,6 @@ export const softwareTags: TagInfo[] = [
     category: "extra",
     value: "port",
     description: "Portable",
-  },
-  {
-    category: "category",
-    value: "programming",
-    description: "Programming",
   },
   {
     category: "category",

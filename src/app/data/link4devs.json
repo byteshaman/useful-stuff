@@ -418,6 +418,16 @@
     ]
   },
   {
+    "id": 411,
+    "name": "Couchbase Server",
+    "url": "https://www.couchbase.com/products/server/",
+    "description": "Full-featured NoSQL database",
+    "tags": [
+      "sql",
+      "sw"
+    ]
+  },
+  {
     "id": 41,
     "description": "Standard C++ Library reference",
     "name": "cplusplus",
@@ -658,6 +668,16 @@
     ]
   },
   {
+    "id": 412,
+    "name": "cwRsync",
+    "url": "https://itefix.net/cwrsync",
+    "description": "Packaging of Rsync(link is external) for Windows",
+    "tags": [
+      "linux",
+      "sw"
+    ]
+  },
+  {
     "id": 65,
     "description": "CSS range generator for range inputs",
     "name": "danielstern",
@@ -713,6 +733,16 @@
       "artut",
       "css",
       "js"
+    ]
+  },
+  {
+    "id": 414,
+    "name": "dbeaver",
+    "url": "https://dbeaver.io/download/",
+    "description": "Free universal database tool",
+    "tags": [
+      "sql",
+      "sw"
     ]
   },
   {
@@ -1028,6 +1058,26 @@
     ]
   },
   {
+    "id": 415,
+    "name": "FileZilla",
+    "url": "https://filezilla-project.org/download.php",
+    "description": "Fast and reliable cross-platform FTP, FTPS and SFTP client",
+    "tags": [
+      "sw",
+      "webdev"
+    ]
+  },
+  {
+    "id": 410,
+    "name": "Firefox Developer Edition",
+    "url": "https://www.mozilla.org/firefox/developer/",
+    "description": "A fast browser that offers cutting edge developer tools ",
+    "tags": [
+      "sw",
+      "webdev"
+    ]
+  },
+  {
     "id": 102,
     "description": "How to add an event listener to multiple elements in JS",
     "name": "flavioscopes.com",
@@ -1118,6 +1168,16 @@
     "tags": [
       "css",
       "libpak"
+    ]
+  },
+  {
+    "id": 416,
+    "name": "Fork",
+    "url": "https://git-fork.com/",
+    "description": "A fast and friendly git client",
+    "tags": [
+      "git",
+      "sw"
     ]
   },
   {
@@ -2476,6 +2536,17 @@
     ]
   },
   {
+    "id": 420,
+    "name": "Node.js",
+    "url": "https://nodejs.org/en/",
+    "description": "JavaScript runtime environment",
+    "tags": [
+      "js",
+      "sw",
+      "webdev"
+    ]
+  },
+  {
     "id": 237,
     "description": "An absolute beginners guide to using npm",
     "name": "NodeSource",
@@ -2502,6 +2573,15 @@
     "tags": [
       "js",
       "libpak"
+    ]
+  },
+  {
+    "id": 419,
+    "name": "nvm",
+    "url": "https://github.com/nvm-sh/nvm/releases",
+    "description": "Node Version Manager",
+    "tags": [
+      "sw"
     ]
   },
   {
@@ -2614,6 +2694,16 @@
     "tags": [
       "interactive",
       "tool",
+      "webdev"
+    ]
+  },
+  {
+    "id": 413,
+    "name": "Postman",
+    "url": "https://www.postman.com/downloads/",
+    "description": "The collaboration platform for API development",
+    "tags": [
+      "sw",
       "webdev"
     ]
   },
@@ -2797,6 +2887,16 @@
     ]
   },
   {
+    "id": 421,
+    "name": "Responsively",
+    "url": "https://responsively.app/download",
+    "description": "Test your website responsiveness",
+    "tags": [
+      "sw",
+      "webdev"
+    ]
+  },
+  {
     "id": 267,
     "description": "JS for beginners: Async",
     "name": "rowanmanning",
@@ -2967,6 +3067,26 @@
     "tags": [
       "css",
       "interactive"
+    ]
+  },
+  {
+    "id": 423,
+    "name": "SQL Server",
+    "url": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
+    "description": "Microsoft's relational DBMS",
+    "tags": [
+      "sql",
+      "sw"
+    ]
+  },
+  {
+    "id": 425,
+    "name": "SQL Server Management Studio",
+    "url": "https://learn.microsoft.com/en-us/ssms/download-sql-server-management-studio-ssms",
+    "description": "Integrated environment for managing any SQL infrastructure",
+    "tags": [
+      "sql",
+      "sw"
     ]
   },
   {
@@ -3168,6 +3288,16 @@
       "ag",
       "js",
       "libpak"
+    ]
+  },
+  {
+    "id": 422,
+    "name": "TablePlus",
+    "url": "https://tableplus.com/download",
+    "description": "Friendly GUI tool for relational databases",
+    "tags": [
+      "sql",
+      "sw"
     ]
   },
   {
@@ -3414,6 +3544,26 @@
     "tags": [
       "css",
       "tips"
+    ]
+  },
+  {
+    "id": 417,
+    "name": "Visual Studio Code",
+    "url": "https://code.visualstudio.com/download",
+    "description": "Code editor redefined and optimized for building and debugging modern web and cloud applications",
+    "tags": [
+      "sw",
+      "webdev"
+    ]
+  },
+  {
+    "id": 418,
+    "name": "Visual Studio Community",
+    "url": "https://visualstudio.microsoft.com/vs/community/",
+    "description": "A fully-featured, extensible, free IDE",
+    "tags": [
+      "multi",
+      "sw"
     ]
   },
   {
@@ -4054,6 +4204,16 @@
       "artut",
       "git",
       "yt"
+    ]
+  },
+  {
+    "id": 424,
+    "name": "ZealDocs",
+    "url": "https://zealdocs.org/download.html",
+    "description": "Offline documentation browser",
+    "tags": [
+      "doc",
+      "sw"
     ]
   },
   {

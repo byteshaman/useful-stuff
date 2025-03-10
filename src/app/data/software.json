@@ -179,11 +179,12 @@
   },
   {
     "id": 21,
-    "description": "Wraps installers, executables, zips, and scripts into compiled packages",
     "name": "Chocolatey",
     "url": "https://chocolatey.org/install",
+    "description": "Wraps installers, executables, zips, and scripts into compiled packages",
     "tags": [
-      "programming"
+      "misc",
+      "utility"
     ]
   },
   {
@@ -204,16 +205,6 @@
     "tags": [
       "misc",
       "utility"
-    ]
-  },
-  {
-    "id": 24,
-    "description": "Full-featured NoSQL database",
-    "name": "Couchbase Server",
-    "url": "https://couchbase.com/downloads?family=server",
-    "tags": [
-      "db",
-      "programming"
     ]
   },
   {
@@ -246,25 +237,6 @@
     "tags": [
       "disk",
       "utility"
-    ]
-  },
-  {
-    "id": 27,
-    "name": "cwRsync",
-    "url": "https://itefix.net/cwrsync",
-    "description": "Rsync packaging for Windows",
-    "tags": [
-      "programming"
-    ]
-  },
-  {
-    "id": 28,
-    "description": "Free multi-platform database tool for developers",
-    "name": "dbeaver",
-    "url": "https://dbeaver.io/download/",
-    "tags": [
-      "db",
-      "programming"
     ]
   },
   {
@@ -437,15 +409,6 @@
     ]
   },
   {
-    "id": 43,
-    "name": "FileZilla Client",
-    "url": "https://filezilla-project.org/download.php",
-    "description": "Fast and reliable cross-platform FTP, FTPS and SFTP client",
-    "tags": [
-      "programming"
-    ]
-  },
-  {
     "id": 44,
     "description": "Mozilla web browser",
     "name": "Firefox",
@@ -471,15 +434,6 @@
     "url": "https://fopnu.com/download/",
     "tags": [
       "downloader"
-    ]
-  },
-  {
-    "id": 46,
-    "name": "Fork",
-    "url": "https://git-fork.com/",
-    "description": "A fast and friendly git client",
-    "tags": [
-      "programming"
     ]
   },
   {
@@ -1102,26 +1056,6 @@
     ]
   },
   {
-    "id": 103,
-    "name": "Microsoft VS Code",
-    "url": "https://code.visualstudio.com/download",
-    "description": "Code editor redefined and optimized for building and debugging modern web and cloud applications",
-    "tags": [
-      "editor",
-      "programming"
-    ]
-  },
-  {
-    "id": 104,
-    "description": "A fully-featured, extensible, free IDE",
-    "name": "Microsoft VS Community",
-    "url": "https://visualstudio.microsoft.com/vs/community/",
-    "tags": [
-      "editor",
-      "programming"
-    ]
-  },
-  {
     "id": 105,
     "description": "Set of tools to create, alter and inspect MKV files",
     "name": "MKVToolNix",
@@ -1233,24 +1167,6 @@
     ]
   },
   {
-    "id": 115,
-    "description": "NodeJS package manager",
-    "name": "npm/nodejs",
-    "url": "https://nodejs.org/en/",
-    "tags": [
-      "programming"
-    ]
-  },
-  {
-    "id": 222,
-    "name": "nvm",
-    "url": "https://github.com/nvm-sh/nvm",
-    "description": "node.js version manager",
-    "tags": [
-      "programming"
-    ]
-  },
-  {
     "id": 116,
     "description": "Video recording and live streaming",
     "name": "OBS Studio",
@@ -1348,15 +1264,6 @@
     "tags": [
       "screen",
       "utility"
-    ]
-  },
-  {
-    "id": 123,
-    "name": "Postman",
-    "url": "https://postman.com/downloads/",
-    "description": "The collaboration platform for API development",
-    "tags": [
-      "programming"
     ]
   },
   {
@@ -1467,15 +1374,6 @@
     "tags": [
       "audio",
       "music"
-    ]
-  },
-  {
-    "id": 208,
-    "name": "Responsively",
-    "url": "https://responsively.app/download",
-    "description": "Test your website responsiveness",
-    "tags": [
-      "programming"
     ]
   },
   {
@@ -1595,26 +1493,6 @@
     ]
   },
   {
-    "id": 145,
-    "description": "Ideal for development and production for desktop, web, and small server applications",
-    "name": "SQL Server",
-    "url": "https://microsoft.com/en-us/sql-server/sql-server-downloads",
-    "tags": [
-      "db",
-      "programming"
-    ]
-  },
-  {
-    "id": 146,
-    "description": "Integrated environment for managing any SQL infrastructure",
-    "name": "SQL Server Management Studio",
-    "url": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
-    "tags": [
-      "db",
-      "programming"
-    ]
-  },
-  {
     "id": 147,
     "description": "Desktop client for Steam store",
     "name": "Steam",
@@ -1672,16 +1550,6 @@
     "tags": [
       "fef",
       "utility"
-    ]
-  },
-  {
-    "id": 152,
-    "description": "Modern, native, and friendly GUI tool for relational databases",
-    "name": "TablePlus",
-    "url": "https://tableplus.com/",
-    "tags": [
-      "db",
-      "programming"
     ]
   },
   {
@@ -1985,15 +1853,6 @@
     "url": "https://xtremedownloadmanager.com/#downloads",
     "tags": [
       "downloader"
-    ]
-  },
-  {
-    "id": 206,
-    "name": "ZealDocs",
-    "url": "https://zealdocs.org/download.html",
-    "description": "Offline documentation browser for software developers",
-    "tags": [
-      "programming"
     ]
   },
   {
