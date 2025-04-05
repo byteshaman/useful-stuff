@@ -268,6 +268,17 @@
     ]
   },
   {
+    "id": 334,
+    "name": "BestSimilar",
+    "url": "https://bestsimilar.com/",
+    "description": "Find best similar movies",
+    "tags": [
+      "comp",
+      "movies",
+      "tool"
+    ]
+  },
+  {
     "id": 240,
     "name": "BorsaItaliana",
     "url": "https://borsaitaliana.it/notizie/sotto-la-lente/capitalgain.htm",
@@ -329,15 +340,6 @@
     ]
   },
   {
-    "id": 322,
-    "name": "CaCareKios",
-    "url": "https://www.carcarekiosk.com/",
-    "description": "The easiest way to fix your car with videos from car repair experts",
-    "tags": [
-      "misc"
-    ]
-  },
-  {
     "id": 23,
     "description": "Website that generates random stuff",
     "name": "cachemonet",
@@ -363,6 +365,15 @@
     "url": "https://stationx.net/canarytokens/",
     "tags": [
       "cybersec"
+    ]
+  },
+  {
+    "id": 322,
+    "name": "CarCareKios",
+    "url": "https://www.carcarekiosk.com/",
+    "description": "The easiest way to fix your car with videos from car repair experts",
+    "tags": [
+      "misc"
     ]
   },
   {
@@ -590,8 +601,8 @@
   {
     "id": 256,
     "name": "Display Specifications",
-    "url": "https://displayspecifications.com/",
-    "description": "Get detailed features and specifications of various desktop monitors, TV sets and other types of displays",
+    "url": "https://www.displayspecifications.com/en/display-finder",
+    "description": "Get detailed specifications of various display types and easily  compare them",
     "tags": [
       "catalog",
       "comp",
@@ -796,6 +807,20 @@
     ]
   },
   {
+    "id": 333,
+    "name": "Folge Tools",
+    "url": "https://folge.me/tools",
+    "description": "Collection of free online tools, all private and running only in your browser",
+    "tags": [
+      "image",
+      "music",
+      "prod",
+      "text",
+      "tool",
+      "video"
+    ]
+  },
+  {
     "id": 224,
     "name": "Forum FinanzaOnline",
     "url": "https://forum.finanzaonline.com/",
@@ -832,6 +857,24 @@
     "tags": [
       "mail",
       "useless"
+    ]
+  },
+  {
+    "id": 324,
+    "name": "Gamsgo",
+    "url": "https://www.gamsgo.com/",
+    "description": "Share premium subscription with lower prices",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "id": 329,
+    "name": "Gemini",
+    "url": "AI assistant from Google",
+    "description": "https://gemini.google.com/",
+    "tags": [
+      "ai"
     ]
   },
   {
@@ -952,6 +995,16 @@
     ]
   },
   {
+    "id": 325,
+    "name": "HDDGuru",
+    "url": "https://hddguru.com/",
+    "description": "The most popular place on the internet dedicated solely to hard drives.",
+    "tags": [
+      "disc",
+      "tech"
+    ]
+  },
+  {
     "id": 64,
     "description": "4000 years of human history in one interactive page",
     "name": "Historygrapy",
@@ -987,6 +1040,15 @@
       "article",
       "music",
       "tool"
+    ]
+  },
+  {
+    "id": 335,
+    "name": "How many people are in space right now?",
+    "url": "https://www.howmanypeopleareinspacerightnow.com/",
+    "description": "Get a list of people currently in space",
+    "tags": [
+      "useless"
     ]
   },
   {
@@ -1057,6 +1119,16 @@
     "url": "https://idealo.it/",
     "tags": [
       "comp"
+    ]
+  },
+  {
+    "id": 331,
+    "name": "Ideogram",
+    "url": "https://ideogram.ai/",
+    "description": "Image generation AI",
+    "tags": [
+      "ai",
+      "image"
     ]
   },
   {
@@ -1308,6 +1380,16 @@
     "description": "AI assistant from Mistral",
     "tags": [
       "ai"
+    ]
+  },
+  {
+    "id": 330,
+    "name": "Leonardo",
+    "url": "https://app.leonardo.ai/",
+    "description": "Image generation AI",
+    "tags": [
+      "ai",
+      "image"
     ]
   },
   {
@@ -1578,15 +1660,6 @@
     ]
   },
   {
-    "id": 304,
-    "name": "NotDiamond",
-    "url": "https://chat.notdiamond.ai/",
-    "description": "Multi-chatbot",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
     "id": 308,
     "name": "NotebookLM",
     "url": "https://notebooklm.google.com/",
@@ -1763,15 +1836,6 @@
   },
   {
     "id": 309,
-    "name": "Perplexity",
-    "url": "https://perplexity.ai/",
-    "description": "AI-powered answer engine",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "id": 303,
     "name": "Perplexity",
     "url": "https://perplexity.ai/",
     "description": "AI-powered answer engine",
@@ -1967,6 +2031,16 @@
     ]
   },
   {
+    "id": 327,
+    "name": "Real or fake 3D?",
+    "url": "https://realorfake3d.com/",
+    "description": "A list for separating the real 3D films from the fake ones",
+    "tags": [
+      "comp",
+      "movies"
+    ]
+  },
+  {
     "id": 323,
     "name": "Redact",
     "url": "https://redact.dev/",
@@ -1993,6 +2067,15 @@
     "tags": [
       "image",
       "tool"
+    ]
+  },
+  {
+    "id": 332,
+    "name": "RetroGames",
+    "url": "https://www.retrogames.onl/",
+    "description": "Play games from various consoles online",
+    "tags": [
+      "game"
     ]
   },
   {
@@ -2588,6 +2671,18 @@
     ]
   },
   {
+    "id": 328,
+    "name": "VR Compare",
+    "url": "https://vr-compare.com/",
+    "description": "The Internet'slargest VR & AR headset database",
+    "tags": [
+      "VR",
+      "catalog",
+      "comp",
+      "tech"
+    ]
+  },
+  {
     "id": 321,
     "name": "VR Compare",
     "url": "https://vr-compare.com/",
@@ -2653,6 +2748,16 @@
     "description": "Find the best time for a group to meet",
     "tags": [
       "prod",
+      "tool"
+    ]
+  },
+  {
+    "id": 326,
+    "name": "WhereGoes",
+    "url": "https://wheregoes.com/",
+    "description": "Check where a certain link will bring you",
+    "tags": [
+      "cybersec",
       "tool"
     ]
   },

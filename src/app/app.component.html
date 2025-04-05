@@ -8,11 +8,11 @@
   (selectedIndexChange)="onTabChange($event)"
 >
   @for (page of pages; track page.code) {
-  <mat-tab [label]="page.description">
-    <!-- lazy load component -->
-    <ng-template matTabContent>
-      <app-content [pageInfo]="page"></app-content>
-    </ng-template>
-  </mat-tab>
+    <mat-tab [label]="page.description">
+      <!-- lazy load component -->
+      <ng-template matTabContent>
+        <app-content [pageInfo]="page"></app-content>
+      </ng-template>
+    </mat-tab>
   }
 </mat-tab-group>

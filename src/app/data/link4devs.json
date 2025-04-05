@@ -1550,8 +1550,8 @@
   },
   {
     "id": 141,
-    "name": "Github gist",
-    "url": "https://gist.github.com/LayZeeDK/c822cc812f75bb07b7c55d07ba2719b3",
+    "name": "Angular Compatibility Matrix",
+    "url": "https://angular.dev/reference/versions",
     "description": "Angular CLI, Angular, Node.js, TypeScript, and RxJS version compatibility matrix",
     "tags": [
       "ag",
@@ -1971,7 +1971,7 @@
     "id": 183,
     "description": "Evie's accelerated JS tutorial",
     "name": "js.evie.dev",
-    "url": "https://js.evie.dev/",
+    "url": "https://js.alterion.dev/",
     "tags": [
       "artut",
       "js"

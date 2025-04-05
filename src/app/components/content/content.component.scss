@@ -6,6 +6,10 @@ $taglist-search--height: 160px;
 
 //#region desktop
 
+input {
+  outline: none;
+}
+
 .search-wrapper {
   align-self: center;
 

@@ -1,7 +1,7 @@
-import { Component, Inject, OnDestroy, OnInit } from '@angular/core';
-import { FormArray, FormBuilder, FormControl, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
+import { Component, Inject, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef, MatDialogClose } from '@angular/material/dialog';
-import { ReplaySubject, Subject, takeUntil } from 'rxjs';
+import { Subject } from 'rxjs';
 import { TagInfo, WebsiteInfo } from 'src/app/interfaces/interfaces';
 import { MatButton } from '@angular/material/button';
 import { MatCheckbox } from '@angular/material/checkbox';
@@ -22,7 +22,6 @@ export class FormDialogComponent implements OnInit {
   mandatoryFieldError: string = 'This field is mandatory';
 
   // Mutli select
-  protected onDestroy = new Subject<void>();
   tagList: TagInfo[] = this.data.tags;
   form!: FormGroup;
   selectedTags: string[] = [];
@@ -32,10 +31,10 @@ export class FormDialogComponent implements OnInit {
     @Inject(MAT_DIALOG_DATA) private readonly data: {websiteInfo: WebsiteInfo | null, tags: TagInfo[]} ) {
 
       this.form = this.fb.group({
-        id: [this.data.websiteInfo ? this.data.websiteInfo['id'] : -1, Validators.required],
-        name: [this.data.websiteInfo ? this.data.websiteInfo['name'] : '', Validators.required],
-        url: [this.data.websiteInfo ? this.data.websiteInfo.url : '', Validators.required],
-        description: [this.data.websiteInfo ? this.data.websiteInfo.description : '', Validators.required]
+        id: [this.data.websiteInfo?.id || -1, Validators.required],
+        name: [this.data.websiteInfo?.name || '', Validators.required],
+        url: [this.data.websiteInfo?.url || '', Validators.required],
+        description: [this.data.websiteInfo?.description || '', Validators.required]
       });
     }
 

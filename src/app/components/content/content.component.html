@@ -24,23 +24,28 @@
 </ng-template>
 
 <!--# MAIN CONTENT -->
+<!-- 
+   appResponsive applies the directive 
+   #view allows me to access the directive's properties in the component
+   responsive is the exportAs value of the directive, without it I'd need to use the directive's selector to access it 
+-->
 <main class="flex--col gap--md mt-5" appResponsive #view="responsive">
 
 <div class="flex flex--col gap--lg" id="upper-side">
-  <!-- If I'm not on mobile, show the taglist in flex mode above the search input -->
+  <!-- If I'm not on small screen, show the taglist in flex mode above the search input -->
   @if (!view.isMobile) {<ng-container id="desktop-taglist" *ngTemplateOutlet="taglist"></ng-container>}
 
   <!-- SEARCH WRAPPER -->
   <div class="search-wrapper flex flex--jc-center flex--ai-center gap--sm"> 
     @if (devMode) {
-      <button mat-icon-button appControlButton (click)="openDialog()">
+      <button mat-icon-button (click)="openDialog()">
         <mat-icon>add</mat-icon>
       </button>
     }
 
     <!-- FILTER -->
     @if (view.isMobile) {
-      <button mat-icon-button appControlButton (click)="openMobileDialog()">
+      <button mat-icon-button (click)="openMobileDialog()">
         <mat-icon>filter_alt</mat-icon>
       </button>
     }
@@ -51,7 +56,7 @@
     </mat-form-field>
 
     @if (devMode) {
-      <button mat-icon-button appControlButton (click)="downloadJSON()">
+      <button mat-icon-button (click)="downloadJSON()">
         <mat-icon>download</mat-icon>
       </button>
     }

@@ -1595,8 +1595,9 @@
     "id": 244,
     "name": "Tixati",
     "url": "https://tixati.com/windows",
-    "description": "Free and easy to use BitTorrent Client",
+    "description": "BitTorrent Client",
     "tags": [
+      "downloader",
       "port",
       "torrent"
     ]
@@ -1862,16 +1863,6 @@
     "description": "Experience tranquillity while browsing the web without people tracking you",
     "tags": [
       "browser"
-    ]
-  },
-  {
-    "id": 207,
-    "description": "BitTorrent client",
-    "name": "µTorrent",
-    "url": "https://utorrent.com/downloads/win",
-    "tags": [
-      "downloader",
-      "torrent"
     ]
   }
 ]
