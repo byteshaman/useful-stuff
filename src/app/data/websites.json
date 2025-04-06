@@ -319,17 +319,6 @@
     ]
   },
   {
-    "id": 20,
-    "description": "Listen to a selection from the British Library’s extensive collections of unique sound recordings",
-    "name": "British Library Sounds",
-    "url": "https://sounds.bl.uk/",
-    "tags": [
-      "misc",
-      "music",
-      "stream"
-    ]
-  },
-  {
     "id": 21,
     "description": "Find and share logins",
     "name": "BugMeNot",
@@ -631,9 +620,9 @@
   },
   {
     "id": 46,
-    "description": "Italian guide to subtitles synchronization",
     "name": "Doom9",
     "url": "http://www.doom9.it/index.html?/sub.htm",
+    "description": "[ITA] Guida italiana alla sincronizzazione dei sottotitoli",
     "tags": [
       "article",
       "subs"
@@ -792,6 +781,16 @@
     "description": "Create 2D & 3D floor plans",
     "tags": [
       "misc",
+      "tool"
+    ]
+  },
+  {
+    "id": 336,
+    "name": "Flowchart",
+    "url": "https://flowchart.fun/",
+    "description": "Create flowcharts from text",
+    "tags": [
+      "prod",
       "tool"
     ]
   },
@@ -1844,6 +1843,15 @@
     ]
   },
   {
+    "id": 303,
+    "name": "Perplexity",
+    "url": "https://perplexity.ai/",
+    "description": "AI-powered answer engine",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
     "id": 121,
     "description": "Album reviews, music database, history of music and so on",
     "name": "Piero Scaruffi",
@@ -2038,6 +2046,16 @@
     "tags": [
       "comp",
       "movies"
+    ]
+  },
+  {
+    "id":338,
+    "name": "RecoverHDD",
+    "url": "https://recoverhdd.com/blog/using-victoria-for-testing-repair-hard-drive.html",
+    "description": "How to use Victoria to test and fix your hard drive",
+    "tags": [
+      "article",
+      "tech"
     ]
   },
   {
@@ -2608,6 +2626,17 @@
     "tags": [
       "comp",
       "tech"
+    ]
+  },
+  {
+    "id": 337,
+    "name": "Vectorize",
+    "url": "https://vectorizer.ai/",
+    "description": "Convert images to SVG",
+    "tags": [
+      "ai",
+      "image",
+      "tool"
     ]
   },
   {
