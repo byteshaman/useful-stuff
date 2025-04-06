@@ -480,6 +480,16 @@
     ]
   },
   {
+    "id": 339,
+    "name": "Cryptopad",
+    "url": "https://cryptpad.fr/",
+    "description": "End-to-end encrypted and open-source collaboration suite",
+    "tags": [
+      "cybersec",
+      "share"
+    ]
+  },
+  {
     "id": 210,
     "name": "Dangerzone",
     "url": "https://dangerzone.rocks/",
@@ -2049,7 +2059,7 @@
     ]
   },
   {
-    "id":338,
+    "id": 338,
     "name": "RecoverHDD",
     "url": "https://recoverhdd.com/blog/using-victoria-for-testing-repair-hard-drive.html",
     "description": "How to use Victoria to test and fix your hard drive",

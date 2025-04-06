@@ -725,6 +725,25 @@
     ]
   },
   {
+    "id": 251,
+    "name": "https://ollama.com/",
+    "url": "Ollama",
+    "description": "Run AI locally",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "id": 252,
+    "name": "https://openwebui.com/",
+    "url": "https://github.com/open-webui/open-webui/releases",
+    "description": "User-friendly AI Interface",
+    "tags": [
+      "ai",
+      "os"
+    ]
+  },
+  {
     "id": 78,
     "description": "Comprehensive hardware analysis, monitoring and reporting",
     "name": "HWiNFO",
@@ -839,6 +858,15 @@
     "tags": [
       "db",
       "utility"
+    ]
+  },
+  {
+    "id": 250,
+    "name": "LMStudio",
+    "url": "https://lmstudio.ai/",
+    "description": "Run AI locally",
+    "tags": [
+      "ai"
     ]
   },
   {
@@ -1083,6 +1111,16 @@
     "tags": [
       "misc",
       "utility"
+    ]
+  },
+  {
+    "id": 254,
+    "name": "MovieScanner",
+    "url": "https://www.tweaking4all.com/applications/moviescanner2/",
+    "description": "Analyze your video file and store their details in a database",
+    "tags": [
+      "db",
+      "video"
     ]
   },
   {
@@ -1406,6 +1444,17 @@
     ]
   },
   {
+    "id": 253,
+    "name": "RustDesk",
+    "url": "Open source remote access and support software",
+    "description": "Remote support agent",
+    "tags": [
+      "misc",
+      "os",
+      "utility"
+    ]
+  },
+  {
     "id": 135,
     "description": "Management utility for Samsung SSDs",
     "name": "Samsung Magician",
@@ -1666,6 +1715,7 @@
     "url": "https://upscayl.org/download ",
     "description": "A powerful image upscaling tool",
     "tags": [
+      "ai",
       "image",
       "utility"
     ]
@@ -1711,10 +1761,11 @@
   },
   {
     "id": 167,
-    "description": "Remotely control VLC player from your smartphone",
     "name": "VLCMobileRemote",
     "url": "https://vlcmobileremote.com/download/",
+    "description": "Remotely control VLC player from your smartphone",
     "tags": [
+      "app",
       "misc",
       "video"
     ]

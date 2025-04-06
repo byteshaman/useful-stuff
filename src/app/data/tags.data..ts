@@ -292,6 +292,11 @@ export const websitesTags: TagInfo[] = [
 export const softwareTags: TagInfo[] = [
   {
     category: "category",
+    value: "ai",
+    description: "AI",
+  },
+  {
+    category: "category",
     value: "app",
     description: "App",
   },
