@@ -53,6 +53,17 @@
     ]
   },
   {
+    "id": 141,
+    "name": "Angular Compatibility Matrix",
+    "url": "https://angular.dev/reference/versions",
+    "description": "Angular CLI, Angular, Node.js, TypeScript, and RxJS version compatibility matrix",
+    "tags": [
+      "ag",
+      "artut",
+      "ts"
+    ]
+  },
+  {
     "id": 5,
     "description": "Dynamic (JSON powered) form library for Angular that bring unmatched maintainability to your application's forms",
     "name": "Angular Formly",
@@ -671,7 +682,7 @@
     "id": 412,
     "name": "cwRsync",
     "url": "https://itefix.net/cwrsync",
-    "description": "Packaging of Rsync(link is external) for Windows",
+    "description": "Packaging of Rsync for Windows",
     "tags": [
       "linux",
       "sw"
@@ -1546,17 +1557,6 @@
     "tags": [
       "git",
       "thisthat"
-    ]
-  },
-  {
-    "id": 141,
-    "name": "Angular Compatibility Matrix",
-    "url": "https://angular.dev/reference/versions",
-    "description": "Angular CLI, Angular, Node.js, TypeScript, and RxJS version compatibility matrix",
-    "tags": [
-      "ag",
-      "artut",
-      "ts"
     ]
   },
   {
@@ -3288,16 +3288,6 @@
       "ag",
       "js",
       "libpak"
-    ]
-  },
-  {
-    "id": 422,
-    "name": "TablePlus",
-    "url": "https://tableplus.com/download",
-    "description": "Friendly GUI tool for relational databases",
-    "tags": [
-      "sql",
-      "sw"
     ]
   },
   {

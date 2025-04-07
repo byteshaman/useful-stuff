@@ -110,6 +110,17 @@
     ]
   },
   {
+    "id": 255,
+    "name": "AudioRelay",
+    "url": "https://audiorelay.net/",
+    "description": "Stream audio between your devices",
+    "tags": [
+      "app",
+      "audio",
+      "utility"
+    ]
+  },
+  {
     "id": 11,
     "description": "A scripting language for desktop automation",
     "name": "AutoHotkey",
@@ -1485,6 +1496,18 @@
     ]
   },
   {
+    "id": 257,
+    "name": "Shotcut",
+    "url": "https://www.shotcut.org/",
+    "description": "Cross-platform video editor.",
+    "tags": [
+      "editor",
+      "os",
+      "port",
+      "video"
+    ]
+  },
+  {
     "id": 138,
     "description": "Delete information stored on HDDs in PC laptops, desktops, or servers",
     "name": "ShredOS",
@@ -1715,7 +1738,6 @@
     "url": "https://upscayl.org/download ",
     "description": "A powerful image upscaling tool",
     "tags": [
-      "ai",
       "image",
       "utility"
     ]
@@ -1736,6 +1758,17 @@
     "url": "https://ventoy.net/en/download.html",
     "tags": [
       "misc",
+      "utility"
+    ]
+  },
+  {
+    "id": 256,
+    "name": "Victoria",
+    "url": "https://hdd.by/victoria/",
+    "description": "HDD and drive diagnostics for performance and repairs",
+    "tags": [
+      "disk",
+      "port",
       "utility"
     ]
   },
@@ -1761,9 +1794,9 @@
   },
   {
     "id": 167,
+    "description": "Remotely control VLC player from your smartphone",
     "name": "VLCMobileRemote",
     "url": "https://vlcmobileremote.com/download/",
-    "description": "Remotely control VLC player from your smartphone",
     "tags": [
       "app",
       "misc",
