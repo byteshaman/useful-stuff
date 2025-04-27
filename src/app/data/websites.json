@@ -319,6 +319,16 @@
     ]
   },
   {
+    "id": 345,
+    "name": "BrowserUse",
+    "url": "https://browser-use.com/",
+    "description": "Enable AI to control your browser",
+    "tags": [
+      "ai",
+      "misc"
+    ]
+  },
+  {
     "id": 21,
     "description": "Find and share logins",
     "name": "BugMeNot",
@@ -480,6 +490,16 @@
     ]
   },
   {
+    "id": 342,
+    "name": "Cryptopad",
+    "url": "https://cryptpad.fr/index.html",
+    "description": "End-to-end encrypted and open-source collaboration suite",
+    "tags": [
+      "cybersec",
+      "prod"
+    ]
+  },
+  {
     "id": 339,
     "name": "Cryptopad",
     "url": "https://cryptpad.fr/",
@@ -606,6 +626,17 @@
       "catalog",
       "comp",
       "tech"
+    ]
+  },
+  {
+    "id": 343,
+    "name": "DistroSea",
+    "url": "https://distrosea.com/",
+    "description": "Test Linux distro online",
+    "tags": [
+      "comp",
+      "misc",
+      "tool"
     ]
   },
   {
@@ -1688,6 +1719,17 @@
     ]
   },
   {
+    "id": 340,
+    "name": "ObjectRemover",
+    "url": "https://objectremover.com/",
+    "description": "Removing unwanted objects from images with one click.",
+    "tags": [
+      "ai",
+      "image",
+      "tool"
+    ]
+  },
+  {
     "id": 203,
     "name": "odesli",
     "url": "https://odesli.co/",
@@ -1859,6 +1901,16 @@
     "description": "AI-powered answer engine",
     "tags": [
       "ai"
+    ]
+  },
+  {
+    "id": 341,
+    "name": "Photopea",
+    "url": "https://www.photopea.com/",
+    "description": "Online photo editor",
+    "tags": [
+      "image",
+      "tool"
     ]
   },
   {
