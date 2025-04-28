@@ -21,6 +21,16 @@
     ]
   },
   {
+    "id": 438,
+    "name": "a11yphant",
+    "url": "https://a11yphant.com/",
+    "description": "Learning web accessibility made easy",
+    "tags": [
+      "artut",
+      "webdev"
+    ]
+  },
+  {
     "id": 2,
     "description": "WCAG 2.0 AA and AAA color contrast checker",
     "name": "accessible-colors",
@@ -74,6 +84,16 @@
     ]
   },
   {
+    "id": 426,
+    "name": "Angular Start",
+    "url": "https://angularstart.com/",
+    "description": "A complete text-based guide to Angular",
+    "tags": [
+      "ag",
+      "artut"
+    ]
+  },
+  {
     "id": 6,
     "description": "RxJs error handling: the practical guide",
     "name": "Angular University",
@@ -99,6 +119,16 @@
     "description": "Understanding template variables",
     "name": "angular.io",
     "url": "https://angular.io/guide/template-reference-variables",
+    "tags": [
+      "ag",
+      "artut"
+    ]
+  },
+  {
+    "id": 429,
+    "name": "AngularLove",
+    "url": "https://angular.love/",
+    "description": "Stay updated with the latest Angular news and trends",
     "tags": [
       "ag",
       "artut"
@@ -261,6 +291,16 @@
     "tags": [
       "css",
       "libpak"
+    ]
+  },
+  {
+    "id": 427,
+    "name": "briantree.se",
+    "url": "https://briantree.se/how-to-use-the-angular-cdk-breakpoint-observer/",
+    "description": "How to use Angular CDK Breakpoint Observer",
+    "tags": [
+      "ag",
+      "artut"
     ]
   },
   {
@@ -450,11 +490,12 @@
   },
   {
     "id": 42,
-    "description": "C++ forum where you can ask for help",
     "name": "cplusplus",
     "url": "http://cplusplus.com/forum/",
+    "description": "C++ forum where you can ask for help",
     "tags": [
-      "cpp"
+      "cpp",
+      "forcomm"
     ]
   },
   {
@@ -1069,6 +1110,16 @@
     ]
   },
   {
+    "id": 439,
+    "name": "fateen45",
+    "url": "https://fateen45.notion.site/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833#72c3bb2852b04e1fb143fa67dc20ef21",
+    "description": "Git & GitHub guide",
+    "tags": [
+      "artut",
+      "git"
+    ]
+  },
+  {
     "id": 415,
     "name": "FileZilla",
     "url": "https://filezilla-project.org/download.php",
@@ -1202,13 +1253,25 @@
     ]
   },
   {
+    "id": 436,
+    "name": "FreeCodeCamp",
+    "url": "https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/",
+    "description": "A neat way to do CSS breakpoints",
+    "tags": [
+      "artut",
+      "css",
+      "tips"
+    ]
+  },
+  {
     "id": 112,
-    "description": "Learn to code online and get certifications or ask for help in the official FCC forum",
     "name": "FreeCodeCamp",
     "url": "https://freecodecamp.org/",
+    "description": "Learn to code online and get certifications or ask for help in the official FCC forum",
     "tags": [
       "artut",
       "exercise",
+      "forcomm",
       "interactive",
       "multi"
     ]
@@ -2090,6 +2153,18 @@
     ]
   },
   {
+    "id": 430,
+    "name": "konstantin-denerz.de",
+    "url": "https://konstantin-denerz.com/angular-material-3-theming-design-tokens-and-system-variables/",
+    "description": "Angular Material 3 theming: design tokens and system variables",
+    "tags": [
+      "ag",
+      "artut",
+      "css",
+      "mat"
+    ]
+  },
+  {
     "id": 194,
     "description": "Difference between severity and priority in testing",
     "name": "lambdatest",
@@ -2262,6 +2337,17 @@
     ]
   },
   {
+    "id": 434,
+    "name": "maketintandshades",
+    "url": "https://maketintsandshades.com/",
+    "description": "Tint/shade generator",
+    "tags": [
+      "css",
+      "interactive",
+      "tool"
+    ]
+  },
+  {
     "id": 211,
     "name": "makeuseof",
     "url": "https://makeuseof.com/angular-app-github-deploy-using-angular-cli/",
@@ -2282,32 +2368,69 @@
     ]
   },
   {
+    "id": 433,
+    "name": "Material Design palette generator",
+    "url": "https://marketplace.visualstudio.com/items?itemName=piyush-bhatt.vscode-mat-palette",
+    "description": "Generate a material color palette within VSCode",
+    "tags": [
+      "css",
+      "ext/plugin",
+      "mat"
+    ]
+  },
+  {
+    "id": 431,
+    "name": "Material Theme Builder",
+    "url": "https://material-foundation.github.io/material-theme-builder/",
+    "description": "Build a Material color scheme",
+    "tags": [
+      "ag",
+      "mat",
+      "tool"
+    ]
+  },
+  {
     "id": 213,
     "name": "material.io",
     "url": "https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors",
     "description": "Material color palettes",
     "tags": [
       "doc",
+      "mat",
       "misc"
     ]
   },
   {
     "id": 214,
-    "description": "Create color palettes for your UI and measure color accessibility",
     "name": "Material.io",
     "url": "https://material.io/resources/color/#!/",
+    "description": "Create color palettes for your UI and measure color accessibility",
     "tags": [
+      "mat",
       "tool",
       "webdev"
     ]
   },
   {
-    "id": 215,
-    "description": "Material Design them and palette color generator",
-    "name": "mbitson",
-    "url": "http://mcg.mbitson.com/",
+    "id": 432,
+    "name": "MaterialPalettes",
+    "url": "https://materialpalettes.com/",
+    "description": "Material Design palette generator",
     "tags": [
-      "ag",
+      "css",
+      "interactive",
+      "mat",
+      "tool"
+    ]
+  },
+  {
+    "id": 215,
+    "name": "mbitson",
+    "url": "https://web.archive.org/web/20240921093421/http://mcg.mbitson.com/",
+    "description": "Material Design them and palette color generator",
+    "tags": [
+      "interactive",
+      "mat",
       "tool"
     ]
   },
@@ -2371,6 +2494,16 @@
     ]
   },
   {
+    "id": 428,
+    "name": "Medium",
+    "url": "https://medium.com/@danpercic86/destroyref-takeuntildestroyed-07133a40b24f",
+    "description": "DestroyRef & takeUntilDestroyed()",
+    "tags": [
+      "ag",
+      "artut"
+    ]
+  },
+  {
     "id": 221,
     "name": "Medium",
     "url": "https://medium.com/compendium/loading-status-in-angular-done-right-aeed09cfbea6",
@@ -2388,7 +2521,8 @@
     "tags": [
       "ag",
       "artut",
-      "css"
+      "css",
+      "mat"
     ]
   },
   {
@@ -3280,6 +3414,17 @@
     ]
   },
   {
+    "id": 437,
+    "name": "statcounter",
+    "url": "https://gs.statcounter.com/screen-resolution-stats",
+    "description": "Screen resolution stats worldwide",
+    "tags": [
+      "interactive",
+      "tool",
+      "webdev"
+    ]
+  },
+  {
     "id": 302,
     "description": "Responsive, curstomizable and accessible replacement for JavaScript popup boxes",
     "name": "SweetAlert",
@@ -4088,6 +4233,17 @@
     ]
   },
   {
+    "id": 435,
+    "name": "WhatUnit",
+    "url": "https://whatunit.com/",
+    "description": "What length CSS unit should you use?",
+    "tags": [
+      "css",
+      "interactive",
+      "tool"
+    ]
+  },
+  {
     "id": 341,
     "description": "List of HTTP status codes",
     "name": "Wikipedia",
@@ -4213,7 +4369,8 @@
     "description": "Angular Material dark mode",
     "tags": [
       "ag",
-      "artut"
+      "artut",
+      "mat"
     ]
   }
 ]

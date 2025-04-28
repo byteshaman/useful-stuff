@@ -58,6 +58,11 @@ export const l4dTags: TagInfo[] = [
   },
   {
     category: "resource type",
+    value: "forcomm",
+    description: "Forum/Community",
+  },
+  {
+    category: "resource type",
     value: "fw",
     description: "Framework",
   },
@@ -100,6 +105,11 @@ export const l4dTags: TagInfo[] = [
     category: "topic",
     value: "linux",
     description: "Linux",
+  },
+  {
+    category: "topic",
+    value: "mat",
+    description: "Material",
   },
   {
     category: "topic",

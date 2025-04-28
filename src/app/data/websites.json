@@ -1971,6 +1971,18 @@
     ]
   },
   {
+    "id": 346,
+    "name": "ProductHunt",
+    "url": "https://www.producthunt.com/",
+    "description": "The place to launch and discover new tech products",
+    "tags": [
+      "catalog",
+      "comp",
+      "disc",
+      "tech"
+    ]
+  },
+  {
     "id": 125,
     "description": "Discover the latest mobile apps, websites, and technology products that everyone's talking about",
     "name": "ProductHunt",

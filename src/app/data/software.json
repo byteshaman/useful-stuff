@@ -61,6 +61,17 @@
     ]
   },
   {
+    "id": 258,
+    "name": "ArchiveBox",
+    "url": "https://archivebox.io/",
+    "description": "Self-hosted web archiving",
+    "tags": [
+      "misc",
+      "os",
+      "video"
+    ]
+  },
+  {
     "id": 6,
     "description": "Free DAW that lets you record, edit and mix",
     "name": "Ardour",
@@ -1081,7 +1092,8 @@
     "description": "Set of utilities to enhance Windows experience",
     "tags": [
       "misc",
-      "utility"
+      "utility",
+      "sys"
     ]
   },
   {
@@ -1092,6 +1104,29 @@
     "tags": [
       "misc",
       "utility"
+    ]
+  },
+  {
+    "id": 260,
+    "name": "MKV Cleaver",
+    "url": "https://www.videohelp.com/software/MKVcleaver",
+    "description": "Easily extract data from MKV files",
+    "tags": [
+      "editor",
+      "port",
+      "video"
+    ]
+  },
+  {
+    "id": 259,
+    "name": "MKV muxing batch GUI",
+    "url": "https://github.com/yaser01/mkv-muxing-batch-gui",
+    "description": "A robust application for muxing videos with subtitles, audios",
+    "tags": [
+      "editor",
+      "os",
+      "port",
+      "video"
     ]
   },
   {
@@ -1805,9 +1840,9 @@
   },
   {
     "id": 243,
-    "name": "WD Dashboard",
-    "url": "https://support-en.wd.com/app/answers/detailweb/a_id/31759/",
-    "description": "The software helps check on Western Digital drives in Windows",
+    "name": "WD Kitfox",
+    "url": "https://support-en.wd.com/app/answers/detailweb/a_id/52386/initiator/user",
+    "description": "Check on Western Digital drives in Windows",
     "tags": [
       "disk",
       "utility"
