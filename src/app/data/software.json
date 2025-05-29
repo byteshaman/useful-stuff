@@ -389,6 +389,19 @@
     ]
   },
   {
+    "id": 262,
+    "name": "ExifTool",
+    "url": "https://exiftool.org/",
+    "description": "Read, write and edit meta information in a wide variety of files",
+    "tags": [
+      "editor",
+      "fef",
+      "os",
+      "port",
+      "utility"
+    ]
+  },
+  {
     "id": 211,
     "name": "Fences",
     "url": "https://stardock.com/products/fences/",
@@ -737,6 +750,17 @@
     ]
   },
   {
+    "id": 264,
+    "name": "HashMyFiles",
+    "url": "https://www.nirsoft.net/utils/hash_my_files.html",
+    "description": "Calculate various hashes of your files",
+    "tags": [
+      "fef",
+      "port",
+      "utility"
+    ]
+  },
+  {
     "id": 77,
     "description": "Send keyboard macros activated from different USB devices",
     "name": "HID macros",
@@ -831,6 +855,16 @@
     "url": "https://jdownloader.org/download/index",
     "tags": [
       "downloader"
+    ]
+  },
+  {
+    "id": 265,
+    "name": "jExifToolGUI",
+    "url": "https://hvdwolf.github.io/jExifToolGUI/",
+    "description": "A GUI for jExifTool",
+    "tags": [
+      "fef",
+      "utility"
     ]
   },
   {
@@ -1497,6 +1531,7 @@
     "tags": [
       "misc",
       "os",
+      "port",
       "utility"
     ]
   },
@@ -1550,6 +1585,19 @@
     "tags": [
       "disk",
       "security"
+    ]
+  },
+  {
+    "id": 263,
+    "name": "Shutter Encoder",
+    "url": "https://www.shutterencoder.com/",
+    "description": "Encoding software for converting images, videos, and audio files",
+    "tags": [
+      "audio",
+      "editor",
+      "image",
+      "port",
+      "video"
     ]
   },
   {
@@ -1865,6 +1913,16 @@
     "url": "https://wemod.com/download",
     "tags": [
       "gaming"
+    ]
+  },
+  {
+    "id": 261,
+    "name": "Windhawk",
+    "url": "https://windhawk.net/",
+    "description": "The customization marketplace for Windows and programs",
+    "tags": [
+      "os",
+      "sys"
     ]
   },
   {

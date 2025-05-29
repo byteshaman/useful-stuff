@@ -69,6 +69,17 @@
     ]
   },
   {
+    "id": 348,
+    "name": "[ITA] Megathread negozi Informatica",
+    "url": "https://www.reddit.com/r/ItalyHardware/comments/1fb5p78/megathread_negozi_di_informatica_e_componenti/",
+    "description": "Lista di siti di tecnologia IT/EU",
+    "tags": [
+      "catalog",
+      "shop",
+      "tech"
+    ]
+  },
+  {
     "id": 4,
     "description": "Share and follow research",
     "name": "Academia",
@@ -1681,6 +1692,15 @@
     ]
   },
   {
+    "id": 109,
+    "description": "Netflix streaming by alternate genres",
+    "name": "NetflixCodes",
+    "url": "https://www.netflix-codes.com/",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
     "id": 243,
     "name": "nodegoat",
     "url": "https://battles.nodegoat.net/viewer.p/23/385/scenario/1/geo/fullscreen",
@@ -1737,15 +1757,6 @@
     "tags": [
       "music",
       "tool"
-    ]
-  },
-  {
-    "id": 109,
-    "description": "Netflix streaming by alternate genres",
-    "name": "Ogres Crypt",
-    "url": "http://ogres-crypt.com/public/NetFlix-Streaming-Genres2.html",
-    "tags": [
-      "misc"
     ]
   },
   {
@@ -1979,16 +1990,6 @@
       "catalog",
       "comp",
       "disc",
-      "tech"
-    ]
-  },
-  {
-    "id": 125,
-    "description": "Discover the latest mobile apps, websites, and technology products that everyone's talking about",
-    "name": "ProductHunt",
-    "url": "https://producthunt.com/",
-    "tags": [
-      "comp",
       "tech"
     ]
   },
@@ -2404,6 +2405,16 @@
     ]
   },
   {
+    "id": 347,
+    "name": "Tech search",
+    "url": "https://cse.google.com/cse?cx=8689d07366b73452c#gsc.tab=0",
+    "description": "Find tech related news from trustworthy websites",
+    "tags": [
+      "tech",
+      "tool"
+    ]
+  },
+  {
     "id": 317,
     "name": "Techlore",
     "url": "https://techlore.tech/vpn",
@@ -2426,12 +2437,32 @@
     ]
   },
   {
+    "id": 181,
+    "description": "Unbiased hardware comparison",
+    "name": "TechnicalCity",
+    "url": "https://technical.city/",
+    "tags": [
+      "comp",
+      "tech"
+    ]
+  },
+  {
     "id": 160,
     "description": "Video card reference list",
     "name": "TechPowerUp",
     "url": "https://techpowerup.com/gpu-specs/",
     "tags": [
       "comp",
+      "tech"
+    ]
+  },
+  {
+    "id": 349,
+    "name": "TechSpot",
+    "url": "https://www.techspot.com/",
+    "description": "Tech news and analysis",
+    "tags": [
+      "disc",
       "tech"
     ]
   },
@@ -2564,6 +2595,17 @@
     ]
   },
   {
+    "id": 350,
+    "name": "Tom's Hardware",
+    "url": "https://www.tomshardware.com/reviews/gpu-hierarchy,4388.html",
+    "description": "GPU benchmarks hierarchy",
+    "tags": [
+      "comp",
+      "game",
+      "tech"
+    ]
+  },
+  {
     "id": 171,
     "description": "Read the latest computer hardware news, analysis and opinions",
     "name": "Tom's Hardware",
@@ -2690,16 +2732,6 @@
     "tags": [
       "music",
       "stream"
-    ]
-  },
-  {
-    "id": 181,
-    "description": "Benchmark website",
-    "name": "Userbenchmark",
-    "url": "https://userbenchmark.com/",
-    "tags": [
-      "comp",
-      "tech"
     ]
   },
   {
