@@ -69,6 +69,17 @@
     ]
   },
   {
+    "id": 348,
+    "name": "[ITA] Megathread negozi Informatica",
+    "url": "https://www.reddit.com/r/ItalyHardware/comments/1fb5p78/megathread_negozi_di_informatica_e_componenti/",
+    "description": "Lista di siti di tecnologia IT/EU",
+    "tags": [
+      "catalog",
+      "shop",
+      "tech"
+    ]
+  },
+  {
     "id": 4,
     "description": "Share and follow research",
     "name": "Academia",
@@ -207,17 +218,6 @@
     ]
   },
   {
-    "id": 352,
-    "name": "ArtificialAnalysis",
-    "url": "https://artificialanalysis.ai/",
-    "description": "Independed AI analysis",
-    "tags": [
-      "ai",
-      "catalog",
-      "comp"
-    ]
-  },
-  {
     "id": 14,
     "description": "[ITA] Il portale del cinema asiatico",
     "name": "Asian World",
@@ -236,16 +236,6 @@
     "description": "Spreadsheets for budgeting",
     "tags": [
       "fin",
-      "tool"
-    ]
-  },
-  {
-    "id": 358,
-    "name": "ASS to SRT",
-    "url": "https://sorz.github.io/asstosrt-wasm/",
-    "description": "Subtitle converter",
-    "tags": [
-      "subs",
       "tool"
     ]
   },
@@ -882,16 +872,6 @@
     ]
   },
   {
-    "id": 357,
-    "name": "forMaps",
-    "url": "https://www.formaps.it/",
-    "description": "Mappa per navigare nell'immobiliare",
-    "tags": [
-      "misc",
-      "tool"
-    ]
-  },
-  {
     "id": 224,
     "name": "Forum FinanzaOnline",
     "url": "https://forum.finanzaonline.com/",
@@ -928,28 +908,6 @@
     "tags": [
       "mail",
       "useless"
-    ]
-  },
-  {
-    "id": 354,
-    "name": "Gamepadla",
-    "url": "https://gamepadla.com/",
-    "description": "Gamepad tests and specs",
-    "tags": [
-      "catalog",
-      "comp",
-      "game"
-    ]
-  },
-  {
-    "id": 355,
-    "name": "GamingReadapted",
-    "url": "https://www.gamingreadapted.com/",
-    "description": "Adaptive gaming resources",
-    "tags": [
-      "article",
-      "catalog",
-      "game"
     ]
   },
   {
@@ -999,6 +957,16 @@
     ]
   },
   {
+    "id": 351,
+    "name": "GitBook",
+    "url": "https://riccardo-buonaurio.gitbook.io/guide-ssd/",
+    "description": "[ITA] Guida agli SSD",
+    "tags": [
+      "edu",
+      "tech"
+    ]
+  },
+  {
     "id": 59,
     "description": "Discover new music based on artists you already like",
     "name": "Gnoosic",
@@ -1009,9 +977,9 @@
   },
   {
     "id": 60,
-    "name": "GOG",
-    "url": "https://gog.com/games",
     "description": "DRM free videogame keys",
+    "name": "gog",
+    "url": "https://gog.com/games",
     "tags": [
       "game",
       "shop"
@@ -1079,16 +1047,6 @@
     ]
   },
   {
-    "id": 361,
-    "name": "HardwareTester",
-    "url": "https://hardwaretester.com/",
-    "description": "Collection of simple, useful tools for checking your computer's hardware",
-    "tags": [
-      "tech",
-      "tool"
-    ]
-  },
-  {
     "id": 261,
     "name": "Harvard University",
     "url": "https://pll.harvard.edu/catalog?price%5B1%5D=1&max_price=&start_date=&keywords=",
@@ -1105,16 +1063,6 @@
     "tags": [
       "disc",
       "tech"
-    ]
-  },
-  {
-    "id": 351,
-    "name": "Hexed",
-    "url": "https://hexed.it/",
-    "description": "Browser-based hex editing",
-    "tags": [
-      "misc",
-      "tool"
     ]
   },
   {
@@ -1643,27 +1591,6 @@
     "tags": [
       "cybersec",
       "share"
-    ]
-  },
-  {
-    "id": 362,
-    "name": "Megathread IT",
-    "url": "https://www.reddit.com/r/ItalyHardware/comments/1ei7ge4/risorsa_megathread_siti_utili_in_ambito_tech_e/",
-    "description": "[ITA] Collezioni e risorse utili sul mondo hw ed it",
-    "tags": [
-      "catalog",
-      "tech"
-    ]
-  },
-  {
-    "id": 348,
-    "name": "Megathread negozi Informatica",
-    "url": " https://www.reddit.com/r/ItalyHardware/comments/1fb5p78/megathread_negozi_di_informatica_e_componenti/",
-    "description": "[ITA] Lista di siti di tecnologia IT/EU",
-    "tags": [
-      "catalog",
-      "shop",
-      "tech"
     ]
   },
   {
@@ -2255,16 +2182,6 @@
     ]
   },
   {
-    "id": 356,
-    "name": "Reware",
-    "url": "https://reware.it/",
-    "description": "[ITA] Negozio di PC ricondizionati",
-    "tags": [
-      "shop",
-      "tech"
-    ]
-  },
-  {
     "id": 137,
     "description": "Download loops and audio samples for free",
     "name": "SampleSwap",
@@ -2299,17 +2216,6 @@
     "tags": [
       "article",
       "tech"
-    ]
-  },
-  {
-    "id": 360,
-    "name": "SimpleToolsForInvestors",
-    "url": "https://www.simpletoolsforinvestors.eu/index.shtml",
-    "description": "A collection of useful tools for investors",
-    "tags": [
-      "comp",
-      "fin",
-      "tool"
     ]
   },
   {
@@ -2720,17 +2626,6 @@
     ]
   },
   {
-    "id": 353,
-    "name": "Toolify",
-    "url": "https://www.toolify.ai/",
-    "description": "Filter and discover AIs",
-    "tags": [
-      "ai",
-      "catalog",
-      "comp"
-    ]
-  },
-  {
     "id": 172,
     "description": "Make movie and music charts",
     "name": "Topsters",
@@ -2776,18 +2671,6 @@
     "url": "https://tunemymusic.com/",
     "tags": [
       "music",
-      "tool"
-    ]
-  },
-  {
-    "id": 359,
-    "name": "TuttoCalcolato",
-    "url": "https://tuttocalcolato.it/",
-    "description": "[ITA] Raccolta di calcolatori",
-    "tags": [
-      "fin",
-      "misc",
-      "prod",
       "tool"
     ]
   },
@@ -2859,15 +2742,6 @@
     "tags": [
       "music",
       "stream"
-    ]
-  },
-  {
-    "id": 363,
-    "name": "UsefulStuff",
-    "url": "https://byteshaman.github.io/useful-stuff/",
-    "description": "This is here only because I like recursion",
-    "tags": [
-      "useless"
     ]
   },
   {
@@ -3073,7 +2947,7 @@
   {
     "id": 232,
     "name": "Wiki r/italypersonalfinance",
-    "url": "https://www.italiapersonalfinance.it/",
+    "url": "https://reddit.com/r/ItaliaPersonalFinance/wiki/index/",
     "description": "[ITA] Wiki sulla finanza personale",
     "tags": [
       "edu",
