@@ -41,6 +41,16 @@
     ]
   },
   {
+    "id": 271,
+    "name": "AirCluster",
+    "url": "https://www.aircluster.org/en/",
+    "description": "Join all your clouds into one",
+    "tags": [
+      "misc",
+      "utility"
+    ]
+  },
+  {
     "id": 4,
     "description": "Get rid of your file duplicates",
     "name": "AllDup",
@@ -340,6 +350,17 @@
     ]
   },
   {
+    "id": 267,
+    "name": "DxWnd",
+    "url": "https://dxwnd.org/",
+    "description": "Powerful tool designed to run full-screen applications and older games in windowed mode",
+    "tags": [
+      "gaming",
+      "os",
+      "port"
+    ]
+  },
+  {
     "id": 224,
     "name": "EarTrumpet",
     "url": "https://eartrumpet.app/",
@@ -376,6 +397,18 @@
     "url": "https://epicgames.com/store/",
     "tags": [
       "gaming"
+    ]
+  },
+  {
+    "id": 272,
+    "name": "Espanso",
+    "url": "https://espanso.org/",
+    "description": "Full-blown text expander",
+    "tags": [
+      "misc",
+      "os",
+      "port",
+      "utility"
     ]
   },
   {
@@ -458,7 +491,8 @@
     "url": "https://flowlauncher.com/",
     "description": "File search and app launcher for Windows",
     "tags": [
-      "sys",
+      "os",
+      "port",
       "utility"
     ]
   },
@@ -1141,6 +1175,19 @@
     ]
   },
   {
+    "id": 268,
+    "name": "Milkdrop 3.0",
+    "url": "https://github.com/milkdrop2077/MilkDrop3",
+    "description": "Music/audio visualizer",
+    "tags": [
+      "audio",
+      "misc",
+      "music",
+      "os",
+      "port"
+    ]
+  },
+  {
     "id": 260,
     "name": "MKV Cleaver",
     "url": "https://www.videohelp.com/software/MKVcleaver",
@@ -1375,6 +1422,16 @@
     ]
   },
   {
+    "id": 266,
+    "name": "Philips Evnia Precision Center",
+    "url": "https://www.philips.it/c-e/so/monitor/precision-center.html",
+    "description": "Easily control your Philips monitor",
+    "tags": [
+      "hw",
+      "utility"
+    ]
+  },
+  {
     "id": 122,
     "description": "A full-featured screen capture tool",
     "name": "Pic Pick",
@@ -1382,6 +1439,17 @@
     "tags": [
       "screen",
       "utility"
+    ]
+  },
+  {
+    "id": 270,
+    "name": "Plane9",
+    "url": "https://www.plane9.com/",
+    "description": "Music/audio visualizer",
+    "tags": [
+      "audio",
+      "misc",
+      "music"
     ]
   },
   {
@@ -1485,6 +1553,15 @@
     ]
   },
   {
+    "id": 273,
+    "name": "Raycast",
+    "url": "https://www.raycast.com/",
+    "description": "Launcher with a collection of productivity tools",
+    "tags": [
+      "utility"
+    ]
+  },
+  {
     "id": 132,
     "description": "Complete and very cheap digital audio production application",
     "name": "Reaper",
@@ -1552,6 +1629,16 @@
     "url": "https://screentogif.com/",
     "tags": [
       "screen",
+      "utility"
+    ]
+  },
+  {
+    "id": 269,
+    "name": "scrpy",
+    "url": "https://github.com/Genymobile/scrcpy",
+    "description": "Display and control your Android device",
+    "tags": [
+      "os",
       "utility"
     ]
   },
@@ -1959,9 +2046,10 @@
     "id": 227,
     "name": "WinMerge",
     "url": "https://winmerge.org/downloads/",
-    "description": "Open Source differencing and merging tool for Windows",
+    "description": "Differencing and merging tool for Windows",
     "tags": [
       "misc",
+      "os",
       "utility"
     ]
   },
