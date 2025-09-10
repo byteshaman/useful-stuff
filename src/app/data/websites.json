@@ -69,6 +69,47 @@
     ]
   },
   {
+    "id": 374,
+    "name": "[ITA] Fibermap",
+    "url": "https://fibermap.it/",
+    "description": "Mappa italiana dei servizi in fibra",
+    "tags": [
+      "tech",
+      "tool"
+    ]
+  },
+  {
+    "id": 373,
+    "name": "[ITA] LTE Italy",
+    "url": "https://lteitaly.it/it/",
+    "description": "Mappa antenne 4G",
+    "tags": [
+      "tech",
+      "tool"
+    ]
+  },
+  {
+    "id": 348,
+    "name": "[ITA] Megathread negozi Informatica",
+    "url": "https://www.reddit.com/r/ItalyHardware/comments/1fb5p78/megathread_negozi_di_informatica_e_componenti/",
+    "description": "Lista di siti di tecnologia IT/EU",
+    "tags": [
+      "catalog",
+      "shop",
+      "tech"
+    ]
+  },
+  {
+    "id": 371,
+    "name": "[ITA] OMI ",
+    "url": "https://www1.agenziaentrate.gov.it/servizi/geopoi_omi/index.php",
+    "description": "Osservatorio del mercato immobiliare",
+    "tags": [
+      "fin",
+      "tool"
+    ]
+  },
+  {
     "id": 4,
     "description": "Share and follow research",
     "name": "Academia",
@@ -999,6 +1040,16 @@
     ]
   },
   {
+    "id": 360,
+    "name": "GitBook",
+    "url": "https://riccardo-buonaurio.gitbook.io/guide-ssd/",
+    "description": "[ITA] Guida agli SSD",
+    "tags": [
+      "edu",
+      "tech"
+    ]
+  },
+  {
     "id": 59,
     "description": "Discover new music based on artists you already like",
     "name": "Gnoosic",
@@ -1656,16 +1707,6 @@
     ]
   },
   {
-    "id": 360,
-    "name": "GitBook",
-    "url": "https://riccardo-buonaurio.gitbook.io/guide-ssd/",
-    "description": "[ITA] Guida agli SSD",
-    "tags": [
-      "edu",
-      "tech"
-    ]
-  },
-  {
     "id": 368,
     "name": "Megathread negozi Informatica",
     "url": " https://www.reddit.com/r/ItalyHardware/comments/1fb5p78/megathread_negozi_di_informatica_e_componenti/",
@@ -1868,6 +1909,18 @@
     "description": "Models that you can use with Ollama",
     "tags": [
       "ai"
+    ]
+  },
+  {
+    "id": 369,
+    "name": "OmniCalculator",
+    "url": "https://www.omnicalculator.com/",
+    "description": "Free calculators",
+    "tags": [
+      "fin",
+      "misc",
+      "prod",
+      "tool"
     ]
   },
   {
@@ -2293,6 +2346,16 @@
     ]
   },
   {
+    "id": 372,
+    "name": "Secret Link",
+    "url": "https://sekret.link/create",
+    "description": "Securely share credentials and other sensitive info",
+    "tags": [
+      "cybersec",
+      "tool"
+    ]
+  },
+  {
     "id": 139,
     "description": "P2P file transfer",
     "name": "ShareDrop",
@@ -2516,6 +2579,17 @@
     "url": "http://syrphe.com/african&asian_database.htm",
     "tags": [
       "music"
+    ]
+  },
+  {
+    "id": 370,
+    "name": "TBCPL",
+    "url": "https://tbcpl.lol/",
+    "description": "The Best Couch Potato List",
+    "tags": [
+      "animanga",
+      "movies",
+      "tvs"
     ]
   },
   {
@@ -3106,17 +3180,6 @@
     "url": "https://nytimes.com/wirecutter/",
     "tags": [
       "comp",
-      "tech"
-    ]
-  },
-  {
-    "id": 348,
-    "name": "[ITA] Megathread negozi Informatica",
-    "url": "https://www.reddit.com/r/ItalyHardware/comments/1fb5p78/megathread_negozi_di_informatica_e_componenti/",
-    "description": "Lista di siti di tecnologia IT/EU",
-    "tags": [
-      "catalog",
-      "shop",
       "tech"
     ]
   },

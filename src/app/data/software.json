@@ -183,6 +183,17 @@
     ]
   },
   {
+    "id": 270,
+    "name": "Belarc Advisor",
+    "url": "https://www.belarc.com/products/belarc-advisor",
+    "description": "Display a detailed profile of your installed software, hardware and security vulnerabilities in your Web browser",
+    "tags": [
+      "security",
+      "sys",
+      "utility"
+    ]
+  },
+  {
     "id": 15,
     "description": "Free and powerful antivirus",
     "name": "BitDefender",
@@ -357,6 +368,17 @@
     "url": "https://dropbox.com/downloading",
     "tags": [
       "fef",
+      "utility"
+    ]
+  },
+  {
+    "id": 272,
+    "name": "Duplicati",
+    "url": "https://duplicati.com/",
+    "description": "Zero-trust backup from any operating system to any destination that you can manage from anywhere",
+    "tags": [
+      "misc",
+      "os",
       "utility"
     ]
   },
@@ -1123,6 +1145,18 @@
     ]
   },
   {
+    "id": 273,
+    "name": "Microsoft Activation Scripts",
+    "url": "https://massgrave.dev/",
+    "description": "Open-source Windows and Office activator",
+    "tags": [
+      "os",
+      "port",
+      "sys",
+      "utility"
+    ]
+  },
+  {
     "id": 101,
     "description": "Microsoft web browser based on Chromium",
     "name": "Microsoft Edge",
@@ -1524,6 +1558,16 @@
     "tags": [
       "audio",
       "music"
+    ]
+  },
+  {
+    "id": 271,
+    "name": "Rectify11",
+    "url": "https://rectify11.net/home",
+    "description": "The ultimate Windows 11 customization tool",
+    "tags": [
+      "sys",
+      "utility"
     ]
   },
   {
