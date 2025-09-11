@@ -125,6 +125,16 @@
     ]
   },
   {
+    "id": 463,
+    "name": "AngularLove",
+    "url": "https://angular.love/rxjs-reference",
+    "description": "RxJS reference",
+    "tags": [
+      "artut",
+      "libpak"
+    ]
+  },
+  {
     "id": 429,
     "name": "AngularLove",
     "url": "https://angular.love/",
@@ -838,6 +848,17 @@
     ]
   },
   {
+    "id": 462,
+    "name": "DesignPatterns",
+    "url": "https://refactoring.guru/design-patterns",
+    "description": "A complete guide of design patters",
+    "tags": [
+      "artut",
+      "multi",
+      "thisthat"
+    ]
+  },
+  {
     "id": 71,
     "name": "dev.to",
     "url": "https://dev.to/saulodias/ternary-operator-better-alternatives-2ind",
@@ -1281,6 +1302,17 @@
     "tags": [
       "css",
       "tool"
+    ]
+  },
+  {
+    "id": 461,
+    "name": "FOLDOC",
+    "url": "https://foldoc.org/",
+    "description": "Computing dictionary",
+    "tags": [
+      "interactive",
+      "misc",
+      "multi"
     ]
   },
   {
@@ -1818,6 +1850,17 @@
     ]
   },
   {
+    "id": 458,
+    "name": "Hacktermis",
+    "url": "https://www.hackterms.com/",
+    "description": "A crowdsourced dictionary of coding terms",
+    "tags": [
+      "interactive",
+      "misc",
+      "multi"
+    ]
+  },
+  {
     "id": 152,
     "description": "Learn and improve your pen-testing skills",
     "name": "HackTheBox",
@@ -1952,19 +1995,8 @@
   {
     "id": 166,
     "description": "RxJS in Angular: when to subscribe?",
-    "name": "indepth.dev",
-    "url": "https://indepth.dev/posts/1279/rxjs-in-angular-when-to-subscribe-rarely",
-    "tags": [
-      "ag",
-      "artut",
-      "libpak"
-    ]
-  },
-  {
-    "id": 167,
-    "description": "RxJS operators list",
-    "name": "indepth.dev",
-    "url": "https://indepth.dev/reference/rxjs/operators",
+    "name": "AngularLove",
+    "url": "https://angular.love/rxjs-in-angular-when-to-subscribe-rarely/",
     "tags": [
       "ag",
       "artut",
@@ -2617,7 +2649,8 @@
     "description": "shareReply in RxJS",
     "tags": [
       "ag",
-      "artut"
+      "artut",
+      "libpak"
     ]
   },
   {
@@ -3168,6 +3201,17 @@
     ]
   },
   {
+    "id": 460,
+    "name": "rxMarbles",
+    "url": "https://rxmarbles.com/",
+    "description": "Interactive diagrams of Rx Observables",
+    "tags": [
+      "ag",
+      "interactive",
+      "libpak"
+    ]
+  },
+  {
     "id": 268,
     "description": "Awesome website with a lot of intuitive tidbits on various topics(CSS, HTML, JS)",
     "name": "SamanthaMing.com",
@@ -3651,7 +3695,8 @@
     "description": "Introduction to Observables (RxJS)",
     "tags": [
       "ag",
-      "artut"
+      "artut",
+      "libpak"
     ]
   },
   {
@@ -3827,6 +3872,15 @@
     "tags": [
       "ext/plugin",
       "ts"
+    ]
+  },
+  {
+    "id": 459,
+    "name": "unDraw",
+    "url": "https://undraw.co/",
+    "description": "Open-source illustrations for any idea",
+    "tags": [
+      "tool"
     ]
   },
   {

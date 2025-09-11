@@ -815,6 +815,16 @@
     ]
   },
   {
+    "id": 274,
+    "name": "HeSuVi",
+    "url": "https://sourceforge.net/projects/hesuvi/",
+    "description": "Headphone Surround Virtualizations for Equalizer APO",
+    "tags": [
+      "audio",
+      "utility"
+    ]
+  },
+  {
     "id": 77,
     "description": "Send keyboard macros activated from different USB devices",
     "name": "HID macros",

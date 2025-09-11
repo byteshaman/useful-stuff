@@ -371,6 +371,16 @@
     ]
   },
   {
+    "id": 375,
+    "name": "Boxy SVG Editor",
+    "url": "https://boxy-svg.com/",
+    "description": "SVG editor",
+    "tags": [
+      "image",
+      "tool"
+    ]
+  },
+  {
     "id": 207,
     "name": "Brilliant",
     "url": "https://brilliant.org/",
@@ -691,6 +701,17 @@
     ]
   },
   {
+    "id": 376,
+    "name": "DistroHub",
+    "url": "https://distributionhub.github.io/",
+    "description": "Download Linux distributions",
+    "tags": [
+      "catalog",
+      "misc",
+      "tool"
+    ]
+  },
+  {
     "id": 343,
     "name": "DistroSea",
     "url": "https://distrosea.com/",
@@ -762,7 +783,7 @@
   {
     "id": 231,
     "name": "Economia per tutti",
-    "url": "https://www.economiapertutti.bancaditalia.it/",
+    "url": "https://economiapertutti.bancaditalia.it/",
     "description": "[ITA] Portale di educazione finanziaria",
     "tags": [
       "edu",
@@ -1066,6 +1087,17 @@
     "tags": [
       "game",
       "shop"
+    ]
+  },
+  {
+    "id": 379,
+    "name": "GoogleSheets",
+    "url": "https://docs.google.com/spreadsheets/d/1ToYALBCaB9S_xFLVeLaHP46aD8bF3I09_aB09Up32pE/copy?gid=128307831#gid=128307831",
+    "description": "[ITA] Foglio per comparare offerte luce/gas",
+    "tags": [
+      "comp",
+      "fin",
+      "tool"
     ]
   },
   {
@@ -2099,6 +2131,17 @@
     ]
   },
   {
+    "id": 378,
+    "name": "PortaleOfferte",
+    "url": "https://www.ilportaleofferte.it/portaleOfferte/",
+    "description": "[ITA] Comparatore di offerte luce/gas\t",
+    "tags": [
+      "comp",
+      "fin",
+      "tool"
+    ]
+  },
+  {
     "id": 201,
     "name": "PostSecret",
     "url": "https://postsecret.com/",
@@ -3057,6 +3100,17 @@
       "VR",
       "catalog",
       "game",
+      "tool"
+    ]
+  },
+  {
+    "id": 377,
+    "name": "wattene",
+    "url": "https://wattene.it/",
+    "description": "[ITA] Comparatore di offerte luce/gas",
+    "tags": [
+      "comp",
+      "fin",
       "tool"
     ]
   },
