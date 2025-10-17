@@ -145,6 +145,17 @@
     ]
   },
   {
+    "id": 166,
+    "description": "RxJS in Angular: when to subscribe?",
+    "name": "AngularLove",
+    "url": "https://angular.love/rxjs-in-angular-when-to-subscribe-rarely/",
+    "tags": [
+      "ag",
+      "artut",
+      "libpak"
+    ]
+  },
+  {
     "id": 9,
     "description": "CSS animations",
     "name": "animate.style",
@@ -260,6 +271,16 @@
     "tags": [
       "artut",
       "laravel"
+    ]
+  },
+  {
+    "id": 468,
+    "name": "BlurHash ",
+    "url": "https://blurha.sh/",
+    "description": "Get a compact representation of a placeholder for an image",
+    "tags": [
+      "tool",
+      "webdev"
     ]
   },
   {
@@ -1993,17 +2014,6 @@
     ]
   },
   {
-    "id": 166,
-    "description": "RxJS in Angular: when to subscribe?",
-    "name": "AngularLove",
-    "url": "https://angular.love/rxjs-in-angular-when-to-subscribe-rarely/",
-    "tags": [
-      "ag",
-      "artut",
-      "libpak"
-    ]
-  },
-  {
     "id": 168,
     "description": "HTML/CSS tutorials for beginners",
     "name": "internetingishard",
@@ -2781,8 +2791,8 @@
   },
   {
     "id": 232,
-    "name": "Mocky",
-    "url": "https://designer.mocky.io/",
+    "name": "Mocki",
+    "url": "https://mocki.io/",
     "description": "The world easiest & fastest tool belts to mock your APIs",
     "tags": [
       "multi",
@@ -2827,6 +2837,16 @@
       "cheat",
       "cybersec",
       "sql"
+    ]
+  },
+  {
+    "id": 466,
+    "name": "No BS TS",
+    "url": "https://www.youtube.com/playlist?list=PLNqp92_EXZBJYFrpEzdO2EapvU0GOJ09n",
+    "description": "Jack Herrington's TypeScript course",
+    "tags": [
+      "ts",
+      "videocourse"
     ]
   },
   {
@@ -3783,6 +3803,16 @@
     ]
   },
   {
+    "id": 464,
+    "name": "TotalTypescript",
+    "url": "https://www.totaltypescript.com/tsconfig-cheat-sheet",
+    "description": "TSConfig Cheat Sheet",
+    "tags": [
+      "cheat",
+      "ts"
+    ]
+  },
+  {
     "id": 316,
     "description": "A polyglot web converter",
     "name": "Transform",
@@ -3811,6 +3841,17 @@
     "tags": [
       "cybersec",
       "interactive"
+    ]
+  },
+  {
+    "id": 465,
+    "name": "TSConfig Guide",
+    "url": "https://tsconfig.guide/",
+    "description": "TSConfig builder",
+    "tags": [
+      "interactive",
+      "tool",
+      "ts"
     ]
   },
   {
@@ -3844,6 +3885,16 @@
     ]
   },
   {
+    "id": 469,
+    "name": "TypeScript lang",
+    "url": "https://www.typescriptlang.org/cheatsheets/",
+    "description": "TypeScript official Cheat Sheets",
+    "tags": [
+      "cheat",
+      "ts"
+    ]
+  },
+  {
     "id": 322,
     "description": "TypesScript official documentation and handbook",
     "name": "TypeScript lang",
@@ -3861,16 +3912,6 @@
     "tags": [
       "js",
       "tool",
-      "ts"
-    ]
-  },
-  {
-    "id": 408,
-    "name": "TypeScript Toolbox",
-    "url": "https://marketplace.visualstudio.com/items?itemName=DSKWRK.vscode-generate-getter-setter",
-    "description": "Add and optimize Imports, generate Getters/Setters and constructors",
-    "tags": [
-      "ext/plugin",
       "ts"
     ]
   },
@@ -3931,6 +3972,16 @@
     "tags": [
       "multi",
       "sw"
+    ]
+  },
+  {
+    "id": 467,
+    "name": "VisualStudio",
+    "url": "https://code.visualstudio.com/docs/debugtest/port-forwarding",
+    "description": "How to use port forwarding in VSC",
+    "tags": [
+      "artut",
+      "net"
     ]
   },
   {
@@ -4321,6 +4372,16 @@
     "url": "https://marketplace.visualstudio.com/items?itemName=ryu1kn.text-marker",
     "tags": [
       "ext/plugin"
+    ]
+  },
+  {
+    "id": 408,
+    "name": "VSC - TypeScript Toolbox",
+    "url": "https://marketplace.visualstudio.com/items?itemName=DSKWRK.vscode-generate-getter-setter",
+    "description": "Add and optimize Imports, generate Getters/Setters and constructors",
+    "tags": [
+      "ext/plugin",
+      "ts"
     ]
   },
   {

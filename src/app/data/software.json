@@ -352,6 +352,18 @@
     ]
   },
   {
+    "id": 278,
+    "name": "Display Zone Manager",
+    "url": "https://github.com/Abhijith-Shaju/DisplayPartitioner",
+    "description": "A lightweight, powerful, and persistent window management utility for Windows",
+    "tags": [
+      "os",
+      "port",
+      "sys",
+      "utility"
+    ]
+  },
+  {
     "id": 34,
     "description": "Client to manage synchronized data on Google Drive",
     "name": "Drive",
@@ -1461,6 +1473,18 @@
     ]
   },
   {
+    "id": 276,
+    "name": "Picocrypt ",
+    "url": "https://github.com/Picocrypt/Picocrypt",
+    "description": "Simple and secure encryption tool that you can use to protect your files",
+    "tags": [
+      "os",
+      "port",
+      "security",
+      "utility"
+    ]
+  },
+  {
     "id": 124,
     "description": "Automate various tasks",
     "name": "Power Automate",
@@ -1933,6 +1957,16 @@
     ]
   },
   {
+    "id": 277,
+    "name": "Veeam Agent",
+    "url": "https://www.veeam.com/products/free/microsoft-windows.html",
+    "description": "Simple solution for backing up Windows-based desktops, laptops and tablets",
+    "tags": [
+      "misc",
+      "utility"
+    ]
+  },
+  {
     "id": 164,
     "name": "Ventoy",
     "url": "https://ventoy.net/en/download.html",
@@ -1941,6 +1975,18 @@
       "os",
       "port",
       "sys",
+      "utility"
+    ]
+  },
+  {
+    "id": 275,
+    "name": "VeraCrypt ",
+    "url": "https://veracrypt.io/en/Downloads.html",
+    "description": "Free open-source disk encryption software",
+    "tags": [
+      "disk",
+      "os",
+      "port",
       "utility"
     ]
   },

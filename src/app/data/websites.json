@@ -89,17 +89,6 @@
     ]
   },
   {
-    "id": 348,
-    "name": "[ITA] Megathread negozi Informatica",
-    "url": "https://www.reddit.com/r/ItalyHardware/comments/1fb5p78/megathread_negozi_di_informatica_e_componenti/",
-    "description": "Lista di siti di tecnologia IT/EU",
-    "tags": [
-      "catalog",
-      "shop",
-      "tech"
-    ]
-  },
-  {
     "id": 371,
     "name": "[ITA] OMI ",
     "url": "https://www1.agenziaentrate.gov.it/servizi/geopoi_omi/index.php",
@@ -565,16 +554,6 @@
     "id": 342,
     "name": "Cryptopad",
     "url": "https://cryptpad.fr/index.html",
-    "description": "End-to-end encrypted and open-source collaboration suite",
-    "tags": [
-      "cybersec",
-      "prod"
-    ]
-  },
-  {
-    "id": 339,
-    "name": "Cryptopad",
-    "url": "https://cryptpad.fr/",
     "description": "End-to-end encrypted and open-source collaboration suite",
     "tags": [
       "cybersec",
@@ -1260,8 +1239,8 @@
   {
     "id": 68,
     "description": "Check passwords strenght",
-    "name": "howsecureismypassword",
-    "url": "https://howsecureismypassword.net/",
+    "name": "Password Tester",
+    "url": "https://bitwarden.com/password-strength/",
     "tags": [
       "cybersec",
       "tool"
@@ -1496,16 +1475,6 @@
       "movies",
       "stream",
       "tvs"
-    ]
-  },
-  {
-    "id": 86,
-    "description": "Check passwords strenght",
-    "name": "Kaspersky Password Check",
-    "url": "https://password.kaspersky.com/",
-    "tags": [
-      "cybersec",
-      "tool"
     ]
   },
   {
@@ -2072,15 +2041,6 @@
       "comp",
       "tech",
       "tool"
-    ]
-  },
-  {
-    "id": 309,
-    "name": "Perplexity",
-    "url": "https://perplexity.ai/",
-    "description": "AI-powered answer engine",
-    "tags": [
-      "ai"
     ]
   },
   {
@@ -3264,6 +3224,152 @@
     "url": "https://zalando.it/",
     "tags": [
       "shop"
+    ]
+  },
+  {
+    "id": 352,
+    "name": "Hatsmith",
+    "url": "https://hatsmith.vercel.app/",
+    "description": "Simple, fast, secure client-side file encryption",
+    "tags": [
+      "tool",
+      "cybersec"
+    ]
+  },
+  {
+    "id": 353,
+    "name": "Intel",
+    "url": "https://www.intel.com/content/www/us/en/processors/processor-numbers.html",
+    "description": "Intel guide to processor naming convention",
+    "tags": [
+      "article",
+      "tech"
+    ]
+  },
+  {
+    "id": 354,
+    "name": "RenewTech",
+    "url": "https://www.renewtech.com/blog/intel-cpu-naming-convention-guide.html",
+    "description": "Complete guide to Intel CPU naming structure with generation comparison tables",
+    "tags": [
+      "article",
+      "tech",
+      "edu"
+    ]
+  },
+  {
+    "id": 355,
+    "name": "Deposifire",
+    "url": "https://deposifire.com",
+    "description": "[ITA] Confronta i tassi di rendimento di CD e CC",
+    "tags": [
+      "fin",
+      "comp",
+      "tool"
+    ]
+  },
+  {
+    "id": 356,
+    "name": "HackerBoards",
+    "url": "https://hackerboards.com",
+    "description": "Single board computer (SBC) and Linux development board database",
+    "tags": [
+      "catalog",
+      "tech",
+      "comp"
+    ]
+  },
+  {
+    "id": 357,
+    "name": "Gionn.net",
+    "url": "https://gionn.net/2024/trovare-migliore-offerta-luce-gas-mercato-libero/",
+    "description": "[ITA] Guida per trovare la migliore offerta luce e gas",
+    "tags": [
+      "article",
+      "fin"
+    ]
+  },
+  {
+    "id": 358,
+    "name": "PriceArchive",
+    "url": "https://www.pricearchive.org/",
+    "description": "AliExpress price tracker",
+    "tags": [
+      "tool",
+      "shop",
+      "comp"
+    ]
+  },
+  {
+    "id": 359,
+    "name": "Cloudbase",
+    "url": "https://cloudbase.gg/",
+    "description": "Cloud gaming providers comparison with game catalog availability checker",
+    "tags": [
+      "catalog",
+      "game",
+      "comp"
+    ]
+  },
+  {
+    "id": 360,
+    "name": "ComparisonTables",
+    "url": "https://comparisontabl.es/cloud-storage/",
+    "description": "Cloud storage providers comparison table",
+    "tags": [
+      "comp",
+      "tool",
+      "tech"
+    ]
+  },
+  {
+    "id": 361,
+    "name": "Banda Ultra Larga",
+    "url": "https://bandaultralarga.italia.it/",
+    "description": "[ITA] Portale governativo per verifica copertura banda ultralarga in Italia",
+    "tags": [
+      "tool",
+      "tech"
+    ]
+  },
+  {
+    "id": 362,
+    "name": "OpenFiber",
+    "url": "https://openfiber.it/verifica-copertura/",
+    "description": "[ITA] Verifica copertura fibra ottica FTTH Open Fiber",
+    "tags": [
+      "tool",
+      "tech"
+    ]
+  },
+  {
+    "id": 363,
+    "name": "FiberCop",
+    "url": "https://copertura.fibercop.com/",
+    "description": "[ITA] Verifica disponibilità rete FiberCop",
+    "tags": [
+      "tool",
+      "tech"
+    ]
+  },
+  {
+    "id": 364,
+    "name": "Fibermap",
+    "url": "https://fibermap.it/",
+    "description": "[ITA] Mappa italiana dei servizi in fibra con verifica copertura ADSL, FTTH, FTTC e FWA",
+    "tags": [
+      "tool",
+      "tech"
+    ]
+  },
+  {
+    "id": 365,
+    "name": "AGCOM Broadband Map",
+    "url": "https://maps.agcom.it/",
+    "description": "[ITA] Mappa ufficiale AGCOM con verifica copertura ADSL, FTTH, FTTC e FWA",
+    "tags": [
+      "tool",
+      "tech"
     ]
   }
 ]
