@@ -41,6 +41,17 @@
     ]
   },
   {
+    "id": 284,
+    "name": "aircrack-ng",
+    "url": "https://www.aircrack-ng.org/",
+    "description": "A complete suite of tools to assess WiFi network security",
+    "tags": [
+      "os",
+      "security",
+      "utility"
+    ]
+  },
+  {
     "id": 4,
     "description": "Get rid of your file duplicates",
     "name": "AllDup",
@@ -424,6 +435,16 @@
     "tags": [
       "misc",
       "utility"
+    ]
+  },
+  {
+    "id": 283,
+    "name": "Eigent",
+    "url": "https://www.eigent.ai/",
+    "description": "Open source cowork desktop",
+    "tags": [
+      "ai",
+      "os"
     ]
   },
   {
@@ -846,25 +867,6 @@
     "tags": [
       "misc",
       "utility"
-    ]
-  },
-  {
-    "id": 251,
-    "name": "https://ollama.com/",
-    "url": "Ollama",
-    "description": "Run AI locally",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "id": 252,
-    "name": "https://openwebui.com/",
-    "url": "https://github.com/open-webui/open-webui/releases",
-    "description": "User-friendly AI Interface",
-    "tags": [
-      "ai",
-      "os"
     ]
   },
   {
@@ -1408,6 +1410,15 @@
     ]
   },
   {
+    "id": 251,
+    "name": "Ollama",
+    "url": "https://ollama.com/",
+    "description": "Run AI locally",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
     "id": 230,
     "name": "Ollama",
     "url": "https://ollama.com/",
@@ -1424,6 +1435,26 @@
     "tags": [
       "misc",
       "utility"
+    ]
+  },
+  {
+    "id": 282,
+    "name": "OpenCode",
+    "url": "https://opencode.ai/",
+    "description": "Open source AI code agent",
+    "tags": [
+      "ai",
+      "os"
+    ]
+  },
+  {
+    "id": 252,
+    "name": "OpenWebUi",
+    "url": "https://github.com/open-webui/open-webui/releases",
+    "description": "User-friendly AI Interface",
+    "tags": [
+      "ai",
+      "os"
     ]
   },
   {
@@ -2024,6 +2055,16 @@
       "disk",
       "port",
       "utility"
+    ]
+  },
+  {
+    "id": 285,
+    "name": "VideoCompareGUI",
+    "url": "https://github.com/TetzkatLipHoka/VideoCompareGUI/releases",
+    "description": "A GUI for video-compare",
+    "tags": [
+      "utility",
+      "video"
     ]
   },
   {
