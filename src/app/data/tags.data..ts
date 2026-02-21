@@ -38,11 +38,6 @@ export const l4dTags: TagInfo[] = [
   },
   {
     category: "resource type",
-    value: "discord",
-    description: "Discord server",
-  },
-  {
-    category: "resource type",
     value: "doc",
     description: "Documentation",
   },
@@ -58,8 +53,8 @@ export const l4dTags: TagInfo[] = [
   },
   {
     category: "resource type",
-    value: "forcomm",
-    description: "Forum/Community",
+    value: "fcd",
+    description: "Forum/Community/Discord",
   },
   {
     category: "resource type",
@@ -211,7 +206,7 @@ export const websitesTags: TagInfo[] = [
   },
   {
     value: "cybersec",
-    description: "Cyber Security"
+    description: "Infosec/Privacy"
   },
   {
     value: "disc",

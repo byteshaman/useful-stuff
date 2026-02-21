@@ -69,42 +69,22 @@
     ]
   },
   {
-    "id": 374,
-    "name": "[ITA] Fibermap",
-    "url": "https://fibermap.it/",
-    "description": "Mappa italiana dei servizi in fibra",
-    "tags": [
-      "tech",
-      "tool"
-    ]
-  },
-  {
-    "id": 373,
-    "name": "[ITA] LTE Italy",
-    "url": "https://lteitaly.it/it/",
-    "description": "Mappa antenne 4G",
-    "tags": [
-      "tech",
-      "tool"
-    ]
-  },
-  {
-    "id": 371,
-    "name": "[ITA] OMI ",
-    "url": "https://www1.agenziaentrate.gov.it/servizi/geopoi_omi/index.php",
-    "description": "Osservatorio del mercato immobiliare",
-    "tags": [
-      "fin",
-      "tool"
-    ]
-  },
-  {
     "id": 4,
     "description": "Share and follow research",
     "name": "Academia",
     "url": "https://academia.edu/",
     "tags": [
       "edu"
+    ]
+  },
+  {
+    "id": 365,
+    "name": "AGCOM Broadband Map",
+    "url": "https://maps.agcom.it/",
+    "description": "[ITA] Mappa ufficiale AGCOM con verifica copertura ADSL, FTTH, FTTC e FWA",
+    "tags": [
+      "tool",
+      "tech"
     ]
   },
   {
@@ -165,6 +145,16 @@
     "tags": [
       "comp",
       "misc"
+    ]
+  },
+  {
+    "id": 382,
+    "name": "AM5 Motherboard sheet",
+    "url": "https://docs.google.com/spreadsheets/d/1NQHkDEcgDPm34Mns3C93K6SJoBnua-x9O-y_6hv8sPs/edit?gid=454171143#gid=454171143",
+    "description": "AM5 Motherboard sheet",
+    "tags": [
+      "catalog",
+      "tech"
     ]
   },
   {
@@ -248,6 +238,16 @@
     ]
   },
   {
+    "id": 389,
+    "name": "AshBanoor",
+    "url": "https://ashababnoor.github.io/cheatsheets/cheatsheets/google-search-syntax",
+    "description": "Google search syntax/operatos cheatsheet",
+    "tags": [
+      "misc",
+      "prod"
+    ]
+  },
+  {
     "id": 14,
     "description": "[ITA] Il portale del cinema asiatico",
     "name": "Asian World",
@@ -297,6 +297,16 @@
     "tags": [
       "edu",
       "fin"
+    ]
+  },
+  {
+    "id": 361,
+    "name": "Banda Ultra Larga",
+    "url": "https://bandaultralarga.italia.it/",
+    "description": "[ITA] Portale governativo per verifica copertura banda ultralarga in Italia",
+    "tags": [
+      "tool",
+      "tech"
     ]
   },
   {
@@ -503,6 +513,17 @@
     ]
   },
   {
+    "id": 359,
+    "name": "Cloudbase",
+    "url": "https://cloudbase.gg/",
+    "description": "Cloud gaming providers comparison with game catalog availability checker",
+    "tags": [
+      "catalog",
+      "game",
+      "comp"
+    ]
+  },
+  {
     "id": 30,
     "description": "Internet operating system based on command-line interface",
     "name": "cmd.to",
@@ -518,6 +539,17 @@
     "url": "https://coffitivity.com/",
     "tags": [
       "misc"
+    ]
+  },
+  {
+    "id": 360,
+    "name": "ComparisonTables",
+    "url": "https://comparisontabl.es/cloud-storage/",
+    "description": "Cloud storage providers comparison table",
+    "tags": [
+      "comp",
+      "tool",
+      "tech"
     ]
   },
   {
@@ -600,6 +632,16 @@
     ]
   },
   {
+    "id": 384,
+    "name": "DeadPixelTest",
+    "url": "https://deadpixeltest.org/",
+    "description": "Test your monitor for dead pixels",
+    "tags": [
+      "tech",
+      "tool"
+    ]
+  },
+  {
     "id": 36,
     "description": "Translator powered by DeepL's world-leading neural network technology",
     "name": "DeepL",
@@ -630,6 +672,16 @@
     ]
   },
   {
+    "id": 387,
+    "name": "DeleteDesk",
+    "url": "https://www.deletedesk.org/",
+    "description": "Delete online accounts effortlessly",
+    "tags": [
+      "catalog",
+      "cybersec"
+    ]
+  },
+  {
     "id": 39,
     "description": "List of old PS2 demo disks",
     "name": "Demo pals",
@@ -637,6 +689,17 @@
     "tags": [
       "game",
       "misc"
+    ]
+  },
+  {
+    "id": 355,
+    "name": "Deposifire",
+    "url": "https://deposifire.com",
+    "description": "[ITA] Confronta i tassi di rendimento di CD e CC",
+    "tags": [
+      "fin",
+      "comp",
+      "tool"
     ]
   },
   {
@@ -857,6 +920,36 @@
     ]
   },
   {
+    "id": 363,
+    "name": "FiberCop",
+    "url": "https://copertura.fibercop.com/",
+    "description": "[ITA] Verifica disponibilità rete FiberCop",
+    "tags": [
+      "tool",
+      "tech"
+    ]
+  },
+  {
+    "id": 374,
+    "name": "Fibermap",
+    "url": "https://fibermap.it/",
+    "description": "[ITA] Mappa italiana dei servizi in fibra",
+    "tags": [
+      "tech",
+      "tool"
+    ]
+  },
+  {
+    "id": 364,
+    "name": "Fibermap",
+    "url": "https://fibermap.it/",
+    "description": "[ITA] Mappa italiana dei servizi in fibra con verifica copertura ADSL, FTTH, FTTC e FWA",
+    "tags": [
+      "tool",
+      "tech"
+    ]
+  },
+  {
     "id": 55,
     "description": "Merge audio, video, PDFs and other types of files!",
     "name": "FilesMerge",
@@ -1030,6 +1123,16 @@
     ]
   },
   {
+    "id": 357,
+    "name": "Gionn.net",
+    "url": "https://gionn.net/2024/trovare-migliore-offerta-luce-gas-mercato-libero/",
+    "description": "[ITA] Guida per trovare la migliore offerta luce e gas",
+    "tags": [
+      "article",
+      "fin"
+    ]
+  },
+  {
     "id": 58,
     "description": "Create GIFs easily and quickly",
     "name": "Giphy Gif Maker",
@@ -1066,17 +1169,6 @@
     "tags": [
       "game",
       "shop"
-    ]
-  },
-  {
-    "id": 379,
-    "name": "GoogleSheets",
-    "url": "https://docs.google.com/spreadsheets/d/1ToYALBCaB9S_xFLVeLaHP46aD8bF3I09_aB09Up32pE/copy?gid=128307831#gid=128307831",
-    "description": "[ITA] Foglio per comparare offerte luce/gas",
-    "tags": [
-      "comp",
-      "fin",
-      "tool"
     ]
   },
   {
@@ -1121,6 +1213,17 @@
     ]
   },
   {
+    "id": 356,
+    "name": "HackerBoards",
+    "url": "https://hackerboards.com",
+    "description": "Single board computer (SBC) and Linux development board database",
+    "tags": [
+      "catalog",
+      "tech",
+      "comp"
+    ]
+  },
+  {
     "id": 199,
     "name": "HammerTime",
     "url": "https://hammertime.cyou/",
@@ -1157,6 +1260,16 @@
     "description": "Free courses from Harvard University",
     "tags": [
       "edu"
+    ]
+  },
+  {
+    "id": 352,
+    "name": "Hatsmith",
+    "url": "https://hatsmith.vercel.app/",
+    "description": "Simple, fast, secure client-side file encryption",
+    "tags": [
+      "tool",
+      "cybersec"
     ]
   },
   {
@@ -1233,16 +1346,6 @@
     "description": "Find out how much time it takes to beat a game",
     "tags": [
       "game",
-      "tool"
-    ]
-  },
-  {
-    "id": 68,
-    "description": "Check passwords strenght",
-    "name": "Password Tester",
-    "url": "https://bitwarden.com/password-strength/",
-    "tags": [
-      "cybersec",
       "tool"
     ]
   },
@@ -1399,6 +1502,16 @@
     ]
   },
   {
+    "id": 353,
+    "name": "Intel",
+    "url": "https://www.intel.com/content/www/us/en/processors/processor-numbers.html",
+    "description": "Intel guide to processor naming convention",
+    "tags": [
+      "article",
+      "tech"
+    ]
+  },
+  {
     "id": 80,
     "description": "Various IP address tools",
     "name": "Ip Address",
@@ -1456,6 +1569,16 @@
     ]
   },
   {
+    "id": 388,
+    "name": "IustLab",
+    "url": "https://iustlab.org/",
+    "description": "[ITA] Il network italiano per la ricerca di avvocati",
+    "tags": [
+      "catalog",
+      "tool"
+    ]
+  },
+  {
     "id": 225,
     "name": "JustETF",
     "url": "https://justetf.com/",
@@ -1493,6 +1616,16 @@
     "url": "https://kuku-kube.com/",
     "tags": [
       "game"
+    ]
+  },
+  {
+    "id": 380,
+    "name": "Lakera Gandalf",
+    "url": "https://gandalf.lakera.ai/baseline",
+    "description": "Test your prompt injection skills",
+    "tags": [
+      "ai",
+      "edu"
     ]
   },
   {
@@ -1617,6 +1750,16 @@
       "article",
       "comp",
       "tech"
+    ]
+  },
+  {
+    "id": 373,
+    "name": "LTE Italy",
+    "url": "https://lteitaly.it/it/",
+    "description": "[ITA] Mappa antenne 4G",
+    "tags": [
+      "tech",
+      "tool"
     ]
   },
   {
@@ -1895,6 +2038,27 @@
     ]
   },
   {
+    "id": 379,
+    "name": "Offerte Luce/Gas",
+    "url": "https://docs.google.com/spreadsheets/d/1ToYALBCaB9S_xFLVeLaHP46aD8bF3I09_aB09Up32pE/copy?gid=128307831#gid=128307831",
+    "description": "[ITA] Comparatore di offerte luce/gas",
+    "tags": [
+      "comp",
+      "fin",
+      "tool"
+    ]
+  },
+  {
+    "id": 385,
+    "name": "OldMapsOnline",
+    "url": "https://www.oldmapsonline.org/",
+    "description": "Browse historical places and search for old maps with timeline",
+    "tags": [
+      "edu",
+      "tool"
+    ]
+  },
+  {
     "id": 110,
     "description": "Old version of Windows, Mac and Linux software",
     "name": "OldVersion",
@@ -1910,6 +2074,16 @@
     "description": "Models that you can use with Ollama",
     "tags": [
       "ai"
+    ]
+  },
+  {
+    "id": 371,
+    "name": "OMI ",
+    "url": "https://www1.agenziaentrate.gov.it/servizi/geopoi_omi/index.php",
+    "description": "[ITA] Osservatorio del mercato immobiliare",
+    "tags": [
+      "fin",
+      "tool"
     ]
   },
   {
@@ -1951,6 +2125,16 @@
     "tags": [
       "text",
       "tool"
+    ]
+  },
+  {
+    "id": 362,
+    "name": "OpenFiber",
+    "url": "https://openfiber.it/verifica-copertura/",
+    "description": "[ITA] Verifica copertura fibra ottica FTTH Open Fiber",
+    "tags": [
+      "tool",
+      "tech"
     ]
   },
   {
@@ -2001,6 +2185,16 @@
     "tags": [
       "comp",
       "tech",
+      "tool"
+    ]
+  },
+  {
+    "id": 68,
+    "description": "Check passwords strenght",
+    "name": "Password Tester",
+    "url": "https://bitwarden.com/password-strength/",
+    "tags": [
+      "cybersec",
       "tool"
     ]
   },
@@ -2112,6 +2306,17 @@
     ]
   },
   {
+    "id": 358,
+    "name": "PriceArchive",
+    "url": "https://www.pricearchive.org/",
+    "description": "AliExpress price tracker",
+    "tags": [
+      "tool",
+      "shop",
+      "comp"
+    ]
+  },
+  {
     "id": 123,
     "description": "Central privacy and security resource to protect yourself online",
     "name": "Privacy Guides",
@@ -2182,6 +2387,16 @@
       "article",
       "edu",
       "fin"
+    ]
+  },
+  {
+    "id": 381,
+    "name": "QuestStoreDB",
+    "url": "https://queststoredb.com/",
+    "description": "Database for all Meta Store apps",
+    "tags": [
+      "VR",
+      "catalog"
     ]
   },
   {
@@ -2312,6 +2527,17 @@
     ]
   },
   {
+    "id": 354,
+    "name": "RenewTech",
+    "url": "https://www.renewtech.com/blog/intel-cpu-naming-convention-guide.html",
+    "description": "Complete guide to Intel CPU naming structure with generation comparison tables",
+    "tags": [
+      "article",
+      "tech",
+      "edu"
+    ]
+  },
+  {
     "id": 332,
     "name": "RetroGames",
     "url": "https://www.retrogames.onl/",
@@ -2346,6 +2572,15 @@
     "url": "https://scamadviser.com/",
     "tags": [
       "cybersec"
+    ]
+  },
+  {
+    "id": 386,
+    "name": "Scandle",
+    "url": "https://scrandle.com/",
+    "description": "Food comparison game",
+    "tags": [
+      "useless"
     ]
   },
   {
@@ -2454,6 +2689,16 @@
     "tags": [
       "music",
       "tool"
+    ]
+  },
+  {
+    "id": 383,
+    "name": "SSDs List",
+    "url": "https://docs.google.com/spreadsheets/d/1B27_j9NDPU3cNlj2HKcrfpJKHkOf-Oi1DbuuQva2gT4/edit?gid=0#gid=0",
+    "description": "SSDs List",
+    "tags": [
+      "catalog",
+      "tech"
     ]
   },
   {
@@ -2828,6 +3073,18 @@
     ]
   },
   {
+    "id": 390,
+    "name": "TosDr",
+    "url": "https://tosdr.org/en",
+    "description": "ToS;DR aims to provide easy-to-understand summaries of Privacy Policies and ToS",
+    "tags": [
+      "catalog",
+      "comp",
+      "cybersec",
+      "tool"
+    ]
+  },
+  {
     "id": 173,
     "description": "[ITA] Trova il prezzo migliore dell'articolo che cerchi",
     "name": "Trovaprezzi",
@@ -3041,17 +3298,6 @@
     ]
   },
   {
-    "id": 321,
-    "name": "VR Compare",
-    "url": "https://vr-compare.com/",
-    "description": "The internet's largest VR & AR headset database",
-    "tags": [
-      "VR",
-      "catalog",
-      "comp"
-    ]
-  },
-  {
     "id": 318,
     "name": "VRDB",
     "url": "https://vrdb.app/",
@@ -3224,152 +3470,6 @@
     "url": "https://zalando.it/",
     "tags": [
       "shop"
-    ]
-  },
-  {
-    "id": 352,
-    "name": "Hatsmith",
-    "url": "https://hatsmith.vercel.app/",
-    "description": "Simple, fast, secure client-side file encryption",
-    "tags": [
-      "tool",
-      "cybersec"
-    ]
-  },
-  {
-    "id": 353,
-    "name": "Intel",
-    "url": "https://www.intel.com/content/www/us/en/processors/processor-numbers.html",
-    "description": "Intel guide to processor naming convention",
-    "tags": [
-      "article",
-      "tech"
-    ]
-  },
-  {
-    "id": 354,
-    "name": "RenewTech",
-    "url": "https://www.renewtech.com/blog/intel-cpu-naming-convention-guide.html",
-    "description": "Complete guide to Intel CPU naming structure with generation comparison tables",
-    "tags": [
-      "article",
-      "tech",
-      "edu"
-    ]
-  },
-  {
-    "id": 355,
-    "name": "Deposifire",
-    "url": "https://deposifire.com",
-    "description": "[ITA] Confronta i tassi di rendimento di CD e CC",
-    "tags": [
-      "fin",
-      "comp",
-      "tool"
-    ]
-  },
-  {
-    "id": 356,
-    "name": "HackerBoards",
-    "url": "https://hackerboards.com",
-    "description": "Single board computer (SBC) and Linux development board database",
-    "tags": [
-      "catalog",
-      "tech",
-      "comp"
-    ]
-  },
-  {
-    "id": 357,
-    "name": "Gionn.net",
-    "url": "https://gionn.net/2024/trovare-migliore-offerta-luce-gas-mercato-libero/",
-    "description": "[ITA] Guida per trovare la migliore offerta luce e gas",
-    "tags": [
-      "article",
-      "fin"
-    ]
-  },
-  {
-    "id": 358,
-    "name": "PriceArchive",
-    "url": "https://www.pricearchive.org/",
-    "description": "AliExpress price tracker",
-    "tags": [
-      "tool",
-      "shop",
-      "comp"
-    ]
-  },
-  {
-    "id": 359,
-    "name": "Cloudbase",
-    "url": "https://cloudbase.gg/",
-    "description": "Cloud gaming providers comparison with game catalog availability checker",
-    "tags": [
-      "catalog",
-      "game",
-      "comp"
-    ]
-  },
-  {
-    "id": 360,
-    "name": "ComparisonTables",
-    "url": "https://comparisontabl.es/cloud-storage/",
-    "description": "Cloud storage providers comparison table",
-    "tags": [
-      "comp",
-      "tool",
-      "tech"
-    ]
-  },
-  {
-    "id": 361,
-    "name": "Banda Ultra Larga",
-    "url": "https://bandaultralarga.italia.it/",
-    "description": "[ITA] Portale governativo per verifica copertura banda ultralarga in Italia",
-    "tags": [
-      "tool",
-      "tech"
-    ]
-  },
-  {
-    "id": 362,
-    "name": "OpenFiber",
-    "url": "https://openfiber.it/verifica-copertura/",
-    "description": "[ITA] Verifica copertura fibra ottica FTTH Open Fiber",
-    "tags": [
-      "tool",
-      "tech"
-    ]
-  },
-  {
-    "id": 363,
-    "name": "FiberCop",
-    "url": "https://copertura.fibercop.com/",
-    "description": "[ITA] Verifica disponibilità rete FiberCop",
-    "tags": [
-      "tool",
-      "tech"
-    ]
-  },
-  {
-    "id": 364,
-    "name": "Fibermap",
-    "url": "https://fibermap.it/",
-    "description": "[ITA] Mappa italiana dei servizi in fibra con verifica copertura ADSL, FTTH, FTTC e FWA",
-    "tags": [
-      "tool",
-      "tech"
-    ]
-  },
-  {
-    "id": 365,
-    "name": "AGCOM Broadband Map",
-    "url": "https://maps.agcom.it/",
-    "description": "[ITA] Mappa ufficiale AGCOM con verifica copertura ADSL, FTTH, FTTC e FWA",
-    "tags": [
-      "tool",
-      "tech"
     ]
   }
 ]

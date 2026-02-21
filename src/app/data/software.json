@@ -61,16 +61,6 @@
     ]
   },
   {
-    "id": 266,
-    "name": "Archivebox",
-    "url": "https://archivebox.io/",
-    "description": "Self-hosted web archiving",
-    "tags": [
-      "misc",
-      "os"
-    ]
-  },
-  {
     "id": 258,
     "name": "ArchiveBox",
     "url": "https://archivebox.io/",
@@ -381,6 +371,18 @@
     "tags": [
       "fef",
       "utility"
+    ]
+  },
+  {
+    "id": 279,
+    "name": "DSRE",
+    "url": "https://github.com/x1aoqv/DSRE---Digital-Sound-Resolution-Enhancer",
+    "description": "Deep Sound Resolution Enhancer",
+    "tags": [
+      "audio",
+      "editor",
+      "os",
+      "port"
     ]
   },
   {
@@ -876,6 +878,17 @@
     ]
   },
   {
+    "id": 281,
+    "name": "ImageGlass",
+    "url": "https://imageglass.org/releases",
+    "description": "A lightweight, versatile image viewer",
+    "tags": [
+      "image",
+      "os",
+      "utility"
+    ]
+  },
+  {
     "id": 79,
     "description": "Remove unwanted object from photos",
     "name": "InPaint",
@@ -1259,6 +1272,18 @@
     "tags": [
       "editor",
       "video"
+    ]
+  },
+  {
+    "id": 280,
+    "name": "Moonlight",
+    "url": "https://moonlight-stream.org/",
+    "description": "Play your PC games on almost any device",
+    "tags": [
+      "gaming",
+      "os",
+      "port",
+      "utility"
     ]
   },
   {

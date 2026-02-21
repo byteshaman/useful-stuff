@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { PageInfo } from './interfaces/interfaces';
-import { pages } from './data/pages.data';
 import { ContentComponent } from './components/content/content.component';
+import { pages } from './data/pages.data';
+import { PageInfo } from './interfaces/interfaces';
 
-import { MatTabGroup, MatTab, MatTabContent } from '@angular/material/tabs';
 import { CommonModule } from '@angular/common';
+import { MatTab, MatTabContent, MatTabGroup } from '@angular/material/tabs';
 
 @Component({
     selector: 'app-root',

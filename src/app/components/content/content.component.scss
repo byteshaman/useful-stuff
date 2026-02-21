@@ -28,8 +28,6 @@ input {
 
   .tag {
     flex: 1 1 auto; // Occupy the needed space 
-    min-width: 0; // Override flex-basis to occupy it by using as little space as possible 
-
 
     &.selected {
       background-color: #7e7e7e;
