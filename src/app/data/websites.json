@@ -230,7 +230,7 @@
     "id": 352,
     "name": "ArtificialAnalysis",
     "url": "https://artificialanalysis.ai/",
-    "description": "Independed AI analysis",
+    "description": "Independent AI analysis",
     "tags": [
       "ai",
       "catalog",
@@ -241,7 +241,7 @@
     "id": 389,
     "name": "AshBanoor",
     "url": "https://ashababnoor.github.io/cheatsheets/cheatsheets/google-search-syntax",
-    "description": "Google search syntax/operatos cheatsheet",
+    "description": "Google search syntax/operators cheatsheet",
     "tags": [
       "misc",
       "prod"
@@ -439,7 +439,7 @@
   },
   {
     "id": 322,
-    "name": "CarCareKios",
+    "name": "CarCareKiosk",
     "url": "https://www.carcarekiosk.com/",
     "description": "The easiest way to fix your car with videos from car repair experts",
     "tags": [
@@ -930,16 +930,6 @@
     ]
   },
   {
-    "id": 374,
-    "name": "Fibermap",
-    "url": "https://fibermap.it/",
-    "description": "[ITA] Mappa italiana dei servizi in fibra",
-    "tags": [
-      "tech",
-      "tool"
-    ]
-  },
-  {
     "id": 364,
     "name": "Fibermap",
     "url": "https://fibermap.it/",
@@ -1098,8 +1088,8 @@
   {
     "id": 329,
     "name": "Gemini",
-    "url": "AI assistant from Google",
-    "description": "https://gemini.google.com/",
+    "url": "https://gemini.google.com/",
+    "description": "AI assistant from Google",
     "tags": [
       "ai"
     ]
@@ -1312,7 +1302,7 @@
   },
   {
     "id": 66,
-    "description": "Explore the distribution, dimensions and dynamics of international homicised around the world",
+    "description": "Explore the distribution, dimensions and dynamics of international homicides around the world",
     "name": "Homicide Monitor",
     "url": "https://homicide.igarape.org.br/",
     "tags": [
@@ -1704,7 +1694,7 @@
     "id": 91,
     "description": "Log, rate and review your movies",
     "name": "Letterboxd",
-    "url": "https://letterboxd.com//",
+    "url": "https://letterboxd.com/",
     "tags": [
       "catalog",
       "movies"
@@ -1784,7 +1774,7 @@
   },
   {
     "id": 97,
-    "description": "Read latest manga news, see how much of a manga has been adapte into an anime",
+    "description": "Read latest manga news, see how much of a manga has been adapted into an anime",
     "name": "Manga Updates",
     "url": "https://mangaupdates.com/index.html",
     "tags": [
@@ -1821,16 +1811,6 @@
     ]
   },
   {
-    "id": 241,
-    "name": "MapDevelopers",
-    "url": "https://mapdevelopers.com/draw-circle-tool.php",
-    "description": "Create a circle with a radius on a Google map",
-    "tags": [
-      "misc",
-      "tool"
-    ]
-  },
-  {
     "id": 99,
     "description": "Free cloud storage with convenient and powerful always-on privacy",
     "name": "MEGA.nz",
@@ -1853,7 +1833,7 @@
   {
     "id": 368,
     "name": "Megathread negozi Informatica",
-    "url": " https://www.reddit.com/r/ItalyHardware/comments/1fb5p78/megathread_negozi_di_informatica_e_componenti/",
+    "url": "https://www.reddit.com/r/ItalyHardware/comments/1fb5p78/megathread_negozi_di_informatica_e_componenti/",
     "description": "[ITA] Lista di siti di tecnologia IT/EU",
     "tags": [
       "catalog",
@@ -2078,7 +2058,7 @@
   },
   {
     "id": 371,
-    "name": "OMI ",
+    "name": "OMI",
     "url": "https://www1.agenziaentrate.gov.it/servizi/geopoi_omi/index.php",
     "description": "[ITA] Osservatorio del mercato immobiliare",
     "tags": [
@@ -2190,7 +2170,7 @@
   },
   {
     "id": 68,
-    "description": "Check passwords strenght",
+    "description": "Check passwords strength",
     "name": "Password Tester",
     "url": "https://bitwarden.com/password-strength/",
     "tags": [
@@ -2221,7 +2201,7 @@
     "id": 119,
     "description": "[ITA} Diventa Presidente della Repubblica!",
     "name": "PCosta",
-    "url": "https://pcosta.net//ipdcs/",
+    "url": "https://pcosta.net/ipdcs/",
     "tags": [
       "game"
     ]
@@ -2568,7 +2548,7 @@
   {
     "id": 138,
     "description": "Check a website for resky/fraudulent content",
-    "name": "Scamadvsider",
+    "name": "ScamAdviser",
     "url": "https://scamadviser.com/",
     "tags": [
       "cybersec"
@@ -2853,23 +2833,13 @@
   {
     "id": 317,
     "name": "Techlore",
-    "url": "https://techlore.tech/vpn",
+    "url": "https://techlore.tech/vpn/",
     "description": "VPN toolkit",
     "tags": [
       "catalog",
       "comp",
       "cybersec",
       "tool"
-    ]
-  },
-  {
-    "id": 159,
-    "description": "PC hardware comparisons, specifications and ratings",
-    "name": "Technical",
-    "url": "https://technical.city/",
-    "tags": [
-      "comp",
-      "tech"
     ]
   },
   {
@@ -3332,7 +3302,7 @@
   {
     "id": 188,
     "description": "See which hex color it is based on current time",
-    "name": "What color is it?",
+    "name": "WhatColorIsIt?",
     "url": "http://whatcolorisit.sumbioun.com/",
     "tags": [
       "useless"

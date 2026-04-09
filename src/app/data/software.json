@@ -78,8 +78,7 @@
     "description": "Self-hosted web archiving",
     "tags": [
       "misc",
-      "os",
-      "video"
+      "os"
     ]
   },
   {
@@ -1419,15 +1418,6 @@
     ]
   },
   {
-    "id": 230,
-    "name": "Ollama",
-    "url": "https://ollama.com/",
-    "description": "Run AI models locally",
-    "tags": [
-      "utility"
-    ]
-  },
-  {
     "id": 219,
     "name": "OP AutoClicker",
     "url": "https://opautoclicker.com/",
@@ -1460,7 +1450,7 @@
   {
     "id": 117,
     "description": "General-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use",
-    "name": "Oracle VIrtualBox",
+    "name": "Oracle VirtualBox",
     "url": "https://virtualbox.org/wiki/Downloads",
     "tags": [
       "misc",
@@ -1530,7 +1520,7 @@
   },
   {
     "id": 276,
-    "name": "Picocrypt ",
+    "name": "Picocrypt",
     "url": "https://github.com/Picocrypt/Picocrypt",
     "description": "Simple and secure encryption tool that you can use to protect your files",
     "tags": [
@@ -1704,7 +1694,7 @@
   {
     "id": 253,
     "name": "RustDesk",
-    "url": "Open source remote access and support software",
+    "url": "https://rustdesk.com/it/",
     "description": "Remote support agent",
     "tags": [
       "misc",
@@ -1996,7 +1986,7 @@
   {
     "id": 242,
     "name": "Upscayl",
-    "url": "https://upscayl.org/download ",
+    "url": "https://upscayl.org/download",
     "description": "A powerful image upscaling tool",
     "tags": [
       "image",
@@ -2036,7 +2026,7 @@
   },
   {
     "id": 275,
-    "name": "VeraCrypt ",
+    "name": "VeraCrypt",
     "url": "https://veracrypt.io/en/Downloads.html",
     "description": "Free open-source disk encryption software",
     "tags": [
@@ -2181,7 +2171,7 @@
     "id": 202,
     "description": "Data compression, encryption and archiving tool",
     "name": "WinRAR",
-    "url": "https://win-rar.com/download.html?",
+    "url": "https://win-rar.com/download.html",
     "tags": [
       "fef",
       "utility"

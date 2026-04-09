@@ -295,7 +295,7 @@
   },
   {
     "id": 468,
-    "name": "BlurHash ",
+    "name": "BlurHash",
     "url": "https://blurha.sh/",
     "description": "Get a compact representation of a placeholder for an image",
     "tags": [
@@ -731,16 +731,6 @@
     ]
   },
   {
-    "id": 53,
-    "name": "CSS Zen Garden",
-    "url": "http://csszengarden.com/",
-    "description": "A demonstration of what can be accomplished through CSS-based design",
-    "tags": [
-      "css",
-      "exercise"
-    ]
-  },
-  {
     "id": 59,
     "description": "Convert CSS snippets to SASS",
     "name": "CSS2SASS",
@@ -834,18 +824,9 @@
     "id": 66,
     "description": "Add advanced interaction controls to your HTML tables",
     "name": "DataTables",
-    "url": "https://datatables.net/reference/option/",
+    "url": "https://datatables.net/",
     "tags": [
       "libpak"
-    ]
-  },
-  {
-    "id": 67,
-    "description": "DataTables options documentation",
-    "name": "DataTables",
-    "url": "https://datatables.net/reference/option/",
-    "tags": [
-      "doc"
     ]
   },
   {
@@ -2601,7 +2582,7 @@
   },
   {
     "id": 214,
-    "name": "Material.io",
+    "name": "material.io",
     "url": "https://material.io/resources/color/#!/",
     "description": "Create color palettes for your UI and measure color accessibility",
     "tags": [
@@ -3966,15 +3947,6 @@
     ]
   },
   {
-    "id": 459,
-    "name": "unDraw",
-    "url": "https://undraw.co/",
-    "description": "Open-source illustrations for any idea",
-    "tags": [
-      "tool"
-    ]
-  },
-  {
     "id": 441,
     "name": "unDraw",
     "url": "https://undraw.co/",
@@ -4341,9 +4313,9 @@
   },
   {
     "id": 376,
-    "name": "VSC - PHP exstension pack",
+    "name": "VSC - PHP extension pack",
     "url": "https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-pack",
-    "description": "pack containing the most important extensions to get started with PHP development",
+    "description": "Pack containing the most important extensions to get started with PHP development",
     "tags": [
       "ext/plugin",
       "php"
@@ -4488,7 +4460,7 @@
   {
     "id": 332,
     "description": "Visual overview of useful skills to learn as a web developer",
-    "name": "Web Skils",
+    "name": "Web Skills",
     "url": "https://andreasbm.github.io/web-skills/",
     "tags": [
       "tips",
