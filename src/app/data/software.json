@@ -31,6 +31,17 @@
     ]
   },
   {
+    "id": 286,
+    "name": "Action1",
+    "url": "https://www.action1.com/",
+    "description": "Cloud-native patch management and vulnerability remediation platform for every OS",
+    "tags": [
+      "security",
+      "sys",
+      "utility"
+    ]
+  },
+  {
     "id": 3,
     "description": "View, print, and comment on PDF documents",
     "name": "Adobe Acrobat Reader",
@@ -68,6 +79,17 @@
     "url": "https://anydesk.com/en",
     "tags": [
       "misc",
+      "utility"
+    ]
+  },
+  {
+    "id": 287,
+    "name": "AnythingLLM",
+    "url": "https://anythingllm.com/",
+    "description": "All-in-one AI desktop app with built-in RAG, local LLM support, and AI agents",
+    "tags": [
+      "ai",
+      "os",
       "utility"
     ]
   },
@@ -326,7 +348,7 @@
     "id": 31,
     "description": "Easily list and print the content of any directory",
     "name": "Directory List & Print",
-    "url": "http://tucows.com/preview/607345/Directory-List--Print",
+    "url": "https://www.infonautics-software.com/directorylistprint/download/",
     "tags": [
       "fef",
       "utility"
@@ -419,7 +441,7 @@
   {
     "id": 36,
     "description": "Complete data recovery software for Windows PC, laptops, hard drives, USB and more",
-    "name": "EaseUS data recovery Wizard",
+    "name": "EaseUS Data Recovery Wizard",
     "url": "https://easeus.com/data-recovery-software/",
     "tags": [
       "fef",
@@ -444,6 +466,16 @@
     "tags": [
       "ai",
       "os"
+    ]
+  },
+  {
+    "id": 292,
+    "name": "EmuVR",
+    "url": "https://www.emuvr.net/",
+    "description": "Virtual reality emulator that recreates 80s/90s-style bedrooms to play retro console games",
+    "tags": [
+      "gaming",
+      "misc"
     ]
   },
   {
@@ -939,6 +971,17 @@
     ]
   },
   {
+    "id": 288,
+    "name": "Jan.AI",
+    "url": "https://www.jan.ai/",
+    "description": "Run AI models locally",
+    "tags": [
+      "ai",
+      "os",
+      "utility"
+    ]
+  },
+  {
     "id": 83,
     "description": "Automatically download groups of files from one-click hosting sites",
     "name": "JDownloader 2",
@@ -1029,7 +1072,7 @@
   {
     "id": 86,
     "description": "Customize functions on Logitech products",
-    "name": "Logitech SetPoint",
+    "name": "Logitech Gaming Software",
     "url": "https://support.logi.com/hc/en-gb/articles/360025298053-Logitech-Gaming-Software",
     "tags": [
       "misc",
@@ -1415,6 +1458,17 @@
     "description": "Run AI locally",
     "tags": [
       "ai"
+    ]
+  },
+  {
+    "id": 289,
+    "name": "OmniSearch",
+    "url": "https://github.com/Eul45/omni-search/releases",
+    "description": "Fast Windows desktop search app with instant file previews and duplicate cleanup",
+    "tags": [
+      "fef",
+      "os",
+      "utility"
     ]
   },
   {
@@ -1825,6 +1879,18 @@
     ]
   },
   {
+    "id": 293,
+    "name": "Stirling PDF",
+    "url": "https://www.stirling.com/download",
+    "description": "PDF manipulation platform with 50+ tools",
+    "tags": [
+      "conv",
+      "editor",
+      "os",
+      "utility"
+    ]
+  },
+  {
     "id": 148,
     "description": "The drag and drop DAW",
     "name": "Studio One",
@@ -2033,7 +2099,7 @@
       "disk",
       "os",
       "port",
-      "utility"
+      "security"
     ]
   },
   {
@@ -2064,7 +2130,7 @@
     "url": "https://elby.ch/en/products/vcd.html",
     "tags": [
       "disk",
-      "tool"
+      "utility"
     ]
   },
   {
@@ -2158,6 +2224,17 @@
     ]
   },
   {
+    "id": 291,
+    "name": "Winget-AutoUpdate",
+    "url": "https://github.com/Romanitho/Winget-AutoUpdate",
+    "description": "Automates daily app updates using winget with allowlist/blocklist support",
+    "tags": [
+      "os",
+      "sys",
+      "utility"
+    ]
+  },
+  {
     "id": 227,
     "name": "WinMerge",
     "url": "https://winmerge.org/downloads/",
@@ -2194,6 +2271,17 @@
     "description": "The Most Popular Windows Utility",
     "tags": [
       "sys",
+      "utility"
+    ]
+  },
+  {
+    "id": 290,
+    "name": "Wispr Flow",
+    "url": "https://wisprflow.ai/",
+    "description": "AI voice dictation app that turns speech into polished text in any application",
+    "tags": [
+      "ai",
+      "app",
       "utility"
     ]
   },

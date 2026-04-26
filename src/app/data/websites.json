@@ -88,6 +88,16 @@
     ]
   },
   {
+    "id": 397,
+    "name": "AGENTS.md",
+    "url": "https://agents.md/",
+    "description": "Open standard format for AGENTS.md files that provide structured, task-specific guidance to AI coding agents",
+    "tags": [
+      "ai",
+      "tool"
+    ]
+  },
+  {
     "id": 239,
     "name": "AlbumArtExchange",
     "url": "https://albumartexchange.com/",
@@ -329,6 +339,16 @@
     ]
   },
   {
+    "id": 400,
+    "name": "BentoPDF",
+    "url": "https://www.bentopdf.com/index.html",
+    "description": "Opensource PDF tools",
+    "tags": [
+      "prod",
+      "tool"
+    ]
+  },
+  {
     "id": 334,
     "name": "BestSimilar",
     "url": "https://bestsimilar.com/",
@@ -435,6 +455,16 @@
     "url": "https://stationx.net/canarytokens/",
     "tags": [
       "cybersec"
+    ]
+  },
+  {
+    "id": 399,
+    "name": "CanIRun AI",
+    "url": "https://www.canirun.ai/",
+    "description": "Check if your PC can run popular AI models locally",
+    "tags": [
+      "ai",
+      "tool"
     ]
   },
   {
@@ -901,6 +931,16 @@
     ]
   },
   {
+    "id": 392,
+    "name": "Excalidraw",
+    "url": "https://excalidraw.com/",
+    "description": "Virtual whiteboard  with real-time collaboration and end-to-end encryption",
+    "tags": [
+      "prod",
+      "tool"
+    ]
+  },
+  {
     "id": 53,
     "description": "Try to explain random images",
     "name": "Explain This Image",
@@ -1361,6 +1401,16 @@
     ]
   },
   {
+    "id": 391,
+    "name": "HumansMap",
+    "url": "https://humansmap.com/",
+    "description": "Explore connections between famous people",
+    "tags": [
+      "catalog",
+      "tool"
+    ]
+  },
+  {
     "id": 70,
     "description": "Videogames, books and software bundles",
     "name": "HumbleBundle",
@@ -1609,6 +1659,16 @@
     ]
   },
   {
+    "id": 394,
+    "name": "La Mappa dell'AI",
+    "url": "https://lamappadellai.it/",
+    "description": "[ITA] L'Italia dell'intelligenza artificiale, in una mappa",
+    "tags": [
+      "ai",
+      "catalog"
+    ]
+  },
+  {
     "id": 380,
     "name": "Lakera Gandalf",
     "url": "https://gandalf.lakera.ai/baseline",
@@ -1657,8 +1717,17 @@
     "tags": [
       "comp",
       "cybersec",
-      "tech",
       "tool"
+    ]
+  },
+  {
+    "id": 395,
+    "name": "Learn Your Way",
+    "url": "https://learnyourway.withgoogle.com/",
+    "description": "Google's AI-powered personalized learning platform",
+    "tags": [
+      "ai",
+      "edu"
     ]
   },
   {
@@ -1842,6 +1911,16 @@
     ]
   },
   {
+    "id": 396,
+    "name": "Microsoft Learn MCP Server",
+    "url": "https://github.com/microsoftdocs/mcp",
+    "description": "Official Microsoft MCP server that provides secure, direct access to Microsoft official docs",
+    "tags": [
+      "ai",
+      "prod"
+    ]
+  },
+  {
     "id": 310,
     "name": "Mindtrip",
     "url": "https://mindtrip.ai/",
@@ -1855,6 +1934,16 @@
     "name": "MobyGames",
     "url": "https://mobygames.com/",
     "description": "Videogame DB",
+    "tags": [
+      "catalog",
+      "game"
+    ]
+  },
+  {
+    "id": 393,
+    "name": "MOCAGH",
+    "url": "https://www.mocagh.org/",
+    "description": "Online museum and database dedicated to preserving computer adventure and role-playing games from the 1990s",
     "tags": [
       "catalog",
       "game"
@@ -2306,6 +2395,17 @@
     ]
   },
   {
+    "id": 398,
+    "name": "PrivacyTools",
+    "url": "https://www.privacytools.io/",
+    "description": "Curated directory of privacy-focused software and services",
+    "tags": [
+      "catalog",
+      "comp",
+      "cybersec"
+    ]
+  },
+  {
     "id": 124,
     "description": "Minimalist, open source online pastebin",
     "name": "Privatebin",
@@ -2735,7 +2835,7 @@
     "url": "https://stirlingpdf.io/",
     "description": "Web based PDF Multi Tool",
     "tags": [
-      "misc",
+      "prod",
       "tool"
     ]
   },
@@ -3259,7 +3359,7 @@
     "id": 328,
     "name": "VR Compare",
     "url": "https://vr-compare.com/",
-    "description": "The Internet'slargest VR & AR headset database",
+    "description": "The Internet's largest VR & AR headset database",
     "tags": [
       "VR",
       "catalog",
@@ -3300,15 +3400,6 @@
     ]
   },
   {
-    "id": 188,
-    "description": "See which hex color it is based on current time",
-    "name": "WhatColorIsIt?",
-    "url": "http://whatcolorisit.sumbioun.com/",
-    "tags": [
-      "useless"
-    ]
-  },
-  {
     "id": 189,
     "description": "Discover what happened in your birth year",
     "name": "What happened in my birth year?",
@@ -3322,6 +3413,15 @@
     "description": "Divide the world into a grid of 3m x 3m squares each of which is univocally identified by a 3 word address",
     "name": "What3Words",
     "url": "https://What3Words.com/",
+    "tags": [
+      "useless"
+    ]
+  },
+  {
+    "id": 188,
+    "description": "See which hex color it is based on current time",
+    "name": "WhatColorIsIt?",
+    "url": "http://whatcolorisit.sumbioun.com/",
     "tags": [
       "useless"
     ]
