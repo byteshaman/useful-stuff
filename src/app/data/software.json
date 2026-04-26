@@ -299,10 +299,10 @@
     "url": "https://cryptomator.org/",
     "description": "Encryption tool for secure cloud storage",
     "tags": [
+      "fef",
       "os",
       "port",
-      "security",
-      "utility"
+      "security"
     ]
   },
   {
@@ -1160,7 +1160,8 @@
     "name": "MediaHuman Audio Converter",
     "url": "https://mediahuman.com/audio-converter/",
     "tags": [
-      "audio"
+      "audio",
+      "conv"
     ]
   },
   {
@@ -2301,7 +2302,8 @@
     "name": "Wondershare UniConverter",
     "url": "https://videoconverter.wondershare.com/",
     "tags": [
-      "video"
+      "video",
+      "conv"
     ]
   },
   {
@@ -2311,6 +2313,7 @@
     "description": "All-in-One video and audio converter",
     "tags": [
       "audio",
+      "conv",
       "video"
     ]
   },

@@ -205,7 +205,7 @@ export const websitesTags: TagInfo[] = [
     description: "Comparison"
   },
   {
-    value: "cybersec",
+    value: "infosec",
     description: "Infosec/Privacy"
   },
   {

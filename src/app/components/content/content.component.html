@@ -52,7 +52,7 @@
 
     <!--# INPUT -->
     <mat-form-field subscriptSizing="dynamic" appearance="outline">
-      <input matInput #searchInput (keyup)="applyFilter($event)" placeholder="Press 's' to search...">
+      <input matInput type="search" #searchInput (keyup)="applyFilter($event)" placeholder="Press 's' to search..." role="search">
     </mat-form-field>
 
     @if (devMode) {

@@ -15,7 +15,7 @@
     "url": "https://10minutemail.com/",
     "tags": [
       "mail",
-      "cybersec"
+      "infosec"
     ]
   },
   {
@@ -56,7 +56,7 @@
     "description": "Independent source of information on which services support MFA/2FA",
     "tags": [
       "catalog",
-      "cybersec"
+      "infosec"
     ]
   },
   {
@@ -237,7 +237,7 @@
     ]
   },
   {
-    "id": 352,
+    "id": 12,
     "name": "ArtificialAnalysis",
     "url": "https://artificialanalysis.ai/",
     "description": "Independent AI analysis",
@@ -426,7 +426,7 @@
     "url": "http://bugmenot.com/",
     "tags": [
       "misc",
-      "cybersec"
+      "infosec"
     ]
   },
   {
@@ -454,7 +454,7 @@
     "name": "Canary Tokens",
     "url": "https://stationx.net/canarytokens/",
     "tags": [
-      "cybersec"
+      "infosec"
     ]
   },
   {
@@ -477,15 +477,6 @@
     ]
   },
   {
-    "id": 302,
-    "name": "Chat GPT",
-    "url": "https://chatgpt.com/",
-    "description": "AI assistant from OpenAI",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
     "id": 26,
     "description": "Play chess online against AI or other",
     "name": "Chess.com",
@@ -501,16 +492,6 @@
     "url": "https://chesstempo.com/",
     "tags": [
       "game"
-    ]
-  },
-  {
-    "id": 28,
-    "description": "Create beautiful forms connected to your Notion pages",
-    "name": "Chillpepper.io",
-    "url": "https://chilipepper.io/",
-    "tags": [
-      "misc",
-      "tool"
     ]
   },
   {
@@ -572,7 +553,7 @@
     ]
   },
   {
-    "id": 360,
+    "id": 136,
     "name": "ComparisonTables",
     "url": "https://comparisontabl.es/cloud-storage/",
     "description": "Cloud storage providers comparison table",
@@ -618,7 +599,7 @@
     "url": "https://cryptpad.fr/index.html",
     "description": "End-to-end encrypted and open-source collaboration suite",
     "tags": [
-      "cybersec",
+      "infosec",
       "share"
     ]
   },
@@ -628,13 +609,13 @@
     "url": "https://dangerzone.rocks/",
     "description": "Take potentially dangerous documents and convert them to safe PDFs",
     "tags": [
-      "cybersec",
+      "infosec",
       "tool"
     ]
   },
   {
     "id": 227,
-    "name": "davidevolpe",
+    "name": "DavidVolpe",
     "url": "https://davidvolpe.it/ribilanciamento-portafoglio-quando-momento-giusto/",
     "description": "[ITA] Guida al ribilanciamento del portafoglio",
     "tags": [
@@ -708,7 +689,7 @@
     "description": "Delete online accounts effortlessly",
     "tags": [
       "catalog",
-      "cybersec"
+      "infosec"
     ]
   },
   {
@@ -849,7 +830,7 @@
     "name": "earth",
     "url": "https://earth.nullschool.net/",
     "tags": [
-      "info"
+      "misc"
     ]
   },
   {
@@ -889,7 +870,7 @@
     "url": "https://emailnator.com/",
     "tags": [
       "mail",
-      "cybersec"
+      "infosec"
     ]
   },
   {
@@ -1046,7 +1027,7 @@
     ]
   },
   {
-    "id": 357,
+    "id": 86,
     "name": "forMaps",
     "url": "https://www.formaps.it/",
     "description": "Mappa per navigare nell'immobiliare",
@@ -1095,7 +1076,7 @@
     ]
   },
   {
-    "id": 354,
+    "id": 18,
     "name": "Gamepadla",
     "url": "https://gamepadla.com/",
     "description": "Gamepad tests and specs",
@@ -1106,7 +1087,7 @@
     ]
   },
   {
-    "id": 355,
+    "id": 20,
     "name": "GamingReadapted",
     "url": "https://www.gamingreadapted.com/",
     "description": "Adaptive gaming resources",
@@ -1270,11 +1251,11 @@
     "description": "Find the best way to make a hard reset for a device",
     "tags": [
       "article",
-      "cybersec"
+      "infosec"
     ]
   },
   {
-    "id": 361,
+    "id": 159,
     "name": "HardwareTester",
     "url": "https://hardwaretester.com/",
     "description": "Collection of simple, useful tools for checking your computer's hardware",
@@ -1299,7 +1280,7 @@
     "description": "Simple, fast, secure client-side file encryption",
     "tags": [
       "tool",
-      "cybersec"
+      "infosec"
     ]
   },
   {
@@ -1337,7 +1318,7 @@
     "name": "Homeless World Cup",
     "url": "https://homelessworldcup.org/homelessness-statistics/",
     "tags": [
-      "info"
+      "misc"
     ]
   },
   {
@@ -1346,7 +1327,7 @@
     "name": "Homicide Monitor",
     "url": "https://homicide.igarape.org.br/",
     "tags": [
-      "info"
+      "misc"
     ]
   },
   {
@@ -1567,7 +1548,7 @@
     "url": "https://iplogger.org/",
     "description": "Track IP address and track locations",
     "tags": [
-      "cybersec",
+      "infosec",
       "tool"
     ]
   },
@@ -1605,7 +1586,7 @@
     "name": "ItaliaOra",
     "url": "https://italiaora.org/",
     "tags": [
-      "info"
+      "misc"
     ]
   },
   {
@@ -1646,7 +1627,7 @@
     "url": "https://kpaste.infomaniak.com/new",
     "description": "Secure solution for transferring your encrypted messages to all your contacts",
     "tags": [
-      "cybersec"
+      "infosec"
     ]
   },
   {
@@ -1716,7 +1697,7 @@
     "description": "[ITA] Una lista delle alternative etiche ai colossi del web ",
     "tags": [
       "comp",
-      "cybersec",
+      "infosec",
       "tool"
     ]
   },
@@ -1755,7 +1736,7 @@
     "name": "LessPass",
     "url": "https://lesspass.com/#/",
     "tags": [
-      "cybersec",
+      "infosec",
       "tool"
     ]
   },
@@ -1885,12 +1866,12 @@
     "name": "MEGA.nz",
     "url": "https://mega.nz/",
     "tags": [
-      "cybersec",
+      "infosec",
       "share"
     ]
   },
   {
-    "id": 362,
+    "id": 186,
     "name": "Megathread IT",
     "url": "https://www.reddit.com/r/ItalyHardware/comments/1ei7ge4/risorsa_megathread_siti_utili_in_ambito_tech_e/",
     "description": "[ITA] Collezioni e risorse utili sul mondo hw ed it",
@@ -2017,6 +1998,15 @@
       "movies",
       "tool",
       "tvs"
+    ]
+  },
+  {
+    "id": 401,
+    "name": "NASA",
+    "url": "https://science.nasa.gov/mission/landsat/outreach/your-name-in-landsat/",
+    "description": "Type your name to view and export a graphic of it spelled out using Landsat Earth features",
+    "tags": [
+      "misc"
     ]
   },
   {
@@ -2233,7 +2223,7 @@
     "description": "Community-driven index of websites, apps, and services that offer signing in with passkeys",
     "tags": [
       "catalog",
-      "cybersec"
+      "infosec"
     ]
   },
   {
@@ -2243,7 +2233,7 @@
     "description": "Your Resource for Platforms, Apps, and Websites Supporting Passkey Login",
     "tags": [
       "catalog",
-      "cybersec"
+      "infosec"
     ]
   },
   {
@@ -2263,7 +2253,7 @@
     "name": "Password Tester",
     "url": "https://bitwarden.com/password-strength/",
     "tags": [
-      "cybersec",
+      "infosec",
       "tool"
     ]
   },
@@ -2288,7 +2278,7 @@
   },
   {
     "id": 119,
-    "description": "[ITA} Diventa Presidente della Repubblica!",
+    "description": "[ITA] Diventa Presidente della Repubblica!",
     "name": "PCosta",
     "url": "https://pcosta.net/ipdcs/",
     "tags": [
@@ -2357,7 +2347,7 @@
     "id": 378,
     "name": "PortaleOfferte",
     "url": "https://www.ilportaleofferte.it/portaleOfferte/",
-    "description": "[ITA] Comparatore di offerte luce/gas\t",
+    "description": "[ITA] Comparatore di offerte luce/gas",
     "tags": [
       "comp",
       "fin",
@@ -2375,7 +2365,7 @@
     ]
   },
   {
-    "id": 358,
+    "id": 125,
     "name": "PriceArchive",
     "url": "https://www.pricearchive.org/",
     "description": "AliExpress price tracker",
@@ -2391,7 +2381,7 @@
     "name": "Privacy Guides",
     "url": "https://privacyguides.org/",
     "tags": [
-      "cybersec"
+      "infosec"
     ]
   },
   {
@@ -2402,7 +2392,7 @@
     "tags": [
       "catalog",
       "comp",
-      "cybersec"
+      "infosec"
     ]
   },
   {
@@ -2411,7 +2401,7 @@
     "name": "Privatebin",
     "url": "https://privatebin.net/",
     "tags": [
-      "cybersec",
+      "infosec",
       "text"
     ]
   },
@@ -2434,7 +2424,7 @@
     "url": "https://protonmail.com/",
     "tags": [
       "mail",
-      "cybersec"
+      "infosec"
     ]
   },
   {
@@ -2483,7 +2473,7 @@
     "id": 127,
     "description": "Chronological order of anime",
     "name": "r/watchorder",
-    "url": "https://reddit.com/r/anime/wiki/watch_order",
+    "url": "https://reddit.com/r/anime/wiki/watch_order/",
     "tags": [
       "animanga"
     ]
@@ -2522,7 +2512,7 @@
     "name": "RainyMood",
     "url": "https://rainymood.com/",
     "tags": [
-      "useless"
+      "misc"
     ]
   },
   {
@@ -2627,7 +2617,7 @@
     ]
   },
   {
-    "id": 356,
+    "id": 22,
     "name": "Reware",
     "url": "https://reware.it/",
     "description": "[ITA] Negozio di PC ricondizionati",
@@ -2651,7 +2641,7 @@
     "name": "ScamAdviser",
     "url": "https://scamadviser.com/",
     "tags": [
-      "cybersec"
+      "infosec"
     ]
   },
   {
@@ -2669,7 +2659,7 @@
     "url": "https://sekret.link/create",
     "description": "Securely share credentials and other sensitive info",
     "tags": [
-      "cybersec",
+      "infosec",
       "tool"
     ]
   },
@@ -2867,7 +2857,7 @@
     "url": "https://ssd.eff.org/",
     "tags": [
       "article",
-      "cybersec"
+      "infosec"
     ]
   },
   {
@@ -2876,7 +2866,7 @@
     "url": "https://swisstransfer.com/",
     "description": "Send up to 50 GB of data at once, free of charge and without registration",
     "tags": [
-      "cybersec",
+      "infosec",
       "share"
     ]
   },
@@ -2893,7 +2883,7 @@
   {
     "id": 157,
     "description": "Find out who called you",
-    "name": "Synch.ME",
+    "name": "Sync.ME",
     "url": "https://sync.me/",
     "tags": [
       "misc",
@@ -2938,7 +2928,7 @@
     "tags": [
       "catalog",
       "comp",
-      "cybersec",
+      "infosec",
       "tool"
     ]
   },
@@ -2988,7 +2978,7 @@
     "url": "https://theatlantic.com/health/archive/2013/10/a-real-time-map-of-births-and-deaths/280609/",
     "tags": [
       "article",
-      "info"
+      "misc"
     ]
   },
   {
@@ -3040,7 +3030,7 @@
   },
   {
     "id": 167,
-    "description": "Faces generated by IA",
+    "description": "Faces generated by AI",
     "name": "This person doesn't exist",
     "url": "https://thispersondoesnotexist.com/",
     "tags": [
@@ -3076,7 +3066,7 @@
     "url": "https://toffeeshare.com/",
     "description": "Send files of any size directly from your device without ever storing anything online",
     "tags": [
-      "cybersec",
+      "infosec",
       "share"
     ]
   },
@@ -3150,7 +3140,7 @@
     "tags": [
       "catalog",
       "comp",
-      "cybersec",
+      "infosec",
       "tool"
     ]
   },
@@ -3194,7 +3184,7 @@
     ]
   },
   {
-    "id": 359,
+    "id": 135,
     "name": "TuttoCalcolato",
     "url": "https://tuttocalcolato.it/",
     "description": "[ITA] Raccolta di calcolatori",
@@ -3276,7 +3266,7 @@
     ]
   },
   {
-    "id": 363,
+    "id": 202,
     "name": "UsefulStuff",
     "url": "https://byteshaman.github.io/useful-stuff/",
     "description": "This is here only because I like recursion",
@@ -3309,7 +3299,7 @@
     "id": 208,
     "name": "vendutoespeditoda",
     "url": "https://vendutoespeditoda.it/",
-    "description": "[ITA] Cerca prodotti venduti  espediti da Amazon",
+    "description": "[ITA] Cerca prodotti venduti e spediti da Amazon",
     "tags": [
       "misc",
       "tool"
@@ -3343,7 +3333,7 @@
     "url": "https://virustotal.com/gui/home/upload",
     "tags": [
       "misc",
-      "cybersec"
+      "infosec"
     ]
   },
   {
@@ -3442,7 +3432,7 @@
     "url": "https://wheregoes.com/",
     "description": "Check where a certain link will bring you",
     "tags": [
-      "cybersec",
+      "infosec",
       "tool"
     ]
   },
@@ -3480,7 +3470,7 @@
     "name": "WhoIs",
     "url": "https://whois.domaintools.com/",
     "tags": [
-      "cybersec",
+      "infosec",
       "tool"
     ]
   },
@@ -3529,7 +3519,7 @@
     "url": "https://wormhole.app/",
     "description": "Share files with end-to-end encryption and a link that automatically expires",
     "tags": [
-      "cybersec",
+      "infosec",
       "share"
     ]
   },

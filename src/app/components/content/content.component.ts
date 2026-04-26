@@ -1,20 +1,20 @@
-import { AfterViewInit, ChangeDetectorRef, Component, HostListener, Input, OnInit, TemplateRef, ViewChild, Inject, inject, ElementRef } from '@angular/core';
-import { MatTableDataSource, MatTable, MatColumnDef, MatHeaderCellDef, MatHeaderCell, MatCellDef, MatCell, MatNoDataRow, MatHeaderRowDef, MatHeaderRow, MatRowDef, MatRow } from '@angular/material/table';
-import { l4dTags, softwareTags, websitesTags } from 'src/app/data/tags.data.';
-import { TagInfo, PageInfo, WebsiteInfo, operation } from 'src/app/interfaces/interfaces';
+import { CommonModule, NgTemplateOutlet, UpperCasePipe } from '@angular/common';
+import { AfterViewInit, ChangeDetectorRef, Component, ElementRef, Input, OnInit, TemplateRef, ViewChild, inject } from '@angular/core';
+import { MatButton, MatIconButton } from '@angular/material/button';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
+import { MatFormField } from '@angular/material/form-field';
+import { MatIcon } from '@angular/material/icon';
+import { MatInput } from '@angular/material/input';
+import { MatSort, MatSortHeader } from '@angular/material/sort';
+import { MatCell, MatCellDef, MatColumnDef, MatHeaderCell, MatHeaderCellDef, MatHeaderRow, MatHeaderRowDef, MatNoDataRow, MatRow, MatRowDef, MatTable, MatTableDataSource } from '@angular/material/table';
+import { saveAs } from "file-saver";
 import l4d from 'src/app/data/link4devs.json';
 import software from 'src/app/data/software.json';
+import { l4dTags, softwareTags, websitesTags } from 'src/app/data/tags.data.';
 import websites from 'src/app/data/websites.json';
-import { MatSort, MatSortHeader } from '@angular/material/sort';
-import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
-import { FormDialogComponent } from '../form-dialog/form-dialog.component';
-import { saveAs } from "file-saver";
-import { MatInput } from '@angular/material/input';
-import { MatFormField, MatLabel } from '@angular/material/form-field';
-import { MatIcon } from '@angular/material/icon';
-import { MatButton, MatIconButton } from '@angular/material/button';
-import { CommonModule, NgTemplateOutlet, UpperCasePipe } from '@angular/common';
 import { MobileClassDirective } from 'src/app/directives/responsive.directive';
+import { PageInfo, TagInfo, WebsiteInfo, operation } from 'src/app/interfaces/interfaces';
+import { FormDialogComponent } from '../form-dialog/form-dialog.component';
 
 import {
   MatBottomSheet,
@@ -274,7 +274,7 @@ export class ContentComponent implements OnInit, AfterViewInit {
 
     const dialogConfig: MatDialogConfig = {
       height: '90vh',
-      maxHeight: '550px',
+      maxHeight: '650px',
       width: '600px',
       disableClose: true,
       data: {websiteInfo: dialogData, tags: this.tags}

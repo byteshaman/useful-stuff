@@ -449,6 +449,17 @@
     ]
   },
   {
+    "id": 485,
+    "name": "CodeCrumbs",
+    "url": "https://www.codecrumbs.com/",
+    "description": "Learn to code through easily digestible code snippets",
+    "tags": [
+      "interactive",
+      "tips",
+      "webdev"
+    ]
+  },
+  {
     "id": 34,
     "description": "Online front-end editor",
     "name": "Codepen",
@@ -728,6 +739,16 @@
     "tags": [
       "css",
       "thisthat"
+    ]
+  },
+  {
+    "id": 481,
+    "name": "css-fundamentals",
+    "url": "https://css-fundamentals.kevinpowell.co/",
+    "description": "Learn modern CSS fundamentals",
+    "tags": [
+      "css",
+      "videocourse"
     ]
   },
   {
@@ -1223,6 +1244,16 @@
     ]
   },
   {
+    "id": 484,
+    "name": "ffuel",
+    "url": "https://www.fffuel.co/css-selectors",
+    "description": "CSS Selectors: a visual guide",
+    "tags": [
+      "cheat",
+      "css"
+    ]
+  },
+  {
     "id": 415,
     "name": "FileZilla",
     "url": "https://filezilla-project.org/download.php",
@@ -1344,6 +1375,26 @@
     "tags": [
       "css",
       "tool"
+    ]
+  },
+  {
+    "id": 479,
+    "name": "Fluid Style",
+    "url": "https://fluid.style/type",
+    "description": "Accessible fluid type generator for responsive typography",
+    "tags": [
+      "css",
+      "interactive",
+      "tool"
+    ]
+  },
+  {
+    "id": 480,
+    "name": "fnm",
+    "url": "https://github.com/Schniz/fnm",
+    "description": "Fast Node Manager",
+    "tags": [
+      "sw"
     ]
   },
   {
@@ -1706,6 +1757,16 @@
     "tags": [
       "git",
       "interactive"
+    ]
+  },
+  {
+    "id": 475,
+    "name": "GitHub",
+    "url": "https://github.com/ynot3363/setup-fnm-windows",
+    "description": "PowerShell script to install and configure fnm on Windows",
+    "tags": [
+      "artut",
+      "misc"
     ]
   },
   {
@@ -2186,6 +2247,16 @@
     ]
   },
   {
+    "id": 476,
+    "name": "jordanbrennan.dev",
+    "url": "https://jordanbrennan.hashnode.dev/tac-a-new-css-methodology",
+    "description": "TAC: a new CSS methodology",
+    "tags": [
+      "artut",
+      "css"
+    ]
+  },
+  {
     "id": 183,
     "description": "Evie's accelerated JS tutorial",
     "name": "js.evie.dev",
@@ -2348,6 +2419,16 @@
       "sql",
       "videocourse",
       "webdev"
+    ]
+  },
+  {
+    "id": 483,
+    "name": "leanrada",
+    "url": "https://leanrada.com/notes/css-only-lqip/",
+    "description": "CSS-only LQIP",
+    "tags": [
+      "artut",
+      "css"
     ]
   },
   {
@@ -2556,6 +2637,18 @@
       "css",
       "ext/plugin",
       "mat"
+    ]
+  },
+  {
+    "id": 482,
+    "name": "Material Theme Builder",
+    "url": "https://www.materialthemebuilder.com/",
+    "description": "Visual theme builder for Angular Material",
+    "tags": [
+      "ag",
+      "interactive",
+      "mat",
+      "tool"
     ]
   },
   {
@@ -2908,6 +3001,16 @@
     "tags": [
       "js",
       "libpak"
+    ]
+  },
+  {
+    "id": 478,
+    "name": "npmx",
+    "url": "https://npmx.dev/",
+    "description": "Modern browser for the npm registry",
+    "tags": [
+      "misc",
+      "tool"
     ]
   },
   {
@@ -3300,7 +3403,6 @@
     "url": "https://www.schemecolor.com/",
     "description": "Create color palettes and combinations",
     "tags": [
-      "css",
       "tool",
       "webdev"
     ]
@@ -3994,6 +4096,16 @@
     "tags": [
       "multi",
       "sw"
+    ]
+  },
+  {
+    "id": 477,
+    "name": "VisualStudio",
+    "url": "https://code.visualstudio.com/docs/devcontainers/tutorial",
+    "description": "Official tutorial for running VS Code inside a Docker container",
+    "tags": [
+      "artut",
+      "misc"
     ]
   },
   {
