@@ -2038,7 +2038,7 @@
     "id": 168,
     "description": "HTML/CSS tutorials for beginners",
     "name": "internetingishard",
-    "url": "https://internetingishard.com/",
+    "url": "https://internetingishard.netlify.app/",
     "tags": [
       "artut",
       "css",
