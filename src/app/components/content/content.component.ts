@@ -1,20 +1,20 @@
-import { AfterViewInit, ChangeDetectorRef, Component, HostListener, Input, OnInit, TemplateRef, ViewChild, Inject, inject, ElementRef } from '@angular/core';
-import { MatTableDataSource, MatTable, MatColumnDef, MatHeaderCellDef, MatHeaderCell, MatCellDef, MatCell, MatNoDataRow, MatHeaderRowDef, MatHeaderRow, MatRowDef, MatRow } from '@angular/material/table';
-import { l4dTags, softwareTags, websitesTags } from 'src/app/data/tags.data.';
-import { TagInfo, PageInfo, WebsiteInfo, operation } from 'src/app/interfaces/interfaces';
+import { CommonModule, NgTemplateOutlet, UpperCasePipe } from '@angular/common';
+import { AfterViewInit, ChangeDetectorRef, Component, ElementRef, Input, OnInit, TemplateRef, ViewChild, inject } from '@angular/core';
+import { MatButton, MatIconButton } from '@angular/material/button';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
+import { MatFormField } from '@angular/material/form-field';
+import { MatIcon } from '@angular/material/icon';
+import { MatInput } from '@angular/material/input';
+import { MatSort, MatSortHeader } from '@angular/material/sort';
+import { MatCell, MatCellDef, MatColumnDef, MatHeaderCell, MatHeaderCellDef, MatHeaderRow, MatHeaderRowDef, MatNoDataRow, MatRow, MatRowDef, MatTable, MatTableDataSource } from '@angular/material/table';
+import { saveAs } from "file-saver";
 import l4d from 'src/app/data/link4devs.json';
 import software from 'src/app/data/software.json';
+import { l4dTags, softwareTags, websitesTags } from 'src/app/data/tags.data.';
 import websites from 'src/app/data/websites.json';
-import { MatSort, MatSortHeader } from '@angular/material/sort';
-import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
-import { FormDialogComponent } from '../form-dialog/form-dialog.component';
-import { saveAs } from "file-saver";
-import { MatInput } from '@angular/material/input';
-import { MatFormField, MatLabel } from '@angular/material/form-field';
-import { MatIcon } from '@angular/material/icon';
-import { MatButton, MatIconButton } from '@angular/material/button';
-import { CommonModule, NgTemplateOutlet, UpperCasePipe } from '@angular/common';
 import { MobileClassDirective } from 'src/app/directives/responsive.directive';
+import { PageInfo, TagInfo, WebsiteInfo, operation } from 'src/app/interfaces/interfaces';
+import { FormDialogComponent } from '../form-dialog/form-dialog.component';
 
 import {
   MatBottomSheet,
@@ -49,7 +49,7 @@ export class ContentComponent implements OnInit, AfterViewInit {
   devModeKeyword = 'devmode';
 
   // mat-table
-  columns: string[] = this.devMode ? ['name', 'description', 'tags'] : ['name', 'description'];
+  columns = ['name', 'description'];
   displayedColumns: string[] = [];
   dataSource: MatTableDataSource<WebsiteInfo> = new MatTableDataSource();
   
@@ -191,6 +191,7 @@ export class ContentComponent implements OnInit, AfterViewInit {
     }
   }
 
+
   /**
    * Update class for buttons' CSS
    * @param  {string} tag
@@ -201,7 +202,6 @@ export class ContentComponent implements OnInit, AfterViewInit {
   }  
 
   onKeyDown(event: KeyboardEvent) {
-    debugger;
     if (!this.devMode) {
       // If s button is pressed, focus on search bar
       if (event.key === 's') {
@@ -222,11 +222,11 @@ export class ContentComponent implements OnInit, AfterViewInit {
 
         // Show buttons when in dev mode
         if (this.devMode) {
-          this.displayedColumns.push('tags');
-          this.displayedColumns.push('actions');
+          this.displayedColumns.unshift('id');
+          this.displayedColumns.push(... ['tags', 'actions']);
         } else {
-          this.displayedColumns.pop();
-          this.displayedColumns.pop();  
+          this.displayedColumns.splice(-2, 2);
+          this.displayedColumns.shift();
         }
       }
     }

@@ -184,6 +184,16 @@
     ]
   },
   {
+    "id": 295,
+    "name": "Autoruns",
+    "url": "https://learn.microsoft.com/it-it/sysinternals/downloads/autoruns",
+    "description": "Show what programs are configured to run during system bootup or login",
+    "tags": [
+      "sys",
+      "utility"
+    ]
+  },
+  {
     "id": 13,
     "description": "Video editor designed for simple cutting, filtering and encoding tasks",
     "name": "Avidemux",
@@ -231,6 +241,16 @@
     "url": "https://bluestacks.com/download.html",
     "tags": [
       "misc",
+      "utility"
+    ]
+  },
+  {
+    "id": 298,
+    "name": "Bulk Crap Uninstaller",
+    "url": "https://www.bcuninstaller.com/",
+    "description": "Quickly remove large amounts of unwanted applications",
+    "tags": [
+      "uninstaller",
       "utility"
     ]
   },
@@ -563,6 +583,16 @@
     ]
   },
   {
+    "id": 301,
+    "name": "Fing",
+    "url": "https://www.fing.com/desktop/download-windows/",
+    "description": "Network scanner and discovery tool",
+    "tags": [
+      "misc",
+      "utility"
+    ]
+  },
+  {
     "id": 44,
     "description": "Mozilla web browser",
     "name": "Firefox",
@@ -870,6 +900,17 @@
     ]
   },
   {
+    "id": 294,
+    "name": "HashCheck Shell Extension",
+    "url": "https://code.kliu.org/hashcheck/",
+    "description": "Calculate and verify file hashes from Windows explorer",
+    "tags": [
+      "fef",
+      "os",
+      "utility"
+    ]
+  },
+  {
     "id": 264,
     "name": "HashMyFiles",
     "url": "https://www.nirsoft.net/utils/hash_my_files.html",
@@ -1001,6 +1042,16 @@
     ]
   },
   {
+    "id": 303,
+    "name": "JOPDF",
+    "url": "https://www.jopdf.com/",
+    "description": "Free and fast PDF editor",
+    "tags": [
+      "editor",
+      "utility"
+    ]
+  },
+  {
     "id": 84,
     "description": "Secure and reliable remote desktop app",
     "name": "Jump Desktop",
@@ -1035,7 +1086,7 @@
     "url": "https://obviousidea.com/windows-software/light-image-resizer/",
     "description": "Powerful images resizer and converter",
     "tags": [
-      "editor",
+      "conv",
       "image"
     ]
   },
@@ -1046,6 +1097,18 @@
     "description": "Collaborative bookmark manager",
     "tags": [
       "db",
+      "utility"
+    ]
+  },
+  {
+    "id": 299,
+    "name": "llmfit",
+    "url": "https://www.llmfit.org/",
+    "description": "Right-sizes LLM models to your system's specs",
+    "tags": [
+      "ai",
+      "os",
+      "port",
       "utility"
     ]
   },
@@ -1422,6 +1485,16 @@
     ]
   },
   {
+    "id": 305,
+    "name": "NLite",
+    "url": "https://ntlite.com/download/",
+    "description": "Automate, secure, and customize Windows, locally",
+    "tags": [
+      "sys",
+      "utility"
+    ]
+  },
+  {
     "id": 113,
     "description": "Free and fast text and source code editor",
     "name": "Notepad++",
@@ -1529,6 +1602,16 @@
       "audio",
       "player",
       "video"
+    ]
+  },
+  {
+    "id": 297,
+    "name": "Paint.NET",
+    "url": "https://paint.net/",
+    "description": "Free image and photo editing software",
+    "tags": [
+      "editor",
+      "image"
     ]
   },
   {
@@ -1661,7 +1744,8 @@
     "description": "The best gallery for Android",
     "tags": [
       "app",
-      "image"
+      "image",
+      "os"
     ]
   },
   {
@@ -1681,6 +1765,17 @@
     "url": "https://rainmeter.net/",
     "tags": [
       "misc",
+      "utility"
+    ]
+  },
+  {
+    "id": 306,
+    "name": "Readest",
+    "url": "https://readest.com/",
+    "description": "EPUB and PDF reader designed for deep, immersive reading",
+    "tags": [
+      "misc",
+      "os",
       "utility"
     ]
   },
@@ -1816,7 +1911,7 @@
     "description": "Encoding software for converting images, videos, and audio files",
     "tags": [
       "audio",
-      "editor",
+      "conv",
       "image",
       "port",
       "video"
@@ -2184,6 +2279,16 @@
     ]
   },
   {
+    "id": 304,
+    "name": "Winaero Tweaker",
+    "url": "https://winaerotweaker.com/",
+    "description": "The ultimate all-in-one app for tuning Windows",
+    "tags": [
+      "sys",
+      "utility"
+    ]
+  },
+  {
     "id": 261,
     "name": "Windhawk",
     "url": "https://windhawk.net/",
@@ -2235,6 +2340,18 @@
     ]
   },
   {
+    "id": 296,
+    "name": "Winhance",
+    "url": "https://winhance.net/",
+    "description": "Debloat, optimize and customize Windows",
+    "tags": [
+      "os",
+      "port",
+      "sys",
+      "utility"
+    ]
+  },
+  {
     "id": 227,
     "name": "WinMerge",
     "url": "https://winmerge.org/downloads/",
@@ -2271,17 +2388,6 @@
     "description": "The Most Popular Windows Utility",
     "tags": [
       "sys",
-      "utility"
-    ]
-  },
-  {
-    "id": 290,
-    "name": "Wispr Flow",
-    "url": "https://wisprflow.ai/",
-    "description": "AI voice dictation app that turns speech into polished text in any application",
-    "tags": [
-      "ai",
-      "app",
       "utility"
     ]
   },
