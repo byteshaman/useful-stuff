@@ -56,7 +56,7 @@ export class ContentComponent implements OnInit, AfterViewInit {
   // export
   filename: string = ''; 
 
-  // Services
+  // Deps
   private readonly dialog = inject(MatDialog);
   private readonly bottomDialog = inject(MatBottomSheet); // needed to open the mobile dialog
 
@@ -275,7 +275,7 @@ export class ContentComponent implements OnInit, AfterViewInit {
     const dialogConfig: MatDialogConfig = {
       height: '90vh',
       maxHeight: '550px',
-      width: '600px',
+      width: '700px',
       disableClose: true,
       data: {websiteInfo: dialogData, tags: this.tags}
     }

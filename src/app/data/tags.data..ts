@@ -27,6 +27,11 @@ export const l4dTags: TagInfo[] = [
     description: "Cheatsheet",
   },
   {
+    category: "resource type",
+    value: "comm",
+    description: "Community",
+  },
+  {
     category: "topic",
     value: "css",
     description: "CSS",
@@ -35,6 +40,11 @@ export const l4dTags: TagInfo[] = [
     category: "topic",
     value: "cybersec",
     description: "Cyber Security",
+  },
+  {
+    category: "topic",
+    value: "db",
+    description: "Database",
   },
   {
     category: "resource type",
@@ -48,13 +58,8 @@ export const l4dTags: TagInfo[] = [
   },
   {
     category: "resource type",
-    value: "ext/plugin",
+    value: "ext/plug",
     description: "Extension/Plugin",
-  },
-  {
-    category: "resource type",
-    value: "fcd",
-    description: "Forum/Community/Discord",
   },
   {
     category: "resource type",
@@ -147,11 +152,6 @@ export const l4dTags: TagInfo[] = [
     description: "Software",
   },
   {
-    category: "topic",
-    value: "sql",
-    description: "SQL",
-  },
-  {
     category: "resource type",
     value: "thisthat",
     description: "This & That",
@@ -163,8 +163,8 @@ export const l4dTags: TagInfo[] = [
   },
   {
     category: "resource type",
-    value: "tool",
-    description: "Tool",
+    value: "util",
+    description: "Utility",
   },
   {
     category: "topic",
@@ -173,8 +173,8 @@ export const l4dTags: TagInfo[] = [
   },
   {
     category: "resource type",
-    value: "videocourse",
-    description: "Video course",
+    value: "media",
+    description: "Vids/Channels",
   },
   {
     category: "topic",

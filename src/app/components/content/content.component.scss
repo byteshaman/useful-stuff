@@ -25,10 +25,9 @@ input {
 #tags { 
   display: flex;
   flex-wrap: wrap;
-
+  justify-content: center;
+  
   .tag {
-    flex: 1 1 auto; // Occupy the needed space 
-
     &.selected {
       background-color: #7e7e7e;
     }
