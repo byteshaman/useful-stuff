@@ -184,7 +184,7 @@ export class ContentComponent implements OnInit, AfterViewInit {
       case 'extra':
       case 'resource type':
         return 'orange';
-      case 'ext/plugin':
+      case 'ext/plug':
         return 'yellow';
       default:
         return '';

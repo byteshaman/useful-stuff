@@ -143,11 +143,6 @@ export const l4dTags: TagInfo[] = [
   },
   {
     category: "resource type",
-    value: "reddit",
-    description: "Reddit",
-  },
-  {
-    category: "resource type",
     value: "sw",
     description: "Software",
   },
@@ -356,7 +351,7 @@ export const softwareTags: TagInfo[] = [
     description: "Gaming",
   },
   {
-    category: "ext/plugin",
+    category: "ext/plug",
     value: "gc",
     description: "Google Chrome",
   },
@@ -381,7 +376,7 @@ export const softwareTags: TagInfo[] = [
     description: "Music",
   },
   {
-    category: "ext/plugin",
+    category: "ext/plug",
     value: "mb",
     description: "MusicBee",
   },

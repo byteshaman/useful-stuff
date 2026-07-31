@@ -3181,7 +3181,7 @@
     "url": "https://reddit.com/r/ItalyInformatica/",
     "tags": [
       "multi",
-      "reddit"
+      "comm"
     ]
   },
   {
@@ -3191,7 +3191,7 @@
     "url": "https://reddit.com/r/learnprogramming/",
     "tags": [
       "multi",
-      "reddit"
+      "comm"
     ]
   },
   {
@@ -3200,7 +3200,7 @@
     "name": "r/webdev",
     "url": "https://reddit.com/r/webdev/",
     "tags": [
-      "reddit",
+      "comm",
       "webdev"
     ]
   },

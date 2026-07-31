@@ -290,6 +290,16 @@
     ]
   },
   {
+    "id": 404,
+    "name": "Autounattend generator",
+    "url": "https://schneegans.de/windows/unattend-generator/",
+    "description": "Generate autounattend.xml files for Windows 10/11",
+    "tags": [
+      "tech",
+      "tool"
+    ]
+  },
+  {
     "id": 15,
     "description": "Log, rate and review your games",
     "name": "Backloggd",
@@ -436,6 +446,16 @@
     "url": "http://cachemonet.com/",
     "tags": [
       "useless"
+    ]
+  },
+  {
+    "id": 405,
+    "name": "Calcolatore FIRE",
+    "url": "https://www.futurascf.it/calcolatori-finanziari/calcolatore-fire-quanto-prelevare-per-vivere-di-rendita-italia/",
+    "description": "[ITA] Quanto prelevare per vivere di rendita?",
+    "tags": [
+      "fin",
+      "tool"
     ]
   },
   {
@@ -863,6 +883,16 @@
     ]
   },
   {
+    "id": 410,
+    "name": "EditPDFs",
+    "url": "https://editpdfs.app/",
+    "description": "Free PDF tools",
+    "tags": [
+      "prod",
+      "tool"
+    ]
+  },
+  {
     "id": 233,
     "name": "Educati e Finanziati",
     "url": "https://youtube.com/playlist?list=PLfuzpc-H8qcdyEb5rpgYhN2P7cJGR1i9h",
@@ -900,6 +930,16 @@
     "tags": [
       "image",
       "catalog"
+    ]
+  },
+  {
+    "id": 408,
+    "name": "EndOfLife",
+    "url": "https://endoflife.date/",
+    "description": "EOL dates and support lifecycles for various products",
+    "tags": [
+      "catalog",
+      "tech"
     ]
   },
   {
@@ -1502,6 +1542,16 @@
     ]
   },
   {
+    "id": 407,
+    "name": "Immobilio",
+    "url": "https://immobilio.it/",
+    "description": "[ITA] Forum immobiliare",
+    "tags": [
+      "disc",
+      "fin"
+    ]
+  },
+  {
     "id": 77,
     "description": "Website to learn Italian language with exercises",
     "name": "Impariamo l'italiano",
@@ -1911,6 +1961,16 @@
     ]
   },
   {
+    "id": 403,
+    "name": "Mermaid Live Editor",
+    "url": "https://mermaid.live/",
+    "description": "Online flowchart & diagrams editor",
+    "tags": [
+      "prod",
+      "tool"
+    ]
+  },
+  {
     "id": 396,
     "name": "Microsoft Learn MCP Server",
     "url": "https://github.com/microsoftdocs/mcp",
@@ -2218,6 +2278,16 @@
     ]
   },
   {
+    "id": 402,
+    "name": "Osservaprezzi Carburanti",
+    "url": "https://carburanti.mise.gov.it/ospzSearch/zona",
+    "description": "[ITA] Consulta i prezzi del carburante presso gli impianti di distribuzione in Italia",
+    "tags": [
+      "comp",
+      "tool"
+    ]
+  },
+  {
     "id": 115,
     "description": "Free personal email and calendar from Microsoft",
     "name": "Outlook Live",
@@ -2332,6 +2402,16 @@
     "url": "https://scaruffi.com/index.html",
     "tags": [
       "music"
+    ]
+  },
+  {
+    "id": 401,
+    "name": "PixelArtVillage",
+    "url": "https://pixelartvillage.com/",
+    "description": "Easily transform any image into stunning pixel art!",
+    "tags": [
+      "image",
+      "tool"
     ]
   },
   {
