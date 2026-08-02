@@ -17,7 +17,7 @@
     "url": "https://7-zip.org/download.html",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -38,7 +38,7 @@
     "tags": [
       "security",
       "sys",
-      "utility"
+      "util"
     ]
   },
   {
@@ -48,7 +48,7 @@
     "url": "https://get.adobe.com/reader/",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -59,7 +59,7 @@
     "tags": [
       "os",
       "security",
-      "utility"
+      "util"
     ]
   },
   {
@@ -69,7 +69,7 @@
     "url": "https://alldup.de/en_download_alldup.php",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -79,7 +79,7 @@
     "url": "https://anydesk.com/en",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -90,7 +90,7 @@
     "tags": [
       "ai",
       "os",
-      "utility"
+      "util"
     ]
   },
   {
@@ -139,7 +139,7 @@
     "url": "https://petges.lu/download/",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -160,7 +160,7 @@
     "tags": [
       "app",
       "audio",
-      "utility"
+      "util"
     ]
   },
   {
@@ -170,7 +170,7 @@
     "url": "https://autohotkey.com/",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -180,7 +180,7 @@
     "url": "https://funk.eu/amt/",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -190,7 +190,7 @@
     "description": "Show what programs are configured to run during system bootup or login",
     "tags": [
       "sys",
-      "utility"
+      "util"
     ]
   },
   {
@@ -211,7 +211,7 @@
     "tags": [
       "os",
       "sys",
-      "utility"
+      "util"
     ]
   },
   {
@@ -222,7 +222,7 @@
     "tags": [
       "security",
       "sys",
-      "utility"
+      "util"
     ]
   },
   {
@@ -241,7 +241,7 @@
     "url": "https://bluestacks.com/download.html",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -251,7 +251,7 @@
     "description": "Quickly remove large amounts of unwanted applications",
     "tags": [
       "uninstaller",
-      "utility"
+      "util"
     ]
   },
   {
@@ -261,7 +261,7 @@
     "url": "https://calibre-ebook.com/download",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -280,7 +280,7 @@
     "description": "Wraps installers, executables, zips, and scripts into compiled packages",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -290,7 +290,7 @@
     "url": "https://web.archive.org/web/20200803212815/https://clickmonitorddc.bplaced.net/",
     "tags": [
       "screen",
-      "utility"
+      "util"
     ]
   },
   {
@@ -300,7 +300,7 @@
     "url": "https://hluk.github.io/CopyQ/",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -310,7 +310,7 @@
     "url": "https://crucial.com/support/storage-executive",
     "tags": [
       "disk",
-      "utility"
+      "util"
     ]
   },
   {
@@ -322,7 +322,7 @@
       "os",
       "port",
       "security",
-      "utility"
+      "util"
     ]
   },
   {
@@ -332,7 +332,7 @@
     "url": "https://crystalmark.info/en/download/",
     "tags": [
       "disk",
-      "utility"
+      "util"
     ]
   },
   {
@@ -371,7 +371,7 @@
     "url": "https://www.infonautics-software.com/directorylistprint/download/",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -390,7 +390,7 @@
     "url": "https://guru3d.com/download/display-driver-uninstaller-download/",
     "tags": [
       "uninstaller",
-      "utility"
+      "util"
     ]
   },
   {
@@ -402,7 +402,7 @@
       "os",
       "port",
       "sys",
-      "utility"
+      "util"
     ]
   },
   {
@@ -412,7 +412,7 @@
     "url": "https://google.com/drive/download/",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -422,7 +422,7 @@
     "url": "https://dropbox.com/downloading",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -445,7 +445,7 @@
     "tags": [
       "misc",
       "os",
-      "utility"
+      "util"
     ]
   },
   {
@@ -455,7 +455,7 @@
     "description": "Volume control for Windows",
     "tags": [
       "audio",
-      "utility"
+      "util"
     ]
   },
   {
@@ -465,7 +465,7 @@
     "url": "https://easeus.com/data-recovery-software/",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -475,7 +475,7 @@
     "url": "https://sordum.org/7615/easy-context-menu-v1-6/",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -514,7 +514,7 @@
     "url": "https://voidtools.com/",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -527,7 +527,7 @@
       "fef",
       "os",
       "port",
-      "utility"
+      "util"
     ]
   },
   {
@@ -537,7 +537,7 @@
     "description": "Control your fans",
     "tags": [
       "hw",
-      "utility"
+      "util"
     ]
   },
   {
@@ -547,7 +547,7 @@
     "description": "Keep your desktop effortlessly organized",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -569,7 +569,7 @@
     "description": "Convert your files in just 2 clicks",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -589,7 +589,7 @@
     "description": "Network scanner and discovery tool",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -609,7 +609,7 @@
     "tags": [
       "os",
       "sys",
-      "utility"
+      "util"
     ]
   },
   {
@@ -628,7 +628,7 @@
     "description": "Powerful audio converter",
     "tags": [
       "audio",
-      "utility"
+      "util"
     ]
   },
   {
@@ -638,7 +638,7 @@
     "url": "https://freefilesync.org/download.php",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -700,7 +700,7 @@
     "url": "https://chrome.google.com/webstore/detail/bookmark-sidebar/jdbnofccmhefkmjbkkdkfiicjkgofkdh",
     "tags": [
       "gc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -710,7 +710,7 @@
     "url": "https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh",
     "tags": [
       "gc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -720,7 +720,7 @@
     "url": "https://chrome.google.com/webstore/detail/imilbobhamcfahccagbncamhpnbkaenm",
     "tags": [
       "gc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -820,7 +820,7 @@
     "url": "https://chrome.google.com/webstore/detail/tabli/igeehkedfibbnhbfponhjjplpkeomghi",
     "tags": [
       "gc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -850,7 +850,7 @@
     "url": "https://chrome.google.com/webstore/detail/hncgkmhphmncjohllpoleelnibpmccpj",
     "tags": [
       "gc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -908,7 +908,7 @@
     "url": "https://techpowerup.com/gpuz/",
     "tags": [
       "hw",
-      "utility"
+      "util"
     ]
   },
   {
@@ -918,7 +918,7 @@
     "url": "https://getgreenshot.org/downloads/",
     "tags": [
       "screen",
-      "utility"
+      "util"
     ]
   },
   {
@@ -929,7 +929,7 @@
     "tags": [
       "fef",
       "os",
-      "utility"
+      "util"
     ]
   },
   {
@@ -940,7 +940,7 @@
     "tags": [
       "fef",
       "port",
-      "utility"
+      "util"
     ]
   },
   {
@@ -950,7 +950,7 @@
     "description": "Headphone Surround Virtualizations for Equalizer APO",
     "tags": [
       "audio",
-      "utility"
+      "util"
     ]
   },
   {
@@ -960,7 +960,7 @@
     "url": "https://hidmacros.eu/download.php",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -970,7 +970,7 @@
     "url": "https://hwinfo.com/",
     "tags": [
       "hw",
-      "utility"
+      "util"
     ]
   },
   {
@@ -981,7 +981,7 @@
     "tags": [
       "image",
       "os",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1001,7 +1001,7 @@
     "url": "https://github.com/input-leap/input-leap",
     "tags": [
       "screen",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1020,7 +1020,7 @@
     "url": "https://www.iobit.com/en/advanceduninstaller.php",
     "tags": [
       "uninstaller",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1041,7 +1041,7 @@
     "tags": [
       "ai",
       "os",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1060,7 +1060,7 @@
     "description": "A GUI for jExifTool",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1070,7 +1070,7 @@
     "description": "Free and fast PDF editor",
     "tags": [
       "editor",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1080,7 +1080,7 @@
     "url": "https://jumpdesktop.com/free-remote-desktop.html",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1099,7 +1099,7 @@
     "description": "Block keyboard and mouse",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1119,7 +1119,7 @@
     "description": "Collaborative bookmark manager",
     "tags": [
       "db",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1131,7 +1131,7 @@
       "ai",
       "os",
       "port",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1151,7 +1151,7 @@
     "tags": [
       "os",
       "port",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1161,7 +1161,7 @@
     "url": "https://support.logi.com/hc/en-gb/articles/360025298053-Logitech-Gaming-Software",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1171,7 +1171,7 @@
     "url": "https://support.logi.com/hc/en-nz/articles/360025141274",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1181,7 +1181,7 @@
     "url": "https://mailstore.com/en/products/mailstore-home/",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1269,7 +1269,7 @@
     "url": "https://mediaarea.net/en/MediaInfo/Download/Windows",
     "tags": [
       "audio",
-      "utility",
+      "util",
       "video"
     ]
   },
@@ -1280,7 +1280,7 @@
     "url": "https://mega.nz/sync",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1300,7 +1300,7 @@
     "url": "https://github.com/navossoc/MenuTools/releases",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1322,7 +1322,7 @@
       "os",
       "port",
       "sys",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1341,7 +1341,7 @@
     "url": "https://onenote.com/download",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1351,7 +1351,7 @@
     "description": "Safeguard your PC in a quiet and reliable way",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1361,7 +1361,7 @@
     "description": "Set of utilities to enhance Windows experience",
     "tags": [
       "misc",
-      "utility",
+      "util",
       "sys"
     ]
   },
@@ -1372,7 +1372,7 @@
     "description": "Lists and task manager",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1417,7 +1417,7 @@
       "gaming",
       "os",
       "port",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1437,7 +1437,7 @@
     "description": "Use multiple mice on one desktop",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1477,7 +1477,7 @@
     "url": "https://mremoteng.org/",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1487,7 +1487,7 @@
     "url": "https://msi.com/page/afterburner",
     "tags": [
       "hw",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1508,7 +1508,7 @@
     "url": "https://ninite.com/",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1518,7 +1518,7 @@
     "description": "Automate, secure, and customize Windows, locally",
     "tags": [
       "sys",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1528,7 +1528,7 @@
     "url": "https://notepad-plus-plus.org/downloads/",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1538,7 +1538,7 @@
     "url": "https://notion.so/",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1548,7 +1548,7 @@
     "url": "https://obsproject.com/",
     "tags": [
       "screen",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1568,7 +1568,7 @@
     "tags": [
       "fef",
       "os",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1578,7 +1578,7 @@
     "description": "Automate mouse clicks",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1608,7 +1608,7 @@
     "url": "https://virtualbox.org/wiki/Downloads",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1648,7 +1648,7 @@
     "url": "https://patchmypc.com/home-updater",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1659,7 +1659,7 @@
     "tags": [
       "os",
       "port",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1669,7 +1669,7 @@
     "url": "https://pencil.evolus.vn/",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1679,7 +1679,7 @@
     "url": "https://picpick.app/en/",
     "tags": [
       "screen",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1691,7 +1691,7 @@
       "os",
       "port",
       "security",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1701,7 +1701,7 @@
     "url": "https://flow.microsoft.com/",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1721,7 +1721,7 @@
     "url": "https://nirsoft.net/utils/product_cd_key_viewer.html#DownloadLinks",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1731,7 +1731,7 @@
     "url": "https://psiphon3.com/en/download.html",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1741,7 +1741,7 @@
     "url": "http://puransoftware.com/Data-Recovery.html",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1751,7 +1751,7 @@
     "url": "http://puransoftware.com/File-Recovery.html",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1782,7 +1782,7 @@
     "description": "All-in-one bookmark manager",
     "tags": [
       "db",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1792,7 +1792,7 @@
     "url": "https://rainmeter.net/",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1803,7 +1803,7 @@
     "tags": [
       "misc",
       "os",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1823,7 +1823,7 @@
     "description": "The ultimate Windows 11 customization tool",
     "tags": [
       "sys",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1843,7 +1843,7 @@
     "url": "https://guru3d.com/download/rtss-rivatuner-statistics-server-download/",
     "tags": [
       "hw",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1864,7 +1864,7 @@
       "os",
       "port",
       "sys",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1876,7 +1876,7 @@
       "misc",
       "os",
       "port",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1886,7 +1886,7 @@
     "url": "https://samsung.com/semiconductor/minisite/ssd/download/tools/",
     "tags": [
       "disk",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1896,7 +1896,7 @@
     "url": "https://screentogif.com/",
     "tags": [
       "screen",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1906,7 +1906,7 @@
     "url": "https://github.com/randyrants/sharpkeys/releases",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1969,7 +1969,7 @@
     "url": "https://spacedesk.net/",
     "tags": [
       "screen",
-      "utility"
+      "util"
     ]
   },
   {
@@ -1979,7 +1979,7 @@
     "url": "https://ccleaner.com/speccy",
     "tags": [
       "hw",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2009,7 +2009,7 @@
       "conv",
       "editor",
       "os",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2031,7 +2031,7 @@
       "editor",
       "misc",
       "subs",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2050,7 +2050,7 @@
     "description": "Free interior design application",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2060,7 +2060,7 @@
     "url": "https://syncthing.net/",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2079,7 +2079,7 @@
     "url": "https://teamviewer.com/download/",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2089,7 +2089,7 @@
     "url": "https://desktop.telegram.org/",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2099,7 +2099,7 @@
     "url": "https://codesector.com/teracopy",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2139,7 +2139,7 @@
     "url": "https://touch-portal.com/",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2149,7 +2149,7 @@
     "url": "https://jam-software.com/treesize_free",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2159,7 +2159,7 @@
     "url": "https://microsoft.com/en-us/p/unigram-a-telegram-universal-experience/9n97zckpd60q",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2178,7 +2178,7 @@
     "description": "A powerful image upscaling tool",
     "tags": [
       "image",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2197,7 +2197,7 @@
     "description": "Simple solution for backing up Windows-based desktops, laptops and tablets",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2209,7 +2209,7 @@
       "os",
       "port",
       "sys",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2232,7 +2232,7 @@
     "tags": [
       "disk",
       "port",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2241,7 +2241,7 @@
     "url": "https://github.com/TetzkatLipHoka/VideoCompareGUI/releases",
     "description": "A GUI for video-compare",
     "tags": [
-      "utility",
+      "util",
       "video"
     ]
   },
@@ -2252,7 +2252,7 @@
     "url": "https://elby.ch/en/products/vcd.html",
     "tags": [
       "disk",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2285,7 +2285,7 @@
     "description": "Check on Western Digital drives in Windows",
     "tags": [
       "disk",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2314,7 +2314,7 @@
     "description": "The ultimate all-in-one app for tuning Windows",
     "tags": [
       "sys",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2334,7 +2334,7 @@
     "description": "Disk usage statistics viewer and cleanup assistant",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2344,7 +2344,7 @@
     "url": "https://github.com/Sycnex/Windows10Debloater",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2354,7 +2354,7 @@
     "url": "https://windowtop.info/",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2365,7 +2365,7 @@
     "tags": [
       "os",
       "sys",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2377,7 +2377,7 @@
       "os",
       "port",
       "sys",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2387,7 +2387,7 @@
     "description": "Open Source differencing and merging tool for Windows",
     "tags": [
       "misc",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2397,7 +2397,7 @@
     "url": "https://win-rar.com/download.html",
     "tags": [
       "fef",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2407,7 +2407,7 @@
     "description": "Experience Windows in your way and keep it fresh every day",
     "tags": [
       "sys",
-      "utility"
+      "util"
     ]
   },
   {
@@ -2417,7 +2417,7 @@
     "description": "The Most Popular Windows Utility",
     "tags": [
       "sys",
-      "utility"
+      "util"
     ]
   },
   {

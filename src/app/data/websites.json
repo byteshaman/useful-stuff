@@ -34,7 +34,7 @@
     "url": "https://123apps.com/",
     "tags": [
       "misc",
-      "tool",
+      "util",
       "video"
     ]
   },
@@ -45,7 +45,7 @@
     "description": "All-in-one package tracking",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -82,7 +82,7 @@
     "url": "https://maps.agcom.it/",
     "description": "[ITA] Mappa ufficiale AGCOM con verifica copertura ADSL, FTTH, FTTC e FWA",
     "tags": [
-      "tool",
+      "util",
       "tech"
     ]
   },
@@ -93,7 +93,7 @@
     "description": "Open standard format for AGENTS.md files that provide structured, task-specific guidance to AI coding agents",
     "tags": [
       "ai",
-      "tool"
+      "util"
     ]
   },
   {
@@ -104,7 +104,7 @@
     "tags": [
       "image",
       "music",
-      "tool"
+      "util"
     ]
   },
   {
@@ -173,7 +173,7 @@
     "description": "Clear Amazon URLs from referrals",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -202,7 +202,7 @@
     "description": "Enhanced stats for your MAL profile",
     "tags": [
       "animanga",
-      "tool"
+      "util"
     ]
   },
   {
@@ -275,7 +275,7 @@
     "description": "Spreadsheets for budgeting",
     "tags": [
       "fin",
-      "tool"
+      "util"
     ]
   },
   {
@@ -285,7 +285,7 @@
     "description": "Subtitle converter",
     "tags": [
       "subs",
-      "tool"
+      "util"
     ]
   },
   {
@@ -295,7 +295,7 @@
     "description": "Generate autounattend.xml files for Windows 10/11",
     "tags": [
       "tech",
-      "tool"
+      "util"
     ]
   },
   {
@@ -324,7 +324,7 @@
     "url": "https://bandaultralarga.italia.it/",
     "description": "[ITA] Portale governativo per verifica copertura banda ultralarga in Italia",
     "tags": [
-      "tool",
+      "util",
       "tech"
     ]
   },
@@ -354,7 +354,7 @@
     "description": "Opensource PDF tools",
     "tags": [
       "prod",
-      "tool"
+      "util"
     ]
   },
   {
@@ -365,7 +365,7 @@
     "tags": [
       "comp",
       "movies",
-      "tool"
+      "util"
     ]
   },
   {
@@ -395,7 +395,7 @@
     "url": "https://boxentriq.com/code-breaking",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -405,7 +405,7 @@
     "description": "SVG editor",
     "tags": [
       "image",
-      "tool"
+      "util"
     ]
   },
   {
@@ -415,7 +415,7 @@
     "description": "Learn math and computer science",
     "tags": [
       "edu",
-      "tool"
+      "util"
     ]
   },
   {
@@ -454,7 +454,7 @@
     "description": "[ITA] Quanto prelevare per vivere di rendita?",
     "tags": [
       "fin",
-      "tool"
+      "util"
     ]
   },
   {
@@ -464,7 +464,7 @@
     "url": "https://systemrequirementslab.com/cyri",
     "tags": [
       "game",
-      "tool"
+      "util"
     ]
   },
   {
@@ -483,7 +483,7 @@
     "description": "Check if your PC can run popular AI models locally",
     "tags": [
       "ai",
-      "tool"
+      "util"
     ]
   },
   {
@@ -529,7 +529,7 @@
     "url": "https://chilipepper.io/",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -539,7 +539,7 @@
     "description": "Discover new music",
     "tags": [
       "music",
-      "tool"
+      "util"
     ]
   },
   {
@@ -558,7 +558,7 @@
     "url": "https://cloudconvert.com/",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -597,7 +597,7 @@
     "description": "Cloud storage providers comparison table",
     "tags": [
       "comp",
-      "tool",
+      "util",
       "tech"
     ]
   },
@@ -608,7 +608,7 @@
     "url": "http://corruptmyfile.com/",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -648,7 +648,7 @@
     "description": "Take potentially dangerous documents and convert them to safe PDFs",
     "tags": [
       "cybersec",
-      "tool"
+      "util"
     ]
   },
   {
@@ -668,7 +668,7 @@
     "description": "Keep your portfolio under control",
     "tags": [
       "fin",
-      "tool"
+      "util"
     ]
   },
   {
@@ -687,7 +687,7 @@
     "description": "Test your monitor for dead pixels",
     "tags": [
       "tech",
-      "tool"
+      "util"
     ]
   },
   {
@@ -697,7 +697,7 @@
     "url": "https://deepl.com/translator",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -717,7 +717,7 @@
     "url": "https://victornpb.github.io/deleteDiscordMessages/help/copyPaste.html",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -748,7 +748,7 @@
     "tags": [
       "fin",
       "comp",
-      "tool"
+      "util"
     ]
   },
   {
@@ -799,7 +799,7 @@
     "tags": [
       "catalog",
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -810,7 +810,7 @@
     "tags": [
       "comp",
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -821,7 +821,7 @@
     "tags": [
       "comp",
       "tech",
-      "tool"
+      "util"
     ]
   },
   {
@@ -850,7 +850,7 @@
     "url": "https://app.diagrams.net/",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -888,7 +888,7 @@
     "description": "Free PDF tools",
     "tags": [
       "prod",
-      "tool"
+      "util"
     ]
   },
   {
@@ -976,7 +976,7 @@
     "description": "Virtual whiteboard with real-time collaboration and end-to-end encryption",
     "tags": [
       "prod",
-      "tool"
+      "util"
     ]
   },
   {
@@ -995,7 +995,7 @@
     "url": "https://ezgif.com/",
     "tags": [
       "image",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1004,7 +1004,7 @@
     "url": "https://copertura.fibercop.com/",
     "description": "[ITA] Verifica disponibilità rete FiberCop",
     "tags": [
-      "tool",
+      "util",
       "tech"
     ]
   },
@@ -1014,7 +1014,7 @@
     "url": "https://fibermap.it/",
     "description": "[ITA] Mappa italiana dei servizi in fibra con verifica copertura ADSL, FTTH, FTTC e FWA",
     "tags": [
-      "tool",
+      "util",
       "tech"
     ]
   },
@@ -1024,7 +1024,7 @@
     "name": "FilesMerge",
     "url": "https://filesmerge.com/",
     "tags": [
-      "tool",
+      "util",
       "video"
     ]
   },
@@ -1045,7 +1045,7 @@
     "description": "Create 2D & 3D floor plans",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1055,7 +1055,7 @@
     "description": "Create flowcharts from text",
     "tags": [
       "prod",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1066,7 +1066,7 @@
     "tags": [
       "catalog",
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1079,7 +1079,7 @@
       "music",
       "prod",
       "text",
-      "tool",
+      "util",
       "video"
     ]
   },
@@ -1090,7 +1090,7 @@
     "description": "Mappa per navigare nell'immobiliare",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1119,7 +1119,7 @@
     "description": "Schedule a meeting or create an opinion poll",
     "tags": [
       "prod",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1207,7 +1207,7 @@
     "url": "https://giphy.com/create/gifmaker",
     "tags": [
       "image",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1267,7 +1267,7 @@
     "tags": [
       "comp",
       "tech",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1298,7 +1298,7 @@
     "description": "Generate timestamp for Discord",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1318,7 +1318,7 @@
     "description": "Collection of simple, useful tools for checking your computer's hardware",
     "tags": [
       "tech",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1336,7 +1336,7 @@
     "url": "https://hatsmith.vercel.app/",
     "description": "Simple, fast, secure client-side file encryption",
     "tags": [
-      "tool",
+      "util",
       "cybersec"
     ]
   },
@@ -1357,7 +1357,7 @@
     "description": "Browser-based hex editing",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1395,7 +1395,7 @@
     "tags": [
       "article",
       "music",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1414,7 +1414,7 @@
     "description": "Find out how much time it takes to beat a game",
     "tags": [
       "game",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1445,7 +1445,7 @@
     "description": "Explore connections between famous people",
     "tags": [
       "catalog",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1504,7 +1504,7 @@
     "description": "Measure objects online",
     "tags": [
       "image",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1514,7 +1514,7 @@
     "url": "https://imageonline.co/",
     "tags": [
       "image",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1536,7 +1536,7 @@
     "tags": [
       "image",
       "share",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1565,7 +1565,7 @@
     "url": "https://indify.co/",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1575,7 +1575,7 @@
     "url": "https://instantstreetview.com/",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1606,7 +1606,7 @@
     "url": "https://ipaddress.com/",
     "tags": [
       "tech",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1616,7 +1616,7 @@
     "description": "Track IP address and track locations",
     "tags": [
       "cybersec",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1663,7 +1663,7 @@
     "description": "[ITA] Il network italiano per la ricerca di avvocati",
     "tags": [
       "catalog",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1674,7 +1674,7 @@
     "tags": [
       "comp",
       "fin",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1753,7 +1753,7 @@
     "description": "Easily adjust the settings of your monitor to get the best possible picture quality",
     "tags": [
       "tech",
-      "tool",
+      "util",
       "video"
     ]
   },
@@ -1765,7 +1765,7 @@
     "tags": [
       "comp",
       "cybersec",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1804,7 +1804,7 @@
     "url": "https://lesspass.com/#/",
     "tags": [
       "cybersec",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1866,7 +1866,7 @@
     "description": "[ITA] Mappa antenne 4G",
     "tags": [
       "tech",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1886,7 +1886,7 @@
     "url": "https://lunapic.com/editor/",
     "tags": [
       "image",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1914,7 +1914,7 @@
     "description": "An interactive map of Metal history",
     "tags": [
       "music",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1924,7 +1924,7 @@
     "description": "Get prebuilt Google Maps functionality",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -1965,7 +1965,7 @@
     "description": "Online flowchart & diagrams editor",
     "tags": [
       "prod",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2033,7 +2033,7 @@
     "url": "https://movielens.org/home",
     "tags": [
       "movies",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2043,7 +2043,7 @@
     "url": "https://music-map.com/",
     "tags": [
       "music",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2063,7 +2063,7 @@
     "description": "Discover soundscapes that can enhance focus, relaxation, and sleep",
     "tags": [
       "prod",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2073,7 +2073,7 @@
     "url": "https://app.nanocrowd.com/start",
     "tags": [
       "movies",
-      "tool",
+      "util",
       "tvs"
     ]
   },
@@ -2112,7 +2112,7 @@
     "description": "An interactive map of battles",
     "tags": [
       "edu",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2140,7 +2140,7 @@
     "url": "https://nowinstock.net/",
     "tags": [
       "shop",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2151,7 +2151,7 @@
     "tags": [
       "ai",
       "image",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2161,7 +2161,7 @@
     "description": "Share a music link on various platforms",
     "tags": [
       "music",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2172,7 +2172,7 @@
     "tags": [
       "comp",
       "fin",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2182,7 +2182,7 @@
     "description": "Browse historical places and search for old maps with timeline",
     "tags": [
       "edu",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2210,7 +2210,7 @@
     "description": "[ITA] Osservatorio del mercato immobiliare",
     "tags": [
       "fin",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2222,7 +2222,7 @@
       "fin",
       "misc",
       "prod",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2241,7 +2241,7 @@
     "url": "https://onlinesequencer.net/",
     "tags": [
       "music",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2251,7 +2251,7 @@
     "url": "https://onlinetexttools.com/",
     "tags": [
       "text",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2260,7 +2260,7 @@
     "url": "https://openfiber.it/verifica-copertura/",
     "description": "[ITA] Verifica copertura fibra ottica FTTH Open Fiber",
     "tags": [
-      "tool",
+      "util",
       "tech"
     ]
   },
@@ -2282,7 +2282,7 @@
     "description": "[ITA] Consulta i prezzi del carburante presso gli impianti di distribuzione in Italia",
     "tags": [
       "comp",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2322,7 +2322,7 @@
     "tags": [
       "comp",
       "tech",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2332,7 +2332,7 @@
     "url": "https://bitwarden.com/password-strength/",
     "tags": [
       "cybersec",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2371,7 +2371,7 @@
     "tags": [
       "comp",
       "tech",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2390,7 +2390,7 @@
     "description": "Online photo editor",
     "tags": [
       "image",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2409,7 +2409,7 @@
     "description": "Easily transform any image into stunning pixel art!",
     "tags": [
       "image",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2419,7 +2419,7 @@
     "description": "Convert pixels to cm for printing",
     "tags": [
       "image",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2439,7 +2439,7 @@
     "tags": [
       "comp",
       "fin",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2458,7 +2458,7 @@
     "url": "https://www.pricearchive.org/",
     "description": "AliExpress price tracker",
     "tags": [
-      "tool",
+      "util",
       "shop",
       "comp"
     ]
@@ -2523,7 +2523,7 @@
     "tags": [
       "comp",
       "fin",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2573,7 +2573,7 @@
     "description": "Explore live radio by rotating the globe",
     "tags": [
       "music",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2610,7 +2610,7 @@
     "url": "https://random.org/",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2620,7 +2620,7 @@
     "url": "https://random-album.com/",
     "tags": [
       "music",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2662,7 +2662,7 @@
     "description": "Mass delete messages from various services",
     "tags": [
       "tech",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2681,7 +2681,7 @@
     "description": "Remove the background from pics",
     "tags": [
       "image",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2748,7 +2748,7 @@
     "description": "Securely share credentials and other sensitive info",
     "tags": [
       "cybersec",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2778,7 +2778,7 @@
     "tags": [
       "comp",
       "fin",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2826,7 +2826,7 @@
     "url": "https://spokeo.com/",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2846,7 +2846,7 @@
     "url": "https://spotify-dedup.com/",
     "tags": [
       "music",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2875,7 +2875,7 @@
     "url": "https://lorenzostanco.com/lab/steam/",
     "tags": [
       "game",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2885,7 +2885,7 @@
     "url": "https://steam.tools/",
     "tags": [
       "game",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2904,7 +2904,7 @@
     "url": "https://steamdb.info/calculator/",
     "tags": [
       "game",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2914,7 +2914,7 @@
     "description": "Web based PDF Multi Tool",
     "tags": [
       "prod",
-      "tool"
+      "util"
     ]
   },
   {
@@ -2975,7 +2975,7 @@
     "url": "https://sync.me/",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -3005,7 +3005,7 @@
     "description": "Find tech related news from trustworthy websites",
     "tags": [
       "tech",
-      "tool"
+      "util"
     ]
   },
   {
@@ -3017,7 +3017,7 @@
       "catalog",
       "comp",
       "cybersec",
-      "tool"
+      "util"
     ]
   },
   {
@@ -3113,7 +3113,7 @@
     "tags": [
       "ai",
       "catalog",
-      "tool"
+      "util"
     ]
   },
   {
@@ -3144,7 +3144,7 @@
       "music",
       "prod",
       "text",
-      "tool",
+      "util",
       "video"
     ]
   },
@@ -3229,7 +3229,7 @@
       "catalog",
       "comp",
       "cybersec",
-      "tool"
+      "util"
     ]
   },
   {
@@ -3268,7 +3268,7 @@
     "url": "https://tunemymusic.com/",
     "tags": [
       "music",
-      "tool"
+      "util"
     ]
   },
   {
@@ -3280,7 +3280,7 @@
       "fin",
       "misc",
       "prod",
-      "tool"
+      "util"
     ]
   },
   {
@@ -3299,7 +3299,7 @@
     "url": "https://tvseriesfinale.com/tv-shows-status/",
     "description": "Canceled and renewed TV shows",
     "tags": [
-      "tool",
+      "util",
       "tvs"
     ]
   },
@@ -3340,7 +3340,7 @@
     "description": "Enlarge images using AI image processing",
     "tags": [
       "image",
-      "tool"
+      "util"
     ]
   },
   {
@@ -3370,7 +3370,7 @@
     "tags": [
       "ai",
       "image",
-      "tool"
+      "util"
     ]
   },
   {
@@ -3390,7 +3390,7 @@
     "description": "[ITA] Cerca prodotti venduti e spediti da Amazon",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -3401,7 +3401,7 @@
     "tags": [
       "comp",
       "tech",
-      "tool"
+      "util"
     ]
   },
   {
@@ -3454,7 +3454,7 @@
       "VR",
       "catalog",
       "game",
-      "tool"
+      "util"
     ]
   },
   {
@@ -3465,7 +3465,7 @@
     "tags": [
       "comp",
       "fin",
-      "tool"
+      "util"
     ]
   },
   {
@@ -3511,7 +3511,7 @@
     "description": "Find the best time for a group to meet",
     "tags": [
       "prod",
-      "tool"
+      "util"
     ]
   },
   {
@@ -3521,7 +3521,7 @@
     "description": "Check where a certain link will bring you",
     "tags": [
       "cybersec",
-      "tool"
+      "util"
     ]
   },
   {
@@ -3540,7 +3540,7 @@
     "description": "Online tool to show various fullscreen pages",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {
@@ -3559,7 +3559,7 @@
     "url": "https://whois.domaintools.com/",
     "tags": [
       "cybersec",
-      "tool"
+      "util"
     ]
   },
   {
@@ -3598,7 +3598,7 @@
     "url": "https://worldtimebuddy.com/",
     "tags": [
       "misc",
-      "tool"
+      "util"
     ]
   },
   {

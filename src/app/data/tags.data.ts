@@ -252,10 +252,6 @@ export const websitesTags: TagInfo[] = [
     description: "Text"
   },
   {
-    value: "tool",
-    description: "Tool"
-  },
-  {
     value: "tvs",
     description: "TV Series"
   },
@@ -278,6 +274,10 @@ export const websitesTags: TagInfo[] = [
   {
     value: "useless",
     description: "Useless"
+  },
+  {
+    value: "util",
+    description: "Utility"
   },
   {
     value: "video",
@@ -427,7 +427,7 @@ export const softwareTags: TagInfo[] = [
   },
   {
     category: "category",
-    value: "utility",
+    value: "util",
     description: "Utility",
   },
   {
