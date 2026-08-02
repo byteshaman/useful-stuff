@@ -33,7 +33,6 @@
     "name": "123Apps",
     "url": "https://123apps.com/",
     "tags": [
-      "audio",
       "misc",
       "tool",
       "video"
@@ -237,7 +236,7 @@
     ]
   },
   {
-    "id": 352,
+    "id": 12,
     "name": "ArtificialAnalysis",
     "url": "https://artificialanalysis.ai/",
     "description": "Independent AI analysis",
@@ -280,7 +279,7 @@
     ]
   },
   {
-    "id": 358,
+    "id": 125,
     "name": "ASS to SRT",
     "url": "https://sorz.github.io/asstosrt-wasm/",
     "description": "Subtitle converter",
@@ -563,7 +562,7 @@
     ]
   },
   {
-    "id": 359,
+    "id": 159,
     "name": "Cloudbase",
     "url": "https://cloudbase.gg/",
     "description": "Cloud gaming providers comparison with game catalog availability checker",
@@ -592,7 +591,7 @@
     ]
   },
   {
-    "id": 360,
+    "id": 136,
     "name": "ComparisonTables",
     "url": "https://comparisontabl.es/cloud-storage/",
     "description": "Cloud storage providers comparison table",
@@ -742,7 +741,7 @@
     ]
   },
   {
-    "id": 355,
+    "id": 22,
     "name": "Deposifire",
     "url": "https://deposifire.com",
     "description": "[ITA] Confronta i tassi di rendimento di CD e CC",
@@ -785,7 +784,7 @@
     "id": 256,
     "name": "Display Specifications",
     "url": "https://www.displayspecifications.com/en/display-finder",
-    "description": "Get detailed specifications of various display types and easily  compare them",
+    "description": "Get detailed specifications of various display types and easily compare them",
     "tags": [
       "catalog",
       "comp",
@@ -974,7 +973,7 @@
     "id": 392,
     "name": "Excalidraw",
     "url": "https://excalidraw.com/",
-    "description": "Virtual whiteboard  with real-time collaboration and end-to-end encryption",
+    "description": "Virtual whiteboard with real-time collaboration and end-to-end encryption",
     "tags": [
       "prod",
       "tool"
@@ -1000,7 +999,7 @@
     ]
   },
   {
-    "id": 363,
+    "id": 367,
     "name": "FiberCop",
     "url": "https://copertura.fibercop.com/",
     "description": "[ITA] Verifica disponibilità rete FiberCop",
@@ -1025,7 +1024,6 @@
     "name": "FilesMerge",
     "url": "https://filesmerge.com/",
     "tags": [
-      "audio",
       "tool",
       "video"
     ]
@@ -1086,7 +1084,7 @@
     ]
   },
   {
-    "id": 357,
+    "id": 135,
     "name": "forMaps",
     "url": "https://www.formaps.it/",
     "description": "Mappa per navigare nell'immobiliare",
@@ -1213,7 +1211,7 @@
     ]
   },
   {
-    "id": 360,
+    "id": 186,
     "name": "GitBook",
     "url": "https://riccardo-buonaurio.gitbook.io/guide-ssd/",
     "description": "[ITA] Guida agli SSD",
@@ -1283,7 +1281,7 @@
     ]
   },
   {
-    "id": 356,
+    "id": 86,
     "name": "HackerBoards",
     "url": "https://hackerboards.com",
     "description": "Single board computer (SBC) and Linux development board database",
@@ -1314,7 +1312,7 @@
     ]
   },
   {
-    "id": 361,
+    "id": 202,
     "name": "HardwareTester",
     "url": "https://hardwaretester.com/",
     "description": "Collection of simple, useful tools for checking your computer's hardware",
@@ -1592,7 +1590,7 @@
     ]
   },
   {
-    "id": 353,
+    "id": 18,
     "name": "Intel",
     "url": "https://www.intel.com/content/www/us/en/processors/processor-numbers.html",
     "description": "Intel guide to processor naming convention",
@@ -1763,7 +1761,7 @@
     "id": 234,
     "name": "LeAlternative",
     "url": "https://lista.lealternative.net/",
-    "description": "[ITA] Una lista delle alternative etiche ai colossi del web ",
+    "description": "[ITA] Una lista delle alternative etiche ai colossi del web",
     "tags": [
       "comp",
       "cybersec",
@@ -2062,7 +2060,7 @@
     "id": 204,
     "name": "myNoise",
     "url": "https://mynoise.net/",
-    "description": "Discover soundscapes that can enhance focus, relaxation, and sleep ",
+    "description": "Discover soundscapes that can enhance focus, relaxation, and sleep",
     "tags": [
       "prod",
       "tool"
@@ -2257,7 +2255,7 @@
     ]
   },
   {
-    "id": 362,
+    "id": 228,
     "name": "OpenFiber",
     "url": "https://openfiber.it/verifica-copertura/",
     "description": "[ITA] Verifica copertura fibra ottica FTTH Open Fiber",
@@ -2358,7 +2356,7 @@
   },
   {
     "id": 119,
-    "description": "[ITA} Diventa Presidente della Repubblica!",
+    "description": "[ITA] Diventa Presidente della Repubblica!",
     "name": "PCosta",
     "url": "https://pcosta.net/ipdcs/",
     "tags": [
@@ -2437,7 +2435,7 @@
     "id": 378,
     "name": "PortaleOfferte",
     "url": "https://www.ilportaleofferte.it/portaleOfferte/",
-    "description": "[ITA] Comparatore di offerte luce/gas\t",
+    "description": "[ITA] Comparatore di offerte luce/gas",
     "tags": [
       "comp",
       "fin",
@@ -2687,7 +2685,7 @@
     ]
   },
   {
-    "id": 354,
+    "id": 20,
     "name": "RenewTech",
     "url": "https://www.renewtech.com/blog/intel-cpu-naming-convention-guide.html",
     "description": "Complete guide to Intel CPU naming structure with generation comparison tables",
@@ -2727,7 +2725,7 @@
   },
   {
     "id": 138,
-    "description": "Check a website for resky/fraudulent content",
+    "description": "Check a website for risky/fraudulent content",
     "name": "ScamAdviser",
     "url": "https://scamadviser.com/",
     "tags": [
@@ -3073,7 +3071,7 @@
   },
   {
     "id": 163,
-    "description": "Web-based library of arcade coin-operated video games from the 1970s through to the 1990s",
+    "description": "Web-based library of arcade coin-operated videogames from the 1970s through to the 1990s",
     "name": "The Internet Arcade",
     "url": "https://archive.org/details/internetarcade",
     "tags": [
@@ -3389,7 +3387,7 @@
     "id": 208,
     "name": "vendutoespeditoda",
     "url": "https://vendutoespeditoda.it/",
-    "description": "[ITA] Cerca prodotti venduti  espediti da Amazon",
+    "description": "[ITA] Cerca prodotti venduti e spediti da Amazon",
     "tags": [
       "misc",
       "tool"
