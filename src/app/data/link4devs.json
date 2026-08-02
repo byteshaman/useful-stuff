@@ -2699,6 +2699,7 @@
     "name": "MDN",
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes",
     "tags": [
+      "doc",
       "html"
     ]
   },
@@ -2709,7 +2710,6 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/Tutorials",
     "tags": [
       "artut",
-      "mdn",
       "webdev"
     ]
   },
@@ -2719,8 +2719,8 @@
     "name": "MDN",
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element",
     "tags": [
-      "html",
-      "mdn"
+      "doc",
+      "html"
     ]
   },
   {
@@ -2729,7 +2729,8 @@
     "name": "MDN",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout",
     "tags": [
-      "css"
+      "css",
+      "doc"
     ]
   },
   {

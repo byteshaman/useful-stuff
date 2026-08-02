@@ -10,7 +10,7 @@ import { MatCell, MatCellDef, MatColumnDef, MatHeaderCell, MatHeaderCellDef, Mat
 import { saveAs } from "file-saver";
 import l4d from 'src/app/data/link4devs.json';
 import software from 'src/app/data/software.json';
-import { l4dTags, softwareTags, websitesTags } from 'src/app/data/tags.data.';
+import { l4dTags, softwareTags, websitesTags } from 'src/app/data/tags.data';
 import websites from 'src/app/data/websites.json';
 import { MobileClassDirective } from 'src/app/directives/responsive.directive';
 import { PageInfo, TagInfo, WebsiteInfo, operation } from 'src/app/interfaces/interfaces';
@@ -34,7 +34,7 @@ export class ContentComponent implements OnInit, AfterViewInit {
   @Input() pageInfo!: PageInfo; 
   @ViewChild(MatSort, { static: true }) sort!: MatSort;
   @ViewChild("mobileDialog") mobileDialog!: TemplateRef<MatBottomSheetRef>;
-  @ViewChild("searchInput") searchInput!: ElementRef<HTMLInputElement>;
+  @ViewChild("searchInput") searchInputWrap!: ElementRef<HTMLInputElement>;
 
   // data structures
   tableData: WebsiteInfo[] = []; // contains every possible entry for the table
@@ -54,11 +54,17 @@ export class ContentComponent implements OnInit, AfterViewInit {
   dataSource: MatTableDataSource<WebsiteInfo> = new MatTableDataSource();
   
   // export
-  filename: string = ''; 
+  filename = ''; 
 
-  // Deps
+  // helpers
+  get searchInput() {
+    return this.searchInputWrap.nativeElement;
+  }
+
+  // deps
   private readonly dialog = inject(MatDialog);
   private readonly bottomDialog = inject(MatBottomSheet); // needed to open the mobile dialog
+  private readonly changeDetectorRefs = inject(ChangeDetectorRef);
 
   openMobileDialog(): void {
     const mobileDialogRef = this.bottomDialog.open(this.mobileDialog, {
@@ -73,11 +79,9 @@ export class ContentComponent implements OnInit, AfterViewInit {
 
   focusSearch(): void {
     setTimeout(() => {
-      this.searchInput.nativeElement.focus();
+      this.searchInput.focus();
     }, 50);
   }
-
-  constructor(private changeDetectorRefs: ChangeDetectorRef) { }
 
   ngOnInit(): void {
     
@@ -202,9 +206,17 @@ export class ContentComponent implements OnInit, AfterViewInit {
   }  
 
   onKeyDown(event: KeyboardEvent) {
+    // Check if user is currently typing in an input
+    const target = event.target as HTMLElement | null;
+    const isTypingInInput = target && (
+      target.tagName === 'INPUT' ||
+      target.tagName === 'TEXTAREA' ||
+      target.isContentEditable
+    );
+
     if (!this.devMode) {
-      // If s button is pressed, focus on search bar
-      if (event.key === 's') {
+      // Only focus search bar if 's' key is pressed AND user is NOT already typing in an input
+      if (event.key === 's' && !isTypingInInput) {
         this.focusSearch();
       }
 

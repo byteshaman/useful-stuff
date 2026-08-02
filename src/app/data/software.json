@@ -647,7 +647,8 @@
     "name": "GC - AdBlock",
     "url": "https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom",
     "tags": [
-      "gc"
+      "gc",
+      "security"
     ]
   },
   {
@@ -656,7 +657,9 @@
     "name": "GC - AdBlock for YouTube",
     "url": "https://chrome.google.com/webstore/detail/cmedhionkhpnakcndndgjdbohmhepckk",
     "tags": [
-      "gc"
+      "gc",
+      "security",
+      "video"
     ]
   },
   {
@@ -665,7 +668,8 @@
     "url": "https://chromewebstore.google.com/detail/alihelper-shopping-assist/ojclfkinnapkabameogjppmeedlicean",
     "description": "Assists you in purchasing high-quality items at low prices on AliExpress",
     "tags": [
-      "gc"
+      "gc",
+      "misc"
     ]
   },
   {
@@ -674,7 +678,9 @@
     "name": "GC - Bandcamp Volume",
     "url": "https://chrome.google.com/webstore/detail/bandcamp-volume/nlikaonifbagdlcjoepofomefchkahab",
     "tags": [
-      "gc"
+      "audio",
+      "gc",
+      "music"
     ]
   },
   {
@@ -691,9 +697,10 @@
     "id": 186,
     "description": "Adds a toggleable sidebar with all your bookmarks at the edge of your browser window",
     "name": "GC - Bookmark Sidebar",
-    "url": "https://chrome.google.com/webstore/detail/dark-reader/jdbnofccmhefkmjbkkdkfiicjkgofkdh",
+    "url": "https://chrome.google.com/webstore/detail/bookmark-sidebar/jdbnofccmhefkmjbkkdkfiicjkgofkdh",
     "tags": [
-      "gc"
+      "gc",
+      "utility"
     ]
   },
   {
@@ -702,7 +709,8 @@
     "name": "GC - Dark Reader",
     "url": "https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh",
     "tags": [
-      "gc"
+      "gc",
+      "utility"
     ]
   },
   {
@@ -711,7 +719,8 @@
     "name": "GC - Darkness",
     "url": "https://chrome.google.com/webstore/detail/imilbobhamcfahccagbncamhpnbkaenm",
     "tags": [
-      "gc"
+      "gc",
+      "utility"
     ]
   },
   {
@@ -720,7 +729,8 @@
     "name": "GC - Discogs Enhancer",
     "url": "https://chrome.google.com/webstore/detail/fljfmblajgejeicncojogelbkhbobejn",
     "tags": [
-      "gc"
+      "gc",
+      "music"
     ]
   },
   {
@@ -729,7 +739,8 @@
     "name": "GC - Honey",
     "url": "https://chrome.google.com/webstore/detail/bmnlcjabgnpnenekpadlanbbkooimhnj",
     "tags": [
-      "gc"
+      "gc",
+      "misc"
     ]
   },
   {
@@ -738,7 +749,8 @@
     "name": "GC - Improve YouTube",
     "url": "https://chrome.google.com/webstore/detail/bnomihfieiccainjcjblhegjgglakjdd",
     "tags": [
-      "gc"
+      "gc",
+      "video"
     ]
   },
   {
@@ -747,7 +759,8 @@
     "name": "GC - Keepa",
     "url": "https://chrome.google.com/webstore/detail/neebplgakaahbhdphmkckjjcegoiijjo",
     "tags": [
-      "gc"
+      "gc",
+      "misc"
     ]
   },
   {
@@ -756,7 +769,8 @@
     "url": "https://chromewebstore.google.com/detail/letterboxd-search-autocom/dklhllepnaoaanbkmjmimceipbgblkjb",
     "description": "Adds autocomplete to Letterboxd search",
     "tags": [
-      "gc"
+      "gc",
+      "video"
     ]
   },
   {
@@ -765,7 +779,8 @@
     "url": "https://chromewebstore.google.com/detail/looper-for-youtube/iggpfpnahkgpnindfkdncknoldgnccdg",
     "description": "Auto replay videos with one click",
     "tags": [
-      "gc"
+      "gc",
+      "video"
     ]
   },
   {
@@ -774,7 +789,8 @@
     "url": "https://chromewebstore.google.com/detail/reddit-untranslate/eninkmbmgkpkcelmohdlgldafpkfpnaf",
     "description": "Untranslate Reddit URLs",
     "tags": [
-      "gc"
+      "gc",
+      "misc"
     ]
   },
   {
@@ -783,15 +799,17 @@
     "url": "https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone",
     "description": "Skip sponsorships, subscription begging and more on YouTube videos",
     "tags": [
-      "gc"
+      "gc",
+      "video"
     ]
   },
   {
     "id": 62,
-    "description": "Allows you to open URLs inside Steam Client to save the hasle of logging in normal browser",
+    "description": "Allows you to open URLs inside Steam Client to save the hassle of logging in normal browser",
     "name": "GC - Steam URL Opener",
     "url": "https://chrome.google.com/webstore/detail/steam-url-opener/oiboilmeofgpoiopgjdllegafaaeblon",
     "tags": [
+      "gaming",
       "gc"
     ]
   },
@@ -801,7 +819,8 @@
     "name": "GC - Tabli",
     "url": "https://chrome.google.com/webstore/detail/tabli/igeehkedfibbnhbfponhjjplpkeomghi",
     "tags": [
-      "gc"
+      "gc",
+      "utility"
     ]
   },
   {
@@ -810,7 +829,8 @@
     "name": "GC - Ublock Origin",
     "url": "https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm",
     "tags": [
-      "gc"
+      "gc",
+      "security"
     ]
   },
   {
@@ -819,7 +839,8 @@
     "name": "GC - View Image Info",
     "url": "https://chrome.google.com/webstore/detail/jldjjifbpipdmligefcogandjojpdagn",
     "tags": [
-      "gc"
+      "gc",
+      "image"
     ]
   },
   {
@@ -828,7 +849,8 @@
     "name": "GC - xStyle",
     "url": "https://chrome.google.com/webstore/detail/hncgkmhphmncjohllpoleelnibpmccpj",
     "tags": [
-      "gc"
+      "gc",
+      "utility"
     ]
   },
   {
@@ -863,7 +885,7 @@
   },
   {
     "id": 73,
-    "description": "Connect multiple ganming platforms and unite all your games and friends scattered across them in one powerful app",
+    "description": "Connect multiple gaming platforms and unite all your games and friends scattered across them in one powerful app",
     "name": "GOG Galaxy",
     "url": "https://gog.com/galaxy",
     "tags": [
@@ -1196,7 +1218,8 @@
     "url": "https://getmusicbee.com/addons/plugins/156/discordbee/",
     "description": "Discord plugin for Musicbee",
     "tags": [
-      "mb"
+      "mb",
+      "music"
     ]
   },
   {
@@ -1205,7 +1228,9 @@
     "name": "MB - Milkdrop",
     "url": "https://getmusicbee.com/addons/visualizer/52/milkdrop-visualizer/",
     "tags": [
-      "mb"
+      "mb",
+      "music",
+      "video"
     ]
   },
   {
@@ -1214,7 +1239,9 @@
     "name": "MB - Morphyre",
     "url": "https://getmusicbee.com/addons/visualizer/179/morphyre/",
     "tags": [
-      "mb"
+      "mb",
+      "music",
+      "video"
     ]
   },
   {
@@ -1760,7 +1787,7 @@
   },
   {
     "id": 131,
-    "description": "Free desktop costumization tool",
+    "description": "Free desktop customization tool",
     "name": "Rainmeter",
     "url": "https://rainmeter.net/",
     "tags": [
@@ -1832,7 +1859,7 @@
     "id": 267,
     "name": "Rufus",
     "url": "https://rufus.ie/",
-    "description": "Create bootable USB drive from various files\t",
+    "description": "Create bootable USB drive from various files",
     "tags": [
       "os",
       "port",
@@ -2009,7 +2036,7 @@
   },
   {
     "id": 150,
-    "description": "Protect your digical life with this VPN",
+    "description": "Protect your digital life with this VPN",
     "name": "Surfshark VPN",
     "url": "https://surfshark.com/",
     "tags": [
@@ -2230,10 +2257,12 @@
   },
   {
     "id": 166,
-    "description": "Video editor designed for simple cutting, filtering and encoding tasks",
+    "description": "Free and open-source cross-platform multimedia player and framework",
     "name": "VLC",
     "url": "https://videolan.org/vlc/",
     "tags": [
+      "audio",
+      "os",
       "player",
       "video"
     ]
