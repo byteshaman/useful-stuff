@@ -1382,7 +1382,9 @@
     "description": "Easily extract data from MKV files",
     "tags": [
       "editor",
+      "os",
       "port",
+      "subs",
       "video"
     ]
   },
@@ -1395,6 +1397,7 @@
       "editor",
       "os",
       "port",
+      "subs",
       "video"
     ]
   },
@@ -2024,14 +2027,14 @@
   },
   {
     "id": 149,
-    "description": "Create, adjust or translate any subtitle",
     "name": "Subtitle Edit",
     "url": "https://nikse.dk/subtitleedit",
+    "description": "Create, adjust or translate any subtitle",
     "tags": [
       "editor",
-      "misc",
-      "subs",
-      "util"
+      "os",
+      "port",
+      "subs"
     ]
   },
   {

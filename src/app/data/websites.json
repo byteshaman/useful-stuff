@@ -1191,6 +1191,16 @@
     ]
   },
   {
+    "id": 411,
+    "name": "Gibby's Guide",
+    "url": "https://gibbysguide.org/",
+    "description": "Comprehensive Meta Quest guide with reviews, setup instructions, and power user tips",
+    "tags": [
+      "vr",
+      "game"
+    ]
+  },
+  {
     "id": 357,
     "name": "Gionn.net",
     "url": "https://gionn.net/2024/trovare-migliore-offerta-luce-gas-mercato-libero/",
@@ -1649,7 +1659,7 @@
   },
   {
     "id": 84,
-    "description": "Real time information about Italy",
+    "description": "[ITA] L'Italia in tempo reale",
     "name": "ItaliaOra",
     "url": "https://italiaora.org/",
     "tags": [
@@ -2553,7 +2563,7 @@
     "url": "https://queststoredb.com/",
     "description": "Database for all Meta Store apps",
     "tags": [
-      "VR",
+      "vr",
       "catalog"
     ]
   },
@@ -3439,7 +3449,7 @@
     "url": "https://vr-compare.com/",
     "description": "The Internet's largest VR & AR headset database",
     "tags": [
-      "VR",
+      "vr",
       "catalog",
       "comp",
       "tech"
@@ -3451,7 +3461,7 @@
     "url": "https://vrdb.app/",
     "description": "Browse Meta Quest games and deals",
     "tags": [
-      "VR",
+      "vr",
       "catalog",
       "game",
       "util"

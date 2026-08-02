@@ -4729,24 +4729,24 @@
   },
   {
     "id": 342,
-    "description": "CSS Grid Cheatsheet",
     "name": "yoksel.github.io",
     "url": "https://yoksel.github.io/grid-cheatsheet/",
+    "description": "CSS Grid Cheatsheet",
     "tags": [
-      "artut",
       "cheat",
-      "css"
+      "css",
+      "interactive"
     ]
   },
   {
     "id": 343,
-    "description": "CSS Flexbox Cheatsheet",
     "name": "yoksel.github.io",
     "url": "https://yoksel.github.io/flex-cheatsheet/",
+    "description": "CSS Flexbox Cheatsheet",
     "tags": [
-      "artut",
       "cheat",
-      "css"
+      "css",
+      "interactive"
     ]
   },
   {

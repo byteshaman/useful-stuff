@@ -216,6 +216,10 @@ export const websitesTags: TagInfo[] = [
     description: "Finance"
   },
   {
+    value: "info",
+    description: "Information"
+  },
+  {
     value: "mail",
     description: "Email"
   },
@@ -284,7 +288,7 @@ export const websitesTags: TagInfo[] = [
     description: "Video"
   },
   {
-    value: "VR",
+    value: "vr",
     description: "VR"
   }
 ]
