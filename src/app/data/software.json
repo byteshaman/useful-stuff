@@ -245,6 +245,15 @@
     ]
   },
   {
+    "id": 308,
+    "name": "Brave",
+    "url": "https://brave.com/",
+    "description": "Privacy-focused browser",
+    "tags": [
+      "browser"
+    ]
+  },
+  {
     "id": 298,
     "name": "Bulk Crap Uninstaller",
     "url": "https://www.bcuninstaller.com/",
@@ -941,6 +950,15 @@
       "fef",
       "port",
       "util"
+    ]
+  },
+  {
+    "id": 307,
+    "name": "Helium Browser",
+    "url": "https://helium.computer/",
+    "description": "Privacy-first browser",
+    "tags": [
+      "browser"
     ]
   },
   {

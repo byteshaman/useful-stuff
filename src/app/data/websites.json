@@ -1029,6 +1029,18 @@
     ]
   },
   {
+    "id": 414,
+    "name": "fitmyLLM",
+    "url": "https://www.fitmyllm.com/",
+    "description": "Find the best local AI model for your hardware",
+    "tags": [
+      "ai",
+      "catalog",
+      "comp",
+      "util"
+    ]
+  },
+  {
     "id": 260,
     "name": "FlatIcon",
     "url": "https://flaticon.com/",
