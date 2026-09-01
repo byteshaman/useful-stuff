@@ -49,7 +49,7 @@ export const l4dTags: TagInfo[] = [
   {
     category: "resource type",
     value: "doc",
-    description: "Documentation",
+    description: "Docs",
   },
   {
     category: "resource type",
